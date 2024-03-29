@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fleece-task-manager
+Version: 0.0.1
+Summary: fleece-task-manager
+Home-page: https://github.com/CoLearn-Dev/fleece-task-manager
+Requires-Python: >=3.10
+
