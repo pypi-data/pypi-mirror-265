@@ -1,0 +1,13 @@
+dist/
+/data/
+results/
+result_logs/
+__pycache__/
+.ipynb_checkpoints
+.DS_Store
+experiment_used_scripts/
+lib
+view.html
+test.html
+Untitled.ipynb
+demo_mESC_grn.hdf5
