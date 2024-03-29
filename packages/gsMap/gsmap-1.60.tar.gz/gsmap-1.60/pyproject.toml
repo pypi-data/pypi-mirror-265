@@ -1,0 +1,73 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "gsMap"
+authors = [{ name = "liyang", email = "songliyang@westlake.edu.cn" },
+    { name = "wenhao", email = "chenwenhao@westlake.edu.cn" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: POSIX :: Linux",
+]
+dynamic = ["version", "description"]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "progress",
+    "pyyaml",
+    "torch",
+    "torch-geometric",
+    "pyranges",
+    "pyfiglet",
+    'plotly',
+    'kaleido',
+]
+
+[project.optional-dependencies]
+doc = [
+    "sphinx",
+    'sphinx-argparse',
+    'sphinx-autobuild',
+    'sphinx-autodoc-typehints',
+    'sphinx-basic-ng',
+    'sphinx-charts',
+    'sphinx-copybutton',
+    'sphinx_inline_tabs',
+    'sphinx-markdown-tables',
+    'sphinx-rtd-theme',
+    'sphinxcontrib-applehelp',
+    'sphinxcontrib-devhelp',
+    'sphinxcontrib-htmlhelp',
+    'sphinxcontrib-jquery',
+    'sphinxcontrib-jsmath',
+    'sphinxcontrib-qthelp',
+    'sphinxcontrib-serializinghtml',
+    'furo',
+    'myst-parser',
+    'nbsphinx',
+]
+
+
+[project.urls]
+Home = "https://github.com/LeonSong1995/gsMap"
+Documentation = "https://..."
+Website = "https://..."
+
+[project.scripts]
+gsMap = "gsMap.main:main"
+
+[tool.flit.module]
+name = "gsMap"
