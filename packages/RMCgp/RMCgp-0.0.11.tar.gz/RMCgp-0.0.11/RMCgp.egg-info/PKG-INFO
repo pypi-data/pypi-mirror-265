@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RMCgp
+Version: 0.0.11
+Summary: RMC for stochastic control.
+Home-page: https://github.com/thihaa2019/RMC
+Author: Thiha Aung
+Author-email: taung@ucsb.edu
+Maintainer: Thiha Aung
+Maintainer-email: taungu@ucsb.edu
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+reead read read
