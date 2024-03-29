@@ -1,0 +1,84 @@
+[tool.poetry]
+name = "rexize"
+version = "0.2.1"
+description = "CLI to bulk resize and convery images recursively"
+authors = ["Joseph Lee <joel@joeworks.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/joelee/rexize"
+packages = [
+  { include = "src" },
+]
+include = ["pyproject.toml", "README.md", "LICENSE"]
+
+
+[tool.poetry.scripts]
+rexize = "src.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^10.2.0"
+icecream = "^2.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+pytest-cov = "^4.1.0"
+pre-commit = "^3.6.2"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "src",
+]
+norecursedirs = [
+    ".git",
+    ".github",
+    ".vscode",
+    ".idea",
+    "dist",
+    "__pycache__",
+]
+
+[tool.coverage.report]
+fail_under = 72
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "test/*",
+]
+include = ["src/*"]
+command_line = "-m unittest discover -s tests/"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include =  "(\\.pyi?|\\.ipynb)$"
+exclude = '''
+/(
+  \.toml
+  |\.sh
+  |\.git
+  |\.__pycache__
+  |\.pytest_cache
+  |Dockerfile
+)/
+'''
+
+[tool.isort]
+profile = "black"
+py_version=311
+src_paths = ["src", "test"]
+line_length = 88
