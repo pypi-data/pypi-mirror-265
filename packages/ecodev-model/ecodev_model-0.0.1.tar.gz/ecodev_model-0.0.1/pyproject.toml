@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ecodev-model"
+version = "0.0.1"
+description = "emission domain model"
+authors = ["Thomas Epelbaum <tomepel@gmail.com>",
+					 "Olivier Gabriel <olivier.gabriel.geom@gmail.com>",
+					 "Amaury Salles <amaury.salles@gmail.com>",
+					 "Yoann Diep <yoann.diep@hotmail.fr>",
+					 "Dorian Kodelja <dorian.kodelja@gmail.com>",
+
+]
+readme = "README.md"
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
