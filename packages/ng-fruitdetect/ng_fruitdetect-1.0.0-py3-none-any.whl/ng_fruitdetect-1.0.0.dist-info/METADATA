@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ng-fruitdetect
+Version: 1.0.0
+Summary: A short description of your package
+Home-page: http://test.com
+Author: nmz
+Author-email: your_email@example.com
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.8
+Requires-Dist: albumentations (==1.4.2)
+Requires-Dist: coremltools (==7.1)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: nacos-sdk-python (==0.1.14)
+Requires-Dist: numpy (==1.24.4)
+Requires-Dist: onnxruntime (==1.17.1)
+Requires-Dist: opencv-contrib-python (==4.5.5.64)
+Requires-Dist: opencv-python-headless (==4.7.0.72)
+Requires-Dist: openvino (==2024.0.0)
+Requires-Dist: pafy (==0.5.5)
+Requires-Dist: paho-mqtt (==1.6.1)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: Pillow (==10.2.0)
+Requires-Dist: protobuf (==5.26.0)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: redis (==5.0.1)
+Requires-Dist: Requests (==2.31.0)
+Requires-Dist: scipy (==1.12.0)
+Requires-Dist: seaborn (==0.13.2)
+Requires-Dist: setuptools (==68.1.2)
+Requires-Dist: tensorflow (==2.16.1)
+Requires-Dist: tensorrt (==8.6.1.post1)
+Requires-Dist: tflite-runtime (==2.14.0)
+Requires-Dist: thop (==0.1.1.post2209072238)
+Requires-Dist: torch (==2.2.1+cu121)
+Requires-Dist: torchvision (==0.17.1+cu121)
+Requires-Dist: tqdm (==4.50.2)
+
+eds sdk for python
