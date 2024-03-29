@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gtfs_station_stop"
+dynamic = ["version"]
+authors = [
+  { name="Benjamin Pearce", email="gtfs@bcpearce.com" },
+]
+description = "Package for reading and organizing GTFS data for a given station stop."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "python-dotenv==1.0.1",
+  "gtfs-realtime-bindings==1.0.0",
+  "requests==2.31.0",
+  "requests-cache==1.2.0",
+  "aiohttp[speedups]==3.9.3",
+  "aiohttp-client-cache[sqlite]==0.11.0",
+]
+[tool.hatch.version]
+path = "src/gtfs_station_stop/__about__.py"
