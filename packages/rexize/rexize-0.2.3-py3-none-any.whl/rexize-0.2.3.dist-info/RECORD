@@ -1,0 +1,14 @@
+LICENSE,sha256=fVuMGihcL-uQDac5WEKzy38M5e_yTSjL2qODcx8Rlaw,1067
+README.md,sha256=ps4v28J_N2CFX8NitUFDbdmtoYCx9I3vh331ImKqQoE,5006
+pyproject.toml,sha256=5a0pmBwlox2L7QSVTlpvB1VGxuK1FO_Z5AkYhcmYEiU,1790
+src/__init__.py,sha256=epHkksAeqKA1U1KJo4cB7a90YrAEJ6TgzBbiihhnjEA,179
+src/cli.py,sha256=o2tJBFHeOagoPnTm6JoExLzuLSTLx30DQzfZJfql-5k,4881
+src/file_iterator.py,sha256=avT0hL3zPf2AEx4VDwaR8qflEqosWh4H7uMFabxpKoA,1919
+src/image.py,sha256=ioWNbRISN41v-ekW33div6QyScltGOP1rA1QRqqE57I,1181
+src/image_manipulator.py,sha256=XhniubfQ3rrjOEmp0ArbzFHZl4yzAylxODoZkJgq9D8,4209
+src/main.py,sha256=uUUQF2-0moWeIrHRe3faZWwZUEebGm5OQGM6kkthXVM,1969
+rexize-0.2.3.dist-info/LICENSE,sha256=fVuMGihcL-uQDac5WEKzy38M5e_yTSjL2qODcx8Rlaw,1067
+rexize-0.2.3.dist-info/METADATA,sha256=fTPGvNU-zGLVUJQyHCQEOl8Re4bXAq9-BKXgH8Qitnw,5939
+rexize-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rexize-0.2.3.dist-info/entry_points.txt,sha256=l8-vkrNCAKpbuMGQ-7nd_bmuSyLtEx-8nWtYb1hDiC8,40
+rexize-0.2.3.dist-info/RECORD,,
