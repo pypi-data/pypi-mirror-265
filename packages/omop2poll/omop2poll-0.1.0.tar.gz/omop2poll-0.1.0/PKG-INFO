@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: omop2poll
+Version: 0.1.0
+Summary: The 'omop2poll' Python package transforms standardized response codes from the OMOP CDM survey variables into numeric values and simplifies data preparation by providing functionalities for mapping and converting response codes, as well as handling missing data, facilitating easier and more reliable data analysis.
+Home-page: https://github.com/elifdy/omop2poll.git
+License: MIT
+Author: Elif Dede Yildirim
+Author-email: elifdy@auburn.edu
+Requires-Python: >=3.12,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Project-URL: Repository, https://github.com/elifdy/omop2poll.git
+Description-Content-Type: text/markdown
+
+
