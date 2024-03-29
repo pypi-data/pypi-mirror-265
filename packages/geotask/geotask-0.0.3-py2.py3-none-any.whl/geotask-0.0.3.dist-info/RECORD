@@ -1,0 +1,9 @@
+geotask/__init__.py,sha256=73IfHq-NlB-w1w48etf2kUtkBr_ZnXfMxqS6fH_npVQ,162
+geotask/common.py,sha256=fedvAcsKcY1hygibSSZPcGONM1kDEzHLP_MU2CJOZdI,524
+geotask/geotask.py,sha256=jWQ8aC8Ff3Kjn4WRy5rrMkBAIF_jvzQd_4WavCeUPeE,3081
+geotask-0.0.3.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geotask-0.0.3.dist-info/METADATA,sha256=QvtQ0pGmaMRIID5EgZTsKJ26f5aUgcjCNfbP3S3SNfg,1353
+geotask-0.0.3.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+geotask-0.0.3.dist-info/entry_points.txt,sha256=VsfBi5C0LUX0bCkOibC47oXDFDWYccDuiEC3r7lLOlU,45
+geotask-0.0.3.dist-info/top_level.txt,sha256=HDZNKCCNw8rfMUYv29g_noC8lXndWAJODXSAsdU7aPQ,8
+geotask-0.0.3.dist-info/RECORD,,
