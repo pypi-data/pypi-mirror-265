@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+SpiderReverser_Modules/ApiRequestUtils.py
+SpiderReverser_Modules/FileHandleUtils.py
+SpiderReverser_Modules/__init__.py
+SpiderReverser_Modules.egg-info/PKG-INFO
+SpiderReverser_Modules.egg-info/SOURCES.txt
+SpiderReverser_Modules.egg-info/dependency_links.txt
+SpiderReverser_Modules.egg-info/requires.txt
+SpiderReverser_Modules.egg-info/top_level.txt
