@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+robot_azure_sync/__init__.py
+robot_azure_sync/robot_azure_sync.py
+robot_azure_sync/robot_azure_sync_get.py
+robot_azure_sync/robot_azure_sync_patch.py
+robot_azure_sync/sync_utils.py
+robot_azure_sync.egg-info/PKG-INFO
+robot_azure_sync.egg-info/SOURCES.txt
+robot_azure_sync.egg-info/dependency_links.txt
+robot_azure_sync.egg-info/entry_points.txt
+robot_azure_sync.egg-info/requires.txt
+robot_azure_sync.egg-info/top_level.txt
