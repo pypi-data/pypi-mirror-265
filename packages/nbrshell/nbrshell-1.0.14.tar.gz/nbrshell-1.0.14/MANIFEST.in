@@ -1,0 +1,2 @@
+include nbrshell/*.md
+include nbrshell/readme_svg/*

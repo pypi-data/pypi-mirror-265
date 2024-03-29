@@ -1,0 +1,51 @@
+<svg fill="none" viewBox="0 0 800 500" width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          color: silver;
+        }
+      </style>
+
+      <div class="container">
+        <pre> 
+ Running ping :
+ --------------
+ PING www.oracle.com: 56 data bytes
+ 64 bytes from a23-199-6-64.deploy.static.akamaitechnologies.com (23.199.6.64): icmp_seq=0. time=44.790 ms
+ 64 bytes from a23-199-6-64.deploy.static.akamaitechnologies.com (23.199.6.64): icmp_seq=1. time=44.697 ms
+ 64 bytes from a23-199-6-64.deploy.static.akamaitechnologies.com (23.199.6.64): icmp_seq=2. time=44.683 ms
+ 
+ ----www.oracle.com PING Statistics----
+ 3 packets transmitted, 3 packets received, 0% packet loss
+ round-trip (ms)  min/avg/max/stddev = 44.683/44.723/44.790/0.058
+ 
+ Running loop :
+ --------------
+ 1
+ 2
+ 3
+ 4
+ 5
+ 
+ Here document :
+ --------------
+     This is multiline 
+     here document
+ 
+ Jupyter variable substitution :
+ ---------------------------
+ This is a string defined in Jupyter
+ 
+ escaping curly braces :
+ ---------------------------
+ {Curly braces} need to be escaped to prevent Jupyter variable substitution
+		</pre>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
