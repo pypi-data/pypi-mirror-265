@@ -1,0 +1,11 @@
+py_chinese_pronounce/CNS2UNICODE_Unicode BMP.txt,sha256=W8lcVKX32ypf9dNfGnrpFfJ8bFphoGJfpsXcFBVg1xo,473575
+py_chinese_pronounce/CNS_phonetic.txt,sha256=ub8x4IluYFfTrLVNCXbM8aoA495QmsDDPUmUFoLSxLs,1952051
+py_chinese_pronounce/CNS_pinyin_1.txt,sha256=VVGfThRXQ6Tc_Usi4acfr97yWosenQekisFc88Es5Iw,44423
+py_chinese_pronounce/CNS_pinyin_2.txt,sha256=ofShyUyfmazXkbeyM_jLRxPH6-m6__Fl-dhM95kDaK0,45634
+py_chinese_pronounce/__init__.py,sha256=I3rgjAF7Z9CsduBDD0KQ_wKDg623CvlgV1_qPIWt_o4,47
+py_chinese_pronounce/core.py,sha256=Rn0iiHEGloj8wAU0VcldhJn6O9m-TtcF2G8oMuvxjrI,13200
+py_chinese_pronounce/dict_concised_2014_20230112.xlsx,sha256=3mLJuGk1813_TqSFfH2QkPZckf3yYA4sJP70bsbZrkk,7112833
+py_chinese_pronounce/sc-dict.txt,sha256=IuBqF_4lCGVaiLwTyiI_umuKmtfXrOirMV6VNg0sHEY,12989850
+py_chinese_pronounce-0.1.13.dist-info/METADATA,sha256=xhCkeTkpVppzkC9LuurgZNZlvqyiL31Mg-yIWWF8mtQ,3758
+py_chinese_pronounce-0.1.13.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+py_chinese_pronounce-0.1.13.dist-info/RECORD,,
