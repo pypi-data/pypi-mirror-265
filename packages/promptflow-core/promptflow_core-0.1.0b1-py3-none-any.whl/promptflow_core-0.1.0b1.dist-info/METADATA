@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: promptflow-core
+Version: 0.1.0b1
+Summary: Prompt flow core
+Home-page: https://microsoft.github.io/promptflow/
+License: MIT
+Keywords: core
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: executor-service
+Requires-Dist: docutils
+Requires-Dist: fastapi (>=0.109.0,<1.0.0) ; extra == "executor-service"
+Requires-Dist: filetype (>=1.2.0)
+Requires-Dist: flask (>=2.2.3,<4.0.0)
+Requires-Dist: jsonschema (>=4.0.0,<5.0.0)
+Requires-Dist: promptflow-tracing (>=1.0.0,<2.0.0)
+Requires-Dist: ruamel.yaml (>=0.17.10,<1.0.0)
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Repository, https://github.com/microsoft/promptflow
+Description-Content-Type: text/markdown
+
+# Prompt flow core
+
+Prompt flow core.
+
+# Release History
+
+## 0.1.0b1 (Upcoming)
+
+- Stub version in PyPI.
+
