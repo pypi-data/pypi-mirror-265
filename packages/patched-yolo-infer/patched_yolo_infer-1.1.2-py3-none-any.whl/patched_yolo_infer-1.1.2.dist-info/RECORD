@@ -1,0 +1,12 @@
+patched_yolo_infer/__init__.py,sha256=pvp_EkUkLPIBXdo1HaNtTZnlHQG8xLKZf_M-NxhKSOk,262
+patched_yolo_infer/functions_extra.py,sha256=NsCV-pqY4V8lPD3bXT_xqSYg4uggwlg9-5fehutxcTM,15961
+patched_yolo_infer/elements/CropElement.py,sha256=J6tZ-sdnkxSX-wOaZqs0GJl_OPJdXnRo0AjqouUEeVA,5431
+patched_yolo_infer/elements/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+patched_yolo_infer/nodes/CombineDetections.py,sha256=dVuuMTJWrijlepzqpqgy4RS1ryglky_QnSyMxj6wyrc,12807
+patched_yolo_infer/nodes/MakeCropsDetectThem.py,sha256=w49LLI6F4qM2qQGEIlJAEMG2nrofWA2At2v40eocwtg,8337
+patched_yolo_infer/nodes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+patched_yolo_infer-1.1.2.dist-info/LICENSE.txt,sha256=4O7bphXVzRuYavtsWzpLGuM3E-fp3HTRna7F4yIfnS4,35184
+patched_yolo_infer-1.1.2.dist-info/METADATA,sha256=mGaenPXhmA9zlffwg4_T_7BUwjccs-HOG9_yzv47KFI,10361
+patched_yolo_infer-1.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+patched_yolo_infer-1.1.2.dist-info/top_level.txt,sha256=6v_7xsfhuiGG82pk37y3E3hbaQGMFFqfCp_Ls6MMe3Y,19
+patched_yolo_infer-1.1.2.dist-info/RECORD,,
