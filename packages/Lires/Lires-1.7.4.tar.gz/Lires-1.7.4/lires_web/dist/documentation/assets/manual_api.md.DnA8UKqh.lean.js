@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.CXhrtaSR.js";const g=JSON.parse('{"title":"API","description":"","frontmatter":{},"headers":[],"relativePath":"manual/api.md","filePath":"manual/api.md"}'),h={name:"manual/api.md"},k=n("",9),t=[k];function l(p,e,E,r,d,F){return a(),i("div",null,t)}const c=s(h,[["render",l]]);export{g as __pageData,c as default};
