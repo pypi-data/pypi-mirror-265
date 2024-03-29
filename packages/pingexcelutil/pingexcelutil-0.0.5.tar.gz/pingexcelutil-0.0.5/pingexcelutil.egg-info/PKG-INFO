@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pingexcelutil
+Version: 0.0.5
+Summary: Ping's Excel Utility Package
+Author: Vorapol Ping
+License-File: LICENSE
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: xlsxwriter>=3.0.0
