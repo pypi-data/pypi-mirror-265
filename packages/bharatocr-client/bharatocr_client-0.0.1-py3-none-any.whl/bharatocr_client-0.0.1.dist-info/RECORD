@@ -1,0 +1,13 @@
+bharatocrclient/__init__.py,sha256=KAFS8tSXk_1uJ8FPVL1aS4C3xYsYmFHd-4u_B5JeonA,225
+bharatocrclient/clients/__init__.py,sha256=Os0UXxzgaB0XjD-gLjQT63nkbQBM5Xze_3KIxxtn-II,71
+bharatocrclient/clients/aadhaar.py,sha256=kr3utyB_8HrI8baAmYK9FRqWZgHw7Ct2T06_Vw4swGE,541
+bharatocrclient/clients/api.py,sha256=a4-1FKX1d4XYbhzmil5B4CNKWF3Z21iH7BFgSK3QjR0,153
+bharatocrclient/clients/auth.py,sha256=phw-JC2YobNOKVkqAyub6yraEm7yhQNBn3XLZ75blMU,1917
+bharatocrclient/clients/common.py,sha256=Y7F9MvJfb9VOr0MaDihFftgmJ8qS5k9Odd1UJEjzGCM,175
+bharatocrclient/clients/exceptions.py,sha256=S9SMU-MFZhkQI4U33VJrG1gDvTqO7Cnb8Ql1NzpUURE,259
+bharatocrclient/clients/pan.py,sha256=5xFdkMoJyNdCp2PKhZGS_78QNE-aiv8-uSUnvAs4cto,380
+bharatocr_client-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bharatocr_client-0.0.1.dist-info/METADATA,sha256=1kSMBGvQS831YzZK_Pwo9jSLDF7QM8KU7YqYr3laJ3k,1994
+bharatocr_client-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bharatocr_client-0.0.1.dist-info/top_level.txt,sha256=BBZLdWcU2_iXA3HBuguVG-W1Spo3titOTRvmV2lXC6w,16
+bharatocr_client-0.0.1.dist-info/RECORD,,
