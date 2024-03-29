@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: WooCommerceMetorik
+Version: 3.0.0
+Summary: A Python wrapper for the WooCommerce REST API
+Home-page: https://github.com/jakubactive/wc-api-python
+Author: Claudio Sanches @ Automattic
+Author-email: claudio+pypi@automattic.com
+License: MIT License
+Project-URL: Documentation, https://woocommerce.github.io/woocommerce-rest-api-docs/?python#libraries-and-tools
+Project-URL: Source, https://github.com/woocommerce/wc-api-python
+Project-URL: Tracker, https://github.com/woocommerce/wc-api-python/issues
+Keywords: woocommerce rest api
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+Modified WooCommerce API - Python Client
+Python wrapper for the WooCommerce REST API. Easily interact with the WooCommerce REST API using this library.
