@@ -1,0 +1,12 @@
+watchfilescurl_cffi
+colorlog
+aiomysql
+aiopg
+aiohttp
+redis[hiredis]
+aiomcache
+jinja2
+pyjwt
+aiohttp_session[secure]
+PyYAML
+click
