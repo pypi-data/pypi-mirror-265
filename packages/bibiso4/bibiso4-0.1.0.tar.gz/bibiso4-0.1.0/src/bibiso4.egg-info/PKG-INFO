@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bibiso4
+Version: 0.1.0
+Author-email: Andrew Fowlie <andrew.j.fowlie@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bibiso4
+
+Convert bibtex journal and series names to ISO4. Usage
+
+## Install
+
+     pipx install bibiso4
+
+## Usage
+
+    bibiso4 references.bib > references_iso4.bib
