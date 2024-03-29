@@ -1,0 +1,304 @@
+Metadata-Version: 2.3
+Name: cimcon
+Version: 1.0.1
+Summary: CIMCON python package for model evaluation
+Author: CIMCON
+License-File: LICENSE.md
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: fairlearn==0.10.0
+Requires-Dist: mapie==0.8.3
+Requires-Dist: matplotlib==3.8.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: pandas==2.1.4
+Requires-Dist: pillow==10.2.0
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: scipy==1.11.4
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: shap<=0.44.1,>=0.42.1
+Description-Content-Type: text/markdown
+
+# CIMCON Python Package
+
+![CIMCON Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcimcon-software-inc&psig=AOvVaw3VFKF23D2ld_J_FZJFkHWg&ust=1711700151584000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKidzpjCloUDFQAAAAAdAAAAABAI)
+
+This Python package facilitates various tests related to machine learning models such as Fairness Test, Interpretability Test, Validity and Reliability Test.
+
+The resultant output data and images are stored in an Excel workbook.
+
+Ensure you provide the correct path to the folder. For example: `C:\user\me\ML`.
+
+## Fairness Test
+
+### `CIMCONTest.fair_metrics(X_test, y_test, predicted_value, sensitive_feature)`
+
+This method evaluates fairness in binary class classification problems concerning specific features from the dataset. It does not support multi-class classification or regression.
+
+#### Parameters:
+
+- **X_test:** Test dataset.
+- **y_test:** Actual labels of the test dataset.
+- **predicted_value:** Predicted values.
+- **sensitive_feature:** Name of the feature you want to check the fairness with respect to the target variable.
+
+#### Example:
+
+```python
+import pandas as pd
+from cimcon.cimconpy import CIMCONTest
+
+# Load data, preprocess, and split into train-test sets
+
+# Create and train model
+
+# Perform fairness test
+tester = CIMCONTest()
+tester.fair_metrics(X_test, y_test, pred, "Sex")
+
+```
+
+# Validity & Reliability Test 
+
+This test evaluates the performance of the model. Below, you'll find methods for binary classification and regression models, along with examples. If you're using SVC or SVR model, remember to set `probability=True`.
+
+## For Binary Classification 
+
+### `CIMCONTest.ValidityReliabilityBinaryclassTest(model, X_test, y_test, predicted_value)`
+
+#### Parameters:
+- **model:** trained model variable name
+
+- **X_test:** dataframe / testing dataset without target variable
+ 
+- **y_test:** 1d array-like, or label indicator array / sparse matrix Ground truth (correct) labels.
+
+- **Predicted_value:** 1d array-like, or label indicator array / sparse matrix Predicted labels, as returned by a classifier.
+
+### Example:
+
+```python
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.tree import DecisionTreeClassifier
+from cimcon.cimconpy import CIMCONTest
+
+data = pd.read_csv("credit_risk_data.csv")
+
+one_hot_encoder = OneHotEncoder(sparse=False)
+one_hot_encoded_variables = one_hot_encoder.fit_transform(data[['Home_Ownership', 'Marital_Status', 'Education_Level']])
+new_df = pd.DataFrame(one_hot_encoded_variables, columns=one_hot_encoder.get_feature_names_out())
+new_df[data.select_dtypes(include=['float64','int64']).columns] = data.select_dtypes(include=['float64','int64'])
+new_df.insert(loc = 19, column = 'Sex', value = data['Sex'].map({'MALE': 0, 'FEMALE': 1}))
+
+
+X_train, X_test, y_train, y_test = train_test_split(new_df.drop("Defaulted", axis=1),new_df["Defaulted"], test_size=0.25)
+
+
+model = DecisionTreeClassifier()
+model.fit(X_train, y_train)
+pred = model.predict(X_test)
+
+# Perform validity and reliability test
+tester = CIMCONTest()
+tester.ValidityReliabilityBinaryclassTest(model, X_test, y_test, pred)
+```
+
+## For Regression Model
+
+### `CIMCONTest.ValidityReliabilityRegTest(model, X_train, y_train, X_test, y_test)`
+
+### Parameters:
+
+- **model:** trained regression model variable name
+
+- **X_train:** dataframe / training dataset without target variable
+
+- **y_train:** Known target label for model training
+
+- **X_test:** dataframe / testing dataset without target variable 
+
+- **y_test:** 1d array-like, or label indicator array / sparse matrix Ground truth (correct) labels.
+
+### Example:
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.linear_model import LinearRegression
+from cimcon.cimconpy import CIMCONTest
+import warnings
+warnings.simplefilter(action='ignore')
+
+X_train, X_test, y_train, y_test = train_test_split(new_df.drop("Loan_Amount", axis=1), new_df["Loan_Amount"], test_size=0.25)
+model = LinearRegression()
+model.fit(X_train, y_train)
+tester = CIMCONTest()
+tester.ValidityReliabilityRegTest(model, X_train, y_train, X_test, y_test)
+
+```
+
+# Interpretability Test:
+
+This test is conducted to interpret ML models and datasets.
+
+## For Binary Classification (Tree Based Model)
+### `CIMCONTest.InterpretabilityBinaryClassTreeTest(model, X_test, FeatureNames)`
+
+
+### Parameters:
+
+- **model:** trained model variable name
+- **X_test:** this param takes test dataset from the user
+- **FeatureNames** (List)– name of the features
+
+ 
+### Example:
+```python
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.tree import DecisionTreeClassifier
+from cimcon.cimconpy import CIMCONTest
+
+import warnings
+warnings.simplefilter(action='ignore')
+
+data = pd.read_csv("credit_risk_data.csv")
+one_hot_encoder = OneHotEncoder(sparse=False)
+one_hot_encoded_variables = 
+one_hot_encoder.fit_transform(data[['Home_Ownership','Marital_Status', 'Education_Level']])
+
+new_df = pd.DataFrame(one_hot_encoded_variables, columns=one_hot_encoder.get_feature_names_out())
+
+new_df[data.select_dtypes(include=['float64','int64']).columns] = data.select_dtypes(include=['float64','int64'])
+
+new_df.insert(loc = 19, column = 'Sex', value = data['Sex'].map({'MALE': 0, 'FEMALE': 1}))
+
+X_train, X_test, y_train, y_test = train_test_split(new_df.drop("Defaulted", axis=1),new_df["Defaulted"], test_size=0.25)
+
+
+model = DecisionTreeClassifier()
+model.fit(X_train, y_train)
+
+tester = CIMCONTest()
+tester.InterpretabilityBinaryClassTreeTest(model, X_test, X_test.columns)
+
+```
+
+## For Binary Classification (Non Tree Based Models)
+### `CIMCONTest.InterpretabilityBinaryClassNonTreeTest(model,X_train, X_test, FeatureNames)`
+
+### Paramters:
+
+- **model:** trained model variable name
+
+- **X_train** training dataset without target variable
+
+- **X_test:** this param takes test dataset from the user
+
+- **FeatureNames** (List)– name of the features
+
+ 
+### Example:
+```python
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.neighbors import KNeighborsClassifier
+from cimcon.cimconpy import CIMCONTest
+
+import warnings
+warnings.simplefilter(action='ignore')
+
+data = pd.read_csv("credit_risk_data.csv")
+
+one_hot_encoder = OneHotEncoder(sparse=False)
+one_hot_encoded_variables = one_hot_encoder.fit_transform(data[['Home_Ownership',  'Marital_Status', 'Education_Level']])
+
+new_df = pd.DataFrame(one_hot_encoded_variables, columns=one_hot_encoder.get_feature_names_out())
+
+new_df[data.select_dtypes(include=['float64','int64']).columns] = data.select_dtypes(include=['float64','int64'])
+
+new_df.insert(loc = 19, column = 'Sex', value = data['Sex'].map({'MALE': 0, 'FEMALE': 1}))
+
+
+X_train, X_test, y_train, y_test = train_test_split(new_df.drop("Defaulted", axis=1),new_df["Defaulted"], test_size=0.25)
+
+
+model = KNeighborsClassifier()
+model.fit(X_train, y_train)
+
+tester = CIMCONTest()
+
+tester.InterpretabilityBinaryClassNonTreeTest(model,X_train, X_test, X_test.columns)
+```
+
+## For SVC :
+In SVC, set `probability=True` to perform this test.
+
+### `CIMCONTest.InterpretabilityBinaryClassSVCTest(model,X_train, X_test, FeatureNames)`
+
+### Parameters:
+- **model:** trained model variable name
+
+- **X_train** training dataset without target variable
+
+- **X_test:** this param takes test dataset from the user
+
+- **FeatureNames** (List)– name of the features
+
+### Example : (Please refer above example)
+```python
+from sklearn.svm import SVC
+from cimcon.cimconpy import CIMCONTest
+
+model = SVC(probability=True)
+model.fit(X_train, y_train)
+
+tester = CIMCONTest()
+
+tester.InterpretabilityBinaryClassSVCTest(model,X_train, X_test, X_test.columns)
+```
+
+## For Regression Model:
+
+### `CIMCONTest.InterpretabilityRegTest(model,X_train, X_test, FeatureNames)`
+
+### Parameters:
+
+- **model:** trained model variable name
+
+- **X_train** training dataset without target variable
+
+- **X_test:** this param takes test dataset from the user
+
+- **FeatureNames** (List)– name of the features
+
+
+### Example:
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.linear_model import LinearRegression
+from cimcon.cimconpy import CIMCONTest
+ 
+import warnings
+warnings.simplefilter(action='ignore')
+
+X_train, X_test, y_train, y_test = train_test_split(new_df.drop("Loan_Amount", axis=1), new_df["Loan_Amount"], test_size=0.25)
+
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+tester = CIMCONTest()
+
+tester.InterpretabilityRegTest(model,X_train, X_test, X_test.columns)
+```
+
+
+
