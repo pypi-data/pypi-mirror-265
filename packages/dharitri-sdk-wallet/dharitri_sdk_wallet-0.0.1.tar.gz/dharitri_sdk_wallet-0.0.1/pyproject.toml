@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "dharitri-sdk-wallet"
+version = "0.0.1"
+authors = [
+  { name="Dharitri" },
+]
+license = "MIT"
+description = "Wallet & crypto components of Dharitri Python SDK."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pynacl==1.5.0",
+  "cryptography==36.0.2",
+  "mnemonic==0.20",
+  "dharitri-sdk-core>=0.0.2"
+]
+
+[tool.hatch.build]
+include = [
+  "dharitri_sdk_wallet/**"
+]
+exclude = [
+  "dharitri_sdk_wallet/testdata/**"
+]
+
+[tool.hatch.build.targets.wheel.force-include]
+"dharitri_sdk_wallet/libraries" = "dharitri_sdk_wallet/libraries"
+
+[project.urls]
+"Homepage" = "https://github.com/Dharitri-org/drt-sdk-py-wallet"
