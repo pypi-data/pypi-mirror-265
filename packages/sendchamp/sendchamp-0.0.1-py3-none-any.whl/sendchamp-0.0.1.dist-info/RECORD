@@ -1,0 +1,17 @@
+sendchamp/__init__.py,sha256=djV0PZj3m_NarM-kt6xvzL9Iyn3c3tRaE-mRkWIJteE,89
+sendchamp/_http_client.py,sha256=oEffXxXA4VpcnWjs93U_j7rtclpUxwjmRbZ-VF1IeyE,1206
+sendchamp/constants.py,sha256=Pccwf3vN-gWlnjDu5daI8Y-9CH3u46l-WzTDWC7B4gw,861
+sendchamp/error.py,sha256=G4a0GcLFl0GnfBHNoV3s-snbbcWD8sNyiG8_VvbUg0w,375
+sendchamp/sendchamp.py,sha256=A4GNnh1blirDW5NCs0WEtcDYAxVDa1pqFiP7SAdNaps,1048
+sendchamp/services/__init__.py,sha256=KXful4ojSSAF2aru3BBJLs7Ca9bAQmyMfwkMP3PCeBo,187
+sendchamp/services/customer.py,sha256=CBFPbFDzGTVOavqCYnGsh4kmfgmrAP4BdxJvXRcuLow,3698
+sendchamp/services/email.py,sha256=IJQiyLDYY0DlyfOIXzy09jM-5T1-wh_bpj6WL9lQ1b8,1146
+sendchamp/services/sms.py,sha256=LSdT4GnSXAvjFtsXkeTJCR_3XcG5MtOvlhY5o4OQniA,2666
+sendchamp/services/verification.py,sha256=bMsSdFMF_i3PhiEP_9ZfGzRszpB4Eg4VNF52RlwS-e0,2749
+sendchamp/services/voice.py,sha256=4n9UL6YnTzMwg904icPybyzo9NdbYndu0G8Rd_F_pjA,2283
+sendchamp/services/whatsapp.py,sha256=SgPzRWTc5Ch_MrFMis32rKpze7SMhAmmml1xGSzMuMA,5091
+sendchamp-0.0.1.dist-info/LICENSE,sha256=bXGhgs_lXTbEc6Q84kyMUE_tgGmnmCz5IRZbesMkaLc,1096
+sendchamp-0.0.1.dist-info/METADATA,sha256=Ccxk8OYvpgYTzY-twWf9swgIRb9O2sv15H0IgHycqqc,6164
+sendchamp-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sendchamp-0.0.1.dist-info/top_level.txt,sha256=GeqP6r1BGRe8wFQUHUexr9YNs9l4g7UdUchGlPYMig0,10
+sendchamp-0.0.1.dist-info/RECORD,,
