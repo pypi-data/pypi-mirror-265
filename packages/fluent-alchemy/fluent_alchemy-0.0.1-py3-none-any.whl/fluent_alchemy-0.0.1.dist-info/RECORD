@@ -1,0 +1,13 @@
+fluent_alchemy/__init__.py,sha256=LhGbSQvBfDI2YFCcAGkQavKg5rj7RvdwnH61v9wptUg,211
+fluent_alchemy/activerecord.py,sha256=zmT5IBIIJ86ObsBfff36xHMmQsCEUhsLTePF_g4O4wQ,2211
+fluent_alchemy/builder.py,sha256=LQNlZWRWH6GZ7Dgp5biKi3kpXkZ_a5CbYu8IOLjDh_U,5061
+fluent_alchemy/mixins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluent_alchemy/mixins/softdelete.py,sha256=F64am_hH5ngDLGxWyonc17-6siwO0lLxusgmAsUR8Do,400
+fluent_alchemy/mixins/timestamp.py,sha256=RP_-F68IM_sxxQfwHeKaGtdij81ZIvT9MS3GemQaXsk,386
+fluent_alchemy/scopes/__init__.py,sha256=SSdSousN_w0h7yUBTBwk_pdMbqcpsaotUNWWBJunnDw,157
+fluent_alchemy/scopes/softdelete.py,sha256=pCWnndfzGk3zLooDA_15m5zCI9VewzultwWaY5IoLaw,700
+fluent_alchemy/session.py,sha256=Y7o-zNdPbppfj2WK-A50s5P13CpPuBqttfJ1sAC2zL4,536
+fluent_alchemy-0.0.1.dist-info/LICENSE,sha256=gdv1M4WeVcUZX1qo8KnREIBW8-9KvnIQnieC8GfuV-4,1087
+fluent_alchemy-0.0.1.dist-info/METADATA,sha256=JiQbweWBU5P4xcomOrXzUMPO252OB7fb8HXidmkz1is,5818
+fluent_alchemy-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fluent_alchemy-0.0.1.dist-info/RECORD,,
