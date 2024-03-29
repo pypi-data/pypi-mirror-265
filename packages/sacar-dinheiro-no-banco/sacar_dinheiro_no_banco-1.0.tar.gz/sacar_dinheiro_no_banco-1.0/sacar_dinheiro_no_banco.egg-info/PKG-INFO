@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sacar_dinheiro_no_banco
+Version: 1.0
+Summary: Este pacote simula um login de uma pessoa que vai sacar dinheiro.
+Author: João Paulo
+Author-email: jpsampaiosampaio@gmail.com
+Keywords: login,status,banco
+License-File: license.txt
+
+# Sacar dinheiro no Banco 
+
+InformaÃ§Ãµes de como funciona e passo de como utilizar 
+
+Passo de como instalar o pacote
+
+InformaÃ§Ãµes relevantes (autor, empresa, contatos)
+
+AlÃ©m de quaisquer informaÃ§Ãµes adicionais que sejam relevantes, o importante e descrever 
+bem a funcionalidade e deixar o mais intuitivo possÃ­vel e bem detalhado.
