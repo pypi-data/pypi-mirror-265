@@ -1,0 +1,10 @@
+README.md
+setup.py
+basek1/__init__.py
+basek1/player.py
+basek1/team.py
+basek1/team_wl.py
+basek1.egg-info/PKG-INFO
+basek1.egg-info/SOURCES.txt
+basek1.egg-info/dependency_links.txt
+basek1.egg-info/top_level.txt
