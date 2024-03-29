@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lzss0
+Version: 1.0
+Summary: A quick & feature-rich LZSS implementation
+Author: lvlrk
+Author-email: lvlrk4u@proton.me
+Requires-Python: >=3.0
+License-File: LICENSE

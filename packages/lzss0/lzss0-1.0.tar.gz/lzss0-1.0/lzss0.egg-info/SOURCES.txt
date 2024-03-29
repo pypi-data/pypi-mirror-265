@@ -1,0 +1,9 @@
+LICENSE
+README.md
+lzss.h
+lzss0.c
+setup.py
+lzss0.egg-info/PKG-INFO
+lzss0.egg-info/SOURCES.txt
+lzss0.egg-info/dependency_links.txt
+lzss0.egg-info/top_level.txt
