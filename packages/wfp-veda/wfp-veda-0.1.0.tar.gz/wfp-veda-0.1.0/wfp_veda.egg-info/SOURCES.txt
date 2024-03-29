@@ -1,0 +1,9 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+wfp-veda/__init__.py
+wfp-veda/cli.py
+wfp_veda.egg-info/PKG-INFO
+wfp_veda.egg-info/SOURCES.txt
+wfp_veda.egg-info/dependency_links.txt
+wfp_veda.egg-info/top_level.txt
