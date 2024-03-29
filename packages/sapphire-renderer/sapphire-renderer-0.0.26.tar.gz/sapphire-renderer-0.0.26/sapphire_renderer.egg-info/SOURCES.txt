@@ -1,0 +1,10 @@
+setup.py
+sapphire_renderer.egg-info/PKG-INFO
+sapphire_renderer.egg-info/SOURCES.txt
+sapphire_renderer.egg-info/dependency_links.txt
+sapphire_renderer.egg-info/requires.txt
+sapphire_renderer.egg-info/top_level.txt
+src/__init__.py
+src/sapphirerenderer/__init__.py
+src/sapphirerenderer/main.py
+src/sapphirerenderer/settings.py
