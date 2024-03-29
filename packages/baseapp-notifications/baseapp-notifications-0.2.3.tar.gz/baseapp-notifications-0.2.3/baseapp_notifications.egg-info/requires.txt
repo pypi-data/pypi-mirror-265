@@ -1,0 +1,4 @@
+baseapp-core[graphql]>=0.2.11
+djmail>=2.0
+django-notifications-hq>=1.8
+django-push-notifications[apns_async,wp]@ git+https://github.com/silverlogic/django-push-notifications.git@820599c17c74e59f0e19c10fd4de8dee50671cbe
