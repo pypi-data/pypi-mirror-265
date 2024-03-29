@@ -1,0 +1,8 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/sapphirerenderer/__init__.py,sha256=P7vNZh7aefHHq61VHzdLDcw5GMKecfD3MWofDTjxmZI,129
+src/sapphirerenderer/main.py,sha256=0BRIU_X2SDbYaJzP4KYRP1YoaoWKcFp6y0l4vVWZB-k,5044
+src/sapphirerenderer/settings.py,sha256=bx_yq76hCOkHDK0rQfPzcvtCEOzfvNU8dcu8Ndagb_g,175
+sapphire_renderer-0.0.26.dist-info/METADATA,sha256=WjWrrYeRWnMEETu-u0bG7hh0NSFewlCr2gynRjTy9WY,2211
+sapphire_renderer-0.0.26.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sapphire_renderer-0.0.26.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+sapphire_renderer-0.0.26.dist-info/RECORD,,
