@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: prohub
+Version: 0.1
+Summary: pro hub
+Author: pro user
+Author-email: prouser@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+
