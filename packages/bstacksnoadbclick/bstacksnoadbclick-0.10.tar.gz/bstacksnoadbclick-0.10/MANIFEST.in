@@ -1,0 +1,3 @@
+include bstacksnoadbclick/requirements.txt
+include bstacksnoadbclick/thirdparty.json
+include bstacksnoadbclick/README.MD

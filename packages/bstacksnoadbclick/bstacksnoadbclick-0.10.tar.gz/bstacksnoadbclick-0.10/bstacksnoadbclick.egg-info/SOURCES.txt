@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bstacksnoadbclick/README.MD
+bstacksnoadbclick/__init__.py
+bstacksnoadbclick/requirements.txt
+bstacksnoadbclick/thirdparty.json
+bstacksnoadbclick.egg-info/PKG-INFO
+bstacksnoadbclick.egg-info/SOURCES.txt
+bstacksnoadbclick.egg-info/dependency_links.txt
+bstacksnoadbclick.egg-info/requires.txt
+bstacksnoadbclick.egg-info/top_level.txt
