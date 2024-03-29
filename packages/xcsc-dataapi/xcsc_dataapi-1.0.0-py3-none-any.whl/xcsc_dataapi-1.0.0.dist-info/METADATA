@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: xcsc_dataapi
+Version: 1.0.0
+Summary: xcsc_data data api
+Home-page: https://www.xcsc.com
+Author: Xiangcai Security
+Author-email: itsupport@xcsc.com
+License: MIT
+Keywords: Financial Data
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests
+Requires-Dist: gmssl
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+
+
+XcscDataApi
+===============
+
+https://dataapi.xcsc.com/dss-frontend/login
+
