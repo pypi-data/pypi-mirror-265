@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: netsome
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: kuderr
+Author-email: dakudryavcev@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+TODO:
+
+types/validators:
+
+- asn
+- community
+- ipv4 address
+- ipv4 subnet
+- vlan
+- dns
+- mac
+
+parsing:
+
+- ports
+
+utils:
+
+- resolve
+
+ranges/pools
+
