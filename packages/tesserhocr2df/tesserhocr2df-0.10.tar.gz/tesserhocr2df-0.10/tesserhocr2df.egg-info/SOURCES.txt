@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tesserhocr2df/README.MD
+tesserhocr2df/__init__.py
+tesserhocr2df/requirements.txt
+tesserhocr2df/thirdparty.json
+tesserhocr2df.egg-info/PKG-INFO
+tesserhocr2df.egg-info/SOURCES.txt
+tesserhocr2df.egg-info/dependency_links.txt
+tesserhocr2df.egg-info/requires.txt
+tesserhocr2df.egg-info/top_level.txt

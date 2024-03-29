@@ -1,0 +1,3 @@
+include tesserhocr2df/requirements.txt
+include tesserhocr2df/thirdparty.json
+include tesserhocr2df/README.MD
