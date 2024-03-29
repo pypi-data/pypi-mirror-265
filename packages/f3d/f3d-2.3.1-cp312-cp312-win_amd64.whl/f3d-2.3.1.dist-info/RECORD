@@ -1,0 +1,17 @@
+f3d/__init__.py,sha256=6iPSDt2uraAjZn1_5E2J9uOKEmXDFwoWtnoAs7Y2mZ0,2356
+f3d/bin/f3d.dll,sha256=aDOjbrXE3zSSPjwo7iFL0db2xwtrWZ7ItR3-vh3R82U,43871232
+f3d/bin/vcruntime140.dll,sha256=oGyepPgV2sddLJloTUM_v8eCAQ-uiHg3oD8IWimiF-g,119376
+f3d/bin/zlib.dll,sha256=gpeKIBHt1g3kcbV3XPfL6OLq9ONLJ3Z7k1zK4raRApo,89600
+f3d/pyf3d.cp312-win_amd64.pyd,sha256=9wxCiXKHd7em1jm6BF_Y8eBwXHy-CmYvyFnJG5YqCd0,343040
+f3d/share/f3d/plugins/alembic.json,sha256=DydXDi1b0vlYto0sZzmp5eflZjQ_h2nKpAtWJ7Dd3A0,344
+f3d/share/f3d/plugins/assimp.json,sha256=5yRQtKnO51LWZ6EYtAIsYLD-Sy-t6T805EO9W8pObko,1319
+f3d/share/f3d/plugins/draco.json,sha256=JjcMXyXShlDxWf1YicpVl_CEMy-p6ZSZQfR_Ww5taOc,336
+f3d/share/f3d/plugins/exodus.json,sha256=TFU1QIIE-9i80Mu1JNYhSh8Q01OkObrSS8WsOcI31CM,348
+f3d/share/f3d/plugins/native.json,sha256=ekdzGMK8waySyCZPL0WCWPEMyM9Lp1dZIY1Vd-9BxNk,3990
+f3d/share/f3d/plugins/occt.json,sha256=Qd8vPnyXcLyNwsNSdSuXv4_LBSem1Y9vW5ZZfBtDO_w,806
+f3d-2.3.1.dist-info/METADATA,sha256=-Et-q_yqIYN1_hCD7aonjYsGOtGVBnbuxy8hTSgSUjg,5818
+f3d-2.3.1.dist-info/WHEEL,sha256=I4fjUu5CKXtMlETsB-F4Q7DROW-oHB8rNWT-iDmQHok,105
+f3d-2.3.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+f3d-2.3.1.dist-info/licenses/LICENSE.md,sha256=iQPH5pY3-g7_35_kEdPo1N8f9jaWoMvYaVPpMZjtBAA,1602
+f3d-2.3.1.dist-info/licenses/doc/THIRD_PARTY_LICENSES.md,sha256=o9OZLFFntUM9B-G5BYL94EGFwvRqNnQU29NzsMRFFd0,2640
+f3d-2.3.1.dist-info/RECORD,,
