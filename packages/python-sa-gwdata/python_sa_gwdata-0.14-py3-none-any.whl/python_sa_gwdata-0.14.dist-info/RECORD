@@ -1,0 +1,11 @@
+sa_gwdata/__init__.py,sha256=2CiLUgeke8q3fsygEgxhAplO3tzvOO12ymUuVStE1KA,397
+sa_gwdata/identifiers.py,sha256=eATazDV4jQcuawcjTszBLfYSinF7wl1arsiWMx_a0nU,19745
+sa_gwdata/local_cache.py,sha256=uoa4LOsviXv8GtIhzhBrv559aAkDPD49vfgyv5Ekqk4,6897
+sa_gwdata/sarig.py,sha256=IU7ayOM3VDDVmCGooxAPpWfurH8gct8ght91wEzyPgA,720
+sa_gwdata/waterconnect.py,sha256=DygGnbIEZt9Sy-P9KrBvDomDhD5vSEXNPsYjvDJ4VqA,26948
+sa_gwdata/waterconnect_funcs.py,sha256=QtVSyrZTXSszX77FGIbFAWhtJLG6ff363udtts5P_d4,16476
+python_sa_gwdata-0.14.dist-info/LICENSE,sha256=4m3IfGbG6RPjJbkTLsECsPZxL38-2LkLqhQU1nhFuOU,1098
+python_sa_gwdata-0.14.dist-info/METADATA,sha256=bXytxThvZgxyYx6Jdq61sQTqil9nYZyySkwZATRcX1Q,5507
+python_sa_gwdata-0.14.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_sa_gwdata-0.14.dist-info/top_level.txt,sha256=MXqmIRvuaK8q_biAe-JyXNnZUeehkyWiWKvQDUPP-FI,10
+python_sa_gwdata-0.14.dist-info/RECORD,,
