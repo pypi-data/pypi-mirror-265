@@ -1,0 +1,6 @@
+setup.py
+src/main.py
+src/layzer.egg-info/PKG-INFO
+src/layzer.egg-info/SOURCES.txt
+src/layzer.egg-info/dependency_links.txt
+src/layzer.egg-info/top_level.txt
