@@ -1,0 +1,6 @@
+README.md
+setup.py
+pakka.egg-info/PKG-INFO
+pakka.egg-info/SOURCES.txt
+pakka.egg-info/dependency_links.txt
+pakka.egg-info/top_level.txt
