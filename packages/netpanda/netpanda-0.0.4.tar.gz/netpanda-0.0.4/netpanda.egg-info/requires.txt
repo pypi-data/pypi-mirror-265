@@ -1,0 +1,8 @@
+numpy
+ipyleaflet
+
+[all]
+netpanda[extra]
+
+[extra]
+pandas
