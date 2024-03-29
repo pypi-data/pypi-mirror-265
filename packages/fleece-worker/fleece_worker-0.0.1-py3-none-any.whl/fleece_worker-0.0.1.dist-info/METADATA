@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fleece-worker
+Version: 0.0.1
+Summary: fleece-worker
+Home-page: https://github.com/CoLearn-Dev/fleece-worker
+Author: stneng
+Author-email: git@stneng.com
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: fire
+Requires-Dist: sentencepiece
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: requests
+Requires-Dist: cryptography
+
