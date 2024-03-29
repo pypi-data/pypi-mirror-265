@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cycleenrichr
+Version: 0.0.7
+Summary: Cycleenrichr uses PrismEXP predictions to calculate enrichment of gene sets that do not have gene annotations.
+Home-page: https://github.com/maayanlab/cycleenrichr
+Author: Alexander Lachmann
+Author-email: alexander.lachmann@mssm.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+### Cycle Enrichr
+
+Enrichment of gene sets with no gene annotations leveraging ARCHS4 and PrismExp gene function prediction.
+
+
+## Usage
+
+#### Installation
+```
+pip3 install cycleenrichr
+```
+#### Download Prediction File
+```python
+# download precomputed predictions file from PrismExp
+
+import cycleenrichr as cycle
+cycle.load.download("predictions.h5")
+```
+
+### Run Set Enrichment for Gene Set Library
+
+```python
+import cycleenrichr as cycle
+
+# load gene set libary from Enrichr
+library = cycle.enrichr.get_library("KEGG_2021_Human")
+
+predictions_path = "predictions.h5"
+
+result = cycle.enrichment.enrich(library, predictions_path)
+```
