@@ -1,0 +1,27 @@
+[project]
+name = "pysat-abel"
+version = "0.0.1"
+description = "Python implementation for Spline-based Abel Transform"
+authors = [
+    {name = "Mijail Littin", email = "littinm@coria.fr"},
+    {name = "Alexandre Poux"},
+    {name = "Guillaume Lefevre"},
+    {name = "Marek Mazur"},
+    {name = "Felipe Escudero"},
+    {name = "Andrés Fuentes"},
+    {name = "Jérôme Yon"},
+]
+urls = {Homepage = "https://gitlab.coria-cfd.fr/littinm/pysat"}
+classifiers = [
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "scipy",
+    "numpy",
+    "abel",
+    "joblib",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
