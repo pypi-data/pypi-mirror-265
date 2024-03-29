@@ -1,0 +1,17 @@
+localmapper/__init__.py,sha256=uSvGA2nOT5_uaH4zoRoivdsTZLzn5xR2xlZequazsyw,146
+localmapper/localmapper.py,sha256=xAUDEv4SDduPH5GrmA3kXk0vcbJRdG4AQ6Hbow2ejFM,2831
+localmapper/mapper.py,sha256=AFHFFKVKklyrHVIAdylIA8O4XrZaQhhtmGncX2EBw20,7801
+localmapper/model_utils.py,sha256=Zz56VWyCC4QsNASOzztpGvgnXVN7h1M4Tf6TF8b_dyU,4705
+localmapper/models.py,sha256=ImOReHaVA_l3t3sYz0Vi0m5zoDDb0EzUkrFjKO1uaZE,2177
+localmapper/utils.py,sha256=oHFJTK6q8omxaYgB1cAKXeAM6AA6UubkUpMR2pAaNuI,3614
+localmapper/LocalTemplate/template_extract_extention.py,sha256=yl0Juf4U3pLE-N3aocgeqrPko_gGxsvwnSFDoDO_-mM,3565
+localmapper/LocalTemplate/template_extract_utils.py,sha256=3LMNTN5gGa3dfelKSZ0PoCamOUiO1MeatnY2E_RxrG8,12049
+localmapper/LocalTemplate/template_extractor.py,sha256=L0FmGF1H2AEKCJuH4NGWv9ye-yOt9D_2Hs84tZShqM0,24005
+localmapper/data/LocalMapper_202403.pth,sha256=ZA2QkmrJlOmttNmiK47zRTvW_CgYoQeiIp8FaE0ZbPU,18759019
+localmapper/data/default_config.json,sha256=6k8_tAQsIN1U9RYicTRv85jx0I4sF1kl7h-kXMPQLZA,136
+localmapper/data/templates_202403.pkl,sha256=9l8q61nyVpFy4jSXTbkdVhLG3NKfV30yYgnbmegr-u8,83082
+localmapper-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+localmapper-1.0.dist-info/METADATA,sha256=nqxZ2M55XQHyvVqK75p_Q2hLEqcdkIw9dIIXgzWYRx4,5001
+localmapper-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+localmapper-1.0.dist-info/top_level.txt,sha256=indKnO290tU-a6ED58hfk_exfrph-FiWpeDlw4oVm_k,12
+localmapper-1.0.dist-info/RECORD,,
