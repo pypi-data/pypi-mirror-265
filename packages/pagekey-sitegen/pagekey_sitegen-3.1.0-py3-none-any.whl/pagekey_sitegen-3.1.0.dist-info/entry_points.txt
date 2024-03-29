@@ -1,0 +1,3 @@
+[console_scripts]
+pagekey-sitegen=pagekey_sitegen.cli:main
+
