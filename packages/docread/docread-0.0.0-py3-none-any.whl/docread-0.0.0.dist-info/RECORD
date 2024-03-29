@@ -1,0 +1,9 @@
+docread/__init__.py,sha256=6J0EgZPkdXwhipWn7eMhkIrhyb91epm_1n3nAdfXVYQ,18
+docread/__main__.py,sha256=nsXFFzEKnnCXtGFHgQbiG6kIpMtOVOm9tJxionWOG4M,3118
+docread/doc.py,sha256=GxVpaDYt2iKRX-5prwVw2i7deAiZNswiZws-baOORMU,2392
+docread/epub.py,sha256=pzi_Q4ybko-upAl3hLhPEvJHtYnnFLT6OT_Xhm50jLs,2467
+docread/reader.py,sha256=VyUzCAKIbUA2FOgP58-k5S2SV5jYg-UGPM0F3KDDN60,4952
+docread-0.0.0.dist-info/METADATA,sha256=KuxJ3yCAl043t-IElbppxaNYmf7UgonwqHeECfJ5hFc,437
+docread-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+docread-0.0.0.dist-info/top_level.txt,sha256=cyu6SUBqBc8gSQjPOHWqaj4nPPX9gz_IpOWW7gXKgxQ,8
+docread-0.0.0.dist-info/RECORD,,
