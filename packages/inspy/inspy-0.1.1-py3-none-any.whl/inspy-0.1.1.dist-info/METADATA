@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: inspy
+Version: 0.1.1
+Summary: scan and control for instrument that support SCPI COMMAND
+Home-page: https://github.com/AceWalTer/inspy
+Author: Yafei Wang
+Author-email: yafei.wang@pisemi.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyvisa >=1.12.0
+Requires-Dist: colorama ~=0.4.6
+Requires-Dist: setuptools ~=68.0.0
+
