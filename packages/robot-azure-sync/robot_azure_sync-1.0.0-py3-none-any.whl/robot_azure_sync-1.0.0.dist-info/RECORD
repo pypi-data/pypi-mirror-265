@@ -1,0 +1,10 @@
+robot_azure_sync/__init__.py,sha256=LmIGpPWZapSif-g0UnAh0iASRnSz3qPDKhUB92xosXE,63
+robot_azure_sync/robot_azure_sync.py,sha256=qynktzSgQRILjUtkz1ImAXIjpjmIM4NMDovo4MrcpgE,2559
+robot_azure_sync/robot_azure_sync_get.py,sha256=txIoxwLnriLCmQBXCrdyB7L_ivSYHTOQZL6Kim50ytw,14470
+robot_azure_sync/robot_azure_sync_patch.py,sha256=VZhUoTabayaZOKrBlLvDXfeJOLfEVW0C0XJqNrXOEOk,15560
+robot_azure_sync/sync_utils.py,sha256=Hs--VII0BGGe3wwSnKvWzrdmOXOobNBKvYLFpky6RFU,7833
+robot_azure_sync-1.0.0.dist-info/METADATA,sha256=_hwqVURnyvPgnbyTBI8wL1umFY2uP3kRm0VMmeLtoec,3415
+robot_azure_sync-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+robot_azure_sync-1.0.0.dist-info/entry_points.txt,sha256=106oAhAcYn8S9tbXgwbzYyv_gUQMpuA49HjwpC7a-RY,88
+robot_azure_sync-1.0.0.dist-info/top_level.txt,sha256=tVf7nmKeaSPxuXRsmRw_0bV2XQVxtt9mB7nGu6PWsQA,17
+robot_azure_sync-1.0.0.dist-info/RECORD,,

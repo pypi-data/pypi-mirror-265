@@ -1,0 +1,2 @@
+[console_scripts]
+robot_azure_sync = robot_azure_sync.robot_azure_sync:robot_azure_sync
