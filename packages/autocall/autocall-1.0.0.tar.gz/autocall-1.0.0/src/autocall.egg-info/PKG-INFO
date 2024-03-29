@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: autocall
+Version: 1.0.0
+Summary: Call function directly in command line and a well help tips generately automatically
+Author-email: bajeer <z_bajer@yeah.net>
+Maintainer-email: bajeer <z_bajer@yeah.net>
+License: Copyright (c) 2016 The Python Packaging Authority (PyPA)
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+        of the Software, and to permit persons to whom the Software is furnished to do
+        so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://gitee.com/z-bajer/autocall
+Project-URL: Bug Reports, https://gitee.com/z-bajer/autocall/issues
+Project-URL: Source, https://gitee.com/z-bajer/autocall
+Keywords: command,line,call,function
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# Call function directly in cmd line
+
+#### Features
+1. Allow user call functions directly in command line.
+2. Generate help tips automatically.
+
+#### Code example
+``` python
+#!/bin/bash
+from autocall import *
+
+# The tar @cmdline is used to register the function.
+@cmdline
+def test1():
+	pass
+    
+@cmdline
+def test2(arg):
+	pass
+    
+@cmdline
+def test3(arg1, arg2: str = 'this is a string'):
+	print(arg2)
+    
+@cmdline
+def test4(arg1, arg2: int):
+	'You can add some extra information here.'
+	pass
+    
+# main function
+parse_and_run()
+```
+#### Run the code
+``` bash
+$ ./main.py --help
+Help Tips Provided by Autocall.
+  option:
+    --test1
+    
+    --test2     arg
+    
+    --test3     arg1  [arg2 = this is a string]
+    
+    --test4     arg1  arg2
+	            You can add some extra information here.
+    
+    --help      [verbose = notverbose]
+    		    Give the argument "verbose" instead of "notverbose" to print detail information.
+    
+$ ./main.py --help verbose
+Help Tips Provided by Autocall.
+  option:
+    --test1
+    
+    --test2     arg
+    
+    --test3     arg1  [arg2(str) = this is a string]
+    
+    --test4     arg1  arg2(int)
+	            You can add some extra information here.
+    
+    --help      [verbose(str) = notverbose]
+    		    Give the argument "verbose" instead of "notverbose" to print detail information.
+
+$ # call function test3 and pass arguments arg1=1
+$ ./main.py --test3 1
+this is a string
+
+$ # call function test3 and pass arguments arg1=1, arg2="this will be showed."     
+$ ./main.py --test3 1 "this will be showed."
+this will be showed.
+```
