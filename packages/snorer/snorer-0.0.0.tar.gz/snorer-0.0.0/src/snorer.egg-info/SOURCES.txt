@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/snorer/__init__.py
+src/snorer.egg-info/PKG-INFO
+src/snorer.egg-info/SOURCES.txt
+src/snorer.egg-info/dependency_links.txt
+src/snorer.egg-info/requires.txt
+src/snorer.egg-info/top_level.txt
