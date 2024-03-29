@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: robocodecv
+Version: 1.0
+Summary: Package for Robocode lessons
+Author-email: Artem Robocodovych <garo109696@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: pycaw
+Requires-Dist: ctypes
+Requires-Dist: comtypes

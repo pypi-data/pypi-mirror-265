@@ -1,0 +1,23 @@
+
+[project]
+name = "robocodecv"
+version = "1.0"
+dependencies = [
+  "pycaw",
+  "ctypes",
+  "comtypes",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Artem Robocodovych", email = "garo109696@gmail.com"},
+]
+
+description = "Package for Robocode lessons"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+
