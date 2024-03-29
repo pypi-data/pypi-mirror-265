@@ -1,0 +1,2 @@
+pyserilog>=0.1.0
+colorama==0.4.6
