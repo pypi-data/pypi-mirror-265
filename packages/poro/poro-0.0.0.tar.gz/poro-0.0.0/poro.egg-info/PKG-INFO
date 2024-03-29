@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: poro
+Version: 0.0.0
+Home-page: https://github.com/timothyckl/iota
+Author: timothyckl
+Author-email: timothy.ckl@outlook.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

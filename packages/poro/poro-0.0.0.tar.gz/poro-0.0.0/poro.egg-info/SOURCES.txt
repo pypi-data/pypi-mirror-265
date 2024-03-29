@@ -1,0 +1,5 @@
+setup.py
+poro.egg-info/PKG-INFO
+poro.egg-info/SOURCES.txt
+poro.egg-info/dependency_links.txt
+poro.egg-info/top_level.txt
