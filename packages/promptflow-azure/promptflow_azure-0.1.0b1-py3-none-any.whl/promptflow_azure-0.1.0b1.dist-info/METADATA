@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: promptflow-azure
+Version: 0.1.0b1
+Summary: Prompt flow azure
+Home-page: https://microsoft.github.io/promptflow/
+License: MIT
+Keywords: azure
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+Requires-Python: >=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: azure-ai-ml (>=1.14.0,<2.0.0)
+Requires-Dist: azure-core (>=1.26.4,<2.0.0)
+Requires-Dist: azure-cosmos (>=4.5.1,<5.0.0)
+Requires-Dist: azure-identity (>=1.12.0,<2.0.0)
+Requires-Dist: azure-storage-blob[aio] (==0.1.0b1)
+Requires-Dist: promptflow-devkit (<2.0.0)
+Requires-Dist: pyjwt (>=2.4.0,<3.0.0)
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Repository, https://github.com/microsoft/promptflow
+Description-Content-Type: text/markdown
+
+# Prompt flow azure
+
+Prompt flow azure.
+
+# Release History
+
+## 0.1.0b1 (Upcoming)
+
+- Stub version in PyPI.
+
