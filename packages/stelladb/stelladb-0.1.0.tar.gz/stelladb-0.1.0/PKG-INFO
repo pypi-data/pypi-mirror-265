@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: stelladb
+Version: 0.1.0
+Summary: Includes functions to upload DESC and VMEC data to the stellarator database.
+Home-page: https://github.com/PlasmaControl/Stellarator-Database/
+Author: yigit Gunsur Elmacioglu, Rory Conlin, Dario Panici, Egemen Kolemen
+Author-email: PlasmaControl@princeton.edu
+License: MIT
+Keywords: stellarator tokamak equilibrium perturbation mhd magnetohydrodynamics stability confinement plasma physics optimization design fusion data database
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: desc-opt
+Requires-Dist: selenium
+Requires-Dist: simsopt
+
+# Stellarator-Database
+Includes the functions required to upload DESC or VMEC results to the stellarator database. You can access the database [here](https://ye2698.mycpanel.princeton.edu/).
+
+This is still a work in progress.
+
+## Building conda environment
+```bash
+conda create --name db
+conda activate db
+pip install -r requirements.txt
+```
