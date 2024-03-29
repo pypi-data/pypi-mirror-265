@@ -1,0 +1,13 @@
+openai==0.28
+anthropic
+python-docx
+utilfunction
+python-gemini-api
+lxml
+gTTS
+SpeechRecognition
+PyPDF2
+pygame
+
+[openaivoice]
+openai
