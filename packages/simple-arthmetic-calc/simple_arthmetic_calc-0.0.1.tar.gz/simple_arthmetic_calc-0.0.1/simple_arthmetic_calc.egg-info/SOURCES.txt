@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+manu_calc/__init__.py
+simple_arthmetic_calc.egg-info/PKG-INFO
+simple_arthmetic_calc.egg-info/SOURCES.txt
+simple_arthmetic_calc.egg-info/dependency_links.txt
+simple_arthmetic_calc.egg-info/top_level.txt
