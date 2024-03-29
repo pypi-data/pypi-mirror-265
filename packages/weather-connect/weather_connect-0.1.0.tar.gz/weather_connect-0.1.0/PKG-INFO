@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: weather_connect
+Version: 0.1.0
+Summary: weather connect library
+Author: Faclon-Labs
+Author-email: reachus@faclon.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pymongo
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: datetime
+
+### Project description
+
+Faclon Weather Data Access Library
+
+#### Where to get it
+
+https://pypi.org/project/iosense/
+
+#### Installation
+
+pip install weather-connect
+
+pip3 install weather-connect
+
+#### Features
+
+Retrives following details:
+
+- Plant information.
+- Weather Details.p
+
+#### Dependencies
+
++ pandas
++ requests
++ json
++ pymongo
+
+#### Documentation
+
+The official documentation is hosted on
+
+#### Reach us
+
+For usage questions, please reach out to us at reachus@faclon.com
