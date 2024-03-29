@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hackathon-evaluation-rag
+Version: 0.1.2
+Summary: 
+Author: kce3kor
+Author-email: kamal.shrestha@in.bosch.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: datasets (>=2.18.0,<3.0.0)
+Requires-Dist: langchain-community (>=0.0.29,<0.0.30)
+Requires-Dist: langchain-openai (>=0.1.1,<0.2.0)
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: ragas (>=0.1.5,<0.2.0)
+Requires-Dist: sentence-transformers (>=2.6.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+
