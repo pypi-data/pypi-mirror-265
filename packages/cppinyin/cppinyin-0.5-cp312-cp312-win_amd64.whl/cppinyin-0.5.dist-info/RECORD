@@ -1,0 +1,13 @@
+_cppinyin.cp312-win_amd64.pyd,sha256=u9QByje_rhbFnvAqeFuNbUspNi_HKpUVdapTsOrsV4M,252928
+cppinyin_core.lib,sha256=hXhI-Eh_jA4MfASZVvr6GrlUkcUaiHFAKEGVdDA9Hvc,652016
+cppinyin/__init__.py,sha256=C0dezV3ol4TzX-o9kuzAu18vUUpLeckC6L4u3jHJxp4,52
+cppinyin/cli.py,sha256=hqNgyDgdB2Z_aTDMujy99S2tM6UZ4BSWhr4AbNlpOsU,5358
+cppinyin/cppinyin.py,sha256=q_-D6XebUTP7HalYK3tV9n8K-1-NMvKsoRV56g4kscI,1579
+cppinyin/resources/pinyin.dict,sha256=GjRlrf7klA6lmKs_J4ScsdkpyprBrnk7JQ_tb0Ao0DY,18823299
+cppinyin/resources/pinyin.raw,sha256=DxTLlt6fwdTO6aF93MDujJJCuWI_KwjE07lk-QnOj-g,13197295
+cppinyin-0.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+cppinyin-0.5.dist-info/METADATA,sha256=HmIsyaZpyYEXPb0QxRKNERKAOO7KlvrwQ200RuEgCg4,1293
+cppinyin-0.5.dist-info/WHEEL,sha256=fZWyj_84lK0cA-ZNCsdwhbJl0OTrpWkxInEn424qrSs,102
+cppinyin-0.5.dist-info/entry_points.txt,sha256=yjrNHdgamUSnF9A6qjGHjtyboj1C87nMFLQw6cIh2FA,46
+cppinyin-0.5.dist-info/top_level.txt,sha256=zXXBJavhIoxm__TYNS5LFz5TxrFLraJY0b2P57sYvd8,19
+cppinyin-0.5.dist-info/RECORD,,
