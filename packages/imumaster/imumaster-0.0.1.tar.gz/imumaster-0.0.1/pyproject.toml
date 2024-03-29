@@ -1,0 +1,20 @@
+[project]
+name = "imumaster"
+version = "0.0.1"
+authors = [
+  { name="imumaster", email="xujunkai@imumaster.com" },
+]
+description = "This package provides different sensor fusion algorithms like Extended Kalman Filter (EKF) to estimate orientation."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+

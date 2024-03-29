@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+imumaster/__init__.py
+imumaster.egg-info/PKG-INFO
+imumaster.egg-info/SOURCES.txt
+imumaster.egg-info/dependency_links.txt
+imumaster.egg-info/top_level.txt
+imumaster/filters/EKF.py
+imumaster/filters/__init__.py
+imumaster/math/Quaternion.py
+imumaster/math/__init__.py
