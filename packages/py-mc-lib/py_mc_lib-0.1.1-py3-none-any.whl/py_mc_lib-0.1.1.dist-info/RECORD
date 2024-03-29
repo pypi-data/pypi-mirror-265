@@ -1,0 +1,15 @@
+py_mc_lib/__init__.py,sha256=N_L6NcH4B2u-a9Rizx4tDW9JRejH1GbJvipb2GryYlo,64
+py_mc_lib/download/JavaClient.py,sha256=DUMkuTaHj1-b-3IAUKEPUekl_k5zZoj47MwHM4ai71o,2345
+py_mc_lib/download/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_mc_lib/download/downloader.py,sha256=KCwdChpmEUn_seK6tEahNvqZl57AklVgSr1XcK4RyAk,2355
+py_mc_lib/download/headers.py,sha256=BMIqIviKFXxlmGzDKqJy9sTatiNPnou25AxnEi8XrrE,161
+py_mc_lib/download/packages.py,sha256=gnNND09RIl6jCWIa0ypaXPCrn3SvqABmlm07c30sRTQ,5824
+py_mc_lib/download/version_manifest.py,sha256=pGJ7SJHWvK9yh_Dhkw5ktx8IDnIeXay-jW0wQDtO3h0,1730
+py_mc_lib/launcher/LauncherEvent.py,sha256=7mFOcMWAeQzR86f-8L8-tv2eSLM96P9181NA8IeVK5I,8318
+py_mc_lib/launcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_mc_lib/launcher/natives.py,sha256=CEnvJs1kkAVDWqPTZoVBMCltvc6VagoK3G1U3vfWUJw,1377
+py_mc_lib-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+py_mc_lib-0.1.1.dist-info/METADATA,sha256=0YJs1BHNOf2tIbfr6eOfTLe1AY18N1qrOVk-unDBEzU,2062
+py_mc_lib-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+py_mc_lib-0.1.1.dist-info/top_level.txt,sha256=0c8McdVU6mIQO1PHjvnEaQWXibnNmWwQxUacne4uo1E,10
+py_mc_lib-0.1.1.dist-info/RECORD,,
