@@ -21000,2331 +21000,2331 @@
       "project_version": "0.6.2",
       "url": "https://files.pythonhosted.org/packages/38/ac/0662b44b7fc6f50561dfb05da00827e64fc3be3c2bd53fa819c6714af3d9/tsv2py-0.6.2-cp38-abi3-win_amd64.whl",
       "upload_time": "2024-03-29T09:11:17.471727Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelmarket",
       "project_version": "0.1.73",
       "url": "https://files.pythonhosted.org/packages/c4/aa/31f719656c0b01e9bd0499e27f7cd7f88cc019dafe22264a0428b3b494b1/modelmarket-0.1.73-py3-none-any.whl",
       "upload_time": "2024-03-29T09:11:17.565563Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelmarket",
       "project_version": "0.1.73",
       "url": "https://files.pythonhosted.org/packages/8a/ae/65f01354e810d678e94d6768903db9a1c1e7dec27acaca4ee5bb11074d7a/modelmarket-0.1.73.tar.gz",
       "upload_time": "2024-03-29T09:11:19.396903Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fei-crypto",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/02/9a/0a91b04c18bb2db05d7d4f581f3ce5591112c0ad39dc650828f741dca39a/fei_crypto-0.1.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:11:38.122755Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fei-crypto",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/5e/d2/9368832c1be55e523b5d0dddea5bd6aebdc1c991c56a9fcfb849f5415767/fei_crypto-0.1.3.tar.gz",
       "upload_time": "2024-03-29T09:11:40.300279Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "yosemite",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/fb/f4/3d9a369e43b42f6a683baf4431e90bcf5893adee6c75f7df49ca19a77ac3/yosemite-0.1.6-py3-none-any.whl",
       "upload_time": "2024-03-29T09:12:22.871168Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "yosemite",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/30/18/946b7fd25def0814d1583492b97c631c4bdd460de82c1a0709be5d983d5c/yosemite-0.1.6.tar.gz",
       "upload_time": "2024-03-29T09:12:24.933352Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "py-mc-lib",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/46/1b/fe3ea012bcd0d1ec6b10adb020db564e3ae7e9f9a3c398510132b88bc2bd/py_mc_lib-0.1.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:13:02.095938Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "py-mc-lib",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/d3/86/ee1195531558e2361ec2b8348eded5f34cc97c4df61715e66e2aaa4c9bfe/py-mc-lib-0.1.2.tar.gz",
       "upload_time": "2024-03-29T09:13:04.336688Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dm-control",
       "project_version": "1.0.17",
       "url": "https://files.pythonhosted.org/packages/00/8d/418396793f416ae4ff0e015103ad6ce9a9b144ce3e2890f8fb1616d2cb84/dm_control-1.0.17-py3-none-any.whl",
       "upload_time": "2024-03-29T09:13:05.537213Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sendchamp",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/24/5c/2f7964cc33aff4d3e24c9b10d4518c9a7fbfcd11aafd561a4f1460eb74d6/sendchamp-0.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:13:06.202083Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sendchamp",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/fb/f7/a5810d575c6aa92d6d526551db13094d6f19d60483b5ce3914a8af8b072b/sendchamp-0.0.1.tar.gz",
       "upload_time": "2024-03-29T09:13:10.631299Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dm-control",
       "project_version": "1.0.17",
       "url": "https://files.pythonhosted.org/packages/8b/7b/f67832b5b6ba747f746d7b84b69895ecac1362f5b9c443f710198539ee55/dm_control-1.0.17.tar.gz",
       "upload_time": "2024-03-29T09:13:11.833021Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spanishconjugator",
       "project_version": "2.3.7429",
       "url": "https://files.pythonhosted.org/packages/33/98/818ade4963817899e13e2c0ae31cee89dc4fa6ddf965099e3a00e0ac9007/spanishconjugator-2.3.7429-py3-none-any.whl",
       "upload_time": "2024-03-29T09:13:15.695461Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spanishconjugator",
       "project_version": "2.3.7430",
       "url": "https://files.pythonhosted.org/packages/1f/3f/6622516dcc2a1b1e03722ccbada1b1b1e8ad73a8c2c6bf395019759e897b/spanishconjugator-2.3.7430-py3-none-any.whl",
       "upload_time": "2024-03-29T09:13:35.943210Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spanishconjugator",
       "project_version": "2.3.7429",
       "url": "https://files.pythonhosted.org/packages/ef/a3/abdb76c01c0267ed1421a72fe7a13c0d44ef6ee7dc583a65af27a9fc65a3/spanishconjugator-2.3.7429.tar.gz",
       "upload_time": "2024-03-29T09:14:08.945137Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spanishconjugator",
       "project_version": "2.3.7430",
       "url": "https://files.pythonhosted.org/packages/cc/76/dc512072fd7858fb4acc15479a5431b53057aab1decd530d2761bd70db47/spanishconjugator-2.3.7430.tar.gz",
       "upload_time": "2024-03-29T09:14:31.055185Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelmarket",
       "project_version": "0.1.74",
       "url": "https://files.pythonhosted.org/packages/14/36/03c3d9da7a823ce2aa5ac3b196e60121c66511990e80eadf7850d63fba86/modelmarket-0.1.74-py3-none-any.whl",
       "upload_time": "2024-03-29T09:14:37.220085Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelmarket",
       "project_version": "0.1.74",
       "url": "https://files.pythonhosted.org/packages/f3/69/ad3730f37b33d89926cce89a837844b2ceacc8f6c7c0f5c1fffec0770376/modelmarket-0.1.74.tar.gz",
       "upload_time": "2024-03-29T09:14:38.825096Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelmarket",
       "project_version": "0.1.75",
       "url": "https://files.pythonhosted.org/packages/f7/24/5bacd08ad205d7d96ab43743ee6b3d430ba42311eb7bc4c2d80485bea67d/modelmarket-0.1.75-py3-none-any.whl",
       "upload_time": "2024-03-29T09:15:18.120197Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelmarket",
       "project_version": "0.1.75",
       "url": "https://files.pythonhosted.org/packages/5e/63/595055b03cd0375161c79b976b3283f220f3285b01245d6f905e6216d73e/modelmarket-0.1.75.tar.gz",
       "upload_time": "2024-03-29T09:15:19.801032Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "windmill-compute",
       "project_version": "1.0.0.16",
       "url": "https://files.pythonhosted.org/packages/1c/de/60611bd6f82b4f97834cb5ee9a60a1ec9330c58b8a675691c18425f1d4bd/windmill_compute-1.0.0.16-py3-none-any.whl",
       "upload_time": "2024-03-29T09:17:05.498404Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.10",
       "url": "https://files.pythonhosted.org/packages/68/24/8d202278dbbaede733ed21ca6d55b91fc969cbc6da48648153e20b649b79/mysql_compare-0.2.10-py3-none-any.whl",
       "upload_time": "2024-03-29T09:17:38.955360Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chess-utils",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/e3/ec/c6962d9bc501034b6ee17be798acbf71d5fe918d76ab96bb59f0ea4af156/chess_utils-0.1.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:17:39.128670Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chess-utils",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/a2/a5/b6a28931fe01e45e122820b7cdb1b8a9a58f981ff830a4079eacc243d65d/chess-utils-0.1.3.tar.gz",
       "upload_time": "2024-03-29T09:17:41.274393Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.10",
       "url": "https://files.pythonhosted.org/packages/2d/07/aae2b6f3891dbb1c07672c2270ef1f3088498260cc7953e177355113586a/mysql-compare-0.2.10.tar.gz",
       "upload_time": "2024-03-29T09:17:41.311026Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energy-base",
       "project_version": "1.5.9",
       "url": "https://files.pythonhosted.org/packages/ae/7c/872bc4b216931f8c6d17ac8be396293b85b3e67e2e809dc505d7d3d4ed42/energy_base-1.5.9-py3-none-any.whl",
       "upload_time": "2024-03-29T09:17:52.392977Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energy-base",
       "project_version": "1.5.9",
       "url": "https://files.pythonhosted.org/packages/b4/fd/56014d6552f200f142dcf19c8db256f642c74bd1b2202878e5d0aee005fd/energy_base-1.5.9.tar.gz",
       "upload_time": "2024-03-29T09:17:54.327595Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "NeoBase",
       "project_version": "0.33.6",
       "url": "https://files.pythonhosted.org/packages/ef/56/3ead43869c1d307ce0f5e3692440781d0d5add86eb564474a93788a57904/NeoBase-0.33.6-py3-none-any.whl",
       "upload_time": "2024-03-29T09:18:17.320136Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "NeoBase",
       "project_version": "0.33.6",
       "url": "https://files.pythonhosted.org/packages/d8/23/d053a01a643a4fda459c832da47c03299ba68335eaafb53ed605c89b658a/NeoBase-0.33.6.tar.gz",
       "upload_time": "2024-03-29T09:18:20.379866Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgewindowssensors",
       "project_version": "4.0.1",
       "url": "https://files.pythonhosted.org/packages/a8/44/1e8586de65d1f31f7af1cd8cb44a9f29a3504c948c9cd455a966cac448b4/systembridgewindowssensors-4.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:18:34.392050Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgewindowssensors",
       "project_version": "4.0.1",
       "url": "https://files.pythonhosted.org/packages/fc/0c/2d66695ecc6991ebc49df94ebde39a565e444d4f524aca96367444682e4f/systembridgewindowssensors-4.0.1.tar.gz",
       "upload_time": "2024-03-29T09:18:37.399462Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mini-toolbox",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/36/9f/58577a720363ed9cf2daf30a9ffd078322aaec973c015ab4218bd0662e8f/mini_toolbox-1.0.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:19:17.651837Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mini-toolbox",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/93/a3/10272859b55715bea17617b38d0e7214b23ebdbeedb667585e56370ec7b2/mini_toolbox-1.0.0.tar.gz",
       "upload_time": "2024-03-29T09:19:19.826813Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Products.MeetingSeraing",
       "project_version": "4.2.8",
       "url": "https://files.pythonhosted.org/packages/d0/7a/468560beed94e2c2e093b1ccdeb1468699755dac5fdaaaaf233d6d501d01/Products.MeetingSeraing-4.2.8.tar.gz",
       "upload_time": "2024-03-29T09:19:24.430288Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgeshared",
       "project_version": "4.0.1",
       "url": "https://files.pythonhosted.org/packages/6e/e6/ee3df7f65ec0279153f289ff9614edad2d4834637ca59fd04ab3ad617b99/systembridgeshared-4.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:19:47.092093Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgeshared",
       "project_version": "4.0.1",
       "url": "https://files.pythonhosted.org/packages/a1/d2/eadbcba150193109aa0f46cb3a6cf7d27c81359fb4c6773a305aa66ca596/systembridgeshared-4.0.1.tar.gz",
       "upload_time": "2024-03-29T09:19:49.274478Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "uitestrunner-syberos",
       "project_version": "2.2.2",
       "url": "https://files.pythonhosted.org/packages/ea/d1/4ab0d93c9c5cb09afa43b43b90535e44169a71cfb6662dbf602f5d6af261/uitestrunner_syberos-2.2.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:20:07.297901Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "uitestrunner-syberos",
       "project_version": "2.2.2",
       "url": "https://files.pythonhosted.org/packages/03/05/6ab13a28b142c8c7533c339634795f00ae31f2b93adeeefd416232b457aa/uitestrunner_syberos-2.2.2.tar.gz",
       "upload_time": "2024-03-29T09:20:12.324415Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qleegss",
       "project_version": "0.0.4",
       "url": "https://files.pythonhosted.org/packages/c8/ac/a6a2990aaed7949b91364ad6b20f49ee899ce7578ce2f7a9f6e97225937a/qleegss-0.0.4.tar.gz",
       "upload_time": "2024-03-29T09:20:13.774141Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyfedic_cython",
       "project_version": "24.3.0",
       "url": "https://files.pythonhosted.org/packages/3b/2e/a810a5947a37f577f4225cfb4ccc139099f8724603c88a9dedce6e9d96c9/pyfedic_cython-24.3.0-cp310-cp310-manylinux_2_35_x86_64.whl",
       "upload_time": "2024-03-29T09:20:28.375718Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyfedic_cython",
       "project_version": "24.3.0",
       "url": "https://files.pythonhosted.org/packages/bf/9f/644b0a49f7a219ef169002633d5f70c02930039a692b3529a82e3d7809c5/pyfedic_cython-24.3.0.tar.gz",
       "upload_time": "2024-03-29T09:20:30.310304Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ul-data-aggregator-sdk",
       "project_version": "9.5.1",
       "url": "https://files.pythonhosted.org/packages/31/f2/7ab719f779e9065c4f65f488ebaae29a3521045c9f374dac64f2d5e482ad/ul_data_aggregator_sdk-9.5.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:21:17.798857Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ul-data-aggregator-sdk",
       "project_version": "9.5.1",
       "url": "https://files.pythonhosted.org/packages/5a/03/d1f3ba49d8851ca749adca6cd7d73448adab516ee728b21746891ebe701c/ul-data-aggregator-sdk-9.5.1.tar.gz",
       "upload_time": "2024-03-29T09:21:19.790182Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "m3-core",
       "project_version": "2.2.28",
       "url": "https://files.pythonhosted.org/packages/1f/0e/c80063304b92cc6e7f2cc7d0ae792f01eb94f795c8cc098ee3677e7a01b7/m3_core-2.2.28-py3-none-any.whl",
       "upload_time": "2024-03-29T09:22:33.933192Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "m3-core",
       "project_version": "2.2.28",
       "url": "https://files.pythonhosted.org/packages/7b/36/20c23daec8b1d2494f6d5ae21989c72d1d0f42bd121d39dc97b508786c50/m3-core-2.2.28.tar.gz",
       "upload_time": "2024-03-29T09:22:36.505016Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "Products.MeetingLalouviere",
       "project_version": "4.2.10",
       "url": "https://files.pythonhosted.org/packages/fc/78/264ee0192dbbbfa16635d00aa90cb22a935b1feba7cab884b52ce87a2379/Products.MeetingLalouviere-4.2.10.tar.gz",
       "upload_time": "2024-03-29T09:22:49.866034Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mmc",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/2c/a1/f8dbabcd331ece9e9e17dcc054465e2ee377b340ef7cf0b21dc84bd04998/mmc-0.1.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:23:03.950541Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mmc",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/ec/da/b5675a50aa25ab81df0c0a40c0aa8363fbd479c48d3b644c91d3a874ae15/mmc-0.1.1.tar.gz",
       "upload_time": "2024-03-29T09:23:04.928329Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "commits2pdf",
       "project_version": "1.0.3",
       "url": "https://files.pythonhosted.org/packages/5a/99/abbd72f256d449bff5e00d69dec0ab1ee15e8a2e270796f1e7112507bf9f/commits2pdf-1.0.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:23:36.963048Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "commits2pdf",
       "project_version": "1.0.3",
       "url": "https://files.pythonhosted.org/packages/20/a3/59644923fa295ebfa3e61d0693e032c94b9323055f85fc56dbc9b3661027/commits2pdf-1.0.3.tar.gz",
       "upload_time": "2024-03-29T09:23:38.738358Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgemodels",
       "project_version": "4.0.4",
       "url": "https://files.pythonhosted.org/packages/89/16/2059bbdd23db458f1a2ae1f5671bc06724f9212a7b7e3257989caa7d8e05/systembridgemodels-4.0.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:23:48.396255Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgemodels",
       "project_version": "4.0.4",
       "url": "https://files.pythonhosted.org/packages/4d/35/71f7b0a34171a81fcf463b0d415eab03493ffb1f6236aea9768aaae58167/systembridgemodels-4.0.4.tar.gz",
       "upload_time": "2024-03-29T09:23:50.068637Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "last_layer",
       "project_version": "0.1.29",
       "url": "https://files.pythonhosted.org/packages/18/e9/6bc2414f92bedf308c72b7e21ce1fb0ee080e7240f5e605e41948cfa52ef/last_layer-0.1.29-py3-none-any.whl",
       "upload_time": "2024-03-29T09:24:25.647379Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "last_layer",
       "project_version": "0.1.29",
       "url": "https://files.pythonhosted.org/packages/da/5e/68c180c126cdbd7ff9b06cef92f3d8e4e79c4f35c91f492b23190a1e8125/last_layer-0.1.29.tar.gz",
       "upload_time": "2024-03-29T09:24:28.207138Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "aliyun-python-sdk-edas",
       "project_version": "3.26.9",
       "url": "https://files.pythonhosted.org/packages/99/69/464b1948b1bfde5e346137cfbf02e1197b624ef713a9afae422a3ef523b4/aliyun_python_sdk_edas-3.26.9-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T09:24:43.297287Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "aliyun-python-sdk-edas",
       "project_version": "3.26.9",
       "url": "https://files.pythonhosted.org/packages/02/ac/3ba20bb2b36ff1d33c204fb2c8e6679cc7a7fd1898b9abdb632f06af6de2/aliyun-python-sdk-edas-3.26.9.tar.gz",
       "upload_time": "2024-03-29T09:24:44.798116Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chess-utils",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/2c/59/765535f51c189857212a2ebebd89dca3e76ce58465b356f82f477fef2997/chess_utils-0.1.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:24:45.080730Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chess-utils",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/a0/73/eb73a518bad5daff5cc5f45ef3fc43e5e0bed54920ad55d9a1ecd41562d2/chess-utils-0.1.4.tar.gz",
       "upload_time": "2024-03-29T09:24:46.165030Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "alkivi-logger",
       "project_version": "1.5.0",
       "url": "https://files.pythonhosted.org/packages/23/0a/ecbe4ae93e2f0a713cb7f3db1faf8782eff5e24d256de5057e18fdc7ea4b/alkivi_logger-1.5.0-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T09:25:06.840851Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.11",
       "url": "https://files.pythonhosted.org/packages/30/2b/694fb77a02d2ba540af5be1358ee0772f8ee03dbd2036ee3cafe667f8c3f/mysql_compare-0.2.11-py3-none-any.whl",
       "upload_time": "2024-03-29T09:25:21.801539Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.11",
       "url": "https://files.pythonhosted.org/packages/f3/82/df812e15ad3b5db1f37bd33f0dc8e227a18c72f52578bc11251c1f856257/mysql-compare-0.2.11.tar.gz",
       "upload_time": "2024-03-29T09:25:25.202831Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tbp-nightly",
       "project_version": "2.16.1a20240329",
       "url": "https://files.pythonhosted.org/packages/09/15/31a4eaf77ba6e6a71cb13549396603e4053c0446daf95e119c62f0ece88e/tbp_nightly-2.16.1a20240329-py3-none-any.whl",
       "upload_time": "2024-03-29T09:25:32.158029Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tbp-nightly",
       "project_version": "2.16.1a20240329",
       "url": "https://files.pythonhosted.org/packages/ce/36/5a23814565527da9c5624444bd21fc2314b658d66509abb94eef72264758/tbp-nightly-2.16.1a20240329.tar.gz",
       "upload_time": "2024-03-29T09:25:38.930201Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "soundcloudpy",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/a1/5c/54a584f9c26a41341d656803025e3ba485f5314ecb96aa12a6d955dd941b/soundcloudpy-0.1.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:25:56.418356Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "soundcloudpy",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/9e/88/29acdcf859c70cabb56bfd27e6c0ad1383b79a2a08dcbd27a4ea0f1e3409/soundcloudpy-0.1.0.tar.gz",
       "upload_time": "2024-03-29T09:25:58.090860Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cleepcli",
       "project_version": "1.38.1",
       "url": "https://files.pythonhosted.org/packages/46/da/c2cf8ec54c50d355ae4c1d1981b96070d93f8f520e3c16ad254022f67609/cleepcli-1.38.1-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T09:26:29.505282Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cleepcli",
       "project_version": "1.38.1",
       "url": "https://files.pythonhosted.org/packages/ed/40/9ed0c83eef8b2f77de77df9252df8aa07d6f0f4630ba823cf8b1f8805bc9/cleepcli-1.38.1.tar.gz",
       "upload_time": "2024-03-29T09:26:32.346997Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "codeqai",
       "project_version": "0.0.17",
       "url": "https://files.pythonhosted.org/packages/f5/01/59957bedec39f235a2780b9c77874981ea74b3b5d054b3eda29e8e519a63/codeqai-0.0.17-py3-none-any.whl",
       "upload_time": "2024-03-29T09:27:32.525026Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "codeqai",
       "project_version": "0.0.17",
       "url": "https://files.pythonhosted.org/packages/50/e8/2ccdb6c7a74fbf6114df488f8d10c8f6ba1621b293ae69b51789759eaf1c/codeqai-0.0.17.tar.gz",
       "upload_time": "2024-03-29T09:27:34.220615Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "neulabs-cdk-constructs",
       "project_version": "0.7.0",
       "url": "https://files.pythonhosted.org/packages/f4/8c/876a5cbb670697ed1fd173656cc0c90c618b9830645cd3b920df7bac3da5/neulabs_cdk_constructs-0.7.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:27:39.425098Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "neulabs-cdk-constructs",
       "project_version": "0.7.0",
       "url": "https://files.pythonhosted.org/packages/ab/d9/fd69d54fe516b3f9e05506837a296a9876eff1fc5e68f97323211c241eca/neulabs-cdk-constructs-0.7.0.tar.gz",
       "upload_time": "2024-03-29T09:27:41.182459Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "EasyFactory",
       "project_version": "1.4.1",
       "url": "https://files.pythonhosted.org/packages/43/82/7e61ef2c4c7d03f3c5dda75000a5adcebe41639815a211161b7da0061c95/EasyFactory-1.4.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:27:56.495461Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "EasyFactory",
       "project_version": "1.4.1",
       "url": "https://files.pythonhosted.org/packages/fc/e6/68c927e9607fd199a62f7d9d4109f2a533c116570b48251de2b5b2e8bbb7/EasyFactory-1.4.1.tar.gz",
       "upload_time": "2024-03-29T09:27:57.703629Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "quickpub",
       "project_version": "0.6.1",
       "url": "https://files.pythonhosted.org/packages/e0/77/6f1f6135a61ecd8c63e80e2afa0d744587d425a89db18d413d30224c8360/quickpub-0.6.1.tar.gz",
       "upload_time": "2024-03-29T09:28:18.328522Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "m3-core",
       "project_version": "3.1.19",
       "url": "https://files.pythonhosted.org/packages/e3/68/320260b3791ab0237eaa3c50792a9feb1f07fedcb9efc40ee45e02824022/m3_core-3.1.19-py3-none-any.whl",
       "upload_time": "2024-03-29T09:28:26.896086Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "m3-core",
       "project_version": "3.1.19",
       "url": "https://files.pythonhosted.org/packages/89/8e/4a2ad4192d17c4b5da57245ce059292d1407c70ca4eaf2d16a6177940151/m3-core-3.1.19.tar.gz",
       "upload_time": "2024-03-29T09:28:29.446177Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.12",
       "url": "https://files.pythonhosted.org/packages/97/b4/75ac34d173b93a5df47b88e1bff1c885f5e0dad4fdca04aeb3cffe4605cb/mysql_compare-0.2.12-py3-none-any.whl",
       "upload_time": "2024-03-29T09:28:29.523411Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.12",
       "url": "https://files.pythonhosted.org/packages/25/9b/c185f53e3fef43c0bd18e93eae61d8d403f8852d3e393fcd2612b08b8d60/mysql-compare-0.2.12.tar.gz",
       "upload_time": "2024-03-29T09:28:33.725336Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelscope",
       "project_version": "1.13.3",
       "url": "https://files.pythonhosted.org/packages/83/9f/5a7802670bbd13e69d110032ba8aab0264dc42d82b4b7e87f4396647c0ae/modelscope-1.13.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:29:45.587595Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modelscope",
       "project_version": "1.13.3",
       "url": "https://files.pythonhosted.org/packages/5b/28/a18241e61be898365ec9bb4184d75a521a75acc404d320cd95504e0a9eac/modelscope-1.13.3.tar.gz",
       "upload_time": "2024-03-29T09:29:49.258196Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chess-utils",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/73/9d/bc16c9ce2c6982601b4d0008d9322df50cfefd08e932e183a520bdae3da1/chess_utils-0.1.5-py3-none-any.whl",
       "upload_time": "2024-03-29T09:30:05.292052Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chess-utils",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/96/49/2b2f6b6a0c50a89019a4f8fa4ae3ec40a9fe17c3962ed18ebfa909639378/chess-utils-0.1.5.tar.gz",
       "upload_time": "2024-03-29T09:30:07.012152Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgefrontend",
       "project_version": "4.0.2",
       "url": "https://files.pythonhosted.org/packages/61/7b/6a7920256e0ac4fcfd77dc72b3124ed9960f99b7878072b27822bf4b4445/systembridgefrontend-4.0.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:30:19.938715Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgefrontend",
       "project_version": "4.0.2",
       "url": "https://files.pythonhosted.org/packages/08/9e/befafa654de371b94f642fa54289ff0c205da171bb7b47fa55196e281e27/systembridgefrontend-4.0.2.tar.gz",
       "upload_time": "2024-03-29T09:30:23.005113Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgeshared",
       "project_version": "4.0.2",
       "url": "https://files.pythonhosted.org/packages/73/b2/b3b56000aa1f107389de168f0a564ff165c132d68b14e10b2d53816c59ca/systembridgeshared-4.0.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:30:58.275932Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgeshared",
       "project_version": "4.0.2",
       "url": "https://files.pythonhosted.org/packages/5b/6b/d91a9a02b43389fc45ac7261546ca8e39ef2b8489d32ac3187a13c8d8a0d/systembridgeshared-4.0.2.tar.gz",
       "upload_time": "2024-03-29T09:31:00.950873Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/3e/44/88d7a22db7a8553a58b2812c2e97e527415b317d6e908110fd30d052d910/hackathon_evaluation_rag-0.1.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:31:08.915459Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/19/4b/85568b2a78fd589b443800ac720baa85945fc505fe8fb0e956f0bc8a6451/hackathon_evaluation_rag-0.1.0.tar.gz",
       "upload_time": "2024-03-29T09:31:10.987840Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fetchcode",
       "project_version": "0.5.0",
       "url": "https://files.pythonhosted.org/packages/81/47/ca4fce191882eda5c073bdf6b1e757c893183d9824a33e54e8ff5f53dedf/fetchcode-0.5.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:31:34.265625Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "fetchcode",
       "project_version": "0.5.0",
       "url": "https://files.pythonhosted.org/packages/2d/48/a23c2947f0300c2a8b757039485f21896baeb66dbdfb32ede73a9a4bf98a/fetchcode-0.5.0.tar.gz",
       "upload_time": "2024-03-29T09:31:36.810746Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgeconnector",
       "project_version": "4.0.5",
       "url": "https://files.pythonhosted.org/packages/a5/2c/b48cd4ba5cec4ae3a8dfe084cbbd52f880824bec9c8cd98a048e7a5144bc/systembridgeconnector-4.0.5-py3-none-any.whl",
       "upload_time": "2024-03-29T09:31:45.045011Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgeconnector",
       "project_version": "4.0.5",
       "url": "https://files.pythonhosted.org/packages/e5/41/beead846d204aa456af29fbd6d1c5c3135ef49f5632bc5608397dcb2161c/systembridgeconnector-4.0.5.tar.gz",
       "upload_time": "2024-03-29T09:31:47.244557Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "increff-runner",
       "project_version": "3.1.3",
       "url": "https://files.pythonhosted.org/packages/3a/f5/136c03c59e96d074fdd94c70bf9303b6ff4fd045b1bb389c10ee2dea136f/increff_runner-3.1.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:32:16.352881Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pdm",
       "project_version": "2.13.1",
       "url": "https://files.pythonhosted.org/packages/5d/e1/1d873afa5f41b21faaf9e9ec78d591db9ea3099d34482ee02144c39d5276/pdm-2.13.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:32:56.106710Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pdm",
       "project_version": "2.13.1",
       "url": "https://files.pythonhosted.org/packages/59/68/616238c0ab6a1069465ef31c219c1e419e0feff43318203b6efb1c1904a4/pdm-2.13.1.tar.gz",
       "upload_time": "2024-03-29T09:33:00.363354Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "openfinance",
       "project_version": "3.3.1",
       "url": "https://files.pythonhosted.org/packages/a5/e4/802fe20acf52d16b80fb6ce17c8da8c03f7edfbd9cfcfc8bbb1abec6a213/openfinance-3.3.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:33:27.281791Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "openfinance",
       "project_version": "3.3.1",
       "url": "https://files.pythonhosted.org/packages/d4/36/be3a546c7f8ee207099e77cb809f0f03295d555f42b389273da6c2b3ca2a/openfinance-3.3.1.tar.gz",
       "upload_time": "2024-03-29T09:33:29.916598Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "certora-cli-alpha-master",
       "project_version": "20240329.9.34.639316",
       "url": "https://files.pythonhosted.org/packages/36/96/9db3e55f143b8c3c89ab895bfd689d1b14d4214a3ed815c84456eb5afcd2/certora_cli_alpha_master-20240329.9.34.639316-py3-none-any.whl",
       "upload_time": "2024-03-29T09:34:10.236184Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "certora-cli-alpha-master",
       "project_version": "20240329.9.34.639316",
       "url": "https://files.pythonhosted.org/packages/8a/91/87b917c86b2651b104116c066c5b276b29fb32f47cb7721ac8c73e558ed8/certora_cli_alpha_master-20240329.9.34.639316-py3-none-manylinux_2_28_x86_64.whl",
       "upload_time": "2024-03-29T09:34:13.405927Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "certora-cli-alpha-master",
       "project_version": "20240329.9.34.639316",
       "url": "https://files.pythonhosted.org/packages/52/e6/a13feb414535e04c330bbf39d9cc19de662067983d9cde4af95bbd7f0cba/certora_cli_alpha_master-20240329.9.34.639316-py3-none-macosx_10_9_universal2.whl",
       "upload_time": "2024-03-29T09:34:16.591612Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "certora-cli-alpha-master",
       "project_version": "20240329.9.34.639316",
       "url": "https://files.pythonhosted.org/packages/26/0a/4ae9eccd557f2dec43cb797c9c87689ff28664232b5bb413851b0eb90ef1/certora-cli-alpha-master-20240329.9.34.639316.tar.gz",
       "upload_time": "2024-03-29T09:34:19.411854Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgecli",
       "project_version": "4.0.2",
       "url": "https://files.pythonhosted.org/packages/1b/37/69fe1c341ecdefdc3bf670726c7fd4c4083d80127fe11bc08c2e12ea520a/systembridgecli-4.0.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:34:48.487275Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgecli",
       "project_version": "4.0.2",
       "url": "https://files.pythonhosted.org/packages/f3/02/2995d016560af7a535072ff29a5f62d186ff0f0b9b71863c26315f7b4c1a/systembridgecli-4.0.2.tar.gz",
       "upload_time": "2024-03-29T09:34:50.318760Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "localstack-core",
       "project_version": "3.3.1.dev20240329093445",
       "url": "https://files.pythonhosted.org/packages/2c/b1/eadd29587072a4f3d728e4c1b7bffec08dad8006763e812fa45cb242515a/localstack_core-3.3.1.dev20240329093445-py3-none-any.whl",
       "upload_time": "2024-03-29T09:35:13.425016Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "localstack-core",
       "project_version": "3.3.1.dev20240329093445",
       "url": "https://files.pythonhosted.org/packages/e8/a1/92a49db1c9373f56c24459f90607e1a059b4d221476f5c112b2e0d1bafd4/localstack-core-3.3.1.dev20240329093445.tar.gz",
       "upload_time": "2024-03-29T09:35:21.035680Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "jaxsim",
       "project_version": "0.2.dev364",
       "url": "https://files.pythonhosted.org/packages/d6/1f/b585e0a1d02a61124a804073873e38edd133cb88644304a2e85afbf4803c/jaxsim-0.2.dev364-py3-none-any.whl",
       "upload_time": "2024-03-29T09:36:37.314573Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "jaxsim",
       "project_version": "0.2.dev364",
       "url": "https://files.pythonhosted.org/packages/ca/9a/1c1873237bb2c355265e6f99276662e4177fface07e8cd39231bf6e1c8c5/jaxsim-0.2.dev364.tar.gz",
       "upload_time": "2024-03-29T09:36:39.501432Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "frasco",
       "project_version": "3.5.0",
       "url": "https://files.pythonhosted.org/packages/0e/c7/c726810fec4f0704f5e4531c6d6a0fcb02ce7901e338d5543cdfc8d9d587/frasco-3.5.0.tar.gz",
       "upload_time": "2024-03-29T09:36:50.983278Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qibolab",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/4b/c9/fc308df83547d9ffdc650b559d0adcbf56b21ef2b702d15fe68ed01dd62d/qibolab-0.1.6-py3-none-any.whl",
       "upload_time": "2024-03-29T09:36:59.319262Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qibolab",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/a9/c3/2697a89f4f36d2addcc5b0f76c5ad126913ab3be597defa17af36c55501a/qibolab-0.1.6.tar.gz",
       "upload_time": "2024-03-29T09:37:01.380256Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pascalnobereit-langchain-google-vertexai",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/10/dd/82cd5adef7dbd1de8f599ad8912cbd3b5d0f69eeecc94076ab7d33af6091/pascalnobereit_langchain_google_vertexai-0.1.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:37:06.464193Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pascalnobereit-langchain-google-vertexai",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/10/46/826893698b37b8fe3d412df0be5d3a9a27712b7667291710f2ff7de3f7ca/pascalnobereit_langchain_google_vertexai-0.1.4.tar.gz",
       "upload_time": "2024-03-29T09:37:08.553177Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-series-anomaly-detector",
       "project_version": "0.2.4",
       "url": "https://files.pythonhosted.org/packages/b4/73/190c22e661416ce0c543ffb5fa128fb3fabdf46c3d65c5c5d330cf5adf5e/time-series-anomaly-detector-0.2.4.tar.gz",
       "upload_time": "2024-03-29T09:37:53.554604Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ms-reader",
       "project_version": "1.6.2",
       "url": "https://files.pythonhosted.org/packages/93/95/8ab3d322e44ed957d77e335f836ee9d7ee8d12772e1f2602917d15564f9b/ms_reader-1.6.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:38:06.974948Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ms-reader",
       "project_version": "1.6.2",
       "url": "https://files.pythonhosted.org/packages/18/be/12e48aee37a20ded63fc7159261e4fd851b5777c4a603610d2e14c89ed50/ms_reader-1.6.2.tar.gz",
       "upload_time": "2024-03-29T09:38:08.760869Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "keble-db",
       "project_version": "0.0.24",
       "url": "https://files.pythonhosted.org/packages/29/c7/9b7eedad05e10b96ab6a6b28b73833b9bdc9f2963df27dfae62642576173/keble_db-0.0.24-py3-none-any.whl",
       "upload_time": "2024-03-29T09:38:08.774398Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "keble-db",
       "project_version": "0.0.24",
       "url": "https://files.pythonhosted.org/packages/6c/29/8c51625916149dd01015a6e981ca55f129715f903d98595a1745d21b9881/keble_db-0.0.24.tar.gz",
       "upload_time": "2024-03-29T09:38:10.879008Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgebackend",
       "project_version": "4.1.1",
       "url": "https://files.pythonhosted.org/packages/8c/b4/1916c23f9025f51108107cfc1c8de301376b693fc81fbd99f559a2d0f5c4/systembridgebackend-4.1.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:39:39.474807Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "systembridgebackend",
       "project_version": "4.1.1",
       "url": "https://files.pythonhosted.org/packages/8f/3d/6c258557a74143d73e01eb80b4c5c6bc496995f85e76db49d0223b18bf7d/systembridgebackend-4.1.1.tar.gz",
       "upload_time": "2024-03-29T09:39:42.255965Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "increff-runner",
       "project_version": "3.1.4",
       "url": "https://files.pythonhosted.org/packages/dd/ae/28d889c67fc53090c2a177498672699271e335fc9608f3ffcf2ab2ecdb9d/increff_runner-3.1.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:39:48.803359Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "django-friendly-captcha",
       "project_version": "0.1.10",
       "url": "https://files.pythonhosted.org/packages/2b/85/54f27d99e93962e6ceea18bff88b2d43b4631dfe979806c2d1e42e32350b/django_friendly_captcha-0.1.10-py3-none-any.whl",
       "upload_time": "2024-03-29T09:40:20.935476Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "django-friendly-captcha",
       "project_version": "0.1.10",
       "url": "https://files.pythonhosted.org/packages/b4/d8/68e3b61a0bfe91aa04e3415e9c4ba6006edb24a4a7a3f7be198a006bedc4/django-friendly-captcha-0.1.10.tar.gz",
       "upload_time": "2024-03-29T09:40:22.722278Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyllmsearch",
       "project_version": "0.7.0",
       "url": "https://files.pythonhosted.org/packages/bd/f8/35c58c7c34aa7eac83a3c28867962933be9cb2640d915d6e6dc29153db87/pyllmsearch-0.7.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:40:48.894376Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyllmsearch",
       "project_version": "0.7.0",
       "url": "https://files.pythonhosted.org/packages/db/78/fb7201479240dc116557bb3cfd013b459affffcbd78897decd4c85b3968c/pyllmsearch-0.7.0.tar.gz",
       "upload_time": "2024-03-29T09:40:51.823871Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "smart-app-framework",
       "project_version": "3.0.0rc19",
       "url": "https://files.pythonhosted.org/packages/d4/1e/bed62811c6ebd7fee3ed4a32413858e03f645553ed94b46295270b056b4d/smart_app_framework-3.0.0rc19-py3-none-any.whl",
       "upload_time": "2024-03-29T09:42:20.565047Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/06/4e/72d695c7a3601d4bcffd26d7e02895d63c6e3ce5800ef68901e8f218bc94/pyqrlew-0.9.17-cp38-abi3-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-29T09:42:32.355483Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/c7/34/40752e8cb1dc14a5be5e6e6aae64d72d0fa023966c6be7f2bf0d15086814/pyqrlew-0.9.17-cp38-abi3-macosx_11_0_arm64.whl",
       "upload_time": "2024-03-29T09:42:34.456851Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/72/a1/a742cd628677c266446dce375c9fb37587c2f1f2ec3b53f82ce04ee1082f/pyqrlew-0.9.17-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-29T09:42:36.603012Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/14/f8/8ee5c79a262958a30f9aa9ad853c8f3866196b9cb35b82ec90a99365f512/pyqrlew-0.9.17-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-29T09:42:38.952413Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/21/ea/e130e96a66e3246f64f46be638fde64dc3ac4302e034cd0d4785eb020870/pyqrlew-0.9.17-cp38-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-29T09:42:40.767569Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/8d/78/3048fa4c443413fe9dadcc356c034803db8a020a935b5ada4e5b6b245359/pyqrlew-0.9.17-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-29T09:42:42.706788Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/1a/f7/9a30acb717b66bf8346528c88ee193b79bb454bf6dde8c2300b8fae587c9/pyqrlew-0.9.17-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:42:45.002051Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/3c/69/885da03bab6dbb60d56cc0c09cb4ade32cd976a64872a127fddae0ec6e15/pyqrlew-0.9.17-cp38-abi3-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-29T09:42:47.328223Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/c2/b7/e64dea97ce8359e7e68b91b3e06ed535e018a491eae2ed6fbc3bb8d7849e/pyqrlew-0.9.17-cp38-abi3-win32.whl",
       "upload_time": "2024-03-29T09:42:49.176406Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/55/d6/fd6884ec80665afb6f4eaf85d219fc8cfa722266ac64d058d28f5e1d6877/pyqrlew-0.9.17-cp38-abi3-win_amd64.whl",
       "upload_time": "2024-03-29T09:42:51.662234Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqrlew",
       "project_version": "0.9.17",
       "url": "https://files.pythonhosted.org/packages/7f/e5/1aba1b4b9b634563f5e019cc3e1c58828f8e4dcae55963902bbb1edf4b36/pyqrlew-0.9.17.tar.gz",
       "upload_time": "2024-03-29T09:42:53.804380Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chessengine",
       "project_version": "0.3.4",
       "url": "https://files.pythonhosted.org/packages/7c/1f/3f90ac9836251142a16b723e9e99ea2657f5b1a7956e0c0c3a19d440ae5e/chessengine-0.3.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:43:04.850578Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chessengine",
       "project_version": "0.3.4",
       "url": "https://files.pythonhosted.org/packages/ec/0e/2213aac27dc5b6fec0ddca45c8941eae53eb4713faca7f0139c016647edb/chessengine-0.3.4.tar.gz",
       "upload_time": "2024-03-29T09:43:10.543800Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "quickpub",
       "project_version": "0.6.30",
       "url": "https://files.pythonhosted.org/packages/4d/41/d2c4dd2b8a87ea87952e950d6b1669af3227fefa931eae8f956fa701cb1c/quickpub-0.6.30.tar.gz",
       "upload_time": "2024-03-29T09:44:04.420347Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "llmuses",
       "project_version": "0.2.7rc4",
       "url": "https://files.pythonhosted.org/packages/88/c7/e8708fc42ec4935248d4eabbda60b764659c10f810a23283982250ea7a04/llmuses-0.2.7rc4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:44:05.943542Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "llmuses",
       "project_version": "0.2.7rc4",
       "url": "https://files.pythonhosted.org/packages/2a/7c/8f0a2ecc5943fc06f06903fc8469d71977e95d2a83e6c1a690c63b738064/llmuses-0.2.7rc4.tar.gz",
       "upload_time": "2024-03-29T09:44:08.724478Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "diffoscope",
       "project_version": "262",
       "url": "https://files.pythonhosted.org/packages/0f/a8/dea7714e787b8ac3c6973dd85ce2f2128b54665a522b4d1f43487aab7abe/diffoscope-262.tar.gz",
       "upload_time": "2024-03-29T09:44:29.185639Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyfedic",
       "project_version": "24.3.0",
       "url": "https://files.pythonhosted.org/packages/b3/c0/c8ed499fcd8ec249dc22e425ff23564eccf38b91da1426feaca4be9a21f8/pyfedic-24.3.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:44:29.416686Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyfedic",
       "project_version": "24.3.0",
       "url": "https://files.pythonhosted.org/packages/8c/1d/8fa842e761ac7ba3f88b9663263b586995a7773022a189231f02b03382e5/pyfedic-24.3.0.tar.gz",
       "upload_time": "2024-03-29T09:44:33.192021Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqwe",
       "project_version": "0.2.0",
       "url": "https://files.pythonhosted.org/packages/d9/90/56fe84062df26e32471743c7c777f97be77b24d741808b9400bc8bf41d2d/pyqwe-0.2.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:44:41.005180Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyqwe",
       "project_version": "0.2.0",
       "url": "https://files.pythonhosted.org/packages/bb/44/cbabf54565abf2c00c4e48d652358e2301f199bb4fc18e966fe484ffc651/pyqwe-0.2.0.tar.gz",
       "upload_time": "2024-03-29T09:44:43.585277Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "keble-db",
       "project_version": "0.0.25",
       "url": "https://files.pythonhosted.org/packages/50/dc/13375a2a225d01bc6bfec9910625da22759d99c3cc1eead64eb5eccdf83f/keble_db-0.0.25-py3-none-any.whl",
       "upload_time": "2024-03-29T09:44:44.765804Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "keble-db",
       "project_version": "0.0.25",
       "url": "https://files.pythonhosted.org/packages/8e/4f/eaf4ba8b5ffafe7ec872cde84bf11b0f822dbcb84cc221fabdd6bd81d9d1/keble_db-0.0.25.tar.gz",
       "upload_time": "2024-03-29T09:44:46.354216Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sendchamp",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/17/6f/102c71f56bb94267706dc6b8564c2610ac7a0d189a4349917a8795db24d0/sendchamp-0.0.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:45:27.054030Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sendchamp",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/29/81/96c4db27d47584f6ba2d67d3f79ce5ae0b562b6b3ba7374c333bdc610f2d/sendchamp-0.0.2.tar.gz",
       "upload_time": "2024-03-29T09:45:31.246827Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "finch-tensor",
       "project_version": "0.1.8",
       "url": "https://files.pythonhosted.org/packages/1d/dd/e19c3be7732211e03d7d6d0b4e2f2a0f380b8d899175b1caa055f2a442d0/finch_tensor-0.1.8-py3-none-any.whl",
       "upload_time": "2024-03-29T09:46:40.350705Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "finch-tensor",
       "project_version": "0.1.8",
       "url": "https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz",
       "upload_time": "2024-03-29T09:46:41.338823Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/3c/54/72bf2f1d5215becdee793bd06dd9941b71722e8d3dd5d98af3bb4462800d/hackathon_evaluation_rag-0.1.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:46:49.286718Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/b6/44/28b33f6f12118ff33ee7f5774baa089c4dfc0cbe997e08f20c79590ae497/hackathon_evaluation_rag-0.1.1.tar.gz",
       "upload_time": "2024-03-29T09:46:51.022543Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "slurmpie",
       "project_version": "0.8.0",
       "url": "https://files.pythonhosted.org/packages/8b/62/d6deb76b920f5fa573d7cc7c71d3b8c124e7891caff645553ad1d770ce47/slurmpie-0.8.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:48:46.484016Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "slurmpie",
       "project_version": "0.8.0",
       "url": "https://files.pythonhosted.org/packages/c0/c2/16acbd220502ca93d7e6e2f1bce2377251c01106f4cd69bed77bece4e128/slurmpie-0.8.0.tar.gz",
       "upload_time": "2024-03-29T09:48:48.034174Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chsu_schedule_api",
       "project_version": "1.0.4",
       "url": "https://files.pythonhosted.org/packages/80/f8/f03f9afe9ca092e4599105155a66dd516b520899b2d52f70428c953a21f8/chsu_schedule_api-1.0.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:49:05.906715Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chsu_schedule_api",
       "project_version": "1.0.4",
       "url": "https://files.pythonhosted.org/packages/21/78/74fe2135e94569320c73f62fffc77552a1f436f2cb93661d5b4c513d8e38/chsu_schedule_api-1.0.4.tar.gz",
       "upload_time": "2024-03-29T09:49:07.600413Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "paddleocr",
       "project_version": "2.7.5",
       "url": "https://files.pythonhosted.org/packages/04/5c/b5e232b85b90f95fc6e911cf281a37dfc712833c6b4402aefb879abaf7b5/paddleocr-2.7.5-py3-none-any.whl",
       "upload_time": "2024-03-29T09:49:07.977831Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "AutoDPbyZyy",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/45/dd/5263f780501d1b5f63f1ef0e8d0491a5cf39aaf182c0efca9779becc6392/AutoDPbyZyy-0.1.0-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T09:49:33.646896Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "AutoDPbyZyy",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/97/e5/5de0e1f30bf69f69344d4394a4e1c484cefc77a7fdf2aae8c68abc02d423/AutoDPbyZyy-0.1.0.tar.gz",
       "upload_time": "2024-03-29T09:49:35.659125Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cator",
       "project_version": "1.0.11",
       "url": "https://files.pythonhosted.org/packages/8d/ad/c6bf03adc105f86cb7f79bf9169cc72c16e00f0bcdb18b49460865f61c6d/cator-1.0.11-py3-none-any.whl",
       "upload_time": "2024-03-29T09:50:02.805725Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cator",
       "project_version": "1.0.11",
       "url": "https://files.pythonhosted.org/packages/03/ed/55a1485fedb871115459fc491a7ea26befd9294e22e98fe1c9d87dcc1cef/cator-1.0.11.tar.gz",
       "upload_time": "2024-03-29T09:50:05.191475Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spurplus",
       "project_version": "2.3.5",
       "url": "https://files.pythonhosted.org/packages/6c/ff/ce6fbdb6ef2d11faa37907babf01a4d1fce88259dac6b34b338ff7def7a3/spurplus-2.3.5-py3-none-any.whl",
       "upload_time": "2024-03-29T09:50:33.583739Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spurplus",
       "project_version": "2.3.5",
       "url": "https://files.pythonhosted.org/packages/c2/5f/a11bbda84921ffbbc12196cdc21bee2f6754372b8a8ec9b11f9b4f3b4087/spurplus-2.3.5.tar.gz",
       "upload_time": "2024-03-29T09:50:35.031351Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/78/9a/7d73957d3e64d9e138dd0d4c3bcc7e2a850b7cfa24870af8162349e49585/hackathon_evaluation_rag-0.1.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:51:12.197245Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/e2/99/907efc5cecea8124b95e8952e321fa527657de389e1f9b20a4fa752f8ba5/hackathon_evaluation_rag-0.1.2.tar.gz",
       "upload_time": "2024-03-29T09:51:13.947525Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "quickpub",
       "project_version": "0.6.31",
       "url": "https://files.pythonhosted.org/packages/4e/3e/b25ca039ff6469acd10c63af66d877f11922f1473149adc4fe9a8deca58d/quickpub-0.6.31.tar.gz",
       "upload_time": "2024-03-29T09:51:20.480872Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "primal-page",
       "project_version": "1.4.1",
       "url": "https://files.pythonhosted.org/packages/06/9d/87e37cabfea159703e4b750ff312434240bc77546c65a1d271ad93d3359d/primal_page-1.4.1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:51:36.019306Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "inspy",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/ee/4a/78228870ddee4639620cbd39d795435abc2699cd1d9d2128238cb31009ba/inspy-0.1.2-py3-none-any.whl",
       "upload_time": "2024-03-29T09:51:36.234401Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "primal-page",
       "project_version": "1.4.1",
       "url": "https://files.pythonhosted.org/packages/9c/c4/2e656fe9d22cf6ca0ade68f8b0b0d7c7c34434b402f19f842da523ba7b95/primal_page-1.4.1.tar.gz",
       "upload_time": "2024-03-29T09:51:37.841757Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "inspy",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/85/7c/59a4eb4b7fd6c2896167a85b0d8bdc386f17c8bdc475c06b451e676c61e2/inspy-0.1.2.tar.gz",
       "upload_time": "2024-03-29T09:51:38.335403Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/14/41/bd85d723b74d4beaf20eebdecd7d2769dd96535b1fdc2a223d821210c4d5/f3d-2.3.1-cp310-cp310-macosx_10_9_x86_64.whl",
       "upload_time": "2024-03-29T09:52:11.011216Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/62/0e/5cd3f38f1e2fe4cf68605a3e882ee308598ab48e412a6cf87d4a7c757b5d/f3d-2.3.1-cp310-cp310-manylinux_2_28_x86_64.whl",
       "upload_time": "2024-03-29T09:52:14.976683Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/4d/c6/89ade4bc6db96911ec643c8ca0c97a7320be4fa0bdb4f0b6cf305bd9b9dd/f3d-2.3.1-cp310-cp310-win_amd64.whl",
       "upload_time": "2024-03-29T09:52:17.569605Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/80/2b/53d02f1b9c66f5cba3c1111222e57d75af671630e5919a4c0fef4fbf7a0c/f3d-2.3.1-cp311-cp311-macosx_10_9_x86_64.whl",
       "upload_time": "2024-03-29T09:52:20.391035Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/f0/2a/a2d5bdd51f00daec146e7efb0489b8d61c9495543e62a313bb629bb75064/f3d-2.3.1-cp311-cp311-manylinux_2_28_x86_64.whl",
       "upload_time": "2024-03-29T09:52:23.641080Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/5a/e6/62dbc6df6a7e303856641ea09b40d90c164a57f678f09aa4073e25e90617/f3d-2.3.1-cp311-cp311-win_amd64.whl",
       "upload_time": "2024-03-29T09:52:26.359211Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/d9/1a/1cd67836cdaedc3e7ce296ba79cdde141eae8e3068ba258d1ea0c0b681ad/f3d-2.3.1-cp312-cp312-macosx_10_9_x86_64.whl",
       "upload_time": "2024-03-29T09:52:29.259488Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/9d/83/af6e764d842502032dd5a676525923dad3faf59b88b4729b0587d16d6238/f3d-2.3.1-cp312-cp312-manylinux_2_28_x86_64.whl",
       "upload_time": "2024-03-29T09:52:32.013284Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/97/8c/62bb9d319391cb684e223a553ac15e1f3f6a22763253b66114779ab05a93/f3d-2.3.1-cp312-cp312-win_amd64.whl",
       "upload_time": "2024-03-29T09:52:35.021261Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/fb/14/cb931bb760135044ab86320c8af71d9c49f4498a8121dd66df59b21c72b7/f3d-2.3.1-cp38-cp38-macosx_10_9_x86_64.whl",
       "upload_time": "2024-03-29T09:52:37.325362Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/02/72/233689a2bcb5057651aed6b1c38ac7b25ac6c0a1b720acd1e3b3256c462e/f3d-2.3.1-cp38-cp38-manylinux_2_28_x86_64.whl",
       "upload_time": "2024-03-29T09:52:40.691765Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/7d/aa/7683140be390f50e48b7055d9c59e217a1ca2e70428800fa8a2511654899/f3d-2.3.1-cp38-cp38-win_amd64.whl",
       "upload_time": "2024-03-29T09:52:43.715564Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/4f/ba/6832c5d32aeb64b04e7a391db1342de4789af6536f18b4e35d7c1bc4c779/f3d-2.3.1-cp39-cp39-macosx_10_9_x86_64.whl",
       "upload_time": "2024-03-29T09:52:46.340973Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deepvoxnet2",
       "project_version": "2.15.1",
       "url": "https://files.pythonhosted.org/packages/fc/4d/1e097eccc8eb143a26d27e2b5df16c988d8ac3dc47f8e0e11898ceb49939/deepvoxnet2-2.15.1.tar.gz",
       "upload_time": "2024-03-29T09:52:48.628507Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/32/6f/b2b86654ffa0d42053a0d7c48775708531ddaa69a5b7d2661a29255bc738/f3d-2.3.1-cp39-cp39-manylinux_2_28_x86_64.whl",
       "upload_time": "2024-03-29T09:52:49.007207Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "f3d",
       "project_version": "2.3.1",
       "url": "https://files.pythonhosted.org/packages/3d/d7/cf271c9cfb338a8e26bea617ef05e3dbcac86eab7b179fc7f32a00e0e4d4/f3d-2.3.1-cp39-cp39-win_amd64.whl",
       "upload_time": "2024-03-29T09:52:52.032064Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nested-chat-plugin-sdk",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/a6/f5/4d1fe15ef8e849e58de5a67a340922b795df2b66ed84825831b69874be0e/nested_chat_plugin_sdk-0.1.6-py3-none-any.whl",
       "upload_time": "2024-03-29T09:53:14.621537Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nested-chat-plugin-sdk",
       "project_version": "0.1.6",
       "url": "https://files.pythonhosted.org/packages/37/67/6be0a795348ad3c7650215e63a06014b003a700301fa3d9b26f43465a570/nested_chat_plugin_sdk-0.1.6.tar.gz",
       "upload_time": "2024-03-29T09:53:16.397080Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ak-androguard",
       "project_version": "3.4.0a1.post3",
       "url": "https://files.pythonhosted.org/packages/5d/55/f71e2b5cab9d415d0bf23398fa2ed2ac18020ca4d4a74fe004143eb40b8e/ak_androguard-3.4.0a1.post3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:53:27.443363Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ak-androguard",
       "project_version": "3.4.0a1.post3",
       "url": "https://files.pythonhosted.org/packages/2e/22/2dcf70944c76be0f8a024d2dc1cb23d24e474f5ee3403bbbf3aea24771f1/ak-androguard-3.4.0a1.post3.tar.gz",
       "upload_time": "2024-03-29T09:53:29.434287Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/da/21/0187e53f03f86aec81bede621b785b58dc163024bc87cfe41f43a9915a52/hackathon_evaluation_rag-0.1.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:54:03.939731Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hackathon-evaluation-rag",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/66/7e/336de0fc2e107710a8257626befff95c20452f37f2931ce874c7a82e72ef/hackathon_evaluation_rag-0.1.3.tar.gz",
       "upload_time": "2024-03-29T09:54:05.225053Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "increff-runner",
       "project_version": "3.1.5",
       "url": "https://files.pythonhosted.org/packages/85/69/dfc87ea27acbf62a4ef9c278cafccebf72ebe7276ec8a85a547c9a437c1b/increff_runner-3.1.5-py3-none-any.whl",
       "upload_time": "2024-03-29T09:54:27.233413Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nonebot-plugin-osubot",
       "project_version": "5.2.4",
       "url": "https://files.pythonhosted.org/packages/57/3b/43649afd5f5d6751cd147ef09298f03b48e0c23b2df6f49b4057dcef606a/nonebot_plugin_osubot-5.2.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:54:36.102716Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nonebot-plugin-osubot",
       "project_version": "5.2.4",
       "url": "https://files.pythonhosted.org/packages/ff/08/43196d9320f439193337513f415d71284f70bfc5a1d90024da7548c96ff3/nonebot-plugin-osubot-5.2.4.tar.gz",
       "upload_time": "2024-03-29T09:54:41.031589Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sim_pusht",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/ae/19/88d53abf35db493adac44c844b2337e72b35a4079c28c4e708431ec71191/sim_pusht-0.1.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:55:30.485909Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sim_pusht",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/5f/ab/0f8e30662b2cdbf0a9f5624fb5f7d1568adf16a1792e9cd0e527a7e965d1/sim_pusht-0.1.0.tar.gz",
       "upload_time": "2024-03-29T09:55:32.544054Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dissect.target",
       "project_version": "3.17.dev19",
       "url": "https://files.pythonhosted.org/packages/db/e2/f05278d12c94308a378f300b968684face58750ec1a725fe84850c819816/dissect.target-3.17.dev19-py3-none-any.whl",
       "upload_time": "2024-03-29T09:55:51.682957Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dissect.target",
       "project_version": "3.17.dev19",
       "url": "https://files.pythonhosted.org/packages/14/fe/6396072dd8a40103a8b28d2afde81773c982aa643af581b4381f83c5de14/dissect.target-3.17.dev19.tar.gz",
       "upload_time": "2024-03-29T09:55:56.104708Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/93/c8/e883b5a8789a6b2eed90600fed06795fcdc2f0e4c1f0969a34b442abd0b7/cuda_mock-0.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:10.866209Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/b8/5e/6f4d704c0811edbe9e5759257245cb1b3de5ce958f5d31eceeee8a8f7176/cuda_mock-0.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:12.322266Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/f9/4b/f8a53be1111bf19a81824ff9bd60915731b5e80dec82aeac5fe161ec5037/cuda_mock-0.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:14.435486Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/cc/cd/becbc125f4455d97b52cd15972e811274b1a52859d89bef4c8be0be0f17b/cuda_mock-0.1.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:16.111450Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/dc/e5/e41a881f0993ffdf0d9c111eb7837b8940e099f1057ae5f7d03ba1c43843/cuda_mock-0.1.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:17.953120Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/97/5c/08e3c46e9e5ced48856fcee0b170f1903afd3944f2446006687f47a662fc/cuda_mock-0.1.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:19.866829Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/2d/12/38ad8cbf16aeac568ec6675d814b7bc32de67e6d6d1a032f22d550b9aa19/cuda_mock-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:21.747700Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/2d/7d/33dead9683afcceabd5d81a3728f77e7c6bd8e0944a4dd280cee80e8a96e/cuda_mock-0.1.5-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:23.689587Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/ce/b6/b178874fc2890569d59645ab37bffec6828bc48c3b4a7de04418910935b1/cuda_mock-0.1.5-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:25.127767Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/29/3e/47d8038a32d2c444de2bf34f7f3c069ac0b62d35ad85fa00b2e3111994d8/cuda_mock-0.1.5-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:27.020382Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/42/8f/92064faffb84fa8e222480fb119c928814f798bbed83239cc0539f52f899/cuda_mock-0.1.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-29T09:56:28.401383Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cuda-mock",
       "project_version": "0.1.5",
       "url": "https://files.pythonhosted.org/packages/f6/78/9e631e91a22a9ec061508d197f54a2ce98feb8b04ca4f0a80ef4d74f7eb6/cuda-mock-0.1.5.tar.gz",
       "upload_time": "2024-03-29T09:56:29.636059Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hyper_surrogate",
       "project_version": "0.0.0a1",
       "url": "https://files.pythonhosted.org/packages/a9/27/5f9ff1a6f4f0c09e0204a993acf72b69dee72f4af01686400399e4a4ba04/hyper_surrogate-0.0.0a1-py3-none-any.whl",
       "upload_time": "2024-03-29T09:56:43.679468Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dataset.sh",
       "project_version": "0.0.25.post8",
       "url": "https://files.pythonhosted.org/packages/82/ac/1c0beafefc99f6236a09f658060cde4ca855bfbc456a6d0119b511b15227/dataset_sh-0.0.25.post8-py3-none-any.whl",
       "upload_time": "2024-03-29T09:56:43.937164Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hyper_surrogate",
       "project_version": "0.0.0a1",
       "url": "https://files.pythonhosted.org/packages/3f/91/317a67f75bc4bba2d4b8ddd896d22a8d9c15a22661cb276c11a3b3bee7e2/hyper_surrogate-0.0.0a1.tar.gz",
       "upload_time": "2024-03-29T09:56:45.138260Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dataset.sh",
       "project_version": "0.0.25.post8",
       "url": "https://files.pythonhosted.org/packages/9d/3b/5c5557b0b5c6526ad1e5afd22e4a0ad76733de317fc890b85ce41e530fb8/dataset_sh-0.0.25.post8.tar.gz",
       "upload_time": "2024-03-29T09:56:46.810189Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "game-prediction2",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/f8/73/f68b9a3c781200b38b09894a026ba706533342e2a1d62ce201bd34fd3135/game_prediction2-0.1.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:57:01.190982Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "game-prediction2",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/b8/1d/81b54e2fe9a0dc7bfceaabe1f7e51340760682840d1106197d57b3cb452b/game-prediction2-0.1.4.tar.gz",
       "upload_time": "2024-03-29T09:57:02.831465Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sbcli-mig",
       "project_version": "1.0.2",
       "url": "https://files.pythonhosted.org/packages/8d/0c/3012497e8421a17247f125c4dea90c70337b3e7825a43d956497d95fa72e/sbcli-mig-1.0.2.zip",
       "upload_time": "2024-03-29T09:58:16.573195Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.13",
       "url": "https://files.pythonhosted.org/packages/94/21/6e56aed20827a82b2a27d8c20b08ef2bb1afa3e01aaa309b35160f2e9502/mysql_compare-0.2.13-py3-none-any.whl",
       "upload_time": "2024-03-29T09:58:27.438215Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mysql-compare",
       "project_version": "0.2.13",
       "url": "https://files.pythonhosted.org/packages/e3/13/d2a7835ce989f0240a627308789b6d20a5686a078dcf9e5fe7e473e31f55/mysql-compare-0.2.13.tar.gz",
       "upload_time": "2024-03-29T09:58:31.388697Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "e-data",
       "project_version": "1.2.11",
       "url": "https://files.pythonhosted.org/packages/8b/7b/1a9e6e9bdec9e44ce5c83f8f5608d4fa7c98587bd8fbe759f29a8373adf1/e_data-1.2.11-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T09:58:34.527678Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "e-data",
       "project_version": "1.2.11",
       "url": "https://files.pythonhosted.org/packages/fb/70/1607a36db11effe75c9fe22e21f50562476d08da2c63a15d22dbb0ecfc45/e-data-1.2.11.tar.gz",
       "upload_time": "2024-03-29T09:58:36.844517Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyaedt",
       "project_version": "0.8.5",
       "url": "https://files.pythonhosted.org/packages/95/d4/cc3bde9f757a0d9bcd191fcb11263852a2cacd72d4f6bbf30c2786ac0684/pyaedt-0.8.5-py3-none-any.whl",
       "upload_time": "2024-03-29T09:59:04.167477Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "breidablik",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/dd/a9/cd513c1d6eb8467be6230574c09f65376e5b448d61258a1c424acdfdbe54/breidablik-1.4.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:59:06.301654Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyaedt",
       "project_version": "0.8.5",
       "url": "https://files.pythonhosted.org/packages/56/7b/6bd57fe3cb488b1b0c51b4f61a9049524f0161bf952a29b17bc7c525328c/pyaedt-0.8.5.tar.gz",
       "upload_time": "2024-03-29T09:59:08.200007Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "zgw-consumers-oas",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/54/2d/51aea09b5c70d1755e3c47a24876b10589d47551fd1654921e5c118b93fc/zgw_consumers_oas-1.0.0-py3-none-any.whl",
       "upload_time": "2024-03-29T09:59:09.988585Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "zgw-consumers-oas",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/ca/06/33ab88b994317165fd2e6d11b1e32b43925079a50d66b221465c80ee751a/zgw-consumers-oas-1.0.0.tar.gz",
       "upload_time": "2024-03-29T09:59:11.905672Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "breidablik",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/93/36/2fc033637d6c663cfbc4dc8b7ccb9fa239eb1170a79289a7dcaa94f72514/breidablik-1.4.0.tar.gz",
       "upload_time": "2024-03-29T09:59:12.028973Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "oc-client-provider",
       "project_version": "1.0.4",
       "url": "https://files.pythonhosted.org/packages/94/61/00bd83f69cb82cffd81c77fa9bc9d2c8cfa8789b49c438b51b8322c3cd69/oc_client_provider-1.0.4-py3-none-any.whl",
       "upload_time": "2024-03-29T09:59:37.124884Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "knowledgeai-client",
       "project_version": "0.4.3",
       "url": "https://files.pythonhosted.org/packages/ba/0e/7ebcb58dd66c9a9e9edaec83207831df904975fecc0ea74e22599d30e63d/knowledgeai_client-0.4.3-py3-none-any.whl",
       "upload_time": "2024-03-29T09:59:57.959262Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "knowledgeai-client",
       "project_version": "0.4.3",
       "url": "https://files.pythonhosted.org/packages/b1/2c/c28162df81afab1b4a8bd2847c4dae867b9171aebe9c277e50465b9fd03d/knowledgeai_client-0.4.3.tar.gz",
       "upload_time": "2024-03-29T09:59:59.547518Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "justai",
       "project_version": "3.1.8",
       "url": "https://files.pythonhosted.org/packages/33/f5/9d2e36f1abc43ba620f0d9a3e1e51f0e68ac671f651f089b4bc93a445819/justai-3.1.8-py3-none-any.whl",
       "upload_time": "2024-03-29T10:02:22.378462Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "justai",
       "project_version": "3.1.8",
       "url": "https://files.pythonhosted.org/packages/4f/c7/7ae744a65b3c55dbda724c970b17423bdf70d2a320d47a5eb10c7a5c3370/justai-3.1.8.tar.gz",
       "upload_time": "2024-03-29T10:02:24.376574Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "casbin-pymongo-adapter",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/13/8c/2adc0bef41067a6e69adae569b748830d04db3033c4d542ff88e3835e495/casbin_pymongo_adapter-1.1.0-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T10:02:26.980166Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deeploy",
       "project_version": "1.37.0",
       "url": "https://files.pythonhosted.org/packages/6d/8d/553db90a2baed2c76c360dd767bf91db4907e02266da54db4a1303d777cb/deeploy-1.37.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:02:27.923903Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "casbin-pymongo-adapter",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/6c/8d/d816e8a3042511b70bf116e225b7bd15a3379c8b6717ad8468e64646e600/casbin_pymongo_adapter-1.1.0.tar.gz",
       "upload_time": "2024-03-29T10:02:28.663474Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deeploy",
       "project_version": "1.37.0",
       "url": "https://files.pythonhosted.org/packages/78/48/ea0abbad0d01293a498f413b7a86a15507721f8d95d734c64144f9e689d6/deeploy-1.37.0.tar.gz",
       "upload_time": "2024-03-29T10:02:29.745823Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "docread",
       "project_version": "0.0.0",
       "url": "https://files.pythonhosted.org/packages/08/a0/814b1ba80728cf2acf23c55c2ad28102f8f6933b2a2032f43dd37c8cb232/docread-0.0.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:02:35.209261Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "platforms",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/68/ab/1882961067de2597f31123f1bc582922ff82bf14b15cc8fc45e9609decac/platforms-1.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T10:03:58.980249Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "platforms",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/f7/0f/42964d996c99faf731115aa30d8cb815adad7a1496fc9f708d52b1f536a3/platforms-1.0.1.tar.gz",
       "upload_time": "2024-03-29T10:04:01.077164Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "logger-local",
       "project_version": "0.0.122",
       "url": "https://files.pythonhosted.org/packages/af/a7/129d086e9202a6885199c893ac6732694050bd806d9b8e19af16e0be9c91/logger_local-0.0.122-py3-none-any.whl",
       "upload_time": "2024-03-29T10:04:09.458599Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "logger-local",
       "project_version": "0.0.122",
       "url": "https://files.pythonhosted.org/packages/b4/de/f24fa479612cc8de5172683db8adcc9392abf680933a7afba0063593d80f/logger-local-0.0.122.tar.gz",
       "upload_time": "2024-03-29T10:04:10.975884Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pysat-abel",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/c2/76/6de1af71c4b07621cbdbe567c99d960c0f26664691ddf94a6e570a9d6dee/pysat_abel-0.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T10:04:18.607384Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pysat-abel",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/a0/ad/a8c3e7c1f94a7a4ad61d2f1262bc50a08f5d0784f081d53fbfff193794a5/pysat-abel-0.0.1.tar.gz",
       "upload_time": "2024-03-29T10:04:19.947137Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "numerical-orbital-transfer-client",
       "project_version": "1.0.3",
       "url": "https://files.pythonhosted.org/packages/74/e1/569dd7de549f37bd74146110401e4b516860b07c6ded4a3cb0b33780a7f5/numerical-orbital-transfer-client-1.0.3.tar.gz",
       "upload_time": "2024-03-29T10:04:27.479369Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "kcli",
       "project_version": "99.0.202403291004",
       "url": "https://files.pythonhosted.org/packages/92/0b/05c62b51fb33520e1ee83b40aaa0ddd9d467f2cd01de25d7909883f967d4/kcli-99.0.202403291004-py3-none-any.whl",
       "upload_time": "2024-03-29T10:04:30.423962Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "quickpub",
       "project_version": "0.6.32",
       "url": "https://files.pythonhosted.org/packages/e1/8e/3f1fcbcf80143f8d763fb12e30a0d97119b259c5a61a39d8f44b252d178f/quickpub-0.6.32.tar.gz",
       "upload_time": "2024-03-29T10:04:30.991675Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pglift",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/42/62/281589c6b2ae8f78e2e535570daef620dc37a8774bcf26fbd2e4096a7b04/pglift-1.4.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:04:31.517371Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pglift-cli",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/18/cc/929ff689dca53832700eb2e39e21072007593577d79e1986f8b188da854f/pglift_cli-1.4.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:04:32.694961Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "securityreporter",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/65/55/6f9a1f4324bd0bda02e9a30ff0309734159b1dbfedd28301a8b2cbe838b8/securityreporter-1.0.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:04:32.920716Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "kcli",
       "project_version": "99.0.202403291004",
       "url": "https://files.pythonhosted.org/packages/3d/0f/fe777d6d6c4b889f59d93aa43548bf6865b92cd05b14993f05fa0a8807fa/kcli-99.0.202403291004.tar.gz",
       "upload_time": "2024-03-29T10:04:53.110534Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pglift-cli",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/41/64/88c62ac996a7dccad2caca6f18f5f1fb10327b639cb777a90f3976d1b779/pglift_cli-1.4.0.tar.gz",
       "upload_time": "2024-03-29T10:04:55.669044Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pglift",
       "project_version": "1.4.0",
       "url": "https://files.pythonhosted.org/packages/56/d3/ee68a6c3cc0e17b51cd3fcb6b21699c45215a8db23c2b01daad4f8f8fbab/pglift-1.4.0.tar.gz",
       "upload_time": "2024-03-29T10:04:57.367668Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cubaflixdownload",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/cf/53/e94fa6bc065083eb85f72c41dc09663c0197c89e1ad07c4a51a59566bb73/cubaflixdownload-1.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T10:05:11.829331Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cubaflixdownload",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/97/da/2c57f9771eb4cb603d0c85e3f35223b550dc9defabd145ff156ed5c3e9fc/cubaflixdownload-1.0.1.tar.gz",
       "upload_time": "2024-03-29T10:05:14.069813Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "CrunchyrollAPI",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/2b/97/5cc71d763128a9b097bb61ff0c7cba2b15e4c79929af5dbf78547633a8ab/CrunchyrollAPI-0.1.4-py3-none-any.whl",
       "upload_time": "2024-03-29T10:05:15.003462Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "CrunchyrollAPI",
       "project_version": "0.1.4",
       "url": "https://files.pythonhosted.org/packages/08/b9/6151c97514f1fc687957c39114cbf2ef7d56ba75709a25a328d8e5ff0269/CrunchyrollAPI-0.1.4.tar.gz",
       "upload_time": "2024-03-29T10:05:16.351318Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sopa",
       "project_version": "1.0.7",
       "url": "https://files.pythonhosted.org/packages/4f/3d/d8243dd0a12ca412f56cbc035cb8462450fadb9000c07fe46dbcfa4c28af/sopa-1.0.7-py3-none-any.whl",
       "upload_time": "2024-03-29T10:05:48.349047Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sopa",
       "project_version": "1.0.7",
       "url": "https://files.pythonhosted.org/packages/6c/12/f25d9df741e571ebfe691b2dc78ad36d49391496c4de55929aebb31ac752/sopa-1.0.7.tar.gz",
       "upload_time": "2024-03-29T10:05:50.401662Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "kfish",
       "project_version": "99.0.202403291007",
       "url": "https://files.pythonhosted.org/packages/25/81/96db2b8854f907114333f08e9dca53204c6d95b169dee1152a3162755747/kfish-99.0.202403291007-py3-none-any.whl",
       "upload_time": "2024-03-29T10:07:42.759037Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "SemLabExam",
       "project_version": "0.0.5",
       "url": "https://files.pythonhosted.org/packages/28/99/203536a7e84012f040dad6e9c54319570fbeb74d7c0feece6f26e78f09f0/SemLabExam-0.0.5-py3-none-any.whl",
       "upload_time": "2024-03-29T10:07:53.908140Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "django-easy-validation",
       "project_version": "0.5",
       "url": "https://files.pythonhosted.org/packages/20/e7/f52ff07368591b8098679974d12c2325d53707c7ec3f73ef779e2011ae6f/django-easy-validation-0.5.tar.gz",
       "upload_time": "2024-03-29T10:07:54.028659Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "check-bump",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/8f/4f/79429cfc3ccfedd5e6576bb683b862a36d8ae64d4c83921ee9afffe1c51f/check_bump-1.0.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:07:56.494700Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "check-bump",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/c0/9d/458f4a02d367a0423d9017356cd1b4a107f221a9f8893474d291cf70ce81/check-bump-1.0.0.tar.gz",
       "upload_time": "2024-03-29T10:07:57.947965Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "effector",
       "project_version": "0.0.264",
       "url": "https://files.pythonhosted.org/packages/05/2f/0f7b1f6d87361fab1ac4c1ae043e61054d1acb9b8c25a5bb4249f237954a/effector-0.0.264-py3-none-any.whl",
       "upload_time": "2024-03-29T10:08:06.873326Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "effector",
       "project_version": "0.0.264",
       "url": "https://files.pythonhosted.org/packages/57/4a/982a7b1f1dae0d549135317c937feb148c0313e600bcf1f0ee15e1ba7006/effector-0.0.264.tar.gz",
       "upload_time": "2024-03-29T10:08:08.247461Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-keras-nightly",
       "project_version": "2.17.0.dev2024032909",
       "url": "https://files.pythonhosted.org/packages/56/fa/43d7667092a15e5bf0c4e9f82c9146933f13496b9fd0899a35ca4a2ce23a/tf_keras_nightly-2.17.0.dev2024032909-py3-none-any.whl",
       "upload_time": "2024-03-29T10:08:50.838658Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tf-keras-nightly",
       "project_version": "2.17.0.dev2024032909",
       "url": "https://files.pythonhosted.org/packages/f1/71/74dffee09b00625464a632e437448fa218123e7ad03c12e61d4bdc0e8a83/tf_keras-nightly-2.17.0.dev2024032909.tar.gz",
       "upload_time": "2024-03-29T10:08:54.062369Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/87/53/2523e05659ccec5ef6fe3b65d421a55dc57caaed23e34aa590f3baf6932c/atomic_bomb_engine-0.15.1-cp312-cp312-manylinux_2_34_x86_64.whl",
       "upload_time": "2024-03-29T10:09:36.831403Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/94/e1/93ea4ce3365a3c4552bd2e4590a0342e6a308d318f769e9dae5436574181/atomic_bomb_engine-0.15.1-cp38-cp38-manylinux_2_34_x86_64.whl",
       "upload_time": "2024-03-29T10:09:41.404853Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/68/a1/5a7feaa510a32b6f0287f05345a2f64c6bbb14605a1425bec9211d0c2bc1/atomic_bomb_engine-0.15.1-cp310-cp310-manylinux_2_34_x86_64.whl",
       "upload_time": "2024-03-29T10:09:42.711035Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/e0/0f/9a8b70e8333b59d8efec6fc081db185c9e61b56d5ee56b46a2f1d06205fc/atomic_bomb_engine-0.15.1-cp311-cp311-manylinux_2_34_x86_64.whl",
       "upload_time": "2024-03-29T10:09:43.786374Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/6c/34/50cb19b330859e58c52f5c1a487b0f099d1f105eda3dcb8ec6a3187a2d04/atomic_bomb_engine-0.15.1-cp39-cp39-manylinux_2_34_x86_64.whl",
       "upload_time": "2024-03-29T10:09:43.835373Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "casbin-async-redis-adapter",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/bd/95/c698f4ea097da21963fb779f7479036fb23449613208251017da089e0218/casbin_async_redis_adapter-1.1.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:10:00.343579Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "casbin-async-redis-adapter",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/91/14/7411523d69cae33aee56781dd65ccf44decb52b17cc59ea4767773db117e/casbin_async_redis_adapter-1.1.0.tar.gz",
       "upload_time": "2024-03-29T10:10:02.532670Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "srai-core",
       "project_version": "0.11.7",
       "url": "https://files.pythonhosted.org/packages/65/ce/9f1466965e10685c1e47f3862f21e51cb530f580248702d541a072eae68c/srai-core-0.11.7.tar.gz",
       "upload_time": "2024-03-29T10:10:27.690710Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "robocodecv",
       "project_version": "1.0",
       "url": "https://files.pythonhosted.org/packages/2c/9b/a25db56148fd7543b175b2d03058898e0a9adbd33fadea8093cd4840ece4/robocodecv-1.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:10:38.848483Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "robocodecv",
       "project_version": "1.0",
       "url": "https://files.pythonhosted.org/packages/5b/d4/b6851b16919a2ed931d5dc57e87a951c492261d27d157702477c43eaabc6/robocodecv-1.0.tar.gz",
       "upload_time": "2024-03-29T10:10:41.488070Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/ac/09/6e48c91ddf273b9040460be4b157e0e78a56a89c52d43382779f921c5016/atomic_bomb_engine-0.15.1-cp39-cp39-macosx_11_0_arm64.whl",
       "upload_time": "2024-03-29T10:10:51.978430Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/67/05/80fefe8e3deed19386760f30d962adc4371529c0a65f50e90629d48d14e0/atomic_bomb_engine-0.15.1-cp38-cp38-macosx_11_0_arm64.whl",
       "upload_time": "2024-03-29T10:10:52.530916Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/79/8c/9187e4964198bea327c63bc7e53eed5054048541486776848267f33492da/atomic_bomb_engine-0.15.1-cp311-cp311-macosx_11_0_arm64.whl",
       "upload_time": "2024-03-29T10:11:06.752456Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/44/f8/cd54303f9e083f2779a494e78f93ed95fa1b4c8a627eea0eea00c4cd65c7/atomic_bomb_engine-0.15.1-cp312-cp312-macosx_11_0_arm64.whl",
       "upload_time": "2024-03-29T10:11:38.261454Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "quickemailverification",
       "project_version": "1.0.4",
       "url": "https://files.pythonhosted.org/packages/ad/95/f1a0bad9489db3d0df92128ab3f167a5add604c95fadc81b44c5ac4eb3b8/quickemailverification-1.0.4.tar.gz",
       "upload_time": "2024-03-29T10:12:06.596438Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "owlapy",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/09/39/7c6f5d4dc8328bab5195b877c2c4f822c8c0be8b4023c98ef88070ff9edf/owlapy-0.1.2-py3-none-any.whl",
       "upload_time": "2024-03-29T10:12:28.980075Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "owlapy",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/0c/8b/c95cc0912609c5a288a143d37977f74bd786b4038605569c4b52fd3a3b79/owlapy-0.1.2.tar.gz",
       "upload_time": "2024-03-29T10:12:31.452723Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/35/20/cfe1e6dec2c268a9bb7d639d517cc1113951c8add80ac866653b9421cb72/atomic_bomb_engine-0.15.1-cp312-none-win_amd64.whl",
       "upload_time": "2024-03-29T10:12:32.659899Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/c0/b2/1c00632a73174b216abc3f7e79a60e85db88e02abb14ec03d8e01a8ed7c9/atomic_bomb_engine-0.15.1-cp310-cp310-macosx_11_0_arm64.whl",
       "upload_time": "2024-03-29T10:12:33.672946Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/eb/d9/5692cb9bc2cc236ee9dac0e2c4bba9a6f9bf142a5f141c75ebb1affbd1cc/atomic_bomb_engine-0.15.1-cp311-none-win_amd64.whl",
       "upload_time": "2024-03-29T10:12:35.093981Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/84/96/516a587e312571efd4324b71143820502379090f1d78ea11153be5ce80ec/atomic_bomb_engine-0.15.1-cp39-none-win_amd64.whl",
       "upload_time": "2024-03-29T10:12:39.171047Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/88/ea/f0ce4d53abffb7ebda4a979e87a6a00dca37c66759bcceb9a55594245fc5/atomic_bomb_engine-0.15.1-cp38-none-win_amd64.whl",
       "upload_time": "2024-03-29T10:12:40.182614Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/b5/7b/c24f934056ad98b68583d61efb1304fbfa192a9427b5e11ad428947a76b5/atomic_bomb_engine-0.15.1-cp310-none-win_amd64.whl",
       "upload_time": "2024-03-29T10:12:42.760026Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dataset.sh",
       "project_version": "0.0.25.post9",
       "url": "https://files.pythonhosted.org/packages/4f/00/cbe103896087ad4c70cfd0c8c2a0a3bfe40475e59006aacd4e0ce6a1c898/dataset_sh-0.0.25.post9-py3-none-any.whl",
       "upload_time": "2024-03-29T10:12:53.587485Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dataset.sh",
       "project_version": "0.0.25.post9",
       "url": "https://files.pythonhosted.org/packages/1f/ef/185ce63b6c414d81476082aa1ea320f9948d3ae4520e03c5c7ad4fecf89e/dataset_sh-0.0.25.post9.tar.gz",
       "upload_time": "2024-03-29T10:12:56.087012Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "smartchart",
       "project_version": "6.8.1",
       "url": "https://files.pythonhosted.org/packages/f9/f5/6b057163ee969fb0b8edd185392bb21e3a0df3c349d58724578559e7dd4d/smartchart-6.8.1.tar.gz",
       "upload_time": "2024-03-29T10:13:13.124143Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "robocodecv",
       "project_version": "1.1",
       "url": "https://files.pythonhosted.org/packages/73/b6/619200ba145e17e26ce29e173b240bbc3a29e5ca28a95159205eba63002c/robocodecv-1.1-py3-none-any.whl",
       "upload_time": "2024-03-29T10:13:13.492848Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "robocodecv",
       "project_version": "1.1",
       "url": "https://files.pythonhosted.org/packages/b7/41/ceb2b79a3b24f085a7cfb734069cd01976b1f7ce2c6c2a74713326cea7fc/robocodecv-1.1.tar.gz",
       "upload_time": "2024-03-29T10:13:15.942256Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sport-activities-features",
       "project_version": "0.4.0",
       "url": "https://files.pythonhosted.org/packages/17/17/34751894a10532e70ae1e315854c2dbf5d96d3c3f1999bcd2e57883cada3/sport_activities_features-0.4.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:13:44.388195Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sport-activities-features",
       "project_version": "0.4.0",
       "url": "https://files.pythonhosted.org/packages/8a/16/800f20e58ba1f8e1613c1bf25cf7ef9d0c11921b6b13eabc017e4f7fe63f/sport_activities_features-0.4.0.tar.gz",
       "upload_time": "2024-03-29T10:13:46.223276Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "organize-tool",
       "project_version": "3.2.3",
       "url": "https://files.pythonhosted.org/packages/51/7e/0bb454903863bf45bbfdba6b19d7c78dca92c8ad199ee8f61aea800f106b/organize_tool-3.2.3-py3-none-any.whl",
       "upload_time": "2024-03-29T10:13:53.392718Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ecodev-model",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/b1/d2/2de92396f1325a041b337206b27927b25b9e2b7010d60e7cb21deac9e449/ecodev_model-0.0.1-py3-none-any.whl",
       "upload_time": "2024-03-29T10:13:55.876633Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "organize-tool",
       "project_version": "3.2.3",
       "url": "https://files.pythonhosted.org/packages/af/4a/11b1925844ad5fc2c5da1f210650f637000ca14bdb6e9c303ab744191337/organize_tool-3.2.3.tar.gz",
       "upload_time": "2024-03-29T10:13:55.998975Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ecodev-model",
       "project_version": "0.0.1",
       "url": "https://files.pythonhosted.org/packages/61/91/17022229780271868fc561e9827d84195bd7dc1374f4997ffb083dc7da65/ecodev_model-0.0.1.tar.gz",
       "upload_time": "2024-03-29T10:13:57.689270Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/0f/2c/5d3b355859411fb843f9123a573a690f85ea92a3d78c5ebb795582cd22f0/atomic_bomb_engine-0.15.1-cp310-cp310-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-29T10:14:06.349671Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "django-sql-explorer-squad",
       "project_version": "0.9.26",
       "url": "https://files.pythonhosted.org/packages/c6/60/1273d1953abb282f59169e43c9ef496627a39b3693589e893cb7714b8436/django_sql_explorer_squad-0.9.26-py3-none-any.whl",
       "upload_time": "2024-03-29T10:14:35.015285Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "django-sql-explorer-squad",
       "project_version": "0.9.26",
       "url": "https://files.pythonhosted.org/packages/1b/48/3244de37d90a307a9480be7e2913f26143c7ef31328fb74f34c992c40d48/django-sql-explorer-squad-0.9.26.tar.gz",
       "upload_time": "2024-03-29T10:14:37.827209Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/f2/bd/92636670e8421abc9682b32f721a90d96e4bdd40cd7eab2be43455d3cd63/atomic_bomb_engine-0.15.1-cp312-cp312-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-29T10:14:40.646474Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "openMINDS",
       "project_version": "0.2.1",
       "url": "https://files.pythonhosted.org/packages/eb/24/e4f637f3a9d7c408256815b9877d60753ec68e41f30a244ae89b9408fa30/openMINDS-0.2.1-py3-none-any.whl",
       "upload_time": "2024-03-29T10:15:27.334532Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "openMINDS",
       "project_version": "0.2.1",
       "url": "https://files.pythonhosted.org/packages/4e/22/26510894247e8852a9ae87431eea9fb9c3169d9c4c02a635a6e4c68f1fbd/openMINDS-0.2.1.tar.gz",
       "upload_time": "2024-03-29T10:15:29.583584Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "neops_graphql",
       "project_version": "1.7.20.dev0",
       "url": "https://files.pythonhosted.org/packages/a7/78/2bedc28aeb6906d6404040e92f35ae06864393837cfefb86726d5791d30e/neops_graphql-1.7.20.dev0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:15:48.403294Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "neops_graphql",
       "project_version": "1.7.20.dev0",
       "url": "https://files.pythonhosted.org/packages/b9/b1/04ac52f659a73570101bf79399bdaada6845c00a329e39890e0b400499ad/neops_graphql-1.7.20.dev0.tar.gz",
       "upload_time": "2024-03-29T10:15:50.046286Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gibby",
       "project_version": "3.0.0",
       "url": "https://files.pythonhosted.org/packages/1e/c8/206d4ad6b0d80084af01f5705ce2e91d783ea6f29732d006375117f031ed/gibby-3.0.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:15:51.245380Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gibby",
       "project_version": "3.0.0",
       "url": "https://files.pythonhosted.org/packages/33/0c/71da078ba8a6fef8da29edc6c4650d3794f4bacac4e5d235d099b23d8992/gibby-3.0.0.tar.gz",
       "upload_time": "2024-03-29T10:15:52.403978Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/c5/56/88a3326fa427c959a62b6746358f45a829ec0a2e824d650351f5c8950181/atomic_bomb_engine-0.15.1-cp38-cp38-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-29T10:16:00.022067Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/6a/96/3e142333e59924d824183ec9ded6d0e7903400d98950cee00d28599f1d01/atomic_bomb_engine-0.15.1-cp39-cp39-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-29T10:16:01.211525Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pysat-abel",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/64/d3/30f952616706a4036e01c5c6e723e62bad459eb0a763a49e26032fc75470/pysat_abel-0.0.2-py3-none-any.whl",
       "upload_time": "2024-03-29T10:16:47.639100Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pysat-abel",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/9f/ed/dcb93e430f69fe3c6a059aa362cb3814a99a8feaabae7c356ed77254c106/pysat-abel-0.0.2.tar.gz",
       "upload_time": "2024-03-29T10:16:48.738458Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "AstecManager",
       "project_version": "0.2.4",
       "url": "https://files.pythonhosted.org/packages/ef/d3/d240ba45a422916f294d30885e8325d9d173bc2644deeb3a79f63caef98d/AstecManager-0.2.4-py3-none-any.whl",
       "upload_time": "2024-03-29T10:16:57.619517Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "AstecManager",
       "project_version": "0.2.4",
       "url": "https://files.pythonhosted.org/packages/d6/aa/dc92719e0d286bbacf7a25375c7fce82baf8d403ec307f1bcda73f47cb03/AstecManager-0.2.4.tar.gz",
       "upload_time": "2024-03-29T10:17:01.947942Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "atomic-bomb-engine",
       "project_version": "0.15.1",
       "url": "https://files.pythonhosted.org/packages/57/a8/cbc524618c7d6440b7cb7d8497822314cd4f9d831870c08384b81a70d4e6/atomic_bomb_engine-0.15.1-cp311-cp311-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-29T10:17:10.914257Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyxllib",
       "project_version": "0.3.100",
       "url": "https://files.pythonhosted.org/packages/ae/59/785e35ae5f4851375d9ce217d47f5adcdf5af3a379eec349cb23c90fc196/pyxllib-0.3.100.tar.gz",
       "upload_time": "2024-03-29T10:17:31.721315Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "django-easy-validation",
       "project_version": "0.6",
       "url": "https://files.pythonhosted.org/packages/72/72/701bfbd57ee514483abe7048ca482da5222df5bfef8a501ca949dd9b8b6d/django-easy-validation-0.6.tar.gz",
       "upload_time": "2024-03-29T10:18:21.407399Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-authz",
       "project_version": "2.6.0",
       "url": "https://files.pythonhosted.org/packages/ca/09/445fbaab0bdbe7b5fce554219981c31f74f1c812ec555f844951e47de058/flask_authz-2.6.0-py2.py3-none-any.whl",
       "upload_time": "2024-03-29T10:18:28.139771Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-authz",
       "project_version": "2.6.0",
       "url": "https://files.pythonhosted.org/packages/e1/6e/bda2f22b014f66dabec1368e452769c207d8de7e265e51b964129ba10cf0/flask-authz-2.6.0.tar.gz",
       "upload_time": "2024-03-29T10:18:29.940823Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hansken",
       "project_version": "2024.3.29",
       "url": "https://files.pythonhosted.org/packages/9e/5a/310f8ebb2400f96b12528cb8941da1cfd7d120f5a01cf7f0fb900a741fe4/hansken-2024.3.29-py3-none-any.whl",
       "upload_time": "2024-03-29T10:19:44.882910Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hansken",
       "project_version": "2024.3.29",
       "url": "https://files.pythonhosted.org/packages/21/bf/003480c851da15b465c0e9cc5943b9384f392ef1749cdcc5c2108a16eed1/hansken-2024.3.29.tar.gz",
       "upload_time": "2024-03-29T10:19:48.539171Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "PyAibote",
       "project_version": "1.3.2",
       "url": "https://files.pythonhosted.org/packages/65/97/f088fde6cd2c89380b7bedf666df1b64e5f20f4924de433716e29525b8f1/PyAibote-1.3.2-py3-none-any.whl",
       "upload_time": "2024-03-29T10:20:52.820590Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "PyAibote",
       "project_version": "1.3.2",
       "url": "https://files.pythonhosted.org/packages/05/5d/595005cd8e7532415939b129eac1fb36ba522ca0b40c71b86acf53812686/PyAibote-1.3.2.tar.gz",
       "upload_time": "2024-03-29T10:20:54.860387Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "weather-connect",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/89/0b/84e2e6112e5dfec77cd2f5654a9e60983afada414fb83cd4d6372241d430/weather_connect-0.1.0.tar.gz",
       "upload_time": "2024-03-29T10:21:08.925488Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "random-neural-net-models",
       "project_version": "0.3.0",
       "url": "https://files.pythonhosted.org/packages/ea/62/4cd80fd94129b7feeca429dbef991b85efa539dc28b3970cd1e661d8c658/random_neural_net_models-0.3.0-py3-none-any.whl",
       "upload_time": "2024-03-29T10:22:00.020292Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "random-neural-net-models",
       "project_version": "0.3.0",
       "url": "https://files.pythonhosted.org/packages/83/3b/c81b9337234de0786bcd248ad85dedd3f9509f021123a028b251455704a9/random-neural-net-models-0.3.0.tar.gz",
       "upload_time": "2024-03-29T10:22:02.110487Z",
-      "processed": false
+      "processed": true
     }
   ]
 }
