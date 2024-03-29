@@ -1,0 +1,9 @@
+casbin_async_redis_adapter/__init__.py,sha256=2RRYMsZsvxOWwAdfrapFPqddBErLqiqRBhSDlzdeoeg,41
+casbin_async_redis_adapter/adapter.py,sha256=sHHvKnjM56GPkhKRTh1iOQBeet-TmCCOQTuObP5VMKc,5642
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_adapter.py,sha256=AXWEpuhw_K6g5kIj2-0y0UDSo9j68nBuOeodV-2UNM4,8424
+casbin_async_redis_adapter-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+casbin_async_redis_adapter-1.1.0.dist-info/METADATA,sha256=-WIjrZN7BubWrtuXE7mxOS0u2qGBFSMusHc9DE4OKTw,4273
+casbin_async_redis_adapter-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+casbin_async_redis_adapter-1.1.0.dist-info/top_level.txt,sha256=-3KGBu428oAJDEsGWpbcvj8eK7l-_gNdBh88jmD2OZc,33
+casbin_async_redis_adapter-1.1.0.dist-info/RECORD,,
