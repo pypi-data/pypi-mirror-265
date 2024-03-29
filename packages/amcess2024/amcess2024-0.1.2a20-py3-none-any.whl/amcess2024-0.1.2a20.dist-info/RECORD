@@ -1,0 +1,13 @@
+amcess/__init__.py,sha256=Wl-Z22CF3ac41LwS0nDejyPdjV956wqP9SsoBxcFOEc,991
+amcess/ascec.py,sha256=RGyElldwbWp64L2ISiDGPeo-CH-DM5K75xdXcU5VLVs,6328
+amcess/base_molecule.py,sha256=orCfiDCM587cN_gE0ZZDM0KOzrHsfHnZIAxBEd1GWfc,39207
+amcess/electronic_energy.py,sha256=LwIp0wAxuBzAZiKsnbuA6mC3X1oClUQCqxJ623vXj9E,9164
+amcess/gaussian_process.py,sha256=Ocf4ds9QntiVpgn3Wx5LxC-DgwFEHGBP1_-DgtsiCJA,8874
+amcess/search_engine.py,sha256=5QVA0X-zi_mYKgiMh_m8ooCTQNHGhktwXt8uLWe_6N4,8755
+amcess/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amcess/data/atomic_data.py,sha256=cQc5Fqc6oPdRlDP6H1iOvbPKCUqNZbIeOLdL06F9KcU,9259
+amcess2024-0.1.2a20.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+amcess2024-0.1.2a20.dist-info/METADATA,sha256=QZKLaXV8Ose0MeLUv8--33LIjmqN58PiIyYX_1wlf3o,10340
+amcess2024-0.1.2a20.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+amcess2024-0.1.2a20.dist-info/top_level.txt,sha256=UMGayw9CjoLr4abQp9UTTr5vzkWNeR_JgULJ56rWjQU,19
+amcess2024-0.1.2a20.dist-info/RECORD,,
