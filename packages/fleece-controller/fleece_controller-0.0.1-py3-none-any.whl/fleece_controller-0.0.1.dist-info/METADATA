@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fleece-controller
+Version: 0.0.1
+Summary: fleece-controller
+Home-page: https://github.com/CoLearn-Dev/fleece-controller
+Requires-Python: >=3.10
+
