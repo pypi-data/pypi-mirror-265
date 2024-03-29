@@ -1,0 +1,1 @@
+from .core import Word2Pronounce,Pronounce2Word
