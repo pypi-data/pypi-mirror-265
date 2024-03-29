@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pysat-abel
+Version: 0.0.2
+Summary: Python implementation for Spline-based Abel Transform
+Home-page: https://gitlab.coria-cfd.fr/littinm/pysat
+Author: Mijail Littin, Alexandre Poux, Guillaume Lefevre, Marek Mazur, Felipe Escudero, Andrés Fuentes, Jérôme Yon
+Author-email: littinm@coria.fr
+Project-URL: Homepage, https://gitlab.coria-cfd.fr/littinm/pysat
+Classifier: Intended Audience :: Science/Research
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: abel
+Requires-Dist: joblib
