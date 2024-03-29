@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+documents_analysis_engine/documents_analysis_engine.egg-info/PKG-INFO
+documents_analysis_engine/documents_analysis_engine.egg-info/SOURCES.txt
+documents_analysis_engine/documents_analysis_engine.egg-info/dependency_links.txt
+documents_analysis_engine/documents_analysis_engine.egg-info/top_level.txt
+documents_analysis_engine/index/__init__.py
+documents_analysis_engine/index/indexer.py
+documents_analysis_engine/parser/__init__.py
+documents_analysis_engine/parser/tokenizer.py
+documents_analysis_engine/query/__init__.py
+documents_analysis_engine/query/search.py
+documents_analysis_engine/storage/__init__.py
+documents_analysis_engine/storage/reader.py
+documents_analysis_engine/storage/writer.py
