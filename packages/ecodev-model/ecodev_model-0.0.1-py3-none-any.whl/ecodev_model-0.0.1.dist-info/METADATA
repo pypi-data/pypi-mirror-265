@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ecodev-model
+Version: 0.0.1
+Summary: emission domain model
+Author: Thomas Epelbaum
+Author-email: tomepel@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# ecodev-model
+
+Some useful domain model enums and classes when working with emissions.
+

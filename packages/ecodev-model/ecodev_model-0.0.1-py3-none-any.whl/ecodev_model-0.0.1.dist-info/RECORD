@@ -1,0 +1,7 @@
+ecodev_model/__init__.py,sha256=Pz8gACyVosRH-TnlmLM0avYXYT7QhWV3x-tA800YC4c,381
+ecodev_model/emission_type.py,sha256=iWnLihwoyKntna6AMNJSUcpEiDHVtCY1MP1alQnaje0,692
+ecodev_model/sector.py,sha256=Gw52vMigH5j2Y8BP1L3eAlHb9HlSBbGItjkw9UgI2Wc,1261
+ecodev_model/units.py,sha256=dvJiwwPd2DFjuUVH-ul872nclyLT1meEnSTFbMNmhT4,1037
+ecodev_model-0.0.1.dist-info/METADATA,sha256=zUsiVuTqTQ_D8G3z1Md34P_2P-BaWiqvICHQTP2Bevg,452
+ecodev_model-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ecodev_model-0.0.1.dist-info/RECORD,,
