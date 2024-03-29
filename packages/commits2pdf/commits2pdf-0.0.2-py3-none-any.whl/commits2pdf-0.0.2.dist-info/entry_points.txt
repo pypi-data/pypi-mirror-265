@@ -1,0 +1,2 @@
+[console_scripts]
+commits2pdf = commits2pdf.cli:main
