@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fleece-network
+Version: 0.0.1
+Summary: fleece-network
+Home-page: https://github.com/CoLearn-Dev/fleece-network
+Requires-Python: >=3.10
+
