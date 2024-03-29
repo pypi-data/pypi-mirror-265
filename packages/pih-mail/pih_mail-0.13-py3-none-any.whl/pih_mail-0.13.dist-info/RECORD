@@ -1,0 +1,10 @@
+MailService/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MailService/__main__.py,sha256=09N_uj1FJf-k2yDlW1u_wYDCs5-acDn5qqUUmFHKymY,146
+MailService/api.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+MailService/const.py,sha256=TBhSClDCMwvcFHRlYGAshUFJDbr-9G31MlVvgMnXBCw,1163
+MailService/service.py,sha256=XbFzunpx6uuCiTLnZoIbUWpFafM4_-s1KBSdTA6wDoE,10145
+pih_mail-0.13.dist-info/METADATA,sha256=Q-LwYT-dLG_Ko0y1Er6al-LQeLBodC8jOm6LbOK3DCs,320
+pih_mail-0.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pih_mail-0.13.dist-info/entry_points.txt,sha256=4i9gvoy6RLUTdeQSfnvOB9gtZF6UlfV0p47NbXzlXOk,56
+pih_mail-0.13.dist-info/top_level.txt,sha256=muG6hI3A3V0w6Vt67e14TGScFSEmHUoDWdR_Ip_iAyo,12
+pih_mail-0.13.dist-info/RECORD,,
