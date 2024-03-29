@@ -1,0 +1,12 @@
+cfutils/__init__.py,sha256=-zUtPrelR2Nv6kZMbjEMP-7XyAF0VAsx3oEwdE-8aXQ,73
+cfutils/align.py,sha256=DXCsG3xzyWBB88xOxRJDeXG4cEJBjE-lfXFYz1tu-r8,3295
+cfutils/cli.py,sha256=VzmWdmpolpAqmhNJGD5iev4M0l_BKpHoM-TV_oXCZ6g,1422
+cfutils/count.py,sha256=aoNO5E8udmBdbJGEba5DSw3u9h_7_6rlNebGQMiweo8,3032
+cfutils/parser.py,sha256=-OGeHyFoX_2-w4y19PzDQzS-C1QGT3fmY-HCX2GSNU0,12193
+cfutils/run.py,sha256=yM3gsrkHRbTBAtwV6TvwTNdBLeSl3RaKm1MXzbgVbOM,4120
+cfutils/show.py,sha256=UWM3Xa-59NTHV5pQ-OXWha4AQ6ksPdNwWSHHFBN-8k0,6948
+cfutils/utils.py,sha256=kibt4o0HtdRxrz7UZTUQ8G-NiUELr1K84Ogu_FAYFYk,1518
+cfutils-0.0.0.dev60.dist-info/METADATA,sha256=oU6aKFPI02rEeQCZG6x53fHmi6u5Pdx98Ynfrghwo3k,3579
+cfutils-0.0.0.dev60.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cfutils-0.0.0.dev60.dist-info/entry_points.txt,sha256=LXGRVr-r0H9_jxdTJfIZcWA6ETcIta49B9FJsQOnqbg,43
+cfutils-0.0.0.dev60.dist-info/RECORD,,
