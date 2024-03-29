@@ -1,0 +1,11 @@
+primal_page/__init__.py,sha256=BqOI5y46o1G1RWC9bF1DPL-YM68lGYPmZt1pn6FZFZs,22
+primal_page/bedfiles.py,sha256=ATg63bcTT9eeBZfTTpMQAZtzjO6U0oKLMYBWuziusBM,6457
+primal_page/build_index.py,sha256=X8upx1hHJ4UjB8A6a37UQ41B62QW12NHR3vDzU0I1SE,8570
+primal_page/download.py,sha256=iVHtu9AUg1Scls8lY89QhRTquv5_aZKJdqOhwoi4Sx4,3106
+primal_page/main.py,sha256=i-MNkdIN1pgXIUpCY7GnUBnpMR4-zCfCuYCpYt-Baa8,27728
+primal_page/modify.py,sha256=1ZKTJpZs6p1rVr9Q5geuovELCjy2HzlUVEs07SJgsGw,1790
+primal_page/schemas.py,sha256=YgufxaUE1glctCsxCyj25HTv5oWJfKyuJ3DVmxH6MHk,5574
+primal_page-1.4.1.dist-info/METADATA,sha256=H_QCxcznhypx4iBuPFW_yIxFHuG4nQ-NFq6xeRak_Xk,14111
+primal_page-1.4.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+primal_page-1.4.1.dist-info/entry_points.txt,sha256=MooJ2Afw4SsEo4J_d9oowoNUj-h6kcMcTZo80U0nVAw,52
+primal_page-1.4.1.dist-info/RECORD,,
