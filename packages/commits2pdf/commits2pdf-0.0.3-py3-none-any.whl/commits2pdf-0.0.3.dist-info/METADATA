@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: commits2pdf
+Version: 0.0.3
+Summary: View commit history through a PDF
+Home-page: https://github.com/tomasvana10/commits2pdf
+Author: Tomas Vana
+License: MIT
+Platform: any
+Classifier: Topic :: Multimedia
+License-File: LICENCE.md
+Requires-Dist: GitPython
+
+# commits2pdf
