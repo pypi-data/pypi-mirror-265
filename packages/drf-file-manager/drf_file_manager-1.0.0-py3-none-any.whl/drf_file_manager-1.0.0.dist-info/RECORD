@@ -1,0 +1,14 @@
+drf_file_manager/__init__.py,sha256=buCNEi-Eo-R4ZNO7PmMBPR6vfjE2fFBLNxFJwO-lHVc,199
+drf_file_manager/apps.py,sha256=o6NZNb3KVVUzKyTDiB6fEzRqbuw5uwY9aEb16HaZ9UU,162
+drf_file_manager/models.py,sha256=BDLqHOTHlG5kXzbl4z_7lFcgUM-F_J-lPUKb8-Z86RE,2491
+drf_file_manager/serializers.py,sha256=yt43xCVmE7QkwOCNUo7mrucZ0YWz35Vx3lHuoAnPGVo,1012
+drf_file_manager/urls.py,sha256=5Fy2JCOEgXNN2GeDipGktYLx-awFOmxrU9yQVEcVENg,225
+drf_file_manager/utils.py,sha256=fabu3YZC6pr0t9xkyuyXM2-z1e8phzCU5UFAcKrqMJM,1462
+drf_file_manager/views.py,sha256=Fdv_PDvAjjBrzPTlz5T4qMcXVMtBLFiHBqp6qjVkcs0,1676
+drf_file_manager/migrations/0001_initial.py,sha256=gKlpO1tR0brESBcQ6ZHLfxUc3j68t9vq9jgliQYB1z4,2843
+drf_file_manager/migrations/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+drf_file_manager/version/version.json,sha256=l592mGVQ7-j5qhZS_Fvf-HdtYuQaPzVZ8Hj58Fd6FRw,260
+drf_file_manager-1.0.0.dist-info/METADATA,sha256=pBHYdcrKJOR561_HB2fnFxhRDsAPl8KZuVCYyn1QtV0,2038
+drf_file_manager-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+drf_file_manager-1.0.0.dist-info/top_level.txt,sha256=HEgEtUwntC29Zi6al1UHXNpdWD0eQXhjj6wFSqHyl3Y,17
+drf_file_manager-1.0.0.dist-info/RECORD,,
