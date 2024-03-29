@@ -1,0 +1,17 @@
+beautifulsoup4
+fake_useragent
+httpx
+Jinja2
+loguru
+lxml
+moviepy
+opencv_python
+openpyxl
+pandas
+PyExecJS
+PyPDF2
+python_docx
+pywin32
+Requests
+setuptools
+xlrd

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SpiderReverser_Modules
+Version: 1.0.8
+Summary: SpiderReverser person modules
+Home-page: https://github.com/SpiderReverser/SpiderReverser_Modules
+Author: SpiderReverser
+Author-email: spiderreverser@foxmail.com
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: fake_useragent
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: loguru
+Requires-Dist: lxml
+Requires-Dist: moviepy
+Requires-Dist: opencv_python
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: PyExecJS
+Requires-Dist: PyPDF2
+Requires-Dist: python_docx
+Requires-Dist: pywin32
+Requires-Dist: Requests
+Requires-Dist: setuptools
+Requires-Dist: xlrd
