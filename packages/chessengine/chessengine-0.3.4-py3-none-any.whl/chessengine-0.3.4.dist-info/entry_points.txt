@@ -1,0 +1,2 @@
+[console_scripts]
+chessengine = chessengine.cli:main
