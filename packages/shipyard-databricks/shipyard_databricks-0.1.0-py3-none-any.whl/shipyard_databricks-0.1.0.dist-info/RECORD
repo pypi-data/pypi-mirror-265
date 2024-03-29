@@ -1,0 +1,13 @@
+shipyard_databricks/__init__.py,sha256=1RVLCLYM2SKga2LpT_s-Qmy0R2cXtYaXSQlcpTtCrtY,41
+shipyard_databricks/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_databricks/cli/authtest.py,sha256=QSjZyGHhpTy4oMJc2n531A8V-MHkYa2iFYwq8b_2_2A,630
+shipyard_databricks/cli/databricks_client.py,sha256=EaNSlrXClwAkaNRh_56ylxPrTzRXCaHNDvMpVndUPIs,5813
+shipyard_databricks/cli/download.py,sha256=xs6ylk2uFr5kjvwwHVH_8jITjZcrKefXTcvbJCjOPuU,5719
+shipyard_databricks/cli/errors.py,sha256=FsZgB6_4reAoithKhDcOG9_ZSY13-7CaGHmZPX_YImY,629
+shipyard_databricks/cli/move.py,sha256=w7TxszrFPdq3RThMKiIrlV7ZCOtB1LRNDNe0wp8zrFk,5742
+shipyard_databricks/cli/remove.py,sha256=VeLtpt7LUArqV__p2h17I8N_S7Ab_RmleQD_t5xGyLA,4793
+shipyard_databricks/cli/upload.py,sha256=f3lWF5dRXaUL2b7v7AMFuf9mO5RB3eDindu5aVp9WXM,4976
+shipyard_databricks/databricks.py,sha256=wlp_UaBtZViHjyulo9EffwxnkGty1Ur9JzkcgGZoj38,780
+shipyard_databricks-0.1.0.dist-info/METADATA,sha256=ZpA7rlfmA_-FxZmpmmi9TmnpbW1YRNwXPPC9OGqY1Fc,707
+shipyard_databricks-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_databricks-0.1.0.dist-info/RECORD,,
