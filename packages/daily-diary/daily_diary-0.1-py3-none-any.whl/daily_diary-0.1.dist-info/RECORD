@@ -1,0 +1,12 @@
+daily/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daily/__main__.py,sha256=0g3iknXOS9gZUcpL_trgAcuCJnZZKjdsT_xt61WOVb4,60
+daily/cli.py,sha256=NvCdZOu5A3HeJAJiVhQwLrW8hQ-wDVp2REBQ5gVP51A,1940
+daily/config.py,sha256=wBJqyttRsoINnSoSml2jYgm4AJXh1vq8SpJFUj7qy4I,863
+daily/journal.py,sha256=5YZpRryOKkrwAdp2M6pZeb4KltgiFx_GgjhShDq0xUc,1201
+daily/utils.py,sha256=_lFX4elXOO7TEDVcJ3clHIxhj-L6n5MPivpdzc2fQW8,892
+daily_diary-0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+daily_diary-0.1.dist-info/METADATA,sha256=9RiyGg41LXCUB2jCilwysl0AuNdp0DhiI3QZWeJ1bK0,42115
+daily_diary-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+daily_diary-0.1.dist-info/entry_points.txt,sha256=O75OUcJwgusjYdUXIg5O3xsgJ0tcUXJJs3qgj1MPGMI,43
+daily_diary-0.1.dist-info/top_level.txt,sha256=ET-vWevmhPRt4mA2vZ4aX1IkhC-mogz_CwY7zCNaeVU,6
+daily_diary-0.1.dist-info/RECORD,,
