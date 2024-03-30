@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: mausam
+Version: 0.1.4
+Summary: An application to upload weather data to IoT dashboards
+Home-page: https://github.com/m-anish/mausam/
+Author: Anish Mangal
+Author-email: anishmg@umich.edu
+License: GPL-3.0-or-later
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: simple-youtube-api
+Requires-Dist: PyVimeo
+Requires-Dist: tinyflux
+Requires-Dist: paho-mqtt
+Requires-Dist: gpiozero
+Requires-Dist: smbus2
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pms7003
+Requires-Dist: bme280
+Requires-Dist: DateTime
+Requires-Dist: tzlocal
+Requires-Dist: pytz
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: rpi
+Requires-Dist: libcamera ; extra == 'rpi'
+Requires-Dist: picamera2 ; extra == 'rpi'
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+<!-- These are examples of badges you might want to add to your README:
+     please update the URLs accordingly
+
+[![Built Status](https://api.cirrus-ci.com/github/<USER>/mausam.svg?branch=main)](https://cirrus-ci.com/github/<USER>/mausam)
+[![ReadTheDocs](https://readthedocs.org/projects/mausam/badge/?version=latest)](https://mausam.readthedocs.io/en/stable/)
+[![Coveralls](https://img.shields.io/coveralls/github/<USER>/mausam/main.svg)](https://coveralls.io/r/<USER>/mausam)
+[![PyPI-Server](https://img.shields.io/pypi/v/mausam.svg)](https://pypi.org/project/mausam/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/mausam.svg)](https://anaconda.org/conda-forge/mausam)
+[![Monthly Downloads](https://pepy.tech/badge/mausam/month)](https://pepy.tech/project/mausam)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/mausam)
+-->
+
+[![PyPI](https://img.shields.io/pypi/v/mausam.svg)](https://pypi.org/project/mausam/)
+[![Docs](https://readthedocs.org/projects/mausam/badge/?version=latest)](https://mausam.readthedocs.io/en/stable/)
+![Tests](https://github.com/m-anish/mausam/actions/workflows/ci.yml/badge.svg)
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+
+# mausam
+
+> An application to upload weather data to IoT dashboards
+
+A longer description of your project goes here...
+
+
+<!-- pyscaffold-notes -->
+
+## Note
+
+This project has been set up using PyScaffold 4.5. For details and usage
+information on PyScaffold see https://pyscaffold.org/.

@@ -1,0 +1,2 @@
+[console_scripts]
+fibonacci = mausam.skeleton:run
