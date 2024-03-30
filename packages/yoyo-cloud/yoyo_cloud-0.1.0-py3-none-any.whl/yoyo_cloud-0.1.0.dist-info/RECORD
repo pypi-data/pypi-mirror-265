@@ -1,0 +1,8 @@
+yoyo_cloud/__init__.py,sha256=Qme4-i_C65wlGvxnwPu231vxD8O5jE1y8GGeYC4zCJE,624
+yoyo_cloud/migrations.py,sha256=tRRuOWWpTwnycnmzibFW4rl58RGdrXJm3CfwlzlhPGg,1762
+yoyo_cloud/s3_migrations.py,sha256=pFj4n9Oj4IKdoFylciw_GFxRoF5Tx-C93TL-CxycVsQ,5466
+yoyo_cloud/tests/conftest.py,sha256=fKxtTYyavq-_FUpfA_drPlcPLUR3MJM3ksmtkZRYOKM,930
+yoyo_cloud/tests/test_s3_migrations.py,sha256=ftCN7hTr2A7TGYIjGsvUi-F9xA5wbFxZYuoex8u1SE4,1603
+yoyo_cloud-0.1.0.dist-info/METADATA,sha256=0gTqWWXBIqcFnbctkx6OEH2DGkgNzFIeSr_7s8hZYYU,1160
+yoyo_cloud-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+yoyo_cloud-0.1.0.dist-info/RECORD,,
