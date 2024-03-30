@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cratonapi
+Version: 0.1.0
+Summary: Python support for W-Seis interprocess communication API
+Author: Kirill Natalin
+Author-email: natalin.2000@mail.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pywin32 (>=306,<307)
+Requires-Dist: pywin32-ctypes (>=0.2.2,<0.3.0)
+Description-Content-Type: text/markdown
+
+
