@@ -1,0 +1,5 @@
+equinox
+jax
+astropy
+numpy
+matplotlib

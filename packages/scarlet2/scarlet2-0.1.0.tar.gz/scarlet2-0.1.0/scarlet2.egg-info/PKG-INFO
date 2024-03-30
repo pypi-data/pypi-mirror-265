@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: scarlet2
+Version: 0.1.0
+Summary: Scarlet, all new and shiny
+Home-page: https://github.com/pmelchior/scarlet2
+Author: Peter Melchior
+Author-email: melchior@astro.princeton.edu
+License: MIT
+License-File: LICENSE
+Requires-Dist: equinox
+Requires-Dist: jax
+Requires-Dist: astropy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
