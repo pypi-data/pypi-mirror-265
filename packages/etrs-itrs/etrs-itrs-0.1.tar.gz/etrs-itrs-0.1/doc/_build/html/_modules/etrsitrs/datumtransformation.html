@@ -1,0 +1,462 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>etrsitrs.datumtransformation &#8212; etrsitrs 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">etrsitrs 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for etrsitrs.datumtransformation</h1><div class="highlight"><pre>
+<span></span><span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">The *datumtransformation* module contains the actual transform math,</span>
+<span class="sd">implemented in the *forward_transform()* and *reverse_transform()*</span>
+<span class="sd">functions, as well as the *DatumTransformation* class, which manages</span>
+<span class="sd">rates of change of parameters and wraps the forward- and reverse-</span>
+<span class="sd">transforms.</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="k">import</span> <span class="n">dot</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">etrsitrs.parameterset</span> <span class="k">import</span> <span class="n">ParameterSet</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">parameterset</span> <span class="k">import</span> <span class="n">ParameterSet</span>
+
+
+<div class="viewcode-block" id="forward_transform"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.datumtransformation.forward_transform">[docs]</a><span class="k">def</span> <span class="nf">forward_transform</span><span class="p">(</span><span class="n">xyz_m</span><span class="p">,</span> <span class="n">translate_m</span><span class="p">,</span> <span class="n">rotation_matrix</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39; Transform *xyz_m* given a translation vector and a rotation</span>
+<span class="sd">    matrix. Only use *translate_m* and *matrix* from the</span>
+<span class="sd">    *ParameterSet* returned by *propagate_parameters()*. Implements</span>
+
+<span class="sd">    .. math::</span>
+
+<span class="sd">        \left(\begin{array}{c} x_B \\ y_B \\ z_B\end{array}\right) = </span>
+<span class="sd">        \left(\begin{array}{c} x_A \\ y_A \\ z_A\end{array}\right) +</span>
+<span class="sd">        \left(\begin{array}{c} T1 \\ T2 \\ T3\end{array}\right) +</span>
+<span class="sd">        \left(\begin{array}{ccc}</span>
+<span class="sd">        D  &amp; -R3 &amp;  R2 \\</span>
+<span class="sd">        R3 &amp;  D  &amp; -R1 \\ </span>
+<span class="sd">        -R2 &amp;  R1 &amp;  D</span>
+<span class="sd">        \end{array}\right)</span>
+<span class="sd">        \left(\begin{array}{c} x_A \\ y_A \\ z_A\end{array}\right)</span>
+
+<span class="sd">    </span>
+<span class="sd">    **Parameters**</span>
+<span class="sd">    </span>
+<span class="sd">    xyz_m : numpy.array of length 3</span>
+<span class="sd">        The coordinates to transform in meters.</span>
+<span class="sd">    </span>
+<span class="sd">    translate_m : numpy.array of length 3</span>
+<span class="sd">        Propagated (T1, T2, T3).</span>
+<span class="sd">    </span>
+<span class="sd">    rotation_matrix : numpy.array of shape (3, 3)</span>
+<span class="sd">        The rotation matrix obtained by calling the</span>
+<span class="sd">        *ParameterSet.matrix()* method on the result of</span>
+<span class="sd">        *propagate_parameters()*.</span>
+<span class="sd">    </span>
+<span class="sd">    **Returns**</span>
+<span class="sd">    </span>
+<span class="sd">    A numpy.array of length 3 with the transformed coordinates.</span>
+
+<span class="sd">    **Examples**</span>
+
+<span class="sd">    At epoch 2000.0:</span>
+
+<span class="sd">    &gt;&gt;&gt; from numpy import array</span>
+<span class="sd">    &gt;&gt;&gt; parameters = ParameterSet(translate_m = array([ 0.0521, 0.0493, -0.0585]),</span>
+<span class="sd">    ...                           term_d = 1.3400e-09,</span>
+<span class="sd">    ...                           rotate_rad = array([  4.31968990e-09,   2.61314574e-08,  -4.22369679e-08]))</span>
+<span class="sd">    &gt;&gt;&gt; onsala_itrf2008 = array([3370658.542, 711877.138, 5349786.952])</span>
+<span class="sd">    &gt;&gt;&gt; onsala_etrf2000 = forward_transform(onsala_itrf2008,</span>
+<span class="sd">    ...                                     parameters.translate_m,</span>
+<span class="sd">    ...                                     parameters.matrix())</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; % tuple(onsala_etrf2000))</span>
+<span class="sd">    3370658.768, 711877.023, 5349786.816</span>
+<span class="sd">    &#39;&#39;&#39;</span>        
+    <span class="k">return</span> <span class="n">xyz_m</span> <span class="o">+</span> <span class="n">translate_m</span> <span class="o">+</span> <span class="n">dot</span><span class="p">(</span><span class="n">rotation_matrix</span><span class="p">,</span> <span class="n">xyz_m</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="reverse_transform"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.datumtransformation.reverse_transform">[docs]</a><span class="k">def</span> <span class="nf">reverse_transform</span><span class="p">(</span><span class="n">xyz_m</span><span class="p">,</span> <span class="n">translate_m</span><span class="p">,</span> <span class="n">rotation_matrix</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    The opposite of *forward_transform()*. Transform xyz given a</span>
+<span class="sd">    translation vector and a rotation matrix. Only use *translate_m*</span>
+<span class="sd">    and *matrix* from the *ParameterSet* returned by</span>
+<span class="sd">    *propagate_parameters()*. Implements</span>
+
+<span class="sd">    .. math::</span>
+
+<span class="sd">       \left(\begin{array}{c} x_A \\ y_A \\ z_A\end{array}\right) = </span>
+<span class="sd">       \left(\begin{array}{c} x_B \\ y_B \\ z_B\end{array}\right) -</span>
+<span class="sd">       \left(\begin{array}{c} T1 \\ T2 \\ T3\end{array}\right) -</span>
+<span class="sd">       \left(\begin{array}{ccc}</span>
+<span class="sd">           D  &amp; -R3 &amp;  R2 \\</span>
+<span class="sd">           R3 &amp;  D  &amp; -R1 \\ </span>
+<span class="sd">           -R2 &amp;  R1 &amp;  D</span>
+<span class="sd">       \end{array}\right)</span>
+<span class="sd">       \left[\left(\begin{array}{c} x_B \\ y_B \\ z_B\end{array}\right) - </span>
+<span class="sd">             \left(\begin{array}{c} T1 \\ T2 \\ T3\end{array}\right)\right].</span>
+
+<span class="sd">    </span>
+<span class="sd">    **Parameters**</span>
+<span class="sd">    </span>
+<span class="sd">    xyz_m : numpy.array of length 3</span>
+<span class="sd">        The coordinates to transform in meters.</span>
+<span class="sd">    </span>
+<span class="sd">    translate_m : numpy.array of length 3</span>
+<span class="sd">        Propagated (T1, T2, T3).</span>
+<span class="sd">        </span>
+<span class="sd">    rotation_matrix : numpy.array of shape (3, 3)</span>
+<span class="sd">        The rotation matrix obtained by calling the</span>
+<span class="sd">        *ParameterSet.matrix()* method on the result of</span>
+<span class="sd">        *propagate_parameters()*.</span>
+
+<span class="sd">    **Returns**</span>
+
+<span class="sd">    A numpy.array of length 3 with the transformed coordinates.</span>
+
+<span class="sd">    **Examples**</span>
+
+<span class="sd">    **Examples**</span>
+
+<span class="sd">    At epoch 2000.0:</span>
+
+<span class="sd">    &gt;&gt;&gt; from numpy import array</span>
+<span class="sd">    &gt;&gt;&gt; parameters = ParameterSet(translate_m = array([ 0.0521, 0.0493, -0.0585]),</span>
+<span class="sd">    ...                           term_d = 1.3400e-09,</span>
+<span class="sd">    ...                           rotate_rad = array([  4.31968990e-09,   2.61314574e-08,  -4.22369679e-08]))</span>
+<span class="sd">    &gt;&gt;&gt; onsala_etrf2000 = array([3370658.768, 711877.023, 5349786.816])</span>
+<span class="sd">    &gt;&gt;&gt; onsala_itrf2008 = reverse_transform(onsala_etrf2000,</span>
+<span class="sd">    ...                                     parameters.translate_m,</span>
+<span class="sd">    ...                                     parameters.matrix())</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; % tuple(onsala_itrf2008))</span>
+<span class="sd">    3370658.542, 711877.138, 5349786.952</span>
+
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">xyz_m</span> <span class="o">-</span> <span class="n">translate_m</span> <span class="o">-</span> <span class="n">dot</span><span class="p">(</span><span class="n">rotation_matrix</span><span class="p">,</span> <span class="n">xyz_m</span> <span class="o">-</span> <span class="n">translate_m</span><span class="p">)</span></div>
+
+
+
+
+<div class="viewcode-block" id="DatumTransformation"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.datumtransformation.DatumTransformation">[docs]</a><span class="k">class</span> <span class="nc">DatumTransformation</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    A datum transformation is used to transform coordinates from</span>
+<span class="sd">    reference frame A to reference frame B. It is defined by a frame</span>
+<span class="sd">    *from* which to transform, a frame *to* which to transform, the</span>
+<span class="sd">    transformation parameters at the reference epoch, and their rates</span>
+<span class="sd">    of change.</span>
+
+<span class="sd">    **Parameters**</span>
+<span class="sd">    </span>
+<span class="sd">    from_frame : string</span>
+<span class="sd">        The reference frame *from* which the parameters transform, for</span>
+<span class="sd">        example &#39;ITRF2008&#39;</span>
+
+<span class="sd">    to_frame : string</span>
+<span class="sd">        The reference frame *to* which the parameters transform, for</span>
+<span class="sd">        example &#39;ETRF2000&#39;</span>
+
+<span class="sd">    parameters : ParameterSet</span>
+<span class="sd">        The values of the transform parameters :math:`Tn`, :math:`D`,</span>
+<span class="sd">        and :math:`Rn`.</span>
+
+<span class="sd">    rates : ParameterSet</span>
+<span class="sd">        The annual rates of change for the parameters :math:`Tn`,</span>
+<span class="sd">        :math:`D`, and :math:`Rn`.</span>
+<span class="sd">        </span>
+<span class="sd">    ref_epoch : float</span>
+<span class="sd">        The year to which the parameters are referenced. The</span>
+<span class="sd">        parameters at ``epoch`` are ``parameters`` + ``rates`` *</span>
+<span class="sd">        (epoch - ref_epoch)</span>
+
+<span class="sd">    **Examples**</span>
+
+<span class="sd">    &gt;&gt;&gt; from numpy import array, pi</span>
+<span class="sd">    &gt;&gt;&gt; mm  = 0.001</span>
+<span class="sd">    &gt;&gt;&gt; mas = pi/(180.0*3600.0*1000.0)</span>
+<span class="sd">    &gt;&gt;&gt; transform = DatumTransformation(</span>
+<span class="sd">    ...     from_frame = &#39;ITRF2008&#39;, to_frame = &#39;ETRF2000&#39;,</span>
+<span class="sd">    ...     parameters = ParameterSet(array([52.1, 49.3, -58.5])*mm,</span>
+<span class="sd">    ...                               1.34e-9, </span>
+<span class="sd">    ...                               array([0.891, 5.390, -8.712])*mas),</span>
+<span class="sd">    ...     rates      = ParameterSet(array([0.1, 0.1, -1.8])*mm,</span>
+<span class="sd">    ...                               0.08e-9, </span>
+<span class="sd">    ...                               array([0.081, 0.490, -0.792])*mas),</span>
+<span class="sd">    ...     ref_epoch  = 2000.0)</span>
+<span class="sd">    &gt;&gt;&gt; transform</span>
+<span class="sd">    DatumTransformation(from_frame = &#39;ITRF2008&#39;, to_frame = &#39;ETRF2000&#39;,</span>
+<span class="sd">            parameters = ParameterSet(translate_m = array([ 0.0521,  0.0493, -0.0585]), term_d = 1.3400e-09, rotate_rad = array([  4.31968990e-09,   2.61314574e-08,  -4.22369679e-08])),</span>
+<span class="sd">            rates      = ParameterSet(translate_m = array([ 0.0001,  0.0001, -0.0018]), term_d = 8.0000e-11, rotate_rad = array([  3.92699082e-10,   2.37558704e-09,  -3.83972435e-09])),</span>
+<span class="sd">            ref_epoch  = 2000.0)</span>
+
+<span class="sd">    The parameters are only valid for the reference epoch. If one</span>
+<span class="sd">    needs to convert coordinates at any other epoch, the parameters</span>
+<span class="sd">    must first be propagated to that epoch with the help of the rates</span>
+<span class="sd">    of change:</span>
+
+<span class="sd">    &gt;&gt;&gt; epoch = 2005.0</span>
+<span class="sd">    &gt;&gt;&gt; par_2005 = transform.propagate_parameters(epoch)</span>
+<span class="sd">    &gt;&gt;&gt; par_2005</span>
+<span class="sd">    ParameterSet(translate_m = array([ 0.0526,  0.0498, -0.0675]), term_d = 1.7400e-09, rotate_rad = array([  6.28318531e-09,   3.80093926e-08,  -6.14355897e-08]))</span>
+
+<span class="sd">    </span>
+<span class="sd">    These propagated parameters can now be used to actually transform</span>
+<span class="sd">    coordinates from the ITRF2008 frame to ETRF2000, at the epoch</span>
+<span class="sd">    2005.0. Here is an example for the Onsala Space Observatory, a</span>
+<span class="sd">    EUREF class A station. According to the EUREF web site for this</span>
+<span class="sd">    station,</span>
+<span class="sd">    http://www.epncb.oma.be/_productsservices/coordinates/crd4station.php?station=ONSA,</span>
+<span class="sd">    Onsala has the following coordinates:</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    =========  ======= =============================   ============================   =============================</span>
+<span class="sd">    Frame      Epoch   X                               Y                              Z  </span>
+<span class="sd">               (y)     (m)                             (m)                            (m)  </span>
+<span class="sd">    =========  ======= =============================   ============================   ============================= </span>
+<span class="sd">    ETRF2000   2005.0  :math:`3370658.847 \pm 0.001`   :math:`711876.949 \pm 0.001`   :math:`5349786.771 \pm 0.001`</span>
+<span class="sd">    ITRF2008   2005.0  :math:`3370658.542 \pm 0.001`   :math:`711877.138 \pm 0.001`   :math:`5349786.952 \pm 0.001`</span>
+<span class="sd">    =========  ======= =============================   ============================   =============================</span>
+
+<span class="sd">    Let&#39;s see how this works out:</span>
+
+<span class="sd">    &gt;&gt;&gt; onsala_itrf2008 = array([3370658.542, 711877.138, 5349786.952])</span>
+<span class="sd">    &gt;&gt;&gt; itrf_to_etrf = transform.convert_fn(&#39;ITRF2008&#39;, &#39;ETRF2000&#39;, epoch = 2005.0)</span>
+<span class="sd">    &gt;&gt;&gt; onsala_etrf2000 = itrf_to_etrf(onsala_itrf2008)</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; % tuple(onsala_etrf2000))</span>
+<span class="sd">    3370658.848, 711876.948, 5349786.770</span>
+
+<span class="sd">    Not bad at all. We also have the reverse transform, from ETRF2000 to ITRF2008:</span>
+
+<span class="sd">    &gt;&gt;&gt; onsala_etrf2000 = array([3370658.848, 711876.948, 5349786.770])</span>
+<span class="sd">    &gt;&gt;&gt; etrf_to_itrf = transform.convert_fn(&#39;ETRF2000&#39;, &#39;ITRF2008&#39;, epoch = 2005.0)</span>
+<span class="sd">    &gt;&gt;&gt; onsala_itrf2008 = etrf_to_itrf(onsala_etrf2000)</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; % tuple(onsala_itrf2008))</span>
+<span class="sd">    3370658.542, 711877.138, 5349786.952</span>
+<span class="sd">    </span>
+<span class="sd">    For single use, one can call the *convert* method, which under the</span>
+<span class="sd">    hood first creates a conversion function. Note that this is fairly</span>
+<span class="sd">    wasteful in terms of cpu cycles:</span>
+
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; %</span>
+<span class="sd">    ...       tuple(transform.convert(onsala_itrf2008, &#39;ITRF2008&#39;, &#39;ETRF2000&#39;, 2005.0)))</span>
+<span class="sd">    3370658.848, 711876.948, 5349786.770</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; %</span>
+<span class="sd">    ...       tuple(transform.convert(onsala_etrf2000, from_frame = &#39;ETRF2000&#39;, to_frame = &#39;ITRF2008&#39;, epoch = 2005.0)))</span>
+<span class="sd">    3370658.542, 711877.138, 5349786.952</span>
+
+<span class="sd">    But be careful:</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; transform.convert(onsala_etrf2000, from_frame = &#39;ETRF2000&#39;, to_frame = &#39;ITRF2005&#39;, epoch = 2005.0)</span>
+<span class="sd">    Traceback (most recent call last):</span>
+<span class="sd">    ...</span>
+<span class="sd">    ValueError: No transform &#39;ETRF2000&#39; -&gt; &#39;ITRF2005&#39; only &#39;ETRF2000&#39; &lt;-&gt; &#39;ITRF2008&#39;.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">parameters</span><span class="p">,</span> <span class="n">rates</span><span class="p">,</span> <span class="n">ref_epoch</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">from_frame</span> <span class="o">=</span> <span class="n">from_frame</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">to_frame</span>   <span class="o">=</span> <span class="n">to_frame</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parameters</span> <span class="o">=</span> <span class="n">parameters</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rates</span>      <span class="o">=</span> <span class="n">rates</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ref_epoch</span>  <span class="o">=</span> <span class="n">ref_epoch</span>
+
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s1">&#39;&#39;&#39;</span><span class="si">%s</span><span class="s1">(from_frame = </span><span class="si">%r</span><span class="s1">, to_frame = </span><span class="si">%r</span><span class="s1">,</span>
+<span class="s1">        parameters = </span><span class="si">%r</span><span class="s1">,</span>
+<span class="s1">        rates      = </span><span class="si">%r</span><span class="s1">,</span>
+<span class="s1">        ref_epoch  = </span><span class="si">%r</span><span class="s1">)&#39;&#39;&#39;</span> <span class="o">%</span>
+                <span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_frame</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">to_frame</span><span class="p">,</span>
+                 <span class="bp">self</span><span class="o">.</span><span class="n">parameters</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">rates</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ref_epoch</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="DatumTransformation.propagate_parameters"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.datumtransformation.DatumTransformation.propagate_parameters">[docs]</a>    <span class="k">def</span> <span class="nf">propagate_parameters</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Propagate the parameter set to  *epoch*. Only use parameters</span>
+<span class="sd">        propagated with this method to *epoch* whenever you want to do</span>
+<span class="sd">        a coordinate conversion.</span>
+
+<span class="sd">        **Parameters**</span>
+
+<span class="sd">        epoch : number</span>
+<span class="sd">            The year at which one desires the parameters,</span>
+<span class="sd">            e.g. 2013.2.</span>
+
+<span class="sd">        **Returns**</span>
+<span class="sd">        </span>
+<span class="sd">        A ParameterSet.</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">parameters</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">rates</span><span class="o">*</span><span class="p">(</span><span class="n">epoch</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">ref_epoch</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="DatumTransformation.convert_fn"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.datumtransformation.DatumTransformation.convert_fn">[docs]</a>    <span class="k">def</span> <span class="nf">convert_fn</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Returns a function *convert(xyz_m)* that converts an XYZ</span>
+<span class="sd">        vector from ``from_frame`` to ``to_frame``. If ``from_frame``</span>
+<span class="sd">        is equal to ``self.to_frame`` and v.v., the function performs</span>
+<span class="sd">        the inverse transform.</span>
+
+<span class="sd">        **Parameters**</span>
+
+<span class="sd">        from_frame : string</span>
+<span class="sd">            Frame from which to ransform, e.g. &#39;ITRF2008&#39;.</span>
+
+<span class="sd">        to_frame : string</span>
+<span class="sd">            Frame to which to transform, e.g. &#39;ETRF2000&#39;.</span>
+<span class="sd">           </span>
+<span class="sd">        epoch : number</span>
+<span class="sd">            Epoch at which the coordinates were observed, or are</span>
+<span class="sd">            required, in years. Example: 2013.5. </span>
+<span class="sd">        </span>
+<span class="sd">        **Raises**</span>
+
+<span class="sd">        ValueError</span>
+<span class="sd">            if *to_frame* or *from_frame* is not in *[self.to_frame,</span>
+<span class="sd">            self.from_frame]*. </span>
+
+<span class="sd">        **Returns**</span>
+
+<span class="sd">        A function *f(xyz_m)* that returns a *numpy.array* of length</span>
+<span class="sd">        3.</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="n">parameters</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">propagate_parameters</span><span class="p">(</span><span class="n">epoch</span><span class="p">)</span>
+        <span class="n">translate_m</span> <span class="o">=</span> <span class="n">parameters</span><span class="o">.</span><span class="n">translate_m</span>
+        <span class="n">matrix</span>      <span class="o">=</span> <span class="n">parameters</span><span class="o">.</span><span class="n">matrix</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">from_frame</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_frame</span> <span class="ow">and</span> <span class="n">to_frame</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">to_frame</span><span class="p">:</span>
+            <span class="n">transform</span> <span class="o">=</span> <span class="n">forward_transform</span>
+        <span class="k">elif</span> <span class="n">from_frame</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">to_frame</span> <span class="ow">and</span> <span class="n">to_frame</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_frame</span><span class="p">:</span>
+            <span class="n">transform</span> <span class="o">=</span> <span class="n">reverse_transform</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;No transform </span><span class="si">%r</span><span class="s1"> -&gt; </span><span class="si">%r</span><span class="s1"> only </span><span class="si">%r</span><span class="s1"> &lt;-&gt; </span><span class="si">%r</span><span class="s1">.&#39;</span> <span class="o">%</span>
+                             <span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span>
+                              <span class="bp">self</span><span class="o">.</span><span class="n">to_frame</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_frame</span><span class="p">))</span>
+        <span class="k">def</span> <span class="nf">convert_function</span><span class="p">(</span><span class="n">xyz_m</span><span class="p">):</span>
+            <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">            Convert *xyz_m* to anorther datum.</span>
+<span class="sd">            </span>
+<span class="sd">            **Parameters**</span>
+<span class="sd">            </span>
+<span class="sd">            xyz_m : numpy.array of floats of length 3</span>
+<span class="sd">                The coordinates to transform.</span>
+<span class="sd">            </span>
+<span class="sd">            **Returns**</span>
+
+<span class="sd">            A numpy.array of floats of length 3 containing the</span>
+<span class="sd">            transformed coordinates.</span>
+<span class="sd">            &#39;&#39;&#39;</span>
+            <span class="k">return</span> <span class="n">transform</span><span class="p">(</span><span class="n">xyz_m</span><span class="p">,</span> <span class="n">translate_m</span><span class="p">,</span> <span class="n">matrix</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">convert_function</span></div>
+        
+
+<div class="viewcode-block" id="DatumTransformation.convert"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.datumtransformation.DatumTransformation.convert">[docs]</a>    <span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">xyz_m</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Converts the *xyz_m* vector from *from_frame* to</span>
+<span class="sd">        *to_frame*. If *from_frame* is equal to *self.to_frame* and</span>
+<span class="sd">        v.v., the function performs the inverse transform. Use only if</span>
+<span class="sd">        one has to convert one or two coordinates. Create a conversion</span>
+<span class="sd">        function with *DatumTransformation.convert_fn()* if you have</span>
+<span class="sd">        to convert a large number of coordinates.</span>
+
+<span class="sd">        **Parameters**</span>
+<span class="sd">        </span>
+<span class="sd">        xyz_m : sequence of 3 floats</span>
+<span class="sd">            The coordinates to convert.</span>
+
+<span class="sd">        from_frame : string</span>
+<span class="sd">            Frame from which to ransform, e.g. &#39;ITRF2008&#39;.</span>
+
+<span class="sd">        to_frame : string</span>
+<span class="sd">            Frame to which to transform, e.g. &#39;ETRF2000&#39;.</span>
+<span class="sd">           </span>
+<span class="sd">        epoch : number</span>
+<span class="sd">            Epoch at which the coordinates were observed, or are</span>
+<span class="sd">            required, in years. Example: 2013.5. </span>
+<span class="sd">        </span>
+<span class="sd">        **Raises**</span>
+
+<span class="sd">        ValueError</span>
+<span class="sd">            if *to_frame* or *from_frame* is not in *[self.to_frame,</span>
+<span class="sd">            self.from_frame]*. </span>
+
+<span class="sd">        **Returns**</span>
+<span class="sd">        </span>
+<span class="sd">        A *numpy.array* of length 3.</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">convert_fn</span><span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">)(</span><span class="n">xyz_m</span><span class="p">)</span></div></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">etrsitrs 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012, M.A. Brentjens.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

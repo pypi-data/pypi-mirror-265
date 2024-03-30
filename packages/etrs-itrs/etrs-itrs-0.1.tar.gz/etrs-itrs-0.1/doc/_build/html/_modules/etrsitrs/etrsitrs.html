@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>etrsitrs.etrsitrs &mdash; etrsitrs 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="etrsitrs 0.1 documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">etrsitrs 0.1 documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for etrsitrs.etrsitrs</h1><div class="highlight"><pre>
+<span class="sd">r&#39;&#39;&#39;</span>
+<span class="sd">The ``etrsitrs`` Python module converts ITRS coordinates in various</span>
+<span class="sd">reference frames to ETRS89 coordinates in the ETRF2000 reference frame</span>
+<span class="sd">and vice versa. The conversions are described by 14 parameter</span>
+<span class="sd">transforms, consisting of seven parameters and their associated rates</span>
+<span class="sd">of change per year.</span>
+
+<span class="sd">The transform and the coefficients are defined in the EUREF memo</span>
+<span class="sd">/Specifications for reference frame fixing in the analysis of a EUREF</span>
+<span class="sd">GPS campaign/ by Claude Boucher and Zuheir Altamimi. This module</span>
+<span class="sd">uses version 8 bis of this memo, published on 2011-May-18.</span>
+
+<span class="sd">The seven parameter transform of coordinates from frame A to frame B is</span>
+<span class="sd">defined as</span>
+
+<span class="sd">.. math::</span>
+
+<span class="sd">   \left(\begin{array}{c} x_B \\ y_B \\ z_B\end{array}\right) = </span>
+<span class="sd">   \left(\begin{array}{c} x_A \\ y_A \\ z_A\end{array}\right) +</span>
+<span class="sd">   \left(\begin{array}{c} T1 \\ T2 \\ T3\end{array}\right) +</span>
+<span class="sd">   \left(\begin{array}{ccc}</span>
+<span class="sd">       D  &amp; -R3 &amp;  R2 \\</span>
+<span class="sd">       R3 &amp;  D  &amp; -R1 \\ </span>
+<span class="sd">      -R2 &amp;  R1 &amp;  D</span>
+<span class="sd">   \end{array}\right)</span>
+<span class="sd">   \left(\begin{array}{c} x_A \\ y_A \\ z_A\end{array}\right)</span>
+
+<span class="sd">Table XX lists the parameters to transform from ITRFyyyy to ETRF2000.</span>
+
+<span class="sd">The inverse transform, given the same parameters, is</span>
+
+<span class="sd">.. math::</span>
+
+<span class="sd">   \left(\begin{array}{c} x_A \\ y_A \\ z_A\end{array}\right) = </span>
+<span class="sd">   \left(\begin{array}{c} x_B \\ y_B \\ z_B\end{array}\right) -</span>
+<span class="sd">   \left(\begin{array}{c} T1 \\ T2 \\ T3\end{array}\right) -</span>
+<span class="sd">   \left(\begin{array}{ccc}</span>
+<span class="sd">       D  &amp; -R3 &amp;  R2 \\</span>
+<span class="sd">       R3 &amp;  D  &amp; -R1 \\ </span>
+<span class="sd">      -R2 &amp;  R1 &amp;  D</span>
+<span class="sd">   \end{array}\right)</span>
+<span class="sd">   \left[\left(\begin{array}{c} x_B \\ y_B \\ z_B\end{array}\right) - </span>
+<span class="sd">         \left(\begin{array}{c} T1 \\ T2 \\ T3\end{array}\right)\right].</span>
+
+<span class="sd">Here, we used that the matrix :math:`I + M`, with :math:`I` the identity matrix,</span>
+<span class="sd">and :math:`M` the matrix in the equations above, is a rotation</span>
+<span class="sd">matrix. Rotation matrices are unitary, hence their inverse is equal to</span>
+<span class="sd">their transpose.</span>
+
+<span class="sd">The seven parameters :math:`Tn`, :math:`D`, and :math:`Rn` are time</span>
+<span class="sd">dependent. To correctly perform the transformation, the parameter set</span>
+<span class="sd">:math:`P` must first be propagated to the epoch at which the ITRF</span>
+<span class="sd">coordinates were observed, or at which the ITRF coordinates are</span>
+<span class="sd">desired, according to</span>
+
+<span class="sd">.. math::</span>
+
+<span class="sd">   P(t) = P(t_0) + \dot{P}\times(t - t_0),</span>
+
+<span class="sd">where :math:`t_0` is the epoch at which the parameters are valid</span>
+<span class="sd">(2000.0 in this case), and :math:`t` is the epoch at which the ITRF</span>
+<span class="sd">coordinates are observed or required. Both are in units of years.</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span>
+
+
+<div class="viewcode-block" id="ParameterSet"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.etrsitrs.ParameterSet">[docs]</a><span class="k">class</span> <span class="nc">ParameterSet</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">r&#39;&#39;&#39;</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">translate_m</span><span class="p">,</span> <span class="n">term_d</span><span class="p">,</span> <span class="n">rotate_rad</span><span class="p">):</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="CoordinateTransform"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.etrsitrs.CoordinateTransform">[docs]</a><span class="k">class</span> <span class="nc">CoordinateTransform</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">parameters</span><span class="p">,</span> <span class="n">rates</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s">&#39;CoordinateTransform&#39;</span>
+
+</div>
+<div class="viewcode-block" id="ETRF2000"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.etrsitrs.ETRF2000">[docs]</a><span class="k">class</span> <span class="nc">ETRF2000</span><span class="p">(</span><span class="n">CoordinateTransform</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">parameters</span><span class="p">,</span> <span class="n">rates</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">to_frame</span>   <span class="o">=</span> <span class="s">&#39;ETRF2000&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">from_frame</span> <span class="o">=</span> <span class="n">from_frame</span>
+
+
+
+
+<span class="c"># Coefficients from Boucher and Altamimi (2011)</span>
+<span class="c"># &quot;Memo: specifications for reference frame fixing in the analysis of a EUREF GPS campaign&quot;</span>
+<span class="c">#                          |&#39;T1&#39; |&#39;T2&#39; |&#39;T3&#39;  |&#39;D&#39;  |&#39;R1&#39;  |&#39;R2&#39;  |&#39;R3&#39;   |</span>
+<span class="c">#                          |(mm) |(mm) |(mm)  |x1e-9|(mas) |(mas) |(mas)  |</span></div>
+<span class="n">PARAMETER_TABLE</span> <span class="o">=</span> <span class="p">[</span>        
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s">&#39;ITRF2008&#39;</span> <span class="p">,</span>
+                            <span class="p">[</span><span class="mf">52.1</span><span class="p">,</span> <span class="mf">49.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">58.5</span><span class="p">,</span> <span class="mf">1.34</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.712</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.1</span><span class="p">,</span>  <span class="mf">0.1</span><span class="p">,</span>  <span class="o">-</span><span class="mf">1.8</span><span class="p">,</span> <span class="mf">0.08</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.792</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s">&#39;ITRF2005&#39;</span> <span class="p">,</span>
+                            <span class="p">[</span><span class="mf">54.1</span><span class="p">,</span> <span class="mf">50.2</span><span class="p">,</span> <span class="o">-</span><span class="mf">53.8</span><span class="p">,</span> <span class="mf">0.40</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.712</span><span class="p">],</span>
+                            <span class="p">[</span><span class="o">-</span><span class="mf">0.2</span><span class="p">,</span>  <span class="mf">0.1</span><span class="p">,</span>  <span class="o">-</span><span class="mf">1.8</span><span class="p">,</span> <span class="mf">0.08</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.792</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s">&#39;ITRF2000&#39;</span> <span class="p">,</span>
+                            <span class="p">[</span><span class="mf">54.0</span><span class="p">,</span> <span class="mf">51.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">48.0</span><span class="p">,</span> <span class="mf">0.00</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.712</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.0</span><span class="p">,</span>   <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.00</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.792</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">)]</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">etrsitrs 0.1 documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, M.A. Brentjens.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

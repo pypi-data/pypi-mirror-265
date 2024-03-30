@@ -1,0 +1,359 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>etrsitrs.main &#8212; etrsitrs 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">etrsitrs 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for etrsitrs.main</h1><div class="highlight"><pre>
+<span></span><span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">This module is home to the most important functions: *convert()* and</span>
+<span class="sd">*convert_fn()*. Use *convert()* if you are only interested in one or</span>
+<span class="sd">two coordinate conversions, but create a conversion function with the</span>
+<span class="sd">help of *convert_fn()* if you want to convert more coordinates.</span>
+
+<span class="sd">This module contains a hardcoded table of predefined</span>
+<span class="sd">DatumTransformations, called *TRANSFORM_TABLE*. The function</span>
+<span class="sd">*find_transform()* searches this table.</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">etrsitrs.datumtransformation</span> <span class="k">import</span> <span class="n">DatumTransformation</span>
+    <span class="kn">from</span> <span class="nn">etrsitrs.parameterset</span> <span class="k">import</span> <span class="n">ParameterSet</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">datumtransformation</span> <span class="k">import</span> <span class="n">DatumTransformation</span>
+    <span class="kn">from</span> <span class="nn">parameterset</span> <span class="k">import</span> <span class="n">ParameterSet</span>
+    
+
+
+
+<div class="viewcode-block" id="convert_fn"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.main.convert_fn">[docs]</a><span class="k">def</span> <span class="nf">convert_fn</span><span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Returns a function *convert_function(xyz_m)* that converts an XYZ</span>
+<span class="sd">    vector from ``from_frame`` to ``to_frame`` at the given ``epoch``.</span>
+<span class="sd">    </span>
+<span class="sd">    **Parameters**</span>
+<span class="sd">    </span>
+<span class="sd">    from_frame : string</span>
+<span class="sd">        Frame from which to ransform, e.g. &#39;ITRF2008&#39;.</span>
+<span class="sd">    </span>
+<span class="sd">    to_frame : string</span>
+<span class="sd">        Frame to which to transform, e.g. &#39;ETRF2000&#39;.</span>
+<span class="sd">           </span>
+<span class="sd">    epoch : number</span>
+<span class="sd">        Epoch at which the coordinates were observed, or are</span>
+<span class="sd">        required, in years. Example: 2013.5. </span>
+<span class="sd">        </span>
+<span class="sd">    **Raises**</span>
+
+<span class="sd">    KeyError</span>
+<span class="sd">        If no appropriate transform is found</span>
+
+<span class="sd">    **Returns**</span>
+
+<span class="sd">    A function *f(xyz_m)* that returns a *numpy.array* of length 3.</span>
+
+<span class="sd">    **Examples**</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; onsala_itrf2008 = numpy.array([3370658.542, 711877.138, 5349786.952])</span>
+<span class="sd">    &gt;&gt;&gt; fn = convert_fn(&#39;ITRF2008&#39;, &#39;ETRF2000&#39;, 2005.0)</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; % tuple(fn(onsala_itrf2008)))</span>
+<span class="sd">    3370658.848, 711876.948, 5349786.770</span>
+
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">transform</span> <span class="o">=</span> <span class="n">find_transform</span><span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">transform</span><span class="o">.</span><span class="n">convert_fn</span><span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="convert"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.main.convert">[docs]</a><span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="n">xyz_m</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Converts the *xyz_m* vector from *from_frame* to *to_frame*. Use</span>
+<span class="sd">    only if one has to convert one or two coordinates. Create a</span>
+<span class="sd">    conversion function with *convert_fn()* if you have to convert a</span>
+<span class="sd">    large number of coordinates.</span>
+
+<span class="sd">    **Parameters**</span>
+<span class="sd">        </span>
+<span class="sd">    xyz_m : sequence of 3 floats</span>
+<span class="sd">        The coordinates to convert.</span>
+
+<span class="sd">    from_frame : string</span>
+<span class="sd">        Frame from which to ransform, e.g. &#39;ITRF2008&#39;.</span>
+
+<span class="sd">    to_frame : string</span>
+<span class="sd">        Frame to which to transform, e.g. &#39;ETRF2000&#39;.</span>
+<span class="sd">           </span>
+<span class="sd">    epoch : number</span>
+<span class="sd">        Epoch at which the coordinates were observed, or are</span>
+<span class="sd">        required, in years. Example: 2013.5. </span>
+<span class="sd">        </span>
+<span class="sd">    **Raises**</span>
+
+<span class="sd">    KeyError</span>
+<span class="sd">        If no appropriate transform is found.</span>
+
+<span class="sd">    **Returns**</span>
+<span class="sd">        </span>
+<span class="sd">    A *numpy.array* of length 3.</span>
+
+<span class="sd">    **Examples**</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; onsala_itrf2008 = numpy.array([3370658.542, 711877.138, 5349786.952])</span>
+<span class="sd">    &gt;&gt;&gt; onsala_etrf2000 = convert(onsala_itrf2008, &#39;ITRF2008&#39;, &#39;ETRF2000&#39;, 2005.0)</span>
+<span class="sd">    &gt;&gt;&gt; print(&#39;%.3f, %.3f, %.3f&#39; % tuple(onsala_etrf2000))</span>
+<span class="sd">    3370658.848, 711876.948, 5349786.770</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">transform</span> <span class="o">=</span> <span class="n">find_transform</span><span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">transform</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="n">xyz_m</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">,</span> <span class="n">epoch</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="ETRF2000"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.main.ETRF2000">[docs]</a><span class="k">class</span> <span class="nc">ETRF2000</span><span class="p">(</span><span class="n">DatumTransformation</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    ETRF2000 is a subclass of *DatumTransformation* that makes it</span>
+<span class="sd">    possible to specify the 14 parameters from Boucher and Altamimi</span>
+<span class="sd">    (2011) in the units used in their memo. That is, first the three</span>
+<span class="sd">    translations in mm, then term D in units of :math:`10^{-9}`</span>
+<span class="sd">    followed by the three rotations in mas. The *to_frame* is set to</span>
+<span class="sd">    &#39;ETRF2000&#39;.</span>
+
+<span class="sd">    The same order and units are used for the rates.</span>
+
+<span class="sd">    **Parameters**</span>
+<span class="sd">    </span>
+<span class="sd">    from_frame : string</span>
+<span class="sd">        The frame from which the parameters transform,</span>
+<span class="sd">        e.g. &#39;ITRF2008&#39;.</span>
+
+<span class="sd">    parameters : sequence of 7 floats</span>
+<span class="sd">        The parameters [T1 (mm), T2 (mm), T3 (mm), D (1e-9), R1 (mas),</span>
+<span class="sd">        R2 (mas), R3 (mas)].</span>
+
+<span class="sd">    rates: sequence of 7 floats</span>
+<span class="sd">        The annual rates of change for the parameters [T1 (mm), T2</span>
+<span class="sd">        (mm), T3 (mm), D (1e-9), R1 (mas), R2 (mas), R3 (mas)].</span>
+
+<span class="sd">    ref_epoch : float</span>
+<span class="sd">        The reference epoch at which *parameters* are valid,</span>
+<span class="sd">        e.g. 2000.0</span>
+
+<span class="sd">    **Examples**</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; #       |&#39;T1&#39; |&#39;T2&#39; |&#39;T3&#39;  |&#39;D&#39;  |&#39;R1&#39;  |&#39;R2&#39;  |&#39;R3&#39;   |</span>
+<span class="sd">    &gt;&gt;&gt; #       |(mm) |(mm) |(mm)  |x1e-9|(mas) |(mas) |(mas)  | </span>
+<span class="sd">    &gt;&gt;&gt; ETRF2000(&#39;ITRF2008&#39; ,</span>
+<span class="sd">    ...          [52.1, 49.3, -58.5, 1.34, 0.891, 5.390, -8.712],</span>
+<span class="sd">    ...          [ 0.1,  0.1,  -1.8, 0.08, 0.081, 0.490, -0.792],</span>
+<span class="sd">    ...          2000.0)</span>
+<span class="sd">    ETRF2000(from_frame = &#39;ITRF2008&#39;, to_frame = &#39;ETRF2000&#39;,</span>
+<span class="sd">            parameters = ParameterSet(translate_m = array([ 0.0521,  0.0493, -0.0585]), term_d = 1.3400e-09, rotate_rad = array([  4.31968990e-09,   2.61314574e-08,  -4.22369679e-08])),</span>
+<span class="sd">            rates      = ParameterSet(translate_m = array([ 0.0001,  0.0001, -0.0018]), term_d = 8.0000e-11, rotate_rad = array([  3.92699082e-10,   2.37558704e-09,  -3.83972435e-09])),</span>
+<span class="sd">            ref_epoch  = 2000.0)</span>
+<span class="sd">   </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">parameters</span><span class="p">,</span> <span class="n">rates</span><span class="p">,</span> <span class="n">ref_epoch</span><span class="p">):</span>
+        <span class="n">mm</span>  <span class="o">=</span> <span class="mf">0.001</span>
+        <span class="n">mas</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="p">(</span><span class="mf">180.0</span> <span class="o">*</span> <span class="mf">3600.0</span> <span class="o">*</span> <span class="mf">1000.0</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">ETRF2000</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span>
+            <span class="n">from_frame</span> <span class="o">=</span> <span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span> <span class="o">=</span> <span class="s1">&#39;ETRF2000&#39;</span><span class="p">,</span>
+            <span class="n">parameters</span> <span class="o">=</span> <span class="n">ParameterSet</span><span class="p">(</span><span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">parameters</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span><span class="o">*</span><span class="n">mm</span><span class="p">,</span>
+                                      <span class="n">parameters</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">*</span><span class="mf">1e-9</span><span class="p">,</span> 
+                                      <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">parameters</span><span class="p">[</span><span class="mi">4</span><span class="p">:])</span><span class="o">*</span><span class="n">mas</span><span class="p">),</span>
+            <span class="n">rates</span>      <span class="o">=</span> <span class="n">ParameterSet</span><span class="p">(</span><span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">rates</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span><span class="o">*</span><span class="n">mm</span><span class="p">,</span>
+                                      <span class="n">rates</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">*</span><span class="mf">1e-9</span><span class="p">,</span> 
+                                      <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">rates</span><span class="p">[</span><span class="mi">4</span><span class="p">:])</span><span class="o">*</span><span class="n">mas</span><span class="p">),</span>
+            <span class="n">ref_epoch</span>  <span class="o">=</span> <span class="n">ref_epoch</span><span class="p">)</span></div>
+        
+
+
+
+
+<span class="c1"># Coefficients from Boucher and Altamimi (2011)</span>
+<span class="c1"># &quot;Memo: specifications for reference frame fixing in the analysis of</span>
+<span class="c1"># a EUREF GPS campaign&quot;</span>
+<span class="c1">#                          |&#39;T1&#39; |&#39;T2&#39; |&#39;T3&#39;  |&#39;D&#39;   |&#39;R1&#39;  |&#39;R2&#39;  |&#39;R3&#39;   |</span>
+<span class="c1">#                          |(mm) |(mm) |(mm)  |x 1e-9|(mas) |(mas) |(mas)  |</span>
+<span class="n">TRANSFORM_TABLE</span> <span class="o">=</span> <span class="p">[</span>        
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF2008&#39;</span> <span class="p">,</span>
+                            <span class="p">[</span><span class="mf">52.1</span><span class="p">,</span> <span class="mf">49.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">58.5</span><span class="p">,</span>  <span class="mf">1.34</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.712</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.1</span><span class="p">,</span>  <span class="mf">0.1</span><span class="p">,</span>  <span class="o">-</span><span class="mf">1.8</span><span class="p">,</span>  <span class="mf">0.08</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.792</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF2005&#39;</span> <span class="p">,</span>
+                            <span class="p">[</span><span class="mf">54.1</span><span class="p">,</span> <span class="mf">50.2</span><span class="p">,</span> <span class="o">-</span><span class="mf">53.8</span><span class="p">,</span>  <span class="mf">0.40</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.712</span><span class="p">],</span>
+                            <span class="p">[</span><span class="o">-</span><span class="mf">0.2</span><span class="p">,</span>  <span class="mf">0.1</span><span class="p">,</span>  <span class="o">-</span><span class="mf">1.8</span><span class="p">,</span>  <span class="mf">0.08</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.792</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF2000&#39;</span> <span class="p">,</span>
+                            <span class="p">[</span><span class="mf">54.0</span><span class="p">,</span> <span class="mf">51.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">48.0</span><span class="p">,</span>  <span class="mf">0.00</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.712</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.0</span><span class="p">,</span>   <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.00</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.792</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF97&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">47.3</span><span class="p">,</span> <span class="mf">46.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">25.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.58</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF96&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">47.3</span><span class="p">,</span> <span class="mf">46.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">25.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.58</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF94&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">47.3</span><span class="p">,</span> <span class="mf">46.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">25.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.58</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF93&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">76.1</span><span class="p">,</span> <span class="mf">46.9</span><span class="p">,</span> <span class="o">-</span><span class="mf">19.9</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.07</span><span class="p">,</span> <span class="mf">2.601</span><span class="p">,</span> <span class="mf">6.870</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.412</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">2.9</span><span class="p">,</span>  <span class="mf">0.2</span><span class="p">,</span>   <span class="mf">0.6</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.191</span><span class="p">,</span> <span class="mf">0.680</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.862</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF92&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">39.3</span><span class="p">,</span> <span class="mf">44.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">17.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.87</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF91&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">27.3</span><span class="p">,</span> <span class="mf">30.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">11.3</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.27</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF90&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">29.3</span><span class="p">,</span> <span class="mf">34.7</span><span class="p">,</span>   <span class="mf">4.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.57</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">),</span>
+                   <span class="n">ETRF2000</span><span class="p">(</span><span class="s1">&#39;ITRF89&#39;</span><span class="p">,</span>
+                            <span class="p">[</span><span class="mf">24.3</span><span class="p">,</span> <span class="mf">10.7</span><span class="p">,</span>  <span class="mf">42.7</span><span class="p">,</span> <span class="o">-</span><span class="mf">5.97</span><span class="p">,</span> <span class="mf">0.891</span><span class="p">,</span> <span class="mf">5.390</span><span class="p">,</span> <span class="o">-</span><span class="mf">8.772</span><span class="p">],</span>
+                            <span class="p">[</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.6</span><span class="p">,</span>   <span class="mf">1.4</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.081</span><span class="p">,</span> <span class="mf">0.490</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.812</span><span class="p">],</span>
+                            <span class="mf">2000.0</span><span class="p">)]</span>
+
+
+
+
+                            
+
+
+<div class="viewcode-block" id="find_transform"><a class="viewcode-back" href="../../api-docs.html#etrsitrs.main.find_transform">[docs]</a><span class="k">def</span> <span class="nf">find_transform</span><span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Finds the appropriate *DatumTransformation* in *TRANSFORM_TABLE*.</span>
+<span class="sd">    </span>
+<span class="sd">    **Parameters**</span>
+
+<span class="sd">    from_frame : string</span>
+<span class="sd">        Frame from which to transform, e.g. &#39;ITRF2008&#39;.</span>
+
+<span class="sd">    to_frame : string</span>
+<span class="sd">        Frame to which to transform, e.g. &#39;ETRF2000&#39;</span>
+
+<span class="sd">    **Returns**</span>
+
+<span class="sd">    A *DatumTransformation* instance that can perform the requested</span>
+<span class="sd">    conversion.</span>
+
+<span class="sd">    **Raises**</span>
+
+<span class="sd">    KeyError</span>
+<span class="sd">        If no appropriate transform is found.</span>
+
+<span class="sd">    **Examples**</span>
+
+<span class="sd">    &gt;&gt;&gt; find_transform(&#39;ETRF2000&#39;, &#39;ITRF2000&#39;)</span>
+<span class="sd">    ETRF2000(from_frame = &#39;ITRF2000&#39;, to_frame = &#39;ETRF2000&#39;,</span>
+<span class="sd">            parameters = ParameterSet(translate_m = array([ 0.054,  0.051, -0.048]), term_d = 0.0000e+00, rotate_rad = array([  4.31968990e-09,   2.61314574e-08,  -4.22369679e-08])),</span>
+<span class="sd">            rates      = ParameterSet(translate_m = array([ 0.,  0.,  0.]), term_d = 0.0000e+00, rotate_rad = array([  3.92699082e-10,   2.37558704e-09,  -3.83972435e-09])),</span>
+<span class="sd">            ref_epoch  = 2000.0)</span>
+<span class="sd">    &gt;&gt;&gt; find_transform(&#39;ITRF2008&#39;, &#39;ETRF2000&#39;)</span>
+<span class="sd">    ETRF2000(from_frame = &#39;ITRF2008&#39;, to_frame = &#39;ETRF2000&#39;,</span>
+<span class="sd">            parameters = ParameterSet(translate_m = array([ 0.0521,  0.0493, -0.0585]), term_d = 1.3400e-09, rotate_rad = array([  4.31968990e-09,   2.61314574e-08,  -4.22369679e-08])),</span>
+<span class="sd">            rates      = ParameterSet(translate_m = array([ 0.0001,  0.0001, -0.0018]), term_d = 8.0000e-11, rotate_rad = array([  3.92699082e-10,   2.37558704e-09,  -3.83972435e-09])),</span>
+<span class="sd">            ref_epoch  = 2000.0)</span>
+<span class="sd">    &gt;&gt;&gt; find_transform(&#39;ITRF1833&#39;, &#39;ETRF2000&#39;)</span>
+<span class="sd">    Traceback (most recent call last):</span>
+<span class="sd">    ...</span>
+<span class="sd">    KeyError: &quot;No &#39;ITRF1833&#39; -&gt; &#39;ETRF2000&#39; in etrsitrs.main.TRANSFORM_TABLE.&quot;</span>
+
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">table</span>  <span class="o">=</span> <span class="n">TRANSFORM_TABLE</span>
+    <span class="n">frames</span> <span class="o">=</span> <span class="p">[</span><span class="n">to_frame</span><span class="p">,</span> <span class="n">from_frame</span><span class="p">]</span>
+    
+    <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">transform</span> <span class="k">for</span> <span class="n">transform</span> <span class="ow">in</span> <span class="n">table</span>
+              <span class="k">if</span> <span class="n">transform</span><span class="o">.</span><span class="n">to_frame</span> <span class="ow">in</span> <span class="n">frames</span>
+              <span class="ow">and</span> <span class="n">transform</span><span class="o">.</span><span class="n">from_frame</span> <span class="ow">in</span> <span class="n">frames</span><span class="p">]</span>
+    
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="s1">&#39;No </span><span class="si">%r</span><span class="s1"> -&gt; </span><span class="si">%r</span><span class="s1"> in etrsitrs.main.TRANSFORM_TABLE.&#39;</span> <span class="o">%</span>
+                       <span class="p">(</span><span class="n">from_frame</span><span class="p">,</span> <span class="n">to_frame</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">etrsitrs 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012, M.A. Brentjens.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

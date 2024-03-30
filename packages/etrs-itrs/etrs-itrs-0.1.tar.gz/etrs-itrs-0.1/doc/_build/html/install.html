@@ -1,0 +1,185 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Installation &#8212; etrsitrs 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API documentation" href="api-docs.html" />
+    <link rel="prev" title="Readme" href="readme.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="api-docs.html" title="API documentation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="readme.html" title="Readme"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">etrsitrs 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>The <code class="docutils literal"><span class="pre">etrsitrs</span></code> package uses the standard Python distutils for
+building and installation. The package is written in Python
+version 2. Use:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>user@host: ~/etrs-itrs/$ python2 setup.py install
+</pre></div>
+</div>
+<p>for a default installation. Although on most systems as of 2012,
+python 2 is the default Python interpreter, use the <code class="docutils literal"><span class="pre">python2</span></code>
+interpreter explicitly to ensure you don’t accidentally use python
+version 3 on systems that have a dual Python installation. Use
+<code class="docutils literal"><span class="pre">--prefix</span></code> to install at an alternative location, for example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>user@host: ~/etrs-itrs/$ python2 setup.py install --prefix=/opt/python
+</pre></div>
+</div>
+<div class="section" id="setup-py-help">
+<h2>setup.py help<a class="headerlink" href="#setup-py-help" title="Permalink to this headline">¶</a></h2>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">Common</span> <span class="n">commands</span><span class="p">:</span> <span class="p">(</span><span class="n">see</span> <span class="s1">&#39;--help-commands&#39;</span> <span class="k">for</span> <span class="n">more</span><span class="p">)</span>
+
+  <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">build</span>      <span class="n">will</span> <span class="n">build</span> <span class="n">the</span> <span class="n">package</span> <span class="n">underneath</span> <span class="s1">&#39;build/&#39;</span>
+  <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>    <span class="n">will</span> <span class="n">install</span> <span class="n">the</span> <span class="n">package</span>
+
+<span class="n">Global</span> <span class="n">options</span><span class="p">:</span>
+  <span class="o">--</span><span class="n">verbose</span> <span class="p">(</span><span class="o">-</span><span class="n">v</span><span class="p">)</span>  <span class="n">run</span> <span class="n">verbosely</span> <span class="p">(</span><span class="n">default</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">quiet</span> <span class="p">(</span><span class="o">-</span><span class="n">q</span><span class="p">)</span>    <span class="n">run</span> <span class="n">quietly</span> <span class="p">(</span><span class="n">turns</span> <span class="n">verbosity</span> <span class="n">off</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">dry</span><span class="o">-</span><span class="n">run</span> <span class="p">(</span><span class="o">-</span><span class="n">n</span><span class="p">)</span>  <span class="n">don</span><span class="s1">&#39;t actually do anything</span>
+  <span class="o">--</span><span class="n">help</span> <span class="p">(</span><span class="o">-</span><span class="n">h</span><span class="p">)</span>     <span class="n">show</span> <span class="n">detailed</span> <span class="n">help</span> <span class="n">message</span>
+  <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">cfg</span>   <span class="n">ignore</span> <span class="n">pydistutils</span><span class="o">.</span><span class="n">cfg</span> <span class="ow">in</span> <span class="n">your</span> <span class="n">home</span> <span class="n">directory</span>
+
+<span class="n">Options</span> <span class="k">for</span> <span class="s1">&#39;install&#39;</span> <span class="n">command</span><span class="p">:</span>
+  <span class="o">--</span><span class="n">prefix</span>            <span class="n">installation</span> <span class="n">prefix</span>
+  <span class="o">--</span><span class="n">exec</span><span class="o">-</span><span class="n">prefix</span>       <span class="p">(</span><span class="n">Unix</span> <span class="n">only</span><span class="p">)</span> <span class="n">prefix</span> <span class="k">for</span> <span class="n">platform</span><span class="o">-</span><span class="n">specific</span> <span class="n">files</span>
+  <span class="o">--</span><span class="n">home</span>              <span class="p">(</span><span class="n">Unix</span> <span class="n">only</span><span class="p">)</span> <span class="n">home</span> <span class="n">directory</span> <span class="n">to</span> <span class="n">install</span> <span class="n">under</span>
+  <span class="o">--</span><span class="n">user</span>              <span class="n">install</span> <span class="ow">in</span> <span class="n">user</span> <span class="n">site</span><span class="o">-</span><span class="n">package</span>
+                      <span class="s1">&#39;/home/brentjens/.local/lib/python2.7/site-packages&#39;</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">base</span>      <span class="n">base</span> <span class="n">installation</span> <span class="n">directory</span> <span class="p">(</span><span class="n">instead</span> <span class="n">of</span> <span class="o">--</span><span class="n">prefix</span> <span class="ow">or</span> <span class="o">--</span>
+                      <span class="n">home</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">platbase</span>  <span class="n">base</span> <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="n">platform</span><span class="o">-</span><span class="n">specific</span> <span class="n">files</span>
+                      <span class="p">(</span><span class="n">instead</span> <span class="n">of</span> <span class="o">--</span><span class="n">exec</span><span class="o">-</span><span class="n">prefix</span> <span class="ow">or</span> <span class="o">--</span><span class="n">home</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">root</span>              <span class="n">install</span> <span class="n">everything</span> <span class="n">relative</span> <span class="n">to</span> <span class="n">this</span> <span class="n">alternate</span> <span class="n">root</span>
+                      <span class="n">directory</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">purelib</span>   <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="n">pure</span> <span class="n">Python</span> <span class="n">module</span>
+                      <span class="n">distributions</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">platlib</span>   <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="n">non</span><span class="o">-</span><span class="n">pure</span> <span class="n">module</span> <span class="n">distributions</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">lib</span>       <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="nb">all</span> <span class="n">module</span> <span class="n">distributions</span>
+                      <span class="p">(</span><span class="n">overrides</span> <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">purelib</span> <span class="ow">and</span> <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">platlib</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">headers</span>   <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="n">C</span><span class="o">/</span><span class="n">C</span><span class="o">++</span> <span class="n">headers</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">scripts</span>   <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="n">Python</span> <span class="n">scripts</span>
+  <span class="o">--</span><span class="n">install</span><span class="o">-</span><span class="n">data</span>      <span class="n">installation</span> <span class="n">directory</span> <span class="k">for</span> <span class="n">data</span> <span class="n">files</span>
+  <span class="o">--</span><span class="nb">compile</span> <span class="p">(</span><span class="o">-</span><span class="n">c</span><span class="p">)</span>      <span class="nb">compile</span> <span class="o">.</span><span class="n">py</span> <span class="n">to</span> <span class="o">.</span><span class="n">pyc</span> <span class="p">[</span><span class="n">default</span><span class="p">]</span>
+  <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="nb">compile</span>        <span class="n">don</span><span class="s1">&#39;t compile .py files</span>
+  <span class="o">--</span><span class="n">optimize</span> <span class="p">(</span><span class="o">-</span><span class="n">O</span><span class="p">)</span>     <span class="n">also</span> <span class="nb">compile</span> <span class="k">with</span> <span class="n">optimization</span><span class="p">:</span> <span class="o">-</span><span class="n">O1</span> <span class="k">for</span> <span class="s2">&quot;python -O&quot;</span><span class="p">,</span> <span class="o">-</span><span class="n">O2</span>
+                      <span class="k">for</span> <span class="s2">&quot;python -OO&quot;</span><span class="p">,</span> <span class="ow">and</span> <span class="o">-</span><span class="n">O0</span> <span class="n">to</span> <span class="n">disable</span> <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="o">-</span><span class="n">O0</span><span class="p">]</span>
+  <span class="o">--</span><span class="n">force</span> <span class="p">(</span><span class="o">-</span><span class="n">f</span><span class="p">)</span>        <span class="n">force</span> <span class="n">installation</span> <span class="p">(</span><span class="n">overwrite</span> <span class="nb">any</span> <span class="n">existing</span> <span class="n">files</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">skip</span><span class="o">-</span><span class="n">build</span>        <span class="n">skip</span> <span class="n">rebuilding</span> <span class="n">everything</span> <span class="p">(</span><span class="k">for</span> <span class="n">testing</span><span class="o">/</span><span class="n">debugging</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">record</span>            <span class="n">filename</span> <span class="ow">in</span> <span class="n">which</span> <span class="n">to</span> <span class="n">record</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">installed</span> <span class="n">files</span>
+
+<span class="n">usage</span><span class="p">:</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="p">[</span><span class="n">global_opts</span><span class="p">]</span> <span class="n">cmd1</span> <span class="p">[</span><span class="n">cmd1_opts</span><span class="p">]</span> <span class="p">[</span><span class="n">cmd2</span> <span class="p">[</span><span class="n">cmd2_opts</span><span class="p">]</span> <span class="o">...</span><span class="p">]</span>
+   <span class="ow">or</span><span class="p">:</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">help</span> <span class="p">[</span><span class="n">cmd1</span> <span class="n">cmd2</span> <span class="o">...</span><span class="p">]</span>
+   <span class="ow">or</span><span class="p">:</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">help</span><span class="o">-</span><span class="n">commands</span>
+   <span class="ow">or</span><span class="p">:</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">cmd</span> <span class="o">--</span><span class="n">help</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#setup-py-help">setup.py help</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="readme.html"
+                        title="previous chapter">Readme</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="api-docs.html"
+                        title="next chapter">API documentation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/install.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="api-docs.html" title="API documentation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="readme.html" title="Readme"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">etrsitrs 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012, M.A. Brentjens.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>
