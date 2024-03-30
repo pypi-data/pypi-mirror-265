@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "ssl": "[%key::common::config_flow::data::ssl%]",
+                    "verify_ssl": "[%key::common::config_flow::data::verify_ssl%]"
+                }
+            }
+        }
+    }
+}

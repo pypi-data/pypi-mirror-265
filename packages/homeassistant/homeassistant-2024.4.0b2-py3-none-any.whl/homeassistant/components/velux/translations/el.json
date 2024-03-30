@@ -1,0 +1,8 @@
+{
+    "services": {
+        "reboot_gateway": {
+            "description": "\u0395\u03c0\u03b1\u03bd\u03b5\u03ba\u03ba\u03b9\u03bd\u03b5\u03af \u03c4\u03bf KLF200 gateway.",
+            "name": "\u0395\u03c0\u03b1\u03bd\u03b5\u03ba\u03ba\u03af\u03bd\u03b7\u03c3\u03b7 gateway"
+        }
+    }
+}
