@@ -1,0 +1,18 @@
+[project]
+name = "cdt-path_CS"
+version = "0.1.0"
+authors = [
+  { name = "CaiShu", email = "747617046@qq.com" },
+]
+dependencies = ["numpy"]
+description = "Using constrainted delaunay triangle to path-planning"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
