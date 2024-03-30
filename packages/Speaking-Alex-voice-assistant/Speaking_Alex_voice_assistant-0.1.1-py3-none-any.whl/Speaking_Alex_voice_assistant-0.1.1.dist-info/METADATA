@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Speaking-Alex-voice-assistant
+Version: 0.1.1
+Summary: Assistant
+Author: Ammar Yusri
+Author-email: amaryusri@gmail.com
+Keywords: python,speech_recognition,voice assistant
+Requires-Dist: pyjokes.jokes-es
+Requires-Dist: speech-recognition
+Requires-Dist: pyttsx3
+Requires-Dist: pywhatkit
+Requires-Dist: datetime
+Requires-Dist: wikipedia
+
