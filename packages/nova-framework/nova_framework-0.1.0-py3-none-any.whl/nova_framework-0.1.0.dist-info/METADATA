@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: nova-framework
+Version: 0.1.0
+Summary: A site building framework for people who like to keep it simple.
+Project-URL: Documentation, https://github.com/iiPython/nova#readme
+Project-URL: Issues, https://github.com/iiPython/nova/issues
+Project-URL: Source, https://github.com/iiPython/nova
+Author-email: iiPython <ben@iipython.dev>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.11
+Requires-Dist: click>=8.1.7
+Requires-Dist: jinja2>=3.1.3
+Requires-Dist: rich>=13.7.1
+Requires-Dist: socketify>=0.0.27
+Requires-Dist: watchfiles>=0.21.0
+Description-Content-Type: text/markdown
+
+# Nova
+## A site building framework for people who like to keep it simple.
+
+More details to come.
