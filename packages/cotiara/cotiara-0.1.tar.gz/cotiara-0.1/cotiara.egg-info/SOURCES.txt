@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+cotiara/__init__.py
+cotiara/commands.py
+cotiara/expressionEvaluator.py
+cotiara/function.py
+cotiara/main.py
+cotiara.egg-info/PKG-INFO
+cotiara.egg-info/SOURCES.txt
+cotiara.egg-info/dependency_links.txt
+cotiara.egg-info/entry_points.txt
+cotiara.egg-info/requires.txt
+cotiara.egg-info/top_level.txt
