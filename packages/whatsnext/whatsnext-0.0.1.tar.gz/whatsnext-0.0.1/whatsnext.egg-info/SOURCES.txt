@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+whatsnext.egg-info/PKG-INFO
+whatsnext.egg-info/SOURCES.txt
+whatsnext.egg-info/dependency_links.txt
+whatsnext.egg-info/top_level.txt
