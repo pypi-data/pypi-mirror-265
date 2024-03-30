@@ -1,0 +1,13 @@
+cardiac_geometries_core/__init__.py,sha256=k0v2P6sh0znJU4G-YX0AUX1uDIg1TS6TKpadEKrlwmM,710
+cardiac_geometries_core/__main__.py,sha256=BBVadYnOFTWLy9PipUhyKjB8kd4Qqm-cNwCZjuAtEes,77
+cardiac_geometries_core/biv_ellipsoid.py,sha256=mO-O9Phl4d0Inyy4aXMaK5VI3nSa2MO7_i4DU3UMLGs,13201
+cardiac_geometries_core/cli.py,sha256=VjXu6kPsTXEEt-8vrTsFkOWbEgz-5W95NNiAcFhMpzw,17762
+cardiac_geometries_core/lv_ellipsoid.py,sha256=W2aXzAc9wSU8NIrcCJNs27VAzOx8k4TBVUT6UioqYdI,13986
+cardiac_geometries_core/slab.py,sha256=dPc_T9W-wiZfYVePjV_SB9f_07KCW9nUE3hU6jcGr2A,6405
+cardiac_geometries_core/utils.py,sha256=srYjsf3MABX2itVvyCG9RGAZPwbTeL0cJK3yezS60TY,228
+cardiac_geometries_core-0.2.1.dist-info/LICENSE,sha256=lo5K2rJPZOSv6luutGHbzzi3IpXNaB9E2UWq60qvNx0,1111
+cardiac_geometries_core-0.2.1.dist-info/METADATA,sha256=qM2mzF8gV6JsubTPQkR6Ef_68VzT9OZctpdejc8ftow,2115
+cardiac_geometries_core-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cardiac_geometries_core-0.2.1.dist-info/entry_points.txt,sha256=6TtHxh_avrfNGytcgBMVGMQARXfv_QX049uGT1R9kxU,56
+cardiac_geometries_core-0.2.1.dist-info/top_level.txt,sha256=-T9SXYWKXUGWPQKnN8FcwbEf9ykOvB846eCBZJyanB8,24
+cardiac_geometries_core-0.2.1.dist-info/RECORD,,
