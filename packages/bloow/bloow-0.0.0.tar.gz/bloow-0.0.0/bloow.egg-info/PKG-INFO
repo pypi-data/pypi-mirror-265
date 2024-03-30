@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bloow
+Version: 0.0.0
+Summary: A modular and flexible static site generation tool that will blow your mind.
+Home-page: https://bloow.wtf
+Author: Nicolas Paul
+Author-email: n@nc0.fr
+License: Apache-2.0
+Keywords: static,site,generator,bloow,web
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: NOTICE
+License-File: AUTHORS
