@@ -1,0 +1,9 @@
+README.md
+hello_tea.py
+setup.py
+Dorytea2.egg-info/PKG-INFO
+Dorytea2.egg-info/SOURCES.txt
+Dorytea2.egg-info/dependency_links.txt
+Dorytea2.egg-info/entry_points.txt
+Dorytea2.egg-info/requires.txt
+Dorytea2.egg-info/top_level.txt
