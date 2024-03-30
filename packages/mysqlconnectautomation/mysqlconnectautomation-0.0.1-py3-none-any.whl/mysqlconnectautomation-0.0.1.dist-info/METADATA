@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mysqlconnectautomation
+Version: 0.0.1
+Summary: A python package for connecting with database.
+Home-page: https://github.com/sujeetkumae132/mysqlconnect
+Author: sujeetkumae132
+Author-email: kumar.sujeet132@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/sujeetkumae132/mysqlconnect/issues
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: py-youtube ==1.1.7
+Provides-Extra: testing
+Requires-Dist: pytest >=7.1.3 ; extra == 'testing'
+Requires-Dist: mypy >=0.971 ; extra == 'testing'
+Requires-Dist: flake8 >=5.0.4 ; extra == 'testing'
+Requires-Dist: tox >=3.25.1 ; extra == 'testing'
+Requires-Dist: black >=22.8.0 ; extra == 'testing'
+
+this project is related to create a python package to connect mysql database 
+
+# problem statement
+
+we have to create a python package and push to pypi repository. it helps to connect the mysql with one line of code.
+
+step:1
+
+pip install -r requirement.txt
+
+# write all the dependencies librariry required to create package and connect the database
