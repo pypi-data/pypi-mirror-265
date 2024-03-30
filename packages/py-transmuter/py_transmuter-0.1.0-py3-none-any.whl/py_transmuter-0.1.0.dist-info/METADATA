@@ -1,0 +1,64 @@
+Metadata-Version: 2.3
+Name: py-transmuter
+Version: 0.1.0
+Summary: A library that facilitates mapping and aggregating objects from one model to another
+Project-URL: Homepage, https://github.com/RodrigoDeRosa/py-transmuter
+Project-URL: Issues, https://github.com/RodrigoDeRosa/py-transmuter/issues
+Author-email: Rodrigo De Rosa <rodrigoderosa15@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Rodrigo De Rosa
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pydantic :: 2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12.0
+Requires-Dist: pydantic==2.5.3
+Description-Content-Type: text/markdown
+
+# PyTransmuter
+
+PyTransmuter is a Python library designed for efficient data mapping and aggregation 
+from source models to target models, leveraging the power of Pydantic for data validation
+and transformation. It simplifies the process of transforming data structures, making it 
+an essential tool for applications requiring data normalization, transformation, and aggregation.
+
+## Features
+
+- **Generic Mapping**: Utilizes generic typing to map data between different model structures.
+- **Flexible Aggregation**: Supports complex data aggregation strategies, including grouping, 
+sorting, and custom aggregation functions.
+- **Self-Inspection**: Incorporates self-inspection capabilities for resolving callables related 
+to class instances.
+- **Pydantic Integration**: Leverages Pydantic models for input and output validation, ensuring 
+data integrity.
+- **Customizable Transformations**: Allows defining custom field transformations using callable 
+functions or lambdas.
+
+## Installation
+
+To install YourLibraryName, run the following command in your terminal:
+
+```bash
+pip install py-transmuter
+```
