@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+pyproject.toml
+setup.py
+WFMPlan/ErlangC.py
+WFMPlan/__init__.py
+wfmplan/ErlangC.py
+wfmplan/__init__.py
+wfmplan.egg-info/PKG-INFO
+wfmplan.egg-info/SOURCES.txt
+wfmplan.egg-info/dependency_links.txt
+wfmplan.egg-info/requires.txt
+wfmplan.egg-info/top_level.txt
