@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rhalphalib
+Version: 0.2.0
+Summary: A binned fit intermediate representation library
+Home-page: https://github.com/nsmith-/rhalphalib
+Download-URL: https://github.com/nsmith-/rhalphalib/releases
+Maintainer: Nick Smith
+Maintainer-email: nick.smith@cern.ch
+License: BSD 3-clause
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.14
+Requires-Dist: scipy
+
+# rhalphalib
+
+[![Codestyle](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+![Ralph](https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Ralph_Wiggum.png/220px-Ralph_Wiggum.png)
+
+## Quickstart
+
+First, install [Combine v9](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/#installation-instructions) using
+your choice of installation instructions (with CMSSW, using LCG, or inside a Conda environment), then in that environment, run:
+```bash
+python3 -m pip install --user https://github.com/nsmith-/rhalphalib/archive/master.zip
+```
+Take a look at [test_rhalphalib.py](https://github.com/nsmith-/rhalphalib/blob/master/tests/test_rhalphalib.py)
+for examples of how to use the package.
