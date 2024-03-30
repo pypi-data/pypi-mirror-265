@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: simple_arthmetic_calc
+Version: 0.0.2
+Summary: Arithmetic calculator with basic functions like addition, subtraction, multiplication, division, factorial, power, square root, modulus, LCM, GCD, prime number, even number, odd number.
+Home-page: UNKNOWN
+Author: Manoahar Naidu
+Author-email: beesettim27@gmail.com
+License: MIT
+Keywords: calculator,simple calculator,arithmetic calculator,basic calculator,simple arithmetic calculator,simple arithmetic calculator with basic functions,simple arithmetic calculator with basic functions like addition, subtraction, multiplication, division, factorial, power, square root, modulus, LCM, GCD, prime number, even number, odd number.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+**A simple library to use arithmetic operations** listed below
+- addition
+- subtraction
+- multiplication
+- division
+- absolute
+- factorial
+- power
+- square root
+- modulus
+- LCM
+- GCD
+- prime number
+- even number
+- odd number
+
+
+Change Log
+==========
+
+0.0.2(29/03/2024)
+-----------------
+- Second Release
+
+
