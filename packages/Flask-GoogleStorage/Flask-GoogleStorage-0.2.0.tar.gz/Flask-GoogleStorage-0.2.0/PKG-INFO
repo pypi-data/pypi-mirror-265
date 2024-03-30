@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: Flask-GoogleStorage
+Version: 0.2.0
+Summary: Google Cloud Storage for Flask
+Home-page: https://github.com/svidela/flask-googlestorage
+Author: Santiago Videla
+Author-email: santiago.videla@gmail.com
+License: MIT
+Keywords: flask,google,cloud,storage
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: flask>=1.1.0
+Requires-Dist: google-cloud-storage>=2.16
+Requires-Dist: tenacity>=8.0.0
+
+===================
+Flask-GoogleStorage
+===================
+
+
+|version| |python| |license| |coverage| |quality| |docs|
+
+.. |version| image:: https://img.shields.io/pypi/v/flask-googlestorage.svg
+    :target: https://pypi.org/project/flask-googlestorage/
+    :alt: Latest version
+
+.. |python| image:: https://img.shields.io/pypi/pyversions/flask-googlestorage.svg
+    :target: https://pypi.org/project/flask-googlestorage/
+    :alt: Python versions
+
+.. |license| image:: https://img.shields.io/pypi/l/flask-googlestorage.svg
+    :target: https://flask-googlestorage.readthedocs.io/en/latest/license.html
+    :alt: License
+
+.. |coverage| image:: https://codecov.io/gh/svidela/flask-googlestorage/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/svidela/flask-googlestorage
+    :alt: Code coverage
+
+.. |quality| image:: https://app.codacy.com/project/badge/Grade/b0317a3f9e8d4cfe8d8ab61c6d92942f
+    :target: https://app.codacy.com/gh/svidela/flask-googlestorage/
+    :alt: Code quality
+
+.. |docs| image:: https://readthedocs.org/projects/flask-googlestorage/badge/
+    :target: http://flask-googlestorage.readthedocs.io/
+    :alt: Documentation
+
+Flask-GoogleStorage provides file uploads to Google Cloud Storage for `Flask <https://palletsprojects.com/p/flask/>`_
+
+Installation
+============
+
+::
+
+    pip install flask-googlestorage
+
+
+Documentation
+=============
+
+Full documentation is available at http://flask-googlestorage.readthedocs.io
+
+About
+=====
+
+This project started as a fork of `Flask-Uploads <https://github.com/maxcountryman/flask-uploads>`_. In fact, the way in which buckets are defined and how files are saved locally before uploading them to Google Cloud was mainly inspired by the class ``UploadSet`` in Flask-Uploads. Although is not its main focus, this extension could be used for local storage and serve uploaded files with Flask similarly to what Flask-Uploads does. However, it worth noting that such a feature is provided mainly to support files uploads/downloads without using Google Cloud Storage during development.
+
+License
+=======
+
+MIT licensed. See the `LICENSE <https://github.com/svidela/flask-googlestorage/blob/master/LICENSE>`_ file for more details.
