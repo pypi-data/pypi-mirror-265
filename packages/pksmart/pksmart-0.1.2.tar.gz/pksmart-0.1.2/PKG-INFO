@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pksmart
+Version: 0.1.2
+Summary: PKSmart: An Open-Source Computational Model to Predict in vivo Pharmacokinetics of Small Molecules
+Author: Manas Mahale
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (==0.7.0)
+Requires-Dist: mordred (==1.2.0)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: pandas (==1.5.2)
+Requires-Dist: rdkit (==2022.9.2)
+Requires-Dist: scikit-learn (==1.2.1)
+Description-Content-Type: text/markdown
+
+# PKSmart
+
+## Install
+
+```sh
+pip install pksmart
+```
+
+### Install from source
+
+1. Clone this repo
+```sh
+git clone https://github.com/Manas02/pksmart-pip
+```
+
+2. Pip install the `PKSmart` Package
+```sh
+pip install .
+```
+> Note: Use `pip install -e .` to make an editable installation.
+
+## Usage 
+
+### Help
+Simply run `pksmart` or `pksmart -h` or `pksmart --help` to get helper.
+![](./pksmart_help.png)
+
+### Running PKSmart as CLI
+Run `pksmart -s` or `pksmart --smi` or `pksmart --smiles` to run inference.
+![](./pksmart_run.png)
+
+
+### Running PKSmart as Library
+
+```py
+import pksmart
+
+
+if __name__ == "__main__":
+    out = pksmart.predict_pk_params("CCCCCO")
+    print(out)
+```
+
+## Cite
+
+If you use PKSmart in your work, please cite:
+
+> PKSmart: An Open-Source Computational Model to Predict in vivo Pharmacokinetics of Small Molecules
+> Srijit Seal, Maria-Anna Trapotsi, Vigneshwari Subramanian, Ola Spjuth, Nigel Greene, Andreas Bender
+> bioRxiv 2024.02.02.578658; doi: https://doi.org/10.1101/2024.02.02.578658
