@@ -1,0 +1,10 @@
+django>=3.2
+Pillow
+
+[dev]
+black
+isort
+pre-commit
+
+[test]
+playwright
