@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: fastapi-di-extension
+Version: 0.0.1
+Summary: Minimal DI library for fastapi
+Author-email: Alim Abrekov <Abrekovalim38702@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/dark04072006/fastapi-di-extension
+Project-URL: Homepage, https://github.com/dark04072006/fastapi-di-extension
+Project-URL: Bug Tracker, https://github.com/dark04072006/fastapi-di-extension/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==4.3.0
+Requires-Dist: exceptiongroup ==1.2.0
+Requires-Dist: fastapi ==0.110.0
+Requires-Dist: idna ==3.6
+Requires-Dist: pydantic ==2.6.4
+Requires-Dist: pydantic-core ==2.16.3
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: starlette ==0.36.3
+Requires-Dist: typing-extensions ==4.10.0
+
+# A simple Dependency Injection library for fastapi
+
+### Installation from test pypi
+
+```shell
+pip install --extra-index-url https://testpypi.python.org/pypi FastDI
+```
