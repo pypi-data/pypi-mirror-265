@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: chromastone
+Version: 0.1.3
+Summary: A Python application for powering other python applications to send SMS messages globally with number validation and restrictions
+Home-page: https://github.com/lordskyzw/chromastone
+Author: Tarmica Chiwara
+Author-email: lilskyforever@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Chromastone SMS App
+
+Chromastone is a Python application designed to simplify the process of sending SMS messages. Utilizing a straightforward API, Chromastone ensures that destination numbers are validated and messages are efficiently delivered while adhering to specified constraints.
+
+## Features
+
+- Validation of destination numbers to ensure they are in international format without the '+' prefix.
+- Enforcement of message length to not exceed 100 characters.
+- Easy integration with existing Python applications.
+
+## Installation
+
+To use Chromastone, you need to install the required dependencies first. It is recommended to use a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+After activating the virtual environment, install the dependencies:
+
+```bash
+pip install requests pydantic
+```
+
+## Configuration
+
+Before you can start sending SMS messages, ensure you have an API key from the SMS service provider. You will need to replace 'your_api_key_here' in the code with your actual API key.
+
+## Usage
+
+To send an SMS using Chromastone, instantiate the `Chromastone` class with your API key and call the `send_sms` method with the source number, destination number, and message:
+
+```python
+from chromastone import Chromastone
+
+chromastone = Chromastone(api_key='your_api_key_here')
+chromastone.send_sms(source_number='1234567890', destination_number='263771123456', message='Hello, world!')
+```
+
+Ensure the destination number is in the correct format and the message does not exceed 100 characters.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributions
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+
+## Acknowledgments
+
+- Thanks to the Pydantic library for providing robust data validation.
+- Gratitude to the Requests library for simplifying HTTP requests in Python.
+
+
