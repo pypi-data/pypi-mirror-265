@@ -1,0 +1,9 @@
+chardet
+click
+dnspython
+python-daemon>2.2.0
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-click

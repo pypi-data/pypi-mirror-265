@@ -1,0 +1,2 @@
+[console_scripts]
+salmon = salmon.commands:main
