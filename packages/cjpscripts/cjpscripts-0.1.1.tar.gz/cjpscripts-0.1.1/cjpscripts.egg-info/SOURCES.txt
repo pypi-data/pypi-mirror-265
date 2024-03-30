@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+cjpscripts/__init__.py
+cjpscripts.egg-info/PKG-INFO
+cjpscripts.egg-info/SOURCES.txt
+cjpscripts.egg-info/dependency_links.txt
+cjpscripts.egg-info/top_level.txt
+cjpscripts/stunnel/__init__.py
+cjpscripts/stunnel/confBuilder.py
