@@ -1,0 +1,15 @@
+optivision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivision/common.py,sha256=27003YM1cBFFP2prVK4F1dL9Pb8KK34T7m4MQICI69s,644
+optivision/connectivity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivision/connectivity/connected_components.py,sha256=3oS8h-yyqRoMU830aCdOzFLOtkvWto-wDyiEpWllHVo,3981
+optivision/quantization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivision/quantization/reduce_gray_levels.py,sha256=QXC2pyWKlhQysHbohXGuriCyLKEf196vVbf28qXyHUw,1116
+optivision/quantization/to_binary.py,sha256=6DegVtxiOqZ2hMJDUf--Xz8i4avLjaHwbWvkms7KqvM,403
+optivision/transformations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivision/transformations/gamma.py,sha256=e_9j-maeEvZFyj5Yu7Fzv75il9Rf7z32i2ClZK5OqC4,861
+optivision/transformations/logarithmic.py,sha256=3rV5nbtcArVHkJoI9WGF55DYmOME2cXO-8BTxSLGf6w,798
+optivision/transformations/negative.py,sha256=BmhODlMKZtIHQ4dsZuFgnUkyMDjRZPPZnByJ-Wk83ss,804
+optivision-0.3.0.dist-info/LICENSE,sha256=NmsYU2rjyTRn6lNsdV0ByIf92MrMeAorB6lfAA0sb9w,1056
+optivision-0.3.0.dist-info/METADATA,sha256=oP5AT9lDrmVMOkkWBVA7F9IqoWxQM2_hOV43Xi0tESg,2239
+optivision-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+optivision-0.3.0.dist-info/RECORD,,
