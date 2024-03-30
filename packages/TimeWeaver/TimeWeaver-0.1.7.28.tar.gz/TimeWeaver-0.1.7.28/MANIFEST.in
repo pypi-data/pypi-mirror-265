@@ -1,0 +1,3 @@
+include ./src/timeweaver/data/AirQuality.pkl
+include ./src/timeweaver/data/MachineProcess.pkl
+include ./src/timeweaver/data/PRSA.pkl
