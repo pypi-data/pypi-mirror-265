@@ -1,0 +1,11 @@
+include head_model/head_model.min.js
+include head_model/head_model.min.js.map
+include head_model/async-*.js
+include head_model/async-*.js.map
+include head_model/*-shared.js
+include head_model/*-shared.js.map
+include head_model/metadata.json
+include head_model/package-info.json
+include README.md
+include LICENSE
+include package.json
