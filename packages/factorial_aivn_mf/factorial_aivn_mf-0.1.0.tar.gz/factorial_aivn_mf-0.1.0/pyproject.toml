@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "factorial_aivn_mf"
+version = "0.1.0"
+description = ""
+authors = ["mf <nguyenminhloipv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "factorial_aivn_mf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
