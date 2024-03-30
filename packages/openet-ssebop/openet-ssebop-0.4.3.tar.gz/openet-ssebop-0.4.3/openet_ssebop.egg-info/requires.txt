@@ -1,0 +1,7 @@
+earthengine-api>=0.1.364
+openet-core>=0.4.0
+openet-refet-gee>=0.6.2
+python-dateutil
+
+[test]
+pytest
