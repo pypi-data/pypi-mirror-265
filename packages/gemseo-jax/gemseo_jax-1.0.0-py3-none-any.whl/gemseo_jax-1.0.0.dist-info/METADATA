@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: gemseo-jax
+Version: 1.0.0
+Summary: GEMSEO plugin for JAX (jit compilation, autodiff, XLA)
+Author-email: Ian Costa-Alves <contact@gemseo.org>
+License: GNU Lesser General Public License v3
+Project-URL: Homepage, https://gitlab.com/gemseo
+Project-URL: Source, https://gitlab.com/gemseo/dev/gemseo-jax
+Project-URL: Tracker, https://gitlab.com/gemseo/dev/gemseo-jax/-/issues
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <3.12,>=3.9
+Description-Content-Type: text/markdown
+License-File: CREDITS.md
+Requires-Dist: gemseo[all] >=5
+Requires-Dist: jax[cpu] <=0.4.23,>=0.4.14
+Provides-Extra: test
+Requires-Dist: covdefaults ; extra == 'test'
+Requires-Dist: pytest <8 ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+
+<!--
+ Copyright 2023 ISAE-SUPAERO, https://www.isae-supaero.fr/en/
+ Copyright 2023 IRT Saint Exupéry, https://www.irt-saintexupery.com
+
+ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+ International License. To view a copy of this license, visit
+ http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative
+ Commons, PO Box 1866, Mountain View, CA 94042, USA.
+-->
+
+The power of JAX to accelerate MDO.
+
+`gemseo-jax` is a [GEMSEO](https://gitlab.com/gemseo/dev/gemseo) plugin
+based on [JAX](https://jax.readthedocs.io),
+a Python library for high-performance array computing.
+
+The class `JAXDiscipline` wraps a JAX function,
+with built-in automatic differentiation.
+This class provides useful functionalities:
+
+- filtering of the Jacobian computation graph for specific inputs/outputs,
+- jit compiling function and jacobian call for lowering cost of re-evaluation,
+- performing pre-run's to trigger and log compilation times.
+
+`AutoJAXDiscipline` is a special `JAXDiscipline`
+inferring the input names, output names and default input values
+from the signature of the JAX function,
+in the manner of `AutoPyDiscipline`.
+
+`JAXChain` is a `JAXDiscipline`
+allowing to assemble a series of `JaxDiscipline`s
+and execute them all in JAX.
+This is useful to avoid meaningless JAX-to/from-NumPy convertions.
+
+# Documentation
+
+How to get the docs?
+
+# Bugs/Questions
+
+Please use the gitlab
+[issue tracker](https://gitlab.com/gemseo/dev/gemseo-jax/-/issues)
+at to submit bugs or questions.
+
+# License
+
+The **gemseo-jax** source code is distributed under the GNU LGPL v3.0 license.
+A copy of it can be found in the LICENSE.txt file.
+The GNU LGPL v3.0 license is an exception to the GNU GPL v3.0 license.
+A copy of the GNU GPL v3.0 license can be found in the LICENSES folder.
+The **gemseo-jax** product depends on other software which have various licenses.
+The list of dependencies with their licenses is given in the CREDITS.md file.
+
+# Contributors
+
+- Ian Costa-Alves
+- François Gallard
+- Matthias De Lozzo
+- Antoine DECHAUME
