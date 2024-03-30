@@ -1,0 +1,7 @@
+jl_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jl_scripts/app.py,sha256=gybZ0Ooo3zodshfQ7-8c-u43PKmvRpzF5yddhpTvZp4,379
+jl_scripts/factorial.py,sha256=rvdgwj1grr9Nmp-2P7cAC3sHyeFbFVdgbL-kWqkE8nI,350
+jl_scripts/factorial_test.py,sha256=QJ_RFt3wI_p4KHdZJiBlQRJIrW25qUwC-4tg_OzdcNU,414
+jl_scripts-0.1.0.dist-info/METADATA,sha256=D789D_1FNKohcrtzX8_7zCm4pj4qjnMUakZKON-W4jo,388
+jl_scripts-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jl_scripts-0.1.0.dist-info/RECORD,,
