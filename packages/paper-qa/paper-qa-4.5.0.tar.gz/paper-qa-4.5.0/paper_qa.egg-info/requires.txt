@@ -1,0 +1,7 @@
+PyCryptodome
+html2text
+numpy
+openai>=1
+pydantic>=2
+pypdf
+tiktoken>=0.4.0
