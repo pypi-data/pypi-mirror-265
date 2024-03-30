@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lsts
+Version: 0.2.0
+Summary: A lightweight, fast, advanced deep learning time series package for long and short-term forecast and missing value imputation of land surface variables.
+License: CC-BY-4.0
+Author: lizhuoq
+Author-email: m15004059308@163.com
+Requires-Python: ==3.8.18
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: einops (==0.4.0)
+Requires-Dist: huggingface_hub (==0.21.4)
+Requires-Dist: matplotlib (==3.7.0)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: patool (==1.12)
+Requires-Dist: reformer-pytorch (==1.4.4)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: sktime (==0.16.1)
+Requires-Dist: sympy (==1.11.1)
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: tqdm (==4.64.1)
+Description-Content-Type: text/markdown
+
+## Install
+![install](pics/lsts_example_1.gif)
+## Quick Start
+![quick start](pics/lsts_example_2.gif)
+
