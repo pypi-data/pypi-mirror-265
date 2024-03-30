@@ -1,0 +1,4 @@
+[console_scripts]
+dynatalk-hub=dynatalk.broker:main
+dynatalk-monitor=dynatalk.cli_monitor:monitor
+
