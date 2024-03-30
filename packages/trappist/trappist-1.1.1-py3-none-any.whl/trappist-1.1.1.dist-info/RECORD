@@ -1,0 +1,14 @@
+trappist/__init__.py,sha256=wa1bPwfQKsiz4PeGbPctTohWs94ikTfMHpqNvtN9Tcc,1178
+trappist/__token__,sha256=6BCSgVdGJAKgBwwIp0sVRhXc87PgwTZR4ZSy1GcQGyw,208
+trappist/bnet.py,sha256=jpzFBmTkwD9NTIkKWTOlMisyKtWQJlGXWUvQZErogVg,3075
+trappist/conj.py,sha256=WkinbW73ui0aP2fn-YglEhe613i0ydeCkGlsAql6lbo,6917
+trappist/cp.py,sha256=r74-AdOCnTQXvW475JzFmTmxXNAaY5KfOo6SoVGSXi4,5358
+trappist/ilp.py,sha256=tFe_9oP2VwDqxCiTXBx_SMyFMbwr-XEBHtiRF57R8Lo,4352
+trappist/max_sat.py,sha256=PY92OM0TB1pzxdGIyKheIko5l6o2G4dccajpmlg0W4o,3123
+trappist/naive.py,sha256=VfXHYNXNHadtSN1Qfors-crdKW09Tvt9rQ2qV86IMQg,5928
+trappist/trappist.py,sha256=POsjhX-KzBRLlLKyXl8DaqNJmnzYN7SIkx6CmkttrM8,10872
+trappist-1.1.1.dist-info/METADATA,sha256=repVsixGBlmRadMDTdfdBApq6BJC0xo4aJBwzLdHllw,3632
+trappist-1.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+trappist-1.1.1.dist-info/entry_points.txt,sha256=BHUzq9PzOV_ooTi1TRR3fXJpi5qqih_mN7FW5YorulE,52
+trappist-1.1.1.dist-info/licenses/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+trappist-1.1.1.dist-info/RECORD,,
