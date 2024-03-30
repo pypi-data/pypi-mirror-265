@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: tokenlog
+Version: 0.0.1
+Summary: Simplest token log system for your LLM, embedding model calls.
+Author-email: vkehfdl1 <vkehfdl1@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Jeffrey (Dongkyu) Kim
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/vkehfdl1/tokenlog
+Keywords: LLM,logging,log,embedding,OpenAI,Huggingface,Token
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tiktoken
+Requires-Dist: transformers
+
+# tokenlog
+
+Simplest token log system for your LLM, embedding model calls.
+
+## Installation
+Get on pypi.
+
+```bash
+pip install tokenlog
+```
+
+## How to use
+
+Start with initializing the logger.
+Each logger with the same name is singleton.
+
+```python
+import tokenlog
+
+t_logger = tokenlog.getLogger('session_1', 'gpt-3.5-turbo') # write logger name and model name that you are using
+q1 = t_logger.query('This is the query that you used in LLM') # log the query
+
+t_logger.answer('This is an answer from LLM', q1) # log the answer
+
+t_logger.get_token_usage() # get total token usage from all queries
+
+t_logger.get_history() # get history of token usage
+
+t_logger.clear() # clear all histories
+```
+
+
+## Support Models
+
+We support all **OpenAI** models with tiktoken and **Huggingface** models that support `AutoTokenizer`.
+
+
+## Use Case
+
+This library used in [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) project.
+
+
+## To-do
+
+- [ ] Add Handlers for exporting logs
+- [ ] Support more models
+- [ ] Batch logging
