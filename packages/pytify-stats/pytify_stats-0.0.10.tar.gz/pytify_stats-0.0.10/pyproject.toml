@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytify_stats"
+description = "A Python package that allows users to gather advanced artist statistics from Spotify"
+version = "0.0.10"
+authors = [
+  { name="Rak Sridhar", email="rss9243@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-team-7"
+"Repository" = "https://github.com/software-students-spring2024/3-python-package-exercise-team-7.git"
+
+
+[project.scripts]
+pytify_stats = "pytify_stats.__main__:main"
