@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PyTop-B
+Version: 1.0.0
+Summary: A Python-based system resource monitor as like Htop in Linux
+Home-page: https://github.com/AzazAhmedLipu79/PyTop
+Author: Azaz Ahmed Lipu
+Author-email: lipuahmedazaz79@gmail.com
+License: MIT
+Keywords: system resource monitor curses htop linux pytop python
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
