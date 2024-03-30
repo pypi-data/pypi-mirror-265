@@ -1,0 +1,37 @@
+table td {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center !important;
+    background-color: #FAFAFA;
+}
+table tr:nth-child(1)  {
+    background-color: #FFFFFF;
+}
+
+table th {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center !important;
+}
+
+tr td:nth-child(1) {
+    border: 1px solid #AAAAAA;
+    background-color: #FFFFFF;
+    min-width: 95px;
+    max-width: 95px;
+}
+
+tr td:nth-child(n+2) {
+    border: 1px solid #DDDDDD;
+    max-width: 240px;
+}
+
+thead input {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+table thead tr td {
+    background-color: #FFFFFF;
+  }
