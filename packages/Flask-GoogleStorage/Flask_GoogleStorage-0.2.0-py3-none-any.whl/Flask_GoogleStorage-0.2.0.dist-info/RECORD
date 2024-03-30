@@ -1,0 +1,11 @@
+flask_googlestorage/__init__.py,sha256=-hmNA0fpJqb5XUCzQjoJZ8Js80GFg5i49d_gULzoNZ0,245
+flask_googlestorage/buckets.py,sha256=JuCpUv57b18S5oWuRRQVSNAaUH_4-dyfnCt48bczAfY,13671
+flask_googlestorage/exceptions.py,sha256=pXTx8oKWmCHBg51djvruw1AgYHQUwE3O_nVpILhaagM,447
+flask_googlestorage/google_storage.py,sha256=H4eTYQli82U0bNA3IvecHT0GVCx13NB_e4SGW6kwjWs,3957
+flask_googlestorage/utils.py,sha256=aZPtlVL1dS0HpwfWz_7sTLMY_ELsVf_PHHi5aTyty_4,1766
+Flask_GoogleStorage-0.2.0.dist-info/AUTHORS.rst,sha256=t4bufGBpfNIK9sW0EN7qqmsISZtvSjLdUmYUqjWIR04,84
+Flask_GoogleStorage-0.2.0.dist-info/LICENSE,sha256=SLlc5w84GlKtXTtZCsmS5p8lT51EfNW3I9c3YQ7zEjI,1059
+Flask_GoogleStorage-0.2.0.dist-info/METADATA,sha256=xqfP83kJpotFn7gMPyg2XM_TKAY5LQOt7GT8AfejFrk,3078
+Flask_GoogleStorage-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Flask_GoogleStorage-0.2.0.dist-info/top_level.txt,sha256=mqee8CysRSxmiKel06yy0eqs7Dr5cBBNQoV_2cDmAPM,20
+Flask_GoogleStorage-0.2.0.dist-info/RECORD,,
