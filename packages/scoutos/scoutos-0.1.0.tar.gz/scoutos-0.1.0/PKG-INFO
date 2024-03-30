@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: scoutos
+Version: 0.1.0
+Summary: ScoutOS Python SDK
+Home-page: https://github.com/otherwillhq/scoutos-python
+License: MIT
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/otherwillhq/scoutos-python
+Description-Content-Type: text/markdown
+
+# scoutos-python
+
+ScoutOS Python SDK
+
+## Requirements
+
+- Python ^3.10
+
+## Installation
+
+- With [pip](https://pip.pypa.io/en/stable/): `pip install scoutos`
+- With [poetry](https://python-poetry.org): `poetry add scoutos`
+
