@@ -1,0 +1,17 @@
+htagweb/__init__.py,sha256=cMOgFOrmf4A-l4qbHpnyJQApJ34JrhAcXLUn8b7Cd2w,570
+htagweb/__main__.py,sha256=dw47RxmR4_23aPz3wCiWeTg80BziYuIeN9bzFbUg_vI,659
+htagweb/appserver.py,sha256=acbiUhiO1wi2dR-bkVcX6AWeUsDyhxuPxU3XLRP4WTI,12320
+htagweb/crypto.py,sha256=yldGmS1UnlG3xaHwdP43XxXDvjk8vfehvR-HIduc8vg,2521
+htagweb/htagserver.py,sha256=L7XwdJfg1lr24TjPJlpcSjbt_Zu8Qn5N0ybVsLD-Sk4,1595
+htagweb/server/__init__.py,sha256=pNPRsTaJLaDrMLYpHrdIS5j2eWcAU-a_pTNfJmNduOk,11281
+htagweb/server/client.py,sha256=VE6pWCgQfq00UqGKTzf5-i6_4Dso3X237ZO-QyE4dHk,5739
+htagweb/sessions/__init__.py,sha256=ypByx3k4IbyLyMaXCEqgI3hJrlGfFo-9b3Zqhxua62k,438
+htagweb/sessions/file.py,sha256=GpP9j_jpqbO9OUxKw1KQvn-SY9ArYdfIthMYJQLokEs,1526
+htagweb/sessions/mem.py,sha256=r_7L_bcIKjWo8GALnb2tWstAE97TqyOl7fm5rBfD4rw,1034
+htagweb/sessions/shm.py,sha256=DXSZxiQTi5fMEx5_pfYsJLxRRyPbD4npMkVKs5xnf4s,498
+htagweb/simpleserver.py,sha256=tj1mOFPszslwjOACOqUYY0V55k8qyE6djbeK9b3RfTk,7041
+htagweb/tags/__init__.py,sha256=0xXlITWC2DN62BoKqnUxgh8-8PIM4JV9Jf2bZVYVMZM,1406
+htagweb-0.24.0.dist-info/LICENSE,sha256=3UHJs7Jn8o60WsDhLxgSKwwgK5MfQ05L9nEKTOA7uGQ,1065
+htagweb-0.24.0.dist-info/METADATA,sha256=cAVFmmeYMptE4wdZZuiMCN-8cJHlxezhclGBIkGOsZk,7386
+htagweb-0.24.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+htagweb-0.24.0.dist-info/RECORD,,
