@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kptgraphs
+Version: 0.0.13
+Summary: My Version of Plotting Graphs for simple data analysis. 
+Author: Krishnaraj Thadesar
+Author-email: <kpt.krishnaraj@gmail.com>
+Keywords: python,data,graphs,plotting,matplotlib,seaborn
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.8.3
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: numpy>=1.26.3
+
+A package that lets you plot graphs built on top of matplotlib and seaborn. The process is not that much more simple than using those libraries themselves, but these graphs match the style I use in my projects.
