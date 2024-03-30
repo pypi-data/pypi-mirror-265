@@ -1,0 +1,16 @@
+bh_spc/__init__.py,sha256=UANxhlDguURm9XPDL5USxYFanjg5-yPYPQ0bIOfOvJg,2784
+bh_spc/_dump_state.py,sha256=jbSWduLmq_NLZ2PCYAb9h-vo6XXU9_YruCWrtZZGMP8,4805
+bh_spc/_file_version.c,sha256=qRMbIVGZ8hnL7DKgrTLo5yMyjcaCKQnVE68697EqvVM,293316
+bh_spc/_file_version.cp311-win_amd64.pyd,sha256=-NIlwbSoqgTXDtqREyJJbd2pDJI-tgTIjkHRyq8sqiI,39936
+bh_spc/_file_version.pyx,sha256=-8zjwdfRgULvKHMRiy6buRVaqlQ9kuJbHONTl2joz1s,1933
+bh_spc/_ini_files.py,sha256=-YQ_wpfm5o03HYvOt7iz1m7sN1ZWexPkPapKfjqEGc4,2360
+bh_spc/_spcm.pxd,sha256=QFl_Gr998EDN9JzZUe-v5FwHJv3nS2x-f7ID4MqrJsY,7473
+bh_spc/_version.py,sha256=LihvXsX11I2jla5mXh08c4Nv7nlLSLZJCmSKYdqiruQ,427
+bh_spc/_win32_version.pxd,sha256=TvuM6N73uNmCqiyBNzodncJVu55WlIrgifMmd707h48,674
+bh_spc/spcm.c,sha256=pZO69bsRo5ZtF6WNf9scIAmd1ZiM2YD7klRs43WgFv8,3080095
+bh_spc/spcm.cp311-win_amd64.pyd,sha256=gp-qPXKBoBQcDFCw_zx9nVOzO50UCOaznDiUWoHDLrE,488960
+bh_spc/spcm.pyx,sha256=5jDhA55q6CHnXaOzEW4NvdufKbNfMaXch1OOVfY8Xzc,66209
+pybhspc-0.1.0.dist-info/METADATA,sha256=bAYNn45HtEHUTDRtAlGd_9L8twdRB-r90f7mEmtnLvQ,5697
+pybhspc-0.1.0.dist-info/WHEEL,sha256=nSybvzWlmdJnHiUQSY-d7V1ycwEVUTqXiTvr2eshg44,102
+pybhspc-0.1.0.dist-info/top_level.txt,sha256=f1BakC1fmb8fGMeTW0UGk0lyS8CWf39r8NsEDuzMRD4,7
+pybhspc-0.1.0.dist-info/RECORD,,
