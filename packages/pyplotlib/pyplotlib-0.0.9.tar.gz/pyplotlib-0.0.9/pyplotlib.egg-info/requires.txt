@@ -1,0 +1,11 @@
+mystring
+
+[all]
+matplotlib
+plotly
+
+[mlb]
+matplotlib
+
+[plotly]
+plotly
