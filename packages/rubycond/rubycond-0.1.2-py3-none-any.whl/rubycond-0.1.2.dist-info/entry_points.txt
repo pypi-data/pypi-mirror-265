@@ -1,0 +1,3 @@
+[console_scripts]
+rubycond=rubycond.rubycond:main
+
