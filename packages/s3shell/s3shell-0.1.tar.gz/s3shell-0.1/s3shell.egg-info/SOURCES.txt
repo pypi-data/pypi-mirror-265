@@ -1,0 +1,12 @@
+README.md
+setup.py
+s3shell/__init__.py
+s3shell/s3Func.py
+s3shell/s3Shell.py
+s3shell.egg-info/PKG-INFO
+s3shell.egg-info/SOURCES.txt
+s3shell.egg-info/dependency_links.txt
+s3shell.egg-info/entry_points.txt
+s3shell.egg-info/requires.txt
+s3shell.egg-info/top_level.txt
+test/test_s3Func.py
