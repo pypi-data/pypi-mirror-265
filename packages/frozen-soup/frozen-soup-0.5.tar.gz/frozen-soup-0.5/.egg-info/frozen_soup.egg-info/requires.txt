@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+tinycss2
+
+[test]
+pytest
+requests-testadapter

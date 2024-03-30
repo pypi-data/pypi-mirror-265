@@ -1,0 +1,37 @@
+[project]
+name = "frozen-soup"
+version = "0.5"
+description = "Create a single-file version of an HTML file"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Jim Winstead"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "tinycss2",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/jimwins/frozen-soup"
+Changelog = "https://github.com/jimwins/frozen-soup/releases"
+Issues = "https://github.com/jimwins/frozen-soup/issues"
+CI = "https://github.com/jimwins/frozen-soup/actions"
+
+[project.optional-dependencies]
+test = ["pytest", "requests-testadapter"]
+
+[tool.pytest.ini_options]
+# Default of Test* causes noise with request_testadapter
+python_classes = "*Test"
+
+[tool.distutils.egg_info]
+# Not really using this, so hide it for now
+egg_base = ".egg-info"
