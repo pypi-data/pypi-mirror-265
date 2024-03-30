@@ -1,0 +1,7 @@
+setup.py
+cpphospitalproject.egg-info/PKG-INFO
+cpphospitalproject.egg-info/SOURCES.txt
+cpphospitalproject.egg-info/dependency_links.txt
+cpphospitalproject.egg-info/top_level.txt
+pagevalidation/__init__.py
+pagevalidation/pageval.py
