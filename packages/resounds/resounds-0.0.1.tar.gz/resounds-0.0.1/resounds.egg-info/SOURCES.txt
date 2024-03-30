@@ -1,0 +1,6 @@
+README.md
+setup.py
+resounds.egg-info/PKG-INFO
+resounds.egg-info/SOURCES.txt
+resounds.egg-info/dependency_links.txt
+resounds.egg-info/top_level.txt
