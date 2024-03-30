@@ -1,0 +1,23 @@
+name: mausam
+base: core22
+version: '0.1.3'
+summary: An application to publish weather data to IoT dashboards
+description: |
+  mausam is an application meant to be installed on an edge device like
+  raspberry-pi connected to a weather station. It interacts with various
+  sensors and uploads the weather data to IoT dashboards.
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+parts:
+  src:
+    plugin: python
+    source: .
+    stage-packages:
+      - python3-venv
+
+apps:
+  fibonacci:
+    command: bin/fibonacci
+    daemon: simple

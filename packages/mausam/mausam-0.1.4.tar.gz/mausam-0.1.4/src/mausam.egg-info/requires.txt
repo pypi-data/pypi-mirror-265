@@ -1,0 +1,27 @@
+requests
+simple-youtube-api
+PyVimeo
+tinyflux
+paho-mqtt
+gpiozero
+smbus2
+pillow
+numpy
+opencv-python
+pms7003
+bme280
+DateTime
+tzlocal
+pytz
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[RPI]
+libcamera
+picamera2
+
+[testing]
+setuptools
+pytest
+pytest-cov
