@@ -1,0 +1,32 @@
+.gitignore
+README.md
+dilipred_help.png
+dilipred_run.png
+requirements.txt
+setup.py
+dilipred/__init__.py
+dilipred/constants.py
+dilipred/main.py
+dilipred.egg-info/PKG-INFO
+dilipred.egg-info/SOURCES.txt
+dilipred.egg-info/dependency_links.txt
+dilipred.egg-info/entry_points.txt
+dilipred.egg-info/requires.txt
+dilipred.egg-info/top_level.txt
+dilipred/models/all_features_desc.csv
+dilipred/models/bestlivmodel_10_model.sav
+dilipred/models/bestlivmodel_11_model.sav
+dilipred/models/bestlivmodel_14_model.sav
+dilipred/models/bestlivmodel_15_model.sav
+dilipred/models/bestlivmodel_16_model.sav
+dilipred/models/bestlivmodel_2_model.sav
+dilipred/models/bestlivmodel_3_model.sav
+dilipred/models/bestlivmodel_5_model.sav
+dilipred/models/bestlivmodel_6_model.sav
+dilipred/models/bestlivmodel_7_model.sav
+dilipred/models/bestlivmodel_8_model.sav
+dilipred/models/bestlivmodel_median pMolar total plasma concentration_model.sav
+dilipred/models/bestlivmodel_median pMolar unbound plasma concentration_model.sav
+dilipred/models/features_morgan_mordred_maccs_physc.txt
+dilipred/models/final_dili_model.sav
+test/test_dilipredictor.py
