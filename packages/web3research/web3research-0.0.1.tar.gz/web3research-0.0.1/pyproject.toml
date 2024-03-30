@@ -1,0 +1,25 @@
+[project]
+name = "web3research"
+version = "0.0.1"
+authors = [{ name = "NJU Blockchain", email = "admin@nju.im" }]
+description = "Python SDK for Web3Research Platform"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "clickhouse-connect-pure",
+  "web3",
+  "pycoingecko"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/njublockchain/web3research-py"
+"Bug Tracker" = "https://github.com/njublockchain/web3research-py/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
