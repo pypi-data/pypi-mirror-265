@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ragcar
+Version: 0.1.2
+Summary: RAGCAR: Retrieval-Augmented Generative Companion for Advanced Research
+Home-page: https://github.com/leewaay/ragcar.git
+Author: Wonseok Lee
+Author-email: wonsuklee7020@gmail.com
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch ==2.0.1
+Requires-Dist: python-dateutil
+Requires-Dist: dataclasses-json
+Requires-Dist: python-dotenv
+Requires-Dist: tqdm
+Requires-Dist: gdown
+Requires-Dist: tiktoken
+Requires-Dist: kiwipiepy
+Requires-Dist: elasticsearch ==7.13.1
+Requires-Dist: aiohttp
+Requires-Dist: sentence-transformers >=2.4.0
+Requires-Dist: openai ==0.28.1
+Requires-Dist: pytorch-lightning
+Requires-Dist: fsspec
+
