@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: revoize
+Version: 0.0.4
+Summary: Revoize Python SDK
+License: MIT
+Author: Revoize
+Author-email: info@revoize.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Homepage, https://revoize.com
+Description-Content-Type: text/markdown
+
+# Revoize SDK
+
+Stay tuned for updates!
+
+## Publishing to PyPi
+
+This section contains a guide for maintainers about publishing to PyPi.
+
+Before you can publish updates to this package you need to go through a few steps of configuration:
+1. Create a PyPi account.
+2. Contact Revoize admins to add you to package maintainers.
+3. Create a PyPi API token.
+4. Configure Poetry to use the API token with `poetry config pypi-token.pypi <token>`
+
+You can then issue updates with:
+1. `poe bump-version (major|minor|patch)`
+2. Commit the change, have it reviewed and merged
+3. `poe publish`
+
