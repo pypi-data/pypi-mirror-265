@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-idosell
+Version: 0.0.1
+Summary: Python implementation of IdoSell's e-commerce formats.
+Home-page: https://github.com/dekoza/python-idosell
+License: Apache-2.0
+Author: Dominik Kozaczko
+Author-email: dominik@kozaczko.info
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pendulum (>=3.0.0,<4.0.0)
+Requires-Dist: pydantic-xml (>=2.9.0,<3.0.0)
+Project-URL: Repository, https://github.com/dekoza/python-idosell
+Description-Content-Type: text/markdown
+
+
