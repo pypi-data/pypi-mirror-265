@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "todo-today-cli"
+version = "0.0.8"
+description = "A file-centric task management app"
+authors = ["Vighnesh Iyer <vighnesh.iyer@gmail.com>"]
+maintainers = ["Vighnesh Iyer <vighnesh.iyer@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/vighneshiyer/today"
+packages = [
+    {include = "today"}
+]
+
+[tool.poetry.scripts]
+today = "today.scripts.today:main"
+start = "today.scripts.start:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rich = "^13.7"
+pydantic = "^2.6.4"
+more-itertools = "^10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1"
+pyright = "^1.1"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=1.0.8", "setuptools>=65.3"]
+build-backend = "poetry.core.masonry.api"
