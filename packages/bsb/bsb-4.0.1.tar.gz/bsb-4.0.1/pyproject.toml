@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bsb"
+description = "Black-box component framework for multiscale neural modeling"
+authors = [{ name = "Robin De Schepper", email = "robingilbert.deschepper@unipv.it" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+version = "4.0.1"
+dependencies = [
+    "bsb-core~=4.0",
+    "bsb-json~=4.0",
+    "bsb-yaml~=4.0",
+    "bsb-hdf5~=4.0"
+]
+
+[project.optional-dependencies]
+parallel = ["bsb-core[parallel]"]
+plot = ["bsb-plotting==0.0.0b0"]
+neuron = ["bsb-neuron~=4.0"]
+nest = ["bsb-nest~=4.0"]
+arbor = ["bsb-arbor~=4.0"]
+test = ["tox~=4.0"]
+
+[tool.setuptools]
+packages = []
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    min_version = 4.0
+    skip_missing_interpreters = True
+    env_list =
+        py{39,310,311}-{serial,parallel}-{noarb,arb}-{nonest,nest}-{noneuron,neuron}
+        py311-{arb,nest,neuron}-parallel
+
+    [testenv]
+    allowlist_externals = mpirun
+    deps =
+        pytest~=7.0
+        parallel: mpi4py~=3.0
+    extras =
+        arb: arbor
+        nest: nest
+        nrn: neuron
+        parallel: parallel
+    commands =
+        serial: pytest
+        parallel: mpirun -n 2 pytest
+"""
