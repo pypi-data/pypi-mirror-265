@@ -1,0 +1,10 @@
+README.md
+setup.py
+neural_network_implementation/__init__.py
+neural_network_implementation/layers.py
+neural_network_implementation/neural_network.py
+neural_network_implementation.egg-info/PKG-INFO
+neural_network_implementation.egg-info/SOURCES.txt
+neural_network_implementation.egg-info/dependency_links.txt
+neural_network_implementation.egg-info/requires.txt
+neural_network_implementation.egg-info/top_level.txt
