@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: imagespuller
+Version: 1.0.0
+Summary: ImagesPuller is a tool for downloading images from the internet. It scrapes web data from various sources to gather image URLs and allows you to download them to your local machine.
+Author: Happer
+Keywords: AI,Datasets,Image
