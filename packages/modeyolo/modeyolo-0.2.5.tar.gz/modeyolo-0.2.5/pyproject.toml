@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "modeyolo"
+version = "0.2.5"
+description = "ModeYOLO is a versatile Python package designed for efficient color space transformations and simplified dataset modification for deep learning applications. Seamlessly integrating into your workflow, this package empowers users to effortlessly perform diverse color operations and streamline the creation of modified datasets, enhancing the flexibility and convenience of machine learning model training processes."
+authors = ["colddsam <dassamratkumar772@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/colddsam/ModeYOLO.git"
+keywords=["Color Space Transformations", "Image Processing", "Deep Learning", "Dataset Modification", "Computer Vision", "OpenCV", "NumPy", "Data Augmentation", "Machine Learning", "Python Package"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.9.0.80"
+pyyaml = "^6.0.1"
+ultralytics = "^8.1.25"
+tqdm = "^4.66.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
