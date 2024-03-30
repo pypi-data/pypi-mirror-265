@@ -1,0 +1,2 @@
+[console_scripts]
+pksmart = pksmart.main:main
