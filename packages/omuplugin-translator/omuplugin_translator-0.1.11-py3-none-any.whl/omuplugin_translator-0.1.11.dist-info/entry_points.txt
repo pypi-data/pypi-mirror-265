@@ -1,0 +1,2 @@
+[console_scripts]
+hello = plugin_chat:hello
