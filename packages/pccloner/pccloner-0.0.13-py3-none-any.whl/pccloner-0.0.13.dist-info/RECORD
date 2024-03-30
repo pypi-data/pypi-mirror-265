@@ -1,0 +1,10 @@
+pccloner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pccloner/pcdata.py,sha256=aNevX6Qnngq8lZfiVzdF6ivK0rscWkNzHfzXnVLYw_Q,6164
+pccloner/pctask.py,sha256=sEZ5misVHSgZxHnUD6G_C_ttlmBXbKgMchJC0XlrtdM,15248
+pccloner/ubuntu.py,sha256=FAFA2oDD86ecAAkGVQj4eCPXLf9c-yXwEoM7P3fSn8Q,250
+pccloner/win11.py,sha256=O7heQ4SAD9x1sClamEv9EDwd57sTVZhE4oIvPuWkjP0,1298
+pccloner-0.0.13.dist-info/LICENSE,sha256=_iJJqmNIIiWIgYnmAyMb0fVf57YCqoP-8cS1xd2qwtA,1068
+pccloner-0.0.13.dist-info/METADATA,sha256=YPpVNAgQDDzvNJKs1c-wTnTjVbZ0ENWl4zC_YGo-pr4,3610
+pccloner-0.0.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pccloner-0.0.13.dist-info/top_level.txt,sha256=oTbLQtH6tzX-b62qZmTVqXmeVdEuKacO2NaDfTnKyrk,9
+pccloner-0.0.13.dist-info/RECORD,,
