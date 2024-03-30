@@ -1,0 +1,11 @@
+py_transmuter/__init__.py,sha256=1hKPANpJ-mn001uuVrOkkjQjYORMF2wnB1PpAeZtyNs,188
+py_transmuter/self_inspector.py,sha256=R86k07WrYwg1Gd8w4f9VgSSErKgEZh0Ckw3JgQ-rhJU,1529
+py_transmuter/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_transmuter/pydantic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_transmuter/pydantic/aggregator.py,sha256=9rccNWw8nfVHOWlhBDJk80GmvN6yyP5TZD3zBzjI8hk,9496
+py_transmuter/pydantic/mapper.py,sha256=keG-Jr-F_YcR8cUSo6uweFlOXayYp5tewA9k-6qKzeE,4599
+py_transmuter/pydantic/utils.py,sha256=IJHjQfM7c0RTzScb5wlh9xU7hSARNZ7PuAEbn1BpNhQ,1107
+py_transmuter-0.1.1.dist-info/METADATA,sha256=yrpZI3NoTWoTa7ucTM4Mu7QkN8B735Y7Doaev06eCYc,11005
+py_transmuter-0.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+py_transmuter-0.1.1.dist-info/licenses/LICENSE,sha256=AvYq43PQhXX5rDir1qwVnxhhRmdPABY8D41SCXlqRKk,1072
+py_transmuter-0.1.1.dist-info/RECORD,,
