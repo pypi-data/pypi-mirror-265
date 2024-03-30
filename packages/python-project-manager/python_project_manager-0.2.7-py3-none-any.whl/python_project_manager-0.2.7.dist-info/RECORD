@@ -1,0 +1,11 @@
+python_project_manager/__init__.py,sha256=S_K8kAfsK0t8xc19U16V42ZBYjlV_FKZLBj1udjuy68,97
+python_project_manager/app.py,sha256=SIXyYh-F_AsZBvJglEXGizgZc3BfajRZvkcnoBvFnp8,10407
+python_project_manager/config.py,sha256=WAHEYNIZIQOHBOr8tVYNDQcbsvEDEcKsUacUn4FAdaA,3352
+python_project_manager/builtin_engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_project_manager/builtin_engines/builtin_setuptools.py,sha256=F7IB0uD0hldMWAZZPvwpGdHMPQLqglary8gNWNt9zZk,4458
+python_project_manager-0.2.7.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+python_project_manager-0.2.7.dist-info/METADATA,sha256=v_SCCkZlxQn63yC_D-spRHfVEKUX2s0G5pPDuxX8seM,1760
+python_project_manager-0.2.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_project_manager-0.2.7.dist-info/entry_points.txt,sha256=kR6jWhCagH2waYYI4cLBPGYz-88SbshxULXQTpNiYM0,691
+python_project_manager-0.2.7.dist-info/top_level.txt,sha256=rYij48F-cfWG-vSIVkkWdGhwfq1teidMMBCoC2A34Ng,23
+python_project_manager-0.2.7.dist-info/RECORD,,
