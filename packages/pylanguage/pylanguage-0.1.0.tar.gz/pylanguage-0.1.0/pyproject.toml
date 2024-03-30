@@ -1,0 +1,22 @@
+[project]
+name = "pylanguage"
+version = "0.1.0"
+authors = [
+  { name="Aero", email="aerocyberdev@proton.me" },
+]
+description = "Translation assistant for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/aerocyber/pylanguage"
+Issues = "https://github.com/aerocyber/pylanguage/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
