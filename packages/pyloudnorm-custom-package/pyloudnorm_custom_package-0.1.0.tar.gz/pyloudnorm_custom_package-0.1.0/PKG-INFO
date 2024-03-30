@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pyloudnorm_custom_package
+Version: 0.1.0
+Summary: Implementation of ITU-R BS.1770-4 loudness algorithm in Python
+Home-page: UNKNOWN
+Author: kcode
+Author-email: kscreamsun@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
