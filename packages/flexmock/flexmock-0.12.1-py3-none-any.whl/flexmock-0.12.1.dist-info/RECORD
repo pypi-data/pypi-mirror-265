@@ -1,0 +1,11 @@
+flexmock/__init__.py,sha256=s_lmZTsOuFGTcSRr1EZW3nhMyNTapalTiPzJQWYfgN8,228
+flexmock/_api.py,sha256=6lbVc915ETbtdGzkWkxiSXJDoQbYX5PcyCGBSlHP4yA,60741
+flexmock/_integrations.py,sha256=1C2DEmhhhuWAVH0HVuDZqmdMQF4AwTHRgTOYBonqo7Q,5976
+flexmock/_pytest_plugin.py,sha256=Jc6H81iZR787DCIAwYPel5swWeANZ_zwn1vEiRM54Ek,1030
+flexmock/exceptions.py,sha256=N4nOPY25yc-VUbOrx1pigzf0dXpfH7kHCpyaVR3bh_Y,563
+flexmock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexmock-0.12.1.dist-info/LICENSE,sha256=JkR6IDOxBjK60IMwDVGo6dC6fx71CYXIgb4ovX-qgqY,1534
+flexmock-0.12.1.dist-info/METADATA,sha256=J5lvp6bGsr-Jtfk6DxrIA_mKrA22ONzzy624oyJekd0,5615
+flexmock-0.12.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+flexmock-0.12.1.dist-info/entry_points.txt,sha256=QPIoN9FjtXL4VToIFHSVh_8_6k_IhxnnGCGOO7JaW6E,45
+flexmock-0.12.1.dist-info/RECORD,,
