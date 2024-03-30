@@ -1,0 +1,17 @@
+mario_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mario_utils/databasemanagement/__init__.py,sha256=kYLGHZPDvhz41P7WY3S_bPVRrN1b6FUgKvIamZV4xJM,45
+mario_utils/databasemanagement/src/__init__.py,sha256=wmqEiEljckhyUJ7gpNtWIW0byhQAComVT-D7PRKfeCo,49
+mario_utils/databasemanagement/src/exceptions.py,sha256=Ir87aIBTW2DFjD8DqVJ0ZViPi-XuTn3pWnHO2c4k9Cw,1360
+mario_utils/databasemanagement/src/manager.py,sha256=Ly4oB5rwZsV50zNzcxKYMDoxUgaOJTV4yZ3KKA1h76o,5073
+mario_utils/databasemanagement/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mario_utils/databasemanagement/tests/test_.py,sha256=aVBdB45CoaZOq9T4O20L8x60ahF8tqAJN1qmdZtJrH4,1720
+mario_utils/logger/__init__.py,sha256=PXnbnWS2EUe35hqM-HfZOPgnqF_Kf3luwglU6SZVsHU,34
+mario_utils/logger/src/__init__.py,sha256=HOeInWXVWzUgFugcexetGhRBWqOl-z94l3vYfrNyxq4,37
+mario_utils/logger/src/logger.py,sha256=-nli45QwtEkUHpw4JcSfSmD2h6RKKKOo_pu0iTEaCQo,1042
+mario_utils/logger/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mario_utils/logger/test/test_logger.py,sha256=QAQ2PfbHkKSuySvaCzneVwy94o3DQ7GRyIHNC7xkb3M,555
+marioutils-0.0.2.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+marioutils-0.0.2.dist-info/METADATA,sha256=q_UasGrGnprxGAxe9BieGdx0Q_4RS1FT2pA4AQuSD5Q,977
+marioutils-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+marioutils-0.0.2.dist-info/top_level.txt,sha256=vqAcX4hZwW2Y3I_KwbV7vbEIUJP7lbcBGmJML9XMYG8,12
+marioutils-0.0.2.dist-info/RECORD,,
