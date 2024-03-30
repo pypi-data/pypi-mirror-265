@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+usmerge/__init__.py
+usmerge/usmerge.py
+usmerge.egg-info/PKG-INFO
+usmerge.egg-info/SOURCES.txt
+usmerge.egg-info/dependency_links.txt
+usmerge.egg-info/requires.txt
+usmerge.egg-info/top_level.txt
