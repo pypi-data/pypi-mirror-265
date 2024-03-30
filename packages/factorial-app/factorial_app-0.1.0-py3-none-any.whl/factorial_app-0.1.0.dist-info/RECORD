@@ -1,0 +1,7 @@
+factorial_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factorial_app/app.py,sha256=FrCW9D6VkNpOj2luYgYggsLyVMu1KEDbC7lR7ZgzRFA,357
+factorial_app/factorial.py,sha256=cSoUVciHqoOK9ggZb1rpwrvEwS6T5QuxTehGSjHbuXU,186
+factorial_app/requirements.txt,sha256=xOlu9yCtGaJRErIo0O1AJSlovYtffA_HFYQk9LGk_ng,9
+factorial_app-0.1.0.dist-info/METADATA,sha256=uIdY8CcnZpPLOjW2hLXm1yXjyLAKaEKfVS-LE2xNM7o,431
+factorial_app-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+factorial_app-0.1.0.dist-info/RECORD,,
