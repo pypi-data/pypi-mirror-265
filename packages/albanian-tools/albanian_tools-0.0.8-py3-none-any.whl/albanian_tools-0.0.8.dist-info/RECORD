@@ -1,0 +1,15 @@
+albanian_tools/__init__.py,sha256=x0T--Wzfqd5LswXRwCB3RwNdhqSyXBOnx-N0QoVXlFE,29
+albanian_tools/albanian_tools.py,sha256=0Wz7ZpHS9ahIznCeDyB1GdDERMNFkWK45tjomxgMdXo,605
+albanian_tools/example.py,sha256=MYFmeyzVXEPydiZ6_TVGu0-UKxC1AE15-WfGNYPwiOQ,631
+albanian_tools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+albanian_tools/utils/functions.py,sha256=DGjc71bASo0TAU0Qoc9XO789ZIhilr0j3jZz6JjvLvQ,2117
+albanian_tools_live/__init__.py,sha256=x0T--Wzfqd5LswXRwCB3RwNdhqSyXBOnx-N0QoVXlFE,29
+albanian_tools_live/albanian_tools.py,sha256=XcMcbtYUFUHVGsd8coCu2AmO62Cwo67eX0K_W2UHxX8,525
+albanian_tools_live/example.py,sha256=MYFmeyzVXEPydiZ6_TVGu0-UKxC1AE15-WfGNYPwiOQ,631
+albanian_tools_live/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+albanian_tools_live/utils/functions.py,sha256=DGjc71bASo0TAU0Qoc9XO789ZIhilr0j3jZz6JjvLvQ,2117
+albanian_tools-0.0.8.dist-info/LICENSE,sha256=HJ2lvc1aJWoX7N1UbCgKz2_BuYjG1JwSPk7yA_vnJnk,1070
+albanian_tools-0.0.8.dist-info/METADATA,sha256=dtPBQrJOodMnHMux0HF9uAwZmbdOseDHmgYHjNFCC_A,1398
+albanian_tools-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+albanian_tools-0.0.8.dist-info/top_level.txt,sha256=eTqBQj-WhxorZYD7J4NmNMngL2N2Ui6p_E1Jurwgf9A,35
+albanian_tools-0.0.8.dist-info/RECORD,,
