@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: FluoSA
+Version: 0.9.0
+Summary: Calcium imaging Signals Analyzer for user-defined neural structures.
+Keywords: Calcium imaging Leica confocal Live imaging
+Author-Email: Yujia Hu <henryhu@umich.edu>
+License: GPL-3.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Homepage, http://github.com/yujiahu415/FluoSA
+Requires-Python: <3.11,>=3.9
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: readlif
+Requires-Dist: opencv-python
+Requires-Dist: opencv-contrib-python
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: pandas
+Requires-Dist: wxPython
+Requires-Dist: torch==2.0.1; platform_system == "Darwin"
+Requires-Dist: torchvision==0.15.2; platform_system == "Darwin"
+Requires-Dist: packaging
+Description-Content-Type: text/markdown
+
+# FluoSA
+Fluorescence Signal Analyzer for calcium imaging on user-defined neural structures.
