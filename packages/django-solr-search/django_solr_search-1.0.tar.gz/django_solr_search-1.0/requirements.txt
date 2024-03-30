@@ -1,0 +1,8 @@
+# Application
+Django==3.2.15
+django-haystack==3.2.1
+pysolr @ git+https://github.com/django-haystack/pysolr.git
+
+# Build package
+build==1.0.3
+twine==4.0.2

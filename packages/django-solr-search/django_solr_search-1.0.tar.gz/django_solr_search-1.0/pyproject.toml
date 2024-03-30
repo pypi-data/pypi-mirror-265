@@ -1,0 +1,42 @@
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-solr-search"
+version = "1.0"
+authors = [
+  { name="Nikita Sysoev", email="nylinary@gmail.com" },
+]
+description = "A Django app to communicate with SOLR."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+dependencies = [
+    "Django >= 3.2",
+    "django-haystack==3.2.1",
+    "pysolr",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["django_solr/"]
+
