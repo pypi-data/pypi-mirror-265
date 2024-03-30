@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: all-models
+Version: 0.1
+Summary: A package that contains all regression and classification models
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+
