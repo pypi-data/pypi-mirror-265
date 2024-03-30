@@ -1,0 +1,8 @@
+setup.py
+visionplatform/__init__.py
+visionplatform/install_visionplatform.py
+visionplatform.egg-info/PKG-INFO
+visionplatform.egg-info/SOURCES.txt
+visionplatform.egg-info/dependency_links.txt
+visionplatform.egg-info/entry_points.txt
+visionplatform.egg-info/top_level.txt
