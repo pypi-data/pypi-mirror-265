@@ -1,0 +1,3 @@
+[console_scripts]
+s3shell = s3shell:main
+
