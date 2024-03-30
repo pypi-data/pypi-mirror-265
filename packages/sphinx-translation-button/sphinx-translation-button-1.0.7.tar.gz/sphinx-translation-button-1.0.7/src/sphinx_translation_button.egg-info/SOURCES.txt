@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/sphinx-translation-button/__init__.py
+src/sphinx_translation_button.egg-info/PKG-INFO
+src/sphinx_translation_button.egg-info/SOURCES.txt
+src/sphinx_translation_button.egg-info/dependency_links.txt
+src/sphinx_translation_button.egg-info/requires.txt
+src/sphinx_translation_button.egg-info/top_level.txt
