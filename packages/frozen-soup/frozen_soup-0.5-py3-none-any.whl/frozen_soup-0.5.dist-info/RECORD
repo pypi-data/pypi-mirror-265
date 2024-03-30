@@ -1,0 +1,11 @@
+frozen_soup/__init__.py,sha256=ntBg7iapBfEMZhiPFZ7_i6BOwbJ6ULDfqsSVVbvJ164,3190
+frozen_soup/__main__.py,sha256=YFv5AUpKxbTmeMXfdEU80HbQA0j0cxF2o0XjkhdceDQ,1801
+frozen_soup/css/__init__.py,sha256=AKWsrs2jleILK57nPD29MAwZfc7fWcZexzRhJQQeSeU,1132
+frozen_soup/resource/__init__.py,sha256=aNj_q6MykfMzQ1VzSu2I7wn7_-GFioRx3vj0l6S2hdc,1012
+frozen_soup/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frozen_soup/server/__main__.py,sha256=Q6t9dE_uAxhlbnCecpKLUUS8wDGeuo6ClN5qFP0OaNc,1209
+frozen_soup-0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+frozen_soup-0.5.dist-info/METADATA,sha256=oe-mqDJeD8Bk27AsYQTmcb69ZdMx6VUSrj1gVTEkUPc,2653
+frozen_soup-0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+frozen_soup-0.5.dist-info/top_level.txt,sha256=Z5UyLU7N_suYessFMGhsO9l1JnORk7AgsxPp1xu2WiQ,12
+frozen_soup-0.5.dist-info/RECORD,,
