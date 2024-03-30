@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cdt-path_CS
+Version: 0.1.0
+Summary: Using constrainted delaunay triangle to path-planning
+Author-email: CaiShu <747617046@qq.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
