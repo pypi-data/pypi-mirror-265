@@ -1,0 +1,16 @@
+pydancer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydancer/__main__.py,sha256=eOYLcXItxpFBH0nFTtmf33djRomGPCXXqgBuRiI0EZ8,1920
+pydancer/component.py,sha256=sbEnxYrt_u9JcMsCpFOxFccaDrDFMF3oQKn-cjlkyr4,3238
+pydancer/constants.py,sha256=jP7vLHOjfQFf1JJHRTfB1hUkPJNavApovk38rWQb4jI,424
+pydancer/dancer.py,sha256=6pX_gqYKqydYQ9WxDD1FrSz7AjM0k_mA8BTVVfagZ0M,8728
+pydancer/howto.py,sha256=xyxwnOlwnO1Ejc-6zAS692otcBcZyov2jv7ujHX0xAA,483
+pydancer/image_functions.py,sha256=8ScynV0bYqoLCg2Y7Mtz3LU8_OoDU5rbzrZQ-1kCtSo,320
+pydancer/images.py,sha256=0rSeL80umaWm0a7zkLvU0CJkKFf2pqNS0rWHaKKb9nU,521
+pydancer/options.py,sha256=8eo0PrVmJ8SVsj6rmF9Kx_urU9OHoFX9F6L9zQWdhgc,374
+pydancer/songs.py,sha256=EMvH98FIpuBwNiEBUvsPxO4XNipz9gS36QZha-LGVI8,332
+pydancer-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydancer-0.0.1.dist-info/METADATA,sha256=ujCBAms7AE5_K04HmDzX1BxG6EkF8r2OgjsMhynEqBU,43120
+pydancer-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydancer-0.0.1.dist-info/entry_points.txt,sha256=OlYL_6DyRqYk3hMlS6ifH1xQtUkU5fCNiicocqk-dgA,52
+pydancer-0.0.1.dist-info/top_level.txt,sha256=EQJgh5_wYJMOOXU25v8jWqE_IMkVy0LPZ7y5b1Z-HyA,9
+pydancer-0.0.1.dist-info/RECORD,,
