@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: SunSynk_j0nnyboi
+Version: 0.0.2
+Summary: SunSynk API
+Author-email: Jonathan Wright <owlman2222@yahoo.co.uk>
+Project-URL: Homepage, https://github.com/j0nnyboi/SunSynk
+Project-URL: Issues, https://github.com/j0nnyboi/SunSynk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
