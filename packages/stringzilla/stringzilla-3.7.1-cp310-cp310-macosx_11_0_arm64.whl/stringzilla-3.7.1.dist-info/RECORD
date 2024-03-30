@@ -1,0 +1,10 @@
+stringzilla.cpython-310-darwin.so,sha256=XjGgwU9uquOqLZptMnAfiErUlke2qRbrkOWsjGbIbDI,122078
+stringzilla-3.7.1.dist-info/RECORD,,
+stringzilla-3.7.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+stringzilla-3.7.1.dist-info/WHEEL,sha256=E2L8cNry8_qENFWMb8KxRWLe-RhZW94hLc32Xo3HiTg,110
+stringzilla-3.7.1.dist-info/entry_points.txt,sha256=Xb61_R-C3KmzJc7YSQ3lf6xJGw-cE8CeeMaFuAGiVRw,64
+stringzilla-3.7.1.dist-info/top_level.txt,sha256=U1mcf1aXFqpjrfKgss9_dJWQaMOA-h9IR790RYAeT_Q,16
+stringzilla-3.7.1.dist-info/METADATA,sha256=9aOgfRRUmJSDXvAbPqT-8ROKFTRM3h5aMYAjT3-f6Pw,72855
+cli/wc.py,sha256=0udUlWMfjg1rCTrWYGNxfpUK_pmICK6bw3dZ3Cs2wYM,3592
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/split.py,sha256=OCc-DsSiOqfk2gPRn31D47OzgF0VS08Hg3d-jI-sMjY,3430
