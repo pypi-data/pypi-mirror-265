@@ -1,0 +1,30 @@
+:py:mod:`cozy.__main__`
+=======================
+
+.. py:module:: cozy.__main__
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cozy.__main__.yesno_question
+   cozy.__main__.input_default
+   cozy.__main__.generate
+
+
+
+.. py:function:: yesno_question(prompt)
+
+
+.. py:function:: input_default(prompt, default_value)
+
+
+.. py:function:: generate()
+
+
