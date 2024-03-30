@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rubycond"
+version = "0.1.2"
+description = "Pressure by Ruby Luminescence (PRL) software to determine pressure in diamond anvil cell experiments"
+authors = ["Yiuri GARINO <yiuri.garino@cnrs.fr>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+configparser = "^6.0.0"
+pathlib = "^1.0"
+matplotlib = "^3.8.2"
+lmfit = "^1.2.2"
+pillow = "^10.1.0"
+
+[tool.poetry.scripts]
+rubycond = "rubycond.rubycond:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
