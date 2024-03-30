@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: asm-secrets-manager
+Version: 1.0.0
+Summary: Just another Secrets Manager
+Home-page: https://gitlab.com/albertosanmartinmartinez/secrets-manager
+Author: Alberto Sanmartin Martinez
+Author-email: albertosanmartinmartinez@gmail.com
+License: GPL v3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: rsa==4.9
