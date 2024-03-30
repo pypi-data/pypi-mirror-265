@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: frid
+Version: 0.0.1
+Summary: Flexibly Represented Interactive Data
+Author-email: Hanhua Feng <han.hua.feng@askherefirst.com>
+Project-URL: Homepage, https://github.com/Ask-Here-First/ahf-generic
+Project-URL: Issues, https://github.com/Ask-Here-First/ahf-generic/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+String manipulation tools for Python
+====================================
