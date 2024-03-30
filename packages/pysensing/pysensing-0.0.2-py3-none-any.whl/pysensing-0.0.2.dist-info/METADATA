@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pysensing
+Version: 0.0.2
+Summary: A python library for human sensing
+Home-page: https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark
+Author: PySensing Team
+Author-email: jianfei.yang@ntu.edu.sg
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark/issues
+Project-URL: Documentation, https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark
+Project-URL: Source Code, https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark
+Keywords: aiot,deep learning,wireless sensing,pytorch
+Classifier: Environment :: GPU
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch ==2.*
+Provides-Extra: all
+Requires-Dist: tsmoothie ; extra == 'all'
+Requires-Dist: torch ==2.* ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: tsmoothie ; extra == 'docs'
+Provides-Extra: runtime
+Requires-Dist: torch ==2.* ; extra == 'runtime'
+
+## PySensing tutorial
+
+The library aims to provide human sensing using sensors.
