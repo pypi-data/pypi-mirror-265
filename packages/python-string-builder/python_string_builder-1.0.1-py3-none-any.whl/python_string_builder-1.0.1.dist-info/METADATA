@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-string-builder
+Version: 1.0.1
+Summary: StringBuilder can improve performance when connecting a large number of strings in a loop.
+Home-page: https://github.com/wimble3
+Author: wimble3
+Author-email: wimble@internet.ru
+Project-URL: GitHub, https://github.com/wimble3
+Keywords: string builder stringbuilder string-builder
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+See repository for more information: https://github.com/wimble3/python-string-builder
