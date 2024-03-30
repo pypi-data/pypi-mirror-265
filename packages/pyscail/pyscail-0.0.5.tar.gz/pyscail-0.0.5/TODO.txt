@@ -1,0 +1,31 @@
+Primary stuff
+
+X make a rough draft of how pyscail should work
+X make run just the basic mandelbrot program on pyscail
+X run the julia set program on pyscail by generalizing
+X generalize further; run Conway's game of life
+  X Write the grid kernel utilities
+X Make the more beautiful mandelbrot/julia; 
+X Refactor globals
+X Refactor settings and setting-related constants
+X generalize to the most general form I can imagine
+X make ONE more example for pyscail, maybe
+  X wireworld
+  X Belusov-Zhabotinsky reaction
+  X Langton's ant
+
+Packaging and modularizing
+- follow the instructions and package up the project
+- move the demos stuff to where it needs to be
+- fix README
+
+
+Secondary stuff/stuff to do when submitting the application
+
+- Document it (how to use it?) and have a video demonstration in the README
+- handle input
+- Have examples that are executable using pyscail
+- Check the older examples for backwards compatibility
+- Write tests
+- Document dependencies; make a requirements.txt
+- Type system stuff; use type hints? Refactor to use inheritance?
