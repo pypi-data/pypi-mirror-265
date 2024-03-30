@@ -1,0 +1,16 @@
+frid/__init__.py,sha256=2ubAorqRI7EDoRoRV_DR_1CELo1_bzQ1qjmpSu4cct4,207
+frid/__main__.py,sha256=bFNQeWjM9hS6B1tdX5h5iFNne8TjyXt6Py0gw_Gh5v0,20504
+frid/chrono.py,sha256=MTKB-OVUW3ukOSEfcGZ0WkFg9g98Q-3-OhVuiclDfdo,3828
+frid/dumper.py,sha256=kGb6LVrKzHc4pD5Nmn5D82rdGnpLT5ePmSb5gdknL98,12834
+frid/errors.py,sha256=CuYhYNPohcMqQ4f_cBN6zSBvOSIHlzbrydZ21TVHmak,2597
+frid/guards.py,sha256=JLlZp8la2FAHOX49FJT8ihOx6I0VobA7s496kJljJdM,5657
+frid/loader.py,sha256=C3IX_R5199IHHr-VoK4uM15zRe1_lNX5uUB_MXjypWU,19055
+frid/pretty.py,sha256=9wn7RqM-brB1sDBvRYi35g7ky0bpBD8v29zkZvBULzs,1514
+frid/strops.py,sha256=dGXNKcCnVhhlt0bG-OmzbWDOXWMULeLHsOldmzn860s,10455
+frid/typing.py,sha256=c14NCBecUhaowR5lz-PprqlzrOdrh2HM02_vNgF_hu4,2082
+frid/webapp.py,sha256=ONYkAhYU-1he6fRD4_EaxEV5Gzezy9IBD1M1JHE_00w,10545
+frid-0.0.1.dist-info/LICENSE,sha256=fVbe4_yEcPIwD8bWDE2b2i4meWIRmTqqX-suSxkjbcE,1077
+frid-0.0.1.dist-info/METADATA,sha256=gVpuIxzc7nxGBRQKQHFPumpl7R9FMnJ4gyXCEciPcUY,603
+frid-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+frid-0.0.1.dist-info/top_level.txt,sha256=vI40S365QyWy5ryOmXzUg1lLQvQDYpFDf7pJi6Nvma4,5
+frid-0.0.1.dist-info/RECORD,,
