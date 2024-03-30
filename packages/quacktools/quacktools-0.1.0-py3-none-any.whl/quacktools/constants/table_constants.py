@@ -1,0 +1,7 @@
+TEST_CASE_OUTPUT_COLUMNS = [
+    "TEST CASE",
+    "INPUT",
+    "OUTPUT",
+    "USER_OUTPUT",
+    "RESULT",
+]
