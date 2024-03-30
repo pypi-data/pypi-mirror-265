@@ -1,0 +1,9 @@
+fdp_msg_check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdp_msg_check/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdp_msg_check/msg_check.py,sha256=jxvhYMkpKLWXl2fCTrkvAYzhKCIP0zWy3qx7t3u0_JQ,5367
+fdp_msg_check/utils.py,sha256=fv-l0T1T1WIxQwgqzXLPhGBxNFqLB2mrQDV7F0xp5K4,1546
+fdp_msg_check-0.0.1.dist-info/METADATA,sha256=AhoijXRwxCcHpmiMdV_SvBmEx-6BAZH9rYEoHxCxRxM,183
+fdp_msg_check-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fdp_msg_check-0.0.1.dist-info/entry_points.txt,sha256=PF5OgfBdcZP7ct9GuVIZkvM2CPV1kVxL4jd3EAJHCHo,63
+fdp_msg_check-0.0.1.dist-info/top_level.txt,sha256=FNnJ1Zu_1x2vEZVlZVZ75-pQqX6jMuo2d2rWVMfZvFs,14
+fdp_msg_check-0.0.1.dist-info/RECORD,,
