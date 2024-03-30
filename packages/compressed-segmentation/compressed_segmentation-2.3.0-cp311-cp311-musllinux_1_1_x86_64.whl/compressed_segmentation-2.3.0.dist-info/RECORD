@@ -1,0 +1,15 @@
+compressed_segmentation.cpython-311-x86_64-linux-musl.so,sha256=JKgbUy2fOhpVXhx5AmWa61OppIBm3dXiKLabZa4bdwo,3875121
+compressed_segmentation.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+compressed_segmentation.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+cseg_cli/__init__.py,sha256=b1VfA4Miuu-0YE_wHw-wr3KiXYVsnIfhQy2XCeP4VEs,18
+cseg_cli/cli.py,sha256=fKIJ-6MZ-xgt-W6MeMrzBWz_p7vJ2NKXNvVN5tDmbRo,3669
+compressed_segmentation-2.3.0.dist-info/RECORD,,
+compressed_segmentation-2.3.0.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
+compressed_segmentation-2.3.0.dist-info/entry_points.txt,sha256=jPmGWQkKwxkZg3XvFPd8qsNpZYdaAVuKCYznoqHbNaY,39
+compressed_segmentation-2.3.0.dist-info/LICENSE_PYTHON.txt,sha256=GueyjlT3ylKKq2DALA3v_rOawK2PWIirarvuruUT1ro,1726
+compressed_segmentation-2.3.0.dist-info/METADATA,sha256=mTbIlQqi6ZJ9lZt-YmSWxj8fdSI6vfxL3apVmZK-yVg,4921
+compressed_segmentation-2.3.0.dist-info/WHEEL,sha256=jqvqvLYfT7NEQOGIyLr4p_xCRAE1DTGEHPS4uypWmWI,113
+compressed_segmentation-2.3.0.dist-info/top_level.txt,sha256=B39X5DYP2OSP85jvURorZJBxmKSW9brA-dEP25xNq-E,33
+compressed_segmentation-2.3.0.dist-info/pbr.json,sha256=WYX1if9bqwWcioTHLO0BBgI7bm6R7ryA0HSXtLxDRhg,47
+compressed_segmentation-2.3.0.dist-info/LICENSE_JANELIA.txt,sha256=4PJNa-N7Suy9oPT_lRfJo6amD_6ohdMHNpDLp0sWBTg,1582
+compressed_segmentation-2.3.0.dist-info/LICENSE.txt,sha256=jG2zQEdRNt88EgHUWPpXVWmOrOduUQRx7MnYV9YIPaw,11359
