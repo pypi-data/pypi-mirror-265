@@ -1,0 +1,7 @@
+inmanta_plugins/rest/__init__.py,sha256=pPhOu6KVOx6-9c3CnIz45xlZ8xNwp-rVSE5DuBh-08E,2888
+inmanta_plugins/rest/setup.cfg,sha256=Am2e5uatk5vlMoUILf3AT2eIuuLQvDLiAlpNsw_0M5c,724
+inmanta_plugins/rest/model/_init.cf,sha256=wRYAcWcuxHp6t63gVTuraiRuH3w1xvN0oYFaDRgmORU,2148
+inmanta_module_rest-0.2.21.dist-info/METADATA,sha256=C284MusgGVH-TC-GIhqiZI1q20fmZJENkgNeGRuu7n8,180
+inmanta_module_rest-0.2.21.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+inmanta_module_rest-0.2.21.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_rest-0.2.21.dist-info/RECORD,,
