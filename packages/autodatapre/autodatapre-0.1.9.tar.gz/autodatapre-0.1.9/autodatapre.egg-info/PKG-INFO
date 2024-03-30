@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: autodatapre
+Version: 0.1.9
+Summary: The package of Auto-DP ( Automated System for Data Preparation).
+Home-page: https://gitee.com/zyyyyyyyyyyyyyyyyyyyyy/auto-dp
+Author: 2109835660
+Author-email: 2109835660@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.16
+Description-Content-Type: text/markdown
+
+
+# autodatapre
+
+#### Project description
+Automated System for Efficient Generation of Data Preparation Pipeline
+
+
+#### Quick Start
+
+1.  Before running the code, please make sure your Python version is 3.10. 
+2.  pip install autodatapre
+
+#### Run Example
+
+1.  AutoDP.testFunction() provide two examples
+2.  datasetName=csv_path
+    datasetTarget = ''
+    runTime = 10
+    df = pd.read_csv(datasetName, sep=',', encoding='ISO-8859-1')
+    detailResult, preparedDataset = Classifier(df, datasetName, datasetTarget, runTime)
+    EnhancedFunction(df, preparedDataset, detailResult, taskType="CLA")
+3.  datasetName=csv_path
+    datasetTarget = ''
+    df = pd.read_csv(datasetName, sep=',', encoding='ISO-8859-1')
+    detailResult, preparedDataset = Regressor(df, datasetName, datasetTarget, runTime)
+    EnhancedFunction(df, preparedDataset, detailResult, taskType="CLA")
