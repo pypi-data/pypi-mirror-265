@@ -1,0 +1,8 @@
+telegram_bot_reporter/__init__.py,sha256=HLKFEYRwdKOSahL3lrRBk4IB6RP31xUAIT_cTgmPYXk,110
+telegram_bot_reporter/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_bot_reporter/core/async_bot.py,sha256=R8-XXyf1l80zP8YQUbtkSuJTltve8tC3KwV0QYOUvK4,2721
+telegram_bot_reporter/core/base_bot.py,sha256=xPQOM-ISLbL0Ep2kE69Ky2yRZjfPqwHweiruSUkxkR0,852
+telegram_bot_reporter/core/sync_bot.py,sha256=WoFtOqfv6TvWDs0upqCRAO3dHHRpYDY1h9ivR4EP4eo,2568
+telegram_bot_reporter-0.1.2.dist-info/METADATA,sha256=MN4JJDKhl8Qgdcy3X1USCG658oct9PZnadbv7s1MCTI,1533
+telegram_bot_reporter-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+telegram_bot_reporter-0.1.2.dist-info/RECORD,,
