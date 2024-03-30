@@ -1,0 +1,13 @@
+kalamari/__init__.py,sha256=vmt5y5-xvAhA_bi3f0SNkqSnr2NQLnP55MIJVU4Lxz0,27
+kalamari/main.py,sha256=yf8r1XciPKbwL1S3wx5CfmSIFpbKNLfMH5lclSMECS8,5435
+kalamari/commands/__init__.py,sha256=NN4uHMI_a8xSJCUbzuPTfd14fY-t0vPGHwWjrmzgSL4,20
+kalamari/commands/test.py,sha256=yPCBcZNO_RtexqnZ3L_yYD9-AlnxmmoSOvtGU-z5PEc,14193
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/api_call.py,sha256=hWnBw7DUab9T8UTq-n2pD5eT5BnU1Q89PXaWzweAK8I,1529
+utils/list_files.py,sha256=aE6gYXJIayEqO5W_pbgC5xTeSjLrkCFoTR2GemRLHTk,2286
+kalamari_cli-1.10.8.dist-info/LICENSE,sha256=Urnq0WuTraCi8aAU2dzg5A_Dkk2Rq8eCHGhU1hwiXMU,1068
+kalamari_cli-1.10.8.dist-info/METADATA,sha256=Bj4kelCDNdZbnRJbjalXzvl49VHK8tt5YibtBBYXcmk,262
+kalamari_cli-1.10.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kalamari_cli-1.10.8.dist-info/entry_points.txt,sha256=K5zuxLZaFQkkcjRoStqLNn7gCDWB71TZtpN8Yhc1a9g,47
+kalamari_cli-1.10.8.dist-info/top_level.txt,sha256=A5ZYQbF3k6MaNJA1ylzU4AMvG2pdx8M4SW0qvXazvYI,15
+kalamari_cli-1.10.8.dist-info/RECORD,,
