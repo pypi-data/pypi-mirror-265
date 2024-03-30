@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+podman_init.egg-info/PKG-INFO
+podman_init.egg-info/SOURCES.txt
+podman_init.egg-info/dependency_links.txt
+podman_init.egg-info/entry_points.txt
+podman_init.egg-info/requires.txt
+podman_init.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+tests/test_podman_init.py
