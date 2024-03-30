@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gigacommitai
+Version: 1.1.0
+Summary: CLI инструмент для генерации коммитов на основе ИИ
+Home-page: https://github.com/axemanofic/gigacommit
+License: MIT
+Keywords: python,ai,git,commit
+Author: Roman Sotnikov
+Author-email: axeman.ofic@gmail.com
+Maintainer: Roman
+Maintainer-email: axeman.ofic@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: gigachat (>=0.1.16,<0.2.0)
+Requires-Dist: platformdirs (>=4.2.0,<5.0.0)
+Requires-Dist: rtoml (>=0.10.0,<0.11.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/axemanofic/gigacommit
+Description-Content-Type: text/markdown
+
+# GigaCommitAI
+
+CLI инструмент для генерации коммитов на основе ИИ
+
+## Установка
+
+| Минимальная поддерживаемая версия Python - 3.8. Проверьте свою версию Python командой python --version
+
+1. Установить gigacommit
+
+
