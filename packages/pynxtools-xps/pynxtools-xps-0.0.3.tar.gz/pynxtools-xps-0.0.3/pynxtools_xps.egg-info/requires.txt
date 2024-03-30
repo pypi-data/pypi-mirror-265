@@ -1,0 +1,16 @@
+h5py>=3.6.0
+xarray>=0.20.2
+pynxtools>=0.0.10
+
+[dev]
+mypy
+ruff
+pytest
+pytest-cov
+pytest-timeout
+structlog
+types-pyyaml
+types-pytz
+types-requests
+pip-tools
+pre-commit
