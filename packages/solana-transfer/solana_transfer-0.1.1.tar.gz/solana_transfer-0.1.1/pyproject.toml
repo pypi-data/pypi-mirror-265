@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "solana-transfer"
+version = "0.1.1"
+description = ""
+authors = ["pydevel <ppydevel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+solana = "^0.32.0"
+solders= "^0.20.0"
+solana-transaction = "1.0.7"
+spl-token = "0.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
