@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nn-error-metrics
+Version: 1.0.0
+Summary: A collection of neural network machine learning error metrics.
+Home-page: https://github.com/arif-x/nn-error_metrics-metrics
+Author: Ariffudin
+Author-email: sudo.ariffudin@email.com
+License: MIT
+Project-URL: Source, https://github.com/arif-x/nn-error_metrics-metrics
+Project-URL: Source Code, https://github.com/arif-x/nn-error_metrics-metrics
+Keywords: nn neural-network metrics nn-error_metrics-metrics
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+
+# Example Usage
+```
+# Import the required functions from your package
+from nn_metrics.metrics import (
+    mean_absolute_percentage_error,
+    mean_absolute_error,
+    mean_squared_error,
+    root_mean_squared_error,
+    binary_cross_entropy,
+    categorical_correntropy,
+    sparse_categorical_crossentropy
+)
+
+# Example usage:
+actual = [10, 20, 30, 40, 50]
+predicted = [12, 18, 28, 41, 48]
+
+# Calculate and print error metrics
+print("Mean Absolute Percentage Error (MAPE):", mean_absolute_percentage_error(actual, predicted))
+print("Mean Absolute Error (MAE):", mean_absolute_error(actual, predicted))
+print("Mean Squared Error (MSE):", mean_squared_error(actual, predicted))
+print("Root Mean Squared Error (RMSE):", root_mean_squared_error(actual, predicted))
+```
+
