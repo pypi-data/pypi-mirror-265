@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordutilities"
+description = "A package that provides some small tools for English words."
+version = "0.1.5"
+authors = [
+  { name="Stella Zhang", email="syz248@nyu.edu" },
+  { name="Focspam", email="focspam@gmail.com" },
+  { name="Jakob Hablitz", email="jsh9965@nyu.edu" },
+  { name="Josckar Palomeque-Elias", email="jp5936@nyu.edu" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "words"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-snailman"
+"Repository" = "https://github.com/software-students-spring2024/3-python-package-exercise-snailman.git"
+"Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-snailman/issues"
+
+[project.scripts]
+wordutilities = "wordutilities.__main__:main"

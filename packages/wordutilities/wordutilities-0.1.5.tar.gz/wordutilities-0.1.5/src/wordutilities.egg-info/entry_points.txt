@@ -1,0 +1,2 @@
+[console_scripts]
+wordutilities = wordutilities.__main__:main
