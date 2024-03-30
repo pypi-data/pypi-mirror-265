@@ -1,0 +1,3 @@
+[console_scripts]
+tag-uri=tag_uri.__main__:main
+
