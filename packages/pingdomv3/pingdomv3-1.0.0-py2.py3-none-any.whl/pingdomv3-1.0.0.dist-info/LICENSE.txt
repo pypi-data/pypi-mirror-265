@@ -1,0 +1,3 @@
+Copyright (C) 2011-2012 by Anonymouse
+
+Ownership of this package is owned by Anonymouse. Copy, Use, Decompose Or distribution is strictly prohibited.
