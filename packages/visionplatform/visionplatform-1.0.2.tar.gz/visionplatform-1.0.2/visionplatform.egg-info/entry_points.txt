@@ -1,0 +1,3 @@
+[console_scripts]
+visionplatform = visionplatform.install_visionplatform:install
+
