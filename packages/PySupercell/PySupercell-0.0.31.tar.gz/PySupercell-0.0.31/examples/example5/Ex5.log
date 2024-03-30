@@ -1,0 +1,72 @@
+
+ ____        ____                                _ _ 
+|  _ \ _   _/ ___| _   _ _ __   ___ _ __ ___ ___| | |
+| |_) | | | \___ \| | | | '_ \ / _ \ '__/ __/ _ \ | |
+|  __/| |_| |___) | |_| | |_) |  __/ | | (_|  __/ | |
+|_|    \__, |____/ \__,_| .__/ \___|_|  \___\___|_|_|
+       |___/            |_|                          
+
+                                       version 0.0.30
+               Copyright @ Shunhong Zhang 2023 - 2024
+
+
+Running the script: home/zsh/anaconda3/envs/zsh_py3/bin/make_superlatt
+
+Objective: find match superlattice for two two-dimensional (2-D) structures
+
+Note 1: Before usage prepare the two 2-D structure files 
+        POSCAR1, POSCAR2, respectively, in VASP5-POSCAR format
+Note 2: Set the vacuum layer along the c-axis of the unit cell
+
+
+
+============================================================
+                       WARNING
+============================================================
+
+Benchmark for this code has been carried out 
+for some specific cases.
+But the author cannot warrant full correctness
+Be cautious when you use this code 
+for real research or pulication! 
+Check your output structures carefully.
+Bug report or improvement suggestions are welcome.
+Shunhong Zhang <szhang2@ustc.edu.cn>
+
+============================================================
+                       WARNING
+============================================================
+
+
+
+Make superlattice from two structures
+------------------------------------------------------------
+Superlattice setup
+------------------------------------------------------------
+Structure 1 from POSCAR1
+Structure 2 from POSCAR2
+Tolerance of lattice mismatch:  0.100 %
+Min angle of lattice vectors in supercells: 30.000 deg
+Max angle of lattice vectors in supercells: 150.000 deg
+Max area of supercell:  100.000 Angstrom^2
+Vacuum distance in vertical direction: 15.000 Angstrom
+Interlayer gap =  3.000 Angstrom
+------------------------------------------------------------
+
+Please verify the above setup
+
+
+Searching for matched area for superlattices
+done
+
+
+4 matched supercells found in total.
+see supercell.log for details
+
+
+Building superlattices
+done
+
+Writing structures
+done
+

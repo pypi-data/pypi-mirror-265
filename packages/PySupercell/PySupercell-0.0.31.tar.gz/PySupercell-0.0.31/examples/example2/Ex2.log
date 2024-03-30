@@ -1,0 +1,15 @@
+
+ ____        ____                                _ _ 
+|  _ \ _   _/ ___| _   _ _ __   ___ _ __ ___ ___| | |
+| |_) | | | \___ \| | | | '_ \ / _ \ '__/ __/ _ \ | |
+|  __/| |_| |___) | |_| | |_) |  __/ | | (_|  __/ | |
+|_|    \__, |____/ \__,_| .__/ \___|_|  \___\___|_|_|
+       |___/            |_|                          
+
+                                       version 0.0.30
+               Copyright @ Shunhong Zhang 2023 - 2024
+
+task = tube
+chiral vector: 4 6
+the thickness of the sheet is    1.2057327 Angstrom
+the radius of the nanotube is    4.1803192 Angstrom
