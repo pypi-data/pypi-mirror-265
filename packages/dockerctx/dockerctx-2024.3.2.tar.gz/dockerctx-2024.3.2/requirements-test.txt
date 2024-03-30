@@ -1,0 +1,10 @@
+pytest==7.4.3
+pytest-cov
+coveralls
+docker
+typing; python_version < '3.5'
+sqlalchemy
+sqlalchemy_utils
+sqllogformatter
+psycopg2-binary
+redis
