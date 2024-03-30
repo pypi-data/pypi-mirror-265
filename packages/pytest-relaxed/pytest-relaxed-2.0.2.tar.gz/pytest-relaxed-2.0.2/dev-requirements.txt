@@ -1,0 +1,20 @@
+#
+# Direct dev dependencies
+#
+
+# Linting/formatting
+black==22.8.0
+flake8==5.0.4
+# Packaging
+twine==3.8.0
+setuptools>=56.0.0
+# Test coverage (see note in tasks.py::coverage)
+coverage==6.2
+# Task running
+invoke>=2
+invocations>=3.3
+# Docs (also transitively via invocations; consider nuking again)
+releases>=2
+
+# Ourselves!
+-e .
