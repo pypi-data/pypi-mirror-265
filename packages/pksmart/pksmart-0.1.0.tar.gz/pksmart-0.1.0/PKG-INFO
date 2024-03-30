@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pksmart
+Version: 0.1.0
+Requires-Dist: loguru==0.7.0
+Requires-Dist: mordred==1.2.0
+Requires-Dist: numpy==1.23.5
+Requires-Dist: pandas==1.5.2
+Requires-Dist: rdkit==2022.9.2
+Requires-Dist: scikit_learn==1.1.1
