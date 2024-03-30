@@ -1,0 +1,47 @@
+# Example usage of the Calculator class
+
+from loganmatic import calculator
+
+# Create an instance of the Calculator class
+calculator = Calculator()
+
+# Calculate the absolute value of a number
+absolute_value = calculator.absoluteValue(-5)
+print("Absolute value:", absolute_value)
+
+# Calculate the factorial of a number
+factorial = calculator.factorial(5)
+print("Factorial:", factorial)
+
+# Calculate the square root of a number
+square_root = calculator.squareRoot(25)
+print("Square root:", square_root)
+
+# Calculate the cubic root of a number
+cubic_root = calculator.cubicRoot(27)
+print("Cubic root:", cubic_root)
+
+# Find the factors of a number
+factors = calculator.factor(12)
+print("Factors:", factors)
+
+# Calculate the sine of an angle
+sine = calculator.sine(0.5)
+print("Sine:", sine)
+
+# Calculate the cosine of an angle
+cosine = calculator.cosine(0.5)
+print("Cosine:", cosine)
+
+# Generate a random number between a range
+random_number = calculator.random_number_between(1, 10)
+print("Random number:", random_number)
+
+# Calculate the root of a linear equation
+root_linear = calculator.root_of_first_degree(2, 4)
+print("Root of linear equation:", root_linear)
+
+# Calculate the roots of a quadratic equation
+roots_quadratic = calculator.root_of_second_degree(1, -3, 2)
+print("Roots of quadratic equation:", roots_quadratic)
+
