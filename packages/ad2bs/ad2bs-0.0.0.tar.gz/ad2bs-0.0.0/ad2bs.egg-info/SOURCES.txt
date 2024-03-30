@@ -1,0 +1,5 @@
+setup.py
+ad2bs.egg-info/PKG-INFO
+ad2bs.egg-info/SOURCES.txt
+ad2bs.egg-info/dependency_links.txt
+ad2bs.egg-info/top_level.txt

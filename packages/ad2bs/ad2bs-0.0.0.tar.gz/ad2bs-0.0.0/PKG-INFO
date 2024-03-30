@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ad2bs
+Version: 0.0.0
+Summary: ad2bs
+Home-page: https://github.com/opensource-nepal/ad2bs
+Author: opensource-nepal
+Author-email: aj3sshh@gmail.com, sugatbajracharya49@gmail.com
+License: GPL-3.0
+Project-URL: Source, https://github.com/opensource-nepal/ad2bs
+Keywords: nepali date conversion,convert date,nepali date time,python convert date,parse nepali date time,ad2bs,bs2ad
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
