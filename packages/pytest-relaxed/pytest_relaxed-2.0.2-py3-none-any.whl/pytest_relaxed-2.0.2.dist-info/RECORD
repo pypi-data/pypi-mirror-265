@@ -1,0 +1,14 @@
+pytest_relaxed/__init__.py,sha256=k36-YDvkJL0Dq28PuYvfeVUS7FUY1CdRePyREUtoqI8,88
+pytest_relaxed/_version.py,sha256=mlJprc9b5EXU9ABBjrsjkxSBU-BNAYqof59eVQ4wPDI,80
+pytest_relaxed/classes.py,sha256=CcQ2wTQhFp0QxX-yG4ncZosrekA48jAbHIn_j3m4hao,6317
+pytest_relaxed/fixtures.py,sha256=CbCa7v89SgS9n08kmHM-Cof1a1PixY7w4czOu9XQK2A,828
+pytest_relaxed/plugin.py,sha256=LcOZXipEPPOmVYhqHQdOSPsn5hmNi6QlL5F6sZL7an0,2234
+pytest_relaxed/raises.py,sha256=iMRuKYoZm0Zwx--3On5bPKzLGi0vYD6Aa4xBlpqCCIM,421
+pytest_relaxed/reporter.py,sha256=WYE17i6L1_qC4FEzTsR2nUpTOPkAKBoynoT95gm97C0,6973
+pytest_relaxed/trap.py,sha256=B4rFYMmjPgW7hoJ4JMCdhChHrKpPITmQ8z7yxdEB8eQ,2260
+pytest_relaxed-2.0.2.dist-info/LICENSE,sha256=eSL5f4lvHRYeHr9HCD4wSiNjg2GyVcaQK15PNO7aDa0,1314
+pytest_relaxed-2.0.2.dist-info/METADATA,sha256=h8Wgw7OFe1MB6Rb5oKur0XV3L8th20DsDPx2KYRu0_w,11019
+pytest_relaxed-2.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_relaxed-2.0.2.dist-info/entry_points.txt,sha256=ePbSQo8TN1yP_mk709oHWM0zYHyDJBnJodNcOsUsILs,44
+pytest_relaxed-2.0.2.dist-info/top_level.txt,sha256=-OIxbTOspDo8b2jzBsUcqGq_HbUQl0B1_081Kl-RDek,15
+pytest_relaxed-2.0.2.dist-info/RECORD,,
