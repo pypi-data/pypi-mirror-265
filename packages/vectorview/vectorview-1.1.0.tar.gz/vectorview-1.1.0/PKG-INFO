@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vectorview
+Version: 1.1.0
+Summary: Automated red teaming of LLM chatbots
+Home-page: https://github.com/Vectorview/vectorview_py
+Author: Vectorview
+Author-email: lukas@vectorview.ai
+Description-Content-Type: text/markdown
+
+# Vectorview API
