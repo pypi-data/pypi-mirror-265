@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sim_aloha
+Version: 0.1.0
+Summary: ALOHA environment for LeRobot
+License: Apache-2.0
+Author: Rémi Cadène
+Author-email: re.cadene@gmail.com
+Maintainer: Alexander Soare
+Maintainer-email: alexander.soare159@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: dm-control (==1.0.14)
+Description-Content-Type: text/markdown
+
+# ALOHA environment for LeRobot
+
