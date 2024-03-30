@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: roc-dadi
+Version: 0.3.5
+Summary: RPW DAta DIspatcher (DADI): Plugin to handle data files read/write by the pipeline
+Home-page: https://gitlab.obspm.fr/ROC/Pipelines/Plugins/DADI
+License: CECILL-C
+Author: ROC Team
+Author-email: roc.support@sympa.obspm.fr
+Requires-Python: >=3.8,<4
+Classifier: License :: CeCILL-C Free Software License Agreement (CECILL-C)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: h5py (>=3.7,<4.0)
+Requires-Dist: maser-tools (>=0.1.3)
+Requires-Dist: pandas (>=1.1.3)
+Requires-Dist: poppy-core
+Requires-Dist: poppy-pop
+Requires-Dist: roc-dingo (>=1.0,<2.0)
+Requires-Dist: spacepy (>=0.5,<1)
+Requires-Dist: xmltodict (==0.13.0)
+Project-URL: Repository, https://gitlab.obspm.fr/ROC/Pipelines/Plugins/DADI
+Description-Content-Type: text/x-rst
+
+DADI PLUGIN README
+===================
+
+INTRODUCTION
+-------------
+
+This directory contains the source files of the RPW DAta DIspatcher (DADI), a plugin used to handle data files read/write by the RPW operation and data pipeline (RODP).
+
+DADI is not designed to be run as a stand-alone plugin, but with the RODP.
+
+DADI is developed with and run under the POPPY framework.
+
+CONTENT
+--------
+
+::
+
+    roc/                    plugin source files
+    .editorconfig           EditorConfig config file
+    .gitignore              .gitignore file
+    .gitlab-ci              config file for Gitlab-CI
+    .pre-commit-config.yaml pre-commit config file
+    bump_descriptor.py      Python script to synchronize roc/dadi/descriptor.json content with the pyproject.toml data
+    MANIFEST.in             Required to build Python package distributions
+    poetry.lock             Used by poetry package
+    pyproject.toml          pyproject.toml file (PEP518)
+    README.rst              present file
+    setup.py                setup.py (required for editable mode)
+
+HOWTO
+------
+
+How to install the plugin?
+..........................
+
+The plugin is designed to be installed and run inside a RODP instance.
+However it can be installed manually, by entering:
+
+.. code::
+
+    python -m pip install /path_to_plugin
+
+N.B. To install the plugin in editable mode, run the command:
+
+.. code::
+
+    python -m pip install -e /path_to_plugin
+
+The editable mode can only used if the setup.py file exits. Use the dephell module to generate it from the pyproject.toml file (dephell deps convert).
+
+How to release a new version of the plugin?
+...........................................................
+
+1. Update the version field in the :code:`pyproject.toml` file.
+
+2. Make sure the :code:`poetry.lock` file is up-to-date running: :code:`poetry update --lock`. (Use :code:`pip install poetry -U` to install poetry.)
+
+3. Update the descriptor file running the command: :code:`python bump_descriptor.py -m <message>`, where `<message>` must contain the change log for the new version.
+
+4. Commit last changes in the `develop` branch of Git repository. Merge `develop` branch into `master`. Create a new tag "X.Y.Z" from `master` branch. Rebase `master` onto `develop`. Push `master`, `develop` and the new tag in the distant server.
+
+How to call the plugin?
+..........................
+
+The plugin can only by called from a POPPy-like pipeline (e.g, RODP).
+
+The main command is:
+
+.. code::
+
+    python manage.py dadi
+
+.. note::
+
+    * The :code:`manage.py` file is inside the pipeline root directory (depending of the pipeline installation the alias :code:`pop` can be also used).
+    * The command below will return the help message by default if no sub-command is passed
+
