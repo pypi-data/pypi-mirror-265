@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: simple_arthmetic_calc
+Version: 0.1.0
+Summary: Arithmetic Operations on Decimal and Binary numbers.
+Home-page: UNKNOWN
+Author: Manoahar Naidu
+Author-email: beesettim27@gmail.com
+License: MIT
+Keywords: calculator,simple calculator,arithmetic operations
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+**A simple library to use Arithmetic Operations on Decimal**
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Absolute
+- Factorial
+- Power
+- Square root
+- Modulus
+- LCM
+- GCD
+- Prime number
+- Even number
+- Odd number
+
+**A Simple Library to use Arithmetic Operations on Binary**
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus
+- Power
+- AND
+- OR
+- XOR
+- NOT
+- Left Shift
+- Right Shift
+- 2's Complement
+- 1's Complement
+- 
+
+Change Log
+==========
+
+0.1.0(29/03/2024)
+-----------------
+- Third Release, Officially First Release
+-- Added Arithmetic Operations on Binary
+
+
