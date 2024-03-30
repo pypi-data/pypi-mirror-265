@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: revoize
+Version: 0.0.3
+Summary: Revoize Python SDK
+License: MIT
+Author: Mateusz Krainski
+Author-email: mateusz.krainski@dac.digital
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Revoize SDK
+
+Stay tuned for updates!
+
