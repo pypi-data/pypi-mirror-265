@@ -1,0 +1,23 @@
+// A tag: scheme URI http://taguri.org RFC 4151
+// Example: tag:example.com,2005-01-01:foo#fighter
+?start: tag_uri
+tag_uri: "tag:" tagging_entity ":" specific ["#" fragment]
+tagging_entity: authority_name "," date
+specific: PCHAR*
+fragment: PCHAR*
+authority_name: DNS_NAME | EMAIL_ADDRESS
+date: YEAR ["-" MONTH ["-" DAY]]
+YEAR: DIGIT ~ 4
+MONTH: DIGIT ~ 2
+DAY: DIGIT ~ 2
+EMAIL_ADDRESS: (ALPHANUM | "-" | "." | "_")* "@" DNS_NAME
+DNS_NAME: DNS_COMPONENT ("." DNS_COMPONENT)+
+DNS_COMPONENT: ALPHANUM [(ALPHANUM | "-")* ALPHANUM]
+PCHAR: ALPHANUM
+        |"-"|"."|"_"|"~"|"!"|"$"|"&"|"'"|"("|")"|"*"|"+"|","|";"
+        |"="|":"|"@"|"?"|"/"
+        | PCT_ENCODED
+PCT_ENCODED: "%" HEXDIGIT HEXDIGIT
+ALPHANUM: DIGIT | LETTER
+
+%import common (LETTER, DIGIT, HEXDIGIT)
