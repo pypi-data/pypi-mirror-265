@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+streamit_chartjs/__init__.py
+streamit_chartjs/st_chart_component.py
+streamlit_chart_js.egg-info/PKG-INFO
+streamlit_chart_js.egg-info/SOURCES.txt
+streamlit_chart_js.egg-info/dependency_links.txt
+streamlit_chart_js.egg-info/requires.txt
+streamlit_chart_js.egg-info/top_level.txt
