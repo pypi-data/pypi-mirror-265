@@ -1,0 +1,17 @@
+dialog2rasa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dialog2rasa/cli.py,sha256=xvcjiQ9fZiRW3AsY_93UjIL9mVqnyrDU1vHzNjUpAnE,495
+dialog2rasa/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dialog2rasa/converters/base.py,sha256=RIYCz-BYSN9HnQuf5vKuTEzLrGA-YyDBYOOUxZzzcOQ,884
+dialog2rasa/converters/core.py,sha256=_xcHx0jKPfF0YY7c1hAC18o4oZzqupgGg7jICmgAmjk,1656
+dialog2rasa/converters/entity.py,sha256=Lugm1uamwLltC5R7bMff4ZkIcyjxOjpuRnQYIbFdiPk,4777
+dialog2rasa/converters/intent.py,sha256=Vjz1GFlE2fxhcd6553SKuW-KI7juiPQTwNiEP-lgHIE,1970
+dialog2rasa/converters/manager.py,sha256=lmnmqGJhhnuz82F7eT-uIjtwjNunHUL2Wvhl6nrzZ1c,499
+dialog2rasa/converters/utterance.py,sha256=5OlsbKGvWuPhWWkCw2qaMjqZEJG0KDlswcMf0nB0hp0,2033
+dialog2rasa/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dialog2rasa/utils/general.py,sha256=t6an4nXBAhk9AmBNdhBDta_HQqJZs7OvqUm0dgOxWPw,1118
+dialog2rasa/utils/io.py,sha256=WWopMIPmn2BljR5b5CvXwBgiF4_ce6IVXih5Ilc1Y4c,1162
+dialog2rasa-0.1.0.dist-info/LICENSE,sha256=UyIHCX3EDCvu6tssmxL81i5x3q9p9oRE3i-AaSKP-JA,11347
+dialog2rasa-0.1.0.dist-info/METADATA,sha256=bEKlFlsIOpil73IEkwn4ZQbr5BFyVo8QRI2EIm08Vqo,1923
+dialog2rasa-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dialog2rasa-0.1.0.dist-info/entry_points.txt,sha256=WVfEiv5HKNiOhQr0PVFCkMz2lLNmp2HnhypKrCMphtU,52
+dialog2rasa-0.1.0.dist-info/RECORD,,
