@@ -1,0 +1,111 @@
+[tool.poetry]
+name = "tag-uri"
+version = "0.1.1"
+description = "RFC 4151 Tag URI taguri.org parser and generator"
+authors = ["Josh Gardner <jdg@jgardner.tech>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["rfc4151", "uri", "parser", "taguri.org"]
+repository = "https://git.sr.ht/~cellofellow/tag_uri"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Internet",
+  "Topic :: Software Development :: Libraries",
+  "Typing :: Typed",
+]
+
+[tool.poetry.scripts]
+tag-uri = 'tag_uri.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lark = "^1.1.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+mypy = "^1.8.0"
+hypothesis = {extras = ["lark"], version = "^6.96.1"}
+isort = "^5.13.2"
+black = "^23.12.1"
+pre-commit = "^3.6.0"
+ruff = "^0.1.13"
+coverage = "^7.4.0"
+pytest-cov = "^4.1.0"
+types-pyyaml = "^6.0.12.20240311"
+
+
+[tool.poetry.group.cli.dependencies]
+pyyaml = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+py_version = 311
+line_length = 88
+src_paths = ["src", "tests"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
+select = ["E", "F", "ARG"]
+ignore = [
+    "E501"  # Line lengths
+]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
+unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    ".venv",
+]
+per-file-ignores = {}
+
+# Same as Black.
+line-length = 88
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Assume Python 3.11.
+target-version = "py311"
+
+[tool.ruff.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[tool.coverage.run]
+include = ["src/*"]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+omit = ["tests/*"]
