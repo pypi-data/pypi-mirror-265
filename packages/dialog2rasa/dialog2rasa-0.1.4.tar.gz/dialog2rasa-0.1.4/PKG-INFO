@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: dialog2rasa
+Version: 0.1.4
+Summary: Dialogflow to Rasa > 3.0 agent converter.
+License: Apache 2.0
+Author: Murilo Bellatini
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pytest (>=8.1.1,<9.0.0)
+Description-Content-Type: text/markdown
+
+# Dialog2Rasa Converter
+
+Transform your Dialogflow agents into Rasa format, suitable for Rasa version 3 and above. This CLI tool streamlines the migration process from Dialogflow to Rasa, ensuring a smoother transition for developers aiming to leverage Rasa's capabilities. It converts the Dialogflow export into Rasa YAML format.
+
+## Installation
+
+To install `dialog2rasa`, simply run:
+
+```bash
+pip install dialog2rasa
+```
+
+For more information and details about the package, you can visit the PyPI page at: <https://pypi.org/project/dialog2rasa/>.
+
+## Usage
+
+After installation, convert your Dialogflow export to Rasa format using the command:
+
+```sh
+dialog2rasa -p path/to/extracted/dialogflow/export
+```
+
+## Features and Limitations
+
+- Converts Dialogflow intents, entities, and utterances to Rasa-compatible YAML format.
+- **Limitations**:
+  - **Compound Entities**: Does not handle compound entities directly. Instead, creates pseudo YAML files with a `__compound__` prefix.
+  - **Synonym Entities**: Groups single synonym entities within a lookup table. Entities with multiple synonyms are handled accordingly.
+  - **Output Naming**: The output NLU data is named after the agent, facilitating integration into larger projects (assuming `nlu` as a directory).
+
+## Contributing
+
+Feedback and contributions are welcome as we work towards making this tool more robust and versatile. For bugs, feature requests, or contributions, please open an issue or pull request.
+
+### Testing
+
+This project includes a tests folder in the repository, where you can find `pytest` tests to ensure the reliability and functionality of the package.
+
+## License
+
+This project is licensed under the Apache 2.0 License.
+
