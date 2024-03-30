@@ -1,0 +1,9 @@
+inmanta_plugins/ip/__init__.py,sha256=6QtOYcynZzibHseLROL3j-l7UeBJJEAFwEZRB8oNZLY,4970
+inmanta_plugins/ip/setup.cfg,sha256=QbsmN7F0sK9nIVHYJiJfXkoDXae5-CrVvcVYiEFuDRA,829
+inmanta_plugins/ip/model/_init.cf,sha256=ZX7WO0qebTPHZqurzZ5ivu1hw1hrkdO0qijy6HDc5NU,2673
+inmanta_plugins/ip/model/services.cf,sha256=aJeNEYi_OVj6mljpZSuk9KX6W8DlORjXTlHbwKI201Q,4328
+inmanta_plugins/ip/templates/host_uri.j2,sha256=JSCdyz2Y4TXJQAgzXziWmhG_FvK-Z3r_rN1LD2dUt_k,130
+inmanta_module_ip-2.0.2.dist-info/METADATA,sha256=bLcvfBxfEeK8GQAMK2yw1PMofiC3eMrSP9h9TJjp--I,212
+inmanta_module_ip-2.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+inmanta_module_ip-2.0.2.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_ip-2.0.2.dist-info/RECORD,,
