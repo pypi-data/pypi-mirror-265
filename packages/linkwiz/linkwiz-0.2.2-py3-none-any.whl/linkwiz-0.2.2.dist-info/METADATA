@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: linkwiz
+Version: 0.2.2
+Summary: LinkWiz is a Linux tool that lets users select their preferred browser for opening links.
+Home-page: https://github.com/icealtria/linkwiz
+License: GPL-2.0-only
+Author: Rin
+Author-email: icealtria+github@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyxdg (>=0.28,<0.29)
+Requires-Dist: tomli-w (>=1.0.0,<2.0.0)
+Requires-Dist: unalix-rev (>=0.9.1,<0.10.0)
+Project-URL: Repository, https://github.com/icealtria/linkwiz
+Description-Content-Type: text/markdown
+
+# LinkWiz
+
+LinkWiz is a Linux tool that lets users select their preferred browser for opening links.
+
+![Screenshot](https://raw.githubusercontent.com/icealtria/linkwiz/assets/Screenshot.webp)
+
+## Installation
+For Arch
+```
+paru -S linkwiz
+```
+Set LinkWiz as default browser
+## Configuration
+
+You can configure LinkWiz by modifying the `linkwiz.toml` file, which is created in the `~/.config/linkwiz/linkwiz.toml` on the first run. You can add rules to specify which browser to use for specific domains.
+
+Example `linkwiz.toml`:
+```toml
+[browsers] # Custom Browsers
+"Firefox Private" = "/usr/bin/firefox-developer-edition --private-window"
+"Brave Private" = "/usr/bin/brave --incognito"
+
+[rules.fnmatch]
+"*.cn" = "Brave Private"
+"*.google.com" = "Google Chrome" # This will not match "google.com"
+
+[rules.hostname]
+"example.com" = "Brave Private"
+"github.com" = "Firefox Developer Edition"
+"google.com" = "Google Chrome"
+```
+
