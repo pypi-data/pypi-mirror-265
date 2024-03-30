@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dilipred"
+version = "0.1.1"
+description = "DILIPRedictor is an open-source app framework built specifically for human drug-induced liver injury"
+authors = ["Manas Mahale <manas.mahale@bcp.edu.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+loguru = "^0.7.2"
+scikit-learn = "1.2.0"
+MolVS = "^0.1.1"
+mordred = "^1.2.0"
+rdkit = "^2023.9.5"
+shap = "^0.45.0"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
