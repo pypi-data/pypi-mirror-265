@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: CarlAdam
+Version: 0.1.0
+Summary: Petri net tools and interactive simulator
+Home-page: https://github.com/matthewryanscott/CarlAdam
+License: MIT
+Author: Matthew Scott
+Author-email: carladam@opensource.matthewryanscott.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: geometry
+Provides-Extra: simulator
+Requires-Dist: attrs (>=23.2.0,<24.0.0)
+Requires-Dist: django (>=5.0.3,<6.0.0) ; extra == "simulator"
+Requires-Dist: httpx (>=0.27.0,<0.28.0) ; extra == "simulator"
+Requires-Dist: networkx (>=3.2.1,<4.0.0) ; extra == "geometry"
+Requires-Dist: numpy (>=1.26.4,<2.0.0) ; extra == "geometry"
+Requires-Dist: pyrsistent (>=0.20.0,<0.21.0)
+Requires-Dist: python-decouple (>=3.8,<4.0) ; extra == "simulator"
+Project-URL: Repository, https://github.com/matthewryanscott/CarlAdam
+Description-Content-Type: text/markdown
+
+# `CarlAdam`: Petri net tools and interactive simulator for Python
+
+## What is a Petri net?
+
+Petri nets are a mathematical modeling scheme for the description of distributed systems.
+
+Petri nets were invented in 1962 by Carl Adam Petri.
+They have been used to model various kinds of systems,
+including computer networks, manufacturing systems, and biological systems.
+
+## What is `CarlAdam`?
+
+`CarlAdam` is a Python library for working with Petri nets, named after their inventor.
+It provides a simple, Python-oriented API for defining and executing Petri nets.
+
+It is also a simulator for Petri nets, so you can run your Petri net models and see how they behave.
+
+## Getting started
+
+Check out the examples using the simulator:
+
+```shell
+poetry install --with=simulator
+make simulator
+```
+
+Or use Docker:
+
+```shell
+docker compose up
+```
+
+Then browse to http://localhost:8000 to see the simulator in action.
+
+## Sponsors
+
+Initial work on the CarlAdam package was sponsored by [Routable](https://routable.com/).
+
