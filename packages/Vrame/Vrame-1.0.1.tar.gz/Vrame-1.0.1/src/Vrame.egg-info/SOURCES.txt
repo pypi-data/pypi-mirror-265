@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/Vrame.egg-info/PKG-INFO
+src/Vrame.egg-info/SOURCES.txt
+src/Vrame.egg-info/dependency_links.txt
+src/Vrame.egg-info/top_level.txt
+src/vrame/_column_types_validation.py
+src/vrame/_column_validation.py
+src/vrame/basemodel.py
+src/vrame/column_types.py
+src/vrame/error.py
