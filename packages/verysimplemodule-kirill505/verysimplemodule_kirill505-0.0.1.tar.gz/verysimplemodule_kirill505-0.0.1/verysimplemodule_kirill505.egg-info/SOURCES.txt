@@ -1,0 +1,8 @@
+setup.py
+extras/__init__.py
+extras/divide.py
+extras/multiply.py
+verysimplemodule_kirill505.egg-info/PKG-INFO
+verysimplemodule_kirill505.egg-info/SOURCES.txt
+verysimplemodule_kirill505.egg-info/dependency_links.txt
+verysimplemodule_kirill505.egg-info/top_level.txt
