@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pycoreconf/__init__.py
+pycoreconf/pycoreconf.py
+pycoreconf/sid.py
+pycoreconf.egg-info/PKG-INFO
+pycoreconf.egg-info/SOURCES.txt
+pycoreconf.egg-info/dependency_links.txt
+pycoreconf.egg-info/requires.txt
+pycoreconf.egg-info/top_level.txt
