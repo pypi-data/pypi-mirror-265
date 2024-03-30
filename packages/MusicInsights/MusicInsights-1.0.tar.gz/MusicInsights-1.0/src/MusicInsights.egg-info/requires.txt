@@ -1,0 +1,4 @@
+numpy
+librosa==0.10.1
+matplotlib
+sounddevice==0.4.6

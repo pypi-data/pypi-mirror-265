@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/MusicInsights/Waveform.py
+src/MusicInsights/__init__.py
+src/MusicInsights/utils.py
+src/MusicInsights.egg-info/PKG-INFO
+src/MusicInsights.egg-info/SOURCES.txt
+src/MusicInsights.egg-info/dependency_links.txt
+src/MusicInsights.egg-info/requires.txt
+src/MusicInsights.egg-info/top_level.txt
+src/musicinsights.egg-info/PKG-INFO
+src/musicinsights.egg-info/SOURCES.txt
+src/musicinsights.egg-info/dependency_links.txt
+src/musicinsights.egg-info/requires.txt
+src/musicinsights.egg-info/top_level.txt

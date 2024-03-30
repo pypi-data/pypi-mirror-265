@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "1.0"
+name = "MusicInsights"
+dependencies = [
+    "numpy",
+    "librosa==0.10.1",
+    "matplotlib",
+    "sounddevice==0.4.6",
+]
+requires-python = ">= 3.8"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/nip403/Music-Video-Sound-Analysis/tree/main"
