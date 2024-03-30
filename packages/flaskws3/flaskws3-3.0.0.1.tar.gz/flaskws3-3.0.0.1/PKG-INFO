@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: flaskws3
+Version: 3.0.0.1
+Summary: WebSockets for Flask.
+Home-page: https://github.com/your-username/your-repo
+Author: RixTheTyrunt
+Author-email: rixthetyrunt@gmail.com
+License-File: LICENSE
