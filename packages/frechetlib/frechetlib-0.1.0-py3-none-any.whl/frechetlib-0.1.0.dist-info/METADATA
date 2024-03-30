@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: frechetlib
+Version: 0.1.0
+Summary: A package to compute distances between curves.
+License: MIT
+Author: Eliot Robson
+Author-email: eliot.robson24@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numba (>=0.58.1,<0.59.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: scipy (>=1.11.4,<2.0.0)
+Project-URL: Homepage, https://github.com/eliotwrobson/FrechetLib
+Project-URL: repository, https://github.com/eliotwrobson/FrechetLib
+Description-Content-Type: text/markdown
+
+# FrechetLib
+A library for computing Frechet distances between curves, and other associated quantities. This is
+a Python version of the [FrechetDist](https://github.com/sarielhp/FrechetDist.jl) julia package.
+
+
+## Development Status
+This library is in an _alpha_ state. Most functions have some degree of testing, but
+not extensively.
+
+## Examples
+```python
+import time
+
+from frechetlib.continuous_frechet import frechet_c_approx
+from frechetlib.data import FrechetDownloader
+
+downloader = FrechetDownloader()
+big_curve_1 = downloader.get_curve("11/poly_a.txt")
+big_curve_2 = downloader.get_curve("11/poly_b.txt")
+
+print(big_curve_1.shape)
+print(big_curve_2.shape)
+# NOTE Run twice to factor out the compilation time from the timing.
+frechet_c_approx(big_curve_1, big_curve_2, 1.01)
+print("Starting")
+
+start = time.perf_counter()
+res, morphing = frechet_c_approx(big_curve_1, big_curve_2, 1.01)
+end = time.perf_counter()
+
+print("Approximated Frechet distance: ", morphing.dist)
+print("Time taken (s): ", end - start)
+```
+
+## API
+
+The package API is currently minimal and undocumented for now. See the test cases for usage
+examples. This will be filled out more later.
+

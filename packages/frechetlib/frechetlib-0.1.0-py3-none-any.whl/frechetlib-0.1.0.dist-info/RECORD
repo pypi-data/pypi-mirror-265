@@ -1,0 +1,11 @@
+frechetlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frechetlib/continuous_frechet.py,sha256=7Rf_7LgRXz0uvZHF2McCZ038cj_64pXmZXzlE6cNsLo,14843
+frechetlib/data.py,sha256=vnU0NPtcU_qaL3ddgk8tIldYqmxBLqAsV7jYbG8X-8g,5331
+frechetlib/discrete_frechet.py,sha256=jaDAe7eYKXVB4fliV3OzOW-rlcHWOmmh3tGuZGVYHdY,3218
+frechetlib/frechet_utils.py,sha256=Ic7DeNhMamiZGs1xx_T5iyr4WC1cAHHed07X5cnpgio,30286
+frechetlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frechetlib/retractable_frechet.py,sha256=mH2F2VviY-TjyLqIlzikkOFlNRHo0sJRhcLVH82snig,2103
+frechetlib-0.1.0.dist-info/LICENSE,sha256=1oDGj8dn-ZUl7SpcgzuKSX_sRrOSIduBzzPp3xJXkYA,1069
+frechetlib-0.1.0.dist-info/METADATA,sha256=0_q4x1k61YcAXUQdLXIak-jRAztD2BFKm0C1sowOIJo,1926
+frechetlib-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+frechetlib-0.1.0.dist-info/RECORD,,
