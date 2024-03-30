@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sphinx-translation-button
+Version: 1.0.0
+Summary: manage translations of a book using a launchbuttons 
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx
+Requires-Dist: yaml
+
+# Managing sphinx translations using launchbuttons
+
+use a launch button (dropdown) to manage different translations of a jupyter-book/sphinx-book.
+
+
+
+TODO: 
+ - add error handling
+ - add documentation
