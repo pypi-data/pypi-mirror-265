@@ -1,0 +1,6 @@
+- class: ActivityCorrelation
+  module: neuronautics.analysis.correlation.activity_correlation
+  name: Activity Correlation
+- class: SpikeTimeTilingCoefficient
+  module: neuronautics.analysis.correlation.spike_time_tiling_coefficient
+  name: Spike Time Tiling Coefficient
