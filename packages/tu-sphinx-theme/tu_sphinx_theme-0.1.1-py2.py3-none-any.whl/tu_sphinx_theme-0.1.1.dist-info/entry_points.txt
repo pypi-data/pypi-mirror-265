@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+tu_sphinx_theme = tu_sphinx_theme
