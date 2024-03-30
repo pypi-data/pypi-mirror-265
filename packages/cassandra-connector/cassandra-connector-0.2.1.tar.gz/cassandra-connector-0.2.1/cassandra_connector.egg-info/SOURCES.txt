@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cassandra_connector/__init__.py
+cassandra_connector/cassandra_connector.py
+cassandra_connector/cassandra_connector_manager.py
+cassandra_connector.egg-info/PKG-INFO
+cassandra_connector.egg-info/SOURCES.txt
+cassandra_connector.egg-info/dependency_links.txt
+cassandra_connector.egg-info/requires.txt
+cassandra_connector.egg-info/top_level.txt
