@@ -1,0 +1,13 @@
+fast_di/__init__.py,sha256=9IjiotE8u_osabeIfGBbvN1gu-ked0WVx-E_0pvjo5E,350
+fast_di/init_dependencies.py,sha256=z7ZMMyhuFKkY1SU_NIShiXhxQK0YWnWy7VxsdcPiN6A,396
+fast_di/collector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_di/collector/base.py,sha256=AvScP-1zvx_gJYH2cXOKnk28blLvYiLf4FFBIiW5c4w,1354
+fast_di/collector/collector.py,sha256=epiCBxgcjvAFmX5qdfUezWNjdrmYvqUSAOxamEFHqRk,686
+fast_di/depends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_di/depends/depends.py,sha256=R_XbvjHXb_ZFyp1jON19T4ySJgxG0CzgZjRnNx4qTkA,246
+fast_di/depends/depends_stub.py,sha256=QLsAePZSkta9Zi9BHYOVocG9RrMgflS6lVv6i5vZLbc,1040
+fastapi_di_extension-0.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+fastapi_di_extension-0.0.2.dist-info/METADATA,sha256=sukM5o7GaIAxaCyCEpQSSZm5-RRAckRA9KJHSQrtHh4,1367
+fastapi_di_extension-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastapi_di_extension-0.0.2.dist-info/top_level.txt,sha256=WM4RS4-xszCPGOaFhHhxgWFpusgc3oi6YozS_gyLxVs,8
+fastapi_di_extension-0.0.2.dist-info/RECORD,,
