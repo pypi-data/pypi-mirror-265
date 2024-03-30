@@ -1,0 +1,17 @@
+bnltk_downloads/__init__.py,sha256=wx2s9wZjbPmalSJKby6tLZ2ebARO4JmySI1xPTpkDJ8,38
+bnltk_downloads/file_downloader.py,sha256=4FYYepQx4fKh8Ppebl7Df9gMwaCqAsE3Vb5s_LBztjY,2229
+pos_tagger/__init__.py,sha256=4TWnuS0pz5fAKfLKll1MFatt9Dvn0rkHRR1PdQCFKxo,40
+pos_tagger/bn_pos_tagger.py,sha256=Y5j5z7w6Fje3RIWZ45DU5OEhqUYxp6kNfTNAbSnExxA,5585
+pos_tagger/trained_model.py,sha256=7yN5C5hVlOsX_yOZDRHBl2YYi4LimQvBxOgO7rPfBAY,6957
+stemmer/__init__.py,sha256=smE16YPm7-UhgAHeoSBMWkImoS_3LW9osznkSQaRhrA,42
+stemmer/stemmer_builder.py,sha256=3Paa8zaYXbXafJIbmv8umk1oq38wLZ_rjH-9WOoPZhw,2250
+stemmer/test_stemmer_builder.py,sha256=hYHcP-RkwCEMCY-AZPz_o63JirWijXlkglkG0RVf-nQ,504
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_stemmer_builder.py,sha256=1QevkD0NfaGPbG-CY5kqXvJAm51xA03zO_QMRM04psg,502
+tokenize/__init__.py,sha256=8z6BHFQd7yD7Mg76psZ1_NVUBoyYGto3VGycQUQEgEM,42
+tokenize/bn_word_tokenizers.py,sha256=iTXbfj6MKe-BPk55IDfsK233dPJePasuMYsgaIad4sY,440
+bnltk_revamped-0.0.2.dist-info/LICENSE,sha256=BAgNAIUM_qSodkXPi7cWKjkbvarwNzi4jFrcuLXHVaE,1069
+bnltk_revamped-0.0.2.dist-info/METADATA,sha256=lI5514fe4G0tjRpF26vAZvkvFzenIWq0UL30-1Zwkho,977
+bnltk_revamped-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bnltk_revamped-0.0.2.dist-info/top_level.txt,sha256=OmbpHPIfm9PozGIxE6QgYZvPMyQ3HiegJRCGfN5qB1E,50
+bnltk_revamped-0.0.2.dist-info/RECORD,,
