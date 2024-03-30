@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pythlete
+Version: 0.1.4
+Summary: Python package for instantaneous decision making in sports
+Home-page: https://github.com/AbdullahKhurram30/Pythlete
+Author: Muhammad Abdullah Khan
+Author-email: abdullah.khurram@uni.minerva.edu
+Requires-Dist: fastf1
+Requires-Dist: ipython
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: seaborn
+
