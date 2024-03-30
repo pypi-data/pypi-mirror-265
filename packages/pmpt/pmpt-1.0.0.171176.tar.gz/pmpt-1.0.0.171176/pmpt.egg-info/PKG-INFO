@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pmpt
+Version: 1.0.0.171176
+Summary: A Python Package Advanced Manager
+Home-page: UNKNOWN
+Author: MoYan
+Author-email: moyan@moyanjdc.top
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+A longer description of your package
+
