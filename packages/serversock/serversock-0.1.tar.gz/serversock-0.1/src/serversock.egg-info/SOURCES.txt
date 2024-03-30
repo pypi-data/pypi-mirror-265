@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/serversock/__init__.py
+src/serversock/serversock.py
+src/serversock.egg-info/PKG-INFO
+src/serversock.egg-info/SOURCES.txt
+src/serversock.egg-info/dependency_links.txt
+src/serversock.egg-info/entry_points.txt
+src/serversock.egg-info/requires.txt
+src/serversock.egg-info/top_level.txt
