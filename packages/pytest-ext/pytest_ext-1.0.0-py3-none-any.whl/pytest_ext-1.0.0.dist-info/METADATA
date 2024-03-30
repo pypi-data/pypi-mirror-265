@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pytest-ext
+Version: 1.0.0
+Summary: pytest plugin for automation test
+Home-page: https://github.com/mrene327/pytest-ext
+Author: Wenlong Chen
+Author-email: mrene327@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytest >=5.3
+Requires-Dist: allure-pytest >=2.8
+Requires-Dist: pyyaml >=5.3.1
+Requires-Dist: grocery >=1.4.0
+
+pytest-mail-ext
+=======
+pytest-ext库是一个pytest插件，用于UI测试的失败截图等功能，主要用于自动化测试。
+   
+依赖库
+------------ 
+使用pytest-ext库时，你需要安装以下依赖库:
+- Python 3.6+
+- pytest 5.3+
+- allure-pytest 2.8+
+- grocery 1.1.0+
+
+自动化项目的目录结构
+------------
+
+    ├── config
+    │   ├── __init__.py
+    │   ├── notice_settings.yml
+    ├── testsuite
+    │   ├── __init__.py
+    │   ├── data
+    │   ├── test
+    │   │   ├── __init__.py
+
+
+Release Note:
+------------
+v1.0.0 (2024.3.29)
+- 初始版本
