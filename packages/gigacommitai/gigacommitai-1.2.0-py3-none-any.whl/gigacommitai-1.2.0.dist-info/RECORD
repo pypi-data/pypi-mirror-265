@@ -1,0 +1,14 @@
+gigacommitai/__main__.py,sha256=2E1YitgqGx6DS7M5Z-zC4uS8lEUiFmLSRV--yUcSKjk,50
+gigacommitai/callbacks.py,sha256=wILd-cW_yyIscN32tMjVDvqDL6jL0x8U3Py-f6xD3ms,192
+gigacommitai/cli.py,sha256=dV4MR-on7EZe5ZjbbMo7zx-XRDcKcZV7kUSomyOm88M,243
+gigacommitai/cmd/commit.py,sha256=wzCJ7gbDc5kx4MWRy8duyfpOupcTXZ4mpUnvHOkNs6Y,1048
+gigacommitai/cmd/config.py,sha256=KBl8Xhi_VTGqB5XQCf5mzh6zF5oQU8bhC56wzeWx4vI,401
+gigacommitai/config/__init__.py,sha256=RfNf7tvLfouSv7czMQWkuESlMPbYh0QhfRzwqllKKDo,2380
+gigacommitai/config/schema.py,sha256=9RwywlGF3fFhNPKVpHqmVho2bJP22KVoX726Ff-26mY,1082
+gigacommitai/git.py,sha256=lz8VEegbprYLNFSs4cR-Qq36ZKpX-YndHef2Smc2bOI,888
+gigacommitai/gpt.py,sha256=IAEv1vLDyHbNQM8ek0rJIwWsiG_sb0RbMrXmob0yX_o,963
+gigacommitai/runner.py,sha256=YBvi8Hk__2W4oCeJnUBwgyTYGbH3XfMwRqV_j61FzEg,910
+gigacommitai-1.2.0.dist-info/METADATA,sha256=JTh5QIIaFeSP9jiJFJOIox3r0SZJGNXWRR8BtWjrwzY,3351
+gigacommitai-1.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gigacommitai-1.2.0.dist-info/entry_points.txt,sha256=YVwAAauDgTE1Wwnc5jTKfILKyxqf_e2w046DI2cLvAU,58
+gigacommitai-1.2.0.dist-info/RECORD,,

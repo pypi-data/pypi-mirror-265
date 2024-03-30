@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: gigacommitai
+Version: 1.2.0
+Summary: CLI инструмент для генерации коммитов на основе ИИ
+Home-page: https://github.com/axemanofic/gigacommit
+License: MIT
+Keywords: python,ai,git,commit
+Author: Roman Sotnikov
+Author-email: axeman.ofic@gmail.com
+Maintainer: Roman
+Maintainer-email: axeman.ofic@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: gigachat (>=0.1.16,<0.2.0)
+Requires-Dist: platformdirs (>=4.2.0,<5.0.0)
+Requires-Dist: rtoml (>=0.10.0,<0.11.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/axemanofic/gigacommit
+Description-Content-Type: text/markdown
+
+# GigaCommitAI
+
+CLI инструмент для генерации коммитов на основе ИИ
+
+## Установка
+
+> Минимальная поддерживаемая версия Python - 3.8.
+> Проверьте свою версию Python командой python --version
+
+1. Установить gigacommit
+
+- c помощью _pip_
+
+```
+pip install gigacommitai
+```
+
+- c помощью _pipx_
+
+```
+pipx install gigacommitai
+```
+
+- c помощью _poetry_
+
+```
+poetry add gigacommitai
+```
+
+2. Установить свой токен для авторизации
+
+- Получите свой Client Secret
+- Вставьте свой токен с помощью команды
+
+```
+gigacommitai config set gigachat.settings.credentials <CLIENT_SECRET>
+```
+
+## Как использовать?
+
+1. Командой ниже можно сгенерировать сообщение для коммита
+
+```
+gigacommitai commit
+```
+
+2. Командой ниже можно вывести всю конфигурацию
+
+```
+gigacommitai config show
+```
+
+3. Командой ниже можно вывести значение параметра, например:
+
+```
+gigacommitai config get gigachat.settings.model
+```
+
+4. Командой ниже можно изменить значение параметра, например:
+
+```
+gigacommitai config set gigachat.settings.model <ТВОЕ_ЗНАЧЕНИЕ>
+```
+
+## Можно ли менять конфигурацию через файл?
+
+Да. Конфигурация хранится в вашей директории где хранятся пользовательские конфигурации
+
+- На Linux `~/.config/gigacommitai/config.toml`
+- На Mac `~/Library/Application Support/gigacommitai/config.toml`
+- На Windows `<APPDATA>/gigacommitai/gigacommitai/config.toml`
+
+> Рекомендуется делать бэкап конфигурации во избежании проблем с запуском CLI
+
+## Участие в проекте
+
+GigaCommitAI - это проект с иходным кодом. Приветсвуется любое участие в разработке или улучшение документации.
+
