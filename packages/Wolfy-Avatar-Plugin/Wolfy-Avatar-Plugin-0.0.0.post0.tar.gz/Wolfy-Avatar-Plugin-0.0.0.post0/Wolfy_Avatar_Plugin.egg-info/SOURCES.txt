@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+Wolfy_Avatar_Plugin.egg-info/PKG-INFO
+Wolfy_Avatar_Plugin.egg-info/SOURCES.txt
+Wolfy_Avatar_Plugin.egg-info/dependency_links.txt
+Wolfy_Avatar_Plugin.egg-info/top_level.txt
