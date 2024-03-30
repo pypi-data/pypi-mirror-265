@@ -1,0 +1,10 @@
+svc_from_callable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svc_from_callable/app/__init__.py,sha256=FvZQvWBNyquSRUJwfuPptuFS4cMJAlcAyctNedhAP7w,2727
+svc_from_callable/app/handler.py,sha256=d-vaKg7tcf1-yHx-viOVo_4sYeqJ1eBXTLvz4F0_mpQ,3192
+svc_from_callable/app/main.py,sha256=Q2-jwojS6j1FcS5o4yWi7OZAx8AiM_547NhVKNrjnJ4,1216
+svc_from_callable/app/middleware.py,sha256=caPvIBLpybXDh_7hV95mFjzBwHKisVf9PXjWJIAS9Eg,1571
+svc_from_callable/app/routes.py,sha256=QfKo_F5I5WISd_Q63XBmkrRBeLQpeOeMHetUhU_AbPE,852
+svc_from_callable/app/types.py,sha256=MP5ly0toY0NOpUC7BiTAsG8Sa-Yv7C5CaJhkZFjVIoI,780
+svc_from_callable-0.1.5.dist-info/METADATA,sha256=rUtzs-Io5FqWlikX7mjzAPFd5xyf-3PtYz-moxh8EvU,493
+svc_from_callable-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+svc_from_callable-0.1.5.dist-info/RECORD,,
