@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: pydantic-slim
+Version: 0.0.0
+Summary: This is a placeholder in case we want to use this package name in future.
+Project-URL: Homepage, https://github.com/pydantic/pydantic
+Author-email: Pydantic Team <hello@pydantic.dev>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown
+
+# pydantic-slim
+
+This is a placeholder in case we want to use this package name in future.
