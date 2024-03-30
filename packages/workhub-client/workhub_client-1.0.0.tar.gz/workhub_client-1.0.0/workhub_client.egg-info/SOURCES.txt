@@ -1,0 +1,9 @@
+README.md
+setup.py
+workhub_client/__init__.py
+workhub_client/workhub.py
+workhub_client.egg-info/PKG-INFO
+workhub_client.egg-info/SOURCES.txt
+workhub_client.egg-info/dependency_links.txt
+workhub_client.egg-info/requires.txt
+workhub_client.egg-info/top_level.txt
