@@ -1,0 +1,2 @@
+[console_scripts]
+altwalker-viewer = altwalker_viewer.cli:cli

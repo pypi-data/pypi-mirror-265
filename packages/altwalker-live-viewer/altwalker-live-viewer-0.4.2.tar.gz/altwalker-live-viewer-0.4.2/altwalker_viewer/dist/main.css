@@ -1,0 +1,172 @@
+/*
+    Copyright(C) 2023 Altom Consulting
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/* Nodes */
+
+.mv-visualizer .node > rect,
+.mv-visualizer .node-fake > rect,
+.mv-visualizer .node-blocked > rect {
+    fill: #7f8c8d;
+    stroke: #7f8c8d;
+    rx: 1;
+    ry: 1;
+}
+
+.mv-visualizer .node-label {
+    fill: #ecf0f1;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.mv-visualizer .node-start > rect {
+    fill: #1b9e77;
+    stroke: #1b9e77;
+}
+
+.mv-visualizer .node-fake {
+    fill: #ecf0f1;
+}
+
+.mv-visualizer .node-blocked {
+    font-weight: 400;
+}
+
+/* Edges */
+
+.mv-visualizer .edgeLabels {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.mv-visualizer .edgePath path {
+    stroke: #999;
+    fill: #999;
+    stroke-width: 2.5px;
+}
+
+/* Current Element */
+
+.current-node rect {
+    stroke: #34495e !important;
+    stroke-width: 1px !important;
+}
+
+.current-node text {
+    font-weight: 500 !important;
+}
+
+/* .current-edge path {
+    stroke-width: 3px !important;
+} */
+
+.current-label {
+    font-weight: 600 !important;
+}
+
+/*
+    Copyright(C) 2023 Altom Consulting
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+.h-full {
+    height: calc(100vh - .6750rem - 1rem - 30px);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #18AD38 !important;
+    box-shadow: none !important;
+}
+
+#error-form input:focus,
+#error-form textarea:focus {
+    border-color: #dc3545 !important;
+    box-shadow: none !important;
+}
+
+#error-form input,
+#error-form textarea {
+    color: #dc3545 !important;
+}
+
+#current-step-form input,
+#current-step-form textarea,
+#output-form textarea {
+    color: #18AD38 !important;
+}
+
+#statistics-status,
+#statistics-vertex-coverage,
+#statistics-edge-coverage {
+    font-size: 1em;
+}
+
+.nav-icon {
+    stroke: #18AD38 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.bg-transparent-black {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.btn-primary {
+    border-color: #18AD38 !important;
+    background-color: #18AD38 !important;
+}
+
+/* Resizable containers  */
+
+#left {
+    width: calc(70% - 0.025%);
+}
+
+#right {
+    width: calc(30% - 0.025%);
+}
+
+#drag-bar {
+    width: 0.05%;
+    cursor: col-resize;
+
+    background-color: #dee2e6;
+}
+
