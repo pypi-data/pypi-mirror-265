@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lzss0
+Version: 1.2
+Summary: A quick & feature-rich LZSS implementation
+Home-page: https://github.com/lvlrkza/lzss0
+Author: lvlrk
+Author-email: lvlrk4u@proton.me
+Maintainer: lvlrk
+Maintainer-email: lvlrk4u@proton.me
+License: GPLv3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: cython
+
+A LZSS implementation with extensive configurability and an easy-to-read C backend
