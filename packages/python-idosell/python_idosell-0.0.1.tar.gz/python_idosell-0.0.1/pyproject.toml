@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "python-idosell"
+version = "0.0.1"
+description = "Python implementation of IdoSell's e-commerce formats."
+authors = ["Dominik Kozaczko <dominik@kozaczko.info>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/dekoza/python-idosell"
+packages = [
+  { include = "idosell" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic-xml = "^2.9.0"
+pendulum = "^3.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+pre-commit = "^3.7.0"
+ipython = "^8.22.2"
+pre-commit-hooks = "^4.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
