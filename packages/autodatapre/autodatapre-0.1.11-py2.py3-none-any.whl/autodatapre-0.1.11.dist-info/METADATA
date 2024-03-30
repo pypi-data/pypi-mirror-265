@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: autodatapre
+Version: 0.1.11
+Summary: The package of Auto-DP ( Automated System for Data Preparation).
+Home-page: https://gitee.com/zyyyyyyyyyyyyyyyyyyyyy/auto-dp
+Author: 2109835660
+Author-email: 2109835660@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.16
+Description-Content-Type: text/markdown
+Requires-Dist: torch ==1.13.1
+Requires-Dist: pandas ==1.3.5
+Requires-Dist: pickleshare ==0.7.5
+Requires-Dist: numpy ==1.21.6
+Requires-Dist: matplotlib ==3.5.3
+Requires-Dist: ipywidgets ==8.1.1
+Requires-Dist: scikit-learn ==1.0.2
+Requires-Dist: jellyfish ==0.9.0
+Requires-Dist: py-stringmatching ==0.4.3
+Requires-Dist: py-stringsimjoin ==0.1.0
+Requires-Dist: impyute ==0.0.8
+Requires-Dist: scipy ==1.7.3
+Requires-Dist: seaborn ==0.12.2
+Requires-Dist: statsmodels ==0.13.5
+
+
+# 
+
+Automated System for Efficient Generation of Data Preparation Pipeline
+
+
+#### Quick Start
+
+1.  Before running the code, please make sure your Python version is 3.7.16. 
+2.  pip install autodatapre
+
+#### Run Example
+
+1. AutoDP.testFunction() provide two fast examples, Showcased examples from our paper.
+
+2. We support classification and regression tasks, with specified runtime and default runtime until convergence.
+
+3. Taking classification as an example,
+
+   datasetName = your_dataset_path # e.g. "E:/1.csv"
+
+   datasetTarget = the_target_column_name # e.g. 'delay'
+
+   runTime = 10
+
+   df = pd.read_csv(datasetName, sep=',', encoding='ISO-8859-1')
+
+   detailResult, preparedDataset = AutoDP.Classifier(df, datasetName, datasetTarget, runTime)
+
+   AutoDP.EnhancedFunction(df, preparedDataset, detailResult, taskType="CLA")
+
+4. If runTime is not specified in the Classifier function, run until convergence.
+
+5. Regressor has the same settings.
+
+   
+
+   
