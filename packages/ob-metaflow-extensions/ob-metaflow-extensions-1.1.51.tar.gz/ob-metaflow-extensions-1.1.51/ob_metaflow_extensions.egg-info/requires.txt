@@ -1,0 +1,4 @@
+boto3
+kubernetes
+ob-metaflow==2.11.9.1
+ob-metaflow-stubs==2.11.9.1
