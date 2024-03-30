@@ -1,0 +1,11 @@
+python_criteria/__init__.py,sha256=zIIGR9v5BpEvfc7MuFDvpgCPbN_h5qZxSYKXL2dp_BE,159
+python_criteria/clauses.py,sha256=HoIdKT0TixDfTWtU4jf6zfIlFs-xOqfHOmpWtNk7cgU,2611
+python_criteria/entity.py,sha256=V1SSpLEWrMJ27b9rvwIyv6z--Aon-lqdTiGv-PPRa4U,2998
+python_criteria/filter.py,sha256=wAZJdQ3YmZJgKQSIUhSpQOa90xSnkFdA9Qe20y1qRtw,1666
+python_criteria/sqlalchemy.py,sha256=i4Y9VWfyPdxSlRaQTtgDTuynk2GkcgLvOzG8cWEgJQ0,2082
+python_criteria/visitor.py,sha256=h3ElTQxnyT8a6-vL4YPROch3uJ_W37iRA6aN0eJWr3U,3862
+python_criteria-0.0.1.dist-info/LICENSE,sha256=CrfYJjJPzpMSueun1s09Nu7CE8HK2rgRVjdLOpYFi5A,1068
+python_criteria-0.0.1.dist-info/METADATA,sha256=rslBGELnPiYqwuESrMcR-DiapKt6qKI2jrm0Oh4EwxU,454
+python_criteria-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_criteria-0.0.1.dist-info/top_level.txt,sha256=8Zq6V-_3oJdVcvyMT-_BS3A-wWWG7H20PMzHOb0g3D4,16
+python_criteria-0.0.1.dist-info/RECORD,,
