@@ -1,0 +1,79 @@
+version: "2.2"
+
+x-lens2-environment: &lens2-environment
+  CACHE_TELEMETRY: "false"
+  CACHE_LOG_LEVEL: "error"
+
+services:
+  api:
+    restart: always
+    image: rubiklabs/lens2:${LENS2_VERSION}
+    ports:
+      - 4000:4000
+      - 15432:5432
+    env_file:
+      - .env
+    environment:
+      LENS2_REFRESH_WORKER: true
+      LENS2_CACHE_HOST: cache_router
+      LENS2_PG_SQL_PORT: 5432
+      LENS2_PG_SQL_PASSWORD:
+      LENS2_WRITE_TRANSPILED_YAML: true
+      LENS2_AGENT_ENDPOINT_URL: "https://webhook.site/94c45771-8d17-4141-a066-1e9a76d0243e"
+      LENS2_AGENT_FRAME_SIZE: 1
+
+    volumes:
+      - .:/lens2
+    depends_on:
+      - cache_router
+
+  cache_router:
+    restart: always
+    image: rubiklabs/lens2-store:${LENS2_CACHE_VERSION}
+    env_file:
+      - .env
+    environment:
+      # ops
+      CACHE_META_PORT: 9999
+      CACHE_SERVER_NAME: "router:9999"
+      CACHE_WORKERS: "cache_worker_1:10001,cache_worker_2:10002"
+      CACHE_REMOTE_DIR: "/cache/data"
+    volumes:
+      - cached:/cache/data
+
+  cache_worker_1:
+    restart: always
+    image: rubiklabs/lens2-store:${LENS2_CACHE_VERSION}
+    env_file:
+      - .env
+    environment:
+      # ops
+      CACHE_META_ADDR: "cache_router:9999"
+      CACHE_WORKERS: "cache_worker_1:10001,cache_worker_2:10002"
+      CACHE_SERVER_NAME: "cache_worker_1:10001"
+      CACHE_WORKER_PORT: 10001
+      CACHE_REMOTE_DIR: "/cache/data"
+    volumes:
+      - cached:/cache/data
+    depends_on:
+      - cache_router
+
+  cache_worker_2:
+    restart: always
+    image: rubiklabs/lens2-store:${LENS2_CACHE_VERSION}
+    env_file:
+      - .env
+    environment:
+      # ops
+      CACHE_META_ADDR: "cache_router:9999"
+      CACHE_WORKERS: "cache_worker_1:10001,cache_worker_2:10002"
+      CACHE_SERVER_NAME: "cache_worker_2:10002"
+      CACHE_WORKER_PORT: 10002
+      CACHE_REMOTE_DIR: "/cache/data"
+    volumes:
+      - cached:/cache/data
+    depends_on:
+      - cache_router
+
+volumes:
+  cached:

@@ -1,0 +1,21 @@
+views:
+  - name: view_name
+    description: View containing view_name information
+    public: true
+
+    tables:
+      - join_path: table1
+        prefix: true
+        includes: "*"
+        excludes:
+          - measure_or_dimension
+          - measure_or_dimension
+
+      - join_path: table1
+        prefix: true
+        includes:
+          - measure_or_dimension1
+          - measure_or_dimension2
+        excludes:
+          - measure_or_dimension1
+          - measure_or_dimension1

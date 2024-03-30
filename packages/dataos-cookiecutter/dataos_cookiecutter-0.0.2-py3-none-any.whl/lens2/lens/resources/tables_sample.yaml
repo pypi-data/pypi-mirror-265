@@ -1,0 +1,53 @@
+tables:
+  - name: table_name
+    sql: {{ load_sql('sql_file_name') }}
+    description: Table description
+    data_source: data_source
+    public: true
+
+    joins:
+      - name: target_table
+        relationship: one_to_one
+        sql: TABLE.dimension_name = target_table.dimension_name
+
+    dimensions:
+      - name: dimension_name
+        title: dimension_title
+        description: Dimension description
+        sql: dimension_sql
+        type: dimension_type
+        primary_key: true
+        public: true
+        sub_query: false
+        meta:
+          key: value
+
+    measures:
+      - name: measure_name
+        title: measure_title
+        sql: measure_sql
+        type: string
+        description: string
+        drill_members:
+          - drill_members_name
+        filters:
+          - sql: "{TABLE}.dimension_name = 'dimension_value' "
+        meta:
+          key: value
+
+    segments:
+      - name: segment_name
+        public: true
+        sql: "{TABLE}.dimension_name = 'dimension_value' "
+
+    pre_aggregations:
+      - name: pre_aggregation_name
+        dimensions:
+          - dimension_name
+        measures:
+          - measure_name
+        time_dimension: {TABLE}.time_dimension_name
+        granularity: second
+        partition_granularity: hour
+        segments:
+          - segment_name

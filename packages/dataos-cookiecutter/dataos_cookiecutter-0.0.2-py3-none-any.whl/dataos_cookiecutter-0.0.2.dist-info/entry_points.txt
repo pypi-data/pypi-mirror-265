@@ -1,0 +1,2 @@
+[console_scripts]
+lens2 = lens2.lens2:main

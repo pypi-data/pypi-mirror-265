@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dataos-cookiecutter
+Version: 0.0.2
+Summary: Dataos python sdk
+Home-page: https://bitbucket.org/rubik_/dataos-cookiecutter
+Author: devendrasr
+Author-email: devendra@tmdc.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ==2.25.1
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: psycopg2-binary ==2.9.9
+Requires-Dist: sql-metadata ==2.10.0
+
+DataOS® has got rich set of primitives. One can utilise these primitives to build or integrate their existing
+capabilities.
+The sdk exposes apis to interact with these primitives via respective services.
+
+### DataOS Primitives
+
+1. Depot
+2. Workflow
+3. Service
+4. Policy
+5. Lens
+6. Compute
+7. Cluster
