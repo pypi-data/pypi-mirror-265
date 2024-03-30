@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django-easy-validation
+Version: 1.2
+Summary: Easy Validation for Django based projects especially for Ajax based request.
+Home-page: https://github.com/sandysh/django-easy-validation
+Author: Sandesh Satyal
+Author-email: sandeshsatyal@gmail.com
+License: MIT
+Keywords: django-easy-validation validation form-validation form ajax ajax-validation easy-validation
+License-File: LICENSE
