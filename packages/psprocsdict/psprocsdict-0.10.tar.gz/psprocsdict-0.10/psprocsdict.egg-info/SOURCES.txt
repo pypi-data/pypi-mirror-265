@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+psprocsdict/README.MD
+psprocsdict/__init__.py
+psprocsdict/requirements.txt
+psprocsdict/thirdparty.json
+psprocsdict.egg-info/PKG-INFO
+psprocsdict.egg-info/SOURCES.txt
+psprocsdict.egg-info/dependency_links.txt
+psprocsdict.egg-info/requires.txt
+psprocsdict.egg-info/top_level.txt

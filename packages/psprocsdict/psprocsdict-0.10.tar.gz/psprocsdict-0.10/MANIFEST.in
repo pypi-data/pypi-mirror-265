@@ -1,0 +1,3 @@
+include psprocsdict/requirements.txt
+include psprocsdict/thirdparty.json
+include psprocsdict/README.MD
