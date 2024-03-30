@@ -1,0 +1,8 @@
+pinecone_notebooks/__init__.py,sha256=C4HhleDJOR_YrC2cBu0j5ZS5Ne9idbWsrMGoK6X-M0U,31
+pinecone_notebooks/__version__,sha256=XE1Iy0-LJZbUhgsHj38jMyN7ihIYy2jt143u3saPSbQ,9
+pinecone_notebooks/colab/__init__.py,sha256=OzJi3UVmC6e28nVBbEcJh1Zb4J2lMYRDSNfADxfbuPY,633
+pinecone_notebooks/utils.py,sha256=ejmAk3xSaUyfrQBucQLQLzMir8tRsT9oJuptCVugjoY,151
+pinecone_notebooks-0.0.2rc6.dist-info/LICENSE,sha256=DoCUiOC--qQlx83OqbaknkGneNfR5DvbwSFokDm9mxU,11352
+pinecone_notebooks-0.0.2rc6.dist-info/METADATA,sha256=_0RVTC9K04Gkp_WUbnwix2slp7NzAywRjZk1H4V-180,1285
+pinecone_notebooks-0.0.2rc6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pinecone_notebooks-0.0.2rc6.dist-info/RECORD,,
