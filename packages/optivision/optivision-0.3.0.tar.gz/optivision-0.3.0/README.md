@@ -1,0 +1,56 @@
+# OptiVision
+
+Image Processing Library from scratch using Python.
+
+[![Documentation Status](https://readthedocs.org/projects/optivision/badge/?version=latest)](https://optivision.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/optivision.svg)](https://badge.fury.io/py/optivision)
+<!-- [![Downloads](https://pepy.tech/badge/optivision)](https://pepy.tech/project/optivision) -->
+
+---
+
+> **Note**: This library is just a fun project to learn about image processing and computer vision algorithms from scratch and to enhance my understanding of the concepts.
+
+---
+Various implemenatations of image processing algorithms from scratch using Python has been implemented in [this repository](https://github.com/Preet-Sojitra/DIP) as part of Digital Image Processing course at my university.
+
+---
+## Installation
+
+```bash
+pip install optivision
+```
+
+## Usage
+
+```python
+from PIL import Image
+from optivision.transformations.logarithmic import logarithmic_transform
+import numpy as np
+
+# Load image
+img = Image.open('path/to/image.jpg')
+
+# Convert image to numpy array
+img = np.array(img)
+
+# Apply logarithmic transformation
+img = logarithmic_transform(img, c=3)
+
+# Convert numpy array to image
+img = Image.fromarray(img)
+
+# show image
+img.show()
+```
+
+## Documentation
+
+The official documentation is hosted on [Read the Docs](https://optivision.readthedocs.io/en/latest/index.html).
+
+## Contributing
+
+If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed. If you find any issue just put it in the repository issue section. Thank you.
+
+## License
+
+`optivision` was created by Preet Sojitra and is licensed under the MIT License.
