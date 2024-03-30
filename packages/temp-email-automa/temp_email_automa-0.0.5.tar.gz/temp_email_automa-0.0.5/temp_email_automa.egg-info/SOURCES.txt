@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+temp_email_automa.egg-info/PKG-INFO
+temp_email_automa.egg-info/SOURCES.txt
+temp_email_automa.egg-info/dependency_links.txt
+temp_email_automa.egg-info/requires.txt
+temp_email_automa.egg-info/top_level.txt
