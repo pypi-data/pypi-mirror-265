@@ -1,0 +1,3 @@
+[console_scripts]
+eqalert=eqa.eqalert:main
+
