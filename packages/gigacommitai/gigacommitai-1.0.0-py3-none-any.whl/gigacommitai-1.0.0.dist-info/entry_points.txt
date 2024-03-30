@@ -1,0 +1,3 @@
+[console_scripts]
+gc=gigacommitai.__main__:app
+
