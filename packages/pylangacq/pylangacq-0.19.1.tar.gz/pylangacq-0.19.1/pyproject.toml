@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools >= 65.3.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pylangacq"
+version = "0.19.1"
+description = "Tools for Language Acquisition Research"
+readme = "README.rst"
+requires-python = ">= 3.8"
+license = { text = "MIT License" }
+authors = [ { name = "Jackson L. Lee", email = "jacksonlunlee@gmail.com" } ]
+keywords = [
+    "CHILDES",
+    "TalkBank",
+    "language-acquisition",
+    "language-development",
+]
+dependencies = [
+    'python-dateutil >= 2.0.0',
+    'requests >= 2.18.0',
+    'tabulate[widechars] >= 0.8.9',
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: General",
+    "Topic :: Text Processing :: Indexing",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://pylangacq.org"
+Source = "https://github.com/jacksonllee/pylangacq"
+
+[project.optional-dependencies]
+dev = [
+    # Running tests and linters
+    "black == 23.11.0",
+    "flake8 == 6.1.0",
+    "pytest == 7.4.3",
+    "sybil == 6.0.2",
+
+    # Managing source distributions
+    "build == 1.0.3",
+    "twine == 4.0.2",
+
+    # Building the Sphinx docs
+    "furo == 2023.9.10",
+    "m2r == 0.3.1",
+    "numpydoc == 1.6.0",
+    "Sphinx == 7.1.2",
+    "sphinx-sitemap == 2.5.1",
+    "sphinx-copybutton == 0.5.2",
+]
+
+[tool.setuptools]
+zip-safe = false
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = [ "src" ]
+
+[tool.setuptools.package-data]
+pylangacq = ["tests/*"]
+
+[tool.pytest.ini_options]
+# Adding -p no:doctest to disable pytest's own doctest,
+# which may interfere with Sybil's doctest parsers.
+addopts = "-vv --durations=0 --strict-markers -p no:doctest"
+testpaths = ["tests", "docs"]
