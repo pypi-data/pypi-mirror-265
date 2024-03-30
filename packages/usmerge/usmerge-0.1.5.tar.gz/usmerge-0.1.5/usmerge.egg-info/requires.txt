@@ -1,0 +1,4 @@
+pandas
+minisom
+numpy
+scikit-learn
