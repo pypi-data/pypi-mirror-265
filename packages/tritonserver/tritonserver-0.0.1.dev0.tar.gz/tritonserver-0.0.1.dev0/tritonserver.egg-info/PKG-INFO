@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tritonserver
+Version: 0.0.1.dev0
+Summary: A package to warn users about incorrect installation of Triton Server.
+Author-email: Iman Tabrizian <itabrizian@nvidia.com>
+License: BSD-3-Clause
+Keywords: nvidia
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Currently, the correct way to install Triton Server In-Process Python API
+is using the wheels shipped in the NGC nightly containers.
+
+Please refer to the tutorial below for more information:
+
+https://github.com/triton-inference-server/tutorials/tree/main/Triton_Inference_Server_Python_API#installation

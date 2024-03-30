@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tritonserver"
+authors = [
+    {name = "Iman Tabrizian", email = "itabrizian@nvidia.com"},
+]
+description = "A package to warn users about incorrect installation of Triton Server."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["nvidia"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+version = "0.0.1.dev0"
+
