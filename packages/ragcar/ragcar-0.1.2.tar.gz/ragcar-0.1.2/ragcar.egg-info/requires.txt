@@ -1,0 +1,14 @@
+torch==2.0.1
+python-dateutil
+dataclasses_json
+python-dotenv
+tqdm
+gdown
+tiktoken
+kiwipiepy
+elasticsearch==7.13.1
+aiohttp
+sentence-transformers>=2.4.0
+openai==0.28.1
+pytorch-lightning
+fsspec
