@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: raft-python
+Version: 0.1.0
+Summary: raft python实现, 用于测试学习
+Home-page: https://github.com/hangsz
+Author: hangsz
+Author-email: zhenhang.sun@outlook.com
+License-File: LICENSE
+
