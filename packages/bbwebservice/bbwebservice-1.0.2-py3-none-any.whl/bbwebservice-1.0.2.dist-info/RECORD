@@ -1,0 +1,13 @@
+bbwebservice/__init__.py,sha256=it0smY-D-5abrStRrU6rNiPKdG8FVFXnELzRPtCCjTU,1892
+bbwebservice/app_utils.py,sha256=4297y4b8v4mXQCcKRGXQZfVUQ3__96AmU5Ger3-I3eQ,796
+bbwebservice/config_loader.py,sha256=dU3O3CrokoaX2fth7ZpilfrPoJHeMIjzxIrnpsTXUNA,1949
+bbwebservice/core.py,sha256=pI9viaroRNKtesVYxh7Ep1USDIFljIJ1Xw3R3pdMKJc,4970
+bbwebservice/http_parser.py,sha256=Lm1QBuep2eXUI4rwDjL8vouzKSks8VErWifXyQPn7Do,30227
+bbwebservice/special_media_type.py,sha256=rTV5yibdDXP3IchwxjgHD31kaVgG41zTExd1onMqs0Q,1009
+bbwebservice/url_utils.py,sha256=SZheD0p_uSWTd_vl9XgMHlP3NFU8Prn8zOcUQhTBXE4,2725
+bbwebservice/webserver.py,sha256=Qmi5dVT23xoyOXr8guKNjDCaEE97H-luQqOwauaJQW0,9736
+bbwebservice-1.0.2.dist-info/LICENSE,sha256=22jZx_qd6lXubpLGIzbHdIAGPC3ypVMbAj4RI2bAcQA,1092
+bbwebservice-1.0.2.dist-info/METADATA,sha256=x33XbKT7sX_0yyvXbYIMn4KbYToDYrDTdRwHt5p3zZc,5175
+bbwebservice-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bbwebservice-1.0.2.dist-info/top_level.txt,sha256=Lfu9c6-xuxineXpe6lYCh0sv5N6fxcpj8jimNOcmflc,13
+bbwebservice-1.0.2.dist-info/RECORD,,
