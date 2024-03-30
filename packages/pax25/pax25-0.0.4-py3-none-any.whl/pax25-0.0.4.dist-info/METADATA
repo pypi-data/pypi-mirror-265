@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: pax25
+Version: 0.0.4
+Summary: A complete AX.25 stack library
+Project-URL: Homepage, https://gitlab.com/FoxyFoxie/pax25
+Project-URL: Bug Tracker, https://gitlab.com/FoxyFoxie/pax25/-/issues
+Author-email: Lion Templin <lion@lion.fm>, Fox Piacenti <fox@artconomy.com>
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: pyserial~=3.4
+Provides-Extra: dev
+Requires-Dist: black~=23.1.0; extra == 'dev'
+Requires-Dist: isort~=5.12; extra == 'dev'
+Requires-Dist: mypy~=1.0.1; extra == 'dev'
+Requires-Dist: pylint~=2.16.3; extra == 'dev'
+Requires-Dist: pytest-asyncio~=0.20.3; extra == 'dev'
+Requires-Dist: pytest-cov~=4.0.0; extra == 'dev'
+Requires-Dist: pytest-xdist~=3.2.1; extra == 'dev'
+Requires-Dist: pytest~=7.2; extra == 'dev'
+Provides-Extra: dist
+Requires-Dist: build~=1.2.1; extra == 'dist'
+Requires-Dist: twine~=5.0.0; extra == 'dist'
+Provides-Extra: docs
+Requires-Dist: mkapi~=1.0.14; extra == 'docs'
+Requires-Dist: mkdocs-material~=9.1.8; extra == 'docs'
+Requires-Dist: mkdocstrings[python]~=0.21.2; extra == 'docs'
+Requires-Dist: mkdocs~=1.4.2; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# PAX25
+
+pax25 is intended to be a full AX.25 stack with:
+
+AX.25 V2 stack (not 2.2; no MOD128, no SREJ, no XID)
+Multiple physical interfaces (KISS, AXIP) support
+
+Target Python is 3.11. Earlier versions of the 3.X branch may be supported but are untested.
+
+## Getting Started
+
+This library can be installed 'as-is' by entering the root of the repository and running:
+
+```bash
+pip install .
+```
+
+The documentation is not yet publicly published, but you can read and build it for local use by following the directions in the [development setup guide](documentation/contributing/development_setup.md).
