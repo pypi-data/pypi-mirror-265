@@ -1,0 +1,8 @@
+inmanta_plugins/ssh/__init__.py,sha256=xkhJm4BPP22xYmh_7bUAwglXeboJTthgFmsooUVBQnI,2182
+inmanta_plugins/ssh/setup.cfg,sha256=Yq86Tiqce72mGZyE_4CHX6jgIPZQ5pwZLpiQTrXXtrU,691
+inmanta_plugins/ssh/model/_init.cf,sha256=PiFeR-B1cZ7kkePAcCqXSIFFKyChaovuvNn8_L74Ch4,1768
+inmanta_plugins/ssh/templates/authorized_keys,sha256=GMRFvNuLEzZPxBKDlU2t4_y2muVBTv_pD3z5Aeh-SIc,246
+inmanta_module_ssh-1.0.1.dist-info/METADATA,sha256=onhZgLOZNubSvbjVWEJ4bFvo9MtosE4On3HhwXB4J1A,117
+inmanta_module_ssh-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+inmanta_module_ssh-1.0.1.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_ssh-1.0.1.dist-info/RECORD,,
