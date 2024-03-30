@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyspace-profiler
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Arbit
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+For using application please insert into your python script code below
+
+```sh
+import pyspace_profiler
+Profiler()
+```
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
+
