@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mysql_connect_automation/__init__.py
+src/mysql_connect_automation/mysql_crud.py
+src/mysqlconnectautomation.egg-info/PKG-INFO
+src/mysqlconnectautomation.egg-info/SOURCES.txt
+src/mysqlconnectautomation.egg-info/dependency_links.txt
+src/mysqlconnectautomation.egg-info/requires.txt
+src/mysqlconnectautomation.egg-info/top_level.txt
