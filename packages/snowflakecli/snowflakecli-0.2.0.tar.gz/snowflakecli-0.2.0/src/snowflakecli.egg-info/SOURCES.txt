@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/snowflakecli/__init__.py
+src/snowflakecli.egg-info/PKG-INFO
+src/snowflakecli.egg-info/SOURCES.txt
+src/snowflakecli.egg-info/dependency_links.txt
+src/snowflakecli.egg-info/requires.txt
+src/snowflakecli.egg-info/top_level.txt

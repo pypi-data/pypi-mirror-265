@@ -1,0 +1,13 @@
+[project]
+name = "snowflakecli"
+version = "0.2.0"
+description = "A DuckDB-powered, Mycli-inspired command line interface to snowflake."
+authors = [{ name = "jake", email = "jake@bostata.com" }]
+dependencies = ["duckdb>=0.10.1", "snowflake-connector-python>=3.7.1"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+package-type = "application"
