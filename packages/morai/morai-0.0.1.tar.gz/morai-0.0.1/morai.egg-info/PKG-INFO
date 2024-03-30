@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: morai
+Version: 0.0.1
+Summary: A mortality viewer
+Author-email: John Koestner <johnkoestner@outlook.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2023 John Koestner
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/jkoestner/morai
+Project-URL: repository, https://github.com/jkoestner/morai
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: arrow>=1.3.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: dash-ag-grid>=31.0.1
+Requires-Dist: dash-bootstrap-components>=1.5.0
+Requires-Dist: graphviz>=0.20.1
+Requires-Dist: jupyterlab>=4.0.10
+Requires-Dist: lightgbm>=4.3.0
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: plotly>=5.19.0
+Requires-Dist: polars>=0.20.9
+Requires-Dist: pyarrow>=14.0.2
+Requires-Dist: pymort>=2.0.1
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: statsmodels>=0.14.1
+Requires-Dist: xgboost>=2.0.3
+Provides-Extra: dev
+Requires-Dist: black>=23.12.1; extra == "dev"
+Requires-Dist: isort>=5.13.2; extra == "dev"
+Requires-Dist: jupyterlab-code-formatter>=2.2.1; extra == "dev"
+Requires-Dist: jupyter-resource-usage>=1.0.1; extra == "dev"
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: ruff>=0.1.11; extra == "dev"
+Requires-Dist: sphinx<7.2,>=6.0; extra == "dev"
+Requires-Dist: sphinx_rtd_theme>=1.2.2; extra == "dev"
+
+
+<div align="center">
+  <img src="morai/dashboard/assets/morai_logo.jpg"><br>
+</div>
+
+# Morai
+![workflow badge](https://github.com/jkoestner/morai/actions/workflows/test-and-deploy.yml/badge.svg)
+[![license badge](https://img.shields.io/github/license/jkoestner/morai)](https://github.com/jkoestner/morai/blob/main/LICENSE.md)
+[![codecov](https://codecov.io/gh/jkoestner/morai/branch/main/graph/badge.svg?token=386HHBN1AK)](https://codecov.io/gh/jkoestner/morai)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+  - [Local Install](#local-install)
+- [Other Tools](#other-tools)
+  - [Jupyter Lab Usage](#jupyter-lab-usage)
+  - [Logging](#logging)
+
+## Overview
+
+**📖 Description:**
+
+[Moirai](https://en.wikipedia.org/wiki/Moirai#:~:text=In%20ancient%20Greek%20religion%20and,Moirai) 
+in greek mythology are known as the fates. They are personifications of destiny.
+The name Morai was chosen as the package is designed to help actuaries review 
+mortality and experience data.
+
+**🔬 Jupyter Notebook:**
+
+- [Morai Example](https://nbviewer.jupyter.org/github/jkoestner/morai/blob/main/notebooks/mortality.ipynb)
+
+## Installation
+
+### Local Install
+To install, this repository can be installed by running the following command in 
+the environment of choice.
+
+The following command can be run to install the packages in the pyproject.toml file.
+
+```
+pip install -e .
+```
+
+## Other Tools
+### Jupyter Lab Usage
+
+To have conda environments work with Jupyter Notebooks a kernel needs to be defined. This can be done defining a kernel, shown below when
+in the conda environment.
+
+```
+python -m ipykernel install --user --name=morai
+```
+### Logging
+
+If wanting to get more detail in output of messages the logging can increased
+```python
+from morai.utils import helpers
+helpers.set_log_level("DEBUG")
+```
