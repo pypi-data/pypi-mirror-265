@@ -1,0 +1,25 @@
+{
+  "branches": [
+    "HEAD"
+  ],
+  "build_command": [],
+  "environment_type": "conda",
+  "install_command": [
+    "pip install --no-deps ."
+  ],
+  "matrix": {
+    "env": {},
+    "env_nobuild": {},
+    "req": {
+      "numba": [],
+      "numpy": []
+    }
+  },
+  "project": "sparse",
+  "project_url": "https://sparse.pydata.org/",
+  "repo": ".",
+  "uninstall_command": [
+    "pip uninstall sparse --yes"
+  ],
+  "version": 1
+}
