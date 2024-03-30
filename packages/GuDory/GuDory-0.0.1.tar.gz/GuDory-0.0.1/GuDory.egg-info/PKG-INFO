@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: GuDory
+Version: 0.0.1
+Summary: A simple package for https://app.tea.xyz/. Example GuDory1 - https://github.com/CryptoGu1/GuDory1.git and GuDory2 - https://github.com/CryptoGu1/GuDory2.git
+Home-page: https://github.com/CryptoGu1/GuDory.git
+Author: CryptoGu1
+Author-email: Kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/GuDory.git
+Project-URL: Source, https://github.com/CryptoGu1/GuDory.git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: GuDory1
+Requires-Dist: GuDory2

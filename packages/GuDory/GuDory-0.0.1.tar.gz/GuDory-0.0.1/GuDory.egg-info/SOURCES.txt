@@ -1,0 +1,9 @@
+README.md
+hi_tea.py
+setup.py
+GuDory.egg-info/PKG-INFO
+GuDory.egg-info/SOURCES.txt
+GuDory.egg-info/dependency_links.txt
+GuDory.egg-info/entry_points.txt
+GuDory.egg-info/requires.txt
+GuDory.egg-info/top_level.txt
