@@ -1,0 +1,7 @@
+lxml
+ofxtools
+openpyxl
+pandas
+pypdf2
+xlrd
+unidecode
