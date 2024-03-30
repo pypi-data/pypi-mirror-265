@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PathMePy
+Version: 0.1
+Summary: A tool to add scripts to Path
+Home-page: https://github.com/Gustoon/PathMePy
+Download-URL: https://github.com/Gustoon/PathMePy/archive/refs/tags/0.1.tar.gz
+Author: Gustoon
+Author-email: 
+License: MIT
+Keywords: PATH,PYTHON,OS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
