@@ -1,0 +1,10 @@
+README.md
+movie.py
+movies.py
+rating.py
+setup.py
+tools.py
+movies_lib.egg-info/PKG-INFO
+movies_lib.egg-info/SOURCES.txt
+movies_lib.egg-info/dependency_links.txt
+movies_lib.egg-info/top_level.txt
