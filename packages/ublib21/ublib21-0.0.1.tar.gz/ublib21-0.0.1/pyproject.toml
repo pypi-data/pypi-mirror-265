@@ -1,0 +1,16 @@
+[project]
+name = "ublib21"
+version = "0.0.1"
+authors = [
+  { name="Ramiro Detke", email="ramiro.fer.det@gmail.com" },
+  { name="Jessica Natalia Pulido Leon", email="jenapule@gmail.com" },
+]
+description = "UBL 2.1 python object parsing"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[tool.setuptools.package-data]
+ublib21 = ["validation/schemes/common/*.xsd", "validation/schemes/maindoc/*.xsd"]
