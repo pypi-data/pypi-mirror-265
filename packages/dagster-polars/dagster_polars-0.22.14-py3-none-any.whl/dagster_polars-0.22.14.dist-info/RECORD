@@ -1,0 +1,15 @@
+dagster_polars/__init__.py,sha256=K36fWdqCQwUiB8iaqjRXoG_GiRI1yLZjgHs9hu_3vJ8,1390
+dagster_polars/constants.py,sha256=yIWThN1i2xjLnpxD35HR29gS7ga4uIOI9zckftOnmKs,64
+dagster_polars/types.py,sha256=6bBPnrj2iAb2YbGv-EDXjOZ8cEfbYjBaIF1U-V2-Ic4,870
+dagster_polars/version.py,sha256=jyda_cqSZbwexWt3ATGl7DuFA5PyH-kDQX7yuu4V4Rk,24
+dagster_polars/io_managers/__init__.py,sha256=lwErAKq3082FNy2Ui7xj5xe_pQ-ZiVzaPvGD8EWB8RA,751
+dagster_polars/io_managers/base.py,sha256=ENuyBHn5nZMQZAgANw92uKwnpAAB4ZC8kCqtsI0uCDw,17621
+dagster_polars/io_managers/bigquery.py,sha256=46shj8uOH9D-mOZG6HWe5yy4Li5pnT693IRoR8KiEl0,8072
+dagster_polars/io_managers/delta.py,sha256=3O4tmpcYz6DdN6WBF-3gt2JnCCV7iVjiE4yaB_9eWhM,15783
+dagster_polars/io_managers/parquet.py,sha256=aXB3NZW5k2nMX0mvkmZNiDj9xs_yoCl65qL79DE7DMA,12302
+dagster_polars/io_managers/utils.py,sha256=lTp6tdL0CiVYdcm35BT6A76Gtcx3ZWFHiQSvOKD3bds,5377
+dagster_polars-0.22.14.dist-info/LICENSE,sha256=lY5yc1KHX4HoXjlWnIPGcCAsnNney2rb8M8ccT6NzRQ,11347
+dagster_polars-0.22.14.dist-info/METADATA,sha256=wTWx0Bxy1ksCI0VNLSdy5FXdVn6rihRAC5oUD0D8kG4,1227
+dagster_polars-0.22.14.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dagster_polars-0.22.14.dist-info/top_level.txt,sha256=KcsutBuR4PEKjQAxxrl456MVy70tFXPSX8t3tb9qW6M,15
+dagster_polars-0.22.14.dist-info/RECORD,,
