@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cpphospitalmanagementproject
+Version: 0.0.2
+Summary: Hospital Management
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: asgiref
+Requires-Dist: Django
+Requires-Dist: parse
+Requires-Dist: Pillow
+Requires-Dist: sqlparse
+Requires-Dist: tzdata
