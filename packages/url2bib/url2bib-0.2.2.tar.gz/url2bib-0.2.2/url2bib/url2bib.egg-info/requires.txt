@@ -1,0 +1,4 @@
+requests
+bibtexparser
+urllib3
+BeautifulSoup4
