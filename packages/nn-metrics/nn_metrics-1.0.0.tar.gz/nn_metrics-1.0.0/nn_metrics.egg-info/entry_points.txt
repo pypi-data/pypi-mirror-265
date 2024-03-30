@@ -1,0 +1,3 @@
+[console_scripts]
+nn_metrics = nn_metrics.scripts.cli:main
+
