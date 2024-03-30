@@ -1,0 +1,9 @@
+identity_trace/__init__.py,sha256=t3RsScT-0vRXF6Gjzu2OtZGz00bH9T8GV-dGuRzq-cE,57
+identity_trace/decorator.py,sha256=S68g1jQVwBw5pjQWJq7GlvKwvOsRPu-3yarXcMqZrgQ,5391
+identity_trace/registry.py,sha256=OASx51ZyARI_Z2LN_JVBCJO7NvI3rNY2a06R32RSoJI,609
+identity_trace/runner.py,sha256=CaaUosebB3x7YdciJVhAg-WY6p3zfPw9hW_WzNCGdfk,3917
+identity_trace/tracer.py,sha256=6ppDJHk5rFpUnW1LDJTMCJuf2_aa7Zfu27Z0WkO6Opo,1275
+identity_trace_python_agent-1.0.5.dist-info/METADATA,sha256=XEZCMNqorUoitwqbeM4WNp6djZAhXbPyk8D5ZjWFY0w,322
+identity_trace_python_agent-1.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+identity_trace_python_agent-1.0.5.dist-info/top_level.txt,sha256=qZQc4EVovvXALaBvjJKO9lzijH0nkqFWYXX7iS5v_bA,15
+identity_trace_python_agent-1.0.5.dist-info/RECORD,,
