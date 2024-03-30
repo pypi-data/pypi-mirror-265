@@ -1,0 +1,39 @@
+
+{% if _tdata["config_data"]["server_security_lax"] %}
+{% set badge_name="success" %}
+{% else %}
+{% set badge_name="danger" %}
+{% endif %}
+<span class="badge bg-{{badge_name}}">server_security_lax</span>
+
+{% if _tdata["flag_sampledata"] %}
+{% set badge_name="success" %}
+{% else %}
+{% set badge_name="danger" %}
+{% endif %}
+<span class="badge bg-{{badge_name}}">flag_sampledata</span>
+
+{% if _tdata["config_data"]["server_debug"] %}
+{% set badge_name="success" %}
+{% else %}
+{% set badge_name="danger" %}
+{% endif %}
+<span class="badge bg-{{badge_name}}">server_debug</span>
+
+{% if _tdata["orchestrator_time_dt"]<20 %}
+{% set badge_name="success" %}
+{% else %}
+{% set badge_name="danger" %}
+{% endif %}
+<span class="badge bg-{{badge_name}}">orchestrator_time_dt {{_tdata["orchestrator_time_dt"]}}</span>
+
+{% if _tdata["scheduler_time_dt"]<20 %}
+{% set badge_name="success" %}
+{% else %}
+{% set badge_name="danger" %}
+{% endif %}
+<span class="badge bg-{{badge_name}}">scheduler_time_dt {{_tdata["scheduler_time_dt"]}}</span>
+
+{{_tdata["benchmark"]}}
+
+
