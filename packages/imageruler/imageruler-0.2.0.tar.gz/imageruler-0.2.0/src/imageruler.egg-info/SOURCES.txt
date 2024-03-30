@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/imageruler/__init__.py
+src/imageruler/imageruler.py
+src/imageruler/py.typed
+src/imageruler/regular_shapes.py
+src/imageruler.egg-info/PKG-INFO
+src/imageruler.egg-info/SOURCES.txt
+src/imageruler.egg-info/dependency_links.txt
+src/imageruler.egg-info/requires.txt
+src/imageruler.egg-info/top_level.txt
+tests/test_imageruler.py
+tests/test_regular_shapes.py
