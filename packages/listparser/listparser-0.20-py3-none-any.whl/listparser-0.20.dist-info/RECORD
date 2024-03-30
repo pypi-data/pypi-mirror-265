@@ -1,0 +1,13 @@
+listparser/__init__.py,sha256=rJhlMPn6kz8BNglRN6IEtPzgrbcHIcQgkxK-wNOZ0W4,3354
+listparser/common.py,sha256=4bUJ_i64C6ZfnrQ17NbMPHLhOtM8SuOvW1fcVs7JVG0,1778
+listparser/dates.py,sha256=7k5UK_OTNHAYMQrPMWq3znv4XknQ6x_zuR58fUartrY,4308
+listparser/exceptions.py,sha256=UAyLHzlP7g6Oi09Ggu7AgBQVZUeS1h_ZW9UzuAH1ros,172
+listparser/foaf.py,sha256=LsbP8Q2_633zdR0iqaEBZu8QdGPFvveu3AyWwz1-rNM,5293
+listparser/igoogle.py,sha256=ogTOtT6BNOE4KjeXL0t4X1xv1EBcka7QlPS2xckYP3s,1322
+listparser/opml.py,sha256=VWBrdwXK7DpQoyN59nSnjQDYWTv60ELRCZ1snNtv-VM,4806
+listparser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+listparser/xml_handler.py,sha256=743ECU5OYeEMOT18Q3juB1UexknnoYC6774HMAKG2us,7980
+listparser-0.20.dist-info/LICENSE.txt,sha256=xPlaVSFHtFnAAfBP9nVD5h9jGHXtCOyPnnSkqaDByus,1094
+listparser-0.20.dist-info/METADATA,sha256=fPObOvI-_wHqd-0LRd34OqJP8Xj2CD93ZQG4Gr70ZXo,4517
+listparser-0.20.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+listparser-0.20.dist-info/RECORD,,
