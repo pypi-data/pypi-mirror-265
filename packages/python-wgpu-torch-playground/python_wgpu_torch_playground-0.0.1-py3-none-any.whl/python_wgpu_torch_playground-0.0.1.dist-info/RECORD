@@ -1,0 +1,9 @@
+python_wgpu_torch_playground/add_1d_array.py,sha256=_qoKf4NrF1dtr6SEvN4y32UxAIpNHKe4Dwzk-SH7jz4,3892
+python_wgpu_torch_playground/add_1d_array.wgsl,sha256=Kwms29nEjBPYj1iEUnhXAw7UKn84HlBWWerbG8DWRXY,339
+python_wgpu_torch_playground/mine/min_max.py,sha256=g_yplYilg5IQAr4JMCiD3lCmvZVt9yusS8YX2RbMOi0,1928
+python_wgpu_torch_playground/mine/min_max.wgsl,sha256=Z1mN-P8tg0lTfwKfzwDLRY5HMvBgUijYsVRXr2sx1xo,257
+python_wgpu_torch_playground-0.0.1.dist-info/LICENSE,sha256=_OAU57QOCZQUcrIVali-lFRKkoI9dR2ZOsjozQ0Jlos,1076
+python_wgpu_torch_playground-0.0.1.dist-info/METADATA,sha256=cVgzlmsIkRcwq0_qMa08yB532l2-ibM9XK0yPEgKuUo,4173
+python_wgpu_torch_playground-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_wgpu_torch_playground-0.0.1.dist-info/top_level.txt,sha256=Ix-Trr4Ci2DANgiMVj2pn8czzLausR4m6OBHUBdfO6c,29
+python_wgpu_torch_playground-0.0.1.dist-info/RECORD,,
