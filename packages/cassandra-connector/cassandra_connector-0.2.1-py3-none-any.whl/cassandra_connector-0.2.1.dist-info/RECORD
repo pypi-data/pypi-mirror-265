@@ -1,0 +1,8 @@
+cassandra_connector/__init__.py,sha256=t-iH4Dr6fph3PwgkGR-dPkTxOa2pelLDSYFQxkGrJ_8,121
+cassandra_connector/cassandra_connector.py,sha256=YavAx2IDpajKeeNcz4j-ozEL3EkhurrAEGaOUv9IrA8,12186
+cassandra_connector/cassandra_connector_manager.py,sha256=yqqtV77mdjICKWcb9oCUnEZrmn8rGd_Be1VtMBby9NE,4948
+cassandra_connector-0.2.1.dist-info/LICENSE,sha256=saChOsWS8j6pzAg-yNp6r76ybJap7Xjp1RY_16KRwbA,1106
+cassandra_connector-0.2.1.dist-info/METADATA,sha256=eAcr2i_e7Q6u0Njswx_JPd7LWsuRtKdDrjukaxcYXVs,5505
+cassandra_connector-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cassandra_connector-0.2.1.dist-info/top_level.txt,sha256=_xPXKvOTngX0GlmzD1CfjBsBl-DFZcnZRqBgYPaBW3M,20
+cassandra_connector-0.2.1.dist-info/RECORD,,
