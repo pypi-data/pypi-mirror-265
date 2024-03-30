@@ -1,0 +1,14 @@
+
+[dev]
+ruff
+mypy
+pytest
+pytest-cov
+cython
+numpy
+gurobipy
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-autodoc-typehints
