@@ -1,0 +1,2 @@
+# Example of MANIFEST.in
+exclude images/*
