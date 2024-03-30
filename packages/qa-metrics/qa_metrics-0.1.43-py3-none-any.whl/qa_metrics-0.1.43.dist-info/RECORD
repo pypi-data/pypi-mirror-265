@@ -1,0 +1,14 @@
+qa_metrics/__init__.py,sha256=vyBQmK01laxzAe2za38KlWLoqIkk25Jgmra8giWScnI,2324
+qa_metrics/bem.py,sha256=9-8RFesWqXA2SOeOH3LxtnJcaDA45SG9MwC4zL_FY1Q,53
+qa_metrics/cfm.py,sha256=sWnEP0qECWkpg8EBdxDssFcPpTqJnXrOtomEj8hLqL4,14032
+qa_metrics/em.py,sha256=22o2ihGM_BftfmO02Zs0tQYc-pptmdSlGl7-Jv4So-E,995
+qa_metrics/f1.py,sha256=9sv4wYFWcom2rNV5YAqnioPurgMd7by70kF5pSCZndU,2633
+qa_metrics/pedant.py,sha256=iIP4O0RUXbO-EfdNELM5Pc9KJQnA2ipXOfMukaP9pS0,15101
+qa_metrics/transformerMatcher.py,sha256=gIlqBLxBZraZVYy6tZ-PF8sqtlKVFOLGiWS-3VBz8u8,10109
+qa_metrics/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qa_metrics/utils/tools.py,sha256=kpYX9leGfL3mUMFS6H48-Q_ZttcCQ13LLI7BULlZ4ww,2052
+qa_metrics-0.1.43.dist-info/LICENSE,sha256=EYpcsp9e6C_TYzWmHVcQMFKXHRUyByrLZOqzyB6ZKJw,1071
+qa_metrics-0.1.43.dist-info/METADATA,sha256=a2W_6gLnXUK9UGTVhOHXeDAxq0yTglpKqL-DXMR0EWc,6730
+qa_metrics-0.1.43.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+qa_metrics-0.1.43.dist-info/top_level.txt,sha256=4cIlh49vxaUIhY1i2iupNtIjMtbtL3yKo5Nbo_PV2tU,11
+qa_metrics-0.1.43.dist-info/RECORD,,
