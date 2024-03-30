@@ -1,0 +1,11 @@
+deploymodel/__init__.py,sha256=hg5qEyMSYxIC202t0Eq8e980vAxkfdkL8j_OvY9WLXI,84
+deploymodel/docker_utils.py,sha256=4uLwr93kPiuCF0zNEqAPpqX0tuT2wq6pBP5Db6AZ6kg,1476
+deploymodel/io/__init__.py,sha256=MX5a3sX3QIYmg0PvlV1g9KMEPvjDnUCuekVa9tmW8-Q,275
+deploymodel/main.py,sha256=sOzET6AD9XHt0XUzTi0MzIwCCecOGrvEXQHlJTHoixY,6043
+deploymodel/serverless/__init__.py,sha256=1KyCY_KoVnhXTP7_-ePXYV9DFennX2qEmTT4TkQ-rhI,2773
+deploymodel/set_env.py,sha256=cd5oARKOi0NRVAmc8SN18KwyhGb00YWeowzCYmkJRm8,243
+deploymodel/settings.py,sha256=JyTf8hDtqmOiSgY6dsCrmOZDl6KvdRA_AJBOpU6FI_4,41
+deploymodel-0.1.9.dist-info/METADATA,sha256=FV7iIEh4sf9EiBJ-FrZWT231NWOEJv7Zc9KsbbYOnBw,1175
+deploymodel-0.1.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+deploymodel-0.1.9.dist-info/entry_points.txt,sha256=3igUVhQKMfaKQ_Wksq99K4JKS0ooyx41sV7OEERI2CE,74
+deploymodel-0.1.9.dist-info/RECORD,,
