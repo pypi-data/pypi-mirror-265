@@ -1,0 +1,15 @@
+LICENSE
+setup.py
+doupand/__init__.py
+doupand.egg-info/PKG-INFO
+doupand.egg-info/SOURCES.txt
+doupand.egg-info/dependency_links.txt
+doupand.egg-info/requires.txt
+doupand.egg-info/top_level.txt
+doupand/api/__init__.py
+doupand/api/client.py
+doupand/api/dp_url.csv
+doupand/utils/__init__.py
+doupand/utils/cons.py
+doupand/utils/dp_tk.csv
+doupand/utils/userauth.py
