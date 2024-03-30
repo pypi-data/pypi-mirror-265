@@ -1,0 +1,26 @@
+================================== test - 03/30/24 02:45:48
+==================== PARAM
+JOB TAG      : test
+LOG FILE     : slurm_output/test.log
+SCRIPT FILE  : slurm_output/test.sh
+==================== TIME
+DATE GEN     : 03/30/24 02:45:48
+DATE RUN     : 03/30/24 02:45:48
+==================== SLURM
+JOB ID       : NOT SLURM
+JOB NAME     : NOT SLURM
+JOB NODE     : NOT SLURM
+==================== ENV VAR
+==================== RUN: version
+Python 3.10.12
+==================== RUN: hello
+enter script
+    ARGUMENT = hello world!
+    VARWORLD = Welcome to everyone
+exit script
+==================== RUN: goodbye
+enter script
+    ARGUMENT = goodbye world!
+    VARWORLD = Welcome to everyone
+exit script
+================================== test - 03/30/24 02:45:48
