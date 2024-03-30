@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cotiara
+Version: 0.1.1
+Summary: An interpreter written in Python for the Cotiara language
+Author: dimabreus
+Author-email: dmitriybreus5@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: keyboard
+Requires-Dist: pyautogui
