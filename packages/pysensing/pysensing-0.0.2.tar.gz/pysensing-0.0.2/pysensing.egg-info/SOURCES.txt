@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pysensing/__init__.py
+pysensing/_version.py
+pysensing.egg-info/PKG-INFO
+pysensing.egg-info/SOURCES.txt
+pysensing.egg-info/dependency_links.txt
+pysensing.egg-info/requires.txt
+pysensing.egg-info/top_level.txt
+pysensing.egg-info/zip-safe
+requirements/docs.txt
+requirements/runtime.txt

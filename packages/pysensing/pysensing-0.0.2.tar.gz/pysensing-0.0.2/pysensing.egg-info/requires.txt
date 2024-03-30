@@ -1,0 +1,11 @@
+torch==2.*
+
+[all]
+torch==2.*
+tsmoothie
+
+[docs]
+tsmoothie
+
+[runtime]
+torch==2.*
