@@ -1,0 +1,9 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+WFMPlan/ErlangC.py
+WFMPlan/__init__.py
+WFMPlan.egg-info/PKG-INFO
+WFMPlan.egg-info/SOURCES.txt
+WFMPlan.egg-info/dependency_links.txt
+WFMPlan.egg-info/top_level.txt
