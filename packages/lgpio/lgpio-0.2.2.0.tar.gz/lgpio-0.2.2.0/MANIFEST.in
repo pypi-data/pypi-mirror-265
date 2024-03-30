@@ -1,0 +1,3 @@
+include lgpio_extra.py
+include src/lg*.h
+include src/rgpiod.h
