@@ -1,0 +1,10 @@
+benchclients/__init__.py,sha256=c4dJt6KKIBRgYCwWTdJ59JihiXGBJOefG9yi-waUJRc,223
+benchclients/_version.py,sha256=cp9gQGKi6nzTjEr4tlbb7YncgMunZy6Unm2cC-Csvio,65
+benchclients/base.py,sha256=HQd7dkHgMZJte6SqUjTm9RClD7VUBI8zUwmzu0552Xo,3001
+benchclients/conbench.py,sha256=_Gvpp05FMzCi7Tc8378b7N2AN7HePtdzxgOB1VBwhYE,7658
+benchclients/http.py,sha256=5EzLbka9LvPPM0edrolSd-mkQqsNirZ6M7KtPWr1Yog,14115
+benchclients/logging.py,sha256=PNeL8kuawogDAbrmsgTMNoMwu-M-coEwkDbnGd00Gj4,370
+benchclients-2024.3.29.dist-info/METADATA,sha256=kZxqV2A8O5QrScf09HG3-hD-VXeHOwWDPNvRQC_ZFdU,4387
+benchclients-2024.3.29.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+benchclients-2024.3.29.dist-info/top_level.txt,sha256=-aAwnmr1fnTzZFSRjc39Bmb4UxVI4jaZbjuX1b4V5xc,13
+benchclients-2024.3.29.dist-info/RECORD,,
