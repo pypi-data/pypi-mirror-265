@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_textract_cli.py
+textract_cli/__init__.py
+textract_cli/__main__.py
+textract_cli/cli.py
+textract_cli.egg-info/PKG-INFO
+textract_cli.egg-info/SOURCES.txt
+textract_cli.egg-info/dependency_links.txt
+textract_cli.egg-info/entry_points.txt
+textract_cli.egg-info/requires.txt
+textract_cli.egg-info/top_level.txt

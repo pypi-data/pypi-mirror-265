@@ -1,0 +1,2 @@
+[console_scripts]
+textract-cli = textract_cli.cli:cli
