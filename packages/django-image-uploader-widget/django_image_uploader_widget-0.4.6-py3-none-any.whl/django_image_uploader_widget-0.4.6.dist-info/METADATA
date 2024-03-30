@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: django-image-uploader-widget
+Version: 0.4.6
+Summary: Simple Image Uploader Widget for Django-Admin
+Author-email: Eduardo Oliveira <eduardo_y05@outlook.com>
+Maintainer-email: Eduardo Oliveira <eduardo_y05@outlook.com>
+License: MIT License
+        
+        Copyright (c) 2021 Eduardo José de Oliveira
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/inventare/django-image-uploader-widget
+Project-URL: documentation, https://inventare.github.io/django-image-uploader-widget/
+Keywords: django,admin,widget,image,uploader
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django >=3.2
+Requires-Dist: Pillow
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: playwright ; extra == 'test'
+
+# django-image-uploader-widget
+
+## Introduction
+
+A beautiful image uploader widget for **django** and **django-admin**.
+
+### Basic Preview
+
+![Widget-Dark](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/widget_dark.png#gh-dark-mode-only)![Widget-Light](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/widget_light.png#gh-light-mode-only)
+
+![Widget-Dark-Image](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/widget_dark_image.png#gh-dark-mode-only)![Widget-Light-Image](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/widget_light_image.png#gh-light-mode-only)
+
+### Widget Behaviour
+
+![Behaviour-Dark](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/behaviour_dark.gif#gh-dark-mode-only)![Behaviour-Light](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/behaviour_light.gif#gh-light-mode-only)
+
+### Theme Toggle With Django 4.2+
+
+![Theme-Toggle](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/behaviour_theme_toggle.gif)
+
+### Django-Admin Inline Widget for Multiple Files Handling
+
+![Admin-Behaviour-Dark](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/behaviour_inline_dark.gif#gh-dark-mode-only)![Admin-Behaviour-Light](https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/behaviour_inline_light.gif#gh-light-mode-only)
+
+## Documentation
+
+To understand this package and how to use it you can access the package [documentation](https://inventare.github.io/django-image-uploader-widget/).
+
+## Installing
+
+Install via pip package manager:
+
+```bash
+pip install django-image-uploader-widget
+```
+
+Add to installed apps, in `settings.py`:
+
+```python
+INSTALLED_APPS = [
+    # ...
+    'image_uploader_widget',
+    # ...
+]
+```
+
+##  Usage
+
+### With Admin
+
+```python
+# admin.py
+from django.contrib import admin
+from django.db import models
+from image_uploader_widget.widgets import ImageUploaderWidget
+from .models import YourModel
+
+
+@admin.register(YourModel)
+class YourModelAdmin(admin.ModelAdmin):
+    formfield_overrides = {
+        models.ImageField: {'widget': ImageUploaderWidget},
+    }
+```
+
+### With ModelForm
+
+```python
+# forms.py
+from django import forms
+from image_uploader_widget.widgets import ImageUploaderWidget
+
+class ExampleForm(forms.ModelForm):
+    class Meta:
+        widgets = {
+            'image': ImageUploaderWidget(),
+        }
+        fields = '__all__'
+```
