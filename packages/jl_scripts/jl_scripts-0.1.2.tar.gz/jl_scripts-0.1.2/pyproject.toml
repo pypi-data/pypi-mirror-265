@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jl_scripts"
+version = "0.1.2"
+description = ""
+authors = ["Julie Nguyen <tun50867@temple.edu>"]
+readme = "README.md"
+packages = [{ include = "jl_scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.14"
+streamlit = "^1.32.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
