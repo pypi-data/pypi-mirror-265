@@ -1,0 +1,2 @@
+[console_scripts]
+cotiara = cotiara.main:main
