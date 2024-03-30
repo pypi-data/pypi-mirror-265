@@ -1,0 +1,2 @@
+[console_scripts]
+pytify_stats = pytify_stats.__main__:main
