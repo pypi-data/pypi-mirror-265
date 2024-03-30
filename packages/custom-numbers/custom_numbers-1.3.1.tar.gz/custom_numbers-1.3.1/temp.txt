@@ -1,0 +1,25 @@
+TODO: bump version
+
+python -m pytest tests/test_gear_iterator.py
+
+
+
+self._init_value is not None and len(self._init_value) > 0 and 
+
+from custom_numbers import custom_numbers as cn
+s = cn.CustomNumeralSystem("0123456789")
+
+g1 = cn.GearIterator(s, 1, 3, "8")
+next(g1)
+
+gi = cn.GearIterator(s)
+next(gi)
+
+
+from custom_numbers import custom_numbers as cn
+sys10 = cn.CustomNumeralSystem("0123456789")
+it = cn.GearIterator(sys10, 0, 0, "", "3")
+result = list(it)
+expected = [0, 1, 2]
+assert result == expected
+
