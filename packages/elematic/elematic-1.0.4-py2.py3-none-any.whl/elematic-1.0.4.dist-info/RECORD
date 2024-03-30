@@ -1,0 +1,14 @@
+elematic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elematic/api/MatML_api.py,sha256=d1-H3O3RqfPuEE9eqdZzpwIwCKmki2UxGsF8Cn9dmKw,504402
+elematic/api/MatML_api_subs.py,sha256=eonP46hyFpXJj8SONaef3Db4CwmELok-rK6E_wWgiLo,21064
+elematic/api/__init__.py,sha256=TLr57Muoq6LjJ86XajN3YM4c6H0rihSdymQnDs3O1xU,68
+elematic/api/io.py,sha256=0YuBLxxKjUD9KhZvxUjZ3zQoBP16KMj-RG3F2hGlO7I,23400
+elematic/api/utilities.py,sha256=BEATMRVm-hxKgqQ3RrZig4wJ2igq7dHwUPKGR5QoTjU,14708
+elematic/res/matml31.xsd,sha256=_wVkc0QRKB0ab6R9WhwY10NHuvPnKBf2M7hTDxyumig,113954
+elematic/res/example_matml/INCONEL 718 - ASTM F3055 CLASS D.xml,sha256=tc2Ciex016vDqSHmp1NmvEFx-b6_Gfpid9GadBRdnZE,5791
+elematic/res/example_matml/MatML3e1.xml,sha256=Q6JzLosOWw3nLphh8QZpeJzkoxg-p4Gz7tUsJhIpHSw,7496
+elematic/res/example_matml/MatML3e2.xml,sha256=luhdoj0jmkkjmsmtvMqzZHtsrvv0ThKJlB75Rro4Hz8,6008
+elematic-1.0.4.dist-info/METADATA,sha256=PtTzrmcrD31c2h5SN8Ox2QCsrGL5t8E43vJn21EbUtI,3843
+elematic-1.0.4.dist-info/WHEEL,sha256=q6Ejfpj4HRnt7o1XWgEOo5g7W0PKmxxzhdMpcVNBe68,105
+elematic-1.0.4.dist-info/licenses/LICENSE,sha256=-PKbqvKVZiEQB4d5oDUBvcKpwFnLSfYXgVMKHtPOtlM,1065
+elematic-1.0.4.dist-info/RECORD,,

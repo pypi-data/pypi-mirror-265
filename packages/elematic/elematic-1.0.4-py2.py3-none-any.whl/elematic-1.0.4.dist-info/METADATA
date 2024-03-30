@@ -1,0 +1,83 @@
+Metadata-Version: 2.3
+Name: elematic
+Version: 1.0.4
+Summary: Material information management via MatML for Python
+Project-URL: Homepage, https://github.com/nogula/elematic
+Project-URL: Repository, https://github.com/nogula/elematic
+Project-URL: Documentation, https://github.com/nogula/elematic/wiki
+Project-URL: Issues, https://github.com/nogula/elematic/issues
+Author: Noah Gula
+License: MIT License
+        
+        Copyright (c) 2024 NOAH GULA
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: MatML,information,management,materials
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lxml
+Requires-Dist: openpyxl
+Requires-Dist: six
+Description-Content-Type: text/markdown
+
+<h1 align='center'> elematic </h1>
+
+Materials information management utilities in Python using the MatML schema from NIST.
+
+## Features
+
+- Convert MatML XML files to Python data structures.
+- Inspect and edit materials information.
+- Use materials information in other Python projects.
+
+## Documentation
+
+[Documentation](https://github.com/nogula/elematic/wiki) is available, but still in work.
+## Installation
+
+Install elematic with pip from pypi.
+
+```bash
+pip install --upgrade elematic
+```
+## Usage
+
+This package comprises four utilities:
+
+1. `elematic.api.MatML_api`: forms the basic classes and data structure for interacting with MatML data.
+1. `elematic.api.io`: provides means to import and export MatML data from XML and other files.
+1. `elematic.api.utilities`: provides helper functions to streamline the interaction of materials information.
+1. `elematic.gui`: (not yet implemented) provides a means of visually inspecting and editing MatML data.
+
+See the [Wiki tutorial](https://github.com/nogula/elematic/wiki/Tutorial) for more help.
+
+## Credits & Acknowledgements
+- This project is based entirely on the MatML schema, originally developed by NIST. Thank you, NIST.
+- The initial API was created by conversion of the MatML 3.1 schema to a Python data structure via [generateDS](http://www.davekuhlman.org/generateDS.htm) by Dave Kuhlman. Thank you, Dave.
+
+## See Also
+- [MatEditor](https://docs.welsim.com/mateditor/mateditor_overview/): a free material editor software program for engineers.
+- [BT-MatML-Editor](https://github.com/P-McG/BT-MatML-Editor): a text editor for the MatML 3.1 XML Schema.
+- [matml](https://www.mathworks.com/matlabcentral/fileexchange/19686-matml): converts between MATLAB and MatML data.
+
+## License
+Copyright is released under the [MIT](https://raw.githubusercontent.com/nogula/elematic/main/LICENSE) license.
