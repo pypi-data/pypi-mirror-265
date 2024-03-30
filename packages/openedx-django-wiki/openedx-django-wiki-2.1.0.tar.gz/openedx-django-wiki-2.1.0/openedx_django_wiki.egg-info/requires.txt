@@ -1,0 +1,6 @@
+django
+bleach[css]>=6.0.0
+sorl-thumbnail
+django-mptt
+django-sekizai
+Markdown
