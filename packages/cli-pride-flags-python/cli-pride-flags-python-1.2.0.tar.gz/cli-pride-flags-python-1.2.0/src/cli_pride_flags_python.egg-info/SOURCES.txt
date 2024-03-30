@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/cli_pride_flags_python.egg-info/PKG-INFO
+src/cli_pride_flags_python.egg-info/SOURCES.txt
+src/cli_pride_flags_python.egg-info/dependency_links.txt
+src/cli_pride_flags_python.egg-info/entry_points.txt
+src/cli_pride_flags_python.egg-info/requires.txt
+src/cli_pride_flags_python.egg-info/top_level.txt
+src/pride_flags/__init__.py
+src/pride_flags/entry.py
+src/pride_flags/flags.py

@@ -1,0 +1,2 @@
+[console_scripts]
+pride = pride_flags.entry:cli_entry_point
