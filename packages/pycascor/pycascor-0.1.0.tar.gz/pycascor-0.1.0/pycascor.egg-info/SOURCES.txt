@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pycascor/__init__.py
+pycascor/activation_functions.py
+pycascor/learning_algorithms.py
+pycascor/network.py
+pycascor/nodes.py
+pycascor/trainer.py
+pycascor.egg-info/PKG-INFO
+pycascor.egg-info/SOURCES.txt
+pycascor.egg-info/dependency_links.txt
+pycascor.egg-info/requires.txt
+pycascor.egg-info/top_level.txt
