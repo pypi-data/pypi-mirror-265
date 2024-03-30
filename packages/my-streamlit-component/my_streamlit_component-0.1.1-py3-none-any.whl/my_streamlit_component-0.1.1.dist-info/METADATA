@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: my-streamlit-component
+Version: 0.1.1
+Summary: A custom Streamlit component for Chart.js
+Home-page: UNKNOWN
+Author: Charly Wargnier
+Author-email: cwar05@gnail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+
+
+# My Streamlit Chart Component
+
+Welcome to My Streamlit Chart Component, a versatile charting library designed for the Streamlit framework. This component allows users to quickly and easily create a variety of interactive charts to visualize their data within a Streamlit application.
+
+## Installation
+
+To install My Streamlit Chart Component, run the following command:
+
+```
+pip install my-streamlit-chart-component
+```
+
+## Usage
+
+After installation, you can use the component in your Streamlit app to render charts. Here's how to get started:
+
+```python
+import streamlit as st
+from my_streamlit_component.st_chart_component import my_chart_component
+
+# Define your data
+data = {
+    "labels": ["January", "February", "March", "April"],
+    "datasets": [
+        {
+            "label": "My Data",
+            "data": [10, 20, 30, 40],
+            # Further dataset properties...
+        }
+    ],
+}
+
+# Render a chart
+my_chart_component(data=data, chart_type="bar")
+```
+
+## Supported Chart Types
+
+- Bar Chart
+- Line Chart
+- Doughnut Chart
+- Pie Chart
+- Radar Chart
+
+## Parameters
+
+- `data`: (dict) The data for the chart, structured as per Chart.js documentation.
+- `chart_type`: (str) The type of chart to display (e.g., 'bar', 'line').
+- `title`: (str) The title of the chart.
+- `legend_position`: (str) The position of the chart's legend (e.g., 'top', 'bottom').
+- `x_axis_title`: (str) The title for the x-axis.
+- `y_axis_title`: (str) The title for the y-axis.
+- Additional parameters will be added here...
+
+## Future Enhancements (TODO)
+
+- [ ] Add axis display toggles to control the visibility of the x-axis and y-axis.
+- [ ] Implement grid line configuration options.
+- [ ] Provide chart padding adjustments within the chart area.
+- [ ] Enable detailed animation options for the chart renderings.
+- [ ] Offer tooltip configuration for improved interactivity.
+- [ ] Include aspect ratio control for better layout management.
+- [ ] Introduce responsive behavior toggles to cater to different display sizes.
+- [ ] Create predefined and custom color schemes for charts.
+- [ ] Allow detailed dataset customization for properties like `pointStyle`, `borderDash`, etc.
+- [ ] Enable users to pass custom JavaScript functions for callback hooks such as `onClick`, `onHover` events.
+
+## Contributing
+
+Contributions to My Streamlit Chart Component are welcome! Please read our contribution guidelines for details on how to submit changes and how to set up a development environment for the project.
+
+Thank you for using My Streamlit Chart Component!
+
