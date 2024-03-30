@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wfmplan
+Version: 0.2.0
+Summary: library for creating workforce plans based on service level agreements (SLAs) and traffic analysis
+Author: Rishi Laddha
+Author-email: laddha.rishi@gmail.com
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE.txt
+Requires-Dist: pandas
+
