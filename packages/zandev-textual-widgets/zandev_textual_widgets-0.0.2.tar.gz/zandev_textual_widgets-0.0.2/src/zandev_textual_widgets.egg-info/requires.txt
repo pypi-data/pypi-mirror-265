@@ -1,0 +1,4 @@
+Textual>=0.53.1
+
+[:platform_system == "Windows"]
+pywin32
