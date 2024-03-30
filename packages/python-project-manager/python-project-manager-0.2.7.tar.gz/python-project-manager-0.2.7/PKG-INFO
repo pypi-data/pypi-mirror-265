@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: python-project-manager
+Version: 0.2.7
+Summary: A Python package.
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: click~=8.1.7
+Requires-Dist: colorama~=0.4.6
+Provides-Extra: dev
+Requires-Dist: Pygments~=2.17.2; extra == "dev"
+Requires-Dist: build~=1.2.1; extra == "dev"
+Requires-Dist: certifi~=2024.2.2; extra == "dev"
+Requires-Dist: charset-normalizer~=3.3.2; extra == "dev"
+Requires-Dist: docutils~=0.20.1; extra == "dev"
+Requires-Dist: idna~=3.6; extra == "dev"
+Requires-Dist: importlib-metadata~=7.1.0; extra == "dev"
+Requires-Dist: jaraco.classes~=3.3.1; extra == "dev"
+Requires-Dist: jaraco.context~=4.3.0; extra == "dev"
+Requires-Dist: jaraco.functools~=4.0.0; extra == "dev"
+Requires-Dist: keyring~=25.0.0; extra == "dev"
+Requires-Dist: markdown-it-py~=3.0.0; extra == "dev"
+Requires-Dist: mdurl~=0.1.2; extra == "dev"
+Requires-Dist: more-itertools~=10.2.0; extra == "dev"
+Requires-Dist: nh3~=0.2.17; extra == "dev"
+Requires-Dist: packaging~=24.0; extra == "dev"
+Requires-Dist: pkginfo~=1.10.0; extra == "dev"
+Requires-Dist: pyproject_hooks~=1.0.0; extra == "dev"
+Requires-Dist: pywin32-ctypes~=0.2.2; extra == "dev"
+Requires-Dist: readme-renderer~=43.0; extra == "dev"
+Requires-Dist: requests-toolbelt~=1.0.0; extra == "dev"
+Requires-Dist: requests~=2.31.0; extra == "dev"
+Requires-Dist: rfc3986~=2.0.0; extra == "dev"
+Requires-Dist: rich~=13.7.1; extra == "dev"
+Requires-Dist: setuptools~=69.2.0; extra == "dev"
+Requires-Dist: toml~=0.10.2; extra == "dev"
+Requires-Dist: twine~=5.0.0; extra == "dev"
+Requires-Dist: urllib3~=2.2.1; extra == "dev"
+Requires-Dist: zipp~=3.18.1; extra == "dev"
