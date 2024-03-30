@@ -1,0 +1,16 @@
+adviz/__init__.py,sha256=j7GvrHea0Khln4suVcxtMRNb40XET1FlQnNm-voRhrE,310
+adviz/_modidx.py,sha256=_zvtQRDvICdY5gNR7e6BbARvi4CpMuJHUKXNB0dkZ70,1614
+adviz/core.py,sha256=cWUcICMH3xT_x0ZljrBdj0nrbxCno9ND4o_2PCToglY,142
+adviz/flag.py,sha256=8s9PYUyMC9niOCG-9HwjAIhVSZFsaw9MS0pW4FrQoww,19811
+adviz/racing_chart.py,sha256=DbVPAKmUPaUc9MhpM6X6tQD8xQ5EgAT3tVf7KB_TeJw,2732
+adviz/serp_heatmap.py,sha256=57U6fy931oq74hy6ZpAVVEFrkFM8De0t35vO8cUrjJ0,5515
+adviz/status_codes.py,sha256=IwYT6honn2X4cAPkmGC96TXSz41JOyl49uUpXqSHV6c,2478
+adviz/style_table.py,sha256=RoG2SNKrzr9_DtXCBfBJc9ZXUFGFQYrnvidTZ1uK_H0,4789
+adviz/url_structure.py,sha256=ng8cqyz-_os5d0lAeameLHH5AbF_YmqIEw6-GCo_3z4,3156
+adviz/value_counts_plus.py,sha256=ttcxMS2NKtWAqEJbur3tc2APmAycBie5n7agMRQ2YYY,4089
+adviz-0.0.17.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+adviz-0.0.17.dist-info/METADATA,sha256=nY-a6IhDNT7wNEkD2bF4ClvkJc0lrXlMfUM6e4-WaeQ,1186
+adviz-0.0.17.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+adviz-0.0.17.dist-info/entry_points.txt,sha256=VWchZvEMTzcbu6vJwMdK7fhADznOYY0-hqcaGpIfNqM,32
+adviz-0.0.17.dist-info/top_level.txt,sha256=55C9eYPqUJW-HJyxrOVGvTGV8aTW7V1Wk5JFpmOIH9o,6
+adviz-0.0.17.dist-info/RECORD,,
