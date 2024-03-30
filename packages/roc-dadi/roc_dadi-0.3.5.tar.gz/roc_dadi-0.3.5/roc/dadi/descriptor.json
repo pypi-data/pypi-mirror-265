@@ -1,0 +1,72 @@
+{
+  "identification": {
+    "project": "RPW",
+    "identifier": "roc.dadi",
+    "name": "Data Dispatcher (DADI)",
+    "description": "Module to handle data files read/write by the pipeline"
+  },
+  "release": {
+    "version": "0.3.5",
+    "date": "2024-03-29",
+    "author": "ROC Team <roc.support@sympa.obspm.fr>",
+    "institute": "LESIA",
+    "modification": "Update Python deps",
+    "url": "https://gitlab.obspm.fr/ROC/Pipelines/Plugins/DADI"
+  },
+  "tasks": [
+    {
+      "name": "deliver_data",
+      "category": "File handling",
+      "description": "Deliver RPW data files to Solar Orbiter Archive (SOAR) at ESAC",
+      "inputs": {},
+      "outputs": {}
+    },
+    {
+      "name": "check_archived_data",
+      "category": "File handling",
+      "description": "Check if RPW data files have been well transferred to ESAC and flag files as delivered",
+      "inputs": {},
+      "outputs": {}
+    },
+    {
+      "name": "fetch_data",
+      "category": "File handling",
+      "description": "Fetch input RPW files to process from data directory",
+      "inputs": {
+        "rpw_files": {
+          "identifier": "SOLO_RPW_FILES"
+        }
+      },
+      "outputs": {}
+    },
+    {
+      "name": "publish_data",
+      "category": "File handling",
+      "description": "Publish RPW private data in the public server",
+      "inputs": {
+        "rpw_file_pattern": {
+          "identifier": "RPW_FILE_PATTERN"
+        }
+      },
+      "outputs": {
+        "rpw_files": {
+          "identifier": "RPW_DATA_FILES"
+        }
+      }
+    },
+    {
+      "name": "share_data",
+      "category": "File handling",
+      "description": "Share RPW data in the private server",
+      "inputs": {
+        "source_dir": {
+          "identifier": "RPW_DATA_SOURCE_DIR"
+        },
+        "target_dir": {
+          "identifier": "RPW_DATA_TARGET_DIR"
+        }
+      },
+      "outputs": {}
+    }
+  ]
+}
