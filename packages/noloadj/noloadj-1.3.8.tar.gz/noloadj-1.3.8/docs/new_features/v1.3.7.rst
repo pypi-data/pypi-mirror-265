@@ -1,0 +1,19 @@
+What's new in version 1.3.7
+===========================
+Version available since March 8th 2024
+
+New Features
+------------
+- Add one file 'ode_extracted_features' to group features that can be extracted from ODE simulation.
+- Add one extracted frequency feature : 'THD' for Total Harmonic Distortion.
+- New tests in Test_Jacobien_ODE_System file : check the gradients for odeint45_extract function with final time and threshold value as stopping criteria.
+
+Changes
+-------
+- Delete two files 'ode45_fft' and 'ode45_extract_fft'.
+- features from ode_extracted_features file are defined as classes instead of functions.
+
+
+Contributors
+------------
+Lucas Agobert
