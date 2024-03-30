@@ -1,0 +1,11 @@
+slurmgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slurmgen/gen.py,sha256=emnvO3H_4-VNBQzhO5qMdjjNdJLmF3oXjfOk6KeMBxA,8345
+slurmgen/run.py,sha256=eWjkC7HUfNUJhEf0VEk89J_ysS1Bf9Wa147R5ZRKpAk,3027
+slurmgen/script.py,sha256=y2ARxOKJkm14jweY0-84kyJ0FImcytCNjrCqqNyKi1U,7432
+slurmgen/version.txt,sha256=ojyOaxZvgxpbs8G94LZrGFxuPlkFKS6Kgq_q-EF6VHY,5
+slurmgen-3.2.0.dist-info/LICENSE.txt,sha256=jOq61RqaltHGqROljvWch9PbeG5ee8sChTfZjIazUrs,1303
+slurmgen-3.2.0.dist-info/METADATA,sha256=rJ0JLQQX_44-AxJl8UeTuzyQtJ1A54RIL98DJOtbHxY,3106
+slurmgen-3.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+slurmgen-3.2.0.dist-info/entry_points.txt,sha256=uCSujlPsXGCraVOyfY2hxgUJuTFVSGxb4ICFuwIzEsI,52
+slurmgen-3.2.0.dist-info/top_level.txt,sha256=GelsxgG8xYiBI0XuMakpbLn3o8kKlBS7feMXj-G4qpw,9
+slurmgen-3.2.0.dist-info/RECORD,,
