@@ -1,0 +1,17 @@
+automizor/__init__.py,sha256=sGB9k9WGKc1deB5Ed1VSDGw6r-9LR940_a0SZxc8ezE,19
+automizor/job/__init__.py,sha256=qG4baomcuQxy7CDqBH5hloK4PF53OWO5tyv94L6H_xA,1137
+automizor/job/_exceptions.py,sha256=4PaJNMLEicQeWicEcvJAn-iebevb1Mb_dR3oAtxY__Q,248
+automizor/job/_job.py,sha256=mzsGw0T_9LsFAYAKWhBSz1JXEu5wSf2lGJM3AC-Pg0w,5753
+automizor/storage/__init__.py,sha256=IQQjUraiMoPd0bN5pI0X2nBEwyNWh36-3MBhOps2L5I,4122
+automizor/storage/_exceptions.py,sha256=oYy09WDOVwa4_JCq2QnJBBh3u9KxPX9CSh4xK9klfbE,256
+automizor/storage/_storage.py,sha256=I5kGmNfdnfND6bIe_5y8gIHaGkX-Zrab2H1XwKzRWKU,11733
+automizor/utils/__init__.py,sha256=_Dwicj2Foi6RgIIqIip9hJTfdfWVpI-ZM5F_x02YZkM,358
+automizor/vault/__init__.py,sha256=sfPxPCd5wGagtz7PMPHbBWzjSaYlobmQp0H9IDqOjX4,1819
+automizor/vault/_container.py,sha256=TXwNhjK-qrfu_5iDJm1J0Kkuyq22dLdES1DqjAAKnWA,1953
+automizor/vault/_exceptions.py,sha256=EVl4WlUEf5BLoOwE0sMr_mvV7K1rYfB-FVNgf4aof7o,254
+automizor/vault/_vault.py,sha256=UT7loDyyhYa6jHTUy5y7Fu232QKGBSTezlQpHrop33A,5319
+automizor-0.3.10.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+automizor-0.3.10.dist-info/METADATA,sha256=wnFT_OxYQAg20gD4Qr9R0-XmWkf8pXCx9CsYkgchzpE,662
+automizor-0.3.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+automizor-0.3.10.dist-info/top_level.txt,sha256=gScDy4I3tP6BMYAsTAlBXrxVh3E00zV0UioxwXJOI3Y,10
+automizor-0.3.10.dist-info/RECORD,,
