@@ -1,0 +1,19 @@
+owlready2
+
+[:python_version < "3.9"]
+importlib_resources
+
+[dev]
+pytest>=7
+black>=22
+flake8>=4
+
+[doc]
+pytest>=7
+sphinx>=4.5
+sphinx-autodoc-typehints>=1.16
+pydata-sphinx-theme<0.15
+tabulate
+
+[test]
+pytest>=7
