@@ -1,0 +1,10 @@
+venvjail/__init__.py,sha256=43URsDZT7FpMQXDy6U4_QFFSy75NgCN3N1jW-AAp1Wc,122
+venvjail/cli.py,sha256=FEIC_vM5V9dd_seJV1QAUaFusdZvq5EW6bytegmMmo0,439
+venvjail/venvjail.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+venvjail-0.0.0.dist-info/AUTHORS.rst,sha256=cPhscu5F9JZMDT8qQzxS7qLDlkkJ3IWIO1S5M_51SO8,152
+venvjail-0.0.0.dist-info/LICENSE,sha256=jYtouBMYSvkwW29MY2pBG1SCI8zjGIX2esx6z-Qz_fM,1069
+venvjail-0.0.0.dist-info/METADATA,sha256=8NcD8z2BGQGwDnath-n11_hIZeFf3CDy-KX6-RbdJT8,5102
+venvjail-0.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+venvjail-0.0.0.dist-info/entry_points.txt,sha256=aPz-Y_7WtDkbyM0XrucdU7wgstKo0hX8xk8ylSdy_1U,47
+venvjail-0.0.0.dist-info/top_level.txt,sha256=yaPgbL6g219C8pQcbB4v6HpV8A_nEBeUJu_dHGUiPSY,9
+venvjail-0.0.0.dist-info/RECORD,,
