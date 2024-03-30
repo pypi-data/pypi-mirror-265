@@ -1,0 +1,15 @@
+matplotlib
+numpy
+astropy
+scipy
+requests
+
+[dev]
+jupyter
+pre-commit
+pytest
+pytest-cov
+ruff
+
+[test]
+pytest
