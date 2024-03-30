@@ -1,0 +1,7 @@
+test_bayesian_average/__init__.py,sha256=gf-DF6QKAwCeQ785pm1hsK2MJqPjocxODnsBi0oQs0k,55
+test_bayesian_average/average.py,sha256=oz4OR59SZ-jXtsFVV7R7qsJzJrwFPDDW51Zh5KnbPkM,4827
+test_bayesian_average-0.0.3.dist-info/LICENSE.txt,sha256=Hw3oHeP0DIna0dKgRcYVXNZjCZxf3boXAZw94hBc6kE,1274
+test_bayesian_average-0.0.3.dist-info/METADATA,sha256=p5c_pZsxHBoQGFtYzCaKRFFNV2O8q4MVtr3LbLJnjhI,259
+test_bayesian_average-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+test_bayesian_average-0.0.3.dist-info/top_level.txt,sha256=3mzpeIb6fBdi5l3uvCFSACu-5twdOqn9di496TQyBCs,22
+test_bayesian_average-0.0.3.dist-info/RECORD,,

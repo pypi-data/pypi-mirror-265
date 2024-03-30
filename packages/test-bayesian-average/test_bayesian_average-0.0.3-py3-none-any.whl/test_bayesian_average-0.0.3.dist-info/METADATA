@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: test-bayesian-average
+Version: 0.0.3
+Summary: Python package to calculate the weighted average using Bayesian methods
+Author: Marleen Maxton
+License: X11
+License-File: LICENSE.txt
+
+The long description will be added in the future.
