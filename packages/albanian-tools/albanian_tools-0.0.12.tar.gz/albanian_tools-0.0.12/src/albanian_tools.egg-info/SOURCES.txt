@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/albanian_tools/__init__.py
+src/albanian_tools/albanian_tools.py
+src/albanian_tools/example.py
+src/albanian_tools.egg-info/PKG-INFO
+src/albanian_tools.egg-info/SOURCES.txt
+src/albanian_tools.egg-info/dependency_links.txt
+src/albanian_tools.egg-info/top_level.txt
+src/albanian_tools/utils/__init__.py
+src/albanian_tools/utils/functions.py
+tests/test_convert_integers.py
+tests/test_remove_leading_numbers.py
+tests/test_replace_numbers_with_albanian_text.py
