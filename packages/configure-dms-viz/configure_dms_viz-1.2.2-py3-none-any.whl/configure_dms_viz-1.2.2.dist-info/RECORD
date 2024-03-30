@@ -1,0 +1,8 @@
+configure_dms_viz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configure_dms_viz/configure_dms_viz.py,sha256=8p7IHyvfiyhLJa7Ugh9gCYComGyO5sw_CG26getA2nM,37893
+configure_dms_viz/pdb_utils.py,sha256=Ln6pUwUFlMZe2z1Vko6sHLBifFtuXWQ_DnrJfguqDqQ,7948
+configure_dms_viz-1.2.2.dist-info/LICENSE,sha256=DB6s3Ao7ldCjG28Rl-VxIVFpdS_7dB0cLbdaZ3hTk3U,1095
+configure_dms_viz-1.2.2.dist-info/METADATA,sha256=IZeorDcvXBlQ5AugOv1O69ukis3cz7mswzxmsO92HOQ,1326
+configure_dms_viz-1.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+configure_dms_viz-1.2.2.dist-info/entry_points.txt,sha256=wSEQ-PwDqceO87gTwGUTPeVluiDcjsvzvt9Rix2OInQ,77
+configure_dms_viz-1.2.2.dist-info/RECORD,,
