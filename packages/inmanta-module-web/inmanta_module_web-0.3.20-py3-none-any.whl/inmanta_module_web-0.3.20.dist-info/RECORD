@@ -1,0 +1,7 @@
+inmanta_plugins/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inmanta_plugins/web/setup.cfg,sha256=XkpuoCr4CkDpgzMBHiSUs4BQgRWk4kvvlOe6fcVyPco,711
+inmanta_plugins/web/model/_init.cf,sha256=XDE2GK04YN6kmPaIVPotTZhQWj2mgTP6jxD3z_y9HTc,2348
+inmanta_module_web-0.3.20.dist-info/METADATA,sha256=Ws4804pe7mUdmp4WJAz46AmqeCGm4EKSrW87GF1KevI,151
+inmanta_module_web-0.3.20.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+inmanta_module_web-0.3.20.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_web-0.3.20.dist-info/RECORD,,
