@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "factorial-app"
+version = "0.1.1"
+description = ""
+authors = ["niran <vnmduc6420@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
