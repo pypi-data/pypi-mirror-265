@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=62.0", "setuptools-git-versioning<2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Wolfy-Avatar-Plugin"
+dynamic=['version']
+authors = [
+  { name="Sparky", email="sparks29032@gmail.com" },
+]
+maintainers = [
+  { name="Sparky", email="sparks29032@gmail.com" },
+]
+description = "Small virtual character plugin to track mouse and keyboard inputs."
+keywords = ["obs-compatible"]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+]
+
+[project.urls]
+Homepage = "https://github.com/Sparks29032/Character_Plugin"
+Issues = "https://github.com/Sparks29032/Character_Plugin/issues"
+
+[tool.setuptools-git-versioning]
+enabled = true
+template = "{tag}"
+dev_template = "{tag}.post{ccount}"
+dirty_template = "{tag}.post{ccount}"
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["*"]  # package names should match these glob patterns (["*"] by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
