@@ -1,0 +1,8 @@
+inmanta_plugins/cron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inmanta_plugins/cron/setup.cfg,sha256=VilFTFR0PPBGRqQBmdQPZjHFqKYzaYNUnO8YPNbfqBs,693
+inmanta_plugins/cron/model/_init.cf,sha256=PPta825w7WdCCBrYfJCfvt_d4MonNriNWC0IL9QzPlA,1622
+inmanta_plugins/cron/templates/cronjob.j2,sha256=US2XBVVovIXD4vqUp-9aQnVrn-VvBMaldnnLQAppeZk,197
+inmanta_module_cron-1.0.12.dist-info/METADATA,sha256=P3fUSwQ8H1E90jE7GsPko1P6ON6XkNSov7-wlKhMt2w,119
+inmanta_module_cron-1.0.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+inmanta_module_cron-1.0.12.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_cron-1.0.12.dist-info/RECORD,,
