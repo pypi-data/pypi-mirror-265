@@ -1,0 +1,22 @@
+dilipred/__init__.py,sha256=A8V4EFQ0YBysopqB3LLKEJvIP5zEZ1cpmZYPG0xUHnQ,32
+dilipred/constants.py,sha256=0ZjhwNFrJ9q4Tbv8pMEc3EF8A-TgHbASgyelvptFeG8,4672
+dilipred/main.py,sha256=f_I5uoFmj3a88MwPPHSUa_Up8fDITBEVWnHuLppGGOw,12167
+dilipred/models/all_features_desc.csv,sha256=73Pz1eif7YHkQdcfKBBAOqkTmyOpw1ud_PWzS5WROh0,21445
+dilipred/models/bestlivmodel_10_model.sav,sha256=H7ocLz3OE-JuCrt-cy6jX9zDlphne_Ry8pxquUanHVw,811589
+dilipred/models/bestlivmodel_11_model.sav,sha256=0Su3eksswpbaxtRN43u-jxIPRwqjdOJMPZunfRT3GBk,1292126
+dilipred/models/bestlivmodel_14_model.sav,sha256=VY1D2eZLmtT7GJxCc7Ov604Nh65eFwfg0RnUyEGmiBE,2058434
+dilipred/models/bestlivmodel_15_model.sav,sha256=3XUfd1aCRvGOl03BTWrdkO_MWVWQ-R_XNQ81rXNpt2I,13943239
+dilipred/models/bestlivmodel_16_model.sav,sha256=bdMIYXD9SkZIwve2ERpdy3agojHtUkdrkRlo8TkzSmM,2032425
+dilipred/models/bestlivmodel_2_model.sav,sha256=7BXntDYRm3-1gSnMrzpAohMGY4D7MQBZrbfZs_jyLKQ,533705
+dilipred/models/bestlivmodel_3_model.sav,sha256=lBI0Cj_JrJDa2mVu--ZhV6q1KVGu8JBD0IlZX-E5E7c,6554640
+dilipred/models/bestlivmodel_5_model.sav,sha256=E3UxUIZ5J0G8jLFXOxa-7z9d13EJnTin5upN2g6rFRw,1243445
+dilipred/models/bestlivmodel_6_model.sav,sha256=QEnqdgl0l23jg3zQ99WHgi-zaMfk0yQp6JmEO8jMjg4,3307574
+dilipred/models/bestlivmodel_7_model.sav,sha256=ojFy0sEuHJAgC6beYzrMnHMF9_sI3alqokejBHDvAJg,3202645
+dilipred/models/bestlivmodel_8_model.sav,sha256=RKCoWJkpETstLFnNHEgdOdWkViuoBpY4k4woOJh0hLs,1477769
+dilipred/models/bestlivmodel_median pMolar total plasma concentration_model.sav,sha256=11B_PxPELjao_alUazYJPdMFOkmj8_vEVHfjJgpic48,4912393
+dilipred/models/bestlivmodel_median pMolar unbound plasma concentration_model.sav,sha256=_Jov65K0tQ4hXVdxDimlbGAQON_g006G2slhLUSPvak,1559257
+dilipred/models/features_morgan_mordred_maccs_physc.txt,sha256=OPzrbzzpKv9IgTBhHf3vY2oFKIz30vwpga2A4ZP-qoQ,4134
+dilipred/models/final_dili_model.sav,sha256=m0K0wwf0z_Jei7_7zlpSBt2S5T-yeGXxT_MQm-IXb5o,5386910
+dilipred-0.1.1.dist-info/METADATA,sha256=jacRdkq66ugHAPsAahur84syugu5_5HpIwNi-v11VW8,2668
+dilipred-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dilipred-0.1.1.dist-info/RECORD,,
