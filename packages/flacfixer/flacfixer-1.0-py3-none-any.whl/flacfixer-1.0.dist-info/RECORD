@@ -1,0 +1,11 @@
+flacfixer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flacfixer/cli.py,sha256=qMRvhdvvBVIaIw6B2yGyIhj422ddVOxiqXcQVKnbpJo,1372
+flacfixer/fixer.py,sha256=g6VwnBo_2d5B6BWlg9dbqSIrW9MZCO0KndzNdDIobC8,2591
+flacfixer/recursive_executor.py,sha256=krH-QGdoGtevyklioOJMaM81DCn7Glf1GxZmCwFMP4o,670
+flacfixer/util.py,sha256=x9AEMEpJqjg2M_tXleAZAzk3Z808d2o2Hwwqfm569_I,269
+flacfixer-1.0.dist-info/LICENSE,sha256=2GirkkLrPfQqx7fACKRJjtKJUegKc8067erGvcDVQHM,32197
+flacfixer-1.0.dist-info/METADATA,sha256=I9uIB-Ze6-4YJik3Tg3JjKg4g_egYpjhJahJsmurasE,3585
+flacfixer-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+flacfixer-1.0.dist-info/entry_points.txt,sha256=ZB7fFMpIxFf95vemae4h_NFDKJ4jmUh-Nw1_zxQixR8,49
+flacfixer-1.0.dist-info/top_level.txt,sha256=buTUPuYCKguCAUjJ02ihKgWBp1v_03s7yEb0n48-1R4,10
+flacfixer-1.0.dist-info/RECORD,,
