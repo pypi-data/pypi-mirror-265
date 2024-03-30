@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-pride-flags-python"
+description = "Generate Pride flags in your terminal with python!"
+authors = [{name="ItzSulfur"}]
+version = "1.1.0"
+readme = "README.md"
+dependencies = ["colored"]
+
+[project.scripts]
+pride = "pride_flags.entry:cli_entry_point"
+
+[project.urls]
+Homepage = "https://github.com/ItzSulfur/cli-pride-flags-python"
