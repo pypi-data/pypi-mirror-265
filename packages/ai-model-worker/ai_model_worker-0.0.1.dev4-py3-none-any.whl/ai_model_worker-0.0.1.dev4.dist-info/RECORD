@@ -1,0 +1,7 @@
+ai_model_worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_worker/config.py,sha256=jAFP8x5EExwsaWE1G1lSZ6pKAtzpnd7r5iadMKbna_A,84
+ai_model_worker/worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_worker/worker/BaseWorker.py,sha256=QU6sZm3XjBc3n6uysMTk_AP5k62zLDrV8YcNSgGdyQ8,1328
+ai_model_worker-0.0.1.dev4.dist-info/METADATA,sha256=DkuX9hHIQY7Iz_cYrSg8K4jUK2NWsCH7CxlM7Uf6FgA,498
+ai_model_worker-0.0.1.dev4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ai_model_worker-0.0.1.dev4.dist-info/RECORD,,
