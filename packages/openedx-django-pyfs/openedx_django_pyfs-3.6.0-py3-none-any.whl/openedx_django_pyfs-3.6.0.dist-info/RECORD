@@ -1,0 +1,9 @@
+djpyfs/__init__.py,sha256=nR4IeCSfeBkzkutbxrMbxBecJqG_8IN-fycmue8xG5c,78
+djpyfs/djpyfs.py,sha256=3Cx5A92gmsBpMfcbjjipc6HRis2c_jxnS_fRaXk0IS8,6461
+djpyfs/models.py,sha256=mjS9xCfHID8v9GfBAU96ee0vaUF2JBPw6mUdXgcjou4,2862
+djpyfs/tests.py,sha256=joBWx_BYR9T80mLyOqCuTqbqMN4nDpy1oZ3Qks5ZQ2s,14518
+openedx_django_pyfs-3.6.0.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+openedx_django_pyfs-3.6.0.dist-info/METADATA,sha256=5mRnjhPPBMxOqIzUjaWu2s_ds4vHq044d-hGaLB5mqc,4296
+openedx_django_pyfs-3.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+openedx_django_pyfs-3.6.0.dist-info/top_level.txt,sha256=P8RbQaeNrC_Q7zUaLxf1DVBWU05268AB2H6o9qEvLrM,7
+openedx_django_pyfs-3.6.0.dist-info/RECORD,,
