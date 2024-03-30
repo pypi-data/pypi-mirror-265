@@ -1,0 +1,17 @@
+frid/__init__.py,sha256=e-w5iKcAPbDYpJW4WqB6oQCxZxu3pwsPnbYXw5k49Bw,474
+frid/__main__.py,sha256=-so3OyEWG1ALtLWjyd6aftLo76UgjhfxxBXseITLvVg,23981
+frid/chrono.py,sha256=MTKB-OVUW3ukOSEfcGZ0WkFg9g98Q-3-OhVuiclDfdo,3828
+frid/dumper.py,sha256=wNcrvz6FNAIzT9snoWZ-IidH16qC2YtWZyKZ7iKDS0M,12841
+frid/errors.py,sha256=CuYhYNPohcMqQ4f_cBN6zSBvOSIHlzbrydZ21TVHmak,2597
+frid/guards.py,sha256=JLlZp8la2FAHOX49FJT8ihOx6I0VobA7s496kJljJdM,5657
+frid/helper.py,sha256=im9Vhi-SlgRI0QJKRB86rs9FqlfWUQmXHJlK8Tnqaeo,4061
+frid/loader.py,sha256=JWjOf279SVHoaRTnYgvLMV0NEjsZCNCYi_8P4lz7Mvs,21302
+frid/pretty.py,sha256=9wn7RqM-brB1sDBvRYi35g7ky0bpBD8v29zkZvBULzs,1514
+frid/strops.py,sha256=KQ11oZz5c_w5r8klmzVttHIOdy0EvHWxCvn0XBx0fWg,10833
+frid/typing.py,sha256=c14NCBecUhaowR5lz-PprqlzrOdrh2HM02_vNgF_hu4,2082
+frid/webapp.py,sha256=v7kqkQAbQ0oG-EDQ5YW3xz-ImhYcsqD0-W80FTMJlag,11113
+frid-0.0.2.dist-info/LICENSE,sha256=fVbe4_yEcPIwD8bWDE2b2i4meWIRmTqqX-suSxkjbcE,1077
+frid-0.0.2.dist-info/METADATA,sha256=-5L-3tzKjMhrVskjvLi72o9R4S7DNJN1r0cYNNL_WRg,603
+frid-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+frid-0.0.2.dist-info/top_level.txt,sha256=vI40S365QyWy5ryOmXzUg1lLQvQDYpFDf7pJi6Nvma4,5
+frid-0.0.2.dist-info/RECORD,,
