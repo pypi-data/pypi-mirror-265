@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: albanian_tools
+Version: 0.0.13
+Summary: A small package for working with Albanian language texts.
+Author-email: Bleron Limani <bleroni@example.com>
+Project-URL: Homepage, https://github.com/bleroni/albanian_tools
+Project-URL: Issues, https://github.com/bleroni/albanian_tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.19
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Albanian Tools
+## Installation 
+```python
+pip install albanian_tools
+```
+
+## Usage
+
+There are three main functions: `remove_leading_numbers`, `replace_numbers_with_albanian_text`, and `integer_to_albanian_text_converter`.
+
+```python
+import albanian_tools
+
+# remove_leading_numbers
+text_1 = "913. Paragraf interesant" # Returns "Paragraf interesant"
+text_1_text_numbers = albanian_tools.remove_leading_numbers(text_1)
+
+# replace_numbers_with_albanian_text
+text_2 = "Neni 217 kalon tutje." # Returns "Neni dyqind e shtatëmbëdhjetë kalon tutje."
+text_2_text_numbers = albanian_tools.replace_numbers_with_albanian_text(text_2)
+
+# integer_to_albanian_text_converter
+integer_example = 717 # Returns "shtatëqind e shtatëmbëdhjetë"
+integer_example_text_number = albanian_tools.integer_to_albanian_text_converter(integer_example)
+```
