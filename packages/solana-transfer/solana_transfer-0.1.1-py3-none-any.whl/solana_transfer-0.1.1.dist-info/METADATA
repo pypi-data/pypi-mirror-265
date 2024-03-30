@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: solana-transfer
+Version: 0.1.1
+Summary: 
+Author: pydevel
+Author-email: ppydevel@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: solana (>=0.32.0,<0.33.0)
+Requires-Dist: solana-transaction (==1.0.7)
+Requires-Dist: solders (>=0.20.0,<0.21.0)
+Requires-Dist: spl-token (==0.1.5)
+Description-Content-Type: text/markdown
+
+
