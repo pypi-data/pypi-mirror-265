@@ -1,0 +1,2 @@
+[console_scripts]
+fdp-msg-check = fdp_msg_check.msg_check:main
