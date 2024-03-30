@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: time-granularity
+Version: 1.1
+Summary: A Python package for managing time granularity with options to re-execute at different intervals.
+Home-page: https://github.com/PrateekDutta2001/time-granularity
+Author: Prateek Dutta
+Author-email: parteekdutta2001@email.com
