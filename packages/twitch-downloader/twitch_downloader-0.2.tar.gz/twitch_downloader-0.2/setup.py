@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+
+
+def readme():
+    with open('README.md', 'r') as f:
+        return f.read()
+    
+setup(
+    name='twitch_downloader',
+    version='0.2',
+    packages=find_packages(),
+    install_requires=[
+        'attrs==23.2.0',
+        'certifi==2024.2.2',
+        'cffi==1.16.0',
+        'charset-normalizer==3.3.2',
+        'h11==0.14.0',
+        'idna==3.6',
+        'outcome==1.3.0.post0',
+        'pycparser==2.22',
+        'PySocks==1.7.1',
+        'requests==2.31.0',
+        'selenium==4.19.0',
+        'sniffio==1.3.1',
+        'sortedcontainers==2.4.0',
+        'toml==0.10.2',
+        'trio==0.25.0',
+        'trio-websocket==0.11.1',
+        'typing_extensions==4.10.0',
+        'urllib3==2.2.1',
+        'wsproto==1.2.0',
+    ],
+    author='pucjers',
+    author_email='ivanbutrij@gmail.com',
+    description='Simple twitch clips downloader',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/Pucjers/twitch_downloader',
+    license='MIT',
+)
