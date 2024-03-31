@@ -1,0 +1,82 @@
+{% init xnote_table_var = "table" %}
+{% set _xnote_table = globals()[xnote_table_var] %}
+
+<script type="text/javascript" src="/_static/lib/layDate-v5.0.9/laydate.js"></script>
+
+<table class="table">
+    <tr>
+        {% for head in _xnote_table.heads %}
+            <th style="width:{{head.width}}">{{head.title}}</th>
+        {% end %}
+
+        {% if len(_xnote_table.actions) > 0 %}
+            <th>操作</th>
+        {% end %}
+    </tr>
+
+    {% for row in _xnote_table.rows %}
+        <tr class="hover-tr">
+            {% for head in _xnote_table.heads %}
+                {% if head.link_field != "" %}
+                <td><a href="{{row.get(head.link_field)}}">{{row.get(head.field)}}</a></td>
+                {% else %}
+                <td>{{row.get(head.field)}}</td>
+                {% end %}
+            {% end %} 
+
+            {% if len(_xnote_table.actions) > 0 %}
+                <td>
+                    {% for action in _xnote_table.actions %}
+                        {% if action.type == "link" %}
+                            <a href="{{row.get(action.link_field)}}">{{action.title}}</a>
+                        {% end %}
+                        {% if action.type == "button" %}
+                            <button class="btn-default {{action.css_class}}" onclick="xnote.table.handleAction(this)" 
+                            data-url="{{row.get(action.link_field)}}" data-title="{{action.get_title(row)}}">{{action.get_title(row)}}</button>
+                        {% end %}
+                        {% if action.type == "confirm" %}
+                            <button class="btn-default {{action.css_class}}" onclick="xnote.table.handleConfirmAction(this)" 
+                            data-url="{{row.get(action.link_field)}}" data-msg="{{action.get_msg(row)}}">{{action.get_title(row)}}</button>
+                        {% end %}
+                        {% if action.type == "edit_form" %}
+                            <button class="btn-default {{action.css_class}}" onclick="xnote.table.handleEditForm(this)"
+                            data-url="{{row.get(action.link_field)}}" data-title="{{action.get_title(row)}}">{{action.get_title(row)}}</button>
+                        {% end %}
+                    {% end %}
+                </td>
+            {% end %}
+        </tr>
+    {% end %}
+</table>
+
+<script>
+xnote.table.handleAction = function (target) {
+    var url = $(target).attr("data-url");
+    var title = $(target).attr("data-title");
+    var xnoteDialogId = xnote.showIframeDialog(title, url, ["确认", "取消"]);
+}
+
+xnote.table.handleConfirmAction = function (target) {
+    var url = $(target).attr("data-url");
+    var msg = $(target).attr("data-msg");
+    xnote.confirm(msg, function () {
+        xnote.http.get(url, function (resp) {
+            if (resp.success) {
+                xnote.toast("操作成功");
+                window.location.reload();
+            } else {
+                xnote.toast(resp.message);
+            }
+        }); 
+    });
+}
+
+xnote.table.handleEditForm = function (target) {
+    var url = $(target).attr("data-url");
+    var title = $(target).attr("data-title");
+    xnote.http.get(url, function (respHtml) {
+        xnote.showDialog(title, respHtml);
+    });
+}
+
+</script>
