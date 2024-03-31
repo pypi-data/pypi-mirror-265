@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: flycraft
+Version: 0.0.7
+Summary: A fixed-wing UAV environment based on gymnasium.
+Home-page: https://github.com/gongxudong/fly-craft
+Author: Xudong Gong
+Author-email: gongxudong_cs@aliyun.com
+License: UNKNOWN
+Description: # fly-craft
+        
+        An efficient goal-conditioned reinforcement learning environment for fixed-wing UAV attitude control.
+        
+        [![PyPI version](https://img.shields.io/pypi/v/flycraft.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/flycraft/)
+        [![Downloads](https://static.pepy.tech/badge/flycraft)](https://pepy.tech/project/flycraft)
+        [![GitHub](https://img.shields.io/github/license/gongxudong/fly-craft.svg)](LICENSE.txt)
+        
+        ## Installation
+        
+        ### Using PyPI
+        
+        ```bash
+        pip install flycraft
+        ```
+        
+        ### From source
+        
+        ```bash
+        git clone https://github.com/GongXudong/fly-craft.git
+        pip install -e fly-craft
+        ```
+        
+        ## Usage
+        
+        ```python
+        import gymnasium as gym
+        import flycraft
+        
+        env = gym.make('FlyCraft-v0')
+        
+        observation, info = env.reset()
+        
+        for _ in range(500):
+            action = env.action_space.sample() # random action
+            observation, reward, terminated, truncated, info = env.step(action)
+        
+            if terminated or truncated:
+                observation, info = env.reset()
+        
+        env.close()
+        ```
+        
+        ## Documentation
+        
+        TODO:
+        
+        ## Citation
+        
+        Cite as
+        
+        ```bib
+        @article{gong2024flycraft,
+          title        = {fly-craft: An Efficient Goal-Conditioned Environment for Fixed-Wing UAV Attitude Control},
+          author       = {Xudong, Gong and Hao, Wang and Dawei, Feng and Weijia, Wang},
+          year         = 2024,
+          journal      = {},
+        }
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: develop
