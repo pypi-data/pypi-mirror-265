@@ -1,0 +1,9 @@
+requests>=2.26.0
+typing-extensions
+
+[whisper-api]
+openai
+
+[whisper-local]
+openai-whisper
+soundfile
