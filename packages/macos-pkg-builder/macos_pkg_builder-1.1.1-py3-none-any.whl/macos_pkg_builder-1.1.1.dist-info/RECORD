@@ -1,0 +1,6 @@
+macos_pkg_builder/__init__.py,sha256=dOQjqg1tcDC65IZhxLM06mU1otOSJYeDbgducJXC8M0,1098
+macos_pkg_builder/core.py,sha256=wNz2xXPKMW1uG0aQhNZnxVcixFuaKDgmPZ4VjFRxIV8,13455
+macos_pkg_builder-1.1.1.dist-info/METADATA,sha256=epnFukG3Ze5zX4v21eWVPKLZZsu2H9HeAA7UUHFDYnU,4820
+macos_pkg_builder-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+macos_pkg_builder-1.1.1.dist-info/top_level.txt,sha256=bQR8DTKmm4DzHeH3KB62AWXUwQwcWBwyUcn3wmlvOgQ,18
+macos_pkg_builder-1.1.1.dist-info/RECORD,,
