@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: genzql
+Version: 0.1.0
+Summary: SQL for GenZ
+Author: Vinesh Kannan
+Author-email: vingkan@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# ZQL 
+
+- A pure Python implementation of the Gen Z Query Language.
+- Currently supports a subset of ANSI SQL.
+- Can convert ZQL to SQLite and SQLite to ZQL for some queries.
+- Visit genzql.com to try it out!
+
+## Grammar
+
+See `zql/src/zql_grammar.tmjd`.
+
+## Contributors
+
+- Vinesh Kannan
+- Tamjid Rahman
+
