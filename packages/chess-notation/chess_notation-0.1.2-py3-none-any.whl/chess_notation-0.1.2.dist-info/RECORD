@@ -1,0 +1,14 @@
+chess_notation/__init__.py,sha256=edao2QeuPrlhVqGeC9iDnmqv96oUiNJnIlX38oiQpsY,85
+chess_notation/classification/__init__.py,sha256=MNAoZMr0ANdhsADh1mbuODUad42O6xOKNEvecdxikow,112
+chess_notation/classification/classification.py,sha256=iOm0gwvXTeoT7ejRrDqyJWcSHZyBoe0N8YsRUa-RqrY,987
+chess_notation/language/__init__.py,sha256=EOKhDG3ADlZa7QyytXp7YINlsqXnLi2g5dWEhU101Gc,55
+chess_notation/language/language.py,sha256=oumwYZrlCLM8XhLwUoZhnA7Bpjw7gnGeZbuApNKqPL0,629
+chess_notation/language/translations.json,sha256=5oJXPyVxMJB9pvyz2bWSu-MK30drDPPpDwJ3P-e2hDY,1641
+chess_notation/represent/__init__.py,sha256=kWV1qdMrgssHWylqiEC9VSffUPVbSuaCktogoMBkSJ0,104
+chess_notation/represent/represent.py,sha256=AZQEkewOeXFrFSzyOBcU-do6X2T7JVskTmMnDz5gLms,4956
+chess_notation/styles/__init__.py,sha256=61hpKKRd2W5DCltdUAvIhVr0Hgq0sUb1as6yfXj4B_M,82
+chess_notation/styles/styles.py,sha256=qCaQZPYPtGlteETlYJJdt5EHXB-Y55qmwaA2eK7a6Uk,405
+chess_notation-0.1.2.dist-info/METADATA,sha256=9T0n-cgTs5hgbL0WpNLgybnjAXeBZXkhujzoHytOVcw,398
+chess_notation-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chess_notation-0.1.2.dist-info/top_level.txt,sha256=EZU2RNdMWwR5BkhE_Ag9ZfmzMCjmd0U7oH9TXG975iE,15
+chess_notation-0.1.2.dist-info/RECORD,,
