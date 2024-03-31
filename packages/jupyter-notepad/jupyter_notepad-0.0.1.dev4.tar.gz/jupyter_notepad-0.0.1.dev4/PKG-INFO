@@ -1,0 +1,96 @@
+Metadata-Version: 2.3
+Name: jupyter_notepad
+Version: 0.0.1.dev4
+Project-URL: Homepage, https://github.com/cfeenstra67/jupyter-notepad
+Author-email: Cam Feenstra <me@camfeenstra.com>
+License: Copyright 2024 Cameron Feenstra
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE.txt
+Keywords: IPython,Jupyter,Widgets
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Requires-Dist: aiohttp>=3.0.0
+Requires-Dist: blinker>=1.0.0
+Requires-Dist: gitpython>=3.0.0
+Requires-Dist: ipywidgets>=7.0.0
+Provides-Extra: dev
+Requires-Dist: build>=1.0.0; extra == 'dev'
+Requires-Dist: bump2version==1.*; extra == 'dev'
+Requires-Dist: jupyterlab==4.*; extra == 'dev'
+Requires-Dist: mypy<2,>=1; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Jupyter React Widget Template
+
+This is a basic repository setup for a React-based jupyter widget, based on the tools I like to use at the moment. There's a _lot_ required to get this all working and there aren't a lot of good references out there, so I made this repo as a reference for myself that I can copy when creating new Jupyter widget packages.
+
+(See the [lmk README](https://github.com/lmkapp/lmk/blob/main/packages/python-client/README.md) for more info, all of this info originated from there)
+
+## Set up
+
+- Create virtual environment: `python -m venv venv`
+
+- Install dependencies with `pnpm install`
+
+- Install the package with `pip install -e '.[dev]'
+
+- You should be able to run `jupyter lab` and run the following to see the widget:
+```python
+from jupyter_notepad.widget import Widget
+
+w = Widget()
+w
+```
+
+### Enable extension:
+
+Make sure you've installed or run `pnpm build:prod` first.
+
+- Jupyter notebook 5.2 and earlier:
+```bash
+jupyter nbextension install --sys-prefix --symlink --overwrite --py lmk
+jupyter nbextension enable --sys-prefix --py lmk
+```
+- Jupyterlab:
+```bash
+jupyter labextension develop --overwrite .
+```
+
+### Watch (dev mode)
+
+```bash
+pnpm watch
+```
+
+When this is running, if you make changes to the plugin code reloading the page should be sufficient to see changes.
+
+### Linting & formatting
+
+```bash
+pnpm check
+```
+
+### Build python wheel
+
+```bash
+pnpm build:python
+```
+
+
+- TODO: clean up JS dependencies
