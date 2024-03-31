@@ -1,0 +1,11 @@
+README.md
+setup.py
+xunfei/__init__.py
+xunfei/spark/__init__.py
+xunfei/spark/client.py
+xunfei/spark/response.py
+xunfei_spark_python.egg-info/PKG-INFO
+xunfei_spark_python.egg-info/SOURCES.txt
+xunfei_spark_python.egg-info/dependency_links.txt
+xunfei_spark_python.egg-info/requires.txt
+xunfei_spark_python.egg-info/top_level.txt
