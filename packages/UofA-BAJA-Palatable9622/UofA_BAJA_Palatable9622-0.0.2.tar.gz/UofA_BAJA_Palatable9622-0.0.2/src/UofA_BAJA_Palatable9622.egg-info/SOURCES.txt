@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/UofA_BAJA_Palatable9622.egg-info/PKG-INFO
+src/UofA_BAJA_Palatable9622.egg-info/SOURCES.txt
+src/UofA_BAJA_Palatable9622.egg-info/dependency_links.txt
+src/UofA_BAJA_Palatable9622.egg-info/top_level.txt
+src/common/Messages.py
+src/common/SerialDevices.py
+src/common/__init__.py
+src/common/enums.py
