@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ever_beta
+Version: 0.4.1
+Summary: A Library for Earth Vision Researcher
+Home-page: https://github.com/Z-Zheng/ever.git
+Author: Zhuo Zheng
+Author-email: zhengzhuo@whu.edu.cn
+Keywords: Remote Sensing,Earth Vision,Deep Learning,Object Detection,Semantic Segmentation,Image Classification Change Detection
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: prettytable
+Requires-Dist: Pillow
+Requires-Dist: albumentations >=0.4.2
+Requires-Dist: tensorboard >=1.14
+Requires-Dist: tifffile
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: pandas
+
