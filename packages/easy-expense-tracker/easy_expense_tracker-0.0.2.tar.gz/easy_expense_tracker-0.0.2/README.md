@@ -1,0 +1,56 @@
+
+Easy Expense Tracker
+====================
+
+This is a simple tool to import and consolidate account statements from multiple financial services into an SQL-compatible database. Once you have exported the CSV file from your check account, credit card or food allowance card, you are ready to go. Make sure you exported a single account per CSV file.
+
+This tool supports CSV files from various financial services, if yours is not listed below, you can follow the instructions in the section [Adding a New Template](#adding-a-new-template) of this document or send me a sample file and I will be glad to add a new template in a future release of this tool.
+
+- Bradesco
+- Caixa Econômica Federal
+- Itau
+- Nubank (Credit Card)
+- Nubank (Debit)
+- Sodexo (Pluxee Beneficios)
+
+You might want to review the imported records, add them to a category, or even annotate for a detailed description of the record. Splitting record into multiple categories is useful for cases such as check splitting in a restaurant and someone will refund its part to you later. Review is an optional step, and does not break the importing flow.
+
+Classify your records by adding a category using the *review* command, then it is possible to aggregate the total amount of expenses by category by month. Aggregation result will be available in SQL database on the table called *monthly_expenses_by_category*. Aggregation is an optional step, and does not break the importing flow.
+
+
+Quick Start
+===========
+
+```shell
+# Install
+pip3 install easy_expense_tracker
+
+# Import from the CSV using a supported template (ex. bradesco) into a local SQLite database
+python3 -m easy_expense_tracker -d test.db import --template bradesco report.csv
+
+# Review uncateorized iems (optional step)
+python3 -m easy_expense_tracker -d test.db review
+
+# Aggregate expnses by ategory then by month in table monthly_expenses_by_category
+python3 -m easy_expense_tracker -d test.db aggregate --from-date 2023-01 --to-date 2023-12
+```
+
+Adding a New Template
+=====================
+
+Have a look into an existing template in the `extractor` directory inside the package's root directory. Your new template must follow the interface of ExtractionResult.
+
+```python
+# timestamp : timestamp in unix epoch format
+# description : record description
+# amount : absolute amount value, use cash_flow to if record express debits as a negative amount
+# cash_flow : use 'C' for credit or 'D' for debit
+# doc_id : some bank statements may include this field, use an empty string if not
+# category : record category
+# annotations : record annotations
+# template_name : which template name this record belongs to
+
+ExtractionResult(timestamp, description, amount, cash_flow, doc_id, category, annotations, template_name)
+
+```
+
