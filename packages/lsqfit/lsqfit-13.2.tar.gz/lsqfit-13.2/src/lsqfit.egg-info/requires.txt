@@ -1,0 +1,4 @@
+numpy>=1.16
+scipy>=0.16
+gvar>=13.0.1
+vegas>=6.1
