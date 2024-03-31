@@ -1,0 +1,11 @@
+miksi_ai_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksi_ai_sdk/agent.cp310-win_amd64.pyd,sha256=Ew714U5irOb8Ly86quElJ5QXZWgYnFZ5APV4hq3VO9c,106496
+miksi_ai_sdk/api.cp310-win_amd64.pyd,sha256=UMHyr8yUJ_kaeFiWwftl3cwh6Zc1SgdY9m0kf3uR-f8,71168
+miksi_ai_sdk/master.cp310-win_amd64.pyd,sha256=67lqUw0OKdGR1wlMPcXBDvokwavAxiSlNiFaRVEtk9g,41472
+miksi_ai_sdk/pythontool.cp310-win_amd64.pyd,sha256=IGNxxoRm2FcrHgigQhTWgY0M1zWWQQFuCd2N5e30KTg,58880
+miksi_ai_sdk/sqltool.cp310-win_amd64.pyd,sha256=HbRyKb3kpKMvXvuoBWPm_h4_ux1YRzVdkMgjwgG5NbE,140288
+miksi_ai_sdk/utils.cp310-win_amd64.pyd,sha256=lZVtweEjae702OgRy2KE53E7POlIzPeNJFSpMwRMa9o,46080
+miksi_ai_sdk-0.0.21.dist-info/METADATA,sha256=jgVw2wQGE_9XAifXKVzXeZ-WUolv09MPaWckRPjb1E8,7038
+miksi_ai_sdk-0.0.21.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+miksi_ai_sdk-0.0.21.dist-info/top_level.txt,sha256=CrTJBVtyuSbja1X5cUxe0RnuBKy_GecyIfPTi_LY02A,13
+miksi_ai_sdk-0.0.21.dist-info/RECORD,,
