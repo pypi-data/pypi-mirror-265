@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lineoptim
+Version: 1.0.0
+Summary: A line optimization package for electrical conductors.
+Home-page: UNKNOWN
+Author: David Senoner
+Author-email: david.senoner@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+
+UNKNOWN
+
