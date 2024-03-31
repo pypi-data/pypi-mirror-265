@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simple-perms
+Version: 0.9.0
+Summary: Simplify *NIX Permissions
+Author-email: Hauke D <haukex@zero-g.net>
+Project-URL: Repository, https://github.com/haukex/simple-perms
+Project-URL: Bug Tracker, https://github.com/haukex/simple-perms/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: System :: Filesystems
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
