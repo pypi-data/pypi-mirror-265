@@ -1,0 +1,16 @@
+goshawk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goshawk/builder/file_reader.py,sha256=xRWtoU4kKe3fMiijb79ztfqcbh06TGyeOhhcQpX1MiU,3185
+goshawk/domain/model.py,sha256=vMn5bspc3rsF6AWWclp06beGoWbOoEfzgEG5HxfRcfE,3043
+goshawk/main.py,sha256=2vf4AsuF9_DEjmgn0NRxAiDoMarBME2g11ZbxW087-8,1706
+goshawk/models/dummy.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goshawk/models/mydatabase/schema_a/model_a1.sql,sha256=x0Cb--4DO8TyZd52Tkw9ijdDz3BjmfgR3HUmfB8U4Fo,52
+goshawk/models/mydatabase/schema_a/model_a2.sql,sha256=_t9XgTgq-pD1jEepL8RxHeZfCkfNGgjicIg1MOdNgxo,28
+goshawk/models/mydatabase/schema_b/model_b1.sql,sha256=O2U6tGaTS64p27LPIyqPWvdFx_MbQzfLLYlbF35Sz0Y,32
+goshawk/models/mydatabase/schema_b/model_b2.sql,sha256=pbPb1mzwlIhuE8VjE_EYJJTkOMTOGI9OEkNPQfNqi7g,29
+goshawk/settings.py,sha256=5aFc_TLkienvnEEDyDBcmOLzronAa1GjDAU-eS04Cn0,278
+goshawk/visuals/view_model_tree.py,sha256=ItFTlcIj_I2nPBBz4DVr35DQgot9wtkYJvRBrDlsCGM,2250
+goshawk-0.0.1.7a0.dist-info/LICENSE,sha256=birxHirVTh9JPG2LgY1ZrFpE26w6F_5KqPGNTGJMcbU,1071
+goshawk-0.0.1.7a0.dist-info/METADATA,sha256=MyVi5-Gt7buL65RTEoyIm4V-iYDmpZIDYB1txOgSiJQ,2818
+goshawk-0.0.1.7a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+goshawk-0.0.1.7a0.dist-info/entry_points.txt,sha256=mAln1liR07qjvYbLg-VG9Fr_IkYuHB-vL_1R2rk0Cbk,44
+goshawk-0.0.1.7a0.dist-info/RECORD,,
