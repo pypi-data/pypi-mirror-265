@@ -1,0 +1,48 @@
+[project]
+name = "quinten-gui"
+version = "0.1.2"
+description = ""
+authors = [{name = "Quinten Roets", email = "qdr2104@columbia.edu"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "powercli",
+    "yad"
+]
+
+[project.urls]
+"Source Code" = "https://github.com/quintenroets/gui"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+]
+test = [
+    "pytest"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = [
+    "gui"
+]
+
+[tool.setuptools.packages.find]
+include = ["*"]
+
+[tool.ruff]
+select = [
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "F", # pyflakes
+    "I", # isort
+    "UP", # pyupgrade
+]
+fix = true
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]

@@ -1,0 +1,8 @@
+powercli
+yad
+
+[dev]
+pre-commit
+
+[test]
+pytest
