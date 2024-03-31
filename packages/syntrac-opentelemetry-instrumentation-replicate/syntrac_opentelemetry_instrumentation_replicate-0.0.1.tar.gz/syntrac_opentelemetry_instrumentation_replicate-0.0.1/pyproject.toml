@@ -1,0 +1,80 @@
+[tool.coverage.run]
+branch = true
+source = [ "syntrac_opentelemetry/instrumentation/replicate" ]
+
+[tool.coverage.report]
+exclude_lines = [ "if TYPE_CHECKING:" ]
+show_missing = true
+
+[tool.poetry]
+name = "syntrac-opentelemetry-instrumentation-replicate"
+version = "0.0.1"
+description = "OpenTelemetry Replicate instrumentation"
+authors = [ "Kartik Prajapati <kartik@ktklab.org>" ]
+repository = "https://github.com/syntracAI/syntrac/tree/main/packages/python/opentelemetry-instrumentation-replicate"
+license = "Apache-2.0"
+readme = "README.md"
+
+  [[tool.poetry.packages]]
+  include = "syntrac_opentelemetry/instrumentation/replicate"
+
+  [tool.poetry.dependencies]
+  python = ">=3.9,<4"
+
+    [tool.poetry.dependencies.deprecated]
+    version = "1.2.14 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.importlib-metadata]
+    version = "6.11.0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.opentelemetry-api]
+    version = "1.23.0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.opentelemetry-instrumentation]
+    version = "0.44b0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.opentelemetry-semantic-conventions]
+    version = "0.44b0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.setuptools]
+    version = "69.1.0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.syntrac-opentelemetry-semantic-conventions-ai]
+    version = "0.0.1 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.wrapt]
+    version = "1.16.0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+    [tool.poetry.dependencies.zipp]
+    version = "3.17.0 "
+    markers = 'python_version >= "3.9" and python_version < "4"'
+    optional = false
+
+[tool.poetry.group.dev]
+dependencies = { }
+
+  [tool.poetry.extras]
+  instruments = [ "replicate" ]
+
+[tool.poetry.plugins.opentelemetry_instrumentor]
+replicate = "syntrac_opentelemetry.instrumentation.replicate:ReplicateInstrumentor"
+
+[build-system]
+requires = [ "poetry-core" ]
+build-backend = "poetry.core.masonry.api"
