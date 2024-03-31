@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: food-webs-analyzer
+Version: 0.1
+Summary: Python package for the analysis of throphic networks
+Author-email: Pablo Alvarez Lopez <pablo.alvarezlopez@dlr.de>
+Project-URL: Homepage, https://github.com/palvarezlopez/food-webs-analyzer
+Project-URL: Issues, https://github.com/palvarezlopez/food-webs-analyzer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Foodwebs Analyzer
