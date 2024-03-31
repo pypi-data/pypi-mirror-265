@@ -1,0 +1,4 @@
+include requirements.txt
+include LICENSE
+recursive-include invasion_game_demo/resources *
+recursive-include resources *
