@@ -1,0 +1,7 @@
+README.md
+setup.py
+ShellLM.egg-info/PKG-INFO
+ShellLM.egg-info/SOURCES.txt
+ShellLM.egg-info/dependency_links.txt
+ShellLM.egg-info/top_level.txt
+shelllm/__init__.py
