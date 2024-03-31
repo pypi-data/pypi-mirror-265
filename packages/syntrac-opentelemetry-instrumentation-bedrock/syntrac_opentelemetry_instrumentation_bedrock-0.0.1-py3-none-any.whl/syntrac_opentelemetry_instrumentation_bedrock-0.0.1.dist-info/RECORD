@@ -1,0 +1,6 @@
+syntrac_opentelemetry/instrumentation/bedrock/__init__.py,sha256=YutmI1ewICrb1GaHj3cVFibTsBQV85e1W5EWAI8XQVg,7590
+syntrac_opentelemetry/instrumentation/bedrock/reusable_streaming_body.py,sha256=__RQENmQr-y31Nir1GYWDrpVNf8WiqLUuu4kF-klPpU,1670
+syntrac_opentelemetry/instrumentation/bedrock/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+syntrac_opentelemetry_instrumentation_bedrock-0.0.1.dist-info/METADATA,sha256=D91_ywP4qefxKSyERzpfyRZQz7_jLGqwDeHf9GB2jQM,2873
+syntrac_opentelemetry_instrumentation_bedrock-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+syntrac_opentelemetry_instrumentation_bedrock-0.0.1.dist-info/RECORD,,
