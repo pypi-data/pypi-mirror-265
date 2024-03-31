@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: afxdl
+Version: 0.0.0
+Summary: Download audio from aphextwin.warp.net
+License: MIT
+Author: eggplants
+Author-email: w10776e8w@yahoo.co.jp
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: mutagen (>=1.47.0,<2.0.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# afxdl
+
+Download audio from <https://aphextwin.warp.net>
+
+## Install
+
+```bash
+pip install afxdl
+```
+
+OR:
+
+```bash
+pipx install afxdl
+```
+
+## Run
+
+```shellsession
+$ afxdl ~/Music/AphexTwin
+[-] Fetching album information...
+[+] Found: 'Blackbox Life Recorder 21f / in a room7 F760' (9 tracks)
+[-] Downloading albums...
+[+] Done!
+...
+[-] Fetching album information...
+[+] All Finished!
+```
+
+## Help
+
+```shellsession
+$ afxdl -h
+usage: afxdl [-h] [-o] [-V] [save_dir]
+
+download audio from <aphextwin.warp.net>
+
+positional arguments:
+  save_dir         directory to save albums (default: ./AphexTwin/)
+
+options:
+  -h, --help       show this help message and exit
+  -o, --overwrite  overwrite saved albums (default: False)
+  -V, --version    show program's version number and exit
+```
+
