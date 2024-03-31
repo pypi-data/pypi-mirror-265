@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: minecraft_ping
+Version: 0.0.2
+Summary: Pings minecraft server to get their online/offline state. Offers bulk async pinging.
+Project-URL: Homepage, https://github.com/Urpagin/
+Author-email: Urpagin <urpagin@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Minecraft Ping
+
+- Pings asynchronously Minecraft servers
+- Only gets their Online/Offline boolean
+- Useful to ping a huge list of ips to test for running MC servers.
