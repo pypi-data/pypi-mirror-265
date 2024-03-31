@@ -1,0 +1,84 @@
+Metadata-Version: 2.3
+Name: text-to-number
+Version: 0.1.1
+Summary: A package to convert text numbers into integers.
+Project-URL: homepage, https://github.com/soham-padia/textToInt
+Project-URL: repository, https://github.com/soham-padia/textToInt
+Project-URL: documentation, https://github.com/soham-padia/textToInt/wiki
+Author-email: Soham Padia <sohampadia10@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Soham Padia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == 'test'
+Requires-Dist: tox>=3.21; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Text-to-Number
+
+Convert textual numerical descriptions into their digit forms within strings, like turning "one apple" into "1 apple". Ideal for preprocessing text data for analysis or applications requiring numerical representations.
+
+## Installation
+
+Install via pip:
+
+```bash
+pip install text-to-number
+```
+
+## Usage
+
+To convert text in your Python code:
+
+```python
+from text_to_number import text_to_number
+
+result = text_to_number("I have two apples and three bananas.")
+print(result)  # Outputs: "I have 2 apples and 3 bananas."
+```
+
+## Features
+
+- Converts words to digits within a string.
+- Supports numbers from zero to billions.
+- Handles both singular and compound numbers (e.g., "twenty-one").
+
+## Contributing
+
+Contributions are welcome! See our contributing guidelines on GitHub.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Soham Padia - <sohampadia10@gmail.com>
+
+Project Link: <https://github.com/soham-padia/textToInt>
