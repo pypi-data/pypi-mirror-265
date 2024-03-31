@@ -1,0 +1,11 @@
+LICENSE
+README.md
+llm_nomic_api_embed.py
+pyproject.toml
+llm_nomic_api_embed.egg-info/PKG-INFO
+llm_nomic_api_embed.egg-info/SOURCES.txt
+llm_nomic_api_embed.egg-info/dependency_links.txt
+llm_nomic_api_embed.egg-info/entry_points.txt
+llm_nomic_api_embed.egg-info/requires.txt
+llm_nomic_api_embed.egg-info/top_level.txt
+tests/test_nomic_api_embed.py
