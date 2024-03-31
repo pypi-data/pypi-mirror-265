@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "auxiliar"
+version = "0.0.5"
+authors = [
+    { name="Roberto Russo", email="robertorussobob@gmail.com" },
+]
+description = "Python helpers"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/robertorussobob/auxiliar"
+Issues = "https://github.com/robertorussobob/auxiliar/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
