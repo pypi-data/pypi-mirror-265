@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+baseopt/__init__.py
+baseopt/options.py
+baseopt.egg-info/PKG-INFO
+baseopt.egg-info/SOURCES.txt
+baseopt.egg-info/dependency_links.txt
+baseopt.egg-info/top_level.txt
+tests/test_options.py
