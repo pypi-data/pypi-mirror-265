@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: srchbooks
+Version: 0.1.3
+Summary: 
+Author: Alexstrasza03
+Author-email: 77481463+Alexstrasza03@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (==2.29.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Description-Content-Type: text/markdown
+
+# search_ebook
