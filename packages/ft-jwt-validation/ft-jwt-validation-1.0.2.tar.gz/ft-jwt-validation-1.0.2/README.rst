@@ -1,0 +1,1 @@
+JWT class to create and validate JWT tokens
