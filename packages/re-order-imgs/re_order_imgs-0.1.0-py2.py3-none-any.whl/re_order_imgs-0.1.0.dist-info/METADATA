@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: re-order-imgs
+Version: 0.1.0
+Summary: A py package for reordering images
+Home-page: https://github.com/M-Farag/re_order_imgs
+Author: Mena Amin
+Author-email: info@synth9.com
+License: MIT license
+Keywords: re_order_imgs
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click >=7.0
+Requires-Dist: exifread
+Requires-Dist: Pillow
+
+=============
+re_order_imgs
+=============
+
+
+.. image:: https://img.shields.io/pypi/v/re_order_imgs.svg
+        :target: https://pypi.python.org/pypi/re_order_imgs
+
+.. image:: https://img.shields.io/travis/M-Farag/re_order_imgs.svg
+        :target: https://travis-ci.com/M-Farag/re_order_imgs
+
+.. image:: https://readthedocs.org/projects/re-order-imgs/badge/?version=latest
+        :target: https://re-order-imgs.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+A py package for reordering images
+
+
+* Free software: MIT license
+* Documentation: https://re-order-imgs.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-29)
+------------------
+
+* First release on PyPI.
