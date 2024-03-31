@@ -1,0 +1,41 @@
+{% load evelinks %}
+{% load static %}
+
+{% for clock in clocks %}
+    <div class="col-12 col-lg-6 col-xl-3">
+        <div class="card h-100 text-center">
+            <div class="card-header">{{ clock.name }}</div>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <i class="fa-regular fa-clock"></i>
+                    <span class="ms-3" id="clock{{ clock.pk }}"></span>
+                </h4>
+                <p class="card-text mt-3">
+                    <img src="{{ clock.last_reset_by.profile.main_character|character_portrait_url:32 }}" class="rounded me-2">
+                    {{ clock.last_reset_by.profile.main_character.character_name }}
+                </p>
+                <div class="d-flex justify-content-center">
+                    <a href="{% url "clockboard:reset_clock" clock.pk %}" class="btn btn-primary">Reset</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+{% include 'bundles/moment-js.html' %}
+{% include 'bundles/timers-js.html' %}
+<script type="application/javascript">
+    var clocks = [
+        {% for clock in clocks %}
+            {
+                id: "{{ clock.pk }}",
+                last_reset: moment("{{ clock.last_reset|date:'c' }}"),
+            },
+        {% endfor %}
+    ];
+</script>
+<script src="{% static "clockboard/js/clocks.js" %}"></script>
+<script type="application/javascript">
+    updateAllClocks();
+    setInterval(updateAllClocks, 1000);
+</script>
