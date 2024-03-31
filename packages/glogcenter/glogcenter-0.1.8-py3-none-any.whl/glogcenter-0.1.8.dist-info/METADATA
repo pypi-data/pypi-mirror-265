@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: glogcenter
+Version: 0.1.8
+Summary: glogcenter 的 python 版客户端
+Home-page: https://github.com/gotoeasy/glogcenter
+Author: gotoeasy
+Author-email: gotoeasy@163.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: netifaces
+
+
+日志中心的 python 客户端
