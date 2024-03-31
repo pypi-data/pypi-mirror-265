@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: brawser
+Version: 1.0.1
+Summary: Open browser with Management Console
+Author: itsuki
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (>=8.1.3)
+Requires-Dist: boto3 (>=1.26.126)
+Requires-Dist: requests
+
+![brawser](https://gist.github.com/assets/49217613/7fb6a858-498a-4ac6-9fb6-a32da545e683)
+
+[![Python](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-orange)](https://pypi.org/project/brawser/) [![License](https://img.shields.io/pypi/l/accompanist)](https://pypi.org/project/brawser/)
+
+# ⚡ Brawser
+
+---
+
+## What is Brawser?
+
+The simplest browser opener with AWS management console from the command line interface.
+
+By running this CLI command, you can open the console soon with your AWS account and the IAM role/user that you are using.
+
+Note: the spelling of this tool is not br "o" wser, but br "aws" er.
+
+
+## How Brawser works?
+The following steps are executed inside the Brawser.
+
+1. Initialize a new session using the Boto3 library.
+2. Prepare for session data.
+3. Request a sign-in token.
+4. Generate the federated URL.
+5. Open your default browser with the URL
+
+## Prerequisite
+
+- The IAM role/user which Brawser use with has the `GetSessionToken` priviledge at least. 
+- The URL is open with any default browser like Google Chrome, Safari or Edge. So any installed browser is needed. 
+
+# 🚀 Get Started
+---
+
+## Install
+
+```bash
+$ pip install brawser
+```
+
+## Usage
+
+```bash
+$ brawser
+```
+
+## Uninstall
+
+```bash
+$ pip uninstall brawser
+```
+
+# 🌱 How to use
+
+## Features
+
+- You can set a valid session time you want to set. 
+- You can display on the command line console the federated URL instead of opening the browser 
+- If you use macOS, you can copy the federated URL to the clipboard to paste your browser. 
+
+## Options
+
+```bash
+  -h, --hours INTEGER   Set session hours. The default is 3 hours
+  -p, --print-url       Print the federated URL (optional)
+  -c, --copy-clipboard  Copy the federated URL when you use MacOS only
+                        (optional)
+```
+
+# Appendix
+
+## Software License
+
+### The MIT License
+
+Copyright 2024 Itsuki Yutaka
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
