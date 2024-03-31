@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+sz-fetch/__init__.py
+sz-fetch/fetch.py
+sz_fetch.egg-info/PKG-INFO
+sz_fetch.egg-info/SOURCES.txt
+sz_fetch.egg-info/dependency_links.txt
+sz_fetch.egg-info/top_level.txt
