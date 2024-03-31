@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+faucet_tool/__init__.py
+faucet_tool/faucet_tool.py
+faucet_tool/mylib.py
+faucet_tool.egg-info/PKG-INFO
+faucet_tool.egg-info/SOURCES.txt
+faucet_tool.egg-info/dependency_links.txt
+faucet_tool.egg-info/requires.txt
+faucet_tool.egg-info/top_level.txt
