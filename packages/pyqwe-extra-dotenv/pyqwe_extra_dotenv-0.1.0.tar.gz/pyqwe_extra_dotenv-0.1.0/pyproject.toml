@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pyqwe-extra-dotenv"
+description = 'A package that provides python-dotenv functionality for pyqwe. This package can only be used with pyqwe.'
+authors = [{ name = "David Carmichael", email = "david@uilix.com" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version"]
+dependencies = [
+    "python-dotenv"
+]
+
+[project.urls]
+Source = "https://github.com/CheeseCake87/pyqwe"
+
+[tool.pyqwe]
+build = "*shell:flit build"
+publish = "*shell:export FLIT_USERNAME=__token__ && flit publish"

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyqwe-extra-dotenv
+Version: 0.1.0
+Summary: A package that provides python-dotenv functionality for pyqwe. This package can only be used with pyqwe.
+Author-email: David Carmichael <david@uilix.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python-dotenv
+Project-URL: Source, https://github.com/CheeseCake87/pyqwe
+
+# 🏎️💨 pyqwe-extra-dotenv
+
+This is an optional extra extension for [pyqwe](https://github.com/CheeseCake87/pyqwe) that adds support for `.env`
+files, using the [python-dotenv](https://pypi.org/project/python-dotenv/) package.
+
+## Installation
+
+```bash
+pip install pyqwe-extra-dotenv
+```
+
+or
+
+```bash
+pip install pyqwe[dotenv]
+```
