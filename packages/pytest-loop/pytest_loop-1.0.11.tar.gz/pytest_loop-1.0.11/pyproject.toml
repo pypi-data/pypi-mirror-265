@@ -1,0 +1,90 @@
+[build-system]
+requires = ["hatchling", "versioningit"]
+build-backend = "hatchling.build"
+
+[tool.versioningit.vcs]
+# The method key:
+method = "git" # <- The method name
+
+# Parameters to pass to the method:
+match = ["v*"]
+default-tag = "1.0.0"
+
+
+[tool.versioningit.format]
+distance = "{version}.dev{distance}"
+dirty = "{version}+dirty"
+distance-dirty = "{version}.dev{distance}+dirty"
+
+[tool.versioningit.next-version]
+method = "smallest"
+
+[tool.hatch.version]
+source = "versioningit"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pytest_loop"]
+
+[project]
+name = "pytest-loop"
+dynamic = ["version"]
+authors = [{ name = "Adam Nogowski" }]
+description = 'pytest plugin for looping tests'
+readme = { file = "README.rst", content-type = "text/x-rst" }
+license.file = "LICENSE"
+keywords = [
+	"pytest",
+	"loop",
+	"repeat",
+	"rerun",
+	"stress",
+	"duration",
+	"time",
+	"test",
+	"pytest-loop",
+	"pytest-repeat",
+	"pytest-rerun",
+	"pytest-stress",
+]
+requires-python = ">=3.7"
+py_modules = ["src/pytest_loop/pytest_loop"]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Framework :: Pytest",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+	"Operating System :: MacOS :: MacOS X",
+	"Operating System :: Microsoft :: Windows",
+	"Operating System :: POSIX",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3 :: Only",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Topic :: Software Development :: Quality Assurance",
+	"Topic :: Software Development :: Testing",
+	"Topic :: Utilities",
+]
+urls.Homepage = "https://github.com/anogowski/pytest-loop"
+urls.Repository = "https://github.com/anogowski/pytest-loop.git"
+urls.Issues = "https://github.com/anogowski/pytest-loop/issues"
+urls.Changelog = "https://github.com/anogowski/pytest-loop/blob/master/CHANGELOG.rst"
+
+dependencies = ["pytest"]
+
+project.optional-dependencies = ["tox"]
+
+[project.entry-points.pytest11]
+loop = "pytest_loop"
+
+[tool.codespell]
+builtin = "clear,usage,en-GB_to_en-US"
+write-changes = true
+count = true
+
+[tool.pytest.ini_options]
+log_file = "log.log"
+log_file_level = "DEBUG"
