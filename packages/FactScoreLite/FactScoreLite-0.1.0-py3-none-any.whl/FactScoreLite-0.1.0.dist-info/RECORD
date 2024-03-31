@@ -1,0 +1,11 @@
+FactScoreLite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FactScoreLite/atomic_facts.py,sha256=iPy2hG7W6M-MjTNbvQuyUWGEQQKwN8RCzMYCPdKuats,4799
+FactScoreLite/configs.py,sha256=56K_JT_7KudAIYm6S3h8ukOV91AEaaGlcUn9DW1yMcg,152
+FactScoreLite/openai_agent.py,sha256=NnwUfV5bN24RVj7zruH_zQYi07Caxz74YjV2xcK3QeE,547
+FactScoreLite/data/demons.json,sha256=ei9BQnLj3vBE_13UI_-Ldomj3vGMSclqZAN6uiEW0Uw,5560
+FactScoreLite/data/demons_generation_prompt.txt,sha256=D5L8P5HPRV2PVyqtbAeKY_kZAkiAMIJN-OvFHB7H-70,2764
+FactScoreLite-0.1.0.dist-info/LICENSE,sha256=7YKEqU4Shx4YB0hmfx9rdn1_yA7zhxdFWMt22bl1o48,1083
+FactScoreLite-0.1.0.dist-info/METADATA,sha256=GlaW8ANBm247ExA-Dp096tRTX0qlYGNxv9hHj31b4yE,490
+FactScoreLite-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+FactScoreLite-0.1.0.dist-info/top_level.txt,sha256=02F_dLuQ1kyDtp0DDc3DspibNV28UkZeUcEF8_FSPpM,14
+FactScoreLite-0.1.0.dist-info/RECORD,,
