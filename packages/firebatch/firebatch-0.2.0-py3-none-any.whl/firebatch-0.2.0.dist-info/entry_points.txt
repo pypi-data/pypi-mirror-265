@@ -1,0 +1,3 @@
+[console_scripts]
+firebatch=firebatch.cli:cli
+
