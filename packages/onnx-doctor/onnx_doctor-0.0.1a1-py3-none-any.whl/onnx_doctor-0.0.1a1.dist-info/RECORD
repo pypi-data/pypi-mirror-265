@@ -1,0 +1,13 @@
+onnxdoctor/__init__.py,sha256=RmU15C2Qvd3eBuxMOOm1eISEXdXLveCpbFWD-wOC20Q,297
+onnxdoctor/_checker.py,sha256=XtUZDo80rxsdb7qAAE_MneJ4ulfuF2yLwawupVpNkdA,5701
+onnxdoctor/_diagnostics.py,sha256=8q4zvFvNfxbXNqmURRgUqSj1zJlgTkssFuETrk9GAVY,1203
+onnxdoctor/_message.py,sha256=kyR6GdPwolT0MOrOrcTjHEQtGtKmM_8OSiE2fqsAIm0,883
+onnxdoctor/diagnostics_providers/__init__.py,sha256=UYOlJn8hl1pAmUkIHHD0e7rrfvZzO6YLX1gByQFB2Pw,108
+onnxdoctor/diagnostics_providers/sparsity.py,sha256=5tGFKNGlPRdMEhSjlv_YZast-1pU2ZAF8AwY0KtcQFA,718
+onnxdoctor/diagnostics_providers/onnxruntime_comparibility/__init__.py,sha256=9RtWHmQ5qzhYtSqoxInX8_9HhRzACd6BnWJacs3rZQ0,6834
+onnxdoctor/diagnostics_providers/onnxruntime_comparibility/_support_table.py,sha256=PuGWNPqahWK17cTYjgbSDeE7P1Ef-q9-ydnZy4Vwugs,253912
+onnx_doctor-0.0.1a1.dist-info/LICENSE,sha256=deQJdgCoEtHvKw78_q-z0n_CuvRH-bodU7f62LSM8ew,1067
+onnx_doctor-0.0.1a1.dist-info/METADATA,sha256=FzbWhIjn6-dBlehE4qckgfQrX1EJBkz5IMHtpJasctM,2373
+onnx_doctor-0.0.1a1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+onnx_doctor-0.0.1a1.dist-info/top_level.txt,sha256=jFNn8W8gcKk4yYnpyBQGVU-jBjexwvHtrB4z_0djqRk,11
+onnx_doctor-0.0.1a1.dist-info/RECORD,,
