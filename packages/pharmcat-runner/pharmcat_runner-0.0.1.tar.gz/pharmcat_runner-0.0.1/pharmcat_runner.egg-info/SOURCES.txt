@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pharmcat_runner.egg-info/PKG-INFO
+pharmcat_runner.egg-info/SOURCES.txt
+pharmcat_runner.egg-info/dependency_links.txt
+pharmcat_runner.egg-info/entry_points.txt
+pharmcat_runner.egg-info/requires.txt
+pharmcat_runner.egg-info/top_level.txt
