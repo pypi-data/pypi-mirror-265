@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metagen"
+description = "Metadata.xml Generator for Ebuilds"
+authors = [
+    {name = "Rob Cakebread", email = "pythonhead@gentoo.org"},
+    {name = "Jesus Rivero", email = "neurogeek@gentoo.org"},
+    {name = "Sebastian Pipping", email = "sebastian@pipping.org"},
+]
+dynamic = ["version"]
+readme = "README.md"
+license = {text = "GPL-2"}
+dependencies = [
+    "lxml",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development",
+    "Topic :: Text Processing :: Markup :: XML",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+metagen = "metagen.__main__:main"
+
+[project.urls]
+"Git repository" = "https://gitweb.gentoo.org/proj/metagen.git/"
+"Issue tracker" = "https://bugs.gentoo.org/"
+"Change log" = "https://gitweb.gentoo.org/proj/metagen.git/plain/docs/ChangeLog"
+
+[tool.setuptools.dynamic]
+version = {attr = "metagen.version.__version__"}
