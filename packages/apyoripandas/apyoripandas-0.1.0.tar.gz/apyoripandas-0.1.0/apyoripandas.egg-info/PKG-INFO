@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: apyoripandas
+Version: 0.1.0
+Summary: Make easy user Apyori for Pandas
+Home-page: https://github.com/matheus0sa/apyoripandas
+Author: Matheus de Sá
+Author-email: matheusdesa55@gmail.com
+Requires-Python: >=3.6
