@@ -1,0 +1,9 @@
+README.md
+setup.py
+dfquick/__init__.py
+dfquick/dfquick.py
+dfquick.egg-info/PKG-INFO
+dfquick.egg-info/SOURCES.txt
+dfquick.egg-info/dependency_links.txt
+dfquick.egg-info/requires.txt
+dfquick.egg-info/top_level.txt
