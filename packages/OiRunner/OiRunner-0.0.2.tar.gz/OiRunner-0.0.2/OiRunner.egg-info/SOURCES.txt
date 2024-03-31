@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+OiRunner/__init__.py
+OiRunner/run.py
+OiRunner.egg-info/PKG-INFO
+OiRunner.egg-info/SOURCES.txt
+OiRunner.egg-info/dependency_links.txt
+OiRunner.egg-info/entry_points.txt
+OiRunner.egg-info/top_level.txt
