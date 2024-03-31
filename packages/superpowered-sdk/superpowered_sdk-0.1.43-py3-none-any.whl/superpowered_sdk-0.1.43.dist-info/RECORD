@@ -1,0 +1,16 @@
+superpowered/__init__.py,sha256=_EM_x4WMwqetmieCbOONonTJMKKdQw9XO_2wMtXpZn8,2106
+superpowered/auth.py,sha256=Rl2ga0aWHLkj5p9S_zJXYHlbsgBlzk3hbnySFc2Q1-0,495
+superpowered/chat.py,sha256=K-QuCh2DVCA8gAvSnztGHK4JcfdaQmtEpZvC3X6NpOo,20653
+superpowered/documents.py,sha256=JsfWpzLwF2Ds5V-xNU9T5TcwceU69lMS4t8rtZEsrwE,16127
+superpowered/errors.json,sha256=xcz420_DdhTdRJ-mHn-Sy1vtv-pgwI6896ZudXLYRTM,6102
+superpowered/exceptions.py,sha256=JWItBHgGRGs_cdEPryAeU0-j8g9j6yjIUH2jQ4I2VvY,444
+superpowered/items.py,sha256=q-BmEDMpudokd9FzlWW1yFViJlftba_qiZ2IV5nU3mk,5293
+superpowered/knowledge_bases.py,sha256=13p7e0JpQZvzkd3Swvh2jRNto2_bgCtDK-LTQps_3qQ,5350
+superpowered/query.py,sha256=YAShZvXxMX6klIXTcdtAG8WdD_L5D_KDm3uoMq-pnTI,8592
+superpowered/superpowered.py,sha256=fNmUfTn-lEP6prEvBrgPzEMgw4m2V56MEHA2ZWZV2Fw,2845
+superpowered/usage.py,sha256=sDd5N0za1JKpecOPK72VRuzLV2V7yzt18pm7ldsxk44,2114
+superpowered/web_search_presets.py,sha256=koqLA3Dq5gfzBeRuQ6sbRq7Ckv5NK0bazVdR6iR-ICo,7009
+superpowered_sdk-0.1.43.dist-info/METADATA,sha256=xEECA9vPahUwWJ2Gk6JYK7i-BKgvN77ArayY0WRtEM4,1870
+superpowered_sdk-0.1.43.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+superpowered_sdk-0.1.43.dist-info/top_level.txt,sha256=T0pNhQLpf4DDFYlh9Akp0RIS8lo-4bgFm2D5m3zQbf4,13
+superpowered_sdk-0.1.43.dist-info/RECORD,,
