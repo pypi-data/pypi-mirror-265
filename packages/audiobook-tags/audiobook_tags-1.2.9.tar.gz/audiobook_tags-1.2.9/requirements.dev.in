@@ -1,0 +1,16 @@
+-r requirements.in
+
+# test
+pytest
+pytest-cov
+coveralls
+
+# lint
+pylint
+mypy
+pre-commit
+
+# build
+-e .
+hatchling
+toml
