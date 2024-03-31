@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+ansiart/__init__.py
+ansiart/_version.py
+ansiart/ansiart.py
+ansiart.egg-info/PKG-INFO
+ansiart.egg-info/SOURCES.txt
+ansiart.egg-info/dependency_links.txt
+ansiart.egg-info/requires.txt
+ansiart.egg-info/top_level.txt
