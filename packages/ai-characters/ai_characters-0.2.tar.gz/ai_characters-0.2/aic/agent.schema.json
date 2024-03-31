@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "AI Character",
+    "type": "object",
+    "properties": {
+      "version": {
+        "type": "string",
+        "description": "The version of the AI character."
+      },
+      "roleName": {
+        "type": "string",
+        "description": "The role name of the AI character."
+      },
+      "backstory": {
+        "type": "string",
+        "description": "The backstory of the AI character."
+      },
+      "tools": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "A list of tools (pip packages, URIs, or names) that the character supports."
+      }
+    },
+    "required": ["version", "roleName", "backstory"]
+}
