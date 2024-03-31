@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: geemlib
+Version: 1.0.1
+Summary: This is the Geemlib.
+Home-page: https://git.pyrokinesis.fr/darkgeem/geemlib
+Author: darkgeem
+Author-email: darkgeem@pyrokinesis.fr
+License: WTFPL
+Project-URL: Source, https://git.pyrokinesis.fr/darkgeem/geemlib
+Project-URL: Support, https://discord.gg/KdRmyRrA48
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.0
+Requires-Dist: beautifulsoup4 >=4.0
+
+# Geemlib
+This is the Geemlib.
