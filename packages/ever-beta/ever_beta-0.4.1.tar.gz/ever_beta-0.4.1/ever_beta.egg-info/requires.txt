@@ -1,0 +1,11 @@
+numpy
+prettytable
+Pillow
+albumentations>=0.4.2
+tensorboard>=1.14
+tifffile
+scikit-image
+scipy
+matplotlib
+tqdm
+pandas
