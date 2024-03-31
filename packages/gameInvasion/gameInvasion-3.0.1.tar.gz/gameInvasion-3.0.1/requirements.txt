@@ -1,0 +1,7 @@
+cffi
+llvmlite
+numba
+numpy
+pycparser
+pygame
+pymunk
