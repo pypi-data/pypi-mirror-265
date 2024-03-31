@@ -1,0 +1,12 @@
+reperiods/__init__.py,sha256=L2ltBKQO4rxVfXRlBsU3GHzoTa839JYcqVwE-38giSw,98
+reperiods/datasets/example_dataset.csv,sha256=1uKMbz8z0-Nh9o0hhKm3wt40pz_PI0M4ZVMMclKLACk,361238
+reperiods/datasets.py,sha256=Zfbx_8YxTcN_1PMeLxlvWkbdxMSST_SiqSSZieVnTXk,1023
+reperiods/export.py,sha256=L2ZG8hLIfaUF0my-exQiUWSwxHgLK1UuQ2PslXI4Qdg,1323
+reperiods/find_RP.py,sha256=K-PaKgElc3q1IBorfoCN9GWdZNn7QKiMnvWtN_-L3vk,7082
+reperiods/plot.py,sha256=t3etR_2woqxUMlYOjOjM1SH-4-UKLp1KkZlpUNVFP4I,3808
+reperiods/representative_periods.py,sha256=qcINP9CxTDNLNeEIzWATlLX8oDYqPsO5SgUUqRz3x_U,1753
+reperiods/temporal_data.py,sha256=pyexf2FZ3EqjHhAjXzrI1JGEQijmYwgzig-vvLVivdA,4808
+reperiods/utils.py,sha256=fBj8SLp9pfxgTZPSAisVbw5xSOEMZzKtFXt573V3QsA,1728
+reperiods-1.0.1.dist-info/METADATA,sha256=YSWJ-vQduIPNQdkZJsl2Q8eSFdiM3DYPV2sHJpC7GoI,4384
+reperiods-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+reperiods-1.0.1.dist-info/RECORD,,
