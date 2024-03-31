@@ -1,0 +1,9 @@
+dependency_track_api/__init__.py,sha256=_QD6zwiporxlhrIL7ErT2pG13dfZUpMu1LmgRYHMiUQ,2281
+dependency_track_api/access_control_list.py,sha256=FL1k2c-wFkPZJPkIRvPZ5XgNrUwr70mmpO2izpfnP9U,3789
+dependency_track_api/analysis.py,sha256=WuPOfuPfJdLhmR-dv7alQI0cwCbPc7_2fzznQ2AxHc8,2165
+dependency_track_api/exceptions.py,sha256=Qm_1oU0-Vku-tP_V-6uCKbQNf2aJWjBbLmgWX5cF2eI,493
+dependency_track_api/session.py,sha256=BR_aHooRSrT3snFGz1ocLrOaQn-STQH7REDklpBEKKg,2857
+dependency_track_api-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dependency_track_api-0.1.2.dist-info/METADATA,sha256=OEiJmKi6V_IUmJB6cSmSUJ4M9q5iBCBqO0OhEZCBLZo,2654
+dependency_track_api-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dependency_track_api-0.1.2.dist-info/RECORD,,
