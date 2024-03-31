@@ -1,0 +1,8 @@
+tomlkit
+pydantic
+packaging
+
+[testing]
+pdbpp
+ruff
+mypy
