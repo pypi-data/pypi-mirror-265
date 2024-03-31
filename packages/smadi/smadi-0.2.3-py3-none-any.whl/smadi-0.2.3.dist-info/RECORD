@@ -1,0 +1,17 @@
+smadi/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+smadi/anomaly_detectors.py,sha256=FjtyMmCqD_RZgbMQn2H7LKilzE0tJwcvqicwH29ZXfQ,17750
+smadi/climatology.py,sha256=R_59FdH7FAS-PPJGD6yEozi_XuY2MC8VEqRUFr8BtY0,15269
+smadi/data_reader.py,sha256=qYzZ0pLksbdV53IZubhJLNT9cNQuwtO0WNjfKYKPUfI,3482
+smadi/indicators.py,sha256=DvofpLliK7_khjcQlZ23dI3V_T6rcQ0C8l7LK4Fo49E,8775
+smadi/map.py,sha256=GBkUP8UYV5SFywt3v9PErOLrMSIl--LUxT7gj5BSgcM,5258
+smadi/metadata.py,sha256=Xi4HDGqSFt_lIPh8GiUx4EjzeAOxwLPGnFL8IsXNKvs,1724
+smadi/plot.py,sha256=B86dr-tJqewF3EnFiNfFVu3z88PO1SiOZMbZgA9LtqA,7461
+smadi/preprocess.py,sha256=Aa18anNn3790GqXBzjhQM1NZXUeL5YN2aWuRcoTgAnk,8623
+smadi/utils.py,sha256=MjnLxgM_xGcw8njH1Knn5EdWoCp0b9DcgEHslYWh5WM,4011
+smadi/workflow.py,sha256=YQ7uXiv06ouQbxE4WuSuwIztSP5iWvX7b_AoTxAAaDE,11088
+smadi-0.2.3.dist-info/LICENSE.txt,sha256=exE736d3ifidA7VpYocgbgf-Q8b-jLt88QuA12koHqY,1079
+smadi-0.2.3.dist-info/METADATA,sha256=4uQAUKO0dVafaYcJbyoUJ_OINbzMW9hPyQOAOLSx4hY,2927
+smadi-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+smadi-0.2.3.dist-info/dependency_links.txt,sha256=grb_JSAv3lbQipxoFsGB39kDrlmKn4jLVg7NRHgn4dI,18
+smadi-0.2.3.dist-info/top_level.txt,sha256=OOndKvF3fzuMHPPeQkCfcZJ17hSxTe0zeByUY8Hcjmc,6
+smadi-0.2.3.dist-info/RECORD,,
