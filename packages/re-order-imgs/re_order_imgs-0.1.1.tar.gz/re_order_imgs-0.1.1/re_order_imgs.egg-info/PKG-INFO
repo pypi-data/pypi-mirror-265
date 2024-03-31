@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: re-order-imgs
+Version: 0.1.1
+Summary: A py package for reordering images
+Home-page: https://github.com/M-Farag/re_order_imgs
+Author: Mena Amin
+Author-email: info@synth9.com
+License: MIT license
+Keywords: re_order_imgs
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=================
+re_order_imgs
+=================
+
+.. image:: https://img.shields.io/pypi/v/re_order_imgs.svg
+        :target: https://pypi.python.org/pypi/re_order_imgs
+
+.. image:: https://img.shields.io/travis/M-Farag/re_order_imgs.svg
+        :target: https://travis-ci.com/M-Farag/re_order_imgs
+
+.. image:: https://readthedocs.org/projects/re-order-imgs/badge/?version=latest
+        :target: https://re-order-imgs.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+Overview
+--------
+
+`re_order_imgs` is a Python package designed to help you organize your image files efficiently. By examining the EXIF data of each image, `re_order_imgs` can sort your images into directories based on the year they were taken. This tool is perfect for photographers, designers, or anyone looking to bring order to their digital photo collection.
+
+* Free software: MIT license
+* Documentation: https://re-order-imgs.readthedocs.io.
+
+Features
+--------
+
+- Automatically reads EXIF data from images to determine the year they were taken.
+- Sorts and organizes images into directories by year.
+- Supports a variety of image formats, including JPG, JPEG, PNG, TIFF, and BMP.
+
+How to Use
+----------
+
+To use `re_order_imgs`, follow these simple steps:
+
+1. Install the package using pip: `pip install re_order_imgs``
+
+
+2. Run the command `re-order-imgs 100  --imgs-path '/path/to/your/images'` in your terminal, specifying the path to the directory containing your images and the number of images you want to process
+
+This command will process the first 100 images in the specified directory, organizing them into year-based directories.
+
+
+3. Check the specified directory to see your newly organized images.
+
+Please refer to the documentation for more detailed usage instructions and advanced features.
+
+
+Credits
+-------
+
+This package was created with Cookiecutter and the `audreyr/cookiecutter-pypackage` project template.
+
+- Cookiecutter: https://github.com/audreyr/cookiecutter
+- `audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-29)
+------------------
+
+* First release on PyPI.
