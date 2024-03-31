@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: PyOptionPane
+Version: 1.0.2
+Summary: Python GUIs made easy!
+Home-page: https://github.com/yavda1/PyOptionPane
+Author: yavda1
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tk
+Requires-Dist: pillow
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# PyOptionPane
+Python GUIS made easy
+# What is PyOptionPane?
+PyOptionPane is python guis made easy for beginners and professionals a like. It's basically JOptionPane but for python! And who wouldn't want that? 
+# Examples
+A simple message can be displayed like this
+```py
+from PyOptionPane import *
+f = TextBox("This is an example")
+```
+Output:
+
+
+<img width="429" alt="Screen Shot 2022-09-28 at 5 56 19 PM" src="https://user-images.githubusercontent.com/94653933/192914485-9139b660-8aaa-4bbb-b635-f20ee97c7c56.png">
+
+User input
+
+```py
+from PyOptionPane import *
+f = StringInput("This is another example") #If you want integars use IntInput()
+#variable f will now equal whatever the user puts
+```
+
+Output:
+
+<img width="480" alt="Screen Shot 2022-09-28 at 6 01 28 PM" src="https://user-images.githubusercontent.com/94653933/192915014-ed3e01d6-1d86-4a1a-924e-3aa6e4593049.png">
+
+Dropdown box
+
+```py
+from PyOptionPane import *
+f = DropDown("This is an example", "Option 1", "Option 2", "Option 3"
+```
+
+Output:
+
+<img width="445" alt="Screen Shot 2022-09-28 at 6 02 27 PM" src="https://user-images.githubusercontent.com/94653933/192915100-28187a97-8039-49b2-97a6-054a95490fae.png">
+
+Yes or no
+
+```py
+from PyOptionPane import *
+f = YesOrNo("This is another example")
+```
+
+Output:
+
+
+<img width="428" alt="Screen Shot 2022-09-28 at 6 06 20 PM" src="https://user-images.githubusercontent.com/94653933/192915496-e3ca3a63-ec1b-4795-a89d-ce7a9e89fc38.png">
+
+Alerts
+
+```py
+from PyOptionPane import *
+f = Message(False, "This is an example")
+```
+
+<img width="419" alt="Screen Shot 2022-09-28 at 6 07 45 PM" src="https://user-images.githubusercontent.com/94653933/192915638-dd23e80f-9ac4-4943-a5d6-b039e67ee396.png">
+
+Fatal Alert/Warning
+
+```py
+from PyOptionPane import *
+f = Message(True, "This is an example")
+```
+
+<img width="376" alt="Screen Shot 2022-09-28 at 6 09 05 PM" src="https://user-images.githubusercontent.com/94653933/192915792-b742f58e-3f3a-4b2c-bd1c-a914bf47af78.png">
+
+
+
+# Use Cases
+This can be very useful for those learning python or for to make command line programs look better without much extra effort involved. It can also be useful for beginners/
+
