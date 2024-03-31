@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tradeset
+Version: 0.0.3
+Summary: Tradeset
+Author-email: Mohammad Talaei <mohammadstar1375@gmail.com>, Morteza Omidi <Mortezaomidi24@yahoo.com>
+Project-URL: Homepage, https://tradeset.ai/
+Project-URL: Documents, https://docs.tradeset.ai/
+Project-URL: Issues, https://github.com/tradeset/tradeset-public/issues/
+Project-URL: Source, https://github.com/tradeset/tradeset-public/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: requests
+
+# Tradeset
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
