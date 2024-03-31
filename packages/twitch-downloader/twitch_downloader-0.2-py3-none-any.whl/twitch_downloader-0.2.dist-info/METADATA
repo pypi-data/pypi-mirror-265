@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: twitch-downloader
+Version: 0.2
+Summary: Simple twitch clips downloader
+Home-page: https://github.com/Pucjers/twitch_downloader
+Author: pucjers
+Author-email: ivanbutrij@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs ==23.2.0
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: idna ==3.6
+Requires-Dist: outcome ==1.3.0.post0
+Requires-Dist: pycparser ==2.22
+Requires-Dist: PySocks ==1.7.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: selenium ==4.19.0
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: sortedcontainers ==2.4.0
+Requires-Dist: toml ==0.10.2
+Requires-Dist: trio ==0.25.0
+Requires-Dist: trio-websocket ==0.11.1
+Requires-Dist: typing-extensions ==4.10.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: wsproto ==1.2.0
+
+# Twitch Downloader
+
+This script is designed to download video content from Twitch channels. It utilizes Selenium for web scraping and requests for downloading video content.
+
+## Requirements:
+- Selenium: Python library for browser automation
+- requests: HTTP library for making requests
+- toml: Library for parsing TOML configuration files
+
+## Usage:
+1. Ensure you have the necessary dependencies installed.
+2. Create or download a TOML configuration file named 'config.toml' in the same directory as this script.
+3. Configure the 'config.toml' file with appropriate values for 'main' and 'clips' paths.
+4. Create an instance of the Downloader class and call the 'download' method with appropriate parameters.
+
+## Methods:
+    download: Downloads video content from the specified Twitch channel.
+    get_clips_src: Retrieves the source URLs for video clips.
+    get_urls: Retrieves the URLs of video clips for the specified channel.
+    download_clip: Downloads a video clip from the provided source URL.
+
+## Exceptions:
+    ChannelNameInputError: Raised when the channel name is not provided.
+    HTMLParsingError: Raised when there is an error parsing HTML content.
