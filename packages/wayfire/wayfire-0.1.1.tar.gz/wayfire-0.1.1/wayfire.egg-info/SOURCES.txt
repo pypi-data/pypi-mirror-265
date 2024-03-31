@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+wayfire/__init__.py
+wayfire/ipc.py
+wayfire.egg-info/PKG-INFO
+wayfire.egg-info/SOURCES.txt
+wayfire.egg-info/dependency_links.txt
+wayfire.egg-info/top_level.txt
+wayfire/tests/gtk4_window.py
