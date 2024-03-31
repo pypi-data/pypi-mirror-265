@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ktbench
+Version: 0.0.2
+Summary: A Benchmark library for knowledge tracing models
+Author: Yahya Badran
+Author-email: techtweaking@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.4
+License-File: NOTICE.txt
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: datasets==2.18.0
+Requires-Dist: GitPython==3.1.42
+Requires-Dist: yamld==0.0.22
+Requires-Dist: scikit-learn>=1.2.2
+Requires-Dist: torch==2.2.1
