@@ -1,0 +1,13 @@
+backupmaster
+dbus-next
+powercli<1,>=0.2.0
+requests
+simple-classproperty<5,>=4.0.2
+superpathlib
+
+[dev]
+pre-commit
+
+[test]
+hypothesis
+pytest
