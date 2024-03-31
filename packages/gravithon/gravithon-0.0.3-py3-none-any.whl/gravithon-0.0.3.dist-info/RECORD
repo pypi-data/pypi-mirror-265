@@ -1,0 +1,17 @@
+gravithon/Body.py,sha256=yDsju615cyiKJ_JsN9eybGwvTWFP2T_s1WEADMU8Ejk,1005
+gravithon/Space.py,sha256=K53e2s2gtkcy5ZLZcg0KIxz2sbv3LosJIp6ig_D5Hco,2119
+gravithon/Sphere.py,sha256=BCaIPQszUb86T2TOdV69EgYWXO4KOrNry3BDVvbJr4E,387
+gravithon/__init__.py,sha256=w7shzkd1cAJzb7cXjzEwvGxAq7yXDMqMplBBOhzfi78,52
+gravithon/errors.py,sha256=FiywK5d3rcYOwGJQDRKN8j5ggOh-roF8fV50RNTmwww,447
+gravithon/formulas.py,sha256=kMKUIt2pCKDD7pXhyjjBCNi9O-e8c2Rg7bbZDruPIz0,555
+gravithon/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravithon/constants/astrophisics.py,sha256=pwd0g1fWY3JUWU5UVpaIIrOthIHn13l5EH0MM9kJ8ZY,67
+gravithon/units/length.py,sha256=NZ9kfFh2zRPwAC269de2QhbMOMueWHuACoOruJtQPRA,350
+gravithon/units/mass.py,sha256=h7_K2Vegro6vCBlblnVcAdM27Lqojv8Ei8mTAChy8SE,224
+gravithon/units/prefixes.py,sha256=AS7Cfluwad9moqhcu6SXmXgTEVg4A-5UEInPajtsYl0,393
+gravithon/units/time.py,sha256=M4LzoWFFV27pmBT-tQIZWuUEtvEaf7ZEXrbxyntCx5Y,215
+gravithon-0.0.3.dist-info/LICENSE,sha256=8bjJsmc4cp15dlxXrjki_pFJhaVlFqxoUNQhE7fxvG4,1071
+gravithon-0.0.3.dist-info/METADATA,sha256=RL6SkoUQ6KFYFy6SpUrFIfN0U-nGx5yKEBoTqdfV7A4,870
+gravithon-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gravithon-0.0.3.dist-info/top_level.txt,sha256=XgychSSm6SmmW2uEoMtrTFCT1jWIPBlFqVTb-4s9TL8,10
+gravithon-0.0.3.dist-info/RECORD,,
