@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: robotics-tools
+Version: 1.0.1
+Summary: Robot Tools for develop your robots.
+Home-page: https://gitlab.com/OpenGHz/airbot_play_vision_python.git
+Author: OpenGHz
+Author-email: ghz23@mails.tsinghua.edu.cn
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy >=1.19.5
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
