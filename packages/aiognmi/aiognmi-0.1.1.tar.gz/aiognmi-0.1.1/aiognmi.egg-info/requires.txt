@@ -1,0 +1,13 @@
+aiofile==3.8.8
+grpcio==1.59.0
+protobuf==4.24.4
+
+[dev]
+ruff==0.3.4
+
+[publish]
+build==1.2.1
+twine==4.0.2
+
+[test]
+pytest==8.1.1
