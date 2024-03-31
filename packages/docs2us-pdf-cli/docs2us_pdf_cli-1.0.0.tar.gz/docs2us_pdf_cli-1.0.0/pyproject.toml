@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "docs2us-pdf-cli"
+version = "1.0.0"
+description = "A CLI tool for analyzing PDFs"
+authors = ["K Boehm <kevin.boehm@orangeinfusion.com>"]
+readme = "README.md"
+packages = [{ include = "docs2us_pdf_cli" }]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+pymupdf = "^1.24.0"
+
+[tool.poetry.scripts]
+pdf-stats = "docs2us_pdf_cli.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
