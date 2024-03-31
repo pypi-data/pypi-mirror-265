@@ -1,0 +1,10 @@
+pygv/__init__.py,sha256=jhTX0Ci-7BHCIsw4nUkB8p6fR1KAfrTL3fPem3jkjZg,106
+pygv/_api.py,sha256=Cp0ulbMJ0yeWEUPQCx0Ohbyd-t-Q0FkYn36h6vVJAbQ,3319
+pygv/_tracks.py,sha256=9OyHQqtM-HK7r6BYuRjPbrt2L29goiYgZ-yz46-IQ7U,9273
+pygv/_version.py,sha256=i1Qt4frrrkonncA4d5pQs9ajmbH4m6BzP3RB-cwRHjA,161
+pygv/_widget.py,sha256=VEgi2bCrStv_a74b-IBwoLWLoljddMgpShvVE5N0u_c,912
+pygv/static/widget.css,sha256=7Do15vUiW5Re023UzrSLMO5nBcCplf4ee4wgaqfGbT8,413
+pygv/static/widget.js,sha256=4XrmkXEWH3jaWElLlS5rWZnLPTMlAEayvdhVtkRMzG8,513
+pygv-0.0.0.dist-info/METADATA,sha256=AX2WWLJMYfridSF9aqM-O9lUXhoIVCV6xalyYmxhDxg,1815
+pygv-0.0.0.dist-info/WHEEL,sha256=q6Ejfpj4HRnt7o1XWgEOo5g7W0PKmxxzhdMpcVNBe68,105
+pygv-0.0.0.dist-info/RECORD,,
