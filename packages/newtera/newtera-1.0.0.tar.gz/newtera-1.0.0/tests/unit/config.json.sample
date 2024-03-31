@@ -1,0 +1,17 @@
+{
+	"version": "8",
+	"hosts": {
+		"play": {
+			"url": "https://play.newtera.io:9000",
+			"accessKey": "demo1",
+			"secretKey": "888",
+			"api": "S3v2"
+		},
+		"s3": {
+			"url": "https://s3.amazonaws.com",
+			"accessKey": "accessKey",
+			"secretKey": "secret",
+			"api": "S3v4"
+		}
+	}
+}
