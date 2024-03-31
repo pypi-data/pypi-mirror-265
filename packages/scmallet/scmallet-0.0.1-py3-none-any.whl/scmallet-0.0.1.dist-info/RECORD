@@ -1,0 +1,10 @@
+scmallet/__init__.py,sha256=Gczsh3OYJmxqO6YVSXmW_iUYgd5VtJJGcNEnHmr0b7M,287
+scmallet/binarize.py,sha256=kjwGHPJRVVGy3hbX7F6J0eHnJRGn6NctGHdGysZgBtk,4426
+scmallet/infer.py,sha256=WPLUZnZuBY2Jl4wAKFU4epIM0R_L7z3dWHJKtTqUzkY,2502
+scmallet/input.py,sha256=tcNt-KsMZRyo-bfCRbmmj-1bNQiTFSEyJaVwLAWdYdc,7905
+scmallet/mallet.py,sha256=Gp9aCHVakQxAY3dl4t5t8JXoo3qYZV2CfopfmDZYzs8,20237
+scmallet/utils.py,sha256=D_VW9gE7wxLS-5DumscWheP8YjHLiLEukN7l4e6d2SM,1666
+scmallet-0.0.1.dist-info/METADATA,sha256=3N9AlADwYcKt_zcyZ4XA1DVSOCui5--nsmIszOKxpu4,2927
+scmallet-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+scmallet-0.0.1.dist-info/licenses/LICENSE,sha256=DU-nsXs-hA19ShKuQcaQBMLypKqQC32M3LgQkXBdglM,1064
+scmallet-0.0.1.dist-info/RECORD,,
