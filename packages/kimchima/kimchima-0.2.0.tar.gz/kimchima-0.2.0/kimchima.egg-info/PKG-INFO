@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kimchima
+Version: 0.2.0
+Summary: A collection of tools for testing and dump llama2
+Author: Aisuko
+Author-email: urakiny@gmail.com
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: sentencepiece
+Requires-Dist: tqdm
