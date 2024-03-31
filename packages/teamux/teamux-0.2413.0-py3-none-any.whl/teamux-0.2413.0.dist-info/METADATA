@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: teamux
+Version: 0.2413.0
+Summary: Tmux wrapper
+Author-email: Louis RIVIERE <louis@riviere.xyz>
+License: MIT
+Project-URL: pypi, https://pypi.org/project/teamux
+Project-URL: repository, https://notabug.org/dugres/teamux/src/stable
+Keywords: library
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Teamux
+
+Tmux wrapper
+
+## Abstract
+
+Tmux Python library
+
+## Usage
+
+   from teamux import tmux
+
+## Installation
+
+    $ pip install teamux
