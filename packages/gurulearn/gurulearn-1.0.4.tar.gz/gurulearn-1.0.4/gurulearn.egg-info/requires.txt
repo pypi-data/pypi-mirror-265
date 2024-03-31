@@ -1,0 +1,9 @@
+opencv-python
+scipy
+matplotlib
+tensorflow==2.13.1
+Keras
+pandas
+numpy
+plotly
+scikit-learn
