@@ -1,0 +1,9 @@
+<__main__.MyClass object at 0x104646850>.attr: 0 -> 0
+16: self.attr = 0
+
+<__main__.MyClass object at 0x104646850>.attr: 0 -> 1
+19: setattr(self, "attr", 1)
+
+<__main__.MyClass object at 0x104646850>.attr: 1 -> 3
+27: self.attr = randint(0, 10)
+
