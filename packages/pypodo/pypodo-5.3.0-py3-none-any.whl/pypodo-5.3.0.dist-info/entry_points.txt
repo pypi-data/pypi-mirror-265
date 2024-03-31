@@ -1,0 +1,2 @@
+[console_scripts]
+pypodo = pypodo.__init__:pypodo
