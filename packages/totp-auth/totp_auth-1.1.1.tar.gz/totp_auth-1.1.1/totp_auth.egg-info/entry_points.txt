@@ -1,0 +1,2 @@
+[console_scripts]
+totp-auth = totp_auth.cli:main
