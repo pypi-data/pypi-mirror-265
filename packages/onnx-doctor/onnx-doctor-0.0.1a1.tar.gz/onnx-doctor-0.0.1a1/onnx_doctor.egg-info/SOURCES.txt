@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+onnx_doctor.egg-info/PKG-INFO
+onnx_doctor.egg-info/SOURCES.txt
+onnx_doctor.egg-info/dependency_links.txt
+onnx_doctor.egg-info/requires.txt
+onnx_doctor.egg-info/top_level.txt
+onnxdoctor/__init__.py
+onnxdoctor/_checker.py
+onnxdoctor/_diagnostics.py
+onnxdoctor/_message.py
+onnxdoctor/diagnostics_providers/__init__.py
+onnxdoctor/diagnostics_providers/sparsity.py
+onnxdoctor/diagnostics_providers/onnxruntime_comparibility/__init__.py
+onnxdoctor/diagnostics_providers/onnxruntime_comparibility/_support_table.py
