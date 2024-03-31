@@ -1,0 +1,2 @@
+[console_scripts]
+pyFilmFinder = pyFilmFinder.__main__:main
