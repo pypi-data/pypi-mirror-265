@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+senziio/__init__.py
+senziio/exceptions.py
+senziio/senziio.py
+senziio.egg-info/PKG-INFO
+senziio.egg-info/SOURCES.txt
+senziio.egg-info/dependency_links.txt
+senziio.egg-info/requires.txt
+senziio.egg-info/top_level.txt
+tests/test_senziio.py
