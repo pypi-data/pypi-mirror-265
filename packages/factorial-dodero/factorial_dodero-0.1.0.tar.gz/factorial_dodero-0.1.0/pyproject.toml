@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "factorial-dodero"
+version = "0.1.0"
+description = ""
+authors = ["Dodero10 <truongdat.work@gmail.com>"]
+readme = "README.md"
+packages = [{include = "factorial_dodero"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
