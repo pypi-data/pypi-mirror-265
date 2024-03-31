@@ -1,0 +1,17 @@
+llm_benchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_benchmark/check_models.py,sha256=plcAUqp8953j9MFHoAPJHN9AxzhE9pYVjTN7luML_2k,1837
+llm_benchmark/check_ollama.py,sha256=egUQpMwVJKCc4JLtov-MyOf_RzjNRWRuedb03YHaEW8,498
+llm_benchmark/main.py,sha256=FMEN3p2w2vP28D5bSnFnB6o3TdGEJ57L4usHrx9BdmE,2654
+llm_benchmark/query_llm.py,sha256=1g_RZPTnL-rMs0dfBXPlBmUUxutpRG1bCj_R9eSppnY,1623
+llm_benchmark/run_benchmark.py,sha256=lpYapD7T4uh27JEFNudUIKelY1Ju4gqrd0ZSEMz5HmY,5644
+llm_benchmark/run_benchmark_one.py,sha256=FSqrdx5wM5f36kggYBlhs6SF9DERaiiRr8TO1Y6FOKk,2338
+llm_benchmark/security_connection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_benchmark/security_connection/connection.py,sha256=n-LCw4RP2I2kByVWAieWJdKS6012nVoyydyDghz9RSU,353
+llm_benchmark/security_connection/security.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_benchmark/systeminfo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_benchmark/systeminfo/sysmain.py,sha256=bkdjBjGSYkjR2sZbwAxIgtKcyLN6dLjXZWoYrXYK2bQ,6934
+llm_benchmark-0.3.5.dist-info/LICENSE,sha256=k_4utRVOlpXU23bis0RwhxbUOH84fxg37__WQ_pxzVY,1083
+llm_benchmark-0.3.5.dist-info/METADATA,sha256=MefXLOUhaRkosFsdPugmAMCXrwiqiaeQKCvO4TIJvn0,3099
+llm_benchmark-0.3.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llm_benchmark-0.3.5.dist-info/entry_points.txt,sha256=pqvaXPfeSvr7qw9uy2ZpFfiFwlacjjsYruoKZr9OqQw,56
+llm_benchmark-0.3.5.dist-info/RECORD,,
