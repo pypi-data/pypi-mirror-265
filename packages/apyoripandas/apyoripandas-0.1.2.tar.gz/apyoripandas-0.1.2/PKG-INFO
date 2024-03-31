@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: apyoripandas
+Version: 0.1.2
+Summary: Make easy user Apyori for Pandas
+Home-page: https://github.com/matheus0sa/apyoripandas
+Author: Matheus de Sá
+Author-email: matheusdesa55@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
