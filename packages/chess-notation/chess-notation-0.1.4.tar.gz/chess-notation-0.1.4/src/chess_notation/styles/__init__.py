@@ -1,0 +1,1 @@
+from .styles import Style, Castle, Check, Default, Mate, PawnCapture, PieceCapture
