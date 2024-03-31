@@ -1,0 +1,2 @@
+[console_scripts]
+openmines = openmines.src.cli.run:main
