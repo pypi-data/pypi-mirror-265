@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tkinter_dndr/__init__.py
+src/tkinter_dndr/test_dndr.py
+src/tkinter_dndr/tkinter_dndr.py
+src/tkinter_dndr.egg-info/PKG-INFO
+src/tkinter_dndr.egg-info/SOURCES.txt
+src/tkinter_dndr.egg-info/dependency_links.txt
+src/tkinter_dndr.egg-info/top_level.txt
+tests/test_dndr.py
