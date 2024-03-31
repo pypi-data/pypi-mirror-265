@@ -1,0 +1,11 @@
+miksi_ai_sdk-0.0.21.dist-info/RECORD,,
+miksi_ai_sdk-0.0.21.dist-info/METADATA,sha256=qilFZsOv2pMMsWTDnf_VLm_Utu28lZKBWmJSmB8LkBc,6892
+miksi_ai_sdk-0.0.21.dist-info/WHEEL,sha256=fi4cVfpey3xcdlS41G0BGLav86L8eWRKj9oEclxTRG0,213
+miksi_ai_sdk-0.0.21.dist-info/top_level.txt,sha256=CrTJBVtyuSbja1X5cUxe0RnuBKy_GecyIfPTi_LY02A,13
+miksi_ai_sdk/agent.cpython-36m-i386-linux-gnu.so,sha256=YlJEcrienebcZNEPEGOwLjC0gHXyJF4quwPSYy6tjkU,520968
+miksi_ai_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksi_ai_sdk/sqltool.cpython-36m-i386-linux-gnu.so,sha256=Grl_Psnlmg5c0siCZWQ5RnhCep4cGZMw-vBVbieEMPk,1012544
+miksi_ai_sdk/api.cpython-36m-i386-linux-gnu.so,sha256=WGIp55yMsCIGbGUrnpbP2HnzFuHKYqGjxoCT_Tm5ZRs,403632
+miksi_ai_sdk/master.cpython-36m-i386-linux-gnu.so,sha256=sCG9NgjzVZfylszwNc2-ckaKgFtmJciX-TWQ5YK6590,198000
+miksi_ai_sdk/utils.cpython-36m-i386-linux-gnu.so,sha256=94ISyz8B9CIPWWEAdWQM2r0vlj5bxqjwWmrTv-_nF_c,201216
+miksi_ai_sdk/pythontool.cpython-36m-i386-linux-gnu.so,sha256=-b14ebDZdYSkLsDdp9SjktOdY7CKocsKRktQM88Cvm4,313432
