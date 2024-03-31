@@ -1,0 +1,89 @@
+[project]
+name = "streamlit-process-manager"
+version = "0.0.1a"
+description = "Manage the heck out of long-running processes in streamlit"
+authors = [
+    {name = "Alexander Martin", email = "fauxjunk-1@yahoo.com"},
+]
+dependencies = [
+    "psutil>=5.9.8",
+    "streamlit>=1.30.0",
+]
+requires-python = "!=3.9.7,>=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Shells",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/Asaurus1/streamlit-process-manager"
+Issues = "https://github.com/Asaurus1/streamlit-process-manager/issues"
+
+[project.optional-dependencies]
+dev = [
+    "tox>=4.14.2",
+]
+test = [
+    "pytest>=8.1.1",
+]
+lint = [
+    "mypy>=1.9.0",
+    "pylint>=3.1.0",
+    "pandas-stubs>=2.0.2.230605",
+    "types-Pillow>=10.2.0.20240324",
+    "types-cachetools>=5.3.0.7",
+    "types-colorama>=0.4.15.20240311",
+    "types-jsonschema>=4.21.0.20240311",
+    "types-protobuf>=4.24.0.20240311",
+    "types-psutil>=5.9.5.20240316",
+    "types-pycurl>=7.45.2.20240311",
+    "types-toml>=0.10.8.20240310",
+    "types-openpyxl>=3.1.0.20240311",
+]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
+
+
+[tool.pdm.scripts]
+mypy = "mypy --install-types --non-interactive src/streamlit_process_manager"
+test = "pytest"
+pylint = "pylint src/streamlit_process_manager"
+lint = {composite = ["pylint", "mypy"]}
+check = {composite = ["test", "lint"]}
+example = "streamlit run examples/example.py"
+freeze = "pdm export --editable-self --no-hashes -o requirements.txt"
+
+
+[tool.pylint]
+max-line-length = 120
+disable = [
+    "E0001",
+    "R1735",
+    "R0913",
+    "W0511",
+]

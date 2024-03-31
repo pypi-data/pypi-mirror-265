@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/streamlit_process_manager/__init__.py
+src/streamlit_process_manager/_core.py
+src/streamlit_process_manager/api.py
+src/streamlit_process_manager/group.py
+src/streamlit_process_manager/manager.py
+src/streamlit_process_manager/monitor.py
+src/streamlit_process_manager/process.py
+src/streamlit_process_manager/proxy.py
+src/streamlit_process_manager/types.py
+src/streamlit_process_manager.egg-info/PKG-INFO
+src/streamlit_process_manager.egg-info/SOURCES.txt
+src/streamlit_process_manager.egg-info/dependency_links.txt
+src/streamlit_process_manager.egg-info/requires.txt
+src/streamlit_process_manager.egg-info/top_level.txt
+tests/test_subprocess_manager.py
