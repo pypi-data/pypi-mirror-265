@@ -1,0 +1,11 @@
+miksi_ai_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksi_ai_sdk/agent.pypy39-pp73-win_amd64.pyd,sha256=re6QCfJfW-02NgvYfykx75sbLNxI0P7TbapOClCH7Fk,93184
+miksi_ai_sdk/api.pypy39-pp73-win_amd64.pyd,sha256=5OlRQrQDLrLOkO_2Zd518uF5angvyD_5dT2n5DOVPqQ,58368
+miksi_ai_sdk/master.pypy39-pp73-win_amd64.pyd,sha256=wEe9q-yObRCf15Lnstmp5lrJ3Zk5d8RVVsSvk5ZmygM,34304
+miksi_ai_sdk/pythontool.pypy39-pp73-win_amd64.pyd,sha256=lHSWmHnHkdfrfoblb9u_Oa7dz7UgFGyb0Y4J3lcrpfI,49152
+miksi_ai_sdk/sqltool.pypy39-pp73-win_amd64.pyd,sha256=hdAjvKRuHckCwiMAqKA1AYPVLHc7DZ9VYqmrXaSz6nU,115712
+miksi_ai_sdk/utils.pypy39-pp73-win_amd64.pyd,sha256=1ArjXbcrarRriuRtjebJcHPSH-Z90XkQ_pqLWmO2bGQ,39936
+miksi_ai_sdk-0.0.21.dist-info/METADATA,sha256=wQU30Gc5XIvvxKnJHpOMmx_2DCCit3KQWUhdEjuYVhE,7028
+miksi_ai_sdk-0.0.21.dist-info/WHEEL,sha256=QQY0XPJVcbNrDwRnZBTwtxGbMWJnHaWRpMJLfPEPCFM,107
+miksi_ai_sdk-0.0.21.dist-info/top_level.txt,sha256=CrTJBVtyuSbja1X5cUxe0RnuBKy_GecyIfPTi_LY02A,13
+miksi_ai_sdk-0.0.21.dist-info/RECORD,,
