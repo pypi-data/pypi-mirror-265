@@ -1,0 +1,8 @@
+xunfei/__init__.py,sha256=tHC98ZzQiZRhaQrCO16qkieqdsGo6dt9n-7t9qSpCck,122
+xunfei/spark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xunfei/spark/client.py,sha256=6uO1-MLrTo1o2ZDmr72dijy-9itI0oqirLGUulZvkow,7140
+xunfei/spark/response.py,sha256=hSU-gm5-KO4neog7L9kY7n7iXDqawU3ieS_wehErvX4,336
+xunfei_spark_python-0.0.7.dist-info/METADATA,sha256=DfwH39mwB2nsQGoeOyoD_B5i_PooXQmqyRr-VWFopUc,3045
+xunfei_spark_python-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xunfei_spark_python-0.0.7.dist-info/top_level.txt,sha256=WEbZIO8RExeCd8JD7nIKVREi1e2Kf11nI9qi4YKDY7U,7
+xunfei_spark_python-0.0.7.dist-info/RECORD,,
