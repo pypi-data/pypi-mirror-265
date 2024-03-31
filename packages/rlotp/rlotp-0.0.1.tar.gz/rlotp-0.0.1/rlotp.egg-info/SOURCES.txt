@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rlotp.egg-info/PKG-INFO
+rlotp.egg-info/SOURCES.txt
+rlotp.egg-info/dependency_links.txt
+rlotp.egg-info/requires.txt
+rlotp.egg-info/top_level.txt
