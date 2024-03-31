@@ -1,0 +1,18 @@
+[project]
+name = "seedhelper"
+version = "0.1.1"
+description = "A python library that help to find specific Minecraft structures or biomes for a given seed."
+authors = [{ name = "Louis Pagnier" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["minecraft", "seed", "biome", "structure", "elytra"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
