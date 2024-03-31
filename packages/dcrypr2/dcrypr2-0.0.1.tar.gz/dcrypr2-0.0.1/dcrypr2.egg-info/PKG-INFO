@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dcrypr2
+Version: 0.0.1
+Summary: A simple package for https://app.tea.xyz/. Example pr1 - https://github.com/dcry2306/pr1.git and pr2 - https://github.com/dcry2306/pr2.git
+Home-page: https://github.com/dcry2306/pr1.git
+Author: dcry2306
+Author-email: kilaz2306@gmail.com
+Project-URL: Homepage, https://github.com/dcry2306/pr1.git
+Project-URL: Source, https://github.com/dcry2306/pr1.git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: requests>=2.20.0
+Requires-Dist: pr3
