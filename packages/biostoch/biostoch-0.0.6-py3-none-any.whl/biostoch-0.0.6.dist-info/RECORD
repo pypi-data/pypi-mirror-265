@@ -1,0 +1,13 @@
+biostoch/__init__.py,sha256=pWiaNiIlAJXz1QpjrFqA-4ea_X2yQoY99FLf2svNG84,276
+biostoch/__main__.py,sha256=kV3UrOtcwLQXrKLwYyLDNU-MYpdvM5wRFIa0kVwymR4,401
+biostoch/cle.py,sha256=4fFIUGfh5YpY78Q4_wdpQ3GMQ09rP0Nt6FicqT7og5Q,8727
+biostoch/model.py,sha256=QMSPnjVgzsAv-qiExINqOFlC5zUIw520AQHkCZDZdms,8332
+biostoch/ode.py,sha256=QB1mPLE8d-4EJCmLrVK3EI27pxMwAQ004thfXNVfARo,11818
+biostoch/ssa.py,sha256=lBe8RyL8bLS6BTJH7k-m8AGQbzerDU6GmXfqJuuuZoA,10626
+biostoch/tau_leaping.py,sha256=B2uTYfFvTraPHTKYbbwfXyhZkcKdPDM1pdLyZfHzo3Y,11715
+biostoch/visualization.py,sha256=BJvWizQUGqmW-35lAFsVoLWnLVDcCV3ADqx2hauY3U0,6771
+biostoch-0.0.6.dist-info/LICENSE,sha256=1Sq6KeSPq3ouC2ejVVPy9ipnosFKDEjIATzVAwHb8q4,1071
+biostoch-0.0.6.dist-info/METADATA,sha256=8CWE5lfEn_ZOW2WiGRppJdEFD6ccsAfPhPVrhPfDxzQ,5139
+biostoch-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+biostoch-0.0.6.dist-info/top_level.txt,sha256=40x-nNclq0LsWErHKo5Ww-ajZICQFVtRR2CJX8b9Bmc,9
+biostoch-0.0.6.dist-info/RECORD,,
