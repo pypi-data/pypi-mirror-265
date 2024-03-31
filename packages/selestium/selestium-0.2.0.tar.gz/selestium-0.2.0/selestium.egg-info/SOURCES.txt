@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Selestium/ChromeHandler.py
+Selestium/FirefoxHandler.py
+Selestium/__init__.py
+Selestium/selestium.py
+selestium.egg-info/PKG-INFO
+selestium.egg-info/SOURCES.txt
+selestium.egg-info/dependency_links.txt
+selestium.egg-info/requires.txt
+selestium.egg-info/top_level.txt
