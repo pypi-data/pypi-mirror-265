@@ -1,0 +1,8 @@
+MIT-LICENSE
+README.md
+pyproject.toml
+src/fodantic.egg-info/PKG-INFO
+src/fodantic.egg-info/SOURCES.txt
+src/fodantic.egg-info/dependency_links.txt
+src/fodantic.egg-info/requires.txt
+src/fodantic.egg-info/top_level.txt
