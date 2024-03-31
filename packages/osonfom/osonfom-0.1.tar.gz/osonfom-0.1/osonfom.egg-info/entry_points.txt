@@ -1,0 +1,2 @@
+[console_scripts]
+osonfom = mytictactoe:main

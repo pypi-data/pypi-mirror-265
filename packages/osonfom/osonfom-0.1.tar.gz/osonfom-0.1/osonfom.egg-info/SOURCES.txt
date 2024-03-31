@@ -1,0 +1,7 @@
+setup.py
+osonfom/__init__.py
+osonfom.egg-info/PKG-INFO
+osonfom.egg-info/SOURCES.txt
+osonfom.egg-info/dependency_links.txt
+osonfom.egg-info/entry_points.txt
+osonfom.egg-info/top_level.txt
