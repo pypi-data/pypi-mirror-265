@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "switchkey"
+version = "0.1.0"
+description = "The SwitchKey Python client is a versatile tool for interacting with the SwitchKey feature management platform in Python applications. With this client, developers can easily integrate feature flags and toggle management capabilities into their Python projects. The client provides methods for connecting to SwitchKey environments, accessing user data, retrieving feature values, setting feature flags, and more. It simplifies the process of incorporating feature management functionality, enabling developers to efficiently control feature rollout and experimentation in their applications."
+authors = ["Mahmoud Emad <mahmmoud.hassanein@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
