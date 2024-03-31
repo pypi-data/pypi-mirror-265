@@ -1,0 +1,10 @@
+atypical/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+atypical/currency.py,sha256=2Cyoa7dlUf_Ne42mAI0aE-RKrpwzO5fCbSinV0dtfmc,3688
+atypical/email.py,sha256=fqipQpeMrYZsD8slWtfE5LkxLht9lfJvT0Jt1FNZujI,5650
+atypical/money.py,sha256=xuf2bZYWXH5iME_fBApYWpde1mCEnJAaNsiVemiGhV4,4488
+atypical/phone.py,sha256=sAXlqf8WInqPFO8Lfq-hTlO-itN2i7K510tOKRzmUho,5251
+atypical/url.py,sha256=VOU5-GIRq1N7oFdQ8pDIuPuHkvPvwAamz3INf6cZlT8,9255
+atypical-0.0.0.dist-info/METADATA,sha256=AyatA7AzcCv2KBPRMLOkrQuIojanqBX0EOQA2jRZmDg,1407
+atypical-0.0.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+atypical-0.0.0.dist-info/licenses/LICENSE,sha256=HVmUxpUuFF-Qm8S2cx-DoxFTp6rNtoMkkRk4EgR8fn4,1069
+atypical-0.0.0.dist-info/RECORD,,
