@@ -1,0 +1,9 @@
+README.md
+setup.py
+search_in_a_third/__init__.py
+search_in_a_third/search_in_a_third.py
+search_in_a_third.egg-info/PKG-INFO
+search_in_a_third.egg-info/SOURCES.txt
+search_in_a_third.egg-info/dependency_links.txt
+search_in_a_third.egg-info/requires.txt
+search_in_a_third.egg-info/top_level.txt
