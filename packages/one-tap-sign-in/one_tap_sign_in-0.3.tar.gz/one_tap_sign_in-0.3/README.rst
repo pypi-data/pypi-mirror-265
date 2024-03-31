@@ -1,0 +1,46 @@
+===================
+One Tap Sign In
+===================
+
+Description
+-----------
+
+One Tap Sign In is a Django library for integrating phone verification functionality into your web application. It simplifies the process of global phone number verification using OTP/passcode, similar to Gmail's One Tap Sign In feature. This library eliminates the need for complex telecom registration and SMS API Gateway integration for each country.
+
+Installation
+------------
+
+You can install One Tap Sign In using pip:
+
+.. code-block:: bash
+
+    $ pip install one-tap-sign-in
+
+Usage
+-----
+
+To configure One Tap Sign In in your Django project, you can set the client ID and access token using the following functions:
+
+.. code-block:: python
+    
+    from one_tap_sign_in.config import set_client_id, set_access_token
+
+    set_client_id("your_client_id")
+    set_access_token("your_access_token")
+
+Once configured, you can call the `get_verified_phone()` function in your views to retrieve the verified phone number:
+
+.. code-block:: python
+
+    # views.py
+    from one_tap_sign_in.utils import get_verified_phone
+
+    def my_view(request):
+        # Call the get_verified_phone function
+        phone_number = get_verified_phone()
+        # Further logic based on the retrieved phone number
+
+License
+-------
+
+One Tap Sign In is distributed under the MIT License. See the `LICENSE` file for more information.
