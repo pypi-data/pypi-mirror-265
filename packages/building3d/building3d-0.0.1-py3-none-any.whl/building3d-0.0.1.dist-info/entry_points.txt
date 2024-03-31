@@ -1,0 +1,2 @@
+[console_scripts]
+building3d = building3d:main
