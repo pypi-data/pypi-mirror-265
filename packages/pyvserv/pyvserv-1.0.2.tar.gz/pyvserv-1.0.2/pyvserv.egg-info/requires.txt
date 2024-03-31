@@ -1,0 +1,4 @@
+pyvpacker
+pydbase
+pycryptodome
+pyvecc
