@@ -1,0 +1,9 @@
+README.md
+setup.py
+lostproxy/__init__.py
+lostproxy/lostproxy.py
+lostproxy.egg-info/PKG-INFO
+lostproxy.egg-info/SOURCES.txt
+lostproxy.egg-info/dependency_links.txt
+lostproxy.egg-info/entry_points.txt
+lostproxy.egg-info/top_level.txt
