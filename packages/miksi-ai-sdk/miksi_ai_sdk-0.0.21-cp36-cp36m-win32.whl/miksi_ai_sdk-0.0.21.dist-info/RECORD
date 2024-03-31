@@ -1,0 +1,11 @@
+miksi_ai_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksi_ai_sdk/agent.cp36-win32.pyd,sha256=KKyv6mMmaUA1XC8yO3V0ROnZR-JJLjAIqSZoOF5oR5Y,99328
+miksi_ai_sdk/api.cp36-win32.pyd,sha256=6EslT8RKNz1FtqVCPZsZNAdyoHr6UP7MLXFaiy5ul5w,67584
+miksi_ai_sdk/master.cp36-win32.pyd,sha256=TGBZ-nZZiiACk_14w4yW4EnAgUBSVT9JEMuMqAMd7MI,38912
+miksi_ai_sdk/pythontool.cp36-win32.pyd,sha256=Cyo5397eJI73NofKSbDFul1f0PqppkyuQwkK0x-hPQc,55296
+miksi_ai_sdk/sqltool.cp36-win32.pyd,sha256=bGvp2X2nHh6MV3-mXLkjJj4j9H8iV_5IRAeO3FrkTJM,136704
+miksi_ai_sdk/utils.cp36-win32.pyd,sha256=S_pPDSK6nweb5DtAKCmMN_tOMi7uFUJB17cHrhhnGKI,42496
+miksi_ai_sdk-0.0.21.dist-info/METADATA,sha256=Ud1rexS6QPC00_BHJq6A2VjUsSAlWCo1cKWejma1SGg,6902
+miksi_ai_sdk-0.0.21.dist-info/WHEEL,sha256=ZX-iFFGFiHZRWPwXowAnONYwAL2TBxDHVbhC1HaSV9Q,97
+miksi_ai_sdk-0.0.21.dist-info/top_level.txt,sha256=CrTJBVtyuSbja1X5cUxe0RnuBKy_GecyIfPTi_LY02A,13
+miksi_ai_sdk-0.0.21.dist-info/RECORD,,
