@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: apyoripandas
+Version: 0.1.3
+Summary: Make easy user Apyori for Pandas
+Home-page: https://github.com/matheus0sa/apyoripandas
+Author: Matheus de Sá
+Author-email: matheusdesa55@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Apyori for Pandas
+
+Este pacote busca facilitar o uso da biblioteca apyori no pandas
+
+veja um exemplo:
+
+```python
+
+from apyoripandas.apriori import Apriori
+import pandas as pd
+
+# Exemplo de teste
+df_teste = pd.read_csv('teste.csv')
+
+resultado = Apriori(df_test, min_support=0.1, min_confidence=0.9, min_length=18)
+
+```
+
+Neste caso resultado é um dataframe do pandas
