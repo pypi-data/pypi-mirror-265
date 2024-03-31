@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cleanpandas/__init__.py
+src/cleanpandas/main.py
+src/cleanpandasdf.egg-info/PKG-INFO
+src/cleanpandasdf.egg-info/SOURCES.txt
+src/cleanpandasdf.egg-info/dependency_links.txt
+src/cleanpandasdf.egg-info/top_level.txt
