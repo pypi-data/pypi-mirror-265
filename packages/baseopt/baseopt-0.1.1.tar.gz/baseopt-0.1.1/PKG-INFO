@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: baseopt
+Version: 0.1.1
+Summary: Parse and manage CLI options/arguments from getopt
+Author-email: An Wang <wangan.cs@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 alephpiece
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/alephpiece/baseopt
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# baseopt
+
+A simple package for parsing and managing CLI options/arguments from getopt.
+
+## Install
+
+```shell
+pip install baseopt
+```
+
+## Usage
+
+```python
+import sys
+from baseopt import BaseOption, BaseOptions
+
+# Or you can just initialize the BaseOptions
+options = BaseOptions([
+    BaseOption(name="help", shortname="h", dtype=bool, default=False),
+    BaseOption(name="file", shortname="f", dtype=str, doc="Path to the input file")
+])
+
+# Or you can create your own option classes
+class Options(BaseOptions):
+    def __init__(self):
+    super().__init__()
+
+    # Append available options
+    self.add(name="help", shortname="h", dtype=bool, default=False)
+    self.add(name="file", shortname="f", dtype=str, doc="Path to the input file")
+
+options = Options()
+
+# Parse command line arguments
+options.parse(sys.argv[1:])
+
+# Check if we should print a help message
+if options["help"].value:
+    options.help()
+    sys.exit(1)
+
+print(options["file"].value)
+```
+
+Executing the above script gives
+
+```
+Options:
+  -h | --help
+  -f | --file              Path to the input file
+                           (def = "None")
+```

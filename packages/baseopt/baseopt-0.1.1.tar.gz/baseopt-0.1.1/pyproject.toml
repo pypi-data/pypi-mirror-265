@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "baseopt"
+version = "0.1.1"
+authors = [
+    {name = "An Wang", email = "wangan.cs@gmail.com"},
+]
+license = {file = "LICENSE" }
+description = "Parse and manage CLI options/arguments from getopt"
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.urls]
+Repository = "https://github.com/alephpiece/baseopt"
