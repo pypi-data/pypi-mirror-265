@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: am4utils
+Version: 0.1.8a1
+Summary: am4utils is now am4
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: am4
+
+# am4utils is now am4
+
+This package has been renamed. Use `pip install am4` instead.
+
+New package: https://pypi.org/project/am4/

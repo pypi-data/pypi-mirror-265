@@ -1,0 +1,7 @@
+README.md
+setup.py
+am4utils.egg-info/PKG-INFO
+am4utils.egg-info/SOURCES.txt
+am4utils.egg-info/dependency_links.txt
+am4utils.egg-info/requires.txt
+am4utils.egg-info/top_level.txt
