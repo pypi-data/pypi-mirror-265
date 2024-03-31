@@ -1,0 +1,17 @@
+LICENSE
+setup.py
+pix/__init__.py
+pix/cli_parser.py
+pix/converter.py
+pix/croper.py
+pix/main.py
+pix/manifest.json
+pix/prune.py
+pix/resizer.py
+pix/utils.py
+zz_pix.egg-info/PKG-INFO
+zz_pix.egg-info/SOURCES.txt
+zz_pix.egg-info/dependency_links.txt
+zz_pix.egg-info/entry_points.txt
+zz_pix.egg-info/requires.txt
+zz_pix.egg-info/top_level.txt
