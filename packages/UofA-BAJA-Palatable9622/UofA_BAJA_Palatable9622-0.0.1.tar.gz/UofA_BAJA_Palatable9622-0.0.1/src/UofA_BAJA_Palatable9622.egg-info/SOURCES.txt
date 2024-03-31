@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ConfigParser.py
+src/Messages.py
+src/SerialDevices.py
+src/UofA_BAJA_Palatable9622.egg-info/PKG-INFO
+src/UofA_BAJA_Palatable9622.egg-info/SOURCES.txt
+src/UofA_BAJA_Palatable9622.egg-info/dependency_links.txt
+src/UofA_BAJA_Palatable9622.egg-info/top_level.txt
