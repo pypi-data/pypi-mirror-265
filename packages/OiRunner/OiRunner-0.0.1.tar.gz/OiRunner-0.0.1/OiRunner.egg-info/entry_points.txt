@@ -1,0 +1,2 @@
+[console_scripts]
+oirun = OiRunner.r:main
