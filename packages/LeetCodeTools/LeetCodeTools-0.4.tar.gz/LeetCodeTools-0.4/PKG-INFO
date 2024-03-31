@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: LeetCodeTools
+Version: 0.4
+Summary: A simple package that includes some tools for LeetCode problems.
+Home-page: https://github.com/hmralavi/LeetCodeTools
+Author: Hamid Alavi
+Author-email: hmralavi@gmail.com
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LeetCodeTools
