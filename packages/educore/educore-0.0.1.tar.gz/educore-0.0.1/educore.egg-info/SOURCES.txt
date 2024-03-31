@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+educore/__init__.py
+educore.egg-info/PKG-INFO
+educore.egg-info/SOURCES.txt
+educore.egg-info/dependency_links.txt
+educore.egg-info/top_level.txt
