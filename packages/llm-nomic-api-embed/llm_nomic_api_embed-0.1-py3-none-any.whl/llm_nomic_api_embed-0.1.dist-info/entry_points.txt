@@ -1,0 +1,2 @@
+[llm]
+nomic_api_embed = llm_nomic_api_embed
