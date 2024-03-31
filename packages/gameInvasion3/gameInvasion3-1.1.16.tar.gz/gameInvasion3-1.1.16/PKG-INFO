@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gameInvasion3
+Version: 1.1.16
+Summary: a python game engine for my 2D game development
+Home-page: https://github.com/MaoJiayang/gameInvasion3
+Author: Jiayang Mao
+Author-email: Nucleon_17th@njust.edu.cn
+Requires-Dist: cffi
+Requires-Dist: llvmlite
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pycparser
+Requires-Dist: pygame
+Requires-Dist: pymunk
