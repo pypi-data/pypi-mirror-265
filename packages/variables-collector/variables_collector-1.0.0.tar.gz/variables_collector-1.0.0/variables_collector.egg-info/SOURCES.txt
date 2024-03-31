@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+data_reader/__init__.py
+data_reader/random_data_reader.py
+data_writer/__init__.py
+data_writer/csv_file_data_writer.py
+data_writer/noop_data_writer.py
+variables_collector.egg-info/PKG-INFO
+variables_collector.egg-info/SOURCES.txt
+variables_collector.egg-info/dependency_links.txt
+variables_collector.egg-info/not-zip-safe
+variables_collector.egg-info/top_level.txt
