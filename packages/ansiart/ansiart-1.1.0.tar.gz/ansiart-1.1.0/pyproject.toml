@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ansiart"
+description = "This is a library that converts the image to ANSI escape sequence, outputs it to the CLI, and saves/loads into a text file."
+readme = "README.md"
+authors = [{ name = "kokecoco", email = "kokecoco.kw@gmail.com" }]
+keywords = ["ansi", "art", "image", "cli", "terminal"]
+license = {file = "LICENSE"}
+dependencies = [
+    "Pillow==10.2.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+version = "1.1.0"
+
+[project.urls]
+Homepage = "https://kokecoco.github.io/ansiart-docs/"
+Repository = "https://github.com/Kokecoco/ansiart"
+
+
+[tool.setuptools]
+include-package-data = true
+packages = ["ansiart"]
