@@ -1,0 +1,3 @@
+[console_scripts]
+srchbooks=srchbooks:main
+
