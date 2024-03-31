@@ -1,0 +1,2 @@
+[console_scripts]
+mkninja = mkninja.__main__:main
