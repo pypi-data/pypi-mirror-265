@@ -1,0 +1,13 @@
+ultralytics>=8.1.34
+paddlepaddle>=2.6.1
+paddleocr==2.7.2
+pydantic>=2.6.4
+
+[dev]
+pytest
+pytest-asyncio
+twine
+python-Levenshtein
+setuptools
+wheel
+flake8
