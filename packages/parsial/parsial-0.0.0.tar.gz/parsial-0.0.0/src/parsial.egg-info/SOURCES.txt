@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/parsial/__init__.py
+src/parsial/parsial.py
+src/parsial.egg-info/PKG-INFO
+src/parsial.egg-info/SOURCES.txt
+src/parsial.egg-info/dependency_links.txt
+src/parsial.egg-info/requires.txt
+src/parsial.egg-info/top_level.txt
