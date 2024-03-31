@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+zxpm/__init__.py
+zxpm/zxpm.py
+zxpm.egg-info/PKG-INFO
+zxpm.egg-info/SOURCES.txt
+zxpm.egg-info/dependency_links.txt
+zxpm.egg-info/requires.txt
+zxpm.egg-info/top_level.txt

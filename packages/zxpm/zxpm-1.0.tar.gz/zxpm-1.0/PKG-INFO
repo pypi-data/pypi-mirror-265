@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zxpm
+Version: 1.0
+Summary: Python Module for installing Packages
+Home-page: https://zhrxxgroup.com
+Author: ZHRXXgroup
+Author-email: info@zhrxxgroup.com
+License: MIT License, see LICENSE file
+Download-URL: https://zhrxxgroup.com/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+
+Python Module from ZHRXXgroup to install ZXpackages
+
