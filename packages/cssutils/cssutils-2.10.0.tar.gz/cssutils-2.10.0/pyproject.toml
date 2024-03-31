@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools>=56", "setuptools_scm[toml]>=3.4.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+# disabled
+[tool.pytest-enabler.mypy]
