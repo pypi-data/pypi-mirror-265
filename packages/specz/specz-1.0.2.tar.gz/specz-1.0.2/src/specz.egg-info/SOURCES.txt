@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/example_package_dotexe3301/__init__.py
+src/example_package_dotexe3301/colors.py
+src/example_package_dotexe3301/dir.py
+src/example_package_dotexe3301/fd.py
+src/example_package_dotexe3301/inputed.py
+src/example_package_dotexe3301/main.py
+src/specz.egg-info/PKG-INFO
+src/specz.egg-info/SOURCES.txt
+src/specz.egg-info/dependency_links.txt
+src/specz.egg-info/top_level.txt
