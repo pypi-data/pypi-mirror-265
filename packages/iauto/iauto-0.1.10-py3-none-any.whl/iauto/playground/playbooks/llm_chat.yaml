@@ -1,0 +1,11 @@
+playbook:
+  actions:
+    - llm.session:
+        args:
+          provider: $llm_provider
+          llm_args: $llm_args
+          tools: $tools
+        actions:
+          - playbook:
+              args: $playbooks
+        result: $session
