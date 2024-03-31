@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: core-cdc
+Version: 1.0.4
+Summary: This project/library contains the core mechanism and resources for Change Data Capture services...
+Author-email: Alejandro Cora González <alek.cora.glez@gmail.com>
+Maintainer: Alejandro Cora González
+License: MIT
+Project-URL: Homepage, https://gitlab.com/bytecode-solutions/core/core-cdc
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: core-mixins==1.0.4
+Requires-Dist: core-tests==1.0.3
+Requires-Dist: core-aws==1.0.1
+Requires-Dist: core-db==2.0.2
+Provides-Extra: all
+Requires-Dist: core-db[all]==2.0.2; extra == "all"
+Requires-Dist: mysql-replication==1.0.7; extra == "all"
+Provides-Extra: mongo
+Requires-Dist: core-db[mongo]==2.0.2; extra == "mongo"
+Provides-Extra: mysql
+Requires-Dist: core-db[mysql]==2.0.2; extra == "mysql"
+Requires-Dist: mysql-replication==1.0.7; extra == "mysql"
+Provides-Extra: snowflake
+Requires-Dist: core-db[snowflake]==2.0.2; extra == "snowflake"
+
+# core-cdc (CDC a.k.a Change Data Capture)
+_______________________________________________________________________________
+
+It provides the core mechanism and required resources to 
+implement "Change Data Capture" services...
+
+## Execution Environment
+
+### Install libraries
+```commandline
+pip install --upgrade pip 
+pip install virtualenv
+```
+
+### Create the Python Virtual Environment.
+```commandline
+virtualenv --python=python3.11 .venv
+```
+
+### Activate the Virtual Environment.
+```commandline
+source .venv/bin/activate
+```
+
+### Install required libraries.
+```shell
+pip install .
+```
+
+### Optional libraries.
+```shell
+pip install '.[all]'  # For all...
+pip install '.[mysql]'
+pip install '.[mongo]'
+pip install '.[snowflake]'
+```
+
+### Check tests and coverage.
+```commandline
+python manager.py run-test
+python manager.py run-coverage
+```
+
+## Configurations
+
+While using library `core-cdc>=1.0.2` that uses `mysql-replication>=1.0.7` the 
+value of variable `binlog_row_metadata` must be `FULL`.
+
+### Check the value in the server...
+```commandline
+SHOW VARIABLES LIKE 'binlog_row_metadata';
+```
+
+### Update the MySQL configuration file...
+This file is usually named my.cnf on Unix/Linux systems 
+and my.ini on Windows. The location of this file can vary depending 
+on your operating system and MySQL installation method. Common 
+locations include `/etc/mysql/my.cnf`, `/etc/my.cnf`, 
+or `/usr/local/mysql/my.cnf`.
+
+Add or modify the binlog_row_metadata option in the [mysqld] section 
+of the configuration file. Set it to FULL to enable 
+full metadata logging.
+```commandline
+[mysqld]
+binlog_row_metadata = FULL
+```
+
+If you are using Docker based on `oraclelinux-slim` you can use:
+```commandline
+docker exec -it {container-name} bash
+microdnf install nano
+nano /etc/my.cnf
+```
