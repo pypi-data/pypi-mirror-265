@@ -1,0 +1,8 @@
+[console_scripts]
+pyvcli_cli = pyvcli_cli:mainfunct
+pyvcpanel = pyvcpanel:mainfunct
+pyvgenkey = pyvgenkey:mainfunct
+pyvgenkeys = pyvgenkeys:mainfunct
+pyvreplic = pyvreplic:mainfunct
+pyvserv = pyvserv:mainfunct
+pyvservui = pyvservui:mainfunct
