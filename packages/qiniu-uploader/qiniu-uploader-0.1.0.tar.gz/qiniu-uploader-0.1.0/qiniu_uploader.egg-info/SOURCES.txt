@@ -1,0 +1,12 @@
+README.md
+setup.py
+qiniu_uploader/__init__.py
+qiniu_uploader/cli.py
+qiniu_uploader/core.py
+qiniu_uploader/utils.py
+qiniu_uploader.egg-info/PKG-INFO
+qiniu_uploader.egg-info/SOURCES.txt
+qiniu_uploader.egg-info/dependency_links.txt
+qiniu_uploader.egg-info/entry_points.txt
+qiniu_uploader.egg-info/requires.txt
+qiniu_uploader.egg-info/top_level.txt

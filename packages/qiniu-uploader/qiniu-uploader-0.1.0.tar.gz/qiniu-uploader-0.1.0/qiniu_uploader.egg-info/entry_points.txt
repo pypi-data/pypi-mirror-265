@@ -1,0 +1,3 @@
+[console_scripts]
+qiniu-uploader = qiniu_uploader.cli:main
+
