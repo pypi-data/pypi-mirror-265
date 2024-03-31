@@ -1,0 +1,11 @@
+mkninja/__init__.py,sha256=7Ggi__4Iwj6vZG_pK0QeIvC23C6gQgmZpdYDrDCl6qo,67
+mkninja/__main__.py,sha256=i7DUr26_x1r8C3WQPaWrG-8vGeNDFUUJ8jVjsV1MJFs,1787
+mkninja/_core.py,sha256=9_o_x4BsQleyDKrlnu4FOVwItVighfr9oScbGq7zWgE,19066
+mkninja/findglob.exe,sha256=NrS8lhzITIlOjrtHaNP0-fTTcWuZ2WBhbhJ3fSRpkDk,32256
+mkninja/manifest.exe,sha256=pIFIjENblavSkPBzH_879RZ-F2gQpRg4iA5UFsgKVDo,16384
+mkninja/stamp.exe,sha256=bnu3EI_kvl7lEzqThzyfpkDAh-GFtGM1XuokDmHqi54,14848
+mkninja-0.2.0.dist-info/METADATA,sha256=or4ZHVnnCfKvyr8DcCiyen_xBcswCpqe1oCdEQlh71g,10668
+mkninja-0.2.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+mkninja-0.2.0.dist-info/entry_points.txt,sha256=3jhQAnr26fH6-2gZoJgLkBE0_zMCtrhd0jaqbxqDRgw,51
+mkninja-0.2.0.dist-info/top_level.txt,sha256=fCxWK65i5Ac3LwCszAXRiIZgpYzBW9HeBQ1lSTwQ98k,8
+mkninja-0.2.0.dist-info/RECORD,,
