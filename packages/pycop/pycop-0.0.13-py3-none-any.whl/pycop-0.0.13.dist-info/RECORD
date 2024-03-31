@@ -1,0 +1,16 @@
+pycop/__init__.py,sha256=ouNpD1K9VFmU_1cwc2Gzqrh8KJ2yUh4XJP_QWvPiaFk,326
+pycop/simulation.py,sha256=TrCXnK4pUsHjvM5MXCET3vb1xBHBO6auJLxHoA3kAv0,8497
+pycop/utils.py,sha256=NYXhs55ukvvBHh_7P1_6h5vgut2SS5CV5KU-Bc6ypMw,3170
+pycop/bivariate/__init__.py,sha256=vGLmhwSaIgiYIWb1xvq9_Vv-yRZzkZVfvvSUicmssXc,35
+pycop/bivariate/archimedean.py,sha256=tgByjguODwEgFJPbppqe9Txl77qx0578vw7qXLxKXJ0,10307
+pycop/bivariate/copula.py,sha256=IZ4izzwQpXEti-AkefVAUljxlYXdKSKiHkXSuIVKV7k,7749
+pycop/bivariate/empirical.py,sha256=jEaiVDbCnK4pp-addvcjTaS3qyyX5KA7GTF2XICJGRI,7333
+pycop/bivariate/estimation.py,sha256=XKyCv4BC4OlZ4jXlOqaccSW7aOSVcwUv4YnLk-sbxYg,10565
+pycop/bivariate/gaussian.py,sha256=C3xyOAp5dWM2Tym3bhhDojtY_phKk-nfIeSizfcsBbg,2221
+pycop/bivariate/mixture.py,sha256=L_hEtUFl3liBZvC2CAOqIULKm_cqT_GLanurCIDXqFQ,6722
+pycop/bivariate/student.py,sha256=HGUV7X29_Sc0-pIK7ao5-rfz5oeLx7CPymGIl6q2fzA,2135
+pycop-0.0.13.dist-info/LICENSE,sha256=1tu17E6iCXs1Ih1zvN22j8nXcSXUqxn7KGEf9rNREB0,1086
+pycop-0.0.13.dist-info/METADATA,sha256=MkGPgNwpz_ofWH5mJuwnMUs90t3xPvsdKVcX4PMcTOU,11417
+pycop-0.0.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pycop-0.0.13.dist-info/top_level.txt,sha256=viFTYcs3JZUUsEdSlmeP2bKTXZV0PzuCkyJnbwdtIHw,6
+pycop-0.0.13.dist-info/RECORD,,
