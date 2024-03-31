@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: zz-pix
+Version: 0.0.2
+Summary: CLI tool for image manipulation
+Home-page: https://github.com/sean1832/pix
+Author: Zeke Zhang
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Multimedia :: Graphics :: Editors
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Raster-Based
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: pillow-avif-plugin
+Requires-Dist: pillow-heif
+
+# PIX
+a simple image manipulation tool for the terminal
+
+## Features
+- [x] Resize
+- [x] Crop
+- [x] Convert
+- [x] Prune (remove low-quality images)
+- [ ] Rotate
+- [ ] Flip
+- [ ] Watermark
+- [ ] Text
+- [ ] Blur
+- [ ] Grayscale
+- [ ] Invert
+
+## Installation
+```bash
+git clone https://github.com/sean1832/pix.git
+cd pix
+pip install .
+```
+
+## Usage
+
+### Basic Usage
+
+```sh
+pix [COMMAND] [OPTIONS]
+```
+
+Replace `[COMMAND]` with the desired operation (`convert`, `resize`, or `crop`) and `[OPTIONS]` with the relevant options for your command.
+
+### Global Options
+
+- `-v`, `--version`: Display the version of the tool.
+- `command`: Specify the command to execute (`convert`, `resize`, or `crop`).
+
+### Commands
+
+#### Convert
+
+Converts images to a different format.
+
+```sh
+pix convert input [OPTIONS]
+```
+
+**Options:**
+
+- `input`: Input image or directory.
+- `-o`, `--output`: Output image or directory (default: current directory).
+- `-f`, `--format`: Output format (supported formats will be listed).
+- `-q`, `--quality`: Output quality (0-100, default: 95).
+- `--no-optimize`: Disable optimization.
+- `--overwrite`: Overwrite existing files.
+- `--prefix`: Prefix for the output file name.
+- `--surfix`: Suffix for the output file name.
+
+#### Resize
+
+Resizes images.
+
+```sh
+pix resize input [OPTIONS]
+```
+
+**Options:**
+
+- `input`: Input image or directory.
+- `-o`, `--output`: Output image or directory (default: current directory).
+- `--overwrite`: Overwrite existing files.
+- `--size`: Output size in width x height format (WxH).
+- `--scale`: Output scale (0.0-1.0).
+
+#### Crop
+
+Crops images.
+
+```sh
+pix crop input [OPTIONS]
+```
+
+**Options:**
+
+- `input`: Input image or directory.
+- `-o`, `--output`: Output image or directory (default: current directory).
+- `--overwrite`: Overwrite existing files.
+- `--ratio`: Aspect ratio (W:H), to be used with `--align`.
+- `--size`: Exact size and position as WxH+X+Y (e.g., 800x600+100+150).
+- `--align`: Alignment (top, bottom, left, right, center).
+
+## License
+[Apache-2.0](LICENSE)
+
