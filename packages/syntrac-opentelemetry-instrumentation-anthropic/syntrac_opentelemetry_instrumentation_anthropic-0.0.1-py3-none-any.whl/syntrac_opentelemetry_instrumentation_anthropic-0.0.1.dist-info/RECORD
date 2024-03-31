@@ -1,0 +1,6 @@
+syntrac_opentelemetry/instrumentation/anthropic/__init__.py,sha256=1bbCJD4DlTOlh5_chbaNF2b2tVMONzJ4ezpgNbKkdgU,7268
+syntrac_opentelemetry/instrumentation/anthropic/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+syntrac_opentelemetry_instrumentation_anthropic-0.0.1.dist-info/METADATA,sha256=fioWkzSxlvutK2K0NVlPK0r551P2Djt76KA3IBwju0I,2756
+syntrac_opentelemetry_instrumentation_anthropic-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+syntrac_opentelemetry_instrumentation_anthropic-0.0.1.dist-info/entry_points.txt,sha256=QCoTxqILI8fwKrZJ2A7Y8lkk8Y039TlsrONaFrS90rs,102
+syntrac_opentelemetry_instrumentation_anthropic-0.0.1.dist-info/RECORD,,
