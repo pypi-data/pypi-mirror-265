@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: openmines
+Version: 0.1.0
+Summary: Mining Fleet Dispatch Algorithm Framework
+Author: stone91
+License: MIT
+License-File: LICENSE
+Requires-Dist: matplotlib ==3.8.2
+Requires-Dist: numpy ==1.25.0
+Requires-Dist: openai ==0.27.8
+Requires-Dist: pandas ==2.2.0
+Requires-Dist: pytest ==7.4.0
+Requires-Dist: scipy ==1.12.0
+Requires-Dist: simpy ==4.0.2
+Requires-Dist: tqdm ==4.65.0
+Requires-Dist: pyarrow ==15.0.0
+
