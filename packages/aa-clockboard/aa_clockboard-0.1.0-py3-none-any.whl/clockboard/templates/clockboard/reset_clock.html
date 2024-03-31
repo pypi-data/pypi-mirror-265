@@ -1,0 +1,15 @@
+{% extends "clockboard/base.html" %}
+{% load django_bootstrap5 %}
+
+{% block clockboardcontent %}
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <form method="post"> {% csrf_token %}
+                    {% bootstrap_form form %}
+                    <button type="submit" class="btn btn-primary">Reset</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock clockboardcontent %}

@@ -1,0 +1,7 @@
+{% if clocks|length > 0 %}
+    <div class="col-12 align-self-stretch p-2 ps-0 pe-0 ps-xl-0 pe-xl-2">
+        <div class="row justify-content-evenly">
+            {% include "clockboard/clocks.html" %}
+        </div>
+    </div>
+{% endif %}

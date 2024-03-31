@@ -1,0 +1,21 @@
+{% extends "clockboard/base.html" %}
+
+{% block clockboardcontent %}
+    <h1 class="page-header text-center">Clock Board</h1>
+    <div class="row justify-content-evenly mt-3">
+        {% include "clockboard/clocks.html" %}
+        {% if perms.clockboard.can_add_clocks %}
+            <div class="col-12 col-lg-6 col-xl-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <a href="{% url "clockboard:new_clock" %}" class="btn btn-primary">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+{% endblock clockboardcontent %}
