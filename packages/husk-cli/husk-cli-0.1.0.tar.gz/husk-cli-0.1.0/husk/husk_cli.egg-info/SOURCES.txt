@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+husk/data/docker-compose.yml
+husk/data/nginx.conf
+husk/extract/__init__.py
+husk/extract/common.py
+husk/extract/docker.py
+husk/extract/podman.py
+husk/husk_cli.egg-info/PKG-INFO
+husk/husk_cli.egg-info/SOURCES.txt
+husk/husk_cli.egg-info/dependency_links.txt
+husk/husk_cli.egg-info/entry_points.txt
+husk/husk_cli.egg-info/requires.txt
+husk/husk_cli.egg-info/top_level.txt

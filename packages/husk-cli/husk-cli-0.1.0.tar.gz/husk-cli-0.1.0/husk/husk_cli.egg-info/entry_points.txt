@@ -1,0 +1,2 @@
+[console_scripts]
+husk = husk:cli_main
