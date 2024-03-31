@@ -1,0 +1,12 @@
+firebatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firebatch/__main__.py,sha256=JgErYkiskih8Y6oRwowALtR-rwQhAAdqOYWjQraRIPI,59
+firebatch/cli.py,sha256=uo_GZoCbK4716nwOh4GEMRBHL6WrNdnlwnNDl0joR18,9962
+firebatch/endcoding.py,sha256=VV9sQ_snNf07Ap9h9YOMd4LztqZh63yGKOexSc7BXFc,3720
+firebatch/firestore_client.py,sha256=JRf1RIVdzUjdfpOtAveJGPFTrkeFuXAAqu8Kv7Q0TeM,867
+firebatch/operations.py,sha256=eSz35QDm4OBXlRr1AoB75vplhWTfGkIv1OJFNomdYqY,8867
+firebatch/utils.py,sha256=RRK8Bpw_FhW-Q-xh2JqrpaU9A9irTfdNS5n7LbTYj8A,3773
+firebatch-1.0.0.dist-info/LICENSE,sha256=28GAsGyBIg9ufgqVE3UXVBy2kXT04289BaLi2O1wiFY,1095
+firebatch-1.0.0.dist-info/METADATA,sha256=lDCMk5wjGN6cYJiDnrmLgf8N4LFVjh3gusziqfugw5I,4409
+firebatch-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+firebatch-1.0.0.dist-info/entry_points.txt,sha256=8nhbV0ap6Q47SfOBWnmzdD0MWPoKflQETpMHRl-zjdc,47
+firebatch-1.0.0.dist-info/RECORD,,
