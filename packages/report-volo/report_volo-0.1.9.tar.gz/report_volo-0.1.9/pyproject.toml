@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "report_volo"
+version = "0.1.9"
+authors = [
+  { name="Volodymyr Perehuda", email="author@example.com" },
+]
+description = "A report generation package for results of Monaco 2018 Racing"
+readme = "README.md"
+requires-python = ">=3.11.4"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["your", "volo report", "report volo"]
+
+[project.urls]
+Homepage = "https://git.foxminded.ua/volodymyr-perehuda-nyc/task-6-report-of-monaco-2018-racing"
+Issues = "https://git.foxminded.ua/volodymyr-perehuda-nyc/task-6-report-of-monaco-2018-racing/issues"
