@@ -1,0 +1,9 @@
+README.md
+setup.py
+apyoripandas/__init__.py
+apyoripandas/apriori.py
+apyoripandas.egg-info/PKG-INFO
+apyoripandas.egg-info/SOURCES.txt
+apyoripandas.egg-info/dependency_links.txt
+apyoripandas.egg-info/top_level.txt
+test/test_apyoripandas.py
