@@ -1,0 +1,11 @@
+miksi_ai_sdk-0.0.21.dist-info/RECORD,,
+miksi_ai_sdk-0.0.21.dist-info/WHEEL,sha256=OOTYupkuadsOBNcmIpTe_EvGtr1zYFgqZVRG6LiVU0c,109
+miksi_ai_sdk-0.0.21.dist-info/top_level.txt,sha256=CrTJBVtyuSbja1X5cUxe0RnuBKy_GecyIfPTi_LY02A,13
+miksi_ai_sdk-0.0.21.dist-info/METADATA,sha256=ltqJuD8YyHuKFWfzx5BEiLCb_rYll2zlc2GUr0Bb7-g,6855
+miksi_ai_sdk/master.cpython-38-darwin.so,sha256=NORjlxDmgzI_RQXSoi4PDBdIzfs15O-mTwKBI4xYiHQ,67016
+miksi_ai_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksi_ai_sdk/pythontool.cpython-38-darwin.so,sha256=bYr_ILnbJ2xRIkKaHaXtFrO78xlQbC-EpzB9C8Va5qQ,94680
+miksi_ai_sdk/api.cpython-38-darwin.so,sha256=7HPQsSS3CFizjGpFjAslq8bM4qwwLMzpGnMXwxPEaMQ,113128
+miksi_ai_sdk/agent.cpython-38-darwin.so,sha256=2CL9aQiOQ0flRhzdjJutDHx8CaDARBxgK4q09UgsvLQ,178888
+miksi_ai_sdk/sqltool.cpython-38-darwin.so,sha256=iMi0e-st2nG87ml8qcteDzcozmLNYwSgPOg1HI80e64,229720
+miksi_ai_sdk/utils.cpython-38-darwin.so,sha256=zVzce1N0yFmGT347xLOPmWYeGepmBpSriPKObUL6lBE,69664
