@@ -1,0 +1,3 @@
+[console_scripts]
+IR-Stop-Word-Removal = Information_Retrieval:Stop_Word_Removal_Code
+
