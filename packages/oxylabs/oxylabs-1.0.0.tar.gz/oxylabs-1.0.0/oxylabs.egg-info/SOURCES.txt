@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+oxylabs/__init__.py
+oxylabs/initializers.py
+oxylabs/types.py
+oxylabs/version.py
+oxylabs.egg-info/PKG-INFO
+oxylabs.egg-info/SOURCES.txt
+oxylabs.egg-info/dependency_links.txt
+oxylabs.egg-info/requires.txt
+oxylabs.egg-info/top_level.txt
