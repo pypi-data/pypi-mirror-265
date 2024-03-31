@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "py: start api",
+            "type": "shell",
+            "command": "${command:python.interpreterPath} -m src.am4 start api",
+            "problemMatcher": []
+        },
+        {
+            "label": "py: start api+discord bot",
+            "type": "shell",
+            "command": "${command:python.interpreterPath} -m src.am4 start api,bot",
+            "problemMatcher": []
+        },
+        {
+            "label": "py: uninstall",
+            "type": "shell",
+            "command": "${command:python.interpreterPath} -m pip uninstall am4 -y"
+        },
+        {
+            "label": "py: generate stubs",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/src/am4/utils"
+            },
+            "command": "${command:python.interpreterPath} generate-stubs.py",
+            "problemMatcher": []
+        },
+        {
+            "label": "py: install",
+            "type": "shell",
+            "command": "${command:python.interpreterPath} -m pip install --verbose \".\" --config-settings=cmake.define.COPY_DATA=1"
+        },
+        {
+            "label": "py: reinstall",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "py: uninstall",
+                "py: install",
+                "py: generate stubs"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "py: test",
+            "type": "shell",
+            "command": "${command:python.interpreterPath} -m pytest"
+        }
+    ]
+}
