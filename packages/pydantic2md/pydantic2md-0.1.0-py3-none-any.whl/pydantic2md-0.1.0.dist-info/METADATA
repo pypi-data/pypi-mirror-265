@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pydantic2md
+Version: 0.1.0
+Summary: Pydantic to Markdown converter.
+License: Apache V2
+Author: Dref360
+Author-email: frederic.branchaud.charron@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Pydantic2md
+
+
+Utility package to translate Pydantic models to markdown.
+
+Useful for logging models in a [Gradio](https://www.gradio.app/)/[Streamlit](https://streamlit.io/) app or simply to generate reports.
+
+It supports most common types, contributions are welcome!
+
+## Usage
+
+```python
+from pydantic2md import pydantic2md
+
+class Hero(BaseModel):
+    name: str
+    age: int
+
+my_hero = Hero(name="Arthur", age=23)
+
+print(pydantic2md(my_hero))
+
+"""
+# Hero
+ 
+name (str): Arthur
+age (int): 23
+"""
+```
+
+
+## Roadmap
+
+- [ ] Live Demo
+- [ ] Support light tables
