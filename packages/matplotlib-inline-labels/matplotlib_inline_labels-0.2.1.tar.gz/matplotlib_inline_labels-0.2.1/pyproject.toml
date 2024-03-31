@@ -1,0 +1,73 @@
+[build-system]
+requires = ["flit_core >=3.8,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "matplotlib_inline_labels"
+version = "0.2.1"
+authors = [{name = "mathieu17g", email = "mathieu19g@icloud.com"}]
+description = "Inline line labels for matplotlib with automatic positionning"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: Matplotlib",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+  "matplotlib>=3.8",
+  "nptyping>=2.5",
+  "numpy>=1.26",
+  "Shapely>=2.0",
+  "tqdm>=4.66",
+  "pymoo>=0.6",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8",
+  "pytest-cov>=5",
+  "pytest-mpl>=0.17",
+  "pytest-xdist>=3.5",
+  "scipy>=1.12",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mathieu17g/matplotlib_inline_labels"
+"Bug Tracker" = "https://github.com/mathieu17g/matplotlib_inline_labels/issues"
+
+[tool.flit.module]
+name = "inline_labels"
+
+[tool.pyright]
+include = ["src"]
+typeCheckingMode = "standard"
+verboseOutput = true
+
+[tool.black]
+line-length = 92
+enable-unstable-feature = ["string_processing"]
+
+[tool.ruff]
+line-length = 92
+
+[tool.coverage.run]
+branch = true
+source = ["src",]
+omit = ["__init__.py",]
+
+[tool.coverage.report]
+fail_under = 95
+
+[tool.pytest.ini_options]
+python_files = "test*.py"
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+    ]
+pythonpath = "src"
+testpaths = ["tests",]
+addopts = "--numprocesses=logical --color=yes --mpl --cov --cov-report=xml -rxXs"
