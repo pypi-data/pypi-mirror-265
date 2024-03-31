@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ceasylog
+Version: 1.1.1
+Summary: A great log util from CandyStar
+Author: CandyStar@HuangXudong
+License: Apache License 2.0
+Keywords: ceasylog
+Platform: any
+License-File: LICENSE
+Requires-Dist: colorama
