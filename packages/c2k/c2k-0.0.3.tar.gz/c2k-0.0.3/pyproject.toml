@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "c2k"
+version = "0.0.3"
+authors = [{ name = "mnvoh", email = "milad@nozary.com" }]
+description = "Acts as a keyboard by looking at your hands!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "colorlog",
+    "imgaug",
+    "numpy",
+    "opencv-contrib-python",
+    "requests",
+    "pygame-ce",
+    "pygame-gui",
+    "pyyaml",
+    "tqdm",
+    "ultralytics",
+]
+
+[project.urls]
+Homepage = "https://github.com/mnvoh/cameratokeyboard"
+Issues = "https://github.com/mnvoh/cameratokeyboard/issues"
+
+[project.scripts]
+cli-name = "c2k:main"
+
+[tool.hatch.build.targets.sdist]
+include = ["c2k.py", "cameratokeyboard/**"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["c2k.py", "cameratokeyboard"]

@@ -1,0 +1,11 @@
+**/__pycache__/
+**/.pytest_cache/
+
+/runs
+/datasets
+/.venv
+.vscode
+yolov8n.pt
+.coverage
+/dist
+/cameratokeyboard/model.pt
