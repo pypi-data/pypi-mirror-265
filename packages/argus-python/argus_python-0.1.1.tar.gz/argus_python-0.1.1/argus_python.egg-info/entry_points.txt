@@ -1,0 +1,2 @@
+[console_scripts]
+argus_python = argus_python.cli:main
