@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: faucet_tool
+Version: 0.1
+Summary: This is a web3 faucet operation tool
+Home-page: https://github.com/embzheng/faucet_tool
+Author: embzheng
+Author-email: embzheng@qq.com
+Project-URL: Source, https://github.com/embzheng/faucet_tool
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: playwright >=1.42.0
+Requires-Dist: sys
+Requires-Dist: my-logtool
+Requires-Dist: bitbrowser-tool
+
+# faucet_tool
+
+这是一个web3领水工具
+
+
+### 安装
+
+```
+$ pip install faucet_tool
+```
+
+
+
