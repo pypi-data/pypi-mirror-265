@@ -1,0 +1,7 @@
+setup.py
+fsbi/__init__.py
+fsbi.egg-info/PKG-INFO
+fsbi.egg-info/SOURCES.txt
+fsbi.egg-info/dependency_links.txt
+fsbi.egg-info/entry_points.txt
+fsbi.egg-info/top_level.txt
