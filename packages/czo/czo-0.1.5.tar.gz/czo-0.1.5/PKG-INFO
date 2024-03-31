@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: czo
+Version: 0.1.5
+Summary: 构建测试数据的工具包
+Home-page: https://github.com/sfwwslm/czo.git
+Author: sfwwslm
+Author-email: sfwwslm@gmail.com
+Keywords: test faker rand
+Requires-Python: >=3.10
+Requires-Dist: setuptools>=69.2.0
+Requires-Dist: wheel
+
+伪造信息和随机数据
