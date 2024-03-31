@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: seedhelper
+Version: 0.0.2
+Summary: A python library that help to find specific Minecraft structures or biomes for a given seed.
+Author: Louis Pagnier
+License: MIT
+Keywords: minecraft,seed,biome,structure,elytra
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# seed-helper
+A python library that help to find specific Minecraft structures or biomes for a given seed.
