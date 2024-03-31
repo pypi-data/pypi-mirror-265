@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wordcombinator
+Version: 0.2.1
+Home-page: https://github.com/SaishSaw
+Author: saish
+Description-Content-Type: text/markdown
+
+# Word combinator.
+## Overview
+
+*A simple python module which helps in generating tokens from a list of queries and vocabulary.
+*All possible combinations from vocabulary is used and matched with words in queries.
+*It can be used as augmented data for Natural Language Processing task
+
+## Install
+* You can install using pip.
+
+## Example
+query = ['tomatopotato'], vocabulary = ['tomato','potato','tom','ato']
+output_generated will be a list with all possible combinations of word generated from vocabulary.

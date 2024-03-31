@@ -1,0 +1,7 @@
+setup.py
+wordcombinator/__init__.py
+wordcombinator/main.py
+wordcombinator.egg-info/PKG-INFO
+wordcombinator.egg-info/SOURCES.txt
+wordcombinator.egg-info/dependency_links.txt
+wordcombinator.egg-info/top_level.txt
