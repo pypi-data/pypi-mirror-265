@@ -1,0 +1,8 @@
+msgpack>=1
+bitarray
+
+[dev]
+pytest-cov
+pytest-benchmark
+black
+ruff
