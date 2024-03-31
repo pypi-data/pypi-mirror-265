@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "srchbooks"
+version = "0.1.5"
+description = ""
+authors = ["Alexstrasza03 <77481463+Alexstrasza03@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rich = "^13.7.1"
+requests = "2.29.0"
+
+
+[tool.poetry.scripts]
+srchbooks = "srchbooks:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
