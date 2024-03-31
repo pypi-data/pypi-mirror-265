@@ -1,0 +1,13 @@
+pysyncon/__init__.py,sha256=Rd0rl11tgUaee3t93V_aYDwoBA9a7crkIOVP7FAPdJk,157
+pysyncon/augsynth.py,sha256=Vqy1YaBa3aPI3bQnZznUdaOypD1bL8C-qA7UUGfkI_k,4888
+pysyncon/base.py,sha256=7wBXJ-l2wYB4CDsfOph4R2v4c0EpbvhKsAyUEwXDi8k,14139
+pysyncon/dataprep.py,sha256=uelOpL1SNXePID4VCtidWL-n6loK4G8Iz8vU_Fm8IEI,13377
+pysyncon/penalized.py,sha256=JorPdn0SSF5usIzp9H8jxt4vnfeSkgaL8HS29rBd6fw,5265
+pysyncon/robust.py,sha256=UaELXXfWWcK-jOzhZkLmvy4Qm4h8VzDChQ5XFeGntyo,3811
+pysyncon/synth.py,sha256=9zwdc9Xk_Xni9IGFkdck4nl0aWhOFVK_W8xCk0TvNTs,9437
+pysyncon/utils.py,sha256=jNncm79Oou_jyq3srKGKHG169Hu8HfvI_3OLLDtv36A,12485
+pysyncon-1.4.0.dist-info/LICENSE,sha256=KDgBHf5fxcjBytHfNSe9hR8HSPUqHG_7v8ckZSvGjmA,1073
+pysyncon-1.4.0.dist-info/METADATA,sha256=96KFJiwq4y1dU4vgob4Viv_X7bGP1LWLqxSl5jtVzKs,2300
+pysyncon-1.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pysyncon-1.4.0.dist-info/top_level.txt,sha256=g1_8yyJdogWgy9c_TPH5IGdDaDbLpwUJeK3AS0w2o00,9
+pysyncon-1.4.0.dist-info/RECORD,,
