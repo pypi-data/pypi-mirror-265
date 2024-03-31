@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pypodo
+Version: 5.3.0
+Summary: pypodo is a todolist tool which works in your terminal. It has a mecanism of indexes and tags.
+Home-page: https://github.com/thib1984/pypodo
+Author: thib1984
+Author-email: thibault.garcon@gmail.com
+License: mit
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: termcolor
+Requires-Dist: columnar
+Requires-Dist: python-dateutil
+
+The complete description/installation/use/FAQ is available at : https://github.com/thib1984/pypodo#readme
