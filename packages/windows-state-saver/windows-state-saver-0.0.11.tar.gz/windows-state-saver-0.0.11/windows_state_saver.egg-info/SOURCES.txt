@@ -1,0 +1,11 @@
+LICENSE.TXT
+README.md
+setup.py
+app/Main.py
+app/__init__.py
+windows_state_saver.egg-info/PKG-INFO
+windows_state_saver.egg-info/SOURCES.txt
+windows_state_saver.egg-info/dependency_links.txt
+windows_state_saver.egg-info/entry_points.txt
+windows_state_saver.egg-info/requires.txt
+windows_state_saver.egg-info/top_level.txt
