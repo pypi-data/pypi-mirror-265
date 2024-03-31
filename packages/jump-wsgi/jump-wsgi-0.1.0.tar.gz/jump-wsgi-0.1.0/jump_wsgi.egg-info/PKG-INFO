@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jump-wsgi
+Version: 0.1.0
+Summary: The Python Micro Framework for building web applications
+Author: Rayan Haddda
+Author-email: rayan.m.haddad@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
