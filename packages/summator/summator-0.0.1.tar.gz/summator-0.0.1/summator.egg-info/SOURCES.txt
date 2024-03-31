@@ -1,0 +1,9 @@
+README.md
+setup.py
+summator/__init__.py
+summator/summator.py
+summator.egg-info/PKG-INFO
+summator.egg-info/SOURCES.txt
+summator.egg-info/dependency_links.txt
+summator.egg-info/requires.txt
+summator.egg-info/top_level.txt
