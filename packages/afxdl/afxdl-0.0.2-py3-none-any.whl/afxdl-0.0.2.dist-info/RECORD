@@ -1,0 +1,11 @@
+afxdl/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+afxdl/download.py,sha256=-aO32Q9mvtEYjLfdGR2t_i6xwyroQVijx7kNojgjcA4,3511
+afxdl/main.py,sha256=yBP4o7Kpzi1Dm0LiTVU6QColYENE2xOtyzT_R8w1OTQ,2438
+afxdl/models.py,sha256=VGIQq9H8T6Uj2dW139dO65oaNjeovU--RsGlzDpHtwA,1154
+afxdl/parse.py,sha256=fCD_pVvU2pGhIt9fTKkNmDZKPS4tDAD6Lrv6soEyNxU,3702
+afxdl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afxdl-0.0.2.dist-info/LICENSE,sha256=Pfp0kBneyyWLZUH4QW2m-Kmtv4iGA_oKsFQaTqVBL84,1057
+afxdl-0.0.2.dist-info/METADATA,sha256=kRu0gsTP7Eqd8veuWFmgZqIT1o0StZAhxdnjgneqlK0,2875
+afxdl-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+afxdl-0.0.2.dist-info/entry_points.txt,sha256=vMkdqg7NKiDmQzQmv7KPu6NZ50Snj0GUNo32nq_LLPA,41
+afxdl-0.0.2.dist-info/RECORD,,
