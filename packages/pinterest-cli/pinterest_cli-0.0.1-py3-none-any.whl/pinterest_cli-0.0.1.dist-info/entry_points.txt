@@ -1,0 +1,2 @@
+[console_scripts]
+pinterest-cli = pinterest_cli.main:main
