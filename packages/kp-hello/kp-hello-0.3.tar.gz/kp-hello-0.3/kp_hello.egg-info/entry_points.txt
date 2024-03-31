@@ -1,0 +1,3 @@
+[console_scripts]
+kp-hello = kp_hello:hello
+
