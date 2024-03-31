@@ -1,0 +1,237 @@
+Metadata-Version: 2.1
+Name: ProcessAudio
+Version: 0.24.5
+Summary: Audio processing
+Home-page: https://github.com/wisrovi/ProcessAudio
+Download-URL: https://github.com/wisrovi/ProcessAudio/releases/tag/V0.24.03
+Author: William Rodriguez
+Author-email: wisrovi.rodriguez@gmail.com
+License: GPLv3
+Keywords: encoding,i18n,xml
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: librosa
+Requires-Dist: matplotlib
+Requires-Dist: nlpaug
+Requires-Dist: scipy
+Requires-Dist: pydub
+Requires-Dist: noisereduce
+Requires-Dist: torch
+Requires-Dist: opencv-python
+Requires-Dist: setuptools
+
+# ProcessAudio
+ Libreria python para hacer data augmentation en audios y/o extraer caracteristicas a audios
+
+---
+
+# Installation
+
+```bash
+pip install ProcessAudio
+```
+---
+
+# Description
+
+A `ProcessAudio` object should be created and use its attributes.
+
+This library have tree main functions:
+
+* `Features`: Extract features from audio
+* `AudioAugmentation`: Augment audio in different ways
+* `AllDataAugmentation`: Augment audio in different ways and extract features
+* `Util`: Read audio and denoise audio
+* `Split`: Split audio in n seconds or at desired cut points
+* `Graph`: Graph spectrogram or log_mel_spectrogram for an audio 
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## Features methods
+
+* `set_data(data_audio:str="<path_audio_file>)`: Set data to extract features
+* `get_croma()`: Extract croma features
+* `get_mfcc()`: Extract mfcc features
+* `get_rmse()`: Extract rmse features
+* `get_centroide_espectral()`: Extract spectral centroid features
+* `get_rolloff()`: Extract spectral rolloff features
+* `get_cruce_por_cero()`: Extract zero crossing rate features
+* `get_ancho_banda_espectral()`: Extract spectral bandwidth features
+* `get_tonnetz()`: Extract tonnetz features
+* `build_basic()`: Extract a basic features in a list
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## AudioAugmentation methods
+
+* `loudness()`: Apply loudness to audio file creating a new data
+* `add_mask()`: Apply mask to audio file creating a new data
+* `pitch()`: Apply pitch to audio file creating a new data
+* `get_original()`: Get original audio file
+* `add_crop()`: Apply crop to audio file creating a new data
+* `add_noise()`: Apply noise to audio file creating a new data
+* `add_noise2()`: Apply noise to audio file creating a new data
+* `shift()`: Apply shift to audio file creating a new data
+* `stretch()`: Apply stretch to audio file creating a new data
+* `speed()`: Apply speed to audio file creating a new data
+* `normalizer()`: Apply normalizer to audio file creating a new data
+* `polarizer()`: Apply polarizer to audio file creating a new data
+* `write_audio_file()`: Write audio file
+* `plot_time_series()`: Plot time series
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## AllDataAugmentation methods
+
+* `build_all(extract_features: bool)`: Augment audio and extract features if extract_features is True
+
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## Util methods
+
+* `read_audio(file_path: str, force_convert_wav: bool)`: Read Read audio, if the format isn't wav, the method convert that before to read
+* `audio_convert_wav(audio_path: str, output_path: str)`: Convert audio to wav format
+* `denoise_audio(data: np.array, sr: int)`: remove the noise of audio data
+
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## Split methods
+
+* `split(self, start: int, end: int, save: bool)`: Split audio in start to end, if you need seconds, start and end have to multiples of 1000
+* `split_by_seconds(self, seconds: int, save: bool)`: Cut audio en segments of <seconds> parameter and save each one
+
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## Graph methods
+
+* `spectrogram(data: np.array, sr: int,  output_path: str,  title: str)`: Create the spectrogram for audio data
+* `log_mel_spectrogram(data: np.array, sr: int,  output_path: str,  title: str)`: Create log mel spectrogram  for audio data
+
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+
+
+
+
+
+
+
+
+
+
+
+# Usage
+
+## Example Features
+```python
+import os
+from ProcessAudio.Features import Features
+
+filepath = os.path.dirname(os.path.abspath(__file__)) + os.sep
+path_file = filepath + "demo" + os.sep + "dat_92.wav"
+
+features = Features()
+features.set_data(path_file)
+DATA = features.build_basic() # Extract all features
+print(DATA)
+print(len(DATA))  
+```
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## Example AudioAugmentation
+```python
+import os
+from ProcessAudio.AudioAugmentation import AudioAugmentation
+
+filepath = os.path.dirname(os.path.abspath(__file__)) + os.sep
+path_file = filepath + "demo" + os.sep + "dat_92.wav"
+folder_save = filepath + "new_audios" + os.sep
+
+aumentation = AudioAugmentation(audio_file=path_file, save=folder_save)
+audio_con_ruido = aumentation.add_noise(factor_ruido=0.05)
+audio_normalizer = aumentation.normalizer()
+audio_loudness = aumentation.loudness()
+```
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+## Example AllDataAugmentation
+```python
+import os
+from ProcessAudio.AllDataAugmentation import AllDataAugmentation
+
+filepath = os.path.dirname(os.path.abspath(__file__)) + os.sep
+path_file = filepath + "demo" + os.sep + "dat_92.wav"
+folder_save = filepath + "new_audios" + os.sep
+
+aumentation = AllDataAugmentation(path_file, path_save=folder_save, label=["cero", "uno"])
+data, label = aumentation.build_all(extract_features=True)
+print(len(data), len(label))
+print(len(data[0]), label[0])
+```
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+# Citing
+
+
+If you want to cite ProcessAudio in an academic paper, there are two ways to do it.
+
+- APA:
+
+    WISROVI, W.S.R.V. (2022). Python library to augment audio data and/or extract audio features (Version 0.22.11) [Computer Software]. https://github.com/wisrovi/ProcessAudio
+
+- BibTex:
+
+    @software{WISROVI_Instrument_Classifier_2022,
+author = {WISROVI, William Steve Rodríguez Villamizar},
+month = {10},
+title = {{Python library to augment audio data and/or extract audio features}},
+URL = {https://github.com/wisrovi/ProcessAudio},
+version = {0.22.11},
+year = {2022}
+}
+
+
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+# License
+
+GPLv3 License
+
+---
+
+[Back To Top ↥](#ProcessAudio)
+
+# Support:
+<p>
+    <a href="https://www.buymeacoffee.com/wisrovirod8"> 
+        <img style="align='left';" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="wisrovirod8" />
+    </a>    
+</p>
+
