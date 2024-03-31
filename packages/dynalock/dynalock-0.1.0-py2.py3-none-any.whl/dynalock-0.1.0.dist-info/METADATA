@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dynalock
+Version: 0.1.0
+Summary: Distributed locking with DynamoDB
+Home-page: https://github.com/skywalker427/dynalock
+Author: Hamzah Bawah
+Author-email: bhamza123@gmail.com
+License: MIT license
+Keywords: dynalock
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: boto3 >=1.18.0
+Requires-Dist: botocore >=1.21.0
+
+========
+dynalock
+========
+
+
+.. image:: https://img.shields.io/pypi/v/dynalock.svg
+        :target: https://pypi.python.org/pypi/dynalock
+
+.. image:: https://img.shields.io/travis/skywalker427/dynalock.svg
+        :target: https://travis-ci.com/skywalker427/dynalock
+
+.. image:: https://readthedocs.org/projects/dynalock/badge/?version=latest
+        :target: https://dynalock.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Distributed locking with DynamoDB
+
+
+* Free software: MIT license
+* Documentation: https://dynalock.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-30)
+------------------
+
+* First release on PyPI.
