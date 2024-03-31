@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyFilmFinder/__init__.py
+src/pyFilmFinder/__main__.py
+src/pyFilmFinder/finder.py
+src/pyFilmFinder.egg-info/PKG-INFO
+src/pyFilmFinder.egg-info/SOURCES.txt
+src/pyFilmFinder.egg-info/dependency_links.txt
+src/pyFilmFinder.egg-info/entry_points.txt
+src/pyFilmFinder.egg-info/requires.txt
+src/pyFilmFinder.egg-info/top_level.txt
