@@ -1,0 +1,11 @@
+foreninglet_data/__init__.py,sha256=nlGXcobmeAmNzRkhqDLZxGFLcidRwZSZPlWcdlVyxvw,18
+foreninglet_data/activities.py,sha256=aAaMH2Wa7Do-kaitE5u3Fw_riNQAfMJugXvUFIBImSE,1619
+foreninglet_data/api.py,sha256=McwTrs5ZE-eEyoF2k3aplMeyXWXTpNVk3cqhilaR55s,3808
+foreninglet_data/data.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+foreninglet_data/memberlist.py,sha256=9uI1bWrt2qTibbRWVJ0gtU0GUC-dGll--5OMdi5q-Ao,9503
+foreninglet_data/models/activities_model.py,sha256=VHUdjfx2J3QAZt2bvq_pqdykLWPWskqqhFOYDDgVTm4,714
+foreninglet_data/models/member_model.py,sha256=uuIpTn0HUDO_bArU7ACsAhhsbaR_lbuyhh3pfiYG4tI,3235
+foreninglet_data-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+foreninglet_data-0.4.0.dist-info/METADATA,sha256=EN_MwLeLbX-nbQJgCAJOPwEGLhN1zc0bcxr9yP0_FNU,4280
+foreninglet_data-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+foreninglet_data-0.4.0.dist-info/RECORD,,
