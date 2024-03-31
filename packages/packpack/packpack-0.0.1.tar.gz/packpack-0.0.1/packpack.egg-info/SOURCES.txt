@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+packpack/__init__.py
+packpack/example.py
+packpack.egg-info/PKG-INFO
+packpack.egg-info/SOURCES.txt
+packpack.egg-info/dependency_links.txt
+packpack.egg-info/top_level.txt
