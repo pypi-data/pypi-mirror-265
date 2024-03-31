@@ -1,0 +1,11 @@
+[project]
+name = "jobdispatcher"
+version = "0.2.0"
+description = "A simplified python interface for running embarassingly parallel calculations."
+authors = [{name = "Mattia Felice Palermo", email = "mpalermo@gmail.com"}]
+license = {file = "LICENSE"}
+dynamic = ["readme", "requires-python", "classifiers", "optional-dependencies"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
