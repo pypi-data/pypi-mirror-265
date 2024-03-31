@@ -1,0 +1,2 @@
+[console_scripts]
+re_order_imgs = re_order_imgs.cli:main
