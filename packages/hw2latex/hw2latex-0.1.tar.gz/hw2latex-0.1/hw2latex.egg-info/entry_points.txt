@@ -1,0 +1,3 @@
+[console_scripts]
+generate_latex_table = two:generate_latex_table
+imagelatex = two:imagelatex
