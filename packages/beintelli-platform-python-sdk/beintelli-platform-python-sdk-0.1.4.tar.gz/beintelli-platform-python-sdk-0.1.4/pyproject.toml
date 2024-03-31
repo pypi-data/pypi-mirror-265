@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beintelli-platform-python-sdk"
+version = "0.1.4"
+requires-python = ">=3.8"
+authors = [{name = "Elias Inguanta", email= "inguanta@campus.tu-berlin.de"}]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+description = "A software development kit for the integration of the Beintelli API"
+
+dependencies = ['requests ~= 2.31.0']
+
+[project.urls]
+Homepage = "https://api.dev.be-intelli.com/platform/#/"
+Repository = "https://git.tu-berlin.de/beintelli-plattform-sdk/beintelli-platform-python-sdk.git"
+
+[dev-dependencies]
+pytest = "8.1.1"

@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: beintelli-platform-python-sdk
+Version: 0.1.4
+Summary: A software development kit for the integration of the Beintelli API
+Author-email: Elias Inguanta <inguanta@campus.tu-berlin.de>
+Project-URL: Homepage, https://api.dev.be-intelli.com/platform/#/
+Project-URL: Repository, https://git.tu-berlin.de/beintelli-plattform-sdk/beintelli-platform-python-sdk.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests~=2.31.0
+
+
+# Project Title
+
+This Python SDK was created as part of a bachelor's thesis for the BeIntelli Platform, a project in the context of autonomous mobility, and serves as a client library for the Rest API with a few additional functions.
+
+
+
+## Authors
+
+- [@eliasinguanta](https://gitlab.com/eliasinguanta)
+
+
+
+## License
+
+[MIT](https://opensource.org/license/mit)
+
+
+
+
+## Usage
+
+```python
+import asyncio
+from asyncio import Future
+from datetime import datetime
+
+from src.beintelli_platform_python_sdk_eliasinguanta.measurement_list import MeasurementList
+from src.beintelli_platform_python_sdk_eliasinguanta.user import User
+from src.beintelli_platform_python_sdk_eliasinguanta.utils.types import WeatherData
+
+async def print_weather():
+    """show data api"""
+
+    user: User = User()
+
+    #log in
+    await user.login("my_username","my_password")
+
+    #params
+    start_date: datetime = datetime.fromisocalendar(2020, 1, 1)
+    end_date: datetime = datetime.fromisocalendar(2024, 1, 1)
+
+    #request weather data
+    future_weather: Future[MeasurementList[WeatherData]] = await user.data.get_weather_data(start_date, end_date)
+    weather: MeasurementList[WeatherData] = await future_weather
+    print(weather)
+
+asyncio.run(print_weather())
+
+```
