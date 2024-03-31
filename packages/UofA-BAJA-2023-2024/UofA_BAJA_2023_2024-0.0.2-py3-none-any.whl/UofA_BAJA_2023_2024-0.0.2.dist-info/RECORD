@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common/Messages.py,sha256=C3fR05Ba2aE5ykzB2djHnLuFm-OCb8vbAKDlCAjoIg8,358
+common/SerialDevices.py,sha256=GYOklyc3zdab9IZvwSH66IeyDv4GtWlKwQ0ASx_1yJU,9706
+common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common/enums.py,sha256=WNjM1F83NqaAPV6we7ZLVTIShUlHw7pAM_0mi-i0H08,1089
+UofA_BAJA_2023_2024-0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+UofA_BAJA_2023_2024-0.0.2.dist-info/METADATA,sha256=oIWADT9-fs77Nq0RL_4VJxEKUXa1U8--bPd3lANPcUA,979
+UofA_BAJA_2023_2024-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+UofA_BAJA_2023_2024-0.0.2.dist-info/top_level.txt,sha256=e5BL1r_tKjbTAFqZVmyV_QodkJ27atnYdIKGRzPvTOU,16
+UofA_BAJA_2023_2024-0.0.2.dist-info/RECORD,,
