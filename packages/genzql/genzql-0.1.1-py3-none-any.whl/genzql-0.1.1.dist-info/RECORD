@@ -1,0 +1,14 @@
+genzql/__init__.py,sha256=ZJsZp_35S8v16Smm1hyaibrRoLw88o1-07zZlvgtFu4,239
+genzql/cleaner.py,sha256=7Yg5uIaL5Z2x1zCRiiOlcLVHh4siUUPuazQxz5MNzf4,4816
+genzql/grammar.py,sha256=Fbc-hlfWKP6nnEw57a1PFtH4zCglZ6Qd2ZK5otQ_0_k,4611
+genzql/loader.py,sha256=taOpH-z-B_nXMxITLAvUdOlWvldTu_L3ge7V1XMYLC8,281
+genzql/main.py,sha256=gF4tR07ltFgY9eDVeZvm5Z9fj4PAdG8yVsqRtSMH-_Y,1307
+genzql/parser.py,sha256=ZIycyRyF4xvSn0cYoGdTfqtP-v1dlPZhcrAePEK0V0g,4909
+genzql/renderer.py,sha256=-xGEJhv36_gJTBSafUcbydfrwAFHU1ssoHW3RwM5_OQ,3881
+genzql/translator.py,sha256=m00maRvZQXQEcfo7Q_OsKTT9lSCJShuAdpSyBhzuIN4,399
+genzql/types.py,sha256=ILX7hkO-jHDcth0NKhP-fSW9mwCnaxLEWVQUw6J2cLo,393
+genzql/zql_grammar.tmjd,sha256=2WPhckIGuF_YiNNEqzZ3hqzBFzRURLTTvTY-JFogd5Q,16982
+genzql-0.1.1.dist-info/LICENSE,sha256=DwSKRr_m9eODneUwQ4_3ULHnok6ci95RxOjMcyN6JsM,1085
+genzql-0.1.1.dist-info/METADATA,sha256=2UU2Je_vlNufxVmU-f-zbeq-5IHYP3gO94GY_jRsg6w,599
+genzql-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+genzql-0.1.1.dist-info/RECORD,,
