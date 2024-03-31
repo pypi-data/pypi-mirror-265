@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: a3grpc
+Version: 0.1.3
+Summary: To make using gRPC simpler.
+Home-page: https://github.com/three-kinds/a3grpc
+Author: three-kinds
+Author-email: 3179158552@qq.com
+License: Apache 2.0
+Project-URL: Documentation, https://github.com/three-kinds/a3grpc
+Project-URL: Source, https://github.com/three-kinds/a3grpc
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: a3py>=0.1.6
+Requires-Dist: a3exception>=0.1.1
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+
+# a3grpc
+
+To make using gRPC simpler.
+
+[History.](HISTORY.md)
+
+## Install
+
+```shell script
+pip install a3grpc
+
+```
+
+## The agreement between the server-side and the client-side
+
+* code 500: ServerSideError, details is json string which contains status and message
+* code 400: ClientSideError, details is json string which contains status and message
