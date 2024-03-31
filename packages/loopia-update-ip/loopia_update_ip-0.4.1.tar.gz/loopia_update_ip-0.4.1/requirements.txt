@@ -1,0 +1,4 @@
+setuptools~=65.5.1
+wheel
+confuse~=2.0.1
+tldextract~=3.4.4
