@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pydantic2md"
+version = "0.1.0"
+description = "Pydantic to Markdown converter."
+authors = ["Dref360 <frederic.branchaud.charron@gmail.com>"]
+license = "Apache V2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.6.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+watchfiles = "^0.21.0"
+pytest-cov = "^5.0.0"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
