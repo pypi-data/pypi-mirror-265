@@ -1,0 +1,3 @@
+recursive-include resources *
+include requirements.txt
+include LICENSE
