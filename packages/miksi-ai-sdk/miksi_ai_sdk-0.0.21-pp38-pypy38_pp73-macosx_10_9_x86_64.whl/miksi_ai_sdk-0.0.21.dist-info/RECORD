@@ -1,0 +1,11 @@
+miksi_ai_sdk-0.0.21.dist-info/RECORD,,
+miksi_ai_sdk-0.0.21.dist-info/WHEEL,sha256=S9Dxl7gN6v0OXLTIMZgvl_ks5Wa8jF4LNnfpv-M-AVg,116
+miksi_ai_sdk-0.0.21.dist-info/top_level.txt,sha256=CrTJBVtyuSbja1X5cUxe0RnuBKy_GecyIfPTi_LY02A,13
+miksi_ai_sdk-0.0.21.dist-info/METADATA,sha256=ltqJuD8YyHuKFWfzx5BEiLCb_rYll2zlc2GUr0Bb7-g,6855
+miksi_ai_sdk/utils.pypy38-pp73-darwin.so,sha256=H514zgRZSU7yYKCqe46TCH0s3dDKwoAltEvpU-vMpos,58976
+miksi_ai_sdk/agent.pypy38-pp73-darwin.so,sha256=6gzOzuSYfMeAm5ic4wBmKZ2XarrGugvcjrvy12CEn3w,132920
+miksi_ai_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miksi_ai_sdk/sqltool.pypy38-pp73-darwin.so,sha256=eAL__QGF1RL3ROJtDKhPMc-oakRg1ihNpqu1AiMUVQo,147416
+miksi_ai_sdk/pythontool.pypy38-pp73-darwin.so,sha256=bw_Y2V2_PVnv6tPvvjHVmEjB_JMfL1JDKkIOGLwS1rE,77048
+miksi_ai_sdk/master.pypy38-pp73-darwin.so,sha256=2DFYRlCYT-UYAbTFHguTKazBohSuhthKQ7w0tXJ38K0,58504
+miksi_ai_sdk/api.pypy38-pp73-darwin.so,sha256=ehliK1aNMU-RdS5Gm8WzIa_XzwdlNOxPu6D0NOx5M_o,78288
