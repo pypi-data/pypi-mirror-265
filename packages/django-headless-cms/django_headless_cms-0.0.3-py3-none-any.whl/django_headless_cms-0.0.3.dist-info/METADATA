@@ -1,0 +1,77 @@
+Metadata-Version: 2.3
+Name: django-headless-cms
+Version: 0.0.3
+Summary: A simple django-based headless CMS.
+Project-URL: Documentation, https://django-headless-cms.readthedocs.io/
+Project-URL: Homepage, https://github.com/huynguyengl99/django-headless-cms
+Project-URL: Repository, https://github.com/huynguyengl99/django-headless-cms
+Author-email: Huy Nguyen <danghuy1999@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.9
+Requires-Dist: django-admin-interface
+Requires-Dist: django-admin-sortable2
+Requires-Dist: django-localized-fields
+Requires-Dist: django-reversion
+Requires-Dist: django-solo
+Requires-Dist: django>=4
+Requires-Dist: djangorestframework>=3
+Requires-Dist: drf-spectacular
+Requires-Dist: martor
+Description-Content-Type: text/markdown
+
+# Django Headless CMS
+
+**Django Headless CMS** is your tool for effortless headless CMS creation.
+Based on Django, it simplifies dashboard and API development, allowing
+you to focus on content creation for any device. Enjoy the flexibility
+of headless architecture and the efficiency of Django, reshaping your
+CMS workflow.
+## Requirements
+
+* Python 3.9 or greater.
+* Django knowledge.
+
+## Installation
+
+The module can be installed from [PyPI](https://pypi.org/project/django-headless-cms/):
+
+```bash
+pip install django-headless-cms
+```
+
+<details>
+<summary>Other installation methods (click to expand)</summary>
+
+### Install the latest dev version from github (or replace `@master` with a [@release_version]
+
+```bash
+pip install git+https://github.com/huynguyengl99/django-headless-cms@master
+```
+
+</details>
+
+## Document
+Please visit [Django headless CMS doc](https://django-headless-cms.readthedocs.io/) for
+documentation.
