@@ -1,0 +1,4 @@
+nassl<6,>=5.1
+cryptography<43,>42
+tls-parser<3,>=2
+pydantic<2.7,>=2.2
