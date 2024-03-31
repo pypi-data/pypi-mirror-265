@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nastro
+Version: 0.1.0
+Summary: Practical astrodynamics
+Author-email: Alfonso Sánchez Rodríguez <alfonso.sr.trabajo@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: pyyaml >=6.0
+Requires-Dist: sgp4 >=2.23
+Requires-Dist: numpy >=1.26
+Requires-Dist: matplotlib >=3.8.2
+Requires-Dist: requests >=2.31
+Requires-Dist: scipy >=1.12
+Provides-Extra: dev
+Requires-Dist: pytest >=7.2 ; extra == 'dev'
+Requires-Dist: mypy >=0.991 ; extra == 'dev'
+Requires-Dist: flake8 >=6.0 ; extra == 'dev'
+Requires-Dist: autopep8 >=2.0 ; extra == 'dev'
+
