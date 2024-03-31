@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/hermeneus/__init__.py
+src/hermeneus.egg-info/PKG-INFO
+src/hermeneus.egg-info/SOURCES.txt
+src/hermeneus.egg-info/dependency_links.txt
+src/hermeneus.egg-info/top_level.txt
