@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: DataPrepKitt
+Version: 0.0.1
+Summary: This package aims to be a comprehensive toolkit for preprocessing datasets.
+Author: Manar Yabrak
+Author-email: manar.mofid@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.21.4
+Requires-Dist: pandas==1.3.4
+Requires-Dist: openpyxl==3.1.2
+
+# DataPrepKitt
+
+DataPrepKitt is a Python package for data preprocessing tasks, including reading data from different file formats, summarizing datasets, handling missing values, and encoding categorical data.
+
+## Installation
+
+You can install DataPrepKitt using pip:
+
+```python
+pip install DataPrepKitt
+```
+
+## Example Usage:
+
+```python
+import pandas as pd
+from DataPrepKitt import DataPrepKit
+
+# Initialize DataPrepKit object with file path
+dataprep = DataPrepKit(dataprep = DataPrepKit('path_to_your_dataset'))
+
+# Generate data summary
+summary = dataprep.data_summary()
+print(summary)
+print('_______________________________')
+
+# Handle missing values (e.g., remove rows with missing values)
+handle_missing = dataprep.handle_missing_values(strategy='remove')
+print(handle_missing)
+print('_______________________________')
+
+# Encode categorical data (automatically detect categorical columns)
+encoded_data = dataprep.encode_categorical_data()
+print(encoded_data)
+print('_______________________________')
+
+```
