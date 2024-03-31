@@ -1,0 +1,6 @@
+aws_ecr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_ecr/ecr.py,sha256=Ioz0Fo1ipRyk7nrfdUoPk7xy1QUwQQGHu8sr7rUh8xc,6018
+aws_ecr_boto3-0.0.5.dist-info/METADATA,sha256=4nms0qZg4cxgHDMxoF5EQn-xNxHa-SSgQZxv_Zm8rLY,409
+aws_ecr_boto3-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aws_ecr_boto3-0.0.5.dist-info/top_level.txt,sha256=KdynCyqmad0LJA9EKSPWak3ydh9jWE-07b8Rv4PWL_Q,8
+aws_ecr_boto3-0.0.5.dist-info/RECORD,,

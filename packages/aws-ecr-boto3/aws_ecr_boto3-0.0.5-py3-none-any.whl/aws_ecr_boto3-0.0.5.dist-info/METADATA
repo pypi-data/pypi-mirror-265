@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aws_ecr_boto3
+Version: 0.0.5
+Summary: Create and delete aws ecr repository using python boto3 like terraform 
+Author: Rukmal Senavirathne
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+
