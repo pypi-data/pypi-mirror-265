@@ -1,0 +1,9 @@
+README.md
+setup.py
+Speaking_Alex_voice_assistant.egg-info/PKG-INFO
+Speaking_Alex_voice_assistant.egg-info/SOURCES.txt
+Speaking_Alex_voice_assistant.egg-info/dependency_links.txt
+Speaking_Alex_voice_assistant.egg-info/requires.txt
+Speaking_Alex_voice_assistant.egg-info/top_level.txt
+libname/__init__.py
+libname/main.py
