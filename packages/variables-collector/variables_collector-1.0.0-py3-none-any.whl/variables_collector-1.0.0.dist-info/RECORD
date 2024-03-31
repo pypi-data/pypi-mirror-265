@@ -1,0 +1,10 @@
+data_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_reader/random_data_reader.py,sha256=_Qei_DHUvwwk6Oprjolznrg87Sf1pOa1c6dGdHdkt38,1598
+data_writer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_writer/csv_file_data_writer.py,sha256=ofj-7kfbFQPhCDmxdwI2VJUfUCFCmLF3cm6yKRZ30bo,2141
+data_writer/noop_data_writer.py,sha256=bTHhDWokuMus3oWZ4K-3fTyRLW_eKdYd_J_aVsIj6cM,2146
+variables_collector-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+variables_collector-1.0.0.dist-info/METADATA,sha256=c0IZEqWBuzELelSpgLRn0ZqanvAOltpp3zg179gzjAk,18648
+variables_collector-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+variables_collector-1.0.0.dist-info/top_level.txt,sha256=3SmDfwSAYf817D9sBMZUSI5PtoJoflNYT-hC7vOIZ28,24
+variables_collector-1.0.0.dist-info/RECORD,,
