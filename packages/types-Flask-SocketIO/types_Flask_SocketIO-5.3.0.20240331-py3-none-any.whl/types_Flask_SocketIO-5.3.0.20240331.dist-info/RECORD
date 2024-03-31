@@ -1,0 +1,9 @@
+flask_socketio-stubs/METADATA.toml,sha256=p-7r8RI70XMT6wWl7JRZIK_CP3uuWU8XHh50MuwABRQ,117
+flask_socketio-stubs/__init__.pyi,sha256=JtgQ5GJQ2Qgc5wNQ4ojlgfmKWAIZKt3XRQRVrZvqTAY,5071
+flask_socketio-stubs/namespace.pyi,sha256=nPYeq-Du0nUIg9yEXvyiJiZ0AAbFLhLeVRPeAlQ2wtE,2590
+flask_socketio-stubs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_socketio-stubs/test_client.pyi,sha256=Q0ZLBHALBM6jyfF98YQ0gGs4KcZPcx2LN_GG26QT8f4,1325
+types_Flask_SocketIO-5.3.0.20240331.dist-info/METADATA,sha256=Uqzf9ztpIFPZ4IuguZlrxKebtPgOmotA2Kk2iOh2T-U,1665
+types_Flask_SocketIO-5.3.0.20240331.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+types_Flask_SocketIO-5.3.0.20240331.dist-info/top_level.txt,sha256=hstSFjo7C7PJ5xdX4-eef-_Aac_OKK6VO1pQyIZbBDE,21
+types_Flask_SocketIO-5.3.0.20240331.dist-info/RECORD,,
