@@ -1,0 +1,2 @@
+[console_scripts]
+sp = simple_bump.cli.main:cli
