@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "mcstatus"]
+build-backend = "hatchling.build"
+
+[project]
+name = "minecraft_ping_urpagin"
+version = "0.0.1"
+authors = [
+  { name="Urpagin", email="urpagin@proton.me" },
+]
+description = "Pings minecraft server to get their online/offline state. Offers bulk async pinging."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Urpagin/sampleproject"
