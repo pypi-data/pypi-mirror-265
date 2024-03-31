@@ -1,0 +1,6 @@
+invoke
+minchin.releaser
+pip-tools
+isort
+black
+pytest
