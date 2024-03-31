@@ -1,0 +1,7 @@
+pyproject.toml
+mestolo/__init__.py
+mestolo.egg-info/PKG-INFO
+mestolo.egg-info/SOURCES.txt
+mestolo.egg-info/dependency_links.txt
+mestolo.egg-info/requires.txt
+mestolo.egg-info/top_level.txt
