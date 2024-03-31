@@ -1,0 +1,14 @@
+jobdispatcher/__init__.py,sha256=PdKu3rK9DjhhEaF-Li7-eOWTiAhWsR2vElbptJkjhfA,140
+jobdispatcher/engines.py,sha256=j59CsscmN3QUA7aaC4KRCqQ3ukdBC2XNHZzl8LEr98k,8632
+jobdispatcher/index_based_loops.py,sha256=nG2LF0BSv6S_HsJKq4lQa4xa31BPZOHEP2xNswKTaI0,10086
+jobdispatcher/job_balancers.py,sha256=uTbqKZbRKFYOxSX6yQ9-rs6whx4nkQfcvqr5VvWx22E,5270
+jobdispatcher/jobs.py,sha256=g4fmAII7kBY8u0occj9SbO4pkd5qjRte8s4lNLXtUd8,1747
+jobdispatcher/processor.py,sha256=dfrwVSMkfvaK9iJkPiHRHz64F6-TZ_wxskuNgLMEH-c,5045
+jobdispatcher/packing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jobdispatcher/packing/chunker.py,sha256=YiqE9EylL4oiIqq33owAcs82-_I7VN_C-dGQngS-3e4,1783
+jobdispatcher/packing/to_constant_volume.py,sha256=YISQy6q5sNTMkrd8xee0hnb3dsObmjs2rwQIeWBt0Ys,5619
+jobdispatcher-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+jobdispatcher-0.2.0.dist-info/METADATA,sha256=jpO9ICzcVS_h7DGEOw8f0YN0cGEX4T-G1KE6g837k0Q,41871
+jobdispatcher-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jobdispatcher-0.2.0.dist-info/top_level.txt,sha256=XPNXCwiEM9qUvLLujHIgGf-f2w4hTLsOC8j5wAPXluY,14
+jobdispatcher-0.2.0.dist-info/RECORD,,
