@@ -1,0 +1,14 @@
+wlr_layout_ui/__init__.py,sha256=YobklZk1_dwCumNY6WWPv7uTxQLeXXJnrvTOUOIWLZU,2435
+wlr_layout_ui/displaywidget.py,sha256=cXRZ-0GzEiLHrR-aRJrNB36oq-dvaOULSJD-mZahEVU,4304
+wlr_layout_ui/factories.py,sha256=MM0E8BdhUKlDkrKLJgRgl26ectbXVJhOH6YRXeEvNyo,387
+wlr_layout_ui/gui.py,sha256=_jiyf1Hf2tZv_pUpqkP0J67Ju9g7XiNLKpQDempRJPA,20966
+wlr_layout_ui/profiles.py,sha256=C1yn7qZNFnqVxSLmoG6WG1NAwI_aPGMacXBoAmaSgZo,469
+wlr_layout_ui/screens.py,sha256=6bF7ZYLb4R2dJuyPATL0XiCAjAg-clfWnMWLl-4YGx0,5449
+wlr_layout_ui/settings.py,sha256=qSTJRZCo2SH8g3d0d9_SC9KZ4JSLGJIKHIF-zGbXse4,274
+wlr_layout_ui/shapes.py,sha256=TUSU88k3Xjvp6LiWPfpnllLYhPyqZopMKFA_gVZk8F8,1706
+wlr_layout_ui/utils.py,sha256=c9uZ2L3wfEseGK2Dt_ih0OuQSi-jk2g9yYZS4HG9mLs,4496
+wlr_layout_ui/widgets.py,sha256=HCf2yTl3hp_mZidhiX_C-Ruwa53IDccGBX_QLE2EY64,12366
+wlr_layout_ui-1.4.4.dist-info/METADATA,sha256=nM5k-zose6u4xiqKQZTbE96BHUKUsl9LH5VdvWaK7FI,1259
+wlr_layout_ui-1.4.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+wlr_layout_ui-1.4.4.dist-info/entry_points.txt,sha256=9BlsCP7DhrmeMdNWrh29p8ZD1I5MAROlWgP8JIVeHg4,45
+wlr_layout_ui-1.4.4.dist-info/RECORD,,
