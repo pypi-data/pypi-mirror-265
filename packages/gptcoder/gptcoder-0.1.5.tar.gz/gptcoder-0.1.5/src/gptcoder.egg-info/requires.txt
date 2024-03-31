@@ -1,0 +1,4 @@
+openai
+
+[dev]
+pytest
