@@ -1,0 +1,2 @@
+[console_scripts]
+oirun = src.OiHelper.r:main
