@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scipy
+mayavi
+PyQt5
+
+[dev]
+pytest
+pytest-cov
+black
+isort
+twine
+build
