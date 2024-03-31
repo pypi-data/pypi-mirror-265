@@ -1,0 +1,30 @@
+[project]
+name = "jupyturtle"
+description = "Turtle graphics for Jupyter Notebooks"
+version = "2024.03.30"
+authors = [
+  { name="Luciano Ramalho", email="luciano@ramalho.org" },
+]
+dependencies = [
+  "pytest",
+  "ipython>=8",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ramalho/jupyturtle"
+Issues = "https://github.com/ramalho/jupyturtle/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff.format]
+# Like Python's `repr()`, use single quotes for strings.
+quote-style = 'single'
