@@ -1,0 +1,6 @@
+
+        [console_scripts]
+        pvp-api=pvp_api:cli
+        pvp-api-scenario-library=pvp_api_scenario_library:cli
+        pvp-api-pe-decomposition=pvp_api_pe_decomposition:cli
+    
