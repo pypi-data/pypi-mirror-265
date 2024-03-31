@@ -1,0 +1,8 @@
+setup.py
+tiktactoe.egg-info/PKG-INFO
+tiktactoe.egg-info/SOURCES.txt
+tiktactoe.egg-info/dependency_links.txt
+tiktactoe.egg-info/entry_points.txt
+tiktactoe.egg-info/top_level.txt
+tiktacx/__init__.py
+tiktacx/main.py
