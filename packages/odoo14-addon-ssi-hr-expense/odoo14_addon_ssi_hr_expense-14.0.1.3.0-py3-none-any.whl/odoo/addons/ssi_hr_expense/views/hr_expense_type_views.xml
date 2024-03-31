@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="hr_expense_type_view_search" model="ir.ui.view">
+    <field name="name">hr.expense_type - search</field>
+    <field name="model">hr.expense_type</field>
+    <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_search"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="hr_expense_type_view_tree" model="ir.ui.view">
+    <field name="name">hr.expense_type - tree</field>
+    <field name="model">hr.expense_type</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_tree" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="hr_expense_type_view_form" model="ir.ui.view">
+    <field name="name">hr.expense_type - form</field>
+    <field name="model">hr.expense_type</field>
+    <field name="priority">100</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_form" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[@name='note']" position="before">
+                <page name="page_analytic_account" string="Analytic Account">
+                    <group name="grp_analytic_account" colspan="4">
+                        <field name="analytic_account_method" />
+                        <field
+                                name="analytic_account_ids"
+                                attrs="{'invisible': [('analytic_account_method','=','python')]}"
+                                widget="many2many_tags"
+                            />
+                        <field
+                                name="python_code"
+                                widget="ace"
+                                options="{'mode': 'python'}"
+                                attrs="{'invisible': [('analytic_account_method', '=', 'fixed')]}"
+                            />
+                    </group>
+                </page>
+                <page name="product_category" string="Product Category">
+                    <group name="product_category_1" colspan="4" col="2">
+                        <field
+                                name="allowed_product_category_ids"
+                                widget="many2many_tags"
+                                invisible="1"
+                            />
+                    </group>
+                    <field
+                            name="product_category_ids"
+                            colspans="4"
+                            cols="1"
+                            nolabel="1"
+                        />
+                </page>
+                <page name="product" string="Product">
+                    <group name="product_1" colspan="4" col="2">
+                        <field
+                                name="allowed_product_ids"
+                                widget="many2many_tags"
+                                invisible="1"
+                            />
+                    </group>
+                    <field name="product_ids" colspans="4" cols="1" nolabel="1" />
+                </page>
+                <page name="product_usage" string="Product Usage">
+                    <group name="product_usage_1" colspan="4" col="2">
+                        <field
+                                name="allowed_product_usage_ids"
+                                widget="many2many_tags"
+                                string="Allowed"
+                            />
+                        <field
+                                name="default_product_usage_id"
+                                domain="[('id', 'in', allowed_product_usage_ids)]"
+                                string="Default"
+                            />
+                    </group>
+                </page>
+                <page name="pricelist" string="Pricelist" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="hr_expense_type_action" model="ir.actions.act_window">
+    <field name="name">Expense Types</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">hr.expense_type</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="hr_expense_type_menu"
+        name="Types"
+        parent="menu_hr_expense_configuration"
+        groups="hr_expense_type_group"
+        action="hr_expense_type_action"
+        sequence="2"
+    />
+
+</odoo>
