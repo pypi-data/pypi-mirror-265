@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/gptcoder/__init__.py
+src/gptcoder/gptcoder.py
+src/gptcoder.egg-info/PKG-INFO
+src/gptcoder.egg-info/SOURCES.txt
+src/gptcoder.egg-info/dependency_links.txt
+src/gptcoder.egg-info/requires.txt
+src/gptcoder.egg-info/top_level.txt
+tests/test_gptcoder.py
