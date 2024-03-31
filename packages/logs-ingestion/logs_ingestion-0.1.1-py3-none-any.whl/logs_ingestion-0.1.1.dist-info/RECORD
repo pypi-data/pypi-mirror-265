@@ -1,0 +1,7 @@
+logs_ingestion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logs_ingestion/logs_decorator.py,sha256=FBg5SXGAXqH8s0bZPglmJUlSBc94EMhqAJ58HU9wao4,1274
+logs_ingestion/logs_ingestion.py,sha256=xRSR7vGwh6Yv9iZqxD3HJxmskqutOZPxyvZe8E29soU,2435
+logs_ingestion/logs_record.py,sha256=Av3jr6A1fzlMnMbb1qo4oqGF0urSc5so9rZZ4tT_Ptc,1210
+logs_ingestion-0.1.1.dist-info/METADATA,sha256=JJb1eZpmB2GDAFNq7_StSJAMzEiy7YdSM5cLTwswbaY,2907
+logs_ingestion-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+logs_ingestion-0.1.1.dist-info/RECORD,,
