@@ -1,0 +1,13 @@
+flufl/i18n/__init__.py,sha256=PF-bJQUP_WIBu7JUJOejSzoBdKPIc5GgTNX5K3_ylS8,1005
+flufl/i18n/_application.py,sha256=Id_89hxEQk7n9FmyPw1YlCAC41kTGv0_awTnp7-LxsE,10234
+flufl/i18n/_expand.py,sha256=aiBRYXGV0VAkZMr6gMqrO65JFEokn1aEEC0SHCkLdVk,806
+flufl/i18n/_registry.py,sha256=mk2qClDHnVMZ_QBAu0tLHhWTbzpkiClRr7DHZgFq1Z4,1053
+flufl/i18n/_strategy.py,sha256=Y611NldtyOcA3M77nXAp4Ke-yzeLSf_1JXrGr8upmWM,2371
+flufl/i18n/_substitute.py,sha256=XVTWgGu_UGMVRsHuFeIYLENtI8fFaoAIuncdjLpmdV8,770
+flufl/i18n/_translator.py,sha256=s1d-fg4fgBM8T1kt3CSE9rBiTJn0e0Y6vNoQeGYfrhw,2975
+flufl/i18n/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flufl/i18n/types.py,sha256=xKCdqSyjZoZfQRYYtm15Vb43NKhtfsoi3SI-KNpf7rQ,4141
+flufl_i18n-5.1.0.dist-info/METADATA,sha256=eVb5UuqOWL1in-kvE5wA0xh9uXNb6dGQ3nBjh9_lo58,2201
+flufl_i18n-5.1.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+flufl_i18n-5.1.0.dist-info/licenses/LICENSE,sha256=d6UVExcJxpMXMjqIDgXjJWjl2iIhHGvAGGDc966pbFk,558
+flufl_i18n-5.1.0.dist-info/RECORD,,
