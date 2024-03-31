@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/scoresheet_models/__init__.py
+src/scoresheet_models.egg-info/PKG-INFO
+src/scoresheet_models.egg-info/SOURCES.txt
+src/scoresheet_models.egg-info/dependency_links.txt
+src/scoresheet_models.egg-info/top_level.txt
+src/scoresheet_models/defs/__init__.py
+src/scoresheet_models/defs/defs.py
+src/scoresheet_models/defs/model.py
+src/scoresheet_models/models/__init__.py
+src/scoresheet_models/models/models.py
