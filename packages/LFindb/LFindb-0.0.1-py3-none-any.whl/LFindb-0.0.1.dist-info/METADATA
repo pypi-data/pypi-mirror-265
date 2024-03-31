@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: LFindb
+Version: 0.0.1
+Summary: # LFindb
+Author: Grant Ahead
+Author-email: ahead_go@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE.txt
+Requires-Dist: pandas (>=2.0.3)
+Requires-Dist: mysql-connector-python (>=8.3.0)
+
