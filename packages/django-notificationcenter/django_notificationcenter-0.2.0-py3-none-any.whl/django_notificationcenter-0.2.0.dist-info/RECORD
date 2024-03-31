@@ -1,0 +1,15 @@
+notificationcenter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notificationcenter/models.py,sha256=F9FiuRyG5gJ3d_yxTaGHQO9kXA0SgEdC5X1g_jn9fpc,16610
+notificationcenter/tasks.py,sha256=kFtGNAuZpMIV_v-ti6aksYlrJiXcawzihQj0s6opMQM,1333
+notificationcenter/tests.py,sha256=Ms2SuQDzWZInMiq6qIw-6rhpql4D32Lo5OcPKkoqwJk,6358
+notificationcenter/util.py,sha256=kO6UypRiS6FIwP1Vn2LYOID-JIydyrjzKsGpaNgTm1s,5156
+notificationcenter/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notificationcenter/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notificationcenter/management/commands/send_notifications.py,sha256=d9sW7tgWL2n9meawetEnMO9RiqQZvjQ-TBOkT1XN27c,359
+notificationcenter/migrations/0001_initial.py,sha256=vuN90dbDMepVVss3Y9bzzhCSsoiNx72OvLbgdmMEXEw,2561
+notificationcenter/migrations/0002_remove_notification_html_remove_notification_link_and_more.py,sha256=xmQnYTu0UlXXmHxZeauJwuT6e47QMSAMMNTltH6kGmg,1179
+notificationcenter/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_notificationcenter-0.2.0.dist-info/METADATA,sha256=kIPYGUxWO01P6Q9SHyzlOuQLzeHdlVtkMntdusYXIts,837
+django_notificationcenter-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_notificationcenter-0.2.0.dist-info/top_level.txt,sha256=52B0AQz7BQtpnxB573M1lpoybcNgfhQQEKKCk0hhjnM,19
+django_notificationcenter-0.2.0.dist-info/RECORD,,
