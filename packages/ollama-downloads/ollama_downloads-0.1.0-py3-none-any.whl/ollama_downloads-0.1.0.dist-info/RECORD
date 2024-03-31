@@ -1,0 +1,15 @@
+ollama_downloads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ollama_downloads/models/models_all.txt,sha256=X-1ZNxmXntZUeYOvVRlrvBLCD8sbdjouuzbQMMJxpUs,4309
+ollama_downloads/models/models_all_downloaded.txt,sha256=HhMMCXwg6K9CaLL8BQVw-NVRsXoBfWlzyKTIIGYetYM,6400
+ollama_downloads/models/models_big.txt,sha256=nKXVAPx8LFIX1covxMlAJr6WKLHOPxt_c6uXWs4cwZo,996
+ollama_downloads/models/models_codes.txt,sha256=dCRutQzxmM55iWr7uf8SJSUbzpyE3LRMZINzXgFmxNc,1099
+ollama_downloads/models/models_few.txt,sha256=V6nr0Qqur_C7Tw0oc_SRLBgdF7doqGD3S7x2uFAOoqU,393
+ollama_downloads/models/models_math.txt,sha256=NyIR-1W7wXHZh1LwGT8ms5Mjx3S9BmROmE78ao3zSGs,103
+ollama_downloads/models/models_one.txt,sha256=rL8lkqT1uULKzidZJHLhSbuyBFjftNFlC4Ux92BG_8Y,102
+ollama_downloads/models/models_sql.txt,sha256=C2l0FNiIWjfxh3PUM544D_ToGL0ktkxHPQfmP9_HU7o,201
+ollama_downloads/ollama_downloads_process.py,sha256=KisPFFJYp92yVIQjOfQEJ6eEYOqOQLziFN3nBLkGldw,9530
+ollama_downloads/ollama_downloads_process.py.1,sha256=TugOM2Le6cej4kunyXlGoSlzNq4AUdyCfwSuTlp-9UE,8685
+ollama_downloads-0.1.0.dist-info/LICENSE,sha256=nVSRA8h6ZSM37kPEM0W-GZURBfVEZ4WVLO2qzs_cVyw,1069
+ollama_downloads-0.1.0.dist-info/METADATA,sha256=ameCepqN8p7Vyy_7C0a7YIvvkfDg0YecO8nKxOOCmmY,1285
+ollama_downloads-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ollama_downloads-0.1.0.dist-info/RECORD,,
