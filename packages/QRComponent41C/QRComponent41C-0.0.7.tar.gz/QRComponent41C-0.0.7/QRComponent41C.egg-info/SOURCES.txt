@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+QRComponent41C/__init__.py
+QRComponent41C/main.py
+QRComponent41C.egg-info/PKG-INFO
+QRComponent41C.egg-info/SOURCES.txt
+QRComponent41C.egg-info/dependency_links.txt
+QRComponent41C.egg-info/requires.txt
+QRComponent41C.egg-info/top_level.txt
