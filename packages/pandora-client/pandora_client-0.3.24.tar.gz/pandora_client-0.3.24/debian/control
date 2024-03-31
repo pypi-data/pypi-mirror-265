@@ -1,0 +1,15 @@
+Source: pandora-client
+Maintainer: Jan Gerber <j@mailb.org>
+Section: python
+Priority: optional
+Build-Depends: python3-all, debhelper (>= 7.4.3), dh-python, python3-setuptools (>= 0.6b3),
+ python3-ox, python3-requests, python3-twisted, python3-zeroconf, python3-netifaces
+Standards-Version: 3.9.1
+
+Package: pandora-client
+Architecture: all
+Depends: python3, ${misc:Depends}, ${python3:Depends}, ffmpeg,
+ python3-ox, python3-requests, python3-twisted, python3-zeroconf, python3-netifaces
+Description: pandora_client is a commandline client for pan.do/ra.
+ You can use it to import videos into a pan.do/ra system.
+

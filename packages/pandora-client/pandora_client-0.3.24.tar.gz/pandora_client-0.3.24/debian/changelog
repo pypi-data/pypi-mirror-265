@@ -1,0 +1,11 @@
+pandora-client (0.2.156-1) precise; urgency=low
+
+  * new release
+
+ -- Jan Gerber <j@mailb.org>  Thu, 02 Jan 2014 20:11:15 +0530
+
+pandora-client (0.2.152-1) precise; urgency=low
+
+  * inital debian package
+
+ -- Jan Gerber <j@mailb.org>  Fri, 27 Sep 2013 15:13:41 +0200
