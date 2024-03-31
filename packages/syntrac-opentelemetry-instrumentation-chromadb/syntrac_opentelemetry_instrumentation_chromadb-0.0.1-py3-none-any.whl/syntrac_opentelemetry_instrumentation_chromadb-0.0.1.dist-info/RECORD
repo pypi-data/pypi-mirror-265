@@ -1,0 +1,7 @@
+syntrac_opentelemetry/instrumentation/chromadb/__init__.py,sha256=IZfO7U2EUHxqSPBAlkCsUcvVvVz3W46oPVFop0cCBe4,3029
+syntrac_opentelemetry/instrumentation/chromadb/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+syntrac_opentelemetry/instrumentation/chromadb/wrapper.py,sha256=Sr5uS9xt3B99vNQECLSh62Qv5lP9N2b1HbCsd97yHdU,9602
+syntrac_opentelemetry_instrumentation_chromadb-0.0.1.dist-info/METADATA,sha256=wD7KEG6vuWSd-1nfE1nDxBy5d_rNCAQf-ph5g3i83ZQ,2343
+syntrac_opentelemetry_instrumentation_chromadb-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+syntrac_opentelemetry_instrumentation_chromadb-0.0.1.dist-info/entry_points.txt,sha256=r95S1VUghkfLgdPeQjPtjdBeQ3HfZ2N-HDsSGIx2JiM,105
+syntrac_opentelemetry_instrumentation_chromadb-0.0.1.dist-info/RECORD,,
