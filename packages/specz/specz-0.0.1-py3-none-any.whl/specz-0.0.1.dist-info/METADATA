@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: specz
+Version: 0.0.1
+Summary: A small python package that can list a file's specification in user's terminal.
+Author: Shivesh Vijay
+Author-email: Shivesh Vijay <shiveshvijay707@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Started : 23 March 2024
+Published : ????
+
+Link : https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+- The directory containing the Python files should match the project name. This simplifies the configuration and is more obvious to users who install the package.
+- __init__.py is recommended to import the directory as a regular package, even if as is our case for this tutorial that file is empty
+- example.py is an example of a module within the package that could contain the logic (functions, classes, constants, etc.) of your package. Open that file and enter the following content:
