@@ -1,0 +1,14 @@
+contourpy
+cycler
+fonttools
+kiwisolver
+matplotlib
+numpy
+packaging
+Pillow
+pyparsing
+python-dateutil
+six
+coreapi
+pandas
+python_graphql_client
