@@ -1,0 +1,4 @@
+acme==2.9.0
+cryptography>=3.2.1
+PyOpenSSL!=23.1.0,>=17.5.0
+pyrfc3339
