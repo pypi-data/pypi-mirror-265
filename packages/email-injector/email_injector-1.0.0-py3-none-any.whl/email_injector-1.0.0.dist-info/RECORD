@@ -1,0 +1,7 @@
+email_injector/__init__.py,sha256=T6vH6eUl1c27NTPz5N3WzBu0hltkAVTWuExDKKcdKwg,141
+email_injector/constant.py,sha256=ZYiuk1_46yjE6YLuLFNdChpuQ2C8eeqY521t7StuP70,2967
+email_injector/email.py,sha256=iYlRbhueqdLmfrPVUl4XYkquxiEbGY2GkYq8fAz9-rM,10669
+email_injector/utils.py,sha256=3FOX0ZTnv9mCOcjB-fVN3Ym8ktn2wYratJC4HZmTLrQ,719
+email_injector-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+email_injector-1.0.0.dist-info/METADATA,sha256=INskXgC3pQitIcRduS8UFLdez12DN5ToVUMOl9VzdDA,476
+email_injector-1.0.0.dist-info/RECORD,,
