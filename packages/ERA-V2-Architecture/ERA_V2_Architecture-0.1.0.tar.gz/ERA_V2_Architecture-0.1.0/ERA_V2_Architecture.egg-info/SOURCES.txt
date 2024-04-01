@@ -1,0 +1,9 @@
+README.md
+setup.py
+ERAV2-Architecture/__init__.py
+ERAV2-Architecture/model/__init__.py
+ERAV2-Architecture/model/models.py
+ERA_V2_Architecture.egg-info/PKG-INFO
+ERA_V2_Architecture.egg-info/SOURCES.txt
+ERA_V2_Architecture.egg-info/dependency_links.txt
+ERA_V2_Architecture.egg-info/top_level.txt
