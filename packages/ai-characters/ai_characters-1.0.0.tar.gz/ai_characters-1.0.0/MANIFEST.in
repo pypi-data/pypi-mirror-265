@@ -1,0 +1,2 @@
+include aic/*.json
+include README.md
