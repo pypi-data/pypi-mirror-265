@@ -1,0 +1,2 @@
+[console_scripts]
+console = telegram_collector:console
