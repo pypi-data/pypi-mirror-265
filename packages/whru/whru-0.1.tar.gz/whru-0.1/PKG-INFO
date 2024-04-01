@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: whru
+Version: 0.1
+Summary: My custom Python module
+Author: whr819987540
+Author-email: steeliron550@gmail.com
+Requires-Dist: torch
+Requires-Dist: tensorflow
