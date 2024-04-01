@@ -1,0 +1,2 @@
+[console_scripts]
+quack = quacktools.main:main
