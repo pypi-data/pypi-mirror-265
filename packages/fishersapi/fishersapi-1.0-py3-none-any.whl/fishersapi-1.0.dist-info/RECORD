@@ -1,0 +1,13 @@
+fishersapi/__init__.py,sha256=WI4a-_fsQpN6jAxRUei13boIQZRVip0k49ZwcfPcwX0,257
+fishersapi/catcorr.py,sha256=5Gwv5c4_Fuc7vlK3eFJLTiJtQgQphp_LeJw-2vCaO0c,4690
+fishersapi/fisher_numba.py,sha256=mIo_jPwJuPOlX8aB6fNQ4DEGXb1K7XamaEVLoPEcuOw,11519
+fishersapi/fishersapi.py,sha256=DxtTEzKf7z6x35X-MJNgtnwzVhKwy6QNLrQ6Fq_nXDg,11661
+fishersapi/version.py,sha256=Jegs6yZgB-rG8lGaOsfD9udym9S4_g2W-Wef8EY9Iu0,1548
+fishersapi/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fishersapi/tests/test_catcorr.py,sha256=_Ih0_xndlIekibqt1v3JIYIkMfkLPkdr2VEy67nro_A,4259
+fishersapi/tests/test_fishersapi.py,sha256=a5zWtZTTZQgzeZuoRp4VNn85zN8QDM9AWSDALl39Heo,6728
+fishersapi-1.0.dist-info/LICENSE,sha256=VGC7AV5Mj8t8c6ZBFhf-wTOFgmou7Mpka7QusP7nU0w,1108
+fishersapi-1.0.dist-info/METADATA,sha256=8AVk26Te_zKhOGjLLh-dfoc2rRo6FeqVuTcYgoZChoM,2491
+fishersapi-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fishersapi-1.0.dist-info/top_level.txt,sha256=5s4gB7CLEBhPIS0GmrrgFGAF1M0Jy0PaZC4YRgj4TMU,11
+fishersapi-1.0.dist-info/RECORD,,
