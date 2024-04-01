@@ -1,0 +1,11 @@
+spacedefense/__init__.py,sha256=gDRIVwjI3JIoS0LtQmoHc3GiJLA2J7OmTThdE0JskRk,64
+spacedefense/actors.py,sha256=4AlhrsR-NvCAhlTQmj36wao-S6X7EMAVdGJts3WGGyk,31552
+spacedefense/common.py,sha256=Fa3uxDE1zyrr4j-K-S_2NcvumdrVc2hefi6aDoTw6B4,2239
+spacedefense/config.py,sha256=1TpO4py6xzbLR_obcug7ZMcq3hnrNuma7LcTI1s3Tlc,4980
+spacedefense/main.py,sha256=B2pwatHGbx4MoZlgybITqyTHAxu3CsT-ZtAI7dYCz-U,24303
+SightTraining-0.1.13.dist-info/LICENSE,sha256=2Sjhsf0w7UISJzdCmGKt_ofh3AT7SvIIQ2fph8YXJuI,1067
+SightTraining-0.1.13.dist-info/METADATA,sha256=Yplf0Y3veGRu2AUXkQmjQBSfVqlOx2tcnO86RFKZfWI,541
+SightTraining-0.1.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+SightTraining-0.1.13.dist-info/entry_points.txt,sha256=YTPtP3ljyYVuusevU-Fg4KSVVYcANRbNggF0A_eYRtE,49
+SightTraining-0.1.13.dist-info/top_level.txt,sha256=Pc95KzrCRiEQ8hLiDz2DYZA933opLlg1ydzHDrUTV-o,13
+SightTraining-0.1.13.dist-info/RECORD,,
