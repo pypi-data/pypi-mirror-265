@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: botnikkk
+Version: 0.0.3
+Summary: a personal package
+Author: BotNikkk
+Author-email: <nikhi.ace.chd@gmail.com>
+Keywords: python,camera stream,sockets
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: screeninfo
+Requires-Dist: asyncio
+
