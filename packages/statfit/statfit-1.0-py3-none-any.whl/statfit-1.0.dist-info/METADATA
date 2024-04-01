@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: statfit
+Version: 1.0
+Summary: Statistical Gaussian Fitting
+Author: Cliff Sun
+Author-email: cliffxuelisun@gmail.com
+Keywords: python,statistical fitting
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+This package outputs an array of data that corresponds to a user-inputted standard deviation. Currently only supports data that corresponds to a symmetric Gaussian distribution.

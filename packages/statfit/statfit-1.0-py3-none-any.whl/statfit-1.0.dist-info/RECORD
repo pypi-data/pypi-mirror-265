@@ -1,0 +1,9 @@
+statfit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statfit/gaussian_fit.py,sha256=59EY1hfqsT-N0orH_Ewm6Mard8NQMBbpt6F2_4YgfJs,2503
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gaussian_fit.py,sha256=Aj_naK65vJPlHxy675y8v4lxGXkHSnD0LiaNMNm4EQk,1139
+statfit-1.0.dist-info/LICENSE,sha256=Lx77LRO153Ss_oshQOxZdpiXIJgtwTTamRFP0fcq_Ho,1087
+statfit-1.0.dist-info/METADATA,sha256=sRUl7WJfu15r_xQU4Qru4NG8Vn7PQ1Kb-U6fNDp93eQ,589
+statfit-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+statfit-1.0.dist-info/top_level.txt,sha256=SNe1CthpVoNQXJNu8syTSnXR2mt7u_hMiLm6edrdQWY,14
+statfit-1.0.dist-info/RECORD,,
