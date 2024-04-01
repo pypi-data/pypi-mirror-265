@@ -1,0 +1,3 @@
+[console_scripts]
+dialog2rasa=dialog2rasa.cli:main
+
