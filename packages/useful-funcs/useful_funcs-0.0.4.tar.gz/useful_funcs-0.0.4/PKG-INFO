@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: useful_funcs
+Version: 0.0.4
+Summary: Useful Functions
+Author: SuryaSudh
+Author-email: <suryasudhakar7@outlook.com>
+Keywords: python,useful,useful functions,unit conversion,date conversion,calendar functions
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# useful_funcs
+## _Useful functions for various applications_
+
+## Installation
+```sh
+pip install useful_funcs
+```
+
+## Versions
+Detailed descriptions of changes in various versions is given below
+| Version | Date |
+| ------ | ------ |
+| 0.0.3 | 2024-01-22 |
+| 0.0.2 | 2024-01-22 |
+| 0.0.1 | 2024-01-22 |
+
+## Version 0.0.3
+- Added README.md
+
+## Version 0.0.2
+- Made basic improvements
+
+## Version 0.0.1
+- Added useful_calendar
+- Added useful_closest
+- Added useful_datetime
+
+
+## Development
+
+Want to contribute? Great!
+Will be open to take suggestions soon.
+
