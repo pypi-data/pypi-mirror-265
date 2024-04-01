@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+trujillo/__init__.py
+trujillo/dynamics/__init__.py
+trujillo/dynamics/entity.py
+trujillo/dynamics/table.py
+trujillo/dynamics/token.py
+trujillo_dynamics_package.egg-info/PKG-INFO
+trujillo_dynamics_package.egg-info/SOURCES.txt
+trujillo_dynamics_package.egg-info/dependency_links.txt
+trujillo_dynamics_package.egg-info/requires.txt
+trujillo_dynamics_package.egg-info/top_level.txt
