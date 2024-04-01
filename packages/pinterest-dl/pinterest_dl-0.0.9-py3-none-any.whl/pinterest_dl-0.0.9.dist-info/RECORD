@@ -1,0 +1,15 @@
+pinterest_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinterest_dl/cli_parser.py,sha256=kG0Uu-C_hSJ_3_AQZRVeegi7b6AV_a4CaGJZuL5VSR0,2024
+pinterest_dl/downloader.py,sha256=zVIe2OEy25y1lq1erXfEkwf-Ya2U9nUfMg-tBaYADJg,1947
+pinterest_dl/driver_installer.py,sha256=adTT3u_qwmJjJ-j2S9hq1fxE_fYLDmcvpquvSfb9ByA,1535
+pinterest_dl/io.py,sha256=8eDDsCrl1FYrf9yyCHd2_B6VDeJlGtCeM7kL7RVUpg0,2358
+pinterest_dl/main.py,sha256=GbGIhlaXPhCD4ZFqx27y5x-PgUS9sI73KVdlCXn2pNc,2253
+pinterest_dl/manifest.json,sha256=tC7Y_L7dxKgLBxJj0tb3LgGnOSuEFZBHKG7prJfJP8I,236
+pinterest_dl/scraper.py,sha256=3pUQDeFvBGirmh88k1IGEaFMz6gUHDrATUslBQsyXfU,5528
+pinterest_dl/utils.py,sha256=lDoflD2D6pcQ5fwJlKYo0NEfHx77nxLTEmKAYvsI4dY,425
+pinterest_dl-0.0.9.dist-info/LICENSE,sha256=Q5Eg6noCzdC5ulXfKoM2ht3_WDcLIqYk_wyKFAuw7ac,11340
+pinterest_dl-0.0.9.dist-info/METADATA,sha256=FjbVdlpCKN1h5REC_dJZ_py414ZllYkEXGII9TDgK4I,4661
+pinterest_dl-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pinterest_dl-0.0.9.dist-info/entry_points.txt,sha256=ZczsX0ajtoW8JNckLhKFnmdskTNZp7K4MvMcPKFi8b4,56
+pinterest_dl-0.0.9.dist-info/top_level.txt,sha256=S9TxWsy9Xo2mO6VO13T80lId7U0jL3urba1nUuUtM-s,13
+pinterest_dl-0.0.9.dist-info/RECORD,,
