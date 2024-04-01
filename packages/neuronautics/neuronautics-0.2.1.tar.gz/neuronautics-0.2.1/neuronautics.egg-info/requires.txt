@@ -1,0 +1,12 @@
+pyqt5
+PyQtChart
+numpy
+pandas
+matplotlib
+McsPyDataTools
+scikit-learn
+pyyaml
+jinja2
+networkx
+neo
+elephant
