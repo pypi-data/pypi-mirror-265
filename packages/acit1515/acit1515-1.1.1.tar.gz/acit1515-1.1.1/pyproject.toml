@@ -1,0 +1,30 @@
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypkg = ["*.txt", "*.json"]
+
+[project]
+name = "acit1515"
+version = "1.1.1"
+authors = [
+    { name = "Chris Harris", email = "charris17@bcit.ca" }
+]
+description = "Tests and utilities for ACIT 1515"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    'colorama'
+]
+
+[project.urls]
+Homepage = "https://github.com/chrisharrisx/acit1515"
+Issues = "https://github.com/chrisharrisx/acit1515/issues"

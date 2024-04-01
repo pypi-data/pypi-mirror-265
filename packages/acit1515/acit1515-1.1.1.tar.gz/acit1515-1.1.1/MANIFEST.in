@@ -1,0 +1,2 @@
+include src/acit1515/tests/assignment2/transcripts/*.json
+include src/acit1515/tests/assignment2/mock/*.txt

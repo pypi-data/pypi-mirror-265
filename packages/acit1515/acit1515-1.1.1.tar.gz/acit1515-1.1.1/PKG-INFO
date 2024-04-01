@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: acit1515
+Version: 1.1.1
+Summary: Tests and utilities for ACIT 1515
+Author-email: Chris Harris <charris17@bcit.ca>
+Project-URL: Homepage, https://github.com/chrisharrisx/acit1515
+Project-URL: Issues, https://github.com/chrisharrisx/acit1515/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+
+# ACIT 1515
+
+Tests and utilities for ACIT 1515
