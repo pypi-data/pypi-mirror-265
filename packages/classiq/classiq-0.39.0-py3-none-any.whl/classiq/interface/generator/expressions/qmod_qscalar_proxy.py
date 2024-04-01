@@ -1,0 +1,33 @@
+from sympy import Symbol
+
+from classiq.interface.generator.expressions.qmod_sized_proxy import QmodSizedProxy
+
+
+class QmodQScalarProxy(Symbol, QmodSizedProxy):
+    def __new__(cls, name: str, **assumptions: bool) -> "QmodQScalarProxy":
+        return super().__new__(cls, name, **assumptions)
+
+    def __init__(self, name: str, size: int) -> None:
+        super().__init__(size)
+
+
+class QmodQBitProxy(QmodQScalarProxy):
+    pass
+
+
+class QmodQNumProxy(QmodQScalarProxy):
+
+    def __init__(
+        self, name: str, size: int, fraction_digits: int, is_signed: bool
+    ) -> None:
+        super().__init__(name, size)
+        self._fraction_digits = fraction_digits
+        self._is_signed = is_signed
+
+    @property
+    def fraction_digits(self) -> int:
+        return self._fraction_digits
+
+    @property
+    def is_signed(self) -> bool:
+        return self._is_signed
