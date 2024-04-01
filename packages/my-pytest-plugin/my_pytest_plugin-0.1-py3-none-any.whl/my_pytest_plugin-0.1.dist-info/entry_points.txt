@@ -1,0 +1,2 @@
+[pytest11]
+my_pytest_plugin = my_pytest_plugin.my_pytest_plugin
