@@ -1,0 +1,39 @@
+[project]
+name = "diskcache-stubs"
+version = "5.6.3.3.20240401"
+description = "diskcache stubs"
+authors = [{ name = "phi", email = "phi.friday@gmail.com" }]
+dependencies = []
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">= 3"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Typing :: Stubs Only",
+]
+
+[project.urls]
+Repository = "https://github.com/phi-friday/diskcache-stubs"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["diskcache>=5.6.3"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/diskcache-stubs"]
+
+[tool.pyright]
+pythonVersion = '3.8'
+pythonPlatform = 'Linux'
+diagnostic = 'basic'
+stubPath = "./typings"
