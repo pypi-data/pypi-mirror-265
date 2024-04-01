@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-admin-tree
+Version: 0.0.1
+Summary: Test description
+Home-page: https://github.com/vovababay/django-admin-tree
+Author: Vladimir Babaev.
+Author-email: vladimir.babaev.12@gmail.com
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+
+Test description
