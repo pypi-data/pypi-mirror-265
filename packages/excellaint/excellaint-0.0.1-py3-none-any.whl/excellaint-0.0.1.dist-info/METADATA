@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: excellaint
+Version: 0.0.1
+Summary: A Python toolbox for dealing with some of the oddities that Excel can introduce into your dates.
+Home-page: https://github.com/charles-turner-1/ExcellAint
+Author: Charles Turner
+Author-email: charlesturner0987@gmail.com
+License: MIT license
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: polars
+Provides-Extra: dev
+Requires-Dist: pytest >=3.7 ; extra == 'dev'
+
+# ExcellAint
+A Python toolbox for dealing with some of the oddities that Excel can introduce into your dates.
