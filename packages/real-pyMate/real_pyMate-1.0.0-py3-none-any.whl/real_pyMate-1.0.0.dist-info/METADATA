@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: real_pyMate
+Version: 1.0.0
+Summary: pyMate is a Python package that provides basic functionalities to process functional magnetic resonance imaging (fMRI) and electro-physiological (e-phys) data.
+Home-page: https://github.com/akcarsten/pyMate
+Author: Carsten Klein
+License: MIT
+License-File: LICENSE
+
