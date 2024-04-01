@@ -1,0 +1,8 @@
+README.md
+count_syllable.py
+setup.py
+count_syllable.egg-info/PKG-INFO
+count_syllable.egg-info/SOURCES.txt
+count_syllable.egg-info/dependency_links.txt
+count_syllable.egg-info/requires.txt
+count_syllable.egg-info/top_level.txt
