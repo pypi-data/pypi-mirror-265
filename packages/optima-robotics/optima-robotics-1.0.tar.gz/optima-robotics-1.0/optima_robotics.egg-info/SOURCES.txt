@@ -1,0 +1,9 @@
+README.md
+setup.py
+optima_robotics/__init__.py
+optima_robotics/robotic.py
+optima_robotics.egg-info/PKG-INFO
+optima_robotics.egg-info/SOURCES.txt
+optima_robotics.egg-info/dependency_links.txt
+optima_robotics.egg-info/requires.txt
+optima_robotics.egg-info/top_level.txt
