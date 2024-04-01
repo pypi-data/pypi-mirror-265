@@ -1,0 +1,12 @@
+CoRE_MOF/__init__.py,sha256=iqqbD6viG4thJOpl7Ml1JwiLmsxfVxgtvfM1YRGWvWU,20
+CoRE_MOF/load.py,sha256=d_EQe0OXD48hYrX-UhB_ntSFvxBOFss5cBV4DTXHyHY,3750
+CoRE_MOF/data/2014.csv,sha256=wsk8HVfwFzaYJLnf6aKmFwNty_1TVgS6O5i85bOcLGc,64125
+CoRE_MOF/data/2014.tar.xz,sha256=KQ8Fe17JVy6nDFPK7eqfUL3NsS0XD5Eu21U8McoxCEI,7236364
+CoRE_MOF/data/2019-ASR.csv,sha256=MzXedYpypuRadXijbUDxmCzDxwD27oNt17Lu1SGplgk,1618895
+CoRE_MOF/data/2019-ASR.tar.xz,sha256=Ko8vciwRMcaNIunRAp3gX-P-93wqrJhf-BxBhQsNSZI,22727492
+CoRE_MOF/data/2019-FSR.csv,sha256=045Sf8B9JiEm4211djMn6hsP2qDMBC2dj0MKIs8RHKs,949849
+CoRE_MOF/data/2019-FSR.tar.xz,sha256=0eoicXTe2n4kfby_DuZ-ccTba13UQ6BUiCYBDXqqDHc,14302104
+core_mof-2019.1.dist-info/METADATA,sha256=A3AyENW5m7TnG1HuN0AxL6vWpMcZ_Z2f10qt-qy5rkc,2073
+core_mof-2019.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+core_mof-2019.1.dist-info/licenses/LICENSE,sha256=N-86WR5Y5Dkj8HGjZ9UnRIt1SyLB1iYPJPqiqOcFwy0,1068
+core_mof-2019.1.dist-info/RECORD,,
