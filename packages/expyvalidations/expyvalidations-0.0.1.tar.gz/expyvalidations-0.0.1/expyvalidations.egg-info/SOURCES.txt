@@ -1,0 +1,16 @@
+LICENSE
+setup.cfg
+setup.py
+expyvalidations/__init__.py
+expyvalidations/config.py
+expyvalidations/utils.py
+expyvalidations.egg-info/PKG-INFO
+expyvalidations.egg-info/SOURCES.txt
+expyvalidations.egg-info/dependency_links.txt
+expyvalidations.egg-info/not-zip-safe
+expyvalidations.egg-info/requires.txt
+expyvalidations.egg-info/top_level.txt
+expyvalidations/excel/__init__.py
+expyvalidations/excel/checks.py
+expyvalidations/excel/excel.py
+expyvalidations/excel/servicos.py

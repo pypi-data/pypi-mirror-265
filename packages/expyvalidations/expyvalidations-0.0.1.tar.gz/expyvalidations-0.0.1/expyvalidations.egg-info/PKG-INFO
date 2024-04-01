@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: expyvalidations
+Version: 0.0.1
+Summary: Sheets data validation
+Home-page: https://github.com/exebixel/expyvalidations
+Author: exebixel
+Author-email: ezequielnat7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
