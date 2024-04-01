@@ -1,0 +1,10 @@
+alertg/__init__.py,sha256=SNnh-oSFNBXG1BZwK5qLV-36oQtXwDyzSwHITTtZ74M,44
+alertg/app.py,sha256=Rojh9_Rv2iwxpG4woSvXyAlC8ARIpOoi5iOI8Lqvlkk,1978
+test/__init__.py,sha256=_SKepRh3xDMl4SLvFzOi5CRmxdc6PHDdFq7qSVyzONg,21
+test/test.py,sha256=HQPO_mrnuQVWK9pdpOIp6alXQpJeEVYLxva_sBJtN04,1556
+alertg-1.0.2.dist-info/LICENSE,sha256=ae0I6DyU8p1mNLlORaA_UF4cOLNmRx80Asj66llaOTc,1064
+alertg-1.0.2.dist-info/METADATA,sha256=OIP1cpiN3kKZjbxY3zIy6I1C8VAlF_8Ns91nabyWSQE,1591
+alertg-1.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+alertg-1.0.2.dist-info/entry_points.txt,sha256=2keFhOm_4he1vwfcu11tV1-imORe2aALaiRwJMia5PQ,44
+alertg-1.0.2.dist-info/top_level.txt,sha256=DxGB_Zt56gm1jtERYHPBLK8s34MDdvEuRYbvIEuF4v0,12
+alertg-1.0.2.dist-info/RECORD,,
