@@ -1,0 +1,18 @@
+SPELL_CLASSES = {
+    0: "None",
+    1: "Nature",
+    2: "Air",
+    3: "Water",
+    4: "Light",
+    5: "Energy",
+    6: "Psi",
+    7: "Rock",
+    8: "Ice",
+    9: "Fire",
+    10: "Night",
+    11: "Chaos",
+    12: "Metal",
+    13: "Joker",
+    14: "Invalid1",
+    15: "Invalid2",
+}
