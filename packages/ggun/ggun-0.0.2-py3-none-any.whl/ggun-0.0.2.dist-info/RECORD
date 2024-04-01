@@ -1,0 +1,12 @@
+ggun/__init__.py,sha256=ZuXHO-b9d-MyvTiU9PSfWItKChRjKMqjHD15a7a9pZk,23
+ggun/main.py,sha256=3wdcbj0gOxT2WvAbIXeGlp8xgD2ydKtESEsYPCcZxzo,5419
+ggun/commands/__init__.py,sha256=NN4uHMI_a8xSJCUbzuPTfd14fY-t0vPGHwWjrmzgSL4,20
+ggun/commands/test.py,sha256=0yn47XU1AbHI-ox8wA0XO1yCj1lpKNSGcQWGGqSTQzk,14277
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/api_call.py,sha256=k1b2IU8ieBA6WlVIKXCZ3flRPvM6FitxwM93i29mAi0,1591
+utils/list_files.py,sha256=_b3bvoTMb7gQh0DrgpXXk_F1Epdju67Bz0KR4hAGB_E,2261
+ggun-0.0.2.dist-info/METADATA,sha256=zYjScDb8Q8JQLzzNqaPDaruvC5AEf7YQ7bZ4_W_pClE,241
+ggun-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ggun-0.0.2.dist-info/entry_points.txt,sha256=YdLq3ka3RZvTQrtNCRK17TS8pXpWX4-tNzRL-uEpTC0,35
+ggun-0.0.2.dist-info/top_level.txt,sha256=7KfY85D4hwH5PHyWRel9YWjQzZNDVOugwhYxA64r0Qs,11
+ggun-0.0.2.dist-info/RECORD,,

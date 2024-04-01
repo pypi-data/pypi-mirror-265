@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ggun
+Version: 0.0.2
+Summary: Ggun (Gatling Gun) CLI tool for smart contract management and development.
+Author: Sentou Technologies
+Author-email: hello@sentou.tech
+Requires-Dist: argparse
+Requires-Dist: requests
+
