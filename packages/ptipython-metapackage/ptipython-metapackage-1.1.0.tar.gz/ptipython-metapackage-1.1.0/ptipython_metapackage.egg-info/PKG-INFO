@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ptipython-metapackage
+Version: 1.1.0
+Summary: ptipython metapackage
+Author-email: Dmitry Meyer <me@undef.im>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/un-def/ptipython-metapackage
+Project-URL: Repository, https://github.com/un-def/ptipython-metapackage.git
+Project-URL: Changelog, https://github.com/un-def/ptipython-metapackage/releases
+Project-URL: Issues, https://github.com/un-def/ptipython-metapackage/issues
+Keywords: ptipython,ptpython,ipython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ptpython==3.0.26
+Requires-Dist: ipython==8.23.0
+
+# ptipython metapackage
+
+ptpython + ipython = ptipython
