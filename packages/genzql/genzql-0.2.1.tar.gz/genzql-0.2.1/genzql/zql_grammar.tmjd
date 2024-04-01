@@ -1,0 +1,616 @@
+root              : zql
+                  ;
+zql               : statement
+                  ;
+statement         : query_stmt
+                  | definition_stmt terminal
+                  > "{definition_stmt}\n{terminal}"
+                  | manipulation_stmt terminal
+                  > "{manipulation_stmt}\n{terminal}"
+                  ;
+query_stmt        : explain query
+                  | query
+                  ;
+query             : cte_clause simple_query
+                  > "{cte_clause}\n{simple_query}"
+                  | simple_query
+                  ;
+cte_clause        : with cte_list
+                  ;
+cte_list          : aliased_cte comma cte_list
+                  > "{aliased_cte},\n{cte_list}"
+                  | aliased_cte
+                  ;
+aliased_cte       : word alias sub_query
+                  | open_paren expression close_paren alias word
+                  > "({expression}) {alias} {word}"
+                  | expression alias word
+                  ;
+sub_query         : open_paren query close_paren 
+                  > "{open_paren}\n{query}\n{close_paren}"
+                  ;
+simple_query      : select_query
+                  ;
+select_query      : select_clause from_query
+                  > "{select_clause}\n{from_query}"
+                  | select_clause
+                  ;
+from_query        : from_clause where_query
+                  > "{from_clause}\n{where_query}"
+                  | from_clause
+                  | where_query
+                  ;
+where_query       : where_clause groupby_query
+                  > "{where_clause}\n{groupby_query}"
+                  | where_clause
+                  | groupby_query
+                  ;
+groupby_query     : groupby_clause having_query
+                  > "{groupby_clause}\n{having_query}"
+                  | groupby_clause
+                  | having_query
+                  ;
+having_query      : having_clause orderby_query
+                  > "{having_clause}\n{orderby_query}"
+                  | having_clause
+                  | orderby_query
+                  ;
+orderby_query     : orderby_clause limit_query
+                  > "{orderby_clause}\n{limit_query}"
+                  | orderby_clause
+                  | limit_query
+                  ;
+limit_query       : limit_clause offset_query
+                  > "{limit_clause}\n{offset_query}"
+                  | limit_clause
+                  | offset_query
+                  ;
+offset_query      : offset_clause union_query
+                  > "{offset_clause}\n{union_query}"
+                  | offset_clause
+                  | union_query
+                  ;
+union_query       : union_clause simple_query
+                  > "{union_clause}\n{simple_query}"
+                  | terminal
+                  ;
+select_clause     : select distinct select_expr_list
+                  | select select_expr_list
+                  ;
+select_expr_list  : select_expr comma select_expr_list
+                  > "{select_expr}, {select_expr_list}"
+                  | select_expr
+                  ;
+select_expr       : star
+                  | postfix_function alias word
+                  > "{postfix_function} {alias} {word}"
+                  | open_paren expression close_paren alias word
+                  > "{expression} {alias} {word}"
+                  | open_paren expression close_paren
+                  > "{expression}"
+                  | single_expr alias word
+                  | expression alias word
+                  | postfix_function
+                  | expression
+                  | single_expr
+                  ;
+case_stmt         : case when expression then expression else expression end
+                  | case when expression then expression end
+                  ;
+star              : "*" < sqlite
+                  > "*" < sqlite
+                  > "sheesh"
+                  | @r(shee)(e)*(sh)
+                  > "*" < sqlite
+                  > "sheesh"
+                  ;
+expr_list         : expression comma expr_list
+                  > "{expression}, {expr_list}"
+                  | expression
+                  ;
+expression        : case_stmt
+                  | operator_list
+                  | operator_pair
+                  | postfix_function
+                  | single_expr
+                  ;
+operator_list     : single_expr operator operator_list
+                  | single_expr
+                  ;
+operator_pair     : single_expr operator single_expr2
+                  ;
+single_expr2      : single_expr
+                  ;
+postfix_function  : postfix_expr open_paren single_expr close_paren < sqlite
+                  > "{postfix_expr}({single_expr})" < sqlite
+                  > "{single_expr} {postfix_expr}"
+                  | single_expr postfix_expr
+                  > "{postfix_expr}({single_expr})" < sqlite
+                  > "{single_expr} {postfix_expr}"
+                  ;
+postfix_expr      : sum
+                  ;
+single_expr       : sub_query
+                  | function_expr
+                  | single_value
+                  ;
+single_value      : dot_expression
+                  | tuple
+                  | star
+                  | null
+                  | word
+                  | quoted_expr
+                  | float
+                  | integer
+                  ;
+tuple             : open_paren expr_list close_paren
+                  | open_square expr_list close_square
+                  ;
+quoted_expr       : @r\".*?\"
+                  | @r\'.*?\'
+                  ;
+float             : whole dot fractional
+                  > "{whole}.{fractional}"
+                  ;
+whole             : integer
+                  ;
+fractional        : integer
+                  ;
+integer           : @r[0-9]+
+                  ;
+word              : @r[a-zA-Z][\w$]*
+                  ;
+word1             : word
+                  ;
+word2             : word
+                  ;
+dot_expression    : word1 dot word2
+                  > "{word1}.{word2}"
+                  ;
+operator          : double_equal
+                  | equal
+                  | not_equal
+                  | is_not
+                  | is
+                  | cond_operator
+                  | comp_operator
+                  | math_operator
+                  ;
+cond_operator     : and
+                  | or
+                  ;
+comp_operator     : lte
+                  | gte
+                  | lt
+                  | gt
+                  | like
+                  | in
+                  | between
+                  ;
+math_operator     : plus
+                  | minus
+                  | multiply
+                  | divide
+                  ;
+function_expr     : postfixable_fn
+                  | function_name open_paren close_paren
+                  > "{function_name}()"
+                  | function_name open_paren function_args close_paren
+                  > "{function_name}({function_args})"
+                  ;
+function_args     : distinct arg_list
+                  | arg_list
+                  ;
+function_name     : word
+                  ;
+arg_list          : expression comma arg_list
+                  > "{expression}, {arg_list}"
+                  | expression
+                  ;
+postfixable_fn    : postfix_expr open_paren single_value close_paren < sqlite
+                  > "{postfix_expr}({single_value})" < sqlite
+                  > "{single_value} {postfix_expr}"
+                  | single_value postfix_expr
+                  > "{postfix_expr}({single_value})" < sqlite
+                  > "{single_value} {postfix_expr}"
+                  ;
+from_clause       : from table join_list
+                  > "{from} {table}\n{join_list}"
+                  | from table
+                  ;
+table             : sub_query alias word
+                  | sub_query non_keyword
+                  | sub_query
+                  | table_name
+                  ;
+table_name        : word1 alias word2
+                  | word < sqlite
+                  | word non_keyword
+                  | word
+                  ;
+join_list         : join_clause join_list
+                  > "{join_clause}\n{join_list}"
+                  | join_clause
+                  ;
+join_clause       : comma table 
+                  | join_with_type table join_on condition_list
+                  > "{join_with_type} {table}\n{join_on} {condition_list}"
+                  | join_with_type table
+                  ;
+join_with_type    : join_type join < sqlite
+                  > "{join_type} {join}" < sqlite
+                  > "{join} {join_type}"
+                  | join join_type
+                  > "{join_type} {join}" < sqlite
+                  > "{join} {join_type}"
+                  | join
+                  ;
+where_clause      : where condition_list
+                  ;
+condition_list    : expression cond_operator condition_list
+                  > "{expression}\n{cond_operator} {condition_list}"
+                  | expression
+                  ;
+groupby_clause    : groupby_start expr_list < sqlite
+                  > "GROUP BY {expr_list}" < sqlite
+                  > "let {expr_list} cook"
+                  | groupby_start expr_list groupby_end
+                  > "GROUP BY {expr_list}" < sqlite
+                  > "let {expr_list} cook"
+                  ;
+having_clause     : having_start condition_list < sqlite
+                  > "HAVING {condition_list}" < sqlite
+                  > "catch these {condition_list} hands" 
+                  | having_start condition_list having_end
+                  > "HAVING {condition_list}" < sqlite
+                  > "catch these {condition_list} hands" 
+                  ;
+orderby_clause    : orderby orderby_list
+                  ;
+orderby_list      : orderby_expr comma orderby_list
+                  > "{orderby_expr}, {orderby_list}"
+                  | orderby_expr
+                  ;
+orderby_expr      : expression direction
+                  ;
+direction         : nulls_first
+                  | nulls_last
+                  | asc
+                  | desc
+                  ;
+limit_clause      : limit limit_amount
+                  ;
+limit_amount      : integer
+                  ;
+offset_clause     : offset offset_amount
+                  ;
+offset_amount     : integer
+                  ;
+union_clause      : union_all
+                  | union
+                  ;
+definition_stmt   : create_stmt
+                  | drop_stmt
+                  ;
+create_stmt       : create_db_stmt
+                  | create_table_stmt
+                  ;
+create_db_stmt    : create_db word if_not_exists
+                  > "{create_db} {if_not_exists} {word}"
+                  | create_db word
+                  ;
+create_table_stmt : create_table db_table if_not_exists alias table_def
+                  > "{create_table} {if_not_exists} {db_table}{table_def}"
+                  | create_table db_table alias table_def
+                  > "{create_table} {db_table}{table_def}"
+                  | create_table db_table if_not_exists table_def
+                  > "{create_table} {if_not_exists} {db_table}{table_def}"
+                  | create_table db_table table_def
+                  > "{create_table} {db_table}{table_def}"
+                  ;
+table_def         : open_paren column_def_list close_paren
+                  > "(\n{column_def_list}\n)"
+                  ;
+column_def_list   : column_def comma column_def_list
+                  > "    {column_def},\n{column_def_list}"
+                  | column_def
+                  > "    {column_def}"
+                  ;
+column_def        : word column_type_expr
+                  ;
+column_type_expr  : bare_column_type column_mod
+                  | bare_column_type
+                  ;
+bare_column_type  : function_expr
+                  | word
+                  ;
+column_mod        : primary_key
+                  | not_null
+                  ;
+primary_key       : "PRIMARY KEY" < sqlite
+                  > "PRIMARY KEY" < sqlite
+                  > "is prime"
+                  | "is prime"
+                  > "PRIMARY KEY" < sqlite
+                  > "is prime"
+                  ;
+not_null          : "NOT NULL" < sqlite
+                  > "NOT NULL" < sqlite
+                  > "no yikes"
+                  | "no yikes"
+                  > "NOT NULL" < sqlite
+                  > "no yikes"
+                  ;
+drop_stmt         : drop_db_stmt
+                  | drop_table_stmt
+                  ;
+drop_db_stmt      : drop_db word if_exists
+                  > "{drop_db} {if_exists} {word}"
+                  | drop_db word
+                  ;
+drop_table_stmt   : drop_table db_table if_exists
+                  > "{drop_table} {if_exists} {db_table}"
+                  | drop_table db_table
+                  ;
+db_table          : word dot word
+                  | word
+                  ;
+manipulation_stmt : insert_stmt
+                  ;
+insert_stmt       : insert_into db_table insert_data
+                  ;
+insert_data       : insert_keys values insert_vals
+                  | values insert_vals
+                  > "{values} {insert_vals}" < sqlite
+                  > "{insert_vals}"
+                  | insert_vals
+                  > "VALUES {insert_vals}" < sqlite
+                  > "{insert_vals}"
+                  ;
+insert_expr_list  : open_paren expr_list close_paren
+                  > "({expr_list})"
+                  ;
+insert_keys       : insert_expr_list
+                  ;
+insert_vals       : insert_expr_list
+                  ;
+values            : "VALUES"
+                  ;
+non_keyword       : @r\b(?!with\b|\bselect\b|\bfrom\b|\bleft\b|\bright\b|\binner\b|\bfull\b|\bcross\b|\bon\b|\bwhere\b|\bgroup\b|\bhaving\b|\border\b|\bsay\b|\bunion\b|\bcase\b|\bwhen\b|\bthen\b|\belse\b|\bend\b|\null\b|\b;\b)\w+\b < sqlite
+                  | @r\b(?!perchance\b|\bits\b|\byass\b|\bcome\b|\bbet\b|\btfw\b|\blet\b|\bcatch\b|\bngl\b|\bsay\b|\bwith\b|\bsuppose\b|\byou\b|\breally\b|\byikes\b|\bno\b)\w+\b
+                  ;
+with              : "WITH" < sqlite
+                  | "perchance"
+                  ;
+select            : "SELECT" < sqlite
+                  | "its giving"
+                  ;
+distinct          : "DISTINCT" < sqlite
+                  | "real ones"
+                  ;
+case              : "CASE" < sqlite
+                  > "CASE" < sqlite
+                  > "suppose"
+                  | "suppose"
+                  > "CASE" < sqlite
+                  > "suppose"
+                  ;
+when              : "WHEN" < sqlite
+                  > "WHEN" < sqlite
+                  > "you have"
+                  | "you have"
+                  > "WHEN" < sqlite
+                  > "you have"
+                  ;
+then              : "THEN" < sqlite
+                  > "THEN" < sqlite
+                  > "you finna"
+                  | "you finna"
+                  > "THEN" < sqlite
+                  > "you finna"
+                  ;
+else              : "ELSE" < sqlite
+                  > "ELSE" < sqlite
+                  > "no worries"
+                  | "no worries"
+                  > "ELSE" < sqlite
+                  > "no worries"
+                  ;
+end               : "END" < sqlite
+                  > "END" < sqlite
+                  > "its chill"
+                  | "its chill"
+                  > "END" < sqlite
+                  > "its chill"
+                  ;
+null              : "NULL" < sqlite
+                  > "NULL" < sqlite
+                  > "yikes"
+                  | "yikes"
+                  > "NULL" < sqlite
+                  > "yikes"
+                  ;
+sum               : "SUM" < sqlite
+                  > "SUM" < sqlite
+                  > "af"
+                  | "af"
+                  > "SUM" < sqlite
+                  > "af"
+                  ;
+from              : "FROM" < sqlite
+                  | "yass"
+                  ;
+join              : "JOIN" < sqlite
+                  | "come through"
+                  ;
+join_on           : "ON" < sqlite
+                  | "bet"
+                  ;
+join_type         : join_inner
+                  | join_left
+                  | join_left_outer
+                  | join_right
+                  | join_right_outer
+                  | join_full_outer
+                  | join_cross
+                  | join_array
+                  ;
+join_inner        : "INNER" < sqlite
+                  | "inner"
+                  ;
+join_left         : "LEFT" < sqlite
+                  | "left"
+                  ;
+join_left_outer   : "LEFT OUTER" < sqlite
+                  | "left outer"
+                  ;
+join_right        : "RIGHT" < sqlite
+                  | "right"
+                  ;
+join_right_outer  : "RIGHT OUTER" < sqlite
+                  | "right outer"
+                  ;
+join_full_outer   : "FULL OUTER" < sqlite
+                  | "full outer"
+                  ;
+join_cross        : "CROSS" < sqlite
+                  | "cross"
+                  ;
+join_array        : "ARRAY" < sqlite
+                  | "array"
+                  ;
+where             : "WHERE" < sqlite
+                  | "tfw"
+                  ;
+and               : "AND" < sqlite
+                  | "fax"
+                  ;
+or                : "OR" < sqlite
+                  | "uh"
+                  ;
+is                : "IS" < sqlite
+                  | "be"
+                  ;
+is_not            : "IS NOT" < sqlite
+                  | "sike"
+                  ;
+equal             : "=" < sqlite
+                  | "be"
+                  ;
+double_equal      : "= =" < sqlite
+                  > "==" < sqlite
+                  | "really be"
+                  ;
+not_equal         : "! =" < sqlite
+                  > "!=" < sqlite
+                  | "sike"
+                  ;
+lte               : "< =" < sqlite
+                  > "<=" < sqlite
+                  | "kinda flops"
+                  ;
+gte               : "> =" < sqlite
+                  > ">=" < sqlite
+                  | "kinda bops"
+                  ;
+lt                : "<" < sqlite
+                  | "flops"
+                  ;
+gt                : ">" < sqlite
+                  | "bops"
+                  ;
+like              : "LIKE"
+                  ;
+in                : "IN" < sqlite
+                  | "among"
+                  ;
+between           : "BETWEEN" < sqlite
+                  | "tween"
+                  ;
+plus              : "+"
+                  ;
+minus             : "-"
+                  ;
+multiply          : "*"
+                  ;
+divide            : "/"
+                  ;
+groupby_start     : "GROUP BY" < sqlite
+                  | "let"
+                  ;
+groupby_end       : "cook"
+                  ;
+having_start      : "HAVING" < sqlite
+                  | "catch these"
+                  ;
+having_end        : "hands"
+                  ;
+orderby           : "ORDER BY" < sqlite
+                  | "ngl"
+                  ;
+nulls_first       : "NULLS FIRST" < sqlite
+                  | "high key yikes"
+                  ;
+nulls_last        : "NULLS LAST" < sqlite
+                  | "low key yikes"
+                  ;
+asc               : "ASC" < sqlite
+                  | "low key"
+                  ;
+desc              : "DESC" < sqlite
+                  | "high key"
+                  ;
+limit             : "LIMIT" < sqlite
+                  | "say less"
+                  ;
+offset            : "OFFSET" < sqlite
+                  | "after"
+                  ;
+union_all         : "UNION ALL" < sqlite
+                  | "with all the bois"
+                  ;
+union             : "UNION" < sqlite
+                  | "with the bois"
+                  ;
+explain           : "EXPLAIN" < sqlite
+                  | "whats good with"
+                  ;
+dot               : "."
+                  ;
+comma             : ","
+                  ;
+open_paren        : "("
+                  ;
+close_paren       : ")"
+                  ;
+open_square       : "["
+                  ;
+close_square      : "]"
+                  ;
+alias             : "AS" < sqlite
+                  | "be"
+                  ;
+create_db         : "CREATE DATABASE" < sqlite
+                  | "built different queen"
+                  ;
+create_table      : "CREATE TABLE" < sqlite
+                  | "built different girlie"
+                  ;
+drop_db           : "DROP DATABASE" < sqlite
+                  | "yeet queen"
+                  ;
+drop_table        : "DROP TABLE" < sqlite
+                  | "yeet girlie"
+                  ;
+if_not_exists     : "IF NOT EXISTS" < sqlite
+                  | "or nah"
+                  ;
+if_exists         : "IF EXISTS" < sqlite
+                  | "or nah"
+                  ;
+insert_into       : "INSERT INTO" < sqlite
+                  | "pushin p into"
+                  ;
+terminal          : ";" < sqlite
+                  | "no cap"
+                  ;
