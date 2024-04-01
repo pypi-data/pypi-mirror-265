@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+Readme.md
+setup.py
+SightTraining.egg-info/PKG-INFO
+SightTraining.egg-info/SOURCES.txt
+SightTraining.egg-info/dependency_links.txt
+SightTraining.egg-info/entry_points.txt
+SightTraining.egg-info/requires.txt
+SightTraining.egg-info/top_level.txt
+spacedefense/__init__.py
+spacedefense/actors.py
+spacedefense/common.py
+spacedefense/config.py
+spacedefense/main.py
