@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mfdfa_toolkit/__init__.py
+mfdfa_toolkit/visualization.py
+mfdfa_toolkit.egg-info/PKG-INFO
+mfdfa_toolkit.egg-info/SOURCES.txt
+mfdfa_toolkit.egg-info/dependency_links.txt
+mfdfa_toolkit.egg-info/requires.txt
+mfdfa_toolkit.egg-info/top_level.txt
