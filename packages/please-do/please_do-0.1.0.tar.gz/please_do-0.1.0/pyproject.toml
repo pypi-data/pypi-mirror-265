@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "please-do"
+version = "0.1.0"
+description = "A Small CLI tool for running custom cli commands with shortcuts. Pythonic version of npm scripts"
+authors = ["Abror Aliboyev <contact@aliboyev.com>"]
+readme = "README.md"
+urls.Documentation = "https://github.com/aaliboyev/please-do"
+urls.Source = "https://github.com/aaliboyev/please-do"
+license = "MIT"
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+
+[tool.poetry.scripts]
+please = "please_do.main:app"
+plz = "please_do.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = { extras = ["all"], version = "^0.12.0" }
+rich = "^13.7.1"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
