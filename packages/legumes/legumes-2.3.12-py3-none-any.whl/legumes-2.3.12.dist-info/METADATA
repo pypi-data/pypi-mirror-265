@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: legumes
+Version: 2.3.12
+Summary: nutrition goals
+License: 
+        
+        
+        There seems to be some sort of inscription here.
+Description-Content-Type: text/plain
+Requires-Dist: apoplast
+Requires-Dist: volts
+Requires-Dist: click
+Requires-Dist: rich
+
