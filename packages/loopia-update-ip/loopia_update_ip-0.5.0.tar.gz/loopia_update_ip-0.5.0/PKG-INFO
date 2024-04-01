@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: loopia_update_ip
+Version: 0.5.0
+Summary: Application to keep DNS records updated when external IP-address change using the Loopia-API for the domain provider Loopia
+Home-page: https://gitlab.com/loopia-update-ip
+Author: Niklas Melin
+Author-email: niklasme@pm.me
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Loopia update ip  
+Utility to keep your domains pointing to the current external IP-adress using the Loopia-API to update your adresses.
+
+### Required privileges for API-key in the LoopiaAPI control panel
+
+Required privileges:
+- [x] addSubdomain
+- [x] removeZoneRecord
+- [x] updateZoneRecord
+- [x] addZoneRecord
+- [x] getSubdomains
+- [x] getZoneRecords
+- [x] removeSubdomain
+
+
+# Python module usage
+In default mode the external IP-adress will be fetched from internet and applied to the full domain name with ttl=3600
+``` bash
+loopia-update-ip --username xyz@loopiaapi --password YourToken --domain www.mydomain.com
+```
+
+To set a specific IP-address and not resolve from internet
+``` bash
+loopia-update-ip --username xyz@loopiaapi --password YourToken --domain www.mydomain.com  --ip 123.123.123.123
+```
+
+To start the service to continuously monitor if the external IP-address changes
+``` bash
+loopia-update-ip-service --username xyz@loopiaapi --password YourToken --domain www.mydomain.com
+```
+
+# Preferred usage
+The preferred way to run this service is a Docker container with the configuration provided as a docker-compose file.
+
+
+
+### Create the following file structure
+```
+
+loopia-update-ip
+   ├──\ config
+   │    ├── config.yaml
+   ├──\ logs
+   ├── docker-compose.yaml
+```
+__Docker compose file__: docker-compose.yaml
+```yaml
+version: '3.8'
+
+services:
+  ftp:
+    image: registry.gitlab.com/niklasme/loopia-update-ip
+    container_name: loopia-update-ip
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+    restart: unless-stopped
+```
+
+__Service configuration file__: config.yaml
+```yaml
+credentials:
+    loopia_username: xyz@loopiaapi
+    loopia_password: abc
+domains:
+  'mydomain.com':
+    sub_domains:
+      - www
+      - video
+    ttl: 3600
+```
+__Start Docker container service__
+``` bash
+docker compose up
+```
+Verify that no errors are thrown and that your credentials are accepted. Press Ctrl-C to stop the service and relaunch in detached mode.
+``` bash
+docker compose up -d
+```
+You can always check logs in the output file:
+``` bash
+cat ./logs/loopia_update_ip.log
+```
+or by ouputing the logs from the Docker container
+``` bash
+#> docker ps
+CONTAINER ID   IMAGE                                           COMMAND                  CREATED          STATUS                 PORTS                                                                                      NAMES  
+fc1a6ff4debd   registry.gitlab.com/niklasme/loopia-update-ip   "loopia-update-ip-se…"   10 minutes ago   Up 9 minutes                                                                                                      loopia-update-ip
+
+#> docker logs fc1a6ff4debd
+```
+Example of log output:
+```
+ Starting service
+ Logging to: /logs/loopia_update_ip.log
+ Docker configuration file found!
+ Domain: www.mydomain.com: Zone record 123.123.123.123 - External IP 123.123.123.123
+	 No update required!
+ Domain: video.mydomain.com: Zone record 123.123.123.123 - External IP 123.123.123.123
+	 No update required!
+ Domain: ftp.mydomain.com: Zone record 123.123.123.123 - External IP 123.123.123.123
+	 No update required!
+ Domain: docs.mydomain.com: Zone record 213.213.213.213 - External IP 123.123.123.123
+
+ Updating zone record to 123.123.123.123 for docs.mydomain.com
+ Domain: security.mydomain.com: Zone record 123.123.123.123 - External IP 123.123.123.123
+	 No update required!
+2024-03-30 17:14:37,637 - root - INFO - External IP-address is still 123.123.123.123
+2024-03-30 17:14:55,707 - root - INFO - External IP-address is still 123.123.123.123
+2024-03-30 17:15:13,765 - root - INFO - External IP-address is still 123.123.123.123
+
+```
+
+
+# Development only
+## Build Docker image locally
+``` bash
+docker build -t loopia-update-ip
+docker compose up
+```
