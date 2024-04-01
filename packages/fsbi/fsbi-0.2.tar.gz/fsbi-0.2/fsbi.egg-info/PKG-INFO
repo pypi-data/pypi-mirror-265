@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: fsbi
+Version: 0.2
+Summary: Font Stretch Bold Italic
+Home-page: http://phyl.io/?page=fsbi.html
+Author: Philippe Kappel
+Author-email: philippe.kappel@gmail.com
+License: MIT
+Keywords: font
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Console Fonts
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+`fsbi` renames font files in a compact, well alphabetically ordered way rather than the usual long and disordered notation.
+
+`fsbi -r` restores the original notation.
+
+# Help
+
+	usage: fsbi [-lrw] [file] ...
+	
+	positional arguments:
+	  file  file or dir [*]
+	
+	options:
+	  -l    list [default]
+	  -r    restore
+	  -w    write
+
+# Compact
+
+	fsbi
+
+	Barlow-Bold.ttf -> Barlow-57.ttf
+	Barlow-BoldItalic.ttf -> Barlow-57i.ttf
+	BarlowCondensed-ExtraLight.ttf -> Barlow-32.ttf
+	BarlowCondensed-ExtraLightItalic.ttf -> Barlow-32i.ttf
+
+# Restore
+
+	fsbi -r
+
+	Barlow-32.ttf -> BarlowCondensed-ExtraLight.ttf
+	Barlow-32i.ttf -> BarlowCondensed-ExtraLightItalic.ttf
+	Barlow-57.ttf -> Barlow-Bold.ttf
+	Barlow-57i.ttf -> Barlow-BoldItalic.ttf
+
+# Python
+
+	import fsbi
+	fsbi.compact(font)
+	fsbi.expand(font)
+	fsbi.rename(files, list=False, restore=False, write=False)
+
+# Values
+
+| | Stretch | Weight
+| :-: | :-: | :-:
+| 0 | | Hairline
+| 1 | UltraCondensed | Thin
+| 2 | ExtraCondensed | ExtraLight
+| 3 | Condensed | Light
+| 4 | SemiCondensed | Regular
+| 5 | Normal | Medium
+| 6 | SemiExtended | SemiBold
+| 7 | Extended | Bold
+| 8 | ExtraExtended | ExtraBold
+| 9 | UltraExtended | Black

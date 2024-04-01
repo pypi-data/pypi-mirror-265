@@ -1,0 +1,2 @@
+[console_scripts]
+fsbi = fsbi:main
