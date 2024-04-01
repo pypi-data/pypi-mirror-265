@@ -1,0 +1,3 @@
+[console_scripts]
+nezu=nezu.nezu:main_function
+
