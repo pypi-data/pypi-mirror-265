@@ -1,0 +1,135 @@
+# PyCasCor
+
+## Description
+A python implementation of a Cascade Correlation Network Simulator
+
+## Installation
+
+### Easiest Option - Install from PyPi
+
+`pip install pycascor`
+
+### Using the source repository
+
+1. Clone the repository locally
+   1. `git clone --recurse-submodules https://gitlab.com/cpsimpson/cascade-correlation-network-simulator.git`
+      1. If you clone without the `--recurse-submodules` the proben1 repository will not be cloned. You can pull this file after cloning with the following commands `git submodule init` and `git submodule update`.
+2. Create and activate virtual environment
+   1. `python -m venv venv`
+   2. `. venv/bin/activate`
+3. Install dependencies
+   1. `pip install .`
+
+## Usage
+
+Example of Training on XOR
+
+### Cascade Correlation Network
+
+```python
+from pycascor.network import CCNetwork
+from pycascor.activation_functions import Sigmoid
+from pycascor.trainer import Trainer
+
+xor_inputs = [[0, 0], [0, 1], [1, 0], [1, 1]]
+xor_targets = [[-0.5], [0.5], [0.5], [-0.5]]
+      
+trainer = Trainer([(8, Sigmoid())])
+net = CCNetwork(2, 1, Sigmoid())
+
+net = trainer.train_network(xor_inputs, xor_targets, net)
+
+for x in xor_inputs:
+    net.full_forward_pass(x)
+
+output_values = [node.value for node in net.output_nodes]
+```
+
+### Small Magnitude Weight Pruning
+```python
+from pycascor.network import PrunableCCNetwork
+from pycascor.activation_functions import Sigmoid
+from pycascor.trainer import PruneTrainer
+
+xor_inputs = [[0, 0], [0, 1], [1, 0], [1, 1]]
+xor_targets = [[-0.5], [0.5], [0.5], [-0.5]]
+      
+trainer = PruneTrainer([(8, Sigmoid())])
+net = PrunableCCNetwork(2, 1, Sigmoid())
+
+net = trainer.train_network(xor_inputs, xor_targets, net)
+
+for x in xor_inputs:
+    net.full_forward_pass(x)
+
+output_values = [node.value for node in net.output_nodes]
+```
+
+### Optimal Brain Damage Pruning
+```python
+from pycascor.network import PrunableCCNetwork
+from pycascor.activation_functions import Sigmoid
+from pycascor.trainer import OptimalBrainDamageTrainer
+
+xor_inputs = [[0, 0], [0, 1], [1, 0], [1, 1]]
+xor_targets = [[-0.5], [0.5], [0.5], [-0.5]]
+      
+trainer = OptimalBrainDamageTrainer([(8, Sigmoid())])
+net = PrunableCCNetwork(2, 1, Sigmoid())
+
+net = trainer.train_network(xor_inputs, xor_targets, net)
+
+for x in xor_inputs:
+    net.full_forward_pass(x)
+
+output_values = [node.value for node in net.output_nodes]
+```
+
+## Simulator Examples
+In addition to the library code `pycascor`, you will find an `examples` directory this repository. 
+This contains a simulator script `simulation.py` which is able to run multiple trials of various 
+datasets across the 3 versions of the network training algorithms. This includes some data which comes 
+from the Proben1 benchmarking dataset project originally compiled by Lutz Prechelt. A copy of the data
+is linked as a submodule.
+
+```bash
+. venv/bin/activate
+pip install .
+python examples/simulation.py <example> <number-of-trials>
+```
+Example options: spirals, cancer, glass, xor
+
+Various output files will be written to a `result` folder for your analysis.
+
+spirals trains the networks on a subset of the [two-spirals classification problem](https://www.researchgate.net/publication/269337640_Learning_to_Tell_Two_Spirals_Apart). 
+The resulting networks are then validated and tested on the remaining points
+
+cancer trains the networks on the 
+["Wisconsin breast cancer database"](https://github.com/cpsimpson/proben1/tree/master/cancer) from the UCI 
+machine learning dataset included in the [Proben1](https://github.com/cpsimpson/proben1) repository.
+
+glass trains the networks on the ["glass"](https://github.com/cpsimpson/proben1/tree/master/glass) from the UCI 
+machine learning dataset included in the [Proben1](https://github.com/cpsimpson/proben1) repository.
+
+xor trains and tests the networks on the XOR dataset.
+
+## Support
+Feel free to create an Issue or MR if you find a bug or want to add a contribution.
+
+## Contributing
+
+### Running Tests
+To run the tests you can run `pytest` from the project root directory.
+
+
+## Authors and acknowledgment
+This implementation is based on the code of Scott Fahlman and Thomas Shultz. 
+Thanks to Dr. Britt Anderson, Hanbin Go, James Houle, Julia Schirmeister, 
+Vivian DiBerardino, and Ciaran Neely for contributing to my understanding 
+of the algorithm and inspiring this project.
+
+## License
+This code and related materials is made available under the MIT License. 
+
+## Project status
+This is a project that I created for a directed studies course at while studying at University of Waterloo.

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pycascor.egg-info/PKG-INFO
+pycascor.egg-info/SOURCES.txt
+pycascor.egg-info/dependency_links.txt
+pycascor.egg-info/requires.txt
+pycascor.egg-info/top_level.txt
