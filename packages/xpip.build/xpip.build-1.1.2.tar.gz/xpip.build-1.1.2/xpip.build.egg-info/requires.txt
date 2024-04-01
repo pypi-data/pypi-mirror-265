@@ -1,0 +1,2 @@
+xpip-upload>=1.1.1
+setuptools>=51.0.0
