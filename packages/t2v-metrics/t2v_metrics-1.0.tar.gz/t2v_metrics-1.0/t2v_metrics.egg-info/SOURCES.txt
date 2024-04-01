@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+t2v_metrics/__init__.py
+t2v_metrics/clipscore.py
+t2v_metrics/constants.py
+t2v_metrics/itmscore.py
+t2v_metrics/score.py
+t2v_metrics/vqascore.py
+t2v_metrics.egg-info/PKG-INFO
+t2v_metrics.egg-info/SOURCES.txt
+t2v_metrics.egg-info/dependency_links.txt
+t2v_metrics.egg-info/requires.txt
+t2v_metrics.egg-info/top_level.txt
