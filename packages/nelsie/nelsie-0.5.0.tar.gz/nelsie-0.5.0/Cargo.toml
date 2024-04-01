@@ -1,0 +1,34 @@
+[package]
+name = "nelsie"
+version = "0.5.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "nelsie"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["abi3-py39"] }
+taffy = "0.4"
+resvg = "0.38.0"
+svg2pdf = "0.10" # !! Must be synchronized with resvg
+ttf-parser = "0.20" # Not necessary same as resvg but nice to be a same as in resvg
+thiserror = "1"
+svgtypes = "0.13" # Not necessary same as resvg but nice to be a same as in resvg
+log = "0.4"
+env_logger = "0.11"
+pdf-writer = "0.9"
+itertools = "0.12"
+imagesize = "0.12"
+zip = { version = "0.6", default-features = false, features = ["deflate"] }
+syntect = { version = "5", default-features = false, features = ["default-fancy"] }
+indicatif = "0.17"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+debug = 0
