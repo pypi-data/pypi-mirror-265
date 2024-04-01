@@ -1,0 +1,2 @@
+[console_scripts]
+aiask = aiask.index:main
