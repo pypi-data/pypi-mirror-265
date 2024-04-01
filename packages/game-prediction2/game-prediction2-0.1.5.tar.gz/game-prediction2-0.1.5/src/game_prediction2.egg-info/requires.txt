@@ -1,0 +1,8 @@
+haskellian
+lcz
+chess-notation==0.1.1
+ramda
+chess
+numpy
+editdistance
+chess-utils
