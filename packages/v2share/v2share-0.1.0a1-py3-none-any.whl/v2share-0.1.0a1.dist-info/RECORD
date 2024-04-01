@@ -1,0 +1,10 @@
+v2share/__init__.py,sha256=sVfVd6vxC5Loae6F1Nq-a5a9aM-6b8e_95Rn3lcGbD4,173
+v2share/_version.py,sha256=G4wnMI8RU6k3gVoN8m-BWLWI4oA2lH61gZIWjCPmNZw,413
+v2share/clash.py,sha256=ZBxuFkY-ZmHsclUnB0sFSZMMHtHC33HcE2vlBylkEH0,4062
+v2share/config.py,sha256=ZysWhcu22RNPV7AYyYrREdq-Di0JLy0CThQbllrqz5A,4262
+v2share/singbox.py,sha256=e0UXM9lSApUMWfazMWyTY04OKW6OTF1csmrW1bmk9dU,6781
+v2share/templates/clash.yml,sha256=FA2Uv_zLOUWmTG-K2dD0H0-lqN1gXr1qdlZjqhPC66A,158
+v2share/templates/singbox.json,sha256=lumxTJ_Ifjh1UeR-W4PAG2a3oJsZ_qB0-aStuIOUhFE,2029
+v2share-0.1.0a1.dist-info/METADATA,sha256=joSyT6KiAY6nv4CeJFdrOH_CyIsCihpOXbPpnMe8il8,501
+v2share-0.1.0a1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+v2share-0.1.0a1.dist-info/RECORD,,
