@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "piah"
+dynamic = ["version"]
+description = "automatically parse PDF's and texts to dataclasses"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = [
+  "ai",
+  "dataclass",
+  "parser",
+  "piah"
+]
+authors = [
+  { name = "fabiobarkoski", email = "fabiobarkoskii@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "pypdf",
+  "structlog",
+  "tiktoken",
+  "litellm",
+  "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+  "pytest",
+  "pytest-cov",
+]
+
+[project.urls]
+Documentation = "https://github.com/unknown/piah#readme"
+Issues = "https://github.com/unknown/piah/issues"
+Source = "https://github.com/unknown/piah"
+
+[tool.hatch.version]
+path = "piah/__about__.py"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=piah --cov-report html"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.coverage.run]
+branch = true
+omit = [
+  "piah/__about__.py",
+]
+
+[tool.coverage.paths]
+piah = ["piah", "*/piah/piah"]
+tests = ["tests", "*/piah/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
