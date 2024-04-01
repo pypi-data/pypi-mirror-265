@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: EasyOutput
+Version: 0.0.1
+Summary: Colored messages in the palm of your hand
+Author: FrankAustin
+Author-email: <frankaustindev808@gmail.com>
+Keywords: python,colored print,error message,success message,colored message
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+
+
+# Easy Output 
+
+# Information
+
+# Functions
+
+## Success
+**Use:**
+```py
+Success("PrettyOutput")
+
+```
+**Shows:**
+
+Success: PrettyOutput
+
+## Successful_Connection
+**Use:**
+```py
+Successful_Connection("PrettyOutput")
+
+```
+**Shows:**
+
+Successful Connection: PrettyOutput
+
+## Error
+**Use:**
+```py
+Error("PrettyOutput")
+
+```
+**Shows:**
+
+Error: PrettyOutput
+
+## Connection_Error
+**Use:**
+```py
+Connection_Error("PrettyOutput")
+
+```
+**Shows:**
+
+Connection Error: PrettyOutput
+
+## Note
+**Use:**
+```py
+Note("PrettyOutput")
+
+```
+**Shows:**
+
+Note: PrettyOutput
+
+## Wait
+**Use:**
+```py
+Wait("PrettyOutput")
+
+```
+**Shows:**
+
+Wait: PrettyOutput
+
+## Title
+**Use:**
+```py
+Title("PrettyOutput")
+
+```
+**Shows:**
+
+=== PrettyOutput === 
