@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MENACE-ANN
+Version: 1.0
+Summary: An implementation of the first Noughts and Crosses Artificial Neural Network, made with matchboxes and MENACE
+Home-page: https://github.com/LordUbuntu/MENACE
+Author: Jacobus Burger
+Author-email: therealjacoburger@gmail.com
+License: MIT
+Keywords: python,tic tac toe,noughts and crosses,Matchbox Enabled Noughts and Crosses Engine,MENACE,Neural Network,AI
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Education
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest >=7.2 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+# MENACE
+A reproduction of M.E.N.A.C.E. in Python

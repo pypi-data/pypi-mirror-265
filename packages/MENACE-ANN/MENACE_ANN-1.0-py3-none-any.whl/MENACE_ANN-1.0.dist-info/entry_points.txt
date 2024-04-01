@@ -1,0 +1,2 @@
+[console_scripts]
+menace = meance.__main__:main
