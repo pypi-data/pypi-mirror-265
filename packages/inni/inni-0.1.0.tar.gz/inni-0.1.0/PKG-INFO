@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: inni
+Version: 0.1.0
+Summary: Modular system to perform tasks surrounding log-in and log-out.
+License: GPL-3.0
+Author: Ceda EI
+Author-email: ceda_ei@webionite.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# inni
+
+Modular system to perform tasks surrounding log-in and log-out. 

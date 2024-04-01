@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "inni"
+version = "0.1.0"
+description = "Modular system to perform tasks surrounding log-in and log-out."
+authors = ["Ceda EI <ceda_ei@webionite.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
