@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/darshan_mongodb_automation/__init__.py
+src/darshan_mongodb_automation/mongo_crud.py
+src/darshan_mongodb_automation.egg-info/PKG-INFO
+src/darshan_mongodb_automation.egg-info/SOURCES.txt
+src/darshan_mongodb_automation.egg-info/dependency_links.txt
+src/darshan_mongodb_automation.egg-info/requires.txt
+src/darshan_mongodb_automation.egg-info/top_level.txt
