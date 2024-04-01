@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: my-tgcf
+Version: 0.0.1
+Summary: telegram forward
+Author: feicrypto
+Author-email: feicrypto@proton.me
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pymongo (>=4.5.0,<5.0.0)
+Requires-Dist: pytesseract (>=0.3.10,<0.4.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: python-socks[asyncio] (>=2.4.3,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests[socks] (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: streamlit (>=1.27.2,<2.0.0)
+Requires-Dist: telethon (>=1.30.3,<2.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: verlat (>=0.1.0.post1,<0.2.0)
+Requires-Dist: watermark-py (>=0.0.3.post3,<0.0.4)
+Description-Content-Type: text/markdown
+
+# 介绍
+- telegram转发 修改自:[tgcf](https://github.com/aahnik/tgcf)
+- 支持代理设置,如需代理请设置环境变量,例如:`export TG_PROXY="socks5://127.0.0.1:7890"`
+
+# 安装
+`pipx install my-tgcf`
+# 使用
+1. `tgw`
+2. 浏览器打开:http://localhost:8501
