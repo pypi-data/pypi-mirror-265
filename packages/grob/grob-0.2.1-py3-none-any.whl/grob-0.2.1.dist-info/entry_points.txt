@@ -1,0 +1,3 @@
+[console_scripts]
+grob=grob.cli:main
+
