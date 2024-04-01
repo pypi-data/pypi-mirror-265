@@ -1,0 +1,6 @@
+virtualenv
+GitPython==3.1.37
+gunicorn==21.2.0
+ppy-common
+ppy-file-text
+ppy-jsonyml
