@@ -1,0 +1,9 @@
+jax_plugins/intel_extension_for_openxla/__init__.py,sha256=0SewDXHG0A0gb_ucAmP1UKM8D9G3TTwkXa_KnN9_KDw,1912
+jax_plugins/intel_extension_for_openxla/gen_xla_version.py,sha256=STq0g13uNz7y3kSpE6WAxpn3k6FOPsq-Dar-Cl9Dsls,1508
+jax_plugins/intel_extension_for_openxla/pjrt_plugin_xpu.so,sha256=8dFGXi6sKorqjZFRfU1l7fWtDTnmYrLrqo3JvrvBM6Y,246345640
+jax_plugins/intel_extension_for_openxla/version.py,sha256=MSj-fy0mP-wmM6OQiz3_cS96MCEQTzZ4LMpTZ0Xtups,892
+jax_plugins/intel_extension_for_openxla/python/xpu_plugin_extension.so,sha256=xyvi-JX1veMaKOxivXqfQuPh9I6Qn9lTKLTpZRhOXlg,3677480
+intel_extension_for_openxla-0.3.0.dist-info/METADATA,sha256=sd0VH8qcqvPH3LikUCIyhsCseXnFgco-TIlymQL8y-M,2670
+intel_extension_for_openxla-0.3.0.dist-info/WHEEL,sha256=9l1ndzONx4ZaWPkwijf7Cfj4e86OKtajPx-bu9J08f4,105
+intel_extension_for_openxla-0.3.0.dist-info/top_level.txt,sha256=BMuBVFd0VZSL85gH2fQxPQpETv27dLmJ90vD27bu13Q,12
+intel_extension_for_openxla-0.3.0.dist-info/RECORD,,
