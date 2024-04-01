@@ -1,0 +1,9 @@
+matchmatrix/__init__.py,sha256=2iom1eWdfPcOTx5uyePLuPwKwWByo7_afYc0nL_HsQE,654
+matchmatrix/constants.py,sha256=zEnBsGYDHjSaeHilYBCjv-ArGWg_O6_nLRBaM82GLds,18758
+matchmatrix/functions.py,sha256=3DFJ4ezqXJf0K3cwI6ClyRiliZ90YZRswrB2BnCnJ4c,8393
+matchmatrix/manager.py,sha256=1R4GBKImXs70j-FwSt8rmM-QMvA9L5CnQ-9zAH7RgjU,58637
+matchmatrix-2.0.1.dist-info/LICENSE,sha256=gaPvsB8kvYvhL23AoVxVjmJYWxyJFFOynKkZkdjD_Hk,1092
+matchmatrix-2.0.1.dist-info/METADATA,sha256=nbgr7oZtvk_1nOPwz5Zmz8Ha0U0o7mScbfVC5bKTkZk,7222
+matchmatrix-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+matchmatrix-2.0.1.dist-info/top_level.txt,sha256=bepNZuXEuO_W5MMnEQbIvQNnh0nCNjYFOIG5ygQrU4M,12
+matchmatrix-2.0.1.dist-info/RECORD,,
