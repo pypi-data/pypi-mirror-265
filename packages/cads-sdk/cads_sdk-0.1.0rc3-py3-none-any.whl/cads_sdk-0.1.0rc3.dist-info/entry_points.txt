@@ -1,0 +1,11 @@
+[cads_sdk.nosql]
+nosql = cads_sdk.nosql:main[nosql]
+nosql-audio = cads_sdk.nosql.image[nosql-audio]
+nosql-image = cads_sdk.nosql.image[nosql-image]
+
+[cads_sdk.pytorch]
+pytorch = cads_sdk.pytorch
+
+[console_scripts]
+cads-sdk = cads_sdk:main
+spark-sdk = cads_sdk:main
