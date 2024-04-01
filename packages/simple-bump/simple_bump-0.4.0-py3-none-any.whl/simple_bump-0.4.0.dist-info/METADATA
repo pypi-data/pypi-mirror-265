@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: simple_bump
+Version: 0.4.0
+Summary: Simple Semantic Versioning for Python projects
+Author-email: Aleksandr <rabbit_1399@icloud.com>
+License: MIT
+Project-URL: changelog, https://github.com/tofuurem/simple-bump/blob/main/CHANGELOG.md
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click <9,>=8
+Requires-Dist: tomlkit <1.0.0,>=0.12.0
+Requires-Dist: gitpython <4.0.0,>=3.0.0
+Requires-Dist: semver <4.0.0,>=3.0.0
+Requires-Dist: pydantic <3.0.0,>=2.0.0
+Requires-Dist: rich <14.0.0,>=13.0.0
+
+# Simple bump version
+
+# Installation
+```bash
+pip install simple-bump
+```
+## Usage
+```bash
+sp --help
+```
