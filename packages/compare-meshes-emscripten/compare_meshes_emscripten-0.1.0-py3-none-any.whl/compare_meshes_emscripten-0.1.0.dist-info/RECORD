@@ -1,0 +1,7 @@
+compare_meshes_emscripten/__init__.py,sha256=ePcek8pewUha2-0orDin6U5YCGxvPGMOahcS_TSHhLA,260
+compare_meshes_emscripten/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+compare_meshes_emscripten/compare_meshes_async.py,sha256=3twi79xGOqVESD6lHfcOp9-I2Nb5qf-4i2xHCv2vSS4,3952
+compare_meshes_emscripten/js_package.py,sha256=UUDsgojkrelzX22zoCMue8LuUNCBnUQ9turMhLFziBg,183437
+compare_meshes_emscripten-0.1.0.dist-info/METADATA,sha256=r-4CmJ1gveMcTttLyAb_ABOPJcJwCI7o2Gqlti3Q2A4,1776
+compare_meshes_emscripten-0.1.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+compare_meshes_emscripten-0.1.0.dist-info/RECORD,,
