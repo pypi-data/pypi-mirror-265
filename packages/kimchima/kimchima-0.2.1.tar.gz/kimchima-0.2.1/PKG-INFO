@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: kimchima
+Version: 0.2.1
+Summary: 
+Home-page: https://github.com/Aisuko/kimchi
+License: Apache-2.0
+Keywords: ai,llm
+Author: Aisuko
+Author-email: urakiny@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: sentencepiece (==0.2.0)
+Requires-Dist: torch (==2.2.2)
+Requires-Dist: transformers (==4.39.2)
+Project-URL: Repository, https://github.com/Aisuko/kimchi
+Description-Content-Type: text/markdown
+
+# kimchima
+
+[![Backend CI/CD 🚀](https://github.com/Aisuko/kimchima/actions/workflows/ci.yml/badge.svg)](https://github.com/Aisuko/kimchima/actions/workflows/ci.yml)
+[![Release Drafter 🚀](https://github.com/Aisuko/kimchima/actions/workflows/release-drafter.yml/badge.svg)](https://github.com/Aisuko/kimchima/actions/workflows/release-drafter.yml)
+
+The collections of tools for ML model development.
+
+
+# Usage
+
+You can use it as a command line tool if you like. And you can also use it as a library. Or you can run it in VSCode with [`launch.json`](.vscode/launch.json).
+
+## Command Line Tool
+
+```bash
+$ python -m kimchima auto sentence-transformers/all-MiniLM-L6-v2 Melbourne 
+
+```
+
+
+
+# Acknowledgement
+
+- [Llama2-burn Project](https://github.com/Gadersd/llama2-burn/tree/main)
+
+
+# License
+
+This project is licensed as specified in the [LICENSE](./LICENSE) file.
