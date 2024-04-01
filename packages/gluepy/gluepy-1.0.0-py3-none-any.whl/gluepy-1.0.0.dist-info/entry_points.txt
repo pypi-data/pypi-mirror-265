@@ -1,0 +1,2 @@
+[console_scripts]
+gluepy = gluepy.commands.gluepy:cli
