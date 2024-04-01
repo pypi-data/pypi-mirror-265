@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+  "hatchling",
+]
+build-backend = "hatchling.build"
+[project]
+name = "music_finder_micro"
+version = "0.1.2"
+authors = [
+  { name = "Samuel Shiels" },
+]
+description = "A media file discovery tool, intended to work alone or fit into a larger toolchain"
+readme = "README.md"
+requires-python = ">=3.11.5"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "music-brainz-api-micro",
+  "music-validator-micro",
+]
