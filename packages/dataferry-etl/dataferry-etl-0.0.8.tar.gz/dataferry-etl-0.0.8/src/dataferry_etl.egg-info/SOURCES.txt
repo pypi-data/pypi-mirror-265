@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dataferry/__init__.py
+src/dataferry/connections.py
+src/dataferry/dimensions.py
+src/dataferry/execution.py
+src/dataferry/functions.py
+src/dataferry/transfers.py
+src/dataferry_etl.egg-info/PKG-INFO
+src/dataferry_etl.egg-info/SOURCES.txt
+src/dataferry_etl.egg-info/dependency_links.txt
+src/dataferry_etl.egg-info/top_level.txt
