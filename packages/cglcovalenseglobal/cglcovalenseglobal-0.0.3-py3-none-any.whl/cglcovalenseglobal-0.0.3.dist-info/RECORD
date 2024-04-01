@@ -1,0 +1,16 @@
+cglcovalenseglobal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cglcovalenseglobal/app.py,sha256=tkjrJGnCaj4xbWLUIPW-R9I0VGfE3QNEmAKLJJLgvgQ,14377
+cglcovalenseglobal/generate_map.py,sha256=hCHjrwacGTM9lb9ymOqWjoTy9XZSI6v-osCFR8xh-iY,1845
+cglcovalenseglobal/get_translate.py,sha256=Q1HW5Z6QYzdr6CSrlcoofiN0AabuGOfoOgHd65adrHE,1777
+cglcovalenseglobal/load_dataset.py,sha256=z1nyOLO4kjxLQucpa_wgGKsbpipuBWAqVv4trqAfOmU,5064
+cglcovalenseglobal/locustfile.py,sha256=_mbqRqBBJi3wkROEtNyEQbHWB6QDbBGaw1F1ZlpS5xU,1234
+cglcovalenseglobal/middleware.py,sha256=BV7-u9_w4NCV-MGhgAX5O5eGryBJk8gChIC1FnCvs7M,1970
+cglcovalenseglobal/openai_config.py,sha256=xDfcy_DMh4s4iGBzkJHSC1G8kyFfD-Y1P8L3iCAzJhA,295
+cglcovalenseglobal/process.py,sha256=8Uw98gx6KyuD5ZDa3F7cxvcdH6VpMl5gBoZe9kdz30g,560
+cglcovalenseglobal/read_json.py,sha256=7dwa9rhNeHwF3HLDmPuRX4u0fPFkeQdhSgFhMm8GSYo,1796
+cglcovalenseglobal/test.py,sha256=sDgtg2cu1Mjkj-FcW0fN3OaHsPgup7a2ukGybx6eN3M,231
+cglcovalenseglobal/themes.py,sha256=zCanho8jUQve_nKUyk200NofugnNIGQSEHDGYi7zBPE,1485
+cglcovalenseglobal-0.0.3.dist-info/METADATA,sha256=SaxGxBcBPUS4tpaxyDO58NGWFVyMT21dE7kgfHGgdls,3678
+cglcovalenseglobal-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cglcovalenseglobal-0.0.3.dist-info/top_level.txt,sha256=oOPmPbniuEEsQ6bnl5xlItr5FOSjuOlVpdDoXgAunLQ,19
+cglcovalenseglobal-0.0.3.dist-info/RECORD,,
