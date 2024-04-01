@@ -1,0 +1,16 @@
+CentriVision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CentriVision/bez.py,sha256=6IJR-BjjLAwVpcI6cZtxAqtTInf_BOcTWpth-buYS9c,890
+CentriVision/conf.ini,sha256=bxICDo-_d0ZXAnbSVGuZKyOJHrC5SWIlJ_FrjhmMpVE,24
+CentriVision/getNCBI.py,sha256=MIDXGhPCMZgmRIBk6WJg3J0cpPr5VDOZhvlSDQoc0M8,16920
+CentriVision/getPASA.py,sha256=TGUpJGFBY61hdt9697FAdzfUFFD43-vhL2A42lmisjI,10283
+CentriVision/run.py,sha256=cXyUmMKXetUHqGDiBlgIfnnPERe6wmudkEw0OdWuF0U,2640
+CentriVision/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CentriVision/example/getNCBI.conf,sha256=dDiCC7sxRmEuH8YGIhLTyir7r1GzcTT591mvkytxEbY,194
+CentriVision/example/getPASA.conf,sha256=XO32rBeRFY4AJ-ILKUaJqPYeFWn1H0Zn2hqm47Kvg1c,160
+CentriVision-0.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+CentriVision-0.0.0.dist-info/METADATA,sha256=fIE9K7kifXUI63gixVyuJ8XPTof7Gp85MVKM7s5cqew,611
+CentriVision-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+CentriVision-0.0.0.dist-info/entry_points.txt,sha256=JdsXiwnqipXnzkgvUyuudbnr8CTSVEib840lcOeyx7M,55
+CentriVision-0.0.0.dist-info/top_level.txt,sha256=VDYjK0dMzIq92U5Vb18Uzfb8LwV1f2Iq0tfWV0VFRmk,13
+CentriVision-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+CentriVision-0.0.0.dist-info/RECORD,,

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: CentriVision
+Version: 0.0.0
+Summary: CentriVision
+Author: charles_kiko
+Author-email: charles_kiko@163.com
+License: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: biopython
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: interval
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+
+# CentriVision
