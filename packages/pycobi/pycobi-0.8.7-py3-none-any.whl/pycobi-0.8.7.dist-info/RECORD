@@ -1,0 +1,12 @@
+pycobi/__init__.py,sha256=AGr8YyawyqR_6ZPS0E0w2lpt_mo0f1n7ybWjAevlq68,1291
+pycobi/automated_continuation.py,sha256=o0qNEFLc7BpBESDuLffbk1IGprQjJNUk2vvtH6-2fhU,7664
+pycobi/pycobi.py,sha256=hLs2nZ_mRsZLKni96GvjMC24tJExL1MiUg_034he6mc,52819
+pycobi/utility.py,sha256=bHbhNFrDvSamgJJkozoz2kw491lBHpX_yDx7YapvWsQ,8858
+pycobi_tests/__init__.py,sha256=aaOHAKDRx-hQMePdOq_rZCdXqUYuyJql_KQFR5J7PtA,1070
+pycobi_tests/conftest.py,sha256=pgL_lkWQ1mKfxPZGLQ-rKNkpzNkVInHts7ozkE40bLk,196
+pycobi_tests/test_odesystem.py,sha256=HuqQeU24ULwJUEhc_mb0oWeMHo1q4tICDM_WvwwtuVM,2775
+pycobi-0.8.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pycobi-0.8.7.dist-info/METADATA,sha256=QHmf95pzB3tTwv-XyDfo4u9_Sv03dM9vjt45iprW3A0,4405
+pycobi-0.8.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pycobi-0.8.7.dist-info/top_level.txt,sha256=T1L0fgRm_Wt-45xsnmgd-jYzVfYBcDi7e1g3c2YTNWI,20
+pycobi-0.8.7.dist-info/RECORD,,
