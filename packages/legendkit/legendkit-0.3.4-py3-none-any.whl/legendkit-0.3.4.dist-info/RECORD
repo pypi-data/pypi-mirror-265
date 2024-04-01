@@ -1,0 +1,13 @@
+legendkit/__init__.py,sha256=EJedaSiwX66n54G8N9asBHRN-6zKkBvKB9fw3ZKIa00,445
+legendkit/_colorart.py,sha256=DH8rb2Ys7WFXcPUjifAc4uJUXbMH7N86GY3mC-xbM0M,24774
+legendkit/_colorbar.py,sha256=ndm30zjT7QjIHZs-luyEUBfPVKk78Z5IKbxwV4duax8,7040
+legendkit/_handlers.py,sha256=pJhea2SGyTt414rfOsWjEL_JvzqH3jbTV-stYyZW6Nk,2897
+legendkit/_legend.py,sha256=2WEVqgbbbCwwyXH5esgS9pKkqmldcjk_GXkkyRG1Xj8,21820
+legendkit/_locs.py,sha256=ATZWWcV2GnoLc4tvK7ZUe2LMWI0oBSVdUAvOoah5-l0,2556
+legendkit/_register.py,sha256=pmpK7ukx8A6hTPem3N6xqubbxHPvVj8RWVUpEOSjthQ,2330
+legendkit/handles.py,sha256=gbpOiQK_BATLqosoElAFlOEPLbzuNJ4EMn0lTAWfiBE,1395
+legendkit/layout.py,sha256=NVO0Kp6ouS32sIiFB7aZ8dC1G3VkbRD2s6q4F8p-Vb0,5435
+legendkit-0.3.4.dist-info/LICENSE,sha256=bIJFwlywyev7EKyrhMAGyHCTyJJyIQAinZXy6-x7bLc,1073
+legendkit-0.3.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+legendkit-0.3.4.dist-info/METADATA,sha256=N99KSkTPlHrH7hAAzqhEw6Ilj7asz6WwDDvc7nz1vhw,1806
+legendkit-0.3.4.dist-info/RECORD,,
