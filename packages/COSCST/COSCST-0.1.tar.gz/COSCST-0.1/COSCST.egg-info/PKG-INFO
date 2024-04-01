@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: COSCST
+Version: 0.1
+Summary: Single-cell RNA sequencing data excels in providing high sequencing depth and precision at the single-cell level, but lacks spatial information. Simultaneously, spatial transcriptomics technology visualizes gene expression patterns in their spatial context but has low resolution. Here, we present COSCST that combines these two datasets through autoencoder and supervised learning model to map single-cell RNA-seq data with spatial coordination and spatial transcriptomics with precise cell type annotation. 
+Home-page: https://github.com/shiy-shiy/SCST/
+Author: Yi Shi, Gang Hu
+Author-email: shiyi@nankai.mail.edu.cn, huggs@nankai.edu.cn
+License: MIT
+Download-URL: https://github.com/shiy-shiy/SCST/archive/refs/heads/main.zip
+Keywords: single cell,spatial transcriptome
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+

@@ -1,0 +1,10 @@
+setup.py
+COSCST/SAE.py
+COSCST/__init__.py
+COSCST/coscst.py
+COSCST/network.py
+COSCST.egg-info/PKG-INFO
+COSCST.egg-info/SOURCES.txt
+COSCST.egg-info/dependency_links.txt
+COSCST.egg-info/requires.txt
+COSCST.egg-info/top_level.txt
