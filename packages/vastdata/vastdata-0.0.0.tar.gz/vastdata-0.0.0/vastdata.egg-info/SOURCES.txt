@@ -1,0 +1,5 @@
+setup.py
+vastdata.egg-info/PKG-INFO
+vastdata.egg-info/SOURCES.txt
+vastdata.egg-info/dependency_links.txt
+vastdata.egg-info/top_level.txt
