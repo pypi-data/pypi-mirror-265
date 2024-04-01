@@ -1,0 +1,2 @@
+[console_scripts]
+geemlib = geemlib.geemlib:main
