@@ -1,0 +1,4 @@
+[console_scripts]
+please=please_do.main:app
+plz=please_do.main:app
+
