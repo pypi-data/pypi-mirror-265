@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/sphinx-notes/cookiecutter",
+  "commit": "1701bf78ca498d756ce4502aa1712cfe23ed35af",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "namespace": "sphinxnotes",
+      "name": "lilypond",
+      "full_name": "sphinxnotes-lilypond",
+      "author": "Shengyu Zhang",
+      "description": "Sphinx extension for embedding LilyPond scores",
+      "version": "2.2",
+      "github_owner": "sphinx-notes",
+      "github_repo": "lilypond",
+      "pypi_name": "sphinxnotes-lilypond",
+      "pypi_owner": "SilverRainZ",
+      "_template": "https://github.com/sphinx-notes/cookiecutter"
+    }
+  },
+  "directory": null
+}
