@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pdplus
+Version: 24.11
+Summary: an new data analysis library add many feature,add duckdb sql functions.so calls: pandas plus
+Home-page: https://wangnz.v6.army:5000/
+Author: wangnz
+Author-email: wangnz99@qq.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://wangnz.v6.army:5000/
+Project-URL: Source Code, https://wangnz.v6.army:5000/
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: SQL
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+<div align="center">
+pdplus
+</div>
+
+-----------------
+
+#名字来源
+pandas的超级加强版，英文简称pdplus。
+
+##用途
+pdplus 对数据的处理是为数据的分析服务的，它所提供的各种数据处理方法、工具是基于数理统计学出发，包含了日常应用中的众多数据分析方法。我们学习它不光掌控它的相应操作技术，还要从它的处理思路中学习数据分析的理论和方法。
+
+特别地，想成为或者转行数据分析师、数据产品经理、数据开发等和数据相关工作者的同学，学习 pdplus 更能让你深入数据理论和实践，更好地理解和应用数据。
+
+pdplus 可以轻松应对白领们日常工作中的各种表格数据处理，还应用在金融、统计、数理研究、物理计算、社会科学、工程等领域里。
+
+pdplus 可以实现复杂的处理逻辑，这些往往是 Excel 等工具无法处理的，还可以自动化、批量化，对于相同的大量的数据处理我们不需要重复去工作。
+
+pdplus 可以做到非常震撼的SQL语言处理，它对接众多的SQL语言特性，可以实现简单高效的操作。
+
+以上这些，在往后的教程中，你会有所体会。
+
+##适用的数据
+pdplus 适合处理一个规正的二维数据（一维也可以，应用较少），即有 N 行 N 列，类似于 SQL 执行后产出的，或者 无合并单元格Excel 表格 这样的数据。它可以把多个文件的数据合并在一起，如果结构不一样，也可以经过处理进行合并。
+
+这里说的二维数据是指，像一个矩形的平面在横向和纵向被分隔成多个格子，每个格子里存放一个数据。
+
+##基本功能
+常用的基本功能有：
+
+从 Excel、CSV、网页、SQL、剪贴板等读取数据
+合并多个文件或者 sheet 数据，拆分数据为独立文件
+数据清洗，如去重、缺失值、填充默认值、格式补全、极端值处理等
+建立高效的索引
+支持大体量数据
+按一定业务逻辑插入计算后的列、删除列
+灵活方便的数据查询、筛选
+分组聚合数据，可独立指定分组后的各字段计算方式
+数据的转置，如行转列列转行变更处理
+连接数据库，直接 SQL 查询数据并进行处理
+对时序数据进行分组采样，如按月、按季、按工作小时，也可以自定义周期，如工作日
+窗口计划，移动窗口统计、日期移动等
+融合在表格的样式风格，提高数据识别效率
+等等。
+
+
+接下来，我们先安装 pdplus 然后开启 pdplus 之旅吧！
+
