@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tctracer
+Version: 0.1.4
+Summary: CLI tool demonstrating test-to-code traceability techniques on Python codebases that use the Pytest testing framework.
+Author: Jason Ho
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib==3.8.3
+Requires-Dist: scikit-learn==1.4.1.post1
+Requires-Dist: click==8.1.7
+Requires-Dist: pytest==8.1.1
+Provides-Extra: dev
+Requires-Dist: black==24.3.0; extra == "dev"
+Requires-Dist: pylint==3.1.0; extra == "dev"
+Requires-Dist: setuptools==69.2.0; extra == "dev"
+Requires-Dist: bump2version==1.0.1; extra == "dev"
+
+# comp00138-fyp-parser
+Repository to house testing code for the Test-to-Code parsing program as part of my COMP00138 Individual Project for MEng dissertation project
