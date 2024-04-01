@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+dev-requirements.txt
+pyproject.toml
+requirements.txt
+setup.py
+pytctracer/__init__.py
+pytctracer/analyser.py
+pytctracer/main.py
+pytctracer/tracer.py
+tctracer.egg-info/PKG-INFO
+tctracer.egg-info/SOURCES.txt
+tctracer.egg-info/dependency_links.txt
+tctracer.egg-info/entry_points.txt
+tctracer.egg-info/requires.txt
+tctracer.egg-info/top_level.txt
