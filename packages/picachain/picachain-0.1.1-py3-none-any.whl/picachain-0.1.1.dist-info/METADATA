@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: picachain
+Version: 0.1.1
+Summary: Simple image search engine package.
+License: MIT
+Author: d1pankarmedhi
+Author-email: dipankarmedhi11@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: chromadb (>=0.4.24,<0.5.0)
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: pinecone-client (>=3.2.1,<4.0.0)
+Requires-Dist: pysqlite3-binary (>=0.5.2.post3,<0.6.0)
+Requires-Dist: torch (>=2.2.2,<3.0.0)
+Requires-Dist: transformers (>=4.39.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# picachain
+A simple ready-to-use image search library
+
+## 📌 Install Picachain
+Create a local datastore with **ChromaDB** for image search.
+
+With `pip` :
+```bash
+pip install picachain
+```
+
+With `poetry` :
+```bash
+poetry add picachain
+```
+
+## Create a Picachain Image search engine.
+With less than 10 lines of code, create an image search engine with the help of **picachain** and **chromadb**.
+
+
+
+
+
+
