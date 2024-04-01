@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: BetterMaths
+Version: 0.0.2
+Summary: Python mathematics made easier
+Project-URL: Homepage, https://dhaiven.github.io/
+Project-URL: Documentation, https://dhaiven.github.io/BetterMaths/wiki
+Project-URL: Repository, https://github.com/Dhaiven/BetterMaths
+Author-email: Dhaiven <bettermath.get.help@gmail.com>, algorythmTTV <bettermath.get.help@gmail.com>
+License-File: LICENSE
+Keywords: better,easier,easy,math,mathematics,simple
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+![alt text](images/banner.png "Title")
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+> [!WARNING]
+> This module is in beta phase
+
+#### See the [Wiki](https://github.com/Dhaiven/BetterMaths/wiki) for documentations
+
+## Contribution
+BetterMaths accepts community contributions!
+
+## Authors
+  - <img src="https://www.github.com/Dhaiven.png" width="3%" height="3%"/> [@Dhaiven](https://www.github.com/Dhaiven) for code
+  - <img src="https://www.github.com/algorythmTTV.png" width="3%" height="3%"/> [@algorythmTTV](https://www.github.com/algorythmTTV) for images and site
