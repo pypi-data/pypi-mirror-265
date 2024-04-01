@@ -1,0 +1,2 @@
+aiohttp>=3.6
+sentry-sdk<1.42,>=1.5.1
