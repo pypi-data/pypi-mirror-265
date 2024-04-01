@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+real_pyMate.egg-info/PKG-INFO
+real_pyMate.egg-info/SOURCES.txt
+real_pyMate.egg-info/dependency_links.txt
+real_pyMate.egg-info/top_level.txt
+test/test_ephys_tools.py
+test/test_fmri_tools.py
