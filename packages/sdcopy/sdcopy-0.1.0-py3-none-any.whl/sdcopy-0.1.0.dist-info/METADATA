@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sdcopy
+Version: 0.1.0
+Summary: Tool for saving files off SD cards
+Home-page: https://github.com/kidig/sdcopy
+License: MIT
+Author: Dmitry Gerasimenko
+Author-email: kiddima@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Project-URL: Repository, https://github.com/kidig/sdcopy
+Description-Content-Type: text/markdown
+
+### sdcopy
+
+Tool for saving files off SD cards.
