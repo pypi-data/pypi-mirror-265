@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: astromcad
+Version: 0.0.6
+Summary: Anomaly Detection for Astronomical Transients
+Author: Rithwik Gupta
+Author-email: <rithwikca2020@gmail.com>
+Description-Content-Type: text/markdown
+
+Train custom classifiers to be used as anomaly detectors for astronmical transients
