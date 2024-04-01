@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: flasky-cli
+Version: 0.1.1
+Summary:  CLI to start Flask projects
+Author-email: jennier0107 <mt3085570450@outlook.com>
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1.7
+Requires-Dist: cookiecutter>=2.6.0
+Requires-Dist: pathvalidate>=3.2.0
+Requires-Dist: questionary>=2.0.1
+Requires-Dist: rich-click>=1.7.4
+Description-Content-Type: text/markdown
+
+# flask-cli
+
+Describe your project here.
