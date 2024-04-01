@@ -1,0 +1,7 @@
+pyproject.toml
+mkdocs_torillic.egg-info/PKG-INFO
+mkdocs_torillic.egg-info/SOURCES.txt
+mkdocs_torillic.egg-info/dependency_links.txt
+mkdocs_torillic.egg-info/entry_points.txt
+mkdocs_torillic.egg-info/top_level.txt
+torillic/__init__.py
