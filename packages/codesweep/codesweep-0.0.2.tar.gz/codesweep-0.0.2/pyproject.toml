@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "codesweep"
+version = "0.0.2"
+description = "Streamline Code Maintenance: Instant Clean-Up and Rule Enforcement, Zero Configuration Required."
+authors = ["joehaddad2000 <joehaddad129@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    {include = "codesweep", from = "src"},
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ruff = "^0.3.4"
+mypy = "^1.9.0"
+typer = "^0.12.0"
+toml = "^0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+mkdocs-material = "^9.5.15"
+mkdocs-minify-plugin = "^0.8.0"
+
+
+[tool.poetry.scripts]
+cs = "codesweep.main:app"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
