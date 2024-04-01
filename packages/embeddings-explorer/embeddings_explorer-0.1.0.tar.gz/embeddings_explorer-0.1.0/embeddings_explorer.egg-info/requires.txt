@@ -1,0 +1,10 @@
+nltk<4.0,>=3.8.0
+numpy<2.0,>=1.26.0
+scikit-learn<2.0,>=1.2.0
+matplotlib<4.0,>=3.7.0
+transformers<5.0,>=4.38.0
+sentence-transformers<3.0,>=2.6.0
+networkx<4.0,>=3.0
+torch<3.0,>=2.2.0
+openai<2.0,>=1.14.0
+voyageai<1.0,>=0.2.0
