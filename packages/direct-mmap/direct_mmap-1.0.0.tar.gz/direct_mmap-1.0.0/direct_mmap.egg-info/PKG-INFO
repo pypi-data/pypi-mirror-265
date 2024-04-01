@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: direct_mmap
+Version: 1.0.0
+Summary: Numpy memory-mapped array with direct I/O. No sequential read caching, increase the speed of random read.
+Home-page: https://github.com/jtc1246/direct-mmap
+Author: Tiancheng Jiao
+Author-email: jtc1246@outlook.com
+License: GPL-2.0 License
+Platform: manylinux2014_x86_64
+Requires-Python: >=3.9
