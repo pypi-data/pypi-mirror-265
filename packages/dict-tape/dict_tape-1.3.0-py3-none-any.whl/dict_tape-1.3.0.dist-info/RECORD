@@ -1,0 +1,7 @@
+dict_tape/__init__.py,sha256=BsTVF8lzf0p9sP7Tu1yNMx7ptobLfs1HEw8ZvWQrx9w,56
+dict_tape/exceptions.py,sha256=eApo2OIJGE1owtYvFKvARZoclXCYMR69C0wWvgoOLU8,128
+dict_tape/traversal.py,sha256=IL5xWRlDQ61fRP0mkfZZd-PV-matGTCA9kDOA3hezCY,2815
+dict_tape-1.3.0.dist-info/METADATA,sha256=62pMxQpKwb5X9ewOZNvE2oxjpNwTM0mnYTXWbgFqWbg,3061
+dict_tape-1.3.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+dict_tape-1.3.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dict_tape-1.3.0.dist-info/RECORD,,
