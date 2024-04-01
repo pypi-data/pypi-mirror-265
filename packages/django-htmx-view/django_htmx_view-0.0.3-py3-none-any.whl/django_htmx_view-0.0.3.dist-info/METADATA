@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: django-htmx-view
+Version: 0.0.3
+Summary: Build & Manage HTMX views with ease
+Home-page: https://github.com/devwaseem/django-htmx-view
+License: MIT
+Keywords: django,htmx
+Author: Waseem Akram
+Author-email: waseem07799@gmail.com
+Requires-Python: >=3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=3.2)
+Project-URL: Repository, https://github.com/devwaseem/django-htmx-view
+Description-Content-Type: text/markdown
+
+
