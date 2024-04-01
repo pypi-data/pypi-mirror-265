@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: document-batcher
+Version: 0.1.2
+Summary: Document Batcher
+Author: Jacob Striebel
+License: BSD 3-Clause License
+Project-URL: Homepage, https://github.com/striebel/document-batcher
+License-File: LICENSE
+Requires-Dist: nltk<4.0.0,>=3.8.1
