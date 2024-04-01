@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: codeagentai
+Version: 0.0.1
+Summary: Code interpreter/assistants API for any LLM
+Author-email: Lawrence Chen <lawrencechen2002@gmail.com>
+Project-URL: Homepage, https://github.com/lawrencecchen/codeagent
+Project-URL: Issues, https://github.com/lawrencecchen/codeagent/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# codeagent
+
+Open source code interpreter/assistants API for any LLM.
