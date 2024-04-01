@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/richreports/__init__.py
+src/richreports/richreports.py
+src/richreports.egg-info/PKG-INFO
+src/richreports.egg-info/SOURCES.txt
+src/richreports.egg-info/dependency_links.txt
+src/richreports.egg-info/requires.txt
+src/richreports.egg-info/top_level.txt
