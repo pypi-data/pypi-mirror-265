@@ -1,0 +1,15 @@
+dukes/__init__.py,sha256=wr0RgjkH6dRYFf7emMzm9jhskoJzjBCi78Qa4H1WiIg,1077
+dukes/constant.py,sha256=K4rEmA7BxTqmezIY3XAG_-9hOffyDmhvdJgkDqvyGao,3146
+dukes/dukesMain.py,sha256=V4vh8_1uZl0yM5-dFjRWZ-sZ_eJtJPlowGVChwwEfw8,18679
+dukes/galDensity.py,sha256=zF-Kyj5TKIbiBvUChzmWymOQTorFCKOa5geVosQJvVM,7115
+dukes/galMassFunction.py,sha256=JGC3xr3CKpgp5XGTlw2TAqdlbQ4OpfkQn4h6UZ1q1F4,2827
+dukes/sysmsg.py,sha256=x41Fvz95T6ixCuzLIm8G2cLR5_GOFwZVGpwWR6ybo8Y,806
+dukes/utils.py,sha256=uAXmu1bIxyM3KNGtAGvwLzg63B9AOv87nJoX3shuc-A,13200
+dukes/dat/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+dukes/dat/densityParamFit.py,sha256=k10mET-bcsdoydHPmtGI_zr0R2idSvn2M7Syj69lxA0,619
+dukes/dat/galacticAreaDensityFit.py,sha256=0S-V6cyCybNagvfzItYISxu1mrNoxvkIoFYRH9qlOYg,1936503
+dukes-1.1.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+dukes-1.1.3.dist-info/METADATA,sha256=H62A3KHlyfxQk1MCl8Rh5-yULnfxNFcPmR4GglW5qwM,45509
+dukes-1.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dukes-1.1.3.dist-info/top_level.txt,sha256=tSXvRhMbF0yDECO3knGCnp0bGS83BOAuYHwpEkMT1dQ,6
+dukes-1.1.3.dist-info/RECORD,,
