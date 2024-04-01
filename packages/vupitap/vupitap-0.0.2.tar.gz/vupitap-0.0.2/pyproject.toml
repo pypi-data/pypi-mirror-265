@@ -1,0 +1,81 @@
+[project]
+name = "vupitap"
+version = "0.0.2"
+authors = [
+    {name = "Albertas Gimbutas", email = "albertasgim@gmail.com"},
+]
+description = "Backward chaining algorithm for common configuration and commandline tasks"
+readme = "README.md"
+requires-python = ">= 3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+]
+
+[project.scripts]
+vupitap = "vupitap.vupitap:main"
+
+
+[project.urls]
+homepage = "https://github.com/albertas/vupitap"
+
+[project.optional-dependencies]
+test = [
+    "hatch",
+    "ruff",
+    "mypy",
+    "pip-audit",
+    "deadcode",
+    "pytest",
+    "pytest-cov",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["**/*.py"]
+exclude = ["tests/**"]
+
+
+[tool.ruff]  # https://docs.astral.sh/ruff/settings/
+line-length = 88
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+
+[tool.ruff.format]
+quote-style = "single"
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D203",  # one-blank-line-before-class
+    "D213",  # multi-line-summary-second-line
+    "COM812",  # missing-trailing-comma
+    "ISC001",  # single-line-implicit-string-concatenation
+]
+
+[tool.mypy]
+exclude = ["build", "dist", ".venv", "tests"]
+python_version = "3.11"
+strict = true
+pretty = true
+color_output = true
+show_error_codes = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.deadcode]
+ignore_names = [
+    "main",
+]
+exclude = ["tests"]
