@@ -1,0 +1,7 @@
+htmx_view/__init__.py,sha256=gt_eVmNQaIMlxLhy60cB5eAcynSG4QFKMuvsSDQiK10,88
+htmx_view/mixins.py,sha256=GIBm45gw6O3OJ_1cpdMV8uRXIg12hSsK_JkjdZnQQjo,2557
+htmx_view/utils.py,sha256=L6ndFY53jQrIq1dMkzxdHqokfN01jhzyUxRudHKE0a4,864
+django_htmx_view-0.0.1.dist-info/LICENSE,sha256=YUMK3xP9OjIxUiw_DZ75moL9zawyCGmNgbdvsOCANko,1070
+django_htmx_view-0.0.1.dist-info/METADATA,sha256=66PG75azLtgnDcCneLGMduNQyQZSIEh377iBnqPyijM,485
+django_htmx_view-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_htmx_view-0.0.1.dist-info/RECORD,,
