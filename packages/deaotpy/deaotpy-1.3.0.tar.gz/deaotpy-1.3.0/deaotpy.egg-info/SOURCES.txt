@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+aot/__init__.py
+deaotpy.egg-info/PKG-INFO
+deaotpy.egg-info/SOURCES.txt
+deaotpy.egg-info/dependency_links.txt
+deaotpy.egg-info/requires.txt
+deaotpy.egg-info/top_level.txt
