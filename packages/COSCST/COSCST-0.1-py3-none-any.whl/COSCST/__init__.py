@@ -1,0 +1,2 @@
+from .coscst import train
+	
