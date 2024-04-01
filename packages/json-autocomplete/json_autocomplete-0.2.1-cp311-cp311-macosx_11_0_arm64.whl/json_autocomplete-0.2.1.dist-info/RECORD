@@ -1,0 +1,10 @@
+json_autocomplete/__init__.py,sha256=VaHb476aYP3glghM9-XiRIuuMM1wDahRsJ_o_ar36i4,49
+json_autocomplete/json.cpp,sha256=QxU-rxdSWCxKYh_7RaCFksU07j_Pqv1dK1HrPgsWqrI,9850
+json_autocomplete/json.h,sha256=Ul3-dtsrRcQ0GgLPR0AasOuEHtu50vE7XmckaY5ZFPo,153
+json_autocomplete/json_autocomplete.cpp,sha256=YWdGuptmPAdROlpc6Ddz8f-NWHIWYMhr5De4-2ZM364,255846
+json_autocomplete/json_autocomplete.cpython-311-darwin.so,sha256=mtSf-4ntMIE5ZkYewClkc5iPINEar4jzSlKh4OkYmn4,97504
+json_autocomplete/json_autocomplete.pyx,sha256=4ZNhSL53OPZGQsUSPG5V_aikEnJIUyo_Sc0GXXELq_w,389
+json_autocomplete-0.2.1.dist-info/METADATA,sha256=MAO1-ystHXBdfIaxzWkkhUxDpUdxEENXuQRcH0A1GQU,2103
+json_autocomplete-0.2.1.dist-info/WHEEL,sha256=sieEctgmsyAnWfDYOiunmkigyyjGmYuUaApm_YItwoI,110
+json_autocomplete-0.2.1.dist-info/top_level.txt,sha256=4UdFm06nD9NCjiWOvRdODukfm1MEvr5br5Tx-fXbo4g,18
+json_autocomplete-0.2.1.dist-info/RECORD,,
