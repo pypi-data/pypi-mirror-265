@@ -1,0 +1,8 @@
+gramps_ql/.gitignore,sha256=hOKKRaf1dNRLYY30fgIgh3ebcYpflxX_Hhh5VPsa6CY,69
+gramps_ql/__init__.py,sha256=bG_2m2rtpgNBJ0WooPDixVBbXtLXWs2b-HxxHVmfONY,374
+gramps_ql/_version.py,sha256=9Xscz5oIH_L_KUgotMbJaXeo1GxSRTXbnwoBi_Z16o8,414
+gramps_ql/gql.py,sha256=ydUARHL0cPciMyu7sXksVNUes6nGBL0l5VG3HBIK33U,27
+gramps_ql-0.0.1rc0.dist-info/METADATA,sha256=NA6czREogY_AkIMsDv_ygrnV8T6-vTQYvWRne3p3Bhw,465
+gramps_ql-0.0.1rc0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gramps_ql-0.0.1rc0.dist-info/top_level.txt,sha256=Iz6ax5GLSNG5gfhaeWy05U_xPvcyO0SY8iK1m13oRiA,10
+gramps_ql-0.0.1rc0.dist-info/RECORD,,
