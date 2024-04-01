@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ai_characters.egg-info/PKG-INFO
+ai_characters.egg-info/SOURCES.txt
+ai_characters.egg-info/dependency_links.txt
+ai_characters.egg-info/requires.txt
+ai_characters.egg-info/top_level.txt
+aic/__init__.py
+aic/agent.schema.json
