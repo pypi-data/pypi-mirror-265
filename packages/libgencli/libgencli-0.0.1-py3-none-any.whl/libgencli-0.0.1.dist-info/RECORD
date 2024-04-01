@@ -1,0 +1,12 @@
+libgencli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgencli/cli.py,sha256=NPH89iDZ-RUfvFTYts65bns0rkt6ddX_QwHJ8htWtuY,3328
+libgencli/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgencli/common/utils.py,sha256=XIkdlM8boF7H6791REgo941k0Y1hC9EePgbm7-ns8sY,2865
+libgencli/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgencli/services/libgen.py,sha256=-gbWtbbtGplpJkeRt1k4gf-BxTs1Nlv0AqVBl8JW9j4,3606
+libgencli-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgencli-0.0.1.dist-info/METADATA,sha256=szDF7om0LN1JMpFeaRj37ZlPfCuXJ9nBXuQFGWpy8t0,579
+libgencli-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+libgencli-0.0.1.dist-info/entry_points.txt,sha256=aPgmys2PEwi-ZgmL9rMZhFci-1Sg3bQZIOb7GvQ62pM,54
+libgencli-0.0.1.dist-info/top_level.txt,sha256=jUKmk7SWQ78AvLZlDFUD1OdP86W93onWEvBE7luxRCE,10
+libgencli-0.0.1.dist-info/RECORD,,
