@@ -1,0 +1,12 @@
+codesweep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codesweep/_config/mypy.ini,sha256=wdDpFCgd4t8uBFg_Z33RhI6XBiUyUFZlcTmmx_qhVgE,369
+codesweep/_config/ruff.toml,sha256=C4RvDQGhWKj-x9Jp2Z0KLjEJ4cfYfRCUmDsIJi5CLjo,1082
+codesweep/_core.py,sha256=7mLEUq_Jp_ZZR8zA2mMdERU35ZcqShb51opL-qq_pPw,3160
+codesweep/_utils.py,sha256=7N0dvHaq-HhBTqe3PkQRaoxPQhBSD0yGKLVHZSLRZ2E,2365
+codesweep/main.py,sha256=EHDdRhUO2O6FUejUtWPAhjhk_JR2fsHtrPqBFAk6-9c,943
+codesweep/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codesweep-0.0.2.dist-info/entry_points.txt,sha256=eWSCfFiLB4DBZNRKpGJyiDWgNzFcLZq49IzGkDowhE4,41
+codesweep-0.0.2.dist-info/LICENSE,sha256=X1o1U3mpgoS5KAWE_UtsAGTDgYJ8ZVinZtIlMNhlCz0,1088
+codesweep-0.0.2.dist-info/METADATA,sha256=fExYiZhULd70ucYky-E3xN4NTgbp32QksmoKCooZTXM,3814
+codesweep-0.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+codesweep-0.0.2.dist-info/RECORD,,
