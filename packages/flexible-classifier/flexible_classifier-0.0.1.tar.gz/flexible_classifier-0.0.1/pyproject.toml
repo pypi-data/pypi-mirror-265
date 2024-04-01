@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "flexible_classifier"
+version = "0.0.1"
+authors = [
+  { name="Marko Golovko", email="markgolovko@gmail.com" },
+]
+description = "Classifier pipeline that can be used to train and evaluate classification models on various datasets"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/GameRuiner/classifier-pipeline"
+Issues = "https://github.com/GameRuiner/classifier-pipeline/issues"
