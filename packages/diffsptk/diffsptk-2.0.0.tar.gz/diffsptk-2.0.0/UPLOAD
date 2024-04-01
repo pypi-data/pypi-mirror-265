@@ -1,0 +1,18 @@
+# MEMO
+
+1. modify diffsptk/version.py and README.md (manual link)
+
+2. make release on github
+
+3. test
+$ make dist
+$ ./venv/bin/twine upload --repository testpypi dist/diffsptk-0.1.0-py3-none-any.whl
+$ ./venv/bin/pip uninstall diffsptk
+$ ./venv/bin/pip install -i https://test.pypi.org/simple/ diffsptk==0.1.0
+
+4. check -> https://test.pypi.org/project/diffsptk/0.1.0/
+
+5. upload
+$ ./venv/bin/twine upload --repository pypi dist/diffsptk-0.1.0-py3-none-any.whl
+
+6. check -> https://pypi.org/project/diffsptk/0.1.0/
