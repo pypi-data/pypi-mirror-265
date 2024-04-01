@@ -1,0 +1,11 @@
+docker
+imgaug
+numpy==1.23.0
+matplotlib
+opencv-python
+pandas
+Pillow
+pandas
+scikit-image
+termcolor
+docker
