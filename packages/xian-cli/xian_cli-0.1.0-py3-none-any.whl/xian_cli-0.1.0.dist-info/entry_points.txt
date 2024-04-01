@@ -1,0 +1,3 @@
+[console_scripts]
+xian-cli=xian_cli.main:app
+
