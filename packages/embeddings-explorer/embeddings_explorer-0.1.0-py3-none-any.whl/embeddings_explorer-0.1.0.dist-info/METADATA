@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: embeddings-explorer
+Version: 0.1.0
+Summary: A package for generating, exploring, and visualizing word embeddings graphs.
+Home-page: https://github.com/elanzini/pineapple_on_pizza
+Author: Edoardo Lanzini
+Author-email: edoardo.lanzini@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk (<4.0,>=3.8.0)
+Requires-Dist: numpy (<2.0,>=1.26.0)
+Requires-Dist: scikit-learn (<2.0,>=1.2.0)
+Requires-Dist: matplotlib (<4.0,>=3.7.0)
+Requires-Dist: transformers (<5.0,>=4.38.0)
+Requires-Dist: sentence-transformers (<3.0,>=2.6.0)
+Requires-Dist: networkx (<4.0,>=3.0)
+Requires-Dist: torch (<3.0,>=2.2.0)
+Requires-Dist: openai (<2.0,>=1.14.0)
+Requires-Dist: voyageai (<1.0,>=0.2.0)
+
+# Embeddings Explorer
+
+Code for the article: https://geppetto.substack.com/p/do-llms-put-pineapple-on-pizza
