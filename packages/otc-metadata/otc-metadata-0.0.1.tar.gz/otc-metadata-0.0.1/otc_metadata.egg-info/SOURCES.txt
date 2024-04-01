@@ -1,0 +1,5 @@
+setup.py
+otc_metadata.egg-info/PKG-INFO
+otc_metadata.egg-info/SOURCES.txt
+otc_metadata.egg-info/dependency_links.txt
+otc_metadata.egg-info/top_level.txt
