@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/codeagentai.egg-info/PKG-INFO
+src/codeagentai.egg-info/SOURCES.txt
+src/codeagentai.egg-info/dependency_links.txt
+src/codeagentai.egg-info/top_level.txt
