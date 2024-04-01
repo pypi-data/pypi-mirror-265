@@ -1,0 +1,5 @@
+python-barcode==0.15.1
+Flask-SocketIO==5.3.6
+weasyprint==61.2
+ppy-common
+ppy-file-text
