@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: spd_stats
+Version: 0.1.0
+Summary: Statistical Probability Distributions Package
+Home-page: UNKNOWN
+Author: Pradeep Sahani
+Author-email: sahanipradeep5529@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# spd_stats: Statistical Probability Distributions Package
+
+## Description:
+
+spd_stats is a Python package designed for statistical analysis, calculation, and visualization of various probability distributions. It provides classes for representing and manipulating Gaussian and Binomial distributions, along with generic distribution functionalities.
+
+
+## Installation:
+
+To install spd_stats, simply use pip:
+
+```bash
+pip install spd_stats
+```
+
+
+## Usage
+
+```bash
+# Import Gaussian and Binomial distributions from spd_stats
+from spd_stats import Gaussian, Binomial
+
+# Create a Gaussian distribution with mean 0 and standard deviation 1
+gaussian = Gaussian(0, 1)
+
+# Create a Binomial distribution with probability 0.5 and size 20
+binomial = Binomial(0.5, 20)
+
+# Read data from a file into a distribution
+gaussian.read_data_file("gaussian_data.txt")
+binomial.read_data_file("binomial_data.txt")
+
+# Calculate and print mean and standard deviation of distributions
+print("Gaussian Mean:", gaussian.mean)
+print("Gaussian Standard Deviation:", gaussian.stdev)
+print("Binomial Mean:", binomial.mean)
+print("Binomial Standard Deviation:", binomial.stdev)
+
+# Plot histograms and probability density functions
+gaussian.plot_histogram()
+gaussian.plot_histogram_pdf()
+binomial.plot_bar()
+binomial.plot_bar_pdf()
+
+# Add two distributions together
+sum_distribution = gaussian + gaussian
+
+# Output characteristics of the sum distribution
+print("Sum Distribution:", sum_distribution)
+```
+
+
+## Classes:
+
+### Gaussian:
+Represents a Gaussian (normal) distribution.
+Attributes: mean, standard deviation, data.
+Methods: calculate_mean, calculate_stdev, plot_histogram, pdf, plot_histogram_pdf, add, repr.
+
+### Binomial:
+Represents a Binomial distribution.
+Attributes: mean, standard deviation, data, p (probability of success), n (number of trials).
+Methods: calculate_mean, calculate_stdev, replace_stats_with_data, plot_bar, pdf, plot_bar_pdf, add, repr.
+
+### Distribution:
+Generic distribution class.
+Attributes: mean, standard deviation, data.
+Methods: read_data_file.
+
+## Contributing:
+
+Thank you for your interest in contributing to spd_stats! At the moment, there is no specific content outlined for contributing guidelines. However, we welcome your input and contributions once we establish the guidelines.
+ 
+ 
+## License:
+
+This package is licensed under the MIT License.
+
+
+## Author:
+
+Pradeep Sahani
+
+
