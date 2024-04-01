@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: calcutils
+Version: 0.2
+Summary: Utility functions for basic arithmetic calculations
+Home-page: https://github.com/bashamega/py_calculator
+Author: Adam Basha
+Author-email: adam.webtools@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license
+
+# CalcUtils
+
+CalcUtils is a Python package providing various mathematical functions.
+
+## Installation
+
+You can install CalcUtils from PyPI using pip:
+
+```bash
+pip install calcutils
+```
+
+## Usage
+
+```python
+from calcutils import *
+
+# Addition
+result = add(5, 3)  # result = 8
+
+# Subtraction
+result = subtract(10, 4)  # result = 6
+
+# Multiplication
+result = multiply(2, 5)  # result = 10
+
+# Division
+result = divide(10, 2)  # result = 5.0
+
+# Greatest Common Divisor (GCD)
+result = gcd([12, 8, 16])  # result = 4
+
+# Decimal to Percentage
+result = decimal_to_percent(0.25)  # result = 25.0
+
+# Calculate Percentage
+result = calculate_percentage(25, 100)  # result = 25.0
+
+# Round Up
+result = round_up(4.3)  # result = 5
+
+# BMI (Body Mass Index)
+result = bmi(70, 175)  # result ≈ 22.86
+
+# Rounded BMI
+result = rounded_bmi(70, 175)  # result = 23
+```
+
+## Functions
+
+### add(a, b)
+
+Adds two numbers together.
+
+### subtract(a, b)
+
+Subtracts one number from another.
+
+### multiply(a, b)
+
+Multiplies two numbers together.
+
+### divide(a, b)
+
+Divides one number by another.
+
+### gcd(numbers)
+
+Finds the Greatest Common Divisor (GCD) of a list of integers.
+
+### decimal_to_percent(decimal)
+
+Converts a decimal number to a percentage.
+
+### calculate_percentage(part, whole)
+
+Calculates the percentage of a part compared to a whole.
+
+### round_up(number)
+
+Rounds a number up to the nearest integer.
+
+### bmi(weight, height)
+
+Calculates the Body Mass Index (BMI) given weight (in kilograms) and height (in centimeters).
+
+### rounded_bmi(weight, height)
+
+Calculates the BMI and rounds it up to the nearest integer.
