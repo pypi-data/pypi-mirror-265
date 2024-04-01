@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: marketplace-api
+Version: 0.0.3
+Summary: Python client for API marketplaces 
+Author: Dmitry Drozdov
+Author-email: ds.drozdov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: pyarrow (>=15.0.0,<16.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Marketplace-API
+
+## Description:
+Python библиотека для работы с API маркетплейсов (ВБ, ОЗОН, ЯндексМаркет)
+
+
+## Table of contents:
