@@ -1,0 +1,7 @@
+metaprompt/cli.py,sha256=-v44fZMWfbxTpr2yR9X5tKrmrjC0Ko2dzFQkKEo-S30,2991
+metaprompt/templates/metaprompt.jinja,sha256=SnsRSEWuaBemoVrFHKyOinAATmaT-qqBJBMi94ksmPU,25493
+metaprompt/templates/metaprompt_assistant_partial.jinja,sha256=MpiztZX6jnuU1OS3_675M9KcAgCKGMz8ktwb53fXkWc,107
+metaprompt-0.1.0.dist-info/METADATA,sha256=g5xyUeJcBPg0mtmXKyD68236s3QuASZNQ8fE-Do5Nq8,450
+metaprompt-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+metaprompt-0.1.0.dist-info/entry_points.txt,sha256=r8037U3S33uO769BT0uYEToqNWxpYUUyUW7ViPxIxxM,49
+metaprompt-0.1.0.dist-info/RECORD,,
