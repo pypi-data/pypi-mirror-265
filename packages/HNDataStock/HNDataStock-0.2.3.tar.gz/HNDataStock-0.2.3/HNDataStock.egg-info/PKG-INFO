@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: HNDataStock
+Version: 0.2.3
+Summary: Trường đào tạo lập trình Forex, Crypto, Chứng Khoán
+Home-page: http://www.huongnghiepdulieu.com
+Author: Hướng Nghiệp Dữ Liệu
+Author-email: daotao@huongnghiepdulieu.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Vietnamese
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
