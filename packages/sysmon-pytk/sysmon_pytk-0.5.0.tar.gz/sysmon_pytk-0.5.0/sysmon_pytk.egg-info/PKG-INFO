@@ -1,0 +1,193 @@
+Metadata-Version: 2.1
+Name: sysmon_pytk
+Version: 0.5.0
+Summary: System monitor app using Tkinter
+Author-email: Stacey Adams <stacey.belle.rose@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Stacey Adams
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/staceybellerose/sysmon-pytk
+Project-URL: Repository, https://github.com/staceybellerose/sysmon-pytk
+Project-URL: Issues, https://github.com/staceybellerose/sysmon-pytk/issues
+Keywords: system monitor
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: blessings>=1.7
+Requires-Dist: darkdetect==0.8.0
+Requires-Dist: platformdirs>=4.2
+Requires-Dist: psutil<6.0,>=5.8.0
+Requires-Dist: typing-extensions>=4.10
+Provides-Extra: dev
+Requires-Dist: bandit>=1.7.7; extra == "dev"
+Requires-Dist: build>=1.1.1; extra == "dev"
+Requires-Dist: coloredlogs>=15; extra == "dev"
+Requires-Dist: liccheck>=0.9.2; extra == "dev"
+Requires-Dist: mypy>=1.5; extra == "dev"
+Requires-Dist: pycodestyle>=2.11; extra == "dev"
+Requires-Dist: pydocstyle>=6.2; extra == "dev"
+Requires-Dist: pyflakes>=3.1; extra == "dev"
+Requires-Dist: pylint>=3.0; extra == "dev"
+Requires-Dist: pyroma>=4.2; extra == "dev"
+Requires-Dist: radon>=6.0; extra == "dev"
+Requires-Dist: redbaron>=0.9.2; extra == "dev"
+Requires-Dist: reuse>=3.0; extra == "dev"
+Requires-Dist: ruff>=0.3; extra == "dev"
+Requires-Dist: setuptools>=64; extra == "dev"
+Requires-Dist: twine>=5.0; extra == "dev"
+Requires-Dist: types-docutils>=0.20; extra == "dev"
+Requires-Dist: types-psutil<6.0,>=5.8.0; extra == "dev"
+Requires-Dist: types-setuptools>=64; extra == "dev"
+
+# System Monitor for Python/Tk
+
+<!--
+SPDX-FileCopyrightText: © 2024 Stacey Adams <stacey.belle.rose@gmail.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+![GitHub License](https://img.shields.io/github/license/staceybellerose/sysmon-pytk?color=7C4DFF)
+![GitHub Release](https://img.shields.io/github/v/release/staceybellerose/sysmon-pytk)
+[![REUSE status](https://api.reuse.software/badge/github.com/staceybellerose/sysmon-pytk)](https://api.reuse.software/info/github.com/staceybellerose/sysmon-pytk)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/staceybellerose/sysmon-pytk?logo=codefactor)](https://www.codefactor.io/repository/github/staceybellerose/sysmon-pytk)
+[![Maintainability](https://api.codeclimate.com/v1/badges/556c93bf800d0d58e7e4/maintainability)](https://codeclimate.com/github/staceybellerose/sysmon-pytk/maintainability)
+
+System monitor written in Python using Tk. It monitors CPU usage and
+temperature, RAM usage, and disk usage of the primary disk (containing the
+root partition). It also displays the system's hostname, IP address, uptime,
+and current process count.
+
+![Main Window](images/main_window.png)
+
+## Pre-installation
+
+### Make sure the Python interface to Tcl/Tk (tkinter) is installed
+
+Since this is a GUI application using tkinter, tkinter must be installed
+separately.
+
+* Debian, Ubuntu, and derivatives
+
+    ```bash
+    sudo apt install python3-tk
+    ```
+
+* Fedora and derivatives
+
+    ```bash
+    sudo dnf install python3-tkinter
+    ```
+
+* MacOS
+
+    ```bash
+    brew install python-tk
+    ```
+
+## Install Using pip
+
+Download the wheel file from the latest release, then install it. Once a PyPI
+account can be set up, the program will be downloadable from there.
+
+```bash
+pip install ./sysmon_pytk-0.4.1-py3-none-any.whl
+```
+
+Two versions of the program will be installed, a GUI program and a command line
+program.
+
+To run the GUI program:
+
+```bash
+sysmon
+```
+
+To run the command line program:
+
+```bash
+cli_sysmon
+```
+
+## Install Manually, for local development
+
+Note when cloning this repo that it has a submodule
+[Azure ttk theme](https://github.com/rdbende/Azure-ttk-theme)
+which must be copied over:
+
+```bash
+git clone --recurse-submodules https://github.com/staceybellerose/sysmon-pytk.git
+```
+
+If you didn't clone the submodule when cloning this repo, run this to update:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Install the required python packages
+
+```bash
+make venv
+```
+
+### Generate translation files
+
+Translations are available in English, Spanish, German, and Norwegian Bokmål.
+To build the translation files, run the following bash commands:
+
+```bash
+make translations
+```
+
+| Run the GUI program | |
+|-|-|
+| While the venv is activated | `python -m sysmon_pytk.gui_monitor &` |
+| Explicitly using the venv | `venv/bin/python -m sysmon_pytk.gui_monitor &` |
+| Let make handle everything automatically | `make run` |
+
+| Run the command line program | |
+|-|-|
+| While the venv is activated | `python -m sysmon_pytk.cli_monitor &` |
+| Explicitly using the venv | `venv/bin/python -m sysmon_pytk.cli_monitor &` |
+| Let make handle everything automatically | `make cli` |
+
+## Translations
+
+Special thanks to our translators!
+
+| Language         | Code  | Translator |
+|------------------|-------|------------|
+| German           | de    | Alisyn Arness |
+| Spanish          | es    | Stacey Adams (author) |
+| Norwegian Bokmål | nb_NO | [Allan Nordhøy](https://github.com/comradekingu) |

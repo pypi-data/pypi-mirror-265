@@ -1,0 +1,107 @@
+# SPDX-FileCopyrightText: © 2024 Stacey Adams <stacey.belle.rose@gmail.com>
+# SPDX-License-Identifier: Unlicense
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sysmon_pytk"
+dynamic = ["version", "dependencies", "optional-dependencies"]
+authors = [
+    {name = "Stacey Adams", email = "stacey.belle.rose@gmail.com"},
+]
+description = "System monitor app using Tkinter"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: System Administrators",
+    "Environment :: Console",
+    "Environment :: X11 Applications",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: System :: Monitoring",
+]
+keywords = ["system monitor"]
+
+[project.scripts]
+cli_sysmon = "sysmon_pytk.cli_monitor:cli_monitor"
+
+[project.gui-scripts]
+sysmon = "sysmon_pytk.gui_monitor:gui_monitor"
+
+[project.urls]
+Homepage = "https://github.com/staceybellerose/sysmon-pytk"
+Repository = "https://github.com/staceybellerose/sysmon-pytk"
+Issues = "https://github.com/staceybellerose/sysmon-pytk/issues"
+
+[tool.setuptools.packages.find]
+include = ["sysmon_pytk*", "azure*"]
+
+[tool.setuptools.package-data]
+"azure" = ["**/*.tcl", "**/*.png", "LICENSE"]
+"sysmon_pytk.images" = ["*.png", "custom/*.png"]
+"sysmon_pytk.locale" = ["**/*.mo"]
+
+[tool.setuptools.exclude-package-data]
+"sysmon_pytk.azure" = ["*screenshot.png"]
+
+[tool.setuptools.dynamic]
+version = {attr = "sysmon_pytk.about.__version__"}
+dependencies = {file = ["requirements.txt"]}
+optional-dependencies = {dev = {file = ["requirements-dev.txt"]}}
+
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+select = ["ALL"]
+extend-select = ["ANN401"]
+ignore = [
+    "ANN002", "ANN003", "ANN101", "ANN102", # annotations for *args, **kwargs, self, cls
+    "D200",  # one-line docstring should fit on one line
+    "FIX002",  # don't warn on TODO comments
+    "S101", "S603", # flake8-bandit
+    "FBT003", # boolean positional value in function call (they're used in tkinter)
+    "PLR0913", # too many arguments in function definition (they're used in tkinter-derived classes)
+    "COM", # flake8-commas (trailing commas)
+    "TID", # flake8-tidy-imports (relative imports)
+    "TD", # flake8-todos (structured todo messages)
+    "ERA", # eradicate (commented-out code)
+]
+
+[tool.ruff.lint.flake8-annotations]
+allow-star-arg-any = true
+suppress-dummy-args = true
+
+[tool.ruff.lint.mccabe]
+max-complexity = 5
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.liccheck]
+authorized_licenses = [
+    "bsd",
+    "bsd license",
+    "apache",
+    "apache 2.0",
+    "apache software license",
+    "lgplv2",
+    "mit",
+    "mit license",
+    "mpl",
+    "mozilla public license",
+    "python software foundation",
+    "python software foundation license",
+]
+unauthorized_licenses = [
+    "gnu general public license",
+]
+as_regex = true
