@@ -1,0 +1,8 @@
+setup.py
+hySpider/__init__.py
+hySpider/spider.py
+hySpider.egg-info/PKG-INFO
+hySpider.egg-info/SOURCES.txt
+hySpider.egg-info/dependency_links.txt
+hySpider.egg-info/requires.txt
+hySpider.egg-info/top_level.txt
