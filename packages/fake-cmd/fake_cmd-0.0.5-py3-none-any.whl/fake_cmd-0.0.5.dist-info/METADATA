@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fake-cmd
+Version: 0.0.5
+Summary: fake_cmd provides a simulated command line based on file communication to send commands from the client to the server for execution.
+Home-page: https://github.com/SlimeAI/fake_cmd
+Author: SlimeAI
+Author-email: liuzikang0625@gmail.com
+License: MIT License
+Description-Content-Type: text/markdown
+
+# fake_cmd
+
