@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/AnonFTPPx.egg-info/PKG-INFO
+src/AnonFTPPx.egg-info/SOURCES.txt
+src/AnonFTPPx.egg-info/dependency_links.txt
+src/AnonFTPPx.egg-info/top_level.txt
