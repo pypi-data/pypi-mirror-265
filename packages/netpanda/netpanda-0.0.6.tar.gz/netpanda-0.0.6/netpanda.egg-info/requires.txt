@@ -1,0 +1,11 @@
+numpy
+ipyleaflet
+pandas
+pyshp
+geopandas
+
+[all]
+netpanda[extra]
+
+[extra]
+pandas
