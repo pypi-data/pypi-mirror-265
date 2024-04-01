@@ -1,0 +1,46 @@
+[project]
+name = "worktory"
+version = "0.1.2"
+authors = [
+  { name="Renato Almeida de Oliveira", email="renato.almeida.oliveira@gmail.com" },
+]
+description = "Network Automation Inventory"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/renatoalmeidaoliveira/Worktory"
+Issues = "https://github.com/renatoalmeidaoliveira/Worktory/issues"
+
+[tool.poetry]
+name = "worktory"
+version = "0.1.2"
+description = "Network Automation Inventory"
+authors = ["Renato Almeida de Oliveira <renato.almeida.oliveira@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/renatoalmeidaoliveira/Worktory"
+ 
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+scrapli = {extras = ["ssh2"], version = ">=2021.7.30"}
+asyncssh = ">=2.7.2"
+scrapli-community = ">=2021.7.30"
+pyats = ">=21.7"
+genie = ">=21.7"
+netmiko = ">=3.4.0"
+ntc-templates = ">=2.3.2"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.2.0"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
