@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: typstdiff
+Version: 0.1.0
+Summary: Tool made with Pandoc to compare two files with typst extension.
+Author: Sara Fojt
+Author-email: 01169167@pw.edu.pl
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pandoc (>=2.3,<3.0)
+Requires-Dist: typst (>=0.11.0,<0.12.0)
+Description-Content-Type: text/markdown
+
+# TypstDiff
+### Dominika Ferfecka, Sara Fojt, Małgorzata Kozłowska
+
+## Introduction
+Tool created with Pandoc to compare two typst files. It marks things
+deleted from first file and marks differently things added to the second file.
+
+## Run virtual environment
+To run virtual environment in poetry go to TypstDiff folder and use command
+`poetry shell`
+
+To exit virtual environment use command
+`exit`
+
+## Installing dependencies
+To install the same versions of dependencies as used in the project you can use 
+`pip install -e .` or `poetry install`
+
+## Run tests
+To run tests use command
+`poetry run pytest -v`
+
+### Issues
+As both tools - Pandoc and Typst are new and still developing there is no full support
+for typst in Pandoc. Because of that it is not possible to notice all changes made
+in files, but tool will be developed.
