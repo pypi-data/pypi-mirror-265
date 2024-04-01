@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/OpsApi/__init__.py
+src/OpsApi/tm.py
+src/OpsApi.egg-info/PKG-INFO
+src/OpsApi.egg-info/SOURCES.txt
+src/OpsApi.egg-info/dependency_links.txt
+src/OpsApi.egg-info/requires.txt
+src/OpsApi.egg-info/top_level.txt
