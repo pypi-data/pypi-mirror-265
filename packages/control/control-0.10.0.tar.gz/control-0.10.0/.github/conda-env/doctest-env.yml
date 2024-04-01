@@ -1,0 +1,15 @@
+name: doctest-env
+dependencies:
+  - pip
+  - pytest
+  - pytest-timeout
+  - pytest-xvfb
+  - numpy
+  - matplotlib
+  - scipy
+  - sphinx
+  - sphinx_rtd_theme
+  - ipykernel
+  - nbsphinx
+  - docutils
+  - numpydoc
