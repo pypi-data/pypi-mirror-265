@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjupyter_notepad=self.webpackChunkjupyter_notepad||[]).push([[806],{7806:(e,t,d)=>{var E=d(9640);d(4757),t.MODULE_NAME=E.MODULE_NAME,t.MODULE_VERSION=E.MODULE_VERSION,t.WidgetModel=E.WidgetModel,t.WidgetView=E.WidgetView}}]);
