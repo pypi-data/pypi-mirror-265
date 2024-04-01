@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sigmoidalvision
+Version: 0.1.0
+Summary: SigmoidalVision is a Python package for computer vision and machine learning tasks. It is currently under development and aims to provide a set of tools and utilities for working with image and video data.
+License: MIT
+Keywords: computer-vision,machine-learning,sigmoidal,vision,ai
+Author: Carlos Melo
+Author-email: carlos@sigmoidal.ai
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ipywidgets (>=8.1.2,<9.0.0)
+Requires-Dist: nbconvert (>=7.16.3,<8.0.0)
+Requires-Dist: notebook (>=7.1.2,<8.0.0)
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: opencv-python (>=4.5.5.64)
+Requires-Dist: opencv-python-headless (>=4.5.5.64)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# SigmoidalVision
+
+SigmoidalVision is a Python package for computer vision and machine learning tasks. It is currently under development and aims to provide a set of tools and utilities for working with image and video data.
+
+## Features
+
+- Download media assets from a catalog
+- Verify the integrity of downloaded files using MD5 hash
+
+## Installation
+
+The package is not yet available on PyPI. To install the development version, you can clone the repository and install it using Poetry:
+
+```bash
+git clone https://github.com/carlosfab/sigmoidalvision.git
+cd sigmoidalvision
+poetry install
+```
+
+## Usage
+
+Here's an example of how to download a media asset using SigmoidalVision:
+
+```python
+from sigmoidalvision.assets import download_media_asset, MediaAsset
+download_media_asset(MediaAsset.AIRPORT)
+# File santos_dumont_airport.mp4 downloaded successfully.
+```
+
+
