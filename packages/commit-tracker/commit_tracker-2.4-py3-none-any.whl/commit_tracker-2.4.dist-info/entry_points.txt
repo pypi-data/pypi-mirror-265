@@ -1,0 +1,9 @@
+[commit_tracker.plugins]
+branch_information = committracker.plugins.branch_information:display_branch_information
+commit_graph = committracker.plugins.commit_graph:display_commit_graph
+commit_type = committracker.plugins.commit_type:display_commit_type
+contributors = committracker.plugins.contributors_info:display_contributors_info
+git_statistics = committracker.plugins.git_statistics:display_git_statistics
+
+[console_scripts]
+commit-tracker = committracker.__main__:main
