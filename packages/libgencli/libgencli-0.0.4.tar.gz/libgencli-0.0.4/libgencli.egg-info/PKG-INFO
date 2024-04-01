@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: libgencli
+Version: 0.0.4
+Summary: A command-line interface for searching and downloading books from Library Genesis.
+Home-page: https://github.com/notjawad/libgencli
+Author: notjawad
+Author-email: chaptrhouse@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: questionary
+Requires-Dist: tqdm
+Requires-Dist: beautifulsoup4
+
+# libgencli
+
+A command-line interface for searching and downloading books from Library Genesis.
+
+## Screenshots
+
+```zsh
+libgen --in title
+```
+
+![App Screenshot](https://i.postimg.cc/SsHqPcLT/image.png)
+![App Screenshot](https://i.postimg.cc/3wMcz9zD/image.png)
+
+## Installation
+
+Install libgencli with pipx
+
+```bash
+pipx install libgencli
+```
+
+## Configuration
+
+`~/.config/libgen/config.json`
+
+```json
+{
+  "savePath": "~/books",
+  "truncateTitles": true,
+  "maxTitleLength": 50,
+  "style": {
+    "pointer": "fg:#f38ba8 bold",
+    "highlighted": "fg:#490d90 bg:#cba6f7 bold",
+    "question": "fg:#cdd6f4 bold",
+    "text": "fg:#cdd6f4",
+    "answer": "fg:#c6a0f6 bold"
+  }
+}
+```
