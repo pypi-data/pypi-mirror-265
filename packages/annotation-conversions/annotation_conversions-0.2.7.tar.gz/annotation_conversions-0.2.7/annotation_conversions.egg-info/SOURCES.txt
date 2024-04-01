@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+annotation_conversions.egg-info/PKG-INFO
+annotation_conversions.egg-info/SOURCES.txt
+annotation_conversions.egg-info/dependency_links.txt
+annotation_conversions.egg-info/entry_points.txt
+annotation_conversions.egg-info/requires.txt
+annotation_conversions.egg-info/top_level.txt
+labelme2coco/__init__.py
+labelme2coco/cli.py
+labelme2coco/labelme2coco.py
+labelme2coco/utils.py
+tests/__init__.py
+tests/test_unit.py
