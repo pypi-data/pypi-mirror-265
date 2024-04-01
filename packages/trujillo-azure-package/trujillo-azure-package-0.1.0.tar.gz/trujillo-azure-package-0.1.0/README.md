@@ -1,0 +1,30 @@
+# Introducción 
+Paquete que tiene como proposito el brindar clases de permitan utilizar servicios de Microsoft Azure
+
+# Empezando
+Este proyecto cuenta con las siguientes clases:
+1.	Conexión con el servicio Azure Key Vault (KeyVault)
+
+
+# 1. Conexión con el servicio Azure Key Vault (KeyVault)
+```
+import os
+from dotenv import load_dotenv as env
+from trujillo.azure.keyvault import KeyVault
+
+env("environments\.env.keyvault")
+tenant_id=os.environ["TENANT_ID"]
+client_id=os.environ["CLIENT_ID"]
+client_secret=os.environ["CLIENT_SECRET"]
+vault_url=os.environ["KEYVAULT_URL"]
+
+credentials = KeyVault(
+    tenant_id=tenant_id,
+    client_id=client_id,
+    client_secret=client_secret,
+    vault_url=vault_url
+)
+
+secret = credentials.get_secret(secret_name="it-trv-dev1-name-kv")
+print(secret)
+```

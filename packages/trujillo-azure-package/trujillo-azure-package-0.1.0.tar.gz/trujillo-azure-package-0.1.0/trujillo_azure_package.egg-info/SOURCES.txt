@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+trujillo/__init__.py
+trujillo/azure/__init__.py
+trujillo/azure/keyvault.py
+trujillo_azure_package.egg-info/PKG-INFO
+trujillo_azure_package.egg-info/SOURCES.txt
+trujillo_azure_package.egg-info/dependency_links.txt
+trujillo_azure_package.egg-info/requires.txt
+trujillo_azure_package.egg-info/top_level.txt
