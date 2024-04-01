@@ -1,0 +1,15 @@
+odoo/addons/project_task_stage_mgmt/README.rst,sha256=Uv8mERYn_g1ol6Sdy__V2WErpT2iAvQRL8dYF9hpsaY,3201
+odoo/addons/project_task_stage_mgmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/project_task_stage_mgmt/__manifest__.py,sha256=sREcLSaJaK5RfSQTkoLIjhjN_3EfOtNobr-qAOFeS1c,599
+odoo/addons/project_task_stage_mgmt/i18n/it.po,sha256=MAXUEVS49C99poKsR_NLae6RNzzYldGqj1qAcPYdEHY,811
+odoo/addons/project_task_stage_mgmt/i18n/project_task_stage_mgmt.pot,sha256=6r8oSEEmC3gKPd_reVmL1Hu50uGoveD2AKXUjJ3Hsv8,636
+odoo/addons/project_task_stage_mgmt/i18n/pt_BR.po,sha256=kbl_M6HAv3ZIK7qCZf-uahnSAnAyYL9te2YhSBW9pTg,817
+odoo/addons/project_task_stage_mgmt/readme/CONTRIBUTORS.md,sha256=N6ozt5nXqm2yghTQZyummY4O5x63pk26i5pw-yk7uiE,100
+odoo/addons/project_task_stage_mgmt/readme/DESCRIPTION.md,sha256=XhyIuo_KWcA-zZJ8FYhkkzv3Xxdssh7gApz_o9X6vOQ,102
+odoo/addons/project_task_stage_mgmt/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/project_task_stage_mgmt/static/description/index.html,sha256=q-QSuUYbqbYOoaygoJHb08nSNmUTrMTncGFh0kalR3E,12562
+odoo/addons/project_task_stage_mgmt/views/project.xml,sha256=BcWEFN47M5qyPL2Al8NT5RaUW87WlHCoBYjLD2-bD00,2004
+odoo_addon_project_task_stage_mgmt-17.0.1.0.0.2.dist-info/METADATA,sha256=APL9qTi91T34LQ4qFZJXAVsGQDYEb1erWdPmX1iCiVw,3804
+odoo_addon_project_task_stage_mgmt-17.0.1.0.0.2.dist-info/WHEEL,sha256=n-3R37xDTBUi7r4325OZjhJyVIEQGKiCsyQgb8zW73A,81
+odoo_addon_project_task_stage_mgmt-17.0.1.0.0.2.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_project_task_stage_mgmt-17.0.1.0.0.2.dist-info/RECORD,,
