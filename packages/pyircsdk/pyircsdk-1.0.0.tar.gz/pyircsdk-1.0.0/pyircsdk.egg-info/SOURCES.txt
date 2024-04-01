@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+pyircsdk/__init__.py
+pyircsdk/command.py
+pyircsdk/message.py
+pyircsdk/pyircsdk.py
+pyircsdk.egg-info/PKG-INFO
+pyircsdk.egg-info/SOURCES.txt
+pyircsdk.egg-info/dependency_links.txt
+pyircsdk.egg-info/top_level.txt
+pyircsdk/event/__init__.py
+pyircsdk/event/event.py
