@@ -1,0 +1,17 @@
+cgmetadata/__init__.py,sha256=3RzR0ITy7-Az0RZxSBMQzViKkIxtR15IQvg3T0Umj-c,622
+cgmetadata/__main__.py,sha256=wW9Li4s1p_H1tZatQX7rh6IDkhdz2OwZ4KIiZ3BaLDQ,95
+cgmetadata/_version.py,sha256=TnW0aR4o5fAxDGv1jscLuoFdn1YSWhvJ-Qvg5Tjw6kA,50
+cgmetadata/cgmetadata.py,sha256=VkWxcVSYLW_AbL_p7Rfc9OjTe-7RPMF8zFkt4EHGrJM,11027
+cgmetadata/classes.py,sha256=Mk0dLx_PvB5S7dzKYcLD9cPFzdSFf9JxdiX7Y0oePiY,15061
+cgmetadata/cli.py,sha256=gPAo8EfDkPWxgvjI3qN0wzkn_Xm_UL6WxHVLgl9ExkQ,5919
+cgmetadata/constants.py,sha256=3ia4XOC_WJL7tvTgjIqdCAIYYHbKy35HOIXz51c-RYc,364
+cgmetadata/iso6709.py,sha256=zBrj9o3VpHxdPRohpikPpg48mD8AYxAEw_qniatbGuY,2225
+cgmetadata/metadata.py,sha256=w1STeATaxrLsIIXaYaKXkw3HgVBam7TIHfNGwcQEpuc,10959
+cgmetadata/types.py,sha256=X9UeJYwsrYIYZrOHwkaaWKFFjAhlGG6fm0gV9U3p44Y,479
+cgmetadata/utils.py,sha256=-007tYc7EQIRIriENSv7OZo9Tmo3N7O7Dd7gv_H0YVU,4206
+cgmetadata/xmp.py,sha256=-psIaYGh3Gp6l_EXPNyIuuTgE2Ts44IWG_uCdlfW82M,3332
+cgmetadata-0.1.4.dist-info/entry_points.txt,sha256=xrhP7j8b-FN1hEzkQDpq0Pefd8cFXQx3wABMNQ_mG3M,44
+cgmetadata-0.1.4.dist-info/LICENSE,sha256=urqnDM6ACCXwDjNbksDm0YFq9dmw5al6sQgXrrSsFQw,1070
+cgmetadata-0.1.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cgmetadata-0.1.4.dist-info/METADATA,sha256=EyRSTLENchHbLtAQv91ej5XG4zxRENpUivc8LuzbFWQ,5599
+cgmetadata-0.1.4.dist-info/RECORD,,
