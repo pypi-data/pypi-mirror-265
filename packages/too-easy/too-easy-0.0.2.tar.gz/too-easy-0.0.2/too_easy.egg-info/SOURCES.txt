@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+too_easy/__init__.py
+too_easy/py.typed
+too_easy/version.py
+too_easy.egg-info/PKG-INFO
+too_easy.egg-info/SOURCES.txt
+too_easy.egg-info/dependency_links.txt
+too_easy.egg-info/requires.txt
+too_easy.egg-info/top_level.txt
