@@ -1,0 +1,9 @@
+pkg/__init__.py,sha256=aZlgo1xeom7q3BRo3bDqen7wmzRMgLqcnSbLALMXyK4,49
+pkg/auto/__init__.py,sha256=ItU5N2xN3CNVmIjeZ-TC2yvQJWVtRx2Kwr2N_0dTAVg,31
+pkg/auto/auto.py,sha256=SPfUvivAxLflfKcP6jW6zSTMMlv_w3RFxkmP3ha1LpU,3298
+pkg/devices/__init__.py,sha256=ydY9Mg0X_PvCmkM4E9DWauSg39tAdyI6mz3sduCL9pg,33
+pkg/devices/devices.py,sha256=S1Tou0hNTzz3CXwbsamIqo8MPFalp3SYrKPLd5ndW_A,987
+kimchima-0.2.1.dist-info/LICENSE,sha256=Sbljm2F6jir79vb4vjukAygqT4k4nYuwkJnhjO3TDIk,11343
+kimchima-0.2.1.dist-info/METADATA,sha256=D_znygLCCElYVLEFa_sacAR1HdLNw_HqGskRjUuKvxE,1508
+kimchima-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+kimchima-0.2.1.dist-info/RECORD,,
