@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raccoonlab-tools"
+version = "0.0.18"
+authors = [
+  { name="Dmitry Ponomarev", email="PonomarevDA96@gmail.com" },
+]
+description = "RaccoonLab tools"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["cyphal", "dronecan", "can"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+rl-get-info = "raccoonlab_tools.scripts.common.get_info:main"
+rl-get-can-iface = "raccoonlab_tools.scripts.common.get_can_iface:main"
+rl-upload-firmware = "raccoonlab_tools.scripts.common.upload_firmware:main"
+rl-config = "raccoonlab_tools.scripts.dronecan.config:main"
+rl-monitor = "raccoonlab_tools.scripts.cyphal.monitor:main"
+rl-ublox-center = "raccoonlab_tools.scripts.cyphal.ublox_center:main"
+
+rl-test-cyphal-specification = "raccoonlab_tools.scripts.cyphal.test_specification:main"
+
+rl-test-dronecan-gps-mag-baro = "raccoonlab_tools.scripts.dronecan.test_gps_mag_baro:main"
+rl-test-dronecan-lights = "raccoonlab_tools.scripts.dronecan.test_lights:main"
+rl-test-dronecan-specification = "raccoonlab_tools.scripts.dronecan.test_specification:main"
+rl-get-dronecan-params = "raccoonlab_tools.scripts.dronecan.get_params:main"
+rl-set-dronecan-params = "raccoonlab_tools.scripts.dronecan.set_params:main"
+
+[project.urls]
+"Homepage" = "https://github.com/PonomarevDA/tools"
+"Bug Tracker" = "https://github.com/PonomarevDA/tools/issues"
