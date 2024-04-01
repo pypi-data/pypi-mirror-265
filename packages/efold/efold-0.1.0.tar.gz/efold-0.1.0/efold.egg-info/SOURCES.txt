@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+efold.egg-info/PKG-INFO
+efold.egg-info/SOURCES.txt
+efold.egg-info/dependency_links.txt
+efold.egg-info/top_level.txt
