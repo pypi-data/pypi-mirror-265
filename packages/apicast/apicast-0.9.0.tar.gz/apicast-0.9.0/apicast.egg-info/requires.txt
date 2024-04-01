@@ -1,0 +1,16 @@
+beautifulsoup4<5,>=4
+dateparser<2,>=0.7.4
+docopt-ng<0.10,>=0.6
+html-table-extractor<2,>=1
+jsonpickle<4,>=2
+munch<5,>=2.5
+python-slugify<9,>=4
+requests<3,>=2.25.2
+tabulate<0.10,>=0.8
+ttl-cache<2,>=1.6
+tzlocal<6,>=2
+
+[service]
+fastapi<0.111,>=0.55.1
+httpx<1
+uvicorn<=0.29.0

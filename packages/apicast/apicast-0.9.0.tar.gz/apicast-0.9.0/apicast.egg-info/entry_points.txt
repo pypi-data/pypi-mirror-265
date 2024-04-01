@@ -1,0 +1,2 @@
+[console_scripts]
+apicast = apicast.cli:run
