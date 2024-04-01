@@ -1,0 +1,15 @@
+.gitignore
+README.md
+mypy.cfg
+pyproject.toml
+setup.py
+.github/workflows/python-publish.yml
+src/gramps_ql/.gitignore
+src/gramps_ql/__init__.py
+src/gramps_ql/_version.py
+src/gramps_ql/gql.py
+src/gramps_ql.egg-info/PKG-INFO
+src/gramps_ql.egg-info/SOURCES.txt
+src/gramps_ql.egg-info/dependency_links.txt
+src/gramps_ql.egg-info/top_level.txt
+tests/gramps_ql/test_todo.py

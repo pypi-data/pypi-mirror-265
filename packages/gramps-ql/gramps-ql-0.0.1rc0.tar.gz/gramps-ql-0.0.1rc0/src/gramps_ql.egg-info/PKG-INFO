@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gramps-ql
+Version: 0.0.1rc0
+Summary: A Python library to filter Gramps objects by a query syntax
+Author-email: "David M. Straub" <straub@protonmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/DavidMStraub/gramps-ql
+Project-URL: repository, https://github.com/DavidMStraub/gramps-ql
+Description-Content-Type: text/markdown
+
+# GQL &ndash; the Gramps Query Language
+
+
+<!--
+## Install
+
+```bash
+pip install gramps-ql
+```
+
+-->
