@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycascor"
+version = "0.1.2"
+dependencies = [
+  'numpy>=1.8',
+  'matplotlib>=3.0'
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Caroline Simpson", email = "pycascor@hoojiboo.com"},
+]
+maintainers = [
+  {name = "Caroline Simpson", email = "pycascor@hoojiboo.com"}
+]
+description = "Cascade Correlation Network Simulator"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["Cascade Correlation", "neural network", "cascor"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.setuptools]
+packages = ["pycascor"]
+
+[project.urls]
+Repository = "https://gitlab.com/cpsimpson/cascade-correlation-network-simulator"
+"Bug Tracker" = "https://gitlab.com/cpsimpson/cascade-correlation-network-simulator/-/issues"
+
+[options.extras_require]  # in setup.cfg
+dev = ['black', 'isort', 'pip-tools']
+test = ['pytest==8.1.1', 'pytest-runner', 'pip-tools']
