@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: flasky-cli
+Version: 0.1.4
+Summary:  CLI to start Flask projects
+Author-email: jennier0107 <mt3085570450@outlook.com>
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1.7
+Requires-Dist: cookiecutter>=2.6.0
+Requires-Dist: pathvalidate>=3.2.0
+Requires-Dist: questionary>=2.0.1
+Requires-Dist: rich-click>=1.7.4
+Description-Content-Type: text/markdown
+
+# Flask-CLI
+
+'copy' from [Neoteroi/BlackSheep-CLI](https://github.com/Neoteroi/BlackSheep-CLI) .
+
+🛠️ CLI to start [flask](https://github.com/pallets/flask) projects.
+
+- Interactive project scaffolding
+- Support for configuring more [`cookiecutter`](https://github.com/cookiecutter/cookiecutter) project templates
+
+```bash
+pip install flasky-cli
+```
+
+## Project templates
+
+- [cookiecutter-flask](https://github.com/cookiecutter-flask/cookiecutter-flask)
+- [cookiecutter-flask-minimal](https://github.com/candidtim/cookiecutter-flask-minimal)
+- [cookiecutter-flask-skeleton](https://github.com/testdrivenio/cookiecutter-flask-skeleton)
+- [cookiecutter-Flask-Foundation](https://github.com/JackStouffer/cookiecutter-Flask-Foundation)
+
+## Creating a new project
+
+```bash
+flask-cli create
+```
+
+## Listing the project templates
+
+```bash
+flask-cli templates list
+```
+
+With details:
+
+```bash
+flask-cli templates details
+```
+
+
+## Thanks
+
+- [Neoteroi](https://github.com/Neoteroi)
+- [cookiecutter-flask](https://github.com/cookiecutter-flask)
+- [candidtim](https://github.com/candidtim)
+- [testdrivenio](https://github.com/testdrivenio)
+- [JackStouffer](https://github.com/JackStouffer)
