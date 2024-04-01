@@ -1,0 +1,57 @@
+
+
+
+#
+#	docker run -v .:/legumes -v /online:/online -it --name legumes jumps:v2
+#
+
+
+#
+#	how to publish:
+#
+#		python3 structures/modules/legumes/_status/status.proc.py
+#		(rm -rf dist && python3 -m build && twine upload dist/*)
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legumes"
+version = "2.3.12"
+dependencies = [
+	"apoplast",
+	"volts",
+	
+	"click",
+	"rich"
+]
+
+# license = { text = "license" }
+license = { file = "license.txt" }
+
+description = "nutrition goals"
+readme = "structure.txt"
+
+
+[project.scripts]
+#
+#	https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#creating-executable-scripts
+#	from legumes import clique; clique ()
+#
+# 	legumes = "legumes:clique"
+#
+
+[tool.setuptools.packages.find]
+where = [ "structures/modules" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.html" ]
+
+
+
+
