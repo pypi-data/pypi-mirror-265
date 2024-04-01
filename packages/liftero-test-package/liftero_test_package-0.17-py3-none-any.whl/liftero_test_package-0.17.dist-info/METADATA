@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: liftero-test-package
+Version: 0.17
+Summary: Dedicated package for parsing, analysis and plotting test results data
+Author: Tomasz Palacz
+Author-email: tomasz@liftero.com
+License: MIT
+Keywords: rocket engine test analysis
+
