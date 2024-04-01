@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DependencyNeedle
+Version: 0.0.1
+Summary: Dependency Injection Container
+Author: Abdelrahman Torky
+Author-email: 24torky@email.com
+Keywords: python,Dependency Injection,Dependency Injection Container,Inversion of Control,Clean Architecture
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+
+Dependancy injection container to automate inversion of control.
