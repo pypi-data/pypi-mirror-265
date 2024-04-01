@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: scConGraph
+Version: 0.1.18
+Summary: A scalable cross-time Context Graph model for reconstructing tumor cell dynamic responses from single-cell perturbation transcriptomics.
+Home-page: https://github.com/Li-Xinqi/scConGraph.git
+Author: Xinqi Li
+Author-email: lxq19@mails.tsinghua.edu.cn
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: networkx >=2.6.3
+Requires-Dist: matplotlib >=3.5.1
+Requires-Dist: numpy >=1.21.5
+Requires-Dist: pandas >=1.2.4
+Requires-Dist: seaborn >=0.11.1
+Requires-Dist: scipy >=1.7.3
+Requires-Dist: scanpy >=1.9.3
+Requires-Dist: scikit-learn >=1.0.2
+Requires-Dist: community >=1.0.0b1
+
+# scConGraph: a scalable cross-time Context Graph model
+scConGraph is a scalable bi-layer graph model that efficiently **integrates cross-time context information**, enabling the comprehensive analysis of **tumor cell dynamic responses** from **paired perturbed or time-seiries single-cell transcriptomics**.
+
+<p align="center">
+  <img width="800"  src="https://github.com/Li-Xinqi/scConGraph/assets/53567070/bf948041-ed83-4df8-b487-ebe81c6e9a43">
+</p>
+
+## System requirements
+scConGraph is now available for Linux, with a Windows version planned for recent release. scConGraph requires only a standard computer with enough RAM to perform in-memory computations.
+
+## Installation
+CINEMA-OT requires `python` version 3.7+.  Install directly from pip with:
+
+    pip install scConGraph
+    
+The LINE toolkit achieved in LINUX version should be downloaded and installed from https://github.com/tangjianpku/LINE.git before using scConGraph. 
+
+## Tutorial
+The vignette of `scConGraph` can be found in the project [wiki](https://github.com/Li-Xinqi/scConGraph/wiki).
