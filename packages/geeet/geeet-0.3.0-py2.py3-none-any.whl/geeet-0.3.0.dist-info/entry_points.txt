@@ -1,0 +1,2 @@
+[console_scripts]
+geeet-ctseb = geeet.eepredefined.cmd_utils:ctseb
