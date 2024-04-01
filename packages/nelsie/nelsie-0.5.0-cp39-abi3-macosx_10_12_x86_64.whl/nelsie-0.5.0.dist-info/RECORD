@@ -1,0 +1,16 @@
+nelsie-0.5.0.dist-info/METADATA,sha256=kTnB3Y6KTIb6Y9dqGno1rc-6xTsJRzU8JI9nqj4O4aQ,2614
+nelsie-0.5.0.dist-info/WHEEL,sha256=H05GotBXFUGysofgNmIk4o21UFRdaR3rOSFkQByT4MM,104
+nelsie-0.5.0.dist-info/license_files/LICENSE,sha256=M2-s6v1c0zHeAYyXKvOzeJHa5ga1EtdTYlpeFdHq-BY,1073
+nelsie/basictypes.py,sha256=59ILK3W9IQ2RtQs3q7AWBNlD-r_jarVIn0aVffhJ_Dc,991
+nelsie/box.py,sha256=ft6tm6Tr5QloglhqFZJH2tmyssyvGgsczldFrrd_2PA,16753
+nelsie/shapes.py,sha256=fN0lk0mhekgNTES7JZD-lemYzkMORr1Y5O9ZQDlVc_U,2706
+nelsie/__init__.py,sha256=t4Qy0KT7gw8ZlfMMGR3P7AstBpOxE07AgnE8QudY8LM,521
+nelsie/layoutexpr.py,sha256=aA2Y8ediSyPrxOcxSkrQi6e0FOQPG3TEoi6Ok7dZ6gI,2169
+nelsie/insteps.py,sha256=B-rseGIvtYDZBAw0HFpidZ1SZoLX90km8vSLn8aAVjs,2499
+nelsie/slidedeck.py,sha256=nubl9aN8BSI84Dx2WM906RPj_CLPfGImKdmmpeirXaY,6035
+nelsie/utils.py,sha256=mcokZy9xdp1hQ5_SD0ETJRCFdqndiBjRrdqWqRHC7WY,153
+nelsie/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nelsie/helpers/list.py,sha256=jvSWIyh2MA3danxX7btyZCjeq2wBcU1iJK6nJBIcrP4,1952
+nelsie/textstyle.py,sha256=3mNdI1ZsZN821GmqTI6azxHOpq3bPfD5Qsx0VyldRE4,1594
+nelsie/nelsie.abi3.so,sha256=aI4SzkZEDuncvHHe1DJzmgts-BlqnALsFuW3HMs1UAk,6554712
+nelsie-0.5.0.dist-info/RECORD,,
