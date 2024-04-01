@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+mximport/__info__.py
+mximport/__init__.py
+mximport/main.py
+mximport.egg-info/PKG-INFO
+mximport.egg-info/SOURCES.txt
+mximport.egg-info/dependency_links.txt
+mximport.egg-info/top_level.txt
