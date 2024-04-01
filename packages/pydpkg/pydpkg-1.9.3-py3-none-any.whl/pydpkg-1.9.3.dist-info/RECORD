@@ -1,0 +1,11 @@
+pydpkg/__init__.py,sha256=8n1Qe9z3AJ2Kobd1uQYfciwTTeCLcC9qi9QGMUHoGLk,178
+pydpkg/base.py,sha256=rWZciVmPmsdTtFx8ICZDDCiuYQEsfDS1vU5mKvRRIaM,579
+pydpkg/dpkg.py,sha256=21iw5sBNaZFH7ppKaRwa2yeHTlYXIOMAt5j8UT_vVSM,19004
+pydpkg/dpkg_inspect.py,sha256=--Fh_WMaaHN6qFXeq3znRKh0zk9ahrEKzNE8r6twKaM,1426
+pydpkg/dsc.py,sha256=aYCAuYpPbnuiW1uWJz8gPA9JsFXJ-OEoQJXxjy2WTz4,11433
+pydpkg/exceptions.py,sha256=eNGle7dPK7prOBKZecrOQgFylExTOzPVZjI-ZfiJRWE,898
+pydpkg-1.9.3.dist-info/LICENSE.txt,sha256=AkjZxXwrtOnbvFFHR_zMvYZK62alX8pkEfHh2hYcyGg,657
+pydpkg-1.9.3.dist-info/METADATA,sha256=AQnnp6-AYENbNBERfxIJfNJea77RasYOWj6k7YUkXwA,12303
+pydpkg-1.9.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydpkg-1.9.3.dist-info/entry_points.txt,sha256=7TMsoEg91-QWEDFQxMf0OrsfU-HIAVitnD-E6dfdvmA,57
+pydpkg-1.9.3.dist-info/RECORD,,
