@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pylabelbase/__init__.py
+pylabelbase/api.py
+pylabelbase.egg-info/PKG-INFO
+pylabelbase.egg-info/SOURCES.txt
+pylabelbase.egg-info/dependency_links.txt
+pylabelbase.egg-info/requires.txt
+pylabelbase.egg-info/top_level.txt
