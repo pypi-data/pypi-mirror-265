@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw/__init__.py
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw/py.typed
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw.egg-info/PKG-INFO
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw.egg-info/SOURCES.txt
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw.egg-info/dependency_links.txt
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw.egg-info/requires.txt
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw.egg-info/top_level.txt
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw/_jsii/__init__.py
+src/cdk_cloudformation_paloaltonetworks_cloudngfw_ngfw/_jsii/paloaltonetworks-cloudngfw-ngfw@2.0.0-alpha.7.jsii.tgz
