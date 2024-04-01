@@ -1,0 +1,118 @@
+
+
+.. rubric:: Related examples
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbnails">
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="The following example attends to make a qualitative comparison between the different over-sampl...">
+
+.. only:: html
+
+  .. image:: /auto_examples/over-sampling/images/thumb/sphx_glr_plot_comparison_over_sampling_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_over-sampling_plot_comparison_over_sampling.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Compare over-sampling samplers</div>
+    </div>
+
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_over-sampling_plot_comparison_over_sampling.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example shows the effect of applying an under-sampling algorithms after SMOTE over-samplin...">
+
+.. only:: html
+
+  .. image:: /auto_examples/combine/images/thumb/sphx_glr_plot_comparison_combine_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_combine_plot_comparison_combine.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Compare sampler combining over- and under-sampling</div>
+    </div>
+
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_combine_plot_comparison_combine.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="The following example attends to make a qualitative comparison between the different under-samp...">
+
+.. only:: html
+
+  .. image:: /auto_examples/under-sampling/images/thumb/sphx_glr_plot_comparison_under_sampling_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_under-sampling_plot_comparison_under_sampling.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Compare under-sampling samplers</div>
+    </div>
+
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_under-sampling_plot_comparison_under_sampling.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="An example of the :class:~imblearn.pipeline.Pipeline` object (or make_pipeline helper function)...">
+
+.. only:: html
+
+  .. image:: /auto_examples/pipeline/images/thumb/sphx_glr_plot_pipeline_classification_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_pipeline_plot_pipeline_classification.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Usage of pipeline embedding samplers</div>
+    </div>
+
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_pipeline_plot_pipeline_classification.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Specific metrics have been developed to evaluate classifier which has been trained using imbala...">
+
+.. only:: html
+
+  .. image:: /auto_examples/evaluation/images/thumb/sphx_glr_plot_metrics_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_evaluation_plot_metrics.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Metrics specific to imbalanced learning</div>
+    </div>
+
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_evaluation_plot_metrics.py`
+
+.. raw:: html
+
+    </div>
+
