@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cvutils_IGNchinmay
+Version: 0.0.1
+Summary: A small CV test package
+Author-email: Chinmay <chinmayananda.sahu@ignitarium.com>
+Project-URL: Homepage, https://github.com/jerinkantony/ignutils
+Project-URL: Issues, https://github.com/jerinkantony/ignutils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.23.0
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+Requires-Dist: docker
+Requires-Dist: imgaug
