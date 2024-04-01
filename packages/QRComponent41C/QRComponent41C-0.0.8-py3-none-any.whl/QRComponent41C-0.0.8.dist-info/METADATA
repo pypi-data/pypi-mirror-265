@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: QRComponent41C
+Version: 0.0.8
+Summary: QRComponent41C is a Python library for working with QR codes in 1C:Enterprise 8.3.
+Home-page: https://github.com/Absolemus/QRfor1CComponent
+Author: vissarion249
+Author-email: vissarion249@gmail.com
+Project-URL: GitHub, https://github.com/Absolemus/QRfor1CComponent
+Keywords: 1C:Enterprise 8.3,QR code,qrcode,Pillow
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: qrcode >=7.4.2
+Requires-Dist: Pillow >=10.2.0
+
