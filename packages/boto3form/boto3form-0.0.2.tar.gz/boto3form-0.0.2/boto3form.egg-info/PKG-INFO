@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: boto3form
+Version: 0.0.2
+Summary: Create and delete aws ecr repository using python boto3 like terraform 
+Home-page: https://github.com/rukmalsenavirathne/aws_python_boto3
+Author: Rukmal Senavirathne
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+
+How to use this package ??
+* There is example in test.py file
+* Change the ecr repository properties using function parameters.
+* Run test.py file using below command
+
+1. python test.py create - This will create the ecr repository.
+2. python test.py delete - This will delete the ecr repository. 

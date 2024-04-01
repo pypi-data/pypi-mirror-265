@@ -1,0 +1,12 @@
+README.md
+setup.py
+boto3form/__init__.py
+boto3form.egg-info/PKG-INFO
+boto3form.egg-info/SOURCES.txt
+boto3form.egg-info/dependency_links.txt
+boto3form.egg-info/requires.txt
+boto3form.egg-info/top_level.txt
+boto3form/aws_ecr/__init__.py
+boto3form/aws_ecr/ecr.py
+boto3form/aws_s3/__init__.py
+boto3form/aws_s3/s3.py
