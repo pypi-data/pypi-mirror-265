@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+src/csv2database.egg-info/PKG-INFO
+src/csv2database.egg-info/SOURCES.txt
+src/csv2database.egg-info/dependency_links.txt
+src/csv2database.egg-info/entry_points.txt
+src/csv2database.egg-info/requires.txt
+src/csv2database.egg-info/top_level.txt
