@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: agin
+Version: 1.0.6
+Summary: agin python SDK
+Author: 
+Author-email: 
+Requires-Dist: http.client

@@ -1,0 +1,10 @@
+README.md
+setup.py
+agin/__init__.py
+agin/agin.py
+agin.egg-info/PKG-INFO
+agin.egg-info/SOURCES.txt
+agin.egg-info/dependency_links.txt
+agin.egg-info/requires.txt
+agin.egg-info/top_level.txt
+tests/test.py
