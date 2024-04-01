@@ -1,0 +1,52 @@
+[project]
+name = "varformat"
+version = "1.0.0"
+authors = [
+    { name = "Anna Zhukova" }
+]
+description = "Format an parse strings with ${variables} of any syntax."
+readme = "README.md"
+# license =  # specified in classifiers
+keywords = ["string", "interpolation", "variable", "shell", "format", "parse"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+	"Topic :: Text Processing",
+	"Typing :: Typed"
+]
+
+
+requires-python = ">=3.8"
+dependencies = [
+	"regex",
+    "typing-extensions; python_version < '3.10'"
+]
+
+[project.urls]
+Repository = "https://github.com/bindreams/varformat"
+Issues = "https://github.com/bindreams/varformat/issues"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = "missing-function-docstring, too-many-arguments, too-many-locals"
+max-line-length = 120
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "--import-mode=importlib",
+    "--doctest-modules",
+    "--doctest-glob=README.md",
+    "--ignore-glob=scripts"
+]
+doctest_optionflags = "ELLIPSIS"
+
+[tool.black]
+line-length = 120
