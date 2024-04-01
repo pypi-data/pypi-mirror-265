@@ -1,0 +1,2 @@
+[console_scripts]
+libgen = libgencli.cli:search_books
