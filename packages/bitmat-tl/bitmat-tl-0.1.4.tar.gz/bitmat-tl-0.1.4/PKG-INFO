@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bitmat-tl
+Version: 0.1.4
+Summary: An efficent implementation for the paper: "The Era of 1-bit LLMs"
+Home-page: https://github.com/astramind-ai/BitMat/tree/main
+Author: Marco Lironi
+Author-email: marcolironi@astramind.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: triton
+Requires-Dist: transformers
+Requires-Dist: bitsandbytes
+Requires-Dist: numpy
+
+# astramind
+ A python Package which has a pytorch implementation of the paper: "The 1bit-LLM era"
