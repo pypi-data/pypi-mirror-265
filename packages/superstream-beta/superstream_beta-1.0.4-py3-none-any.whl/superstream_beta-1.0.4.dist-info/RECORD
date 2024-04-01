@@ -1,0 +1,14 @@
+superstream/__init__.py,sha256=iQGSuNMypo56PAFrnvkAL4Kj3Kl4rm9bnMKlQYP6jBc,97
+superstream/client.py,sha256=XWHyO9wlzXQSxH4eKifi4JXl8W1EQU0epbT1Fovbrl4,8603
+superstream/connection.py,sha256=J2JAdlZ2kQkiH7Jw0Pr04akpVmxYGOZjyfgWPxF9ROg,8190
+superstream/constants.py,sha256=qIplIyDU6ypc_JXWL3I2Cglhn4OaUcHNpPQW0dU1sIk,793
+superstream/exceptions.py,sha256=5ucT6Iwjy0rPAZdtvZehLUAoPR5s8xSO7pICnIW-7mY,176
+superstream/interceptors.py,sha256=hsuP_Pk9zLLDbCPHtleKs1RwZce4yJnr05H4x6AYgNY,8776
+superstream/manager.py,sha256=eNK4BaMkdlwFHA7BBwU8JFAqHcl5cG9Jo8s9uX72Mco,1636
+superstream/subscription.py,sha256=gHWqA1HBiKpY0aiL9iaE4-bg157pXHbL5o0CeeqY4UI,2157
+superstream/types.py,sha256=MuHrKkN4rkSLllM34GKypNZsRSaA_QlY_uNE4JEAv0o,2643
+superstream/utils.py,sha256=pLxyk0lmRpKO4u_quE2StHMpylKIL6Kk2MTAgwMQtwk,2000
+superstream_beta-1.0.4.dist-info/METADATA,sha256=0bDQ-mMqCy_sTzeRBN-Uj8Pha4Rlu0aTZVRaDdK7aT8,2196
+superstream_beta-1.0.4.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+superstream_beta-1.0.4.dist-info/licenses/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+superstream_beta-1.0.4.dist-info/RECORD,,
