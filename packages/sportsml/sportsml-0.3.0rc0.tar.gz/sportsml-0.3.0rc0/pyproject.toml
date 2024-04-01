@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling >= 1.13.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sportsml"
+description = "ML for sports"
+readme = "README.md"
+requires-python = ">=3.8"
+license-files = { paths = ["LICENSE"] }
+dynamic = ["version"]
+dependencies = [
+    "captum",
+    "dgl",
+    "google-cloud-storage",
+    "hydra-core",
+    "httpx",
+    "lightning",
+    "nba_api",
+    "networkx",
+    "numpy",
+    "mlflow",
+    "pandas",
+    "pyarrow",
+    "pydantic",
+    "pymongo[srv]",
+    "requests",
+    "scikit-learn",
+    "seaborn",
+    "torch<=2.1",
+    "torchmetrics",
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+  "*.yaml",
+]
+packages = ["src/sportsml"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "*.yaml",
+]
+packages = ["src/sportsml"]
+
+[tool.hatch.version]
+path = "src/sportsml/__init__.py"
+
+[project.scripts]
+cfb_mongo_upload = "sportsml.cfb.data.download:mongo_upload"
+nba_mongo_upload = "sportsml.nba.data.download:mongo_upload"
+nfl_mongo_upload = "sportsml.nfl.data.download:mongo_upload"
+odds_upload = "sportsml.odds.utils:mongo_upload"
+train = "sportsml.cli.train.train:train"
+predict = "sportsml.cli.predict.predict:predict"
