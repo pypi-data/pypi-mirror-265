@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+statfit/__init__.py
+statfit/gaussian_fit.py
+statfit.egg-info/PKG-INFO
+statfit.egg-info/SOURCES.txt
+statfit.egg-info/dependency_links.txt
+statfit.egg-info/requires.txt
+statfit.egg-info/top_level.txt
+tests/__init__.py
+tests/test_gaussian_fit.py
