@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+streamlit_component_fill_square_cropper101/__init__ - Copy.py
+streamlit_component_fill_square_cropper101/__init__.py
+streamlit_component_fill_square_cropper101/fill_square_cropper.py
+streamlit_component_fill_square_cropper101.egg-info/PKG-INFO
+streamlit_component_fill_square_cropper101.egg-info/SOURCES.txt
+streamlit_component_fill_square_cropper101.egg-info/dependency_links.txt
+streamlit_component_fill_square_cropper101.egg-info/requires.txt
+streamlit_component_fill_square_cropper101.egg-info/top_level.txt
