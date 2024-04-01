@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: logs-ingestion
+Version: 0.2.0
+Summary: Package for logging to Azure Logs Ingestion API using decorators and regular logging statements.
+License: Apache
+Author: Richard Kooijman
+Author-email: kooijman.richard@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: azure-core (==1.30.1)
+Requires-Dist: azure-identity (==1.15.0)
+Requires-Dist: azure-monitor-ingestion (==1.0.3)
+Requires-Dist: pydantic (==2.6.4)
+Description-Content-Type: text/markdown
+
+## Introduction
+
+This logs_ingestion package provides several methods for logging data into Azure Monitor using the Logs Ingestion API.
+
+The following attributes are part of the logging with the coding attribute names between brackets:
+- _TimeGenerated_ (time_generated): the datetime the logging entry was created (required) 
+- _Message_ (message): the message of the log entry (optional)
+- _Duration_ (duration): the duration of the function in case the decorator is used (optional)
+- _Status_ (status): the status of the system (optional)
+- _RunId_ (run_id): the run ID of the flow that is being processed (required)
+- _Tag_ (tag): the tag for grouping log entries (required)
+
+The attribute `TimeGenerated` is automatically set for you. The `RunId` and `Tag` are part of the configuration of the logger you need to create and only need to be set once per logger.
+
+
+## Usage
+
+You'll need a `logger` to perform the actual logging:
+```python
+logger: Logger = get_logger(__name__, run_id="42", tag="logger1")
+```
+With the logger instantiation you'll also set the `RunId` and `Tag` to be used in all logging entries as generated through this logger.
+
+The first method for logging information is by using a decorator in your Python code:
+```python
+@time_and_log(logger=logger, message="bla", status="timed")
+def my_function():
+    pass
+```
+Whenever the `my_function()` is called a log entry is created with when the function end that automatically includes the duration of the function call. This is a convenient way for monitoring the performance of functions and the possible drift in processing times. 
+With the `message` and `status` arguments you can add additional details to the message logged.
+
+The second method is by calling the usual logging lines, for example:
+```python
+from logs_ingestion.logs_record import LogsRecord
+logger.warning(message='testing azure logging', record=LogsRecord(
+               status="OK",
+               duration=1.23))
+```
+The arguments are:
+- `message`, speaks for itself
+- `record`, the record(s) to be logged
+
+The `record` argument must be either a `LogsRecord` or a list of `LogsRecord`s.
+By using a list, you can simply log a whole batch of log records in one command. The `rund_id` and `tag` from the logger are pushed down to the individual log messages.
+
