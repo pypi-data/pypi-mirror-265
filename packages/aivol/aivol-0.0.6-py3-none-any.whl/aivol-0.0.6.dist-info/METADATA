@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aivol
+Version: 0.0.6
+Summary: Utilities for AI volumes
+Author-email: Dmitry Galchinsky <galchinsky@borisfx.com>
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML >=5.4
+Requires-Dist: pandas >=1.1
+
+Aivol is a Python package for handling AI volumes
