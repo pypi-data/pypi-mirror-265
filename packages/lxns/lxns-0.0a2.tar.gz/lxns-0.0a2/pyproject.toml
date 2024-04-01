@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: MPL-2.0
+# SPDX-FileCopyrightText: 2023 igo95862
+[project]
+name = "lxns"
+version = "0.0.alpha2"
+description = "Python library to interact with Linux kernel namespaces."
+readme = "README.md"
+license = {file = "LICENSES/MPL-2.0.txt"}
+authors = [
+    {name = "igo95862"}
+]
+
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python']
+
+[tool.codespell]
+skip = "venv,build"

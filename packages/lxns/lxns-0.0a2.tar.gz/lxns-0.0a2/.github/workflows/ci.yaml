@@ -1,0 +1,30 @@
+# SPDX-License-Identifier: MPL-2.0
+# SPDX-FileCopyrightText: 2024 igo95862
+---
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  linters:
+    name: Run source code linters
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/archlinux:latest
+    steps:
+      - name: Install linters
+        run: |
+          pacman --noconfirm -Syu \
+            reuse python-pyflakes python-black \
+            python-isort mypy codespell git
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Add safe git directory
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Run linters
+        run: |
+          python3 tools/run_linters.py
