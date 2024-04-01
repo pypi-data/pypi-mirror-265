@@ -1,0 +1,8 @@
+setup.py
+edad/__init__.py
+edad/edad.py
+edad.egg-info/PKG-INFO
+edad.egg-info/SOURCES.txt
+edad.egg-info/dependency_links.txt
+edad.egg-info/requires.txt
+edad.egg-info/top_level.txt
