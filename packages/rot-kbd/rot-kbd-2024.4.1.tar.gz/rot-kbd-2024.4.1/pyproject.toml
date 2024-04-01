@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rot-kbd"
+version = "2024.4.1"
+authors = [
+    {name="Alex Willmer", email="alex@moreati.org.uk"},
+]
+description = "A terrible encryption scheme, like rot13 but keyboards"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "dvorak",
+    "qwerty",
+]
+
+[project.urls]
+Homepage = "https://github.com/moreati/rot-kbd"
+Issues = "https://github.com/moreati/rot-kbd/issues"

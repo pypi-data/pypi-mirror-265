@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/rot_kbd.py
+src/rot_kbd.egg-info/PKG-INFO
+src/rot_kbd.egg-info/SOURCES.txt
+src/rot_kbd.egg-info/dependency_links.txt
+src/rot_kbd.egg-info/top_level.txt
