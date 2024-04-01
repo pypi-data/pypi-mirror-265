@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/matchmatrix/__init__.py
+src/matchmatrix/constants.py
+src/matchmatrix/functions.py
+src/matchmatrix/manager.py
+src/matchmatrix.egg-info/PKG-INFO
+src/matchmatrix.egg-info/SOURCES.txt
+src/matchmatrix.egg-info/dependency_links.txt
+src/matchmatrix.egg-info/top_level.txt

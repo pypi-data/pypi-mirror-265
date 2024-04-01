@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matchmatrix"
+version = "2.0.1"
+authors = [
+  { name="Port Verte", email="porte_verte@outlook.com" },
+]
+description = "Customisable class to produce a matrix of match scores across multiple dimensions"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/porteverte/matchmatrix"
+Issues = "https://github.com/porteverte/matchmatrix/issues"
