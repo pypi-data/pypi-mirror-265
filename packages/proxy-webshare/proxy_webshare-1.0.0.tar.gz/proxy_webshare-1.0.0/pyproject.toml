@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "proxy-webshare"
+version = "1.0.0"
+description = ""
+authors = ["Antoni Oktha Fernandes <37358597+DesKaOne@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "proxy_webshare"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sqlalchemy = "^2.0.29"
+sqlalchemy-utils = "^0.41.2"
+http-injector = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
