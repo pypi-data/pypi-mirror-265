@@ -1,0 +1,14 @@
+task2md/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task2md/task2md.py,sha256=AoCIV0xE3-a5WibvXNGqLpaWDxZXQsVIIOwtmj3lq7U,3328
+task2md/task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task2md/task/file.py,sha256=09YxIXDgQShrnLdvMPh-yoB4UCjbOlbFxPYm-FgsgpQ,7466
+task2md/task/header.py,sha256=MY_uqIGgFPY6cGVs52ZegPtD0Szq0-Tq6PxTshl7Pgc,2180
+task2md/task/task.py,sha256=wrYNAql_LZhS9YVEj85OIjVcjF8ZdChenO-zb1dqUYc,4314
+task2md/task/variable.py,sha256=jSmG9jHeyHz7_gEu2bY2LYvJGBG_NRo1HRjfypM44FQ,713
+task2md/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task2md/util/dir.py,sha256=2MeWmhMGkxFiJuZI6xcf71YRhhqBq1HqbDI4tKc2FOc,965
+task2md-1.0.0.dist-info/METADATA,sha256=TtuyDxej0KNYgjEncpnmVje-nWsFDlaPY8ewRxvltAI,3686
+task2md-1.0.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+task2md-1.0.0.dist-info/entry_points.txt,sha256=zXCjf5tbisw5ZzMarzBDlSkNgzV1YDsMx3s8h9azjkc,48
+task2md-1.0.0.dist-info/licenses/LICENSE,sha256=6j37YDpY2ikwX8yV80eUpAGPDShonchJW9nyFpqAGKM,1095
+task2md-1.0.0.dist-info/RECORD,,
