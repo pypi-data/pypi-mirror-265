@@ -1,0 +1,9 @@
+{% from 'macros/render_block.html' import render_block %}
+{% extends 'base.html' %}
+
+{% block body %}
+{{ render_block(title) }}
+{% for block in content -%}
+{{ render_block(block) }}
+{% endfor -%}
+{% endblock %}
