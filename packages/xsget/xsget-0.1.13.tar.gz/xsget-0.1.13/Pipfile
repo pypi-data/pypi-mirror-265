@@ -1,0 +1,50 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiofiles = "*"
+aiohttp = "*"
+babel = "*"
+bs4 = "*"
+cssselect = "*"
+lxml = "*"
+natsort = "*"
+playwright = "*"
+regex = "*"
+tomlkit = "*"
+user-agent = "*"
+watchdog = "*"
+xsget = {editable = true, path = "."}
+
+[dev-packages]
+aioresponses = "*"
+flake8 = "*"
+flake8-docstrings = "*"
+flake8-print = "*"
+flake8-pytest-style = "*"
+flake8-simplify = "*"
+pre-commit = "*"
+pylint = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+pytest-playwright = "*"
+pytest-randomly = "*"
+pytest-xdist = "*"
+scripttest = "*"
+tox = "<4"
+tox-pyenv = "*"
+types-aiofiles = "*"
+xsget = {editable = true, path = "."}
+
+[doc]
+myst-parser = "*"
+sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-autodoc-typehints = "*"
+sphinx-copybutton = "*"
+
+[requires]
+python_version = "3.8"

@@ -1,0 +1,8 @@
+#: /home/ang/src/self/xsget/xsget/xsget/xstxt.py:351
+msgid "title:"
+msgstr ""
+
+#: /home/ang/src/self/xsget/xsget/xsget/xstxt.py:352
+msgid "author:"
+msgstr ""
+
