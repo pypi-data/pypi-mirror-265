@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+libgencli/__init__.py
+libgencli/cli.py
+libgencli.egg-info/PKG-INFO
+libgencli.egg-info/SOURCES.txt
+libgencli.egg-info/dependency_links.txt
+libgencli.egg-info/entry_points.txt
+libgencli.egg-info/requires.txt
+libgencli.egg-info/top_level.txt
+libgencli/common/__init__.py
+libgencli/common/utils.py
+libgencli/services/__init__.py
+libgencli/services/libgen.py
