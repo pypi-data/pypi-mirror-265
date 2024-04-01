@@ -1,0 +1,11 @@
+mlossp/__init__.py,sha256=PAhArlmnPXLvZ245s0mreqGC-M8OvVn67Sqf9wWM23A,67
+mlossp/converter.py,sha256=jwnw-do0txEYzvYCLPaD3zy7IyqVNwCaooXwoRzHd1A,3269
+mlossp/dataloader.py,sha256=pRZskbPySMvvl63LwGQ06H_avE1180fG0uin35uvIpY,2592
+mlossp/globals.py,sha256=VX2mCCI1IdZTn-UD8962QtzVMdXow1I-QC-jIKtEEAM,1326
+mlossp/preprocessor.py,sha256=PxWEFs56Q9EbU_EBC5gNZxux1FiyuHT7xLxws04FRfc,11345
+mlossp/formatters/__init__.py,sha256=9d5rpay0aHndpq0oUHMPup6U0wjnfLmwuEd_QlFHRTU,25
+mlossp/formatters/formatters.py,sha256=C6ist4ZZyE4r5BdzinUkd4KoCdcHafwlNgE1lOiaejU,4249
+mlossp-2.3.post1.dist-info/METADATA,sha256=Tq1mG4oUPmeesQkAyGKJWkGN1uHXizAZJxqXSaDmri0,22326
+mlossp-2.3.post1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+mlossp-2.3.post1.dist-info/licenses/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+mlossp-2.3.post1.dist-info/RECORD,,
