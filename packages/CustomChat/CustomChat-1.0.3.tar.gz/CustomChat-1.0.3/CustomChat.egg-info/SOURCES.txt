@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CustomChat.egg-info/PKG-INFO
+CustomChat.egg-info/SOURCES.txt
+CustomChat.egg-info/dependency_links.txt
+CustomChat.egg-info/requires.txt
+CustomChat.egg-info/top_level.txt
