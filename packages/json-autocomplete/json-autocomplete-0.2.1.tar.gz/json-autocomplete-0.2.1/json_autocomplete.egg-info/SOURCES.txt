@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+json_autocomplete/__init__.py
+json_autocomplete/json.cpp
+json_autocomplete/json.h
+json_autocomplete/json_autocomplete.cpp
+json_autocomplete/json_autocomplete.pyx
+json_autocomplete.egg-info/PKG-INFO
+json_autocomplete.egg-info/SOURCES.txt
+json_autocomplete.egg-info/dependency_links.txt
+json_autocomplete.egg-info/top_level.txt
