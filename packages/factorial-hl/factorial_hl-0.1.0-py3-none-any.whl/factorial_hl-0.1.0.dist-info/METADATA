@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: factorial-hl
+Version: 0.1.0
+Summary: 
+Author: Khánh Võ Trần Quốc
+Author-email: 102220069@sv1.dut.udn.vn
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: streamlit (>=1.32.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+
