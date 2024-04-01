@@ -1,0 +1,86 @@
+Metadata-Version: 2.3
+Name: piah
+Version: 0.1.0
+Summary: automatically parse PDF's and texts to dataclasses
+Project-URL: Documentation, https://github.com/fabiobarkoski/piah#readme
+Project-URL: Issues, https://github.com/fabiobarkoski/piah/issues
+Project-URL: Source, https://github.com/fabiobarkoski/piah
+Author-email: fabiobarkoski <fabiobarkoskii@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: ai,dataclass,parser,piah
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: litellm
+Requires-Dist: pypdf
+Requires-Dist: python-dotenv
+Requires-Dist: structlog
+Requires-Dist: tiktoken
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# piah
+
+[![PyPI - Version](https://img.shields.io/pypi/v/piah.svg)](https://pypi.org/project/piah)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/piah.svg)](https://pypi.org/project/piah)
+
+-----
+
+Piah automatically parse the data from PDF's or texts based only in the [dataclass](https://docs.python.org/3/library/dataclasses.html#module-dataclasses) that you provide and return the same [dataclass](https://docs.python.org/3/library/dataclasses.html#module-dataclasses) fullfilled with the values.
+Piah is based in the [OxyParser](https://github.com/oxylabs/OxyParser/)
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Example](#example)
+- [TODO](#todo)
+- [Know Issues](#know-issues)
+- [License](#license)
+
+## Installation
+
+```console
+pip install piah
+```
+
+## Example
+```python
+from piah import Piah
+from dataclasses import dataclass
+
+@dataclass
+class Person:
+  name: str
+  age: int
+
+parser = Piah("gpt-3.5-turbo")
+result = parser.parse("Hello Iam python and I have 33 years old", Person)
+```
+to parse PDF's:
+```python
+result = parser.parse("example.pdf", Person)
+#or
+result = parser.parse(Path("example.pdf"), Person)
+```
+
+## TODO
+- [ ] Write docstrings
+- [ ] Improve allowed types
+- [ ] Improve system prompt
+
+## Know Issues
+Seems that `piah` don't pass every time in the test, because the LLM don't parse
+correctly every time large PDF's
+
+## License
+
+`piah` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
