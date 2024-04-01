@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: streamlit_component_fill_square_cropper101
+Version: 0.0.5
+Summary: streamlit_component_fill_square_cropper, adds a filler when needed of the avg color pixel.
+Home-page: https://github.com/webdevserv/streamlit_component_fill_square_cropper101
+Author: Idoia Lertxundi
+Author-email: idoiagoikoa@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: streamlit
+
+# Streamlit - Component Square Fill Cropper Component
+
+Streamlit Component Squares image with the adecuate color filler
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webdevserv-portfolio-idoia-icodeidoia-portfolio-9kblei.streamlit.app/a_LIVE_Square_Filler_app)
+
+# installation
+
+pip install streamlit-component-square-fill-cropper1-webdevserv
+
+
+# use
+
+import streamlit as st
+from streamlit_component_square_fill_cropper1_webdevserv import square_fill_cropper as scropper
