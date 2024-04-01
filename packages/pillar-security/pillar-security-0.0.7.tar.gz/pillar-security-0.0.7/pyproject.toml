@@ -1,0 +1,11 @@
+[project]
+name = "pillar-security"
+readme = "README.md"
+version = "0.0.7"
+dependencies = [
+    'wrapt>=1.16.0',
+]
+requires-python = ">=3.10"
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
