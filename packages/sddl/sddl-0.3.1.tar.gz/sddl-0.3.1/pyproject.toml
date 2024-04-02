@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sddl"
+version = "0.3.1"
+description = "CLI frontend for sddl-parser"
+authors = ["Max Harley <maxh@maxh.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sddl-parser = "^0.5.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[tool.poetry.scripts]
+sddl = "sddl.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
