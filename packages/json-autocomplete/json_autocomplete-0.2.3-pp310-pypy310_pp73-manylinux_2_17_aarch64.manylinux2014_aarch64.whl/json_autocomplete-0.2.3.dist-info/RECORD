@@ -1,0 +1,10 @@
+json_autocomplete/json.h,sha256=Ul3-dtsrRcQ0GgLPR0AasOuEHtu50vE7XmckaY5ZFPo,153
+json_autocomplete/__init__.py,sha256=VaHb476aYP3glghM9-XiRIuuMM1wDahRsJ_o_ar36i4,49
+json_autocomplete/json.cpp,sha256=9Jj8y7GvM2T4rM_G82m0f_HcGxm7BW0tacWUhFp6bqE,9871
+json_autocomplete/json_autocomplete.pyx,sha256=4ZNhSL53OPZGQsUSPG5V_aikEnJIUyo_Sc0GXXELq_w,389
+json_autocomplete/json_autocomplete.cpp,sha256=bn7L9pWsKY66izXoqWPlEhtMPeTqiWJCO1OFJ77XGRw,255936
+json_autocomplete/json_autocomplete.pypy310-pp73-aarch64-linux-gnu.so,sha256=wtE1auA_6zrZcOlju6siSXWmULoMa2IgEyutIr7Dd7M,190040
+json_autocomplete-0.2.3.dist-info/RECORD,,
+json_autocomplete-0.2.3.dist-info/METADATA,sha256=TDC1o80GsMLg3aUkpXbRDQgDoRJGUZuPza8BDRDIdE8,326
+json_autocomplete-0.2.3.dist-info/WHEEL,sha256=wjCy-CbSOeBLN1qIrgP5oU1cmsZknb_BMuKVCFNJFbM,168
+json_autocomplete-0.2.3.dist-info/top_level.txt,sha256=4UdFm06nD9NCjiWOvRdODukfm1MEvr5br5Tx-fXbo4g,18
