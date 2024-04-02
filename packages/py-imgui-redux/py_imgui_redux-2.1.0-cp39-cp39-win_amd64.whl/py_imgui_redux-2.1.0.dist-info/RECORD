@@ -1,0 +1,9 @@
+imgui.cp39-win_amd64.pyd,sha256=gnrJUjDaAjxYn7pfKt1KmONPMwJrDCP7NXr235YDeWk,2671104
+imgui/__init__.pyi,sha256=IXe1zfeLHs3g5WUwhYALGHXKH7FcwatSuQgsG8AOi7o,109734
+imgui/imnodes/__init__.pyi,sha256=K5o2gu01QIvK2q1awcZLC6P-AmKxaPTjqjIVboYm87c,13596
+imgui/implot/__init__.pyi,sha256=2TIGLtqvAX-tDvbXDyQxjVw8TYz1wredWU_-om3sZCE,31447
+py_imgui_redux-2.1.0.dist-info/LICENSE,sha256=fDrCLKI_lLbO88WTSx4QGbbOEZrWhcw0TBLOQxkydX4,1070
+py_imgui_redux-2.1.0.dist-info/METADATA,sha256=Y5PclDMEqut6LjHmlqTgo4xcgeajTn2CJIo92OHvOkQ,7603
+py_imgui_redux-2.1.0.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
+py_imgui_redux-2.1.0.dist-info/top_level.txt,sha256=15onHRujL1_V625VUUaELFCxh9bOaAi5IzpVBJIPyHI,6
+py_imgui_redux-2.1.0.dist-info/RECORD,,
