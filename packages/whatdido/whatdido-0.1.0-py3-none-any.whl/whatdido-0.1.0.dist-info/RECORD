@@ -1,0 +1,9 @@
+whatdido/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+whatdido/app.py,sha256=UdY5LOaIUDcaz9QLzThwmNDMLYZkn3jAqoFoQ9VceSM,3355
+whatdido/config.py,sha256=6_LF6GaB-w4hnaSSTnEnvoYk_gHmjbFqbXnWLe8AeQw,4126
+whatdido/editor.py,sha256=dlzWKZmhTX-MxnRurQobb1rWKjAmWzCcXwXvdQkQLdE,519
+whatdido/repo.py,sha256=rldML4UpAYfQztJNsjpU-ApbWAESiDwFXvocQht6m-k,838
+whatdido-0.1.0.dist-info/METADATA,sha256=bSxpv7yySXkysjuKWoWGhHmMPOPfuK4d4rI0xYaxHvU,2849
+whatdido-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+whatdido-0.1.0.dist-info/entry_points.txt,sha256=6jcEBX2oWLH3K8soopiZtLWsLxSoe4xiOq7hGub5Ig4,46
+whatdido-0.1.0.dist-info/RECORD,,
