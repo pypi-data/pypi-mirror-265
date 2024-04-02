@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+findglob/findglob.c
+findglob/main.c
+manifest/manifest.c
+mkninja/__init__.py
+mkninja/__main__.py
+mkninja/_core.py
+mkninja.egg-info/PKG-INFO
+mkninja.egg-info/SOURCES.txt
+mkninja.egg-info/dependency_links.txt
+mkninja.egg-info/entry_points.txt
+mkninja.egg-info/top_level.txt
+stamp/stamp.c
