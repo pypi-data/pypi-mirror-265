@@ -1,0 +1,2 @@
+[console_scripts]
+app_launcher_python = aalam_common.main:main

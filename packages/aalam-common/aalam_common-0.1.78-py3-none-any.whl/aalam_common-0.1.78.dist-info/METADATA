@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: aalam-common
+Version: 0.1.78
+Summary: Aalam Common module
+Author: Babu Shanmugam
+Author-email: babu@aalam.io
+License: MIT
+Keywords: aalam,web framework
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: eventlet ==0.33.0
+Requires-Dist: PasteDeploy
+Requires-Dist: webob
+Requires-Dist: python-dateutil
+Requires-Dist: PyYAML ==3.11
+Requires-Dist: Routes ==2.2.0
+Requires-Dist: pycrypto
+Requires-Dist: sqlalchemy
+Requires-Dist: mysqlclient
+Requires-Dist: redis ==2.10.6
+Requires-Dist: htmlmin ==0.1.6
+Requires-Dist: Paste
+Requires-Dist: ecdsa
+Requires-Dist: pystache
+Requires-Dist: requests-unixsocket
+Requires-Dist: pymysql
+
