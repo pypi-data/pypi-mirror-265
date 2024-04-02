@@ -1,0 +1,4 @@
+requests
+gmssl
+certifi
+charset-normalizer

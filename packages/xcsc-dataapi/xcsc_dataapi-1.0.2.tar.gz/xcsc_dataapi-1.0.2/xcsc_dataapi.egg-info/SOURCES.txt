@@ -1,0 +1,17 @@
+README.md
+setup.py
+test/__init__.py
+test/dataapi_test.py
+test/token_test.py
+xcsc_dataapi/VERSION.txt
+xcsc_dataapi/__init__.py
+xcsc_dataapi.egg-info/PKG-INFO
+xcsc_dataapi.egg-info/SOURCES.txt
+xcsc_dataapi.egg-info/dependency_links.txt
+xcsc_dataapi.egg-info/requires.txt
+xcsc_dataapi.egg-info/top_level.txt
+xcsc_dataapi/data/__init__.py
+xcsc_dataapi/data/client.py
+xcsc_dataapi/data/token.py
+xcsc_dataapi/util/__init__.py
+xcsc_dataapi/util/sm4_cbc_util.py
