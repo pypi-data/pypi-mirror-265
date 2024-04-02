@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sqlite-kv
+Version: 0.1.0
+Summary: Async Key-Value interface over SQLite. Supports any datatype, including JSON and BLOB
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Sqlite Kv
+
+> Async Key-Value interface over SQLite. Supports any datatype, including JSON and BLOB
