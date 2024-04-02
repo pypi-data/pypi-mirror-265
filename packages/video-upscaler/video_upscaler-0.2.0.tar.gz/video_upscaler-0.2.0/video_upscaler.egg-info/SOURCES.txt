@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+video_upscaler/__init__.py
+video_upscaler/video_upscaler.py
+video_upscaler.egg-info/PKG-INFO
+video_upscaler.egg-info/SOURCES.txt
+video_upscaler.egg-info/dependency_links.txt
+video_upscaler.egg-info/requires.txt
+video_upscaler.egg-info/top_level.txt
