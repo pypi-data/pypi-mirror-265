@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: glcidocs
+Version: 0.0.1b1
+Summary: Simple generator of gitlab ci file documentation
+Home-page: https://github.com/martin356/gitlab-ci-docs
+Author: Martin Mudroch
+Author-email: martin.mudroch@proton.me
+License: MIT
+Keywords: gitlab,pipeline,documentation,ci/cd,gitlab-ci
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
