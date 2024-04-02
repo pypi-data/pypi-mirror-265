@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: umpyutl
+Version: 2.1.1
+Summary: Utility classes and functions.
+Project-URL: Homepage, https://github.com/umsi-arwhyte/umpyutl
+Author-email: Anthony Whyte <anthwhyte@gmail.com>
+License: BSD-3-Clause
+License-File: LICENSE
+Keywords: arwhyte,umpyutl,utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# umpyutl
+
+A collection of utility classes and functions.
+
+# mypy
+
+```commandline
+mypy umpyutl
+```
