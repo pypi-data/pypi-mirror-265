@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = ccpn_project_checker.main:main
