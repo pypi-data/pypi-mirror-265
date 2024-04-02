@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+requirements.txt
+src/scmodels/__init__.py
+src/scmodels/parser.py
+src/scmodels/scm.py
+src/scmodels.egg-info/PKG-INFO
+src/scmodels.egg-info/SOURCES.txt
+src/scmodels.egg-info/dependency_links.txt
+src/scmodels.egg-info/requires.txt
+src/scmodels.egg-info/top_level.txt
+test/test_scm.py

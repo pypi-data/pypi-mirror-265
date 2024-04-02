@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'scmodels'
+version = '0.3.1'
+authors = [
+    { name = 'Michael Aichmueller', email = 'm.aichmueller@gmail.com' }
+]
+license = { file = "LICENSE.md" }
+description = 'Structural Causal Models'
+readme = "README.md"
+keywords = [
+    "bayesian-graphs",
+    "graphical-models",
+    "scm",
+    "sem",
+    "fcm",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.7",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+# development dependency groups
+dev = [
+    'pytest',
+    'pytest-cov'
+]
+
+[project.urls]
+Source = 'https://github.com/maichmueller/scmodels'
+
+[tool.black]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.nox
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
