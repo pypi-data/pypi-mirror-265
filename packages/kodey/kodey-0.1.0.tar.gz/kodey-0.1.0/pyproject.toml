@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kodey"
+version = "0.1.0"
+description = "Coming soon."
+authors = ["Rob <robert.i.hendry@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+build = "^1.2.1"
+twine = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
