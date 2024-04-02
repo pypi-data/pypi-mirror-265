@@ -1,0 +1,14 @@
+context/Context.py,sha256=v7T3fvoCXYIHYFrw4DAkbXx4uElPAZ0mO-ypAaF6yOc,5994
+context/__init__.py,sha256=W4wmRLSaouxlFnAXRwocwuMe3vsmHe4fbeYxwOqM2d0,619
+context/code_generator.py,sha256=ymZy12u86Rzk-7pVxVooCwC9QMB3U_f-4HSNeJnX6ec,4900
+context/config.py,sha256=LRKglWKzXQCLJV0mlq4e7eXSZigjptl8LaJf4tI7lVI,845
+context/file_manager.py,sha256=G1MAHxkj91e_CDGAxDF4QynR0s__dkrwA7vZl-fNiXM,1714
+context/log.py,sha256=kYXySZYY_-_UBsqBnMTjnhVgghujLNsPQjcAoutML9k,1578
+context/openai_interface.py,sha256=XH3gPq_LCwumYVnQccdFI7FiT72eO0u--FmgrvJaffo,6461
+context/tag_parser.py,sha256=xDKuDIPIhx7mZfvJcahtHraHkBA7Yey3hj4duJNg28k,10469
+ContextLang-0.1.55.dist-info/LICENSE,sha256=kt3TDXnpqCrgcPiNUHsctj3PHLLafSou1D3pnfELqlc,11546
+ContextLang-0.1.55.dist-info/METADATA,sha256=7MXTqLKzfiwfmR27BsnfOLp0cykn6XlOmDPqKJ-tnac,21084
+ContextLang-0.1.55.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ContextLang-0.1.55.dist-info/entry_points.txt,sha256=EsAm_eEh5ZVxmLPyyOFKUWueqPLe0fQGHZD14InD1eE,49
+ContextLang-0.1.55.dist-info/top_level.txt,sha256=HuIy30dGL6SlYa2-JOpKC2e215-bX24Vy4p7qA8t4Rc,8
+ContextLang-0.1.55.dist-info/RECORD,,
