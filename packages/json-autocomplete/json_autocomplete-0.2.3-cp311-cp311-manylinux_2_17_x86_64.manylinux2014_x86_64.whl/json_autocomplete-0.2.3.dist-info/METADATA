@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: json-autocomplete
+Version: 0.2.3
+Summary: Autocomplete any prefix substring of a JSON to become valid
+Author-email: Joong-Won Seo <joong.won.seo@gmail.com>
+Project-URL: Repository, https://github.com/JoongWonSeo/json_autocomplete.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
