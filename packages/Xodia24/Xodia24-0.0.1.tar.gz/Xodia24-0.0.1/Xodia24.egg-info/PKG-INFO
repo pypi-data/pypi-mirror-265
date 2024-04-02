@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Xodia24
+Version: 0.0.1
+Summary: Python package providing a custom environment for simulating tank battles
+Author: Prem Gaikwad
+Author-email: premgaikwad7a@gmail.com
+Keywords: python,reinforcement-learning,tank-battle
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gymnasium
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+Xodia24 is a Python package providing a custom environment for simulating a tank battle scenario where two tanks are positioned on a 2D grid.
