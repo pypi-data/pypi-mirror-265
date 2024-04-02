@@ -1,0 +1,5 @@
+baseOperation
+baseOperation/Outputfiles
+baseOperation/inputFiles
+baseOperation/static
+data
