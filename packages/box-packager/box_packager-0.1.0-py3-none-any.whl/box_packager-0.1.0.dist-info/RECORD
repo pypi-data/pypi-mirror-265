@@ -1,0 +1,14 @@
+box/__init__.py,sha256=w83-0hpcZvIAGHAA8dgpU7bsvk7eBnSrJnSaF0nk4Xs,90
+box/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+box/cleaner.py,sha256=2kvtOoiv2YgEOjUhbu_dgX89iPIQ4nn9_DOKlx0_Hko,3765
+box/cli.py,sha256=k0kgU3nxk-JTRt42_YM0na6dGGI9ft--kB29JjJ-LIk,5330
+box/config.py,sha256=h01VU-agEQVJ1v5neQIC9PzuuRWpEm4K60pf45hwM4k,5300
+box/formatters.py,sha256=y-MX__2C8USSrOQaFRtGLlRtJHEn7OyHE2zsWLbNDuQ,925
+box/initialization.py,sha256=nipkv1C0DJZFoCVc9LZKMTRyAfZlmxWmuJLHKym958Y,9224
+box/packager.py,sha256=6tEcPQq9JrPkKBtpH6qpvIHPc2iCmpMnZTz2ST0ftRQ,11648
+box/utils.py,sha256=PuslwdyqrjhSR2JADchtnwYUMcvGQOZbn2Vl-sd9bPc,1645
+box_packager-0.1.0.dist-info/METADATA,sha256=VhVnGIUK0JH9GMKvkOVhhiH5ZBCvXC3rHf2gwaKxyMM,2179
+box_packager-0.1.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+box_packager-0.1.0.dist-info/entry_points.txt,sha256=dIIDzJX8SQoXTT6NDNo2p3T7kBw7jT47ibAtTcesDRI,36
+box_packager-0.1.0.dist-info/licenses/LICENSE.txt,sha256=KuKy4KViEiBV8PMcDUQOC4of3YXPRvsOdSU0M8jGDkU,1079
+box_packager-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+box = box.cli:cli

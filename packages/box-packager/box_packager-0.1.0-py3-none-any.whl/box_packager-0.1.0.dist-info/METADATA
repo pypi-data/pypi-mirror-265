@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: box-packager
+Version: 0.1.0
+Summary: Automatic packaging and installers of your GUI with PyApp
+Project-URL: Homepage, https://github.com/trappitsc/box
+Project-URL: Documentation, https://box.readthedocs.io/
+Project-URL: Changelog, https://github.com/trappitsc/box/releases
+Project-URL: Issues, https://github.com/trappitsc/box/issues
+Project-URL: CI, https://github.com/trappitsc/box/actions
+Author-email: Reto Trappitsch <reto@galactic-forensics.space>
+License: MIT
+License-File: LICENSE.txt
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1.7
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: rich-click>=1.7.3
+Requires-Dist: rich>=13.7.0
+Requires-Dist: tomlkit>=0.12.3
+Provides-Extra: docs
+Requires-Dist: mkdocs-click>=0.8.1; extra == 'docs'
+Requires-Dist: mkdocs-include-markdown-plugin>=6.0.4; extra == 'docs'
+Requires-Dist: mkdocs-material>=9.5.13; extra == 'docs'
+Requires-Dist: mkdocs>=1.5.3; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# box
+
+[![Docs](https://readthedocs.org/projects/box/badge/?version=latest)](https://box.readthedocs.io/en/latest/?badge=latest)
+[![tests](https://github.com/trappitsch/box/actions/workflows/tests.yml/badge.svg)](https://github.com/trappitsch/box/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/trappitsch/box/graph/badge.svg?token=CED96ANLRR)](https://codecov.io/gh/trappitsch/box)
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json)](https://rye-up.com)
+
+The goal of this package is
+to provide a command line interface
+that allows you to easily package your existing python project
+with [`PyApp`](https://ofek.dev/pyapp/).
+
+Currently, `box` only support python projects that have their metadata stored in a `pyproject.toml` file.
+See [here](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#writing-pyproject-toml)
+for details.
+
+**Note**:
+This package is still in a very early
+development phase! Please report your findings and issues,
+so that we can improve this tool together.
+
+Please refer to the [documentation](https://box.readthedocs.io/)
+for further information on installation and usage.
