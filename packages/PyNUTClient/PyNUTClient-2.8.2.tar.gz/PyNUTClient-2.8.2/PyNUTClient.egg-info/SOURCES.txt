@@ -1,0 +1,12 @@
+LICENSE-GPL3
+MANIFEST.in
+README.txt
+setup.py
+tox.ini
+PyNUTClient/PyNUT.py
+PyNUTClient/__init__.py
+PyNUTClient/test_nutclient.py
+PyNUTClient.egg-info/PKG-INFO
+PyNUTClient.egg-info/SOURCES.txt
+PyNUTClient.egg-info/dependency_links.txt
+PyNUTClient.egg-info/top_level.txt
