@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: libdaw
+Version: 0.0.1
+Summary: A Python module that acts as a DAW.
+Author-email: "Taylor C. Richberger" <taywee@gmx.com>
+Description-Content-Type: text/markdown
+Project-URL: Home, https://codeberg.org/Taywee/libdaw
+
+# libdaw
+
+A Python module that acts as a DAW.
+
+This isn't anything yet, but it will be quite soon.
+
