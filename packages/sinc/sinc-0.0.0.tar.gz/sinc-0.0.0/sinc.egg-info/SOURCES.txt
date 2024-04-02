@@ -1,0 +1,7 @@
+setup.py
+sinc/__init__.py
+sinc.egg-info/PKG-INFO
+sinc.egg-info/SOURCES.txt
+sinc.egg-info/dependency_links.txt
+sinc.egg-info/requires.txt
+sinc.egg-info/top_level.txt
