@@ -1,0 +1,8 @@
+quat3d/__init__.py,sha256=gTggO06fb2c9XKEwlQYUSPlUfy82yVlM9pzLMOUqVcY,21
+quat3d/quat.py,sha256=KsXvWDTbiwrZmq7wvxvEFk6HxpSXzlho53Lr8mPxS2w,2310
+quat3d/quaternion3d.py,sha256=sYkvnA-4CVFz4ss4I6gAcsaORu9RdmMK6aQZh7Af5AI,7471
+quat3d-0.3.0.dist-info/METADATA,sha256=5HOulgB3zRjsIk_cm9DOcF_43xaLma4U1hMzcxPXW-0,1709
+quat3d-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+quat3d-0.3.0.dist-info/entry_points.txt,sha256=Lv6zvGBFfdQSYRLLHyjYay4Z0L90oguncGBavGFMQcU,35
+quat3d-0.3.0.dist-info/top_level.txt,sha256=Se4IFH4bJo1ykPzgv0Gu8FDX_ugGewMRwL9pZT9o2xI,7
+quat3d-0.3.0.dist-info/RECORD,,
