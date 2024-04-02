@@ -1,0 +1,8 @@
+# python
+ruff
+build
+twine
+python-dotenv
+
+# rust
+maturin

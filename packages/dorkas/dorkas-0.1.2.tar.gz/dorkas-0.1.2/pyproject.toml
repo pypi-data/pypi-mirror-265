@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+#requires = ["maturin>=1.5,<2.0"]
+#build-backend = "maturin"
+
+[project]
+name = "dorkas"
+version = "0.1.2"
+authors = [
+  { name="Cody", email="cody@dkdc.dev" },
+]
+description = "dorkas"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'dorkas_core',
+]
+#dynamic = ["version"]
+
+#[tool.maturin]
+#features = ["pyo3/extension-module"]
+
+[project.urls]
+"Homepage" = "https://github.com/lostmygithubaccount/dorkas"
+"Bug Tracker" = "https://github.com/lostmygithubaccount/dorkas/issues"
+
+#[project.scripts]
+#dorkas= "dorkas.cli:app"
+
