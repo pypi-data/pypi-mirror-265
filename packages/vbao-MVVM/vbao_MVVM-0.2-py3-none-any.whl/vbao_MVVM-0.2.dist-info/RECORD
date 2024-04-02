@@ -1,0 +1,11 @@
+vbao/__init__.py,sha256=CAaC3PuvYGULoW4sMr5N0QRdzWTSzc7-KQvKA7ENRwM,222
+vbao/base.py,sha256=bgcRFCzjcQ_E7B9pqDUByWplrAsUfVbXAYbfhKyRovo,1956
+vbao/config.py,sha256=w3WLypGLItJSL14Z_RvHQ5dF_DV2Yr28OVJK8OJ-sg4,778
+vbao/convenient_class.py,sha256=5zb0je7meASfMEO6vwfV8PKkyJ0tHNV5fae-PfQuQ3Y,1411
+vbao/core.py,sha256=B-J5jgkG5tNXdMy_TaAulJ5mZWLbJ4L2lbwdFcKJa1o,3660
+vbao/mixin.py,sha256=PwH3F2y_DgV_z4qIrG-WFTkidvf5m7Tb3o5agMA3Frw,3386
+vbao_MVVM-0.2.dist-info/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+vbao_MVVM-0.2.dist-info/METADATA,sha256=GeT1-EYKhTbI5HQZMh87s3giVa1rl49GB5TWZZMnpkA,1415
+vbao_MVVM-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vbao_MVVM-0.2.dist-info/top_level.txt,sha256=pQP179knuvI-A675NCtCme85-xI98crspwXlI9wN2sA,5
+vbao_MVVM-0.2.dist-info/RECORD,,
