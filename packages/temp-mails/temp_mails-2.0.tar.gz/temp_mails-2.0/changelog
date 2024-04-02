@@ -1,0 +1,48 @@
+24.03.2024 - 2.0:
+- added support for https://cryptogmail.com/
+- added support for https://mail.tm/de/
+- added support for https://temp-inbox.com/
+- added support for https://mailhole.de/
+- added support for https://tmailor.com/
+- added support for https://tmail.ai/
+- added support for https://cloudtempmail.com/
+- added support for https://luxusmail.org/
+- added support for https://muellmail.com/
+- added support for https://tempmail.gg/
+- added support for https://www.eztempmail.com/
+- added support for https://tempail.com/
+- added support for https://tempmail.ninja/
+- added support for https://upxmail.com/
+- added support for https://www.trash-mail.com/
+- added support for https://tempemailfree.com/
+- added support for https://tempr.email/
+- added support for https://tempmail.net/
+- added support for https://www.guerrillamail.com/
+- added support for https://tm-mail.com/
+- added support for https://tempmail.lol/
+- added support for https://yopmail.com
+- added support for https://etempmail.com/
+- added support for https://tmail.gg/
+- added support for https://mailtemp.uk/
+- added support for https://mostakbile.com/
+- added support for https://fakermail.com/ (hypothetically)
+- added support for https://tempmails.net/
+- added support for https://temp-mail.gg/
+- removed the class for https://10minutemail.net/ since it wasnt used as the site is just bad
+- major refactor
+- general improvements, bugfixes and changes
+
+17.03.2024 - 1.2:
+- added changelog
+- added support for https://www.disposablemail.com/
+- added support for https://www.emailondeck.com/
+- added support for https://1secmail.com/
+- added support for https://www.mohmal.com/
+- added support for https://www.fakemail.net/
+- added support for https://tempmail.email/
+- added support for https://tempmail.plus/
+- added support for https://generator.email/
+- major refactor
+- fixed bugs in multiple wait_for_emails functions
+- fixed bug in Internxt_doctcom.get_inbox
+- general improvements, bugfixes and changes
