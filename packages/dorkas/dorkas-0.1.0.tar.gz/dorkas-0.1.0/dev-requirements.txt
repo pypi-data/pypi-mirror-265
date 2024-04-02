@@ -1,0 +1,6 @@
+# python
+ruff
+build
+twine
+python-dotenv
+
