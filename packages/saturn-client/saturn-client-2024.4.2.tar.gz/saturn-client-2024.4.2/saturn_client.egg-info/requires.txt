@@ -1,0 +1,2 @@
+requests
+fsspec>=2024.2
