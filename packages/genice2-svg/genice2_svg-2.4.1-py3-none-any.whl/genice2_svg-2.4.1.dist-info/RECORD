@@ -1,0 +1,11 @@
+genice2_svg/__init__.py,sha256=93dTugd2XLA9re7_AjiW_8bCC0-vfe9XDJnM5291j_g,299
+genice2_svg/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice2_svg/formats/png.py,sha256=Pq5b4zrh1cbx17UFtNnYJzLvaAEiMHPNOzdJ6WIyJz8,1787
+genice2_svg/formats/svg.py,sha256=UTM3RcBx-vKI_Wo-WawEV_wVltuY4h6y708pLaDHZuk,19166
+genice2_svg/render_png.py,sha256=rT8lTL4fbplVSplU655M9YmkXVvPRDqgxa_EXJfKndI,4875
+genice2_svg/render_svg.py,sha256=9-ABaikUHPHrXcWZijSTZDqNo-vdpj0aiSjnSYonvFg,6642
+genice2_svg/theochem.py,sha256=qyhtJz2c3nA8hHoyBWajPXNE8xKqWta4NN2t-JdM0WQ,491
+genice2_svg-2.4.1.dist-info/METADATA,sha256=cLaUynBtjhEao4Bk3cKEkDtbzsKsoHxDrRMPdv_PgJQ,304662
+genice2_svg-2.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+genice2_svg-2.4.1.dist-info/entry_points.txt,sha256=ZPJg7p5Rv_BK-wHPijebOLwLotMLMmZf7J8K1nJF2WI,74
+genice2_svg-2.4.1.dist-info/RECORD,,
