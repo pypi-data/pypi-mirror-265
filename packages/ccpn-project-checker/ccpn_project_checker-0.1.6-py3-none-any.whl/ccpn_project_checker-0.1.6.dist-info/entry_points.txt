@@ -1,0 +1,2 @@
+[console_scripts]
+project_checker = ccpn_project_checker.main:main

@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: ccpn-project-checker
+Version: 0.1.6
+Summary: A project checker for ccpn v3+ projects
+Author-email: varioustoxins <garyt.and.sarahb@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: lxml>=5.2.0
+Requires-Dist: pytest>=8.1.1
+Requires-Dist: time-machine>=2.14.1
+Description-Content-Type: text/markdown
+
+# ccpn-project-checker
+
+Describe your project here.
