@@ -1,0 +1,13 @@
+LICENSE
+README.md
+main.py
+setup.py
+SpeckCollect.egg-info/PKG-INFO
+SpeckCollect.egg-info/SOURCES.txt
+SpeckCollect.egg-info/dependency_links.txt
+SpeckCollect.egg-info/requires.txt
+SpeckCollect.egg-info/top_level.txt
+speckcollect/__init__.py
+speckcollect/cosine.py
+speckcollect/create_images.py
+speckcollect/dvs_collector.py

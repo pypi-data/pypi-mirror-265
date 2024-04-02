@@ -1,0 +1,5 @@
+sinabs
+samna
+numpy
+tqdm
+matplotlib
