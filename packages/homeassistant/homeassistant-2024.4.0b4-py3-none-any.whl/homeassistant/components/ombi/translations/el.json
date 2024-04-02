@@ -1,0 +1,25 @@
+{
+    "services": {
+        "submit_movie_request": {
+            "fields": {
+                "name": {
+                    "name": "\u039f\u03bd\u03bf\u03bc\u03b1"
+                }
+            }
+        },
+        "submit_music_request": {
+            "fields": {
+                "name": {
+                    "name": "\u039f\u03bd\u03bf\u03bc\u03b1"
+                }
+            }
+        },
+        "submit_tv_request": {
+            "fields": {
+                "name": {
+                    "name": "\u039f\u03bd\u03bf\u03bc\u03b1"
+                }
+            }
+        }
+    }
+}
