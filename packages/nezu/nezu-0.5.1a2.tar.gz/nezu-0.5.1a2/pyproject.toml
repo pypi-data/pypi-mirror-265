@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "nezu"
+version = "0.5.1-alpha.2"
+description = "Elegant debuging module"
+authors = ["Chuck Cartwright"]
+license = "MIT"
+readme = "README.md"
+packages =[
+    # { include = "_os_env.py" },
+    # { include = "_parse.py" },
+    # { include = "nezu.py" },
+    { include = "nezu" },
+    
+]
+
+
+# Only Uses Python Standard Library!
+[tool.poetry.dependencies]
+python = "^3.11"
+
+# Blue formatter is like Black but with single quotes.
+[tool.poetry.group.dev.dependencies]
+blue = "0.9.1"
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+nezu = "nezu.nezu:main_function"
