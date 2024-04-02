@@ -1,0 +1,205 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "optype"
+version = "0.3.1"
+description = "Building blocks for precise type hints in Python 3.12+"
+authors = ["Joren Hammudoglu <jhammudoglu@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = '^3.7.0'
+
+[tool.poetry.group.lint.dependencies]
+codespell = "^2.2.6"
+basedpyright = "^1.8.0"
+ruff = "^0.3.5"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[tool.poetry.group.test-github]
+optional = true
+[tool.poetry.group.test-github.dependencies]
+pytest-github-actions-annotate-failures = ">=0.2.0,<1.0"
+
+
+[tool.codespell]
+context = 2
+ignore-words-list = "cange"  # CanGe
+
+
+[tool.basedpyright]
+include = [
+    "optype",
+    "examples",
+    "tests"
+]
+exclude = [
+    "**/__pycache__",
+    ".git",
+    ".github",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    ".vscode",
+    "dist"
+]
+stubPath = "."
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.12"
+pythonPlatform = "All"
+typeCheckingMode = "all"
+useLibraryCodeForTypes = false
+reportAny = false
+reportUnusedCallResult = false
+
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["optype", "examples", "tests"]
+addopts = [
+    "-ra",
+    "--doctest-modules",
+]
+doctest_optionflags = [
+    "NORMALIZE_WHITESPACE",
+    "IGNORE_EXCEPTION_DETAIL",
+    "ELLIPSIS",
+]
+filterwarnings = ["error"]
+xfail_strict = true
+
+
+[tool.ruff]
+src = ["optype", "tests"]
+target-version = "py312"
+line-length = 79
+indent-width = 4
+show-fixes = true
+force-exclude = true
+extend-exclude = [".github", ".vscode"]
+
+[tool.ruff.lint]
+ignore-init-module-imports = true
+preview = true
+select = [
+    "F",        # pyflakes
+    "E",        # pycodestyle: error
+    "W",        # pycodestyle: warning
+    "C90",      # mccabe
+    "I",        # isort
+    "N",        # pep8-naming
+    "UP",       # pyupgrade
+    "YTT",      # flake8-2020
+    "ANN",      # flake8-annotations
+    "ASYNC",    # flake8-async
+    "TRIO",     # flake8-trio
+    "BLE",      # flake8-blind-except
+    "B",        # flake8-bugbear
+    "A",        # flake8-builtins
+    "COM",      # flake8-commas
+    "C4",       # flake8-comprehensions
+    "DTZ",      # flake8-datetimez
+    "T10",      # flake8-debugger
+    "EM",       # flake8-errmsg
+    "EXE",      # flake8-executable
+    "FA",       # flake8-future-annotations
+    "ISC",      # flake8-implicit-str-concat
+    "ICN",      # flake8-import-conventions
+    "G",        # flake8-logging-format
+    "INP",      # flake8-no-pep420
+    "PIE",      # flake8-pie
+    "T20",      # flake8-print
+    "PYI",      # flake8-pyi
+    "PT",       # flake8-pytest-style
+    "Q",        # flake8-quotes
+    "RSE",      # flake8-raise
+    "RET",      # flake8-return
+    "SLF",      # flake8-self
+    "SLOT",     # flake8-slots
+    "SIM",      # flake8-simplify
+    "TID",      # flake8-tidy-imports
+    "TCH",      # flake8-type-checking
+    "ARG",      # flake8-unused-arguments
+    "PTH",      # flake8-use-pathlib
+    "TD",       # flake8-todos
+    "FIX",      # flake8-fixme
+    "ERA",      # eradicate
+    "PD",       # pandas-vet
+    "PGH",      # pygrep-hooks
+    "PL",       # pylint
+    "TRY",      # tryceratops
+    "FLY",      # flynt
+    "NPY",      # numpy
+    "AIR",      # airflow
+    "PERF",     # perflint,
+    "FURB",     # refurb
+    "LOG",      # flake8-logging
+    "RUF",      # ruff
+]
+extend-ignore = [
+    # flake8-annotations
+    "ANN001",   # missing-type-function-argument (deprecated)
+    "ANN002",   # missing-type-args (deprecated)
+    "ANN401",   # any-type (unreasonable)
+
+    # flake8-pyi
+    "PYI036",   # bad-exit-annotation (unreasonable)
+
+    # refurb
+    "FURB118",  # reimplemented-operator (unreasonable)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"examples/*" = [
+    # isort
+    "I001",     # unsorted-imports
+
+    # flake8-no-pep420
+    "INP001",   # implicit-namespace-package
+
+    # pylint
+    "PLR2004",  # magic-value-comparison
+]
+"tests/*" = [
+    # flake8-annotations
+    "ANN201",   # missing-return-type
+
+    # flake8-self
+    "SLF001",   # private-member-access
+]
+
+[tool.ruff.lint.isort]
+case-sensitive = true
+combine-as-imports = true
+known-first-party = ["optype"]
+lines-between-types = 0
+lines-after-imports = 2
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+
+[tool.ruff.lint.flake8-type-checking]
+strict = true
+
+[tool.ruff.lint.pylint]
+allow-dunder-method-names = [
+    "__replace__",  # used by `copy.replace` in Python 3.13+
+]
+
+[tool.ruff.format]
+# keep in sync with .editorconfig
+line-ending = "lf"
+indent-style = "space"
+quote-style = "single"
+docstring-code-format = true
+skip-magic-trailing-comma = true
