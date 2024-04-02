@@ -1,0 +1,12 @@
+anterior/__init__.py,sha256=9tYGhbDNTrDCbVrIDQ5gtjmXAyLkMvJPTyFyPezWTgw,329
+anterior/source/__init__.py,sha256=KXOwR1ChR5hJtwf-vwyqHiu_HDnIKzN61iZlIAL-eQs,68
+anterior/source/frame.py,sha256=j-j-cQTEO4jKISUthPfux4TswRrq2pT1q_dsArBQp6s,6570
+anterior/source/series.py,sha256=XzrIlZ_ZCm-6uJ9V-EfrNIjhvmL7JHsWnSplrlIYqho,5754
+anterior/utils.py,sha256=bepP-OFQmm-RUAdo1oeKcjDhp_scaIdJQcou5pKLmDw,285
+anterior/warp/__init__.py,sha256=0aaVdcXpAwe7dIgEGz2UEgNrjIN_lZSL706SpJD9xKE,65
+anterior/warp/backtester.py,sha256=4ahBY-xG3Rl5kAz964lcjl93Z9v-D9uPxZp0MLfgKWs,37581
+anterior/warp/schedule.py,sha256=N3mh3FXSsRW8pOUPpVAkPG_pDgw-Kzg1dV74ksOY0oA,14753
+anterior-0.0.1.dist-info/LICENSE,sha256=3IXI3x1RN4jDR2PonpWF1guc33zagcTgpq_VnboE3UU,7653
+anterior-0.0.1.dist-info/METADATA,sha256=iqYi9acq2v9rZ6nOf2akQbjBFj5DWOb422TrrLX44pU,2299
+anterior-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+anterior-0.0.1.dist-info/RECORD,,
