@@ -1,0 +1,15 @@
+biomedicus_client==3.4.2
+numpy==1.26.4
+regex==2023.12.25
+torch==2.2.2
+requests==2.31.0
+watchdog==4.0.0
+
+[docs]
+sphinx==7.2.6
+
+[stanza]
+stanza==1.8.1
+
+[test]
+pytest==8.1.1
