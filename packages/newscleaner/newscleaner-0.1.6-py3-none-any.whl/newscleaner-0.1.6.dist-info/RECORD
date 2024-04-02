@@ -1,0 +1,10 @@
+newscleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newscleaner/cleaner.py,sha256=Q7YamN2v5bHQmvy9B9dneUPfgAwjMfLiDZkIQQ4crx0,110920
+newscleaner/setup.py,sha256=MPhevPsVpgkVvWJjIjeT-zP4pflCRjln2BEunC-xbJc,885
+newscleaner/strip_clean.py,sha256=6rIzSRO0taVXc5K2bMs1mtHsat-IfK9IvGgyB3YnumQ,841
+newscleaner-0.1.6.dist-info/LICENCE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+newscleaner-0.1.6.dist-info/METADATA,sha256=E_OH25ocsjEqV8zKuhlQopR8vOVXdwduU_sBZKyv_Xs,559
+newscleaner-0.1.6.dist-info/PKG-INFO.txt,sha256=ENnXvg3bSh6hIpwnuvlRZ7jGp9duOOaAzGPEc4ubSpI,547
+newscleaner-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+newscleaner-0.1.6.dist-info/top_level.txt,sha256=TFOuJ6VtKkEfQaSA-1r1b13R5uyPySDK_dT0zkxvLQU,12
+newscleaner-0.1.6.dist-info/RECORD,,
