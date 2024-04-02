@@ -1,0 +1,11 @@
+intel_power_control-1.0.2.data/data/share/applications/intel-power-control.desktop,sha256=dDBABTFISGMZicM0AyCz48vPbyaS6143GqGgkUYdV1g,227
+intel_power_control-1.0.2.data/data/share/icons/hicolor/32x32/apps/intel-power-control.png,sha256=eofF4k4VPULRj-Z2sN2vKRde_uaw97m4_sV3po69sZk,721
+intel_power_control-1.0.2.data/data/share/icons/hicolor/scalable/apps/intel-power-control.svg,sha256=sogbKWJ9xCDo7HzF9LgA80J0QhTI2svMY8KfRVMmqyY,3662
+intel_power_control-1.0.2.data/scripts/intel-power-control,sha256=2bWJJpx9XUIf_HDLXzXn1hi6sqlLSIX35wnkL_ucNm4,34043
+intel_power_control-1.0.2.data/scripts/intel-power-control-helper,sha256=WJuKuKGqMfyEOQT99VSmvXwq05LnRUiVH0y433m8xC0,22432
+intel_power_control-1.0.2.data/scripts/intel-power-control-setup,sha256=aLOjdW9w7Va2B8Yme-fAQf6HmApRpuTEzgJYkVzO45c,1896
+intel_power_control-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+intel_power_control-1.0.2.dist-info/METADATA,sha256=dSbN_igYtjvH9hRAH99ltIQiDmF6MQId4Q5AjmNLHhE,2932
+intel_power_control-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+intel_power_control-1.0.2.dist-info/top_level.txt,sha256=CE8upZ17JRJcQsum45r32CbLfL-dnH0L7Wa4apKdJaU,5
+intel_power_control-1.0.2.dist-info/RECORD,,
