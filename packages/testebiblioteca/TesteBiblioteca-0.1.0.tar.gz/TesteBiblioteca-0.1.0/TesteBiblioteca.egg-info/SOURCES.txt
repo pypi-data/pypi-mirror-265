@@ -1,0 +1,5 @@
+setup.py
+TesteBiblioteca.egg-info/PKG-INFO
+TesteBiblioteca.egg-info/SOURCES.txt
+TesteBiblioteca.egg-info/dependency_links.txt
+TesteBiblioteca.egg-info/top_level.txt
