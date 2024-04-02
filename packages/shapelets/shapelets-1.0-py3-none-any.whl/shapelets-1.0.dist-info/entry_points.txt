@@ -1,0 +1,3 @@
+[console_scripts]
+shapelets = shapelets._entry_points:_run_shapelets
+shapelets-test = shapelets._entry_points:_run_tests
