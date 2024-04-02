@@ -1,0 +1,2 @@
+[console_scripts]
+slide-detector = slide_detector.slide_detector:main

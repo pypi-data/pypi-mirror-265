@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+SlideDetector.egg-info/PKG-INFO
+SlideDetector.egg-info/SOURCES.txt
+SlideDetector.egg-info/dependency_links.txt
+SlideDetector.egg-info/entry_points.txt
+SlideDetector.egg-info/requires.txt
+SlideDetector.egg-info/top_level.txt
+slide_detector/__init__.py
+slide_detector/slide_detector.py
