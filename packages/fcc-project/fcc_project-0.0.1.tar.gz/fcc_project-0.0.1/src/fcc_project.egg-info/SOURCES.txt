@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fcc_project.egg-info/PKG-INFO
+src/fcc_project.egg-info/SOURCES.txt
+src/fcc_project.egg-info/dependency_links.txt
+src/fcc_project.egg-info/top_level.txt
+src/multiply/__init__.py
+src/multiply/multiply_by_three.py
+test/test.py
