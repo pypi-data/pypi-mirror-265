@@ -1,0 +1,9 @@
+agogos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agogos/_core.py,sha256=BMcpmCLwwzwD9-VJLssrYqmvMe5j_pWoZHBn9USdIG8,7577
+agogos/training.py,sha256=7o9kjtaYVO5vdPC4Y-PWtFk3y2Ngbul4MfFZr-mtdwc,14351
+agogos/transforming.py,sha256=TId8rKrVPHaMHKOabtSUBRBSTz19z8XhQe3gdVc6jfY,6529
+agogos-0.3.3.dist-info/LICENSE,sha256=nX89t0cwRiFa2wMmF3oLW2TsRFCJebN1QjDYMMtzcTc,1072
+agogos-0.3.3.dist-info/METADATA,sha256=h_hab6CoFozsSuox0AXEB3Z1btp-VvUFTJ8hz47_Deo,1603
+agogos-0.3.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+agogos-0.3.3.dist-info/top_level.txt,sha256=ipbDv6XHnLjU8Fo4jMoAAGM3Z2c6739c6D0gvenfv_g,7
+agogos-0.3.3.dist-info/RECORD,,
