@@ -1,0 +1,2 @@
+[console_scripts]
+notdiamond_openai = notdiamond_openai.cli:main
