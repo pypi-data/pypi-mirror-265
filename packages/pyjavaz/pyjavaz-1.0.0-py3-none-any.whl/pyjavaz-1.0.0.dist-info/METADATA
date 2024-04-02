@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyjavaz
+Version: 1.0.0
+Summary: Python remote procedure call of Java using ZeroMQ
+Home-page: https://github.com/pyjavaz/pyjavaz
+Author: Henry Pinkard
+Author-email: henry.pinkard@gmail.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyzmq
+Provides-Extra: dev
+
