@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+gronckle/__init__.py
+gronckle/main.py
+gronckle.egg-info/PKG-INFO
+gronckle.egg-info/SOURCES.txt
+gronckle.egg-info/dependency_links.txt
+gronckle.egg-info/top_level.txt
+gronckle/rag/smart_chunking/demo_streamlit_app.py
+gronckle/rag/smart_chunking/main.py
+gronckle/rag/smart_chunking/split_text_responsibly.py
+gronckle/rag/smart_chunking/text_splitter_prompt.py
