@@ -1,0 +1,7 @@
+maq/__init__.py
+maq/setup.py
+maq.egg-info/PKG-INFO
+maq.egg-info/SOURCES.txt
+maq.egg-info/dependency_links.txt
+maq.egg-info/requires.txt
+maq.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: maq
+Version: 0.1
+Summary: Machine Learning on Adiabatic Quantum Computers (MAQ) is a library of algorithms used to train machine learning models on adiabatic quantum computers.
+Home-page: https://github.com/prasannadate/maq
+Download-URL: https://github.com/prasannadate/maq/archive/refs/tags/v1.0.0.tar.gz
+Author: Prasanna Date, Kathleen Hamilton, Robert Patton, Travis Humble, Thomas Potok
+Author-email: datepa@ornl.gov
+License: BSD 3-Clause
+Project-URL: Source, https://github.com/prasannadate/maq
+Keywords: Adiabatic Quantum Machine Learning,Quantum Machine Learning,Adiabatic Quantum Computing,Quantum Computing,Machine Learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Machine Learning on Adiabatic Quantum Computers (MAQ) is a library of algorithms used to train machine learning models on adiabatic quantum computers.
