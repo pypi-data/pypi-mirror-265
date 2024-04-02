@@ -1,0 +1,3 @@
+[console_scripts]
+pyclipmgr-copy = pyclipmgr
+pyclipmgr-paste = pyclipmgr:paste
