@@ -1,0 +1,2 @@
+Modify the 'compute' function in toxicity > toxicity_from_prespective.py to handle multiple predictions. 
+When multiple Inputs, Outputs are provided, then need to manage in the grade.py or pureml_llm.py as all other files are capable of handling only single index inside a list.
