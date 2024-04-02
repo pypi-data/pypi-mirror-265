@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pysoltransfer/__init__.py
+pysoltransfer/example.py
+pysoltransfer.egg-info/PKG-INFO
+pysoltransfer.egg-info/SOURCES.txt
+pysoltransfer.egg-info/dependency_links.txt
+pysoltransfer.egg-info/top_level.txt
