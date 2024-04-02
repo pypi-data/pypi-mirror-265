@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+enedis_data_connect/__init__.py
+enedis_data_connect/enedis_client.py
+enedis_data_connect/utils.py
+enedis_data_connect.egg-info/PKG-INFO
+enedis_data_connect.egg-info/SOURCES.txt
+enedis_data_connect.egg-info/dependency_links.txt
+enedis_data_connect.egg-info/top_level.txt
+tests/test_enedis_client.py
