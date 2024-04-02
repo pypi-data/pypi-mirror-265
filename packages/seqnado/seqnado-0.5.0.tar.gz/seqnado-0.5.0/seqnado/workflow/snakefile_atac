@@ -1,0 +1,93 @@
+from datetime import datetime
+import glob
+import os
+import shutil
+import sys
+
+import pandas as pd
+from snakemake.utils import min_version
+
+
+from seqnado.design import Design, ATACOutput
+from seqnado.helpers import format_config_dict, symlink_fastq_files
+
+
+####################
+# Hardcoded config #
+####################
+
+ASSAY = "ATAC"
+configfile: "config_atac.yml"
+container: "library://asmith151/seqnado/seqnado_pipeline:latest"
+
+
+####################
+# Experiment config #
+####################
+
+# Load config
+format_config_dict(config)
+
+# Generate design
+if os.path.exists(config["design"]):
+    df = pd.read_csv(config["design"], sep=r"\s+|,|\t", engine="python", index_col=0).fillna("")
+    DESIGN = Design.from_dataframe(df)
+else:
+    DESIGN = Design.from_directory(".")
+
+# Attempt to symlink the fastq files
+assert len(DESIGN.fastq_paths) > 0, "No fastq files found in the working directory or no design file provided."
+symlink_fastq_files(DESIGN, output_dir="seqnado_output/fastqs")
+
+
+# Define global variables
+SAMPLE_NAMES = DESIGN.sample_names
+OUTPUT = ATACOutput(
+    assay=ASSAY,
+    run_design=DESIGN,
+    sample_names=SAMPLE_NAMES,
+    **config
+)
+
+###################
+# Pipeline config #
+###################
+
+include: "rules/align.smk"
+include: "rules/alignment_post_processing.smk"
+include: "rules/fastq_screen.smk"
+include: "rules/fastq_trim.smk"
+include: "rules/pileup_default.smk"
+include: "rules/pileup_norm.smk"
+include: "rules/pileup_grouped.smk"
+include: "rules/peak_call_other.smk"
+include: "rules/peak_call_grouped.smk"
+include: "rules/qc.smk"
+include: "rules/heatmap.smk"
+include: "rules/hub.smk"
+
+rule all:
+    input:
+        OUTPUT.files
+
+onsuccess:
+    slurm_files = glob.glob("slurm-*.out")
+    sps_files = glob.glob("sps-*")
+    simg_files = glob.glob("*.simg")
+
+    for fn in [*slurm_files, *sps_files, *simg_files]:
+        try:
+            if not os.path.isdir(fn):
+                os.remove(fn)
+            else:
+                shutil.rmtree(fn)
+
+        except Exception as e:
+            print(e)
+
+onerror:
+    log_out = "seqnado_error.log"
+    shutil.copyfile(log, log_out)
+    print(
+        f"An error occurred. Please check the log file {log_out} for more information."
+    )
