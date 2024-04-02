@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+todomd/__init__.py
+todomd/__main__.py
+todomdcli.egg-info/PKG-INFO
+todomdcli.egg-info/SOURCES.txt
+todomdcli.egg-info/dependency_links.txt
+todomdcli.egg-info/requires.txt
+todomdcli.egg-info/top_level.txt
