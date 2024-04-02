@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+devopsdriver/__init__.py
+devopsdriver/settings.py
+devopsdriver.egg-info/PKG-INFO
+devopsdriver.egg-info/SOURCES.txt
+devopsdriver.egg-info/dependency_links.txt
+devopsdriver.egg-info/requires.txt
+devopsdriver.egg-info/top_level.txt
+tests/test_settings.py
