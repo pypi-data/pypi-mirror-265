@@ -1,0 +1,7 @@
+requests<3,>=2.31
+python-magic<1,>=0.4
+cryptography==42.*
+progressbar2==4.*
+
+[dev]
+requests-mock==1.9.*
