@@ -1,0 +1,27 @@
+[project]
+name = "pyecho-cli"
+version = "0.1.1"
+description = "A simple echo script mainly exist for test."
+urls = { Repository = "https://github.com/j178/pyecho.git" }
+authors = [
+    { name = "j178", email = "10510431+j178@users.noreply.github.com" }
+]
+license = "MIT"
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+scripts = {pyecho = 'pyecho:main'}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyecho"]
