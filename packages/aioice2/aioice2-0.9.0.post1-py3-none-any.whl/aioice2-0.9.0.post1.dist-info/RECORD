@@ -1,0 +1,12 @@
+aioice/__init__.py,sha256=ETI4YZpiox9LiGJp8nHMK_qfGUwbU36yoQPA0R4SxY8,349
+aioice/candidate.py,sha256=9nO_b2lL5TEg_YAPD6cuNxMNHqR66N6ZjZljXMlJmZU,4060
+aioice/ice.py,sha256=wlQtvWStzh9jN4MY5AjjGScM-_XaJU--EwyPnE5SV3g,40633
+aioice/mdns.py,sha256=vPqRHo08k2Hcu3zhXB8Ra6ucvqkCuFToCUI1a3O0j9w,6567
+aioice/stun.py,sha256=k1VLQBT_TsPPoimARnR-BNwzRxcwOSnTw5_bB1T8aJ0,12090
+aioice/turn.py,sha256=66YdUjt67kDcqVfDHas7cuFEJX3tXiTNzKdVzTna_8U,14775
+aioice/utils.py,sha256=PKPJTldUptg07SZyw38Cy1g4xt2L8uMsliUhXJ_u8Ts,264
+aioice2-0.9.0.post1.dist-info/LICENSE,sha256=BWnfth6Gb_rBfbQDLYmy4ChYlOPZtIKyAKomwBMtwoQ,1512
+aioice2-0.9.0.post1.dist-info/METADATA,sha256=gAqn-f5PC31n0ttG5xq7kssHkHizml2e343608uXXAs,3999
+aioice2-0.9.0.post1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aioice2-0.9.0.post1.dist-info/top_level.txt,sha256=oUHtyttqCMTRUKmS9-IgRSE3BgsZrxR_iyPCmIR1_LU,7
+aioice2-0.9.0.post1.dist-info/RECORD,,
