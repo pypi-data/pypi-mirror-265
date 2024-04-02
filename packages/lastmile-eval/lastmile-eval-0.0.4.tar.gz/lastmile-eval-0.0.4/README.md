@@ -1,0 +1,24 @@
+# LastMile AI Eval
+
+Library of tools to evaluate your RAG system.
+
+## Setup
+
+1. Get a LastMile API token (see section below)
+2. Install this library: `pip install lastmile-eval`
+3. Gather your data that needs evaluation.
+4. See examples/ folder for API usage.
+
+## LastMile API token
+
+To get a LastMile AI token, please go to the [LastMile token's webpage](https://lastmileai.dev/settings?page=tokens).
+You can create an account with Google or Github and then click the "Create new token" in the "API Tokens" section. Once a token is created, be sure to save it somewhere since you won't be able to see the value of it from the website again (though you can create a new one if that happens).
+
+**Please be careful not to share your token on GitHub**. Instead we recommend saving it under your project’s (or home directory) `.env` file as: `LASTMILE_API_TOKEN=<TOKEN_HERE>`, and use loadenv instead.
+See examples/ for how to do this.
+
+
+## LLM Provider Tokens (`.env` file)
+
+In order to use LLM-based evaluators, add your other API tokens to your .env file.
+Example: `OPENAI_API_KEY=<TOKEN_HERE>`

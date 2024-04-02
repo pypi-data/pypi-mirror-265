@@ -1,0 +1,11 @@
+dataclasses
+requests
+python-dotenv
+rouge_score
+nltk
+openai>=1.0.0
+
+evaluate==0.4.1
+arize-phoenix-evals==0.5.0
+pandas==2.1.2
+instructor
