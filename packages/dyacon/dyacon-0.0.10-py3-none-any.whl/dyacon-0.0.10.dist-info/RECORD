@@ -1,0 +1,11 @@
+dyacon/__init__.py,sha256=E18HW3-qTmZiCvzl7OYldHbj8AdxDM9F-iEdT_N3vec,118
+dyacon/read.py,sha256=8M-VwhDbvoHRSdSHoBOeFUK5V5M0GlMuQAnvHYGjduA,2389
+dyacon/loaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyacon/loaders/loaders.py,sha256=a6tLO07xLYULF67jwRe6PFECNzbbSPrPO4d1akUM9mU,3622
+dyacon/loaders/external/__init__.py,sha256=GZgy8EXxD4oqlP1cP-xrQ787M_03a8cEF19rAg8G3cM,88
+dyacon/loaders/external/google.py,sha256=oWVc2ARWc1gFzmDTWiXLxkfj2nOha2ZjGDTrZf-Onv8,2964
+dyacon-0.0.10.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dyacon-0.0.10.dist-info/METADATA,sha256=SpU3_mPy_7suZ5rw9_aI7DK5t54dr-Kv3mhcj_lHXhE,7767
+dyacon-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dyacon-0.0.10.dist-info/top_level.txt,sha256=XVSGVmm7ZFUpqJELRMku28vTDiS9md8qp2RT1nqf-rQ,7
+dyacon-0.0.10.dist-info/RECORD,,
