@@ -1,0 +1,13 @@
+asyncprawcore-stubs/__init__.pyi,sha256=OXuLHkyRkQ7_fFDBf88ubcJSb_nWPSqhmypCMCs6rxQ,86
+asyncprawcore-stubs/auth.pyi,sha256=Lf_tXhQvlz5COClpAjUd9T6IhICTnrjL-gGxir46-cg,3737
+asyncprawcore-stubs/codes.pyi,sha256=VbVtL47oWsD9J0rxqOhwGFW-l6iCnJ4UluvAwM4eRmQ,192
+asyncprawcore-stubs/const.pyi,sha256=HQG2_Okyz2F_eU6TJWqNKBsvWrgaSMUzL3ukkygt9F0,150
+asyncprawcore-stubs/exceptions.pyi,sha256=s9yHjC4QgoJhb61SO2LCxm8eGXW2KmE5Ja5yrNR1NFo,2109
+asyncprawcore-stubs/rate_limit.pyi,sha256=TiKNjnqOXupiV5mbVBdZrSwNa7eGyd4PObXvS5tR6p0,850
+asyncprawcore-stubs/requestor.pyi,sha256=2_Ut6uiNfR9ch58sU-ce6HZcHdueRdeXbgc7Viuin5s,942
+asyncprawcore-stubs/sessions.pyi,sha256=HFNpwKrK1BaAZwlJYjKdhtwMBSQr-_vRnBW223t6TYY,3575
+asyncprawcore-stubs/util.pyi,sha256=vRwXyNA_bsOVEtGfZ15BUQXyvkrP3iXDyKzdBSchUC0,416
+asyncprawcore_stubs-0.0.1.dist-info/LICENSE,sha256=6MAokBX957lBdA0QrMEfA-U_FkA9k67RekLHyE7mzaw,1071
+asyncprawcore_stubs-0.0.1.dist-info/METADATA,sha256=5fTAZAjFxqfwTbboOwLKI80I8m3YvF5HK2KR50x4mDI,1139
+asyncprawcore_stubs-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+asyncprawcore_stubs-0.0.1.dist-info/RECORD,,
