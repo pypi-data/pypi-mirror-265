@@ -1,0 +1,10 @@
+wordslab_llms/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+wordslab_llms/_modidx.py,sha256=9J31IX3aMAjJgmI4FoCbf5O_ZJ6cXFnO68BkXQuJVUM,2394
+wordslab_llms/models.py,sha256=rXzYRQACZXnvUUsFP6PuGsG1PYDHZFxE1y6tIG-97aE,8337
+wordslab_llms/data/base_models.csv,sha256=jLEjC5LS7n-zRp-zH4K76tD1TQxR9sBGesDaOfnvaag,14091
+wordslab_llms-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wordslab_llms-0.0.3.dist-info/METADATA,sha256=IoGg0l1poW5GGNAvZEY6V-bXqwAHEwitXuShSU5fXX8,1211
+wordslab_llms-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wordslab_llms-0.0.3.dist-info/entry_points.txt,sha256=ACp2y3tR20k_bwoAcCHJEziZW0J_MrjOXHEUzKfgemg,69
+wordslab_llms-0.0.3.dist-info/top_level.txt,sha256=RrZqND9GD8eeBetCu_1dC7dQ3dOdI37K0akOQCacdpA,14
+wordslab_llms-0.0.3.dist-info/RECORD,,
