@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sinc
+Version: 0.0.0
+Summary: Reserved name for future use
+Home-page: https://github.com/alirezaafzalaghaei
+Author: Alireza Afzal Aghaei
+Author-email: alirezaafzalaghaei@gmail.com
+License: BSD
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numba
+
