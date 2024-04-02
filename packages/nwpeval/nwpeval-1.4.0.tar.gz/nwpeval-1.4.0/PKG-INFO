@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nwpeval
+Version: 1.4.0
+Summary: A package for computing metrics for NWP model evaluation
+Author: Debasish Mahapatra
+Author-email: debasish.atmos@gmail.com | debasish.mahapatra@ugent.be
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: pygrib
+Requires-Dist: xarray
+Requires-Dist: scipy
