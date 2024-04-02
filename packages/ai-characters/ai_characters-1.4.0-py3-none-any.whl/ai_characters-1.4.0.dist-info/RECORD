@@ -1,0 +1,9 @@
+aic/__init__.py,sha256=vsFfWbbJc0ipQuArEgffz7359X2z8kf_PAnTQM7WM3E,3018
+aic/agent.schema.json,sha256=s_9JCKIK5H1EGXJqJJZSpkzqOP9VeoVj-Lwn38j7mMQ,614
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aic.py,sha256=Evz80_3qhWf1h04uKIB9vJi80aVMKxVdkQeKmATmUcM,992
+ai_characters-1.4.0.dist-info/LICENSE,sha256=yhAtmOMyr6eWvIhHERkKcaCv_rcuxK1bgi3GUTHftd8,1066
+ai_characters-1.4.0.dist-info/METADATA,sha256=gFAbfKNxTz8g4YxzrElZdihaQ8mM03-bS9KNmMOjuZc,1185
+ai_characters-1.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ai_characters-1.4.0.dist-info/top_level.txt,sha256=PrUTNUgm3BUy8ZMcFay_Hv2jHnMeVERuLYd7Syn83rE,10
+ai_characters-1.4.0.dist-info/RECORD,,
