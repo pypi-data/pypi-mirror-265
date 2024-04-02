@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lightning-whisper-mlx
+Version: 0.0.1
+Requires-Dist: huggingface-hub
+Requires-Dist: mlx >=0.8
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: more-itertools
+Requires-Dist: tiktoken ==0.3.3
+Requires-Dist: scipy
+
