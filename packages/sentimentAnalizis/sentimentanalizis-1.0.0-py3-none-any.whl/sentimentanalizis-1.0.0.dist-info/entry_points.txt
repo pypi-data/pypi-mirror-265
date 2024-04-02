@@ -1,0 +1,5 @@
+[console_scripts]
+sentAnalize=sentimentAnalizis:main
+sentAnalize-calibrate=sentimentAnalizis:calibrate
+sentAnalize-init=sentimentAnalizis:init
+
