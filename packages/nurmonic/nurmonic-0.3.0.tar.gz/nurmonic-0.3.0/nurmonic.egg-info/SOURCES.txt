@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+nurmonic/__init__.py
+nurmonic/nurmonic.py
+nurmonic.egg-info/PKG-INFO
+nurmonic.egg-info/SOURCES.txt
+nurmonic.egg-info/dependency_links.txt
+nurmonic.egg-info/requires.txt
+nurmonic.egg-info/top_level.txt
