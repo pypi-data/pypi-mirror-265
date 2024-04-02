@@ -1,0 +1,14 @@
+- Proper editor for options, that autocompletes file paths and makes it possible
+  to delete the whole text with a key.
+
+- If the default value for an option is a list (instead of a string), then
+  make it so that it can only take one of those values (the editor that opens
+  when selected should be a special one that lets you pick one entry)
+
+- Take care of crashes when the terminal size is too small and/or resized
+
+- Full git_wrapper example (all git subcommands!)
+
+- New example: ffmpeg wrapper. It does not need to be a full wrapper but more a
+  guided menu for the more common operations.
+
