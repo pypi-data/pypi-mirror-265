@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DataPrepKitV2
+Version: 2.0
+Summary: A Python package for data preprocessing
+Home-page: https://github.com/MaiElBaradei/DataPrepKitV2
+Author: Mai Hassanin ElBaradei
+Requires-Dist: pandas
+
