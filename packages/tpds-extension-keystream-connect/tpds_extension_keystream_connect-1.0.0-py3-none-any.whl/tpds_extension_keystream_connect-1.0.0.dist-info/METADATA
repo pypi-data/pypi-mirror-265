@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tpds-extension-keystream-connect
+Version: 1.0.0
+Summary: Microchip(SPG) Trust Platform - Keystream Connect Usecase
+Home-page: https://www.microchip.com/TrustPlatform
+Author: Microchip Technology
+Author-email: SPG.Tools@microchip.com
+Classifier: License :: Other/Proprietary License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: tpds-core >=2.3.2
+Requires-Dist: tpds-helper >=2.3.2
+
