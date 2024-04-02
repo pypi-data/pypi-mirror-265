@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: jamba
+Version: 0.0.1
+Summary: jamba - Pytorch
+Home-page: https://github.com/kyegomez/jamba
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: swarms
+Requires-Dist: torch
+Requires-Dist: zetascale
+Project-URL: Documentation, https://github.com/kyegomez/jamba
+Project-URL: Repository, https://github.com/kyegomez/jamba
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+# Jamba
+PyTorch Implementation of Jamba: "Jamba: A Hybrid Transformer-Mamba Language Model"
+
+
+## install
+`$ pip install jamba`
+
+## usage
+
+```
+import torch 
+from jamba.model import JambaBlock
+
+# Create a random tensor of shape (1, 128, 512)
+x = torch.randn(1, 128, 512)
+
+# Create an instance of the JambaBlock class
+jamba = JambaBlock(
+    512,  # input channels
+    128,  # hidden channels
+    128,  # key channels
+    8,    # number of heads
+    4,    # number of layers
+)
+
+# Pass the input tensor through the JambaBlock
+output = jamba(x)
+
+# Print the shape of the output tensor
+print(output.shape)
+```
+
+# License
+MIT
+
