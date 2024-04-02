@@ -1,0 +1,17 @@
+mmg2d/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+mmg2d/mmg2d_O3,sha256=4J5BxFisIpxG-hBBCr07dAPYeeiIjpwgu9WIU57D9bo,627657
+mmg2d/__init__.py,sha256=WyXWKZ7de_AwRkDpc5BQ44psNWo7E7KsAhqGioNaN8k,200
+pymmg.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+mmgs/mmgs_O3,sha256=xRoUoq5Ka_0-U6HFZ5Q8YhhvT4A2wcVjbwRhXQkOEek,614477
+mmgs/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+mmgs/__init__.py,sha256=-SMI55uC3JaTCh_JDYVf0xLUq7kwrjCwOPla-hjFa9k,199
+general/_version.py,sha256=DGJ4pj32xs3_DRJhSzQwCiRNnAQrMgo09USYpyMZsKc,411
+general/__init__.py,sha256=aziQkin5JiONeWoeWB-thHcdvVpWsY_PMncmHjVEUb8,3497
+pymmg-1.0.0.dist-info/top_level.txt,sha256=mtF7Fo0q0v9c-J_frlwS3c-R5DyQJ97W0RXBbax25QU,25
+pymmg-1.0.0.dist-info/METADATA,sha256=orvID9ekEfjDrvW2bXgOXUdPaHi3WZu4--3iRpBjqH4,4570
+pymmg-1.0.0.dist-info/WHEEL,sha256=5S5J9rKARmRYmLriVYCUx2PmwRJL6z45bn3rM2Z6XMo,102
+pymmg-1.0.0.dist-info/entry_points.txt,sha256=w2nnJJiH9U2AhjKAAj_CyAcPRXWFqYfMM4UnNvRd-Gc,73
+mmg3d/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+mmg3d/mmg3d_O3,sha256=MZpe3FZKD2WWJ-BASyMhPaEi_3Cn_DmwD1KOBEmaceA,1254193
+mmg3d/__init__.py,sha256=UAfV6ainyJ3lkvJfdIOujmsURQiZsNl4Q2C4FYtKv4k,200
+pymmg-1.0.0.dist-info/RECORD,,
