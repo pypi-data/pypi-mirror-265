@@ -1,0 +1,6 @@
+setup.py
+cart_project/models.py
+natali_cart_project.egg-info/PKG-INFO
+natali_cart_project.egg-info/SOURCES.txt
+natali_cart_project.egg-info/dependency_links.txt
+natali_cart_project.egg-info/top_level.txt
