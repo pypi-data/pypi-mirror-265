@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+EasyOutput.egg-info/PKG-INFO
+EasyOutput.egg-info/SOURCES.txt
+EasyOutput.egg-info/dependency_links.txt
+EasyOutput.egg-info/requires.txt
+EasyOutput.egg-info/top_level.txt
+easyoutput/EasyOutput.py
+easyoutput/__init__.py
