@@ -1,0 +1,11 @@
+mkninja-0.2.1.dist-info/RECORD,,
+mkninja-0.2.1.dist-info/top_level.txt,sha256=fCxWK65i5Ac3LwCszAXRiIZgpYzBW9HeBQ1lSTwQ98k,8
+mkninja-0.2.1.dist-info/METADATA,sha256=RGqOEkrFf92aVyNqFgjWuEVtdwkFHrm6GeltnP_x9V4,10631
+mkninja-0.2.1.dist-info/WHEEL,sha256=eE8OX0c3Wk8SJwLihgF-nAEfOgfdBPlEZPCadgj-dZ0,150
+mkninja-0.2.1.dist-info/entry_points.txt,sha256=eGvyPSYHy3q31Jlzj4kDHL5zQEGgRISFKpZt8zPw200,50
+mkninja/__main__.py,sha256=OWRk5rvQ636llUGzX1EDJrejTK72HQT0pFSMu4garV4,1729
+mkninja/findglob,sha256=wFBaIgij3nf7PHQbsRqFKuRiu4cE-iZsBLRTj9sG4MQ,140304
+mkninja/manifest,sha256=-uwExcMORudLdpDHvNU11Qe5SE08OO6Q1-krTHO4Y5Y,98592
+mkninja/stamp,sha256=9WTjS7_-rPca2qTKt7Imi9jkdGQHvxhCdQ-M0DJ8E7I,89944
+mkninja/__init__.py,sha256=e-eCx4liclAySVUVvXLHu_LJFubjvsIfkhCxXiQj4po,65
+mkninja/_core.py,sha256=loTwBGs2XQFi-edne_1MUBCibBj0SjlIgdfgHD31_NM,18490
