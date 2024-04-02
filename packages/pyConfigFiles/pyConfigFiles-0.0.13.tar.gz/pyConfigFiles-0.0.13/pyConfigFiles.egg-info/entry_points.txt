@@ -1,0 +1,2 @@
+[console_scripts]
+pyconfigfile = pyConfigFiles.core:process_main
