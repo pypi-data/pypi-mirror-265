@@ -1,0 +1,11 @@
+mkninja/findglob,sha256=KPpfAHpY6RhKJH0aHprYWo4urdN1iqxoXHtuNn8zTps,156892
+mkninja/manifest,sha256=gHs0VzxX8ouopdVVm7oMLgfoYLROH4YAIiRPJvoMnH4,118736
+mkninja/__init__.py,sha256=e-eCx4liclAySVUVvXLHu_LJFubjvsIfkhCxXiQj4po,65
+mkninja/_core.py,sha256=loTwBGs2XQFi-edne_1MUBCibBj0SjlIgdfgHD31_NM,18490
+mkninja/stamp,sha256=EbELT4XGbalb3zXCadgC5fxgeXHx3xuaAOc6i4hDc_0,117741
+mkninja/__main__.py,sha256=OWRk5rvQ636llUGzX1EDJrejTK72HQT0pFSMu4garV4,1729
+mkninja-0.2.1.dist-info/RECORD,,
+mkninja-0.2.1.dist-info/WHEEL,sha256=SdS6if6-uCozRXZ5GMXYH2j8iojAu9bSvihUMOitgnA,113
+mkninja-0.2.1.dist-info/entry_points.txt,sha256=eGvyPSYHy3q31Jlzj4kDHL5zQEGgRISFKpZt8zPw200,50
+mkninja-0.2.1.dist-info/top_level.txt,sha256=fCxWK65i5Ac3LwCszAXRiIZgpYzBW9HeBQ1lSTwQ98k,8
+mkninja-0.2.1.dist-info/METADATA,sha256=RGqOEkrFf92aVyNqFgjWuEVtdwkFHrm6GeltnP_x9V4,10631
