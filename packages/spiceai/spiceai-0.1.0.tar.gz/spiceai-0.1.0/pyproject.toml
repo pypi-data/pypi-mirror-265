@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 120
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch]
+
+[tool.hatch.build.targets.wheel]
+packages=["spice"]
+
+[project]
+name = "spiceai"
+version = "0.1.0"
