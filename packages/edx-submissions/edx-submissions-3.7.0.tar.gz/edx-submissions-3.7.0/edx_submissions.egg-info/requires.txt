@@ -1,0 +1,5 @@
+django-model-utils
+jsonfield
+Django
+pytz
+djangorestframework
