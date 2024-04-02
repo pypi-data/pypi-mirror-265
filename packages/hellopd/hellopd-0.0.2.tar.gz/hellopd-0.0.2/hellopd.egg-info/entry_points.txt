@@ -1,0 +1,3 @@
+[console_scripts]
+hellopd = hellopd:hello
+
