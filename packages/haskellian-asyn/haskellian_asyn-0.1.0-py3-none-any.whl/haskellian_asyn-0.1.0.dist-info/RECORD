@@ -1,0 +1,14 @@
+haskellian/asyn/__init__.py,sha256=mUpQmvx8xAodDyL-Tk-wX7yFdLpIagyGFyDPwFz4MSI,219
+haskellian/asyn/asynch.py,sha256=yC-23TRYkMng-o4alkuKOnPOe7gy-uK_DjAArHgWfQQ,1106
+haskellian/asyn/managed.py,sha256=1JLvJzNmYRd2frrn6ao-c3SP_-7odmEmrqsJdOi3bIs,426
+haskellian/asyn/iterables/__init__.py,sha256=_AVvddQnVqhSHxiki3vfAgJtXuU1jSkd4NN9HLD4fo0,203
+haskellian/asyn/iterables/iterables.py,sha256=eFDncywKxSByav_73MTujcLBql4Ns4TkR58HapSBk0k,1353
+haskellian/asyn/iterables/memo.py,sha256=z4VWwuevi1ZQsiRk9pJ_7A5qdUfZ2pHQaF44qxvnsMU,572
+haskellian/asyn/iterables/prefetching.py,sha256=ADJ_mQKWQRvwFuWojludoUM1XxJwMGwi_HvgK7gaxv4,582
+haskellian/asyn/iterables/returning.py,sha256=tI5B7LUVdsZqZDtjZDjZJPz7Ymq_zJW0QOohvl_cfro,1296
+haskellian/asyn/queues/__init__.py,sha256=mwQZrVvel4JKdFJ4CW2W43w8VZX_jLZhXuDgw9S7apQ,59
+haskellian/asyn/queues/queues.py,sha256=zrjLjEO7Vo8kgf69J8fqy7Q8G4PRhjjquN-o-JlQaIw,988
+haskellian_asyn-0.1.0.dist-info/METADATA,sha256=CqPg8eTxE4OWIzayHW-Ve3SG62Y1cVLSP0xcrkBtfMs,268
+haskellian_asyn-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+haskellian_asyn-0.1.0.dist-info/top_level.txt,sha256=zSGTID8MlZHo6u8AHYi9nFKt3D5RVRuV1UWM1vpUUbY,11
+haskellian_asyn-0.1.0.dist-info/RECORD,,
