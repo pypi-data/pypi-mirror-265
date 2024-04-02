@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+neaty.egg-info/PKG-INFO
+neaty.egg-info/SOURCES.txt
+neaty.egg-info/dependency_links.txt
+neaty.egg-info/top_level.txt
+src/neaty/__init__.py
+src/neaty/_meta.py
+src/neaty/log.py
+src/neaty/neaty.py
+src/neaty/py.typed
