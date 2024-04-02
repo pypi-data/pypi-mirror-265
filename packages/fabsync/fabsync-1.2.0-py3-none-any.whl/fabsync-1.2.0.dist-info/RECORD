@@ -1,0 +1,11 @@
+fabsync/__init__.py,sha256=ce9Wsoha1qeSurg5bATBEXFWlGLk1OEuyR22OzjuQQ4,14382
+fabsync/config.py,sha256=2-LCaGgXGCsU45nr8-8Bts14VZeXZ64ZxuxDhGw_TQA,9978
+fabsync/files.py,sha256=BmShBWc-0FzbFabGEZ_g6il8gRQQ2mVz3b89V3_8olc,11520
+fabsync/fs.py,sha256=wKpUec9wazo2oSdinWPoD0zfAcsoYAGBJHSzFt9CqLw,5068
+fabsync/functools.py,sha256=qQ7gZnJCOkSMMw6GDmj-xehLjKXPc-92AZ7RPKyiTHY,1700
+fabsync/md5.sh,sha256=YXMTrw6I7AmRsh9-hjm4_TygYU17anB3_sNe165rXCE,365
+fabsync/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fabsync-1.2.0.dist-info/METADATA,sha256=r68Hb3kH7iCK_rx6XK05q_cqfYHFreOdCVaxo0Spq44,6713
+fabsync-1.2.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+fabsync-1.2.0.dist-info/licenses/UNLICENSE,sha256=fhLl30uuEsshWBuhV87SDhmGoFCN0Q0Oikq5pM-U6Fw,1211
+fabsync-1.2.0.dist-info/RECORD,,
