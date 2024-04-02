@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DFRobot_GP8403
+Version: 10.0.0
+Summary: DFRobot_GP8403 is now GP8XXX_IIC
+Home-page: https://github.com/joe2824/DFRobot_GP8403
+Author: Joel Klein
+Keywords: Raspberry Pi,Raspi,Python,GPIO,GP8403,DAC
+Classifier: Development Status :: 7 - Inactive
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: smbus2
+
+# DFRobot_GP8403 is now GP8XXX_IIC
+This package has been renamed.
+
+Use `pip install GP8XXX-IIC` instead.
+
+New package: [https://pypi.org/project/GP8XXX-IIC/](https://pypi.org/project/GP8XXX-IIC/)
