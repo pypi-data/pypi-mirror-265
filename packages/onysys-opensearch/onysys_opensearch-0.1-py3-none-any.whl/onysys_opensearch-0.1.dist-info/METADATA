@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: onysys_opensearch
+Version: 0.1
+Summary: Onysys opensearch interface
+Home-page: https://www.onysys.com/
+Author: Onysys
+Author-email: david@onysys.com
+License: MIT
+License-File: LICENSE.txt
+
