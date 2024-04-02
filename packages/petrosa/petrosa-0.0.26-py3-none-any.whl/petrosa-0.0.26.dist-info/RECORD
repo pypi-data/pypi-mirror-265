@@ -1,0 +1,13 @@
+petrosa/binance/binance.py,sha256=rX1bG0TVf3lks4VO-cGM2WwNE4WdjkiZb0FhQWS0ht0,381
+petrosa/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrosa/converters/backtests.py,sha256=S64h5GTpMi3twgdbc4giVFxO2luik7lvliXqThbjhVg,2639
+petrosa/database/mongo.py,sha256=x3YYiizgb7i0KncG8mU_ubEAeaVPfGIgY70TCcJpu5w,2274
+petrosa/messaging/kafkaproducer.py,sha256=IyMa0cv-RtZNUw2QzvtSi4zy161rwRCov6a0dvJzz0M,323
+petrosa/messaging/kafkareceiver.py,sha256=LdfPgGOv6WzJjTKJ0Fx9-r6DTbgZngDI3iyPFcM2X-M,408
+petrosa/ta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrosa/ta/strategies.py,sha256=sGPKh3XVjnC61kRXnPP1B0iqTz3FeUSWz_2WGOQzy_A,24983
+petrosa/ta/utils.py,sha256=-Ic_SsLsdN6kIshdQ95rdEE7w5MzH0Zu755NTRA3lyI,830
+petrosa-0.0.26.dist-info/METADATA,sha256=NidrgydW-1LtXmd0Gkzd4V2VmD1VHYOK4PdyaBwAVV8,757
+petrosa-0.0.26.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+petrosa-0.0.26.dist-info/licenses/LICENSE,sha256=laAtIGoDbZBqhkTalLLdtCwZumW9xZhoDe9AvKKviQk,1063
+petrosa-0.0.26.dist-info/RECORD,,
