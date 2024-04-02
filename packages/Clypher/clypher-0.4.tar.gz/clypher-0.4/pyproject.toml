@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "hatchling"
+    ]
+build-backend = "hatchling.build"
+
+[project]
+name = "Clypher"
+version = "0.4"
+authors = [
+  { name="Maximiliano Cancelarich", email="maximilianoacan@gmail.com" },
+]
+description = "Encrypt and decrypt from the command line."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+     "typer[all]",
+     "cryptography",
+    ]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+     "/.github",
+     "/tests",
+     "/testfolder",
+     ".pytest_cache",
+     "/docs",
+     "./CONTRIBUTING.md",
+     "./README.md",
+     "./pytest.ini",
+
+]
+
+[project.urls]
+Homepage = "https://github.com/maxacan/clypher"
+Issues = "https://github.com/maxacan/clypher/issues"
+Documentation = "https://maxacan.github.io/clypher"
