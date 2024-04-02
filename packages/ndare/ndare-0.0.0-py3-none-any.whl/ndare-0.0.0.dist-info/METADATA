@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ndare
+Version: 0.0.0
+Summary: NDARE
+Author-email: João Vitorino <jpmvo@outlook.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy>=1.19.5,<2
+Project-URL: Documentation, https://ndare.readthedocs.io/en/latest/
+Project-URL: Homepage, https://github.com/vitorinojoao/ndare
+
+NDARE
+=====
+
+NDARE is currently under development.
+
+Check out the official documentation: `https://ndare.readthedocs.io/en/latest <https://ndare.readthedocs.io/en/latest/>`_
+
+Explore the open source code repository: `https://github.com/vitorinojoao/ndare <https://github.com/vitorinojoao/ndare>`_
+
+Install it from the Python Package Index: `https://pypi.org/project/ndare <https://pypi.org/project/ndare/>`_
+
