@@ -1,0 +1,10 @@
+sssom_schema/__init__.py,sha256=VWUAdDLDNuhW-YNDJfSjMzO1nTBYXCVG-sonnAGJMSk,37
+sssom_schema/context/sssom_schema.context.jsonld,sha256=7yurNmqIVxkmoZaTwz8kodSrR1imlwG9Eube8jrl4tI,5040
+sssom_schema/context/sssom_schema.jsonld,sha256=Eg38lyGLeHp4veydUbTw70bDQdTPeulGl_PvdQ0KxMc,67800
+sssom_schema/datamodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sssom_schema/datamodel/sssom_schema.py,sha256=_rCCW1-jZBZ867AovoQek-3sZUUwPohetzZcceY7cug,45137
+sssom_schema/schema/sssom_schema.yaml,sha256=4jowVuW2YbRhvojR9NrHNN9NOrcz_MBEJDf7XaJIKKk,29641
+sssom_schema-0.15.1.dist-info/LICENSE,sha256=8RubVs3mwXlMDLwSP9mywXocWa8VARbcn14dML1kOls,1523
+sssom_schema-0.15.1.dist-info/METADATA,sha256=diQb5Vprb42Y7ud6F4BCeaogWDvCtFh-cYypv35unVM,7715
+sssom_schema-0.15.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sssom_schema-0.15.1.dist-info/RECORD,,
