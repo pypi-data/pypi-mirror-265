@@ -1,0 +1,14 @@
+*.env
+*.venv
+*.egg*
+*.ipynb
+*.html
+*.css
+*.js
+**/*__pycache__/*
+**/*__.ipynb_checkpoints/*
+build/
+dist/
+sdist/
+wheels/
+_site/
