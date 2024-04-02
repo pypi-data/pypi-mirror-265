@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+datadd_server.egg-info/PKG-INFO
+datadd_server.egg-info/SOURCES.txt
+datadd_server.egg-info/dependency_links.txt
+datadd_server.egg-info/top_level.txt

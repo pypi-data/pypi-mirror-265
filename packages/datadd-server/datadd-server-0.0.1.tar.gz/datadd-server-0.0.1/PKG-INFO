@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datadd-server
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://helm.news
+Author: Sam Hjelmfelt
+Author-email: sam@helm.news
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#Data DD
+
+
