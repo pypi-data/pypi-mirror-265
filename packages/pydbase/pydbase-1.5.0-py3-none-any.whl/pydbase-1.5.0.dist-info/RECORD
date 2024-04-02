@@ -1,0 +1,16 @@
+pydbase/__init__.py,sha256=mxlKdJrWa5lj6qr9NwNZcUuVqnRACJQa7pxE2YtgHSI,9
+pydbase/dbutils.py,sha256=gga71SP-76eRnh_pls8XnH5kWeyFOu2z6Fe8nKzyZAQ,5144
+pydbase/portalocker.py,sha256=Al4rmlS6hA5oeRq07FGhJey-gXfVOcBj1be5ARO503U,3453
+pydbase/twinbase.py,sha256=EjknamFEXw9v2UGw32lX8Q1mwqTMGZJRVwd_euawl08,6495
+pydbase/twinchain.py,sha256=cnxWUq6HEkJYOMFd7sYHQCeL7Wf1bLN6NB4Nekks1_k,12457
+pydbase/twincore.py,sha256=PW167gT_uUMb-n3NaV024TJI-dNrYvV03kvon8_0iXw,47269
+pydbase/docs/twinbase.html,sha256=hY7MRoFM_f2nd8ubvpvQudQr-pT9ovjDVyQUXvfl-iw,30170
+pydbase/docs/twinchain.html,sha256=RZV9rbrOHhVmkMcC1EAXGK-n8R_pzeSS0hzAaiqVt-g,46450
+pydbase/docs/twincore.html,sha256=HLg_twrzgWHh661rsqFXAsR3vLriBV1HogmgkxI_4Yc,143801
+pydbase-1.5.0.data/scripts/chainadm.py,sha256=UmXp7V0DFl1mZ3-Fnc6gC-l0lb5FAU0K1tqciRmxqMY,7855
+pydbase-1.5.0.data/scripts/dbaseadm.py,sha256=hm0fto_0Hpz1qcigcieQDphb0ypgHiyetwNWAYvrKlM,10883
+pydbase-1.5.0.dist-info/METADATA,sha256=XEgICSsRRPweU0iUVbs4OvXKOfSiveP-AtRhQf49n3U,14848
+pydbase-1.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pydbase-1.5.0.dist-info/entry_points.txt,sha256=1eI0p30DAUs4ovRpOkRuxwWZgV0Ya-ZnISGjK6wTdKk,76
+pydbase-1.5.0.dist-info/top_level.txt,sha256=AZGpwSI5gUEUq_2FaAKaFjvqTXKiHo7Xxtyv-n_5cRk,18
+pydbase-1.5.0.dist-info/RECORD,,
