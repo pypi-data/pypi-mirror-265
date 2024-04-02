@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "python-llmexplorer"
+version = "0.1.4"
+description = "A Tool that can be used to analyse, monitor prompts usage and LLM ops"
+authors = ["The LLM Explorer Team"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+requests = "^2.31.0"
+openai = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+fastapi = "*"
+elasticsearch = "*"
+
+[tool.poetry.extras]
+dev = ["fastapi", "elasticsearch"]
+
+[tool.poetry.scripts]
+llmexplorer = 'llmexplorer.__main__:main'
