@@ -1,0 +1,2 @@
+[console_scripts]
+hello = zenfinal.zenfinal:main
