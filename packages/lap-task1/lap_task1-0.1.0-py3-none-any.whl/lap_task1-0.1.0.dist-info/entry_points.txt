@@ -1,0 +1,3 @@
+[console_scripts]
+lap-task1=lap_task1.eval:cli
+

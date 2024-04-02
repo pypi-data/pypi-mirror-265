@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lap-task1
+Version: 0.1.0
+Summary: Evaluation tool for the Listener Acoustic Personalisation challenge
+Author-email: Johan Pauwels <j.pauwels@qmul.ac.uk>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: hartufo >=0.6.5
+Requires-Dist: scikit-learn >=1.4
+Project-URL: Home, https://github.com/jpauwels/lap-task1
+Project-URL: Issues, https://github.com/jpauwels/lap-task1/issues
+
+# lap-task1
