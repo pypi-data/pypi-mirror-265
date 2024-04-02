@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+FastAPI_TemplateWizard.egg-info/PKG-INFO
+FastAPI_TemplateWizard.egg-info/SOURCES.txt
+FastAPI_TemplateWizard.egg-info/dependency_links.txt
+FastAPI_TemplateWizard.egg-info/entry_points.txt
+FastAPI_TemplateWizard.egg-info/requires.txt
+FastAPI_TemplateWizard.egg-info/top_level.txt
