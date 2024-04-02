@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: secsend
+Version: 1.1.0
+Summary: secsend client library
+Home-page: http://github.com/aguinet/secsend
+Author: Adrien Guinet
+Author-email: adrien@guinet.me
+License: GPL
+Provides-Extra: dev
