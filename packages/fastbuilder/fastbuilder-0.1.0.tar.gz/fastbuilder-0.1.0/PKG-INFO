@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fastbuilder
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/AriBermeki/fastbuilder
+License: MIT
+Author: AriBermeki
+Author-email: ari.bermeki.de@gmail.com
+Requires-Python: >=3.12,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: bs4 (>=0.0.2,<0.0.3)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: pyinstaller (>=6.5.0,<7.0.0)
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Project-URL: Repository, https://github.com/AriBermeki/fastbuilder
+Description-Content-Type: text/markdown
+
+# fastbuilder
+Build Web Applications with poure Python
+
