@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+GPTparser/GPTparser.py
+GPTparser/__init__.py
+GPTparser.egg-info/PKG-INFO
+GPTparser.egg-info/SOURCES.txt
+GPTparser.egg-info/dependency_links.txt
+GPTparser.egg-info/entry_points.txt
+GPTparser.egg-info/requires.txt
+GPTparser.egg-info/top_level.txt
+GPTparser/extra_scripts/__init__.py
+GPTparser/extra_scripts/combinR.py
+GPTparser/extra_scripts/j_val.py
+GPTparser/extra_scripts/wordcount.py

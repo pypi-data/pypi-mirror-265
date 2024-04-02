@@ -1,0 +1,6 @@
+langchain==0.1.4
+openai==1.10.0
+deeplake
+tiktoken
+newspaper3k
+python-dotenv
