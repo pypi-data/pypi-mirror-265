@@ -1,0 +1,10 @@
+logflow/__init__.py,sha256=oFhlUmolMgX10cT6peXg6eI1bHKWZFSrcrfafQjvDgk,206
+logflow/cli.py,sha256=sqBaACXlhPwbTmIzyfN-0hdg4wAgWpZZBQJ-psShvJU,7209
+logflow/config_handler.py,sha256=9ajCTS7xNDwOPxATQ6vmJxl41vTVE5CpzB3r16BdEr4,2022
+logflow/log_decorator.py,sha256=DxWU8m5eA81jTLKBzLYFzQBwiTZSBKiwv5TPrxugOnc,2578
+Logflow-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Logflow-0.0.1.dist-info/METADATA,sha256=ykZrspoV_XR93lu96Ql4K3t2CTlZG6gf9rqA-AEy9UU,4813
+Logflow-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Logflow-0.0.1.dist-info/entry_points.txt,sha256=x9-sVmYeEYS3CDzUPPP7JSeEzEPrHGyMR2LcTr1soLQ,45
+Logflow-0.0.1.dist-info/top_level.txt,sha256=jlTzzM1fzmFwcFbPoXi2SBJOajFrIQozWHCI4NEpZDI,8
+Logflow-0.0.1.dist-info/RECORD,,
