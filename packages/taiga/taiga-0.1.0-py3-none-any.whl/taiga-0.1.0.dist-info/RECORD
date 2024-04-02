@@ -1,0 +1,6 @@
+tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasks/get_task_history.py,sha256=ddIQxTu0L-0SwPDd7woKf4QwZrXELYJ11pNJ6fw-kn0,1636
+taiga-0.1.0.dist-info/METADATA,sha256=Wt2xBEayphUG5xaCgKCawQY0JagjsBnLyhRb3V7rzVo,93
+taiga-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+taiga-0.1.0.dist-info/top_level.txt,sha256=pmoOA8PX_0fqDNJOqBhUzZrBxf7VnayEQtBYI66Xiro,6
+taiga-0.1.0.dist-info/RECORD,,
