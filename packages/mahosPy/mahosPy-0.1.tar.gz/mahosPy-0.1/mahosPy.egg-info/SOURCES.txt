@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+code/__init__.py
+code/mahosPy.py
+mahosPy.egg-info/PKG-INFO
+mahosPy.egg-info/SOURCES.txt
+mahosPy.egg-info/dependency_links.txt
+mahosPy.egg-info/top_level.txt
