@@ -1,0 +1,8 @@
+README.md
+setup.py
+hellopd/__init__.py
+hellopd/main.py
+hellopd.egg-info/PKG-INFO
+hellopd.egg-info/SOURCES.txt
+hellopd.egg-info/dependency_links.txt
+hellopd.egg-info/top_level.txt
