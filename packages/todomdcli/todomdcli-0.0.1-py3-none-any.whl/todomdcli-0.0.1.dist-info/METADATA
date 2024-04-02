@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: todomdcli
+Version: 0.0.1
+Summary: TUI Todo Application, that converts all your records into pretty markdown
+Author-email: Alex Zolotarov <alex@zolotarov.me>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fire
+
+TODOMD
+------
+
+TUI Todo Application, that converts all your records into pretty markdown
+
+```
+NAME
+    todomd - Scan markdown todo history, highlight days and priority
+
+SYNOPSIS
+    todomd FILENAME
+
+DESCRIPTION
+    Scan markdown todo history, highlight days and priority
+
+POSITIONAL ARGUMENTS
+    FILENAME
+        Type: str
+
+NOTES
+    You can also use flags syntax for POSITIONAL ARGUMENTS
+```
