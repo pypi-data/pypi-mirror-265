@@ -1,0 +1,9 @@
+Pillow
+
+[dev]
+black
+isort
+pre-commit
+
+[tests]
+pytest

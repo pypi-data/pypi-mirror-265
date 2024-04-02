@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+match_snapshot/__init__.py
+match_snapshot/match_snapshot.py
+tiny_match_snapshot.egg-info/PKG-INFO
+tiny_match_snapshot.egg-info/SOURCES.txt
+tiny_match_snapshot.egg-info/dependency_links.txt
+tiny_match_snapshot.egg-info/not-zip-safe
+tiny_match_snapshot.egg-info/requires.txt
+tiny_match_snapshot.egg-info/top_level.txt
