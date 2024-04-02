@@ -1,0 +1,28 @@
+[tool.poetry]
+authors = ["Daniel CAUNE <daniel.caune@tendkid.com>"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries",
+]
+description = "Collection of reusable Python components to share with Python projects integrating TendKid"
+keywords = ["core", "library", "tendkid"]
+license = "SEE LICENSE IN <LICENSE.md>"
+name = "tendkid-core-library"
+packages = [{include = "majormode", from = "src"}]
+readme = "README.md"
+repository = "https://github.com/tendkid/library_tendkid-core_python"
+version = "1.0.0"
+
+[tool.poetry.dependencies]
+perseus-core-library = "^1.20.3"
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+setuptools = "^69.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
