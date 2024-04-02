@@ -1,0 +1,15 @@
+arcticfreeze/__init__.py,sha256=LGFx3ZCBy32Fyo-NOO0d8ZeU_T5QGb9HIwsUBXU-Al0,1035
+arcticfreeze/__main__.py,sha256=KMtLTKiwnTUvADcS7OY45pbs0Bgo795tvaCTaTjLml8,711
+arcticfreeze/_internal/__init__.py,sha256=TPYHUSc3HZTIoof-EvPLWUCd2xyBV-lRBuRIV9m5SBc,714
+arcticfreeze/_internal/freeze.py,sha256=1N_f6i6NIrueM9tYVI8HKXVHIx8w0Ngt8uKOMnIRscU,4716
+arcticfreeze/_internal/frozendict.py,sha256=L6RsiKZXYd0Kxi7AEW_bvYqE7j-oZZUtpsGr2IVcmgg,3923
+arcticfreeze/_internal/resolve.py,sha256=Ory6i5bTn29HJUnYOumGnGFM-u1gu98PPdYZGYOsm6s,3133
+arcticfreeze/_internal/utils.py,sha256=3Sz9H4ZWkntsCIeOTksmKQbbAOsg0dyYIJ59VZjOeWU,1074
+arcticfreeze/_internal/_converters/__init__.py,sha256=ERfWABvKBVoNtPJG8eUVr78_RIUdIWigAEzgrexoDTI,1153
+arcticfreeze/_internal/_converters/base.py,sha256=qkPW6lLAtJZvMYVOJv62AvSAOtvdQEds4SKI_vmxrCU,2955
+arcticfreeze/_internal/_converters/standard.py,sha256=KRRSgYPHZYxLB5UMPHlf2EnjqqBgm0w-0lPeRZzXOSU,3088
+arcticfreeze-0.1.0.dist-info/LICENSE,sha256=47l0iKIfUofoFLvRmc6V3KX1jI-4gdKP2KeCiKeuqRk,11351
+arcticfreeze-0.1.0.dist-info/METADATA,sha256=J5gg_LxE3b9ILaitG0yVrFgFaF3EIuyUGiPZ7LLMEJI,2637
+arcticfreeze-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+arcticfreeze-0.1.0.dist-info/top_level.txt,sha256=6DG9AI8_hxD0fQKudscvmDCF0fidPNpmL1a6jM_3LYA,13
+arcticfreeze-0.1.0.dist-info/RECORD,,
