@@ -1,0 +1,65 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bamboo-stash"
+description = "Automatic caching for Pandas function pipelines."
+readme = "README.rst"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ["pandas"]
+authors = [
+  { name = "Diony Rosa", email = "dhrosa+dev@gmail.com" },
+]
+dynamic = ["version"]
+
+dependencies = ["pandas", "platformdirs"]
+
+[project.urls]
+Documentation = "https://bamboo-stash.readthedocs.io"
+Repository = "https://github.com/dhrosa/bamboo-stash"
+
+[tool.hatch.version]
+path = "src/bamboo_stash/__init__.py"
+
+[tool.hatch.envs.default]
+python = '3.10'
+
+[tool.hatch.envs.default.scripts]
+# Meta command to run all dev workflows
+all = [
+    "hatch run style:all",
+    "hatch run test:all",
+    "hatch run docs:sphinx",
+]
+
+[tool.hatch.envs.style]
+dependencies = ["setuptools", "isort", "black", "pylama", "mypy", "pytest", "pandas-stubs"]
+
+[tool.hatch.envs.style.scripts]
+format = [
+       "isort --color src tests",
+       "black src tests",
+]
+check = [
+      "pylama --ignore E203 src tests", # E203 is not pep8-compliant, and black breaks it
+      "mypy --strict --pretty src tests",
+] 
+all = ["format", "check"]
+
+[tool.hatch.envs.test]
+dependencies = ["pytest"]
+
+[tool.hatch.envs.test.scripts]
+all = ["pytest"]
+
+[tool.pytest.ini_options]
+addopts = "--no-header -W error --showlocals"
+log_level = "DEBUG"
+
+[tool.hatch.envs.docs]
+dependencies = ["sphinx", 'pydata-sphinx-theme', 'sphinx-design']
+
+[tool.hatch.envs.docs.scripts]
+sphinx = "make -C docs html"
