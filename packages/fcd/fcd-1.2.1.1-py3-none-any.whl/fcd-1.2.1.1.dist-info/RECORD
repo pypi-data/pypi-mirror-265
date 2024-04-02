@@ -1,0 +1,9 @@
+fcd/ChemNet_v0.13_pretrained.pt,sha256=wi6XdgKzDuq9f4Hmx5DdMjTH13iMbD55edhyDMyWlRo,5629203
+fcd/__init__.py,sha256=2LafVFytuBFN24PocqfChRy_pT-3nD2j9qi8Jf2S5Rw,306
+fcd/fcd.py,sha256=UeCcla7Q-l7Nlq4cVGziOnRO6DrRsuBx9t3oaYZNG1A,3605
+fcd/torch_layers.py,sha256=IoTsCfxj9uANSwQrsnlDTw-JjxHhdPYZEl5lex8oMPA,1428
+fcd/utils.py,sha256=HWBx6L1JddzjPMZS4hpsu_p8L0VLJeCULzPTCfY3J7s,7950
+fcd-1.2.1.1.dist-info/METADATA,sha256=_Owv9qLbs8Mmk1KQj4rLs4u7NDJKXs_VNht1d940rrc,11267
+fcd-1.2.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+fcd-1.2.1.1.dist-info/licenses/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+fcd-1.2.1.1.dist-info/RECORD,,
