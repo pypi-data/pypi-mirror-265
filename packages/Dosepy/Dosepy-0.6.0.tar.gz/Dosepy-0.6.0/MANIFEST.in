@@ -1,0 +1,2 @@
+include src/Dosepy/Icon/*.png
+include src/Dosepy/data/*.csv
