@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: deepl_translator
+Version: 0.1.4
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
