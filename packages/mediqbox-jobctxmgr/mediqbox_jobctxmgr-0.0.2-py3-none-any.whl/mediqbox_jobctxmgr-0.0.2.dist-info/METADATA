@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mediqbox-jobctxmgr
+Version: 0.0.2
+Summary: A mediqbox component for job context management
+Description-Content-Type: text/markdown
+Requires-Dist: influxdb3-python
+
+# mediqbox-jobctxmgr
+
+A mediqbox component for job context management.
