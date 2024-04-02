@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/sqlite_kv/__init__.py
+src/sqlite_kv.egg-info/PKG-INFO
+src/sqlite_kv.egg-info/SOURCES.txt
+src/sqlite_kv.egg-info/dependency_links.txt
+src/sqlite_kv.egg-info/top_level.txt
+src/sqlite_kv/api/__init__.py
+src/sqlite_kv/api/api.py
+src/sqlite_kv/decorators/__init__.py
+src/sqlite_kv/decorators/decorators.py
+src/sqlite_kv/ops/__init__.py
+src/sqlite_kv/ops/ops.py
