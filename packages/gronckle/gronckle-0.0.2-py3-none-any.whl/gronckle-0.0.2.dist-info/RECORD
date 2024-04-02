@@ -1,0 +1,11 @@
+gronckle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gronckle/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gronckle/rag/smart_chunking/demo_streamlit_app.py,sha256=f2G4I3i2D5YWKQO1TaJ_iNgtNalQ__Qpp99M-aLYDy0,2620
+gronckle/rag/smart_chunking/main.py,sha256=sNmbZX2-9qj3TaCBNeZV3SHRty1IGWc5HbOUCQH_fEM,3688
+gronckle/rag/smart_chunking/split_text_responsibly.py,sha256=P5m7rSxg-mnsIiD_HzahU0WZIs03ZPUj8PgQFbMcGDo,1613
+gronckle/rag/smart_chunking/text_splitter_prompt.py,sha256=PZ7sl_9fskEsi4x3ruONxF4oqmzH8i69apVmdUbLWJA,3610
+gronckle-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gronckle-0.0.2.dist-info/METADATA,sha256=trKAcKHdoZdoVofxRWBjM5EXCsQ6LnekqKKsgYK7Scg,1124
+gronckle-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gronckle-0.0.2.dist-info/top_level.txt,sha256=502SoZpRk8S5Q6ozwEwDfoZM9LFCmFb59Qx5b_PCyHA,9
+gronckle-0.0.2.dist-info/RECORD,,
