@@ -1,0 +1,11 @@
+petrosa/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrosa/converters/backtests.py,sha256=S64h5GTpMi3twgdbc4giVFxO2luik7lvliXqThbjhVg,2639
+petrosa/database/mongo.py,sha256=5AAbYjkUktA9PFROpS0SOHdZounylGbRnIrFgoEi-3A,1094
+petrosa/messaging/kafkareceiver.py,sha256=uYgN0xTbt0CSTC_ePUJ8J66HA8lo2PH1ZYKpvSkgRmM,391
+petrosa/ta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrosa/ta/strategies.py,sha256=JDqcxZau7Q-q7DflSUd-aUtk4hl63hZLHzQdQ2CvFgA,22890
+petrosa/ta/utils.py,sha256=77IZzQVRMw1MPwYw-MTWv-CXhtbdtppzXEzxcgvGXAw,822
+petrosa-0.0.16.dist-info/METADATA,sha256=EntzXKSVIi5S6Bekk6h-MArY1t6cU1kw3n06ST2U3p0,733
+petrosa-0.0.16.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+petrosa-0.0.16.dist-info/licenses/LICENSE,sha256=laAtIGoDbZBqhkTalLLdtCwZumW9xZhoDe9AvKKviQk,1063
+petrosa-0.0.16.dist-info/RECORD,,
