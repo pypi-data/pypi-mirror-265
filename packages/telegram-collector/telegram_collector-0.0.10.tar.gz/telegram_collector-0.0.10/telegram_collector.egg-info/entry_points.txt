@@ -1,0 +1,3 @@
+[console_scripts]
+telegram_collector_send_current_message_src_to_dest = telegram_collector.__main__:send_current_message_src_to_dest
+telegram_collector_send_history_message_src_to_dest = telegram_collector.__main__:send_history_message_src_to_dest
