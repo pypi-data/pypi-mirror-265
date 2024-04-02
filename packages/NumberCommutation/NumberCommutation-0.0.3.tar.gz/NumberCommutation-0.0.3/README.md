@@ -1,0 +1,118 @@
+<h1>NumberCommutation</h1>
+Pyrisky is an easy-to-use python library for actuarial calculations, focused on mortality tables and annuity calculations.
+
+Date: 2024-02-12<br/>
+Version: 0.0.3<br/>
+Author: Pedro Cavalcante<br/>
+
+Introduction
+------------
+**NumberCommutation** is an open library written in Python for calculating annuities and actuarial tables, based on methodologies commonly used among Brazilian actuaries.
+
+This library consists of only one file module and has dependencies on the Pandas and Numpy libraries.
+
+Installation
+------------
+Once Pyhon is running, just install this library with ``pip install NumberCommutation`` 
+
+Quick Start
+------------
+
+The import process boils down to the command ``from NumberCommutation import Pyrisky``
+
+The names of functions and variables follow the Actuarial Notation of switching numbers: lx, dx, qx, px, Lx, Tx, Ex, Dx, Nx, Cx, Mx, Sx, äx, ax.
+
+The functions created were as follows:
+
+To create a complete mortality table we have ``AllTable()``:
+
+* ``lx`` = The actuarial table used to estimate the number of people alive at age X.
+
+* ``taxa`` = interest rate in one year.
+
+The ``idade_inicio`` variable can be omitted, in this case it will be 0 by default. It indicates the age at which lx begins.
+
+This formula must include at least 2 variables: lx and taxa
+If necessary, the idade_inicio variable must be included if the informed lx does not start at age 0.
+
+There is also a way to calculate an individual commutation number at a specific age x, through ``Commutation()``:
+
+* ``idade`` = Series of data referring to age(x) according to the probability data entered.
+
+* ``dados`` = Data series referring to probabilistic survival or death data
+
+The variable ``data_type`` defaults to 'q', indicating that the data are probabilities of death (qx). However, this variable accepts three more arguments: 'p' (px), 'd' (dx) and 'l' (lx).
+
+There is also the variable ``amostra``, which defaults to 1000000. Indicating the radix of the sample or the initial number of people at age 0.
+
+That said, we have the switching functions that come with ``Commutation``:
+
+Those that only need to inform the age (X) sought are:
+
+lx = Number of living people aged x
+px = A person's probability of survival aged 𝑥 before reaching age 𝑥 + 1.
+qx = Probability of death of a person aged 𝑥 before of reaching the age of 𝑥 + 1 years.
+dx = Number of people who died between ages 𝑥 and 𝑥 + 1.
+Lx = Time lived in the age range 𝑥 to 𝑥 + 1 (amount of person-years between ages 𝑥 and 𝑥 + 1).
+Tx = Time lived from age 𝑥 (number of person-years to from age 𝑥).
+ex = Average number of years someone of x age should live.
+
+And those that only need to inform the age (X) and the interest rate sought are:
+
+Dx = Indicates how many individuals from a given cohort (group of people) will survive from age x to age x + n, where n is the age range.
+Nx = The expected number of deaths between age x and age x + 1.
+Cx = The remaining life expectancy of a person who has already reached age x.
+Mx = Represents the probability that a person of exactly x years of age will die before reaching the next oldest age, that is, the probability that a person will die during the interval of one year.
+
+**Example 1:**
+Print the complete mortality table. Based on the lx of the BR-EMSsb-2021-m table and an interest rate of 5%:
+```python
+from NumberCommutation import Pyrisky
+import pandas as pd
+
+# To download the table go to: https://www.gov.br/susep/pt-br/assuntos/informacoes-ao-mercado/informacoes-tecnicas-e-planos-padroes/tabuas-biometricas-br-ems
+
+Tabua = pd.read_excel("tabuas-br-ems-2010-2015-2021-010721.xlsx", sheet_name = "BR-EMSsb-2021-m ",skiprows=5)
+
+print(TableAnnuity(Tabua["lx"],0.05).AllTable())
+```
+
+**Example 2:**
+Calculating the Time lived in the age range of 10 to 11 years and the Time lived from age 10 onwards:
+```python
+from NumberCommutation import Pyrisky
+import pandas as pd
+
+# To download the table go to: https://www.gov.br/susep/pt-br/assuntos/informacoes-ao-mercado/informacoes-tecnicas-e-planos-padroes/tabuas-biometricas-br-ems
+
+Tabua = pd.read_excel("tabuas-br-ems-2010-2015-2021-010721.xlsx", sheet_name = "BR-EMSsb-2021-m ",skiprows=5)
+
+print(Comutation(Tabua["Idade"], Tabua["qx"], data_type='q').Lx(10))
+print(Comutation(Tabua["Idade"], Tabua["lx"], data_type='l').Tx(10))
+
+```
+
+**Example 3:**:
+Calculating the expected number of deaths between age 10 and age 11 years old, at a rate of 5%::
+```python
+from NumberCommutation import Pyrisky
+import pandas as pd
+
+# To download the table go to: https://www.gov.br/susep/pt-br/assuntos/informacoes-ao-mercado/informacoes-tecnicas-e-planos-padroes/tabuas-biometricas-br-ems
+
+Tabua = pd.read_excel("tabuas-br-ems-2010-2015-2021-010721.xlsx", sheet_name = "BR-EMSsb-2021-m ",skiprows=5)
+
+print(Comutation(Tabua["Idade"],1 - Tabua["qx"], data_type='p').Nx(10, 0.05))
+```
+
+Requeriments
+------------
+It can be used in both Python versions 2.7 and 3.6.
+Pylirisky has dependencies on the Pandas and Numpy Libraries.
+
+Contributions
+-------------
+
+Any comments, suggestions or improvements are very welcome.
+
+For this purpose, I remain at your disposal through my email: ph.cavalcante29@gmail.com.

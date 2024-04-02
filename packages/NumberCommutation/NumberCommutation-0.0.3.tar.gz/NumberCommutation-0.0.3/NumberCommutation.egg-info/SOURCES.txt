@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+NumberCommutation/Pyrisky.py
+NumberCommutation/__init__.py
+NumberCommutation.egg-info/PKG-INFO
+NumberCommutation.egg-info/SOURCES.txt
+NumberCommutation.egg-info/dependency_links.txt
+NumberCommutation.egg-info/requires.txt
+NumberCommutation.egg-info/top_level.txt
