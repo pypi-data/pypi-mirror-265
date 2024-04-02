@@ -1,0 +1,7 @@
+jamba/__init__.py,sha256=Ah0JOUT8eQyFIc1BdRxdkYMCCpXPqoTprqBTY-eJ3XU,77
+jamba/model.py,sha256=WLoRH-39LA1eI9pEawreOhL5Z5TcCCt6RIbu2mrtJW4,10508
+jamba/moe.py,sha256=sGhh9kKQ4vUZvhfTC6o3nRxqqfS_MJWRH0mWq4Ry_QQ,14216
+jamba-0.0.2.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+jamba-0.0.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+jamba-0.0.2.dist-info/METADATA,sha256=-F94Z1P8iu4OiUwGqa-CvydnkNBXlN22ude5Hi6WZ3s,2575
+jamba-0.0.2.dist-info/RECORD,,
