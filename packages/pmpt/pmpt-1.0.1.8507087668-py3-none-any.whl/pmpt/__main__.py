@@ -1,0 +1,2 @@
+import pmpt
+pmpt.cli()
