@@ -1,0 +1,75 @@
+<!-- toxicity.html -->
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxicity Evaluation</title>
+</head>
+<body>
+    <h1>Toxicity Evaluation</h1>
+    <form id="toxicity-form">
+        <label for="api_key">API Key:</label><br>
+        <input type="text" id="api_key" name="api_key" required><br>
+        <label for="text">Text:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="result"></div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxicity Evaluation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #toxicity-form {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PureML's Toxicity Evaluation</h1>
+    <!--<form id="toxicity-form" method="post" action="/toxicity" enctype="application/x-www-form-urlencoded">
+        <label for="text">Input:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="result"></div> -->
+    <form id="toxicity-form" method="post" action="/toxicity" enctype="multipart/form-data">
+        <label for="file">Input:</label><br>
+        <input type="file" id="file" name="file" required><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

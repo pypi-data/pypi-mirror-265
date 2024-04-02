@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Evaluation</title>
+</head>
+<body>
+    <h1>LLM Evaluation</h1>
+    <form id="evaluation-form">
+        <label for="input">Input:</label><br>
+        <textarea id="input" name="input" rows="4" cols="50" required></textarea><br>
+        <label for="output">Output:</label><br>
+        <textarea id="output" name="output" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Submit">
+        <label for="output">Reference:</label><br>
+        <textarea id="reference" name="reference" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="result"></div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+    "category_score": {
+        "Accuracy": {
+            "rouge_score": {
+                "precision": 0.92,
+                "recall": 0.86,
+                "fmeasure": 0.88
+            },
+            "quasi_exact_match": [
+                1.0,
+                0.74
+            ],
+            "f1": 0.77,
+            "rr_10": 0.75,
+            "bert_score": {
+                "precision": [
+                    1.0,
+                    0.93
+                ],
+                "recall": [
+                    1.0,
+                    0.95
+                ],
+                "f1": [
+                    1.0,
+                    0.94
+                ]
+            }
+        },
+        "Toxicity": {
+            "profanity": 0.62,
+            "toxicity": 0.97,
+            "severe_toxicity": 0.51,
+            "insult": 0.92,
+            "identity_attack": 0.19
+        }
+    },
+    "risk_score": {
+        "Accuracy": {
+            "rouge_score": {
+                "precision": "true",
+                "recall": "true",
+                "fmeasure": "true"
+            },
+            "quasi_exact_match": [
+                "false",
+                "false"
+            ],
+            "f1": "false",
+            "rr_10": "true",
+            "bert_score": {
+                "precision": [
+                    "true",
+                    "true"
+                ],
+                "recall": [
+                    "true",
+                    "true"
+                ],
+                "fmeasure": [
+                    "true",
+                    "true"
+                ]
+            }
+        },
+        "Toxicity": {
+            "profanity": "true",
+            "toxicity": "true",
+            "severe_toxicity": "true",
+            "insult": "true",
+            "identity_attack": "false"
+        }
+    }
+}

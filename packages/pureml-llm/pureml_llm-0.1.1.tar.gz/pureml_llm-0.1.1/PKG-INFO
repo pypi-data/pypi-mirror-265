@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: pureml-llm
+Version: 0.1.1
+Summary: 
+Home-page: https://pureml.com/
+License: Apache-2.0
+Keywords: pureml,model-store,machine-learning,python,model-registry,collabortion
+Author: Thrinadhreddy Manubothu
+Author-email: m.thrinadhreddy@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Dbias (>=0.1.5,<0.2.0)
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: MarkupSafe (>=2.1.3,<3.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: annotated-types (>=0.5.0,<0.6.0)
+Requires-Dist: anyio (>=3.7.1,<4.0.0)
+Requires-Dist: bert-score (>=0.3.13,<0.4.0)
+Requires-Dist: cachetools (>=5.3.1,<6.0.0)
+Requires-Dist: cer (>=1.2.0,<2.0.0)
+Requires-Dist: certifi (>=2023.7.22,<2024.0.0)
+Requires-Dist: charcut (>=1.1.1,<2.0.0)
+Requires-Dist: charset-normalizer (>=3.2.0,<4.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: cmake (>=3.27.4,<4.0.0)
+Requires-Dist: contourpy (>=1.1.0,<2.0.0)
+Requires-Dist: cycler (>=0.11.0,<0.12.0)
+Requires-Dist: dataclasses
+Requires-Dist: exceptiongroup (>=1.1.3,<2.0.0)
+Requires-Dist: faiss-cpu (>=1.7.4,<2.0.0)
+Requires-Dist: filelock (>=3.12.2,<4.0.0)
+Requires-Dist: fonttools (>=4.42.1,<5.0.0)
+Requires-Dist: fsspec (>=2023.6.0,<2024.0.0)
+Requires-Dist: fuzzywuzzy (>=0.18.0,<0.19.0)
+Requires-Dist: google-api-core (>=2.11.1,<3.0.0)
+Requires-Dist: google-api-python-client (>=2.97.0,<3.0.0)
+Requires-Dist: google-auth (>=2.22.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.1.0,<0.2.0)
+Requires-Dist: googleapis-common-protos (>=1.60.0,<2.0.0)
+Requires-Dist: h11 (>=0.14.0,<0.15.0)
+Requires-Dist: httplib2 (>=0.22.0,<0.23.0)
+Requires-Dist: huggingface-hub (>=0.16.4,<0.17.0)
+Requires-Dist: idna (>=3.4,<4.0)
+Requires-Dist: jiwer (>=3.0.3,<4.0.0)
+Requires-Dist: joblib (>=1.3.2,<2.0.0)
+Requires-Dist: kiwisolver (>=1.4.5,<2.0.0)
+Requires-Dist: lightning-utilities (>=0.9.0,<0.10.0)
+Requires-Dist: lit (>=16.0.6,<17.0.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: mauve-text (>=0.3.0,<0.4.0)
+Requires-Dist: mpmath (>=1.3.0,<2.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: numpy
+Requires-Dist: nvidia-cublas-cu11 (>=11.10.3.66,<12.0.0.0)
+Requires-Dist: nvidia-cuda-cupti-cu11 (>=11.7.101,<12.0.0)
+Requires-Dist: nvidia-cuda-nvrtc-cu11 (>=11.7.99,<12.0.0)
+Requires-Dist: nvidia-cuda-runtime-cu11 (>=11.7.99,<12.0.0)
+Requires-Dist: nvidia-cudnn-cu11 (>=8.5.0.96,<9.0.0.0)
+Requires-Dist: nvidia-cufft-cu11 (>=10.9.0.58,<11.0.0.0)
+Requires-Dist: nvidia-curand-cu11 (>=10.2.10.91,<11.0.0.0)
+Requires-Dist: nvidia-cusolver-cu11 (>=11.4.0.1,<12.0.0.0)
+Requires-Dist: nvidia-cusparse-cu11 (>=11.7.4.91,<12.0.0.0)
+Requires-Dist: nvidia-nccl-cu11 (>=2.14.3,<3.0.0)
+Requires-Dist: nvidia-nvtx-cu11 (>=11.7.91,<12.0.0)
+Requires-Dist: packaging (>=23.1,<24.0)
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: protobuf (>=4.24.2,<5.0.0)
+Requires-Dist: pureml (>=0.4.6,<0.5.0)
+Requires-Dist: pyasn1 (>=0.5.0,<0.6.0)
+Requires-Dist: pyasn1-modules (>=0.3.0,<0.4.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: pydantic_core (>=2.6.3,<3.0.0)
+Requires-Dist: pyparsing (>=3.0.9,<4.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: pytz (>=2023.3,<2024.0)
+Requires-Dist: regex (>=2023.8.8,<2024.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rsa (>=4.9,<5.0)
+Requires-Dist: sacrebleu (>=2.4.0,<3.0.0)
+Requires-Dist: safetensors (>=0.3.3,<0.4.0)
+Requires-Dist: scikit-learn (>=1.1.1,<2.0.0)
+Requires-Dist: sentence_transformers (>=2.3.1,<3.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: sniffio (>=1.3.0,<2.0.0)
+Requires-Dist: starlette (>=0.30.0,<0.31.0)
+Requires-Dist: structlog (>=24.1.0,<25.0.0)
+Requires-Dist: sympy (>=1.12,<2.0)
+Requires-Dist: tokenizers (>=0.13.3,<0.14.0)
+Requires-Dist: torch (>=2.0.1,<3.0.0)
+Requires-Dist: torchmetrics (>=1.1.0,<2.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: transformers (>=4.32.1,<5.0.0)
+Requires-Dist: triton (>=2.0.0,<3.0.0)
+Requires-Dist: typing_extensions (>=4.7.1,<5.0.0)
+Requires-Dist: tzdata (>=2023.3,<2024.0)
+Requires-Dist: uritemplate (>=4.1.1,<5.0.0)
+Requires-Dist: urllib3 (>=1.26.16,<2.0.0)
+Project-URL: Documentation, https://docs.pureml.com
+Project-URL: Repository, https://github.com/engageml-github/Pure
+Description-Content-Type: text/markdown
+
+
