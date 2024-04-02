@@ -1,0 +1,9 @@
+petrosa/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrosa/converters/backtests.py,sha256=QOOErWk4uDhMDX1iUMVm9SZN_w5YmNXvOqTqd2uCURQ,2325
+petrosa/ta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+petrosa/ta/strategies.py,sha256=W_x2vxE891pOHLGKKtSRohCDWifIa70pALXevToIPSc,22023
+petrosa/ta/utils.py,sha256=77IZzQVRMw1MPwYw-MTWv-CXhtbdtppzXEzxcgvGXAw,822
+petrosa-0.0.9.dist-info/METADATA,sha256=zyzVeaH9D4M1pUIrUH2Ne3LCJlGitBkxnsQCxW5xaNc,716
+petrosa-0.0.9.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+petrosa-0.0.9.dist-info/licenses/LICENSE,sha256=laAtIGoDbZBqhkTalLLdtCwZumW9xZhoDe9AvKKviQk,1063
+petrosa-0.0.9.dist-info/RECORD,,
