@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+torch_contrastive_framework/__init__.py
+torch_contrastive_framework/train.py
+torch_contrastive_framework.egg-info/PKG-INFO
+torch_contrastive_framework.egg-info/SOURCES.txt
+torch_contrastive_framework.egg-info/dependency_links.txt
+torch_contrastive_framework.egg-info/requires.txt
+torch_contrastive_framework.egg-info/top_level.txt
