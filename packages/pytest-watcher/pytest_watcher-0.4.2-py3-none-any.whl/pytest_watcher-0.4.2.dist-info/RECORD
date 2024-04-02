@@ -1,0 +1,16 @@
+LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+pytest_watcher/__init__.py,sha256=xW4R0OesF-_j1_Iz6k1RXWGZhletrrWuyenXPQFgjns,76
+pytest_watcher/__main__.py,sha256=T1I_TktTfhAby6q-z5IWn5fdEHeJpOjF6QmQAqa3noY,81
+pytest_watcher/commands.py,sha256=UH7rmu_ScVXAcYFSFy2v8VRub5e5vThtfay6igchKsA,4191
+pytest_watcher/config.py,sha256=UrxKLHkcrI3E9GaOl_tr585hGn6RlHvtQRPYOkOHFCQ,2412
+pytest_watcher/constants.py,sha256=NZJhCKht-JFGzFASZEaRUv4hRzf-Jario1a8xpM8esw,56
+pytest_watcher/event_handler.py,sha256=1etwVonag61kGWADE9Gh-4W9LLacIaAg9hq-6AwQiVg,1615
+pytest_watcher/parse.py,sha256=r4mKEajyw7ifSFso8cTI0Ql27lu_FurrgzCJTr3gU9o,1854
+pytest_watcher/terminal.py,sha256=hjiHTir2PcZ8S8R9vNuJkz-QUjcaDyy01vxp7DSiZ8Q,2090
+pytest_watcher/trigger.py,sha256=Zke1MLhy_l-U0HRRdlNGSCboVOG3DLK-XsDdHuZXU-M,629
+pytest_watcher/watcher.py,sha256=hPWYid1fzHMgv2QtQmGwhYYBcq8OVPt1lexkmQy0ywU,1962
+pytest_watcher-0.4.2.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+pytest_watcher-0.4.2.dist-info/METADATA,sha256=83jf-C3Y-FoQWKc69RvMt-K7_jkqSE4SL16UjNIsciE,5993
+pytest_watcher-0.4.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytest_watcher-0.4.2.dist-info/entry_points.txt,sha256=VuWUyILuGaHz5yQK7izpd5qJtD8u-lSFNhZSTFpvxG0,76
+pytest_watcher-0.4.2.dist-info/RECORD,,
