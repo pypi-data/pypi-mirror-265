@@ -1,0 +1,10 @@
+gender_spacy/__init__.py,sha256=2kvqhxShKujl7VW82M28yXlHc7bZy1A00ty9cNKgWhs,39
+gender_spacy/components.py,sha256=BYXWjvxNtEBBuS-qUfi4zTyfpRwQfQkRqalMv5U7RUs,3723
+gender_spacy/gender_spacy.py,sha256=PRnQBnFp6XYabLw_myyiFstIudjajp3EZM-nBXPvHeA,6480
+gender_spacy/data/gender_pronouns.csv,sha256=KepSPn44cr3rhWQrjb9dmTlY5jRp_bDxcV8LAwkkKfw,449
+gender_spacy/data/project.toml,sha256=X5XvOQtrcewJ7Lqih-Zz6xTe7fWiozHYAUf1U-5aJgQ,4635
+gender_spacy/data/pronoun_patterns,sha256=ZYXNVMbtS0mGyApJkXZTZ9eLsOuV14BsV4PS0cvK4T4,2901
+gender_spacy-0.0.5.dist-info/METADATA,sha256=l90xdYOMaFMK_6KjM0B0EWp034Bu0qrg1N5klv-Ms1A,4618
+gender_spacy-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gender_spacy-0.0.5.dist-info/top_level.txt,sha256=YA84X9m27Ja6u3eCzxxp3h_EsUEe2q-qxt_9SjLjBRk,13
+gender_spacy-0.0.5.dist-info/RECORD,,
