@@ -1,0 +1,15 @@
+jupyterlitexblock/__init__.py,sha256=fcn1LhoELVeVYKR2qIVbXmgLFFvCR7DctjOQY9-pZbc,48
+jupyterlitexblock/jupyterlitexblock.py,sha256=jMrPaG6T51ajQzTJgdnhEGhMG91x3KCsBuiQueRhDbs,7771
+jupyterlitexblock/storage.py,sha256=8tZJKMvoz9m76ufGQfVT1HJSQHwRm5ecO1h4CAuWmSU,1139
+jupyterlitexblock/locale/ar/LC_MESSAGES/django.mo,sha256=Y618ajCw7eV88P4Pa1_1Yy99kgE939Ywgt3hbHz6OPU,761
+jupyterlitexblock/locale/ar/LC_MESSAGES/django.po,sha256=AquUC5ehq05rvmrdpTRjVlsRxIHLa0rJNOFCBOsC2mo,1470
+jupyterlitexblock/static/css/jupyterlitexblock.css,sha256=NNZVtQ9pn3PLdu1ExxKJjTxF_pEvm2jHrENen18r-6w,144
+jupyterlitexblock/static/html/jupyterlitexblock.html,sha256=4HdW3D69IK8Qbd3Uj68Xsr8m8i_cI95_yY23190dtEA,125
+jupyterlitexblock/static/html/upload.html,sha256=njefB6rXDDFX-SIc4QJHz2COJ7H_HvT3Pv-3nlOwAw4,1652
+jupyterlitexblock/static/js/src/jupyterlitexblock.js,sha256=ZQLetfJo3sGGc0FXeRN2bjNlk5IeV0L66M7IpRpKuOM,2773
+jupyterlite_xblock-16.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jupyterlite_xblock-16.0.8.dist-info/METADATA,sha256=4tmcSFMAMXjLyuoCnxubgCPjZua7mmdRuIxFRv8KDDA,4437
+jupyterlite_xblock-16.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jupyterlite_xblock-16.0.8.dist-info/entry_points.txt,sha256=hhIxZNyAhiHc21vXTg5wFQFyrJYRZn4ZaLVM4cDuc7U,61
+jupyterlite_xblock-16.0.8.dist-info/top_level.txt,sha256=SrROcZxoKm1nyFza6udyAOPnx6a6L_EVmvdTq_C8fjQ,18
+jupyterlite_xblock-16.0.8.dist-info/RECORD,,
