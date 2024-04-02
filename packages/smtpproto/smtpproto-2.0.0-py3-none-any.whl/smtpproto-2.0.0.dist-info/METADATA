@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: smtpproto
+Version: 2.0.0
+Summary: Sans-io SMTP client with an AnyIO based async I/O implementation
+Author-email: Alex Grönholm <alex.gronholm@nextday.fi>
+License: MIT
+Project-URL: Documentation, https://smtpproto.readthedocs.io/en/latest/
+Project-URL: Source code, https://github.com/agronholm/smtpproto
+Project-URL: Issue tracker, https://github.com/agronholm/smtpproto/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Typing :: Typed
+Classifier: Framework :: AnyIO
+Classifier: Topic :: Communications :: Email
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: anyio ~=4.2
+Provides-Extra: doc
+Requires-Dist: packaging ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme >=1.3.0 ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints >=1.2.0 ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: anyio[trio] >=3.0 ; extra == 'test'
+Requires-Dist: aiosmtpd >=1.4.4 ; extra == 'test'
+Requires-Dist: coverage >=7 ; extra == 'test'
+Requires-Dist: pytest >=6.0 ; extra == 'test'
+Requires-Dist: trustme ; extra == 'test'
+
+.. image:: https://github.com/agronholm/smtpproto/actions/workflows/test.yml/badge.svg
+  :target: https://github.com/agronholm/smtpproto/actions/workflows/test.yml
+  :alt: Build Status
+.. image:: https://coveralls.io/repos/github/agronholm/smtpproto/badge.svg?branch=master
+  :target: https://coveralls.io/github/agronholm/smtpproto?branch=master
+  :alt: Code Coverage
+.. image:: https://readthedocs.org/projects/smtpproto/badge/
+  :target: https://smtpproto.readthedocs.org/
+  :alt: Documentation
+
+This library contains a (client-side) sans-io_ implementation of the ESMTP_ protocol.
+A concrete, asynchronous I/O implementation is also provided, via the AnyIO_ library.
+
+The following SMTP extensions are supported:
+
+* 8BITMIME_
+* AUTH_
+* SIZE_ (max message size reporting only)
+* SMTPUTF8_
+* STARTTLS_
+
+You can find the documentation `here <https://smtpproto.readthedocs.org/>`_.
+
+.. _sans-io: https://sans-io.readthedocs.io/
+.. _ESMTP: https://tools.ietf.org/html/rfc5321
+.. _AnyIO: https://pypi.org/project/anyio/
+.. _8BITMIME: https://tools.ietf.org/html/rfc1652
+.. _AUTH: https://tools.ietf.org/html/rfc4954
+.. _SMTPUTF8: https://tools.ietf.org/html/rfc6531
+.. _SIZE: https://tools.ietf.org/html/rfc1870
+.. _STARTTLS: https://tools.ietf.org/html/rfc3207
