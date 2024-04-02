@@ -1,0 +1,3 @@
+[console_scripts]
+whatdido=whatdido.app:main
+
