@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-model-task"
+version = "0.0.1dev1"
+description = ""
+authors = ["taoyang <hackty@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
