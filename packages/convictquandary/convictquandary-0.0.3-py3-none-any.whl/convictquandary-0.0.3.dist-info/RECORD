@@ -1,0 +1,13 @@
+convictquandary/__init__.py,sha256=y0RC2YK-uSFSyvEH1bmmpTwKRkLiAfWOi48brjFyhHw,217
+convictquandary/constants.py,sha256=qbWoXiQFQP3yjd9DO-YPIw54tgMGFvhsIP_fmMZJM6M,184
+convictquandary/game.py,sha256=pSORNSYpzMfsjrzEgRt7oknEFUsZDRDMrts80QJ4pjQ,1732
+convictquandary/player.py,sha256=3j4V1kXTnJCOqKYaYhAHjBhbYVE7JEX5vncmqEDlGHs,1593
+convictquandary/player_logic.py,sha256=Pxs1F26HXdsJTWxYdMgwVV1LdsN7Zel4h5j1lr3bVgY,1006
+convictquandary/utils.py,sha256=3u_YOLAnG9tk84mRYhMS4Y3fYtOsbp-jkPYj_q4JNn0,73
+convictquandary/player_logics/__init__.py,sha256=-0HNg7MZ3_czlkAlYwvYtp7DFD6c92aem5HRjN6RVfM,400
+convictquandary/player_logics/logic_always_cooperate_believe_truth.py,sha256=MGEcgXMLP76wrik2RahdPqR2ShluWcC3y04KXeoffiA,1033
+convictquandary/player_logics/logic_always_defect_believe_truth.py,sha256=DgMmcMAT_Ex6UhnEUd_HXi9qz-IGjp_nk-zCWumOIpU,1027
+convictquandary-0.0.3.dist-info/METADATA,sha256=GCwByZJtUBobmwHP141EA-_gtW-lvn3nVsEniVI_2qg,2884
+convictquandary-0.0.3.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+convictquandary-0.0.3.dist-info/licenses/LICENSE,sha256=Qd5yS0L_Z1wbT2TtSRjUxX7vs_CWVMXrFWrioPXvITU,1071
+convictquandary-0.0.3.dist-info/RECORD,,
