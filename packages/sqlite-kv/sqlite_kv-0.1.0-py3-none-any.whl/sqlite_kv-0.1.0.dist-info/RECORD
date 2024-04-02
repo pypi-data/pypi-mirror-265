@@ -1,0 +1,11 @@
+sqlite_kv/__init__.py,sha256=UeKul3u1Jda8fsxw3yEU74nzfDJ1mwuCEpsbQYUBblQ,146
+sqlite_kv/api/__init__.py,sha256=Ni2Dt9M0GTA9YzUzCiRgOLAAKBjsXOqRTnV00H-orCg,25
+sqlite_kv/api/api.py,sha256=IHlxCH7P8iAUIGkH7t2GzD5D4nsGBOo47Lm1yU1aTlE,1935
+sqlite_kv/decorators/__init__.py,sha256=9OZQGkROIUZosj0of5ORg6oITWXi7av8S5YmRx42HGk,82
+sqlite_kv/decorators/decorators.py,sha256=KrERg8KK07eocDSNXFvUnNpNf37EIlJNAyQIxuwQC2Y,1659
+sqlite_kv/ops/__init__.py,sha256=udPrYb06Ey4_sHCzCfZG5oZBAIMNFnMoA6TXF04NWqM,78
+sqlite_kv/ops/ops.py,sha256=UPJwWgp3HOSa6wfGObL4-qOKQr0RASz5KdvvK79nejE,1829
+sqlite_kv-0.1.0.dist-info/METADATA,sha256=ug3d-fP1BLkI8yLtDh2TwqKEr9rMtzvzJSZAxZITtH0,367
+sqlite_kv-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sqlite_kv-0.1.0.dist-info/top_level.txt,sha256=ZMOTuw2h5-e8IG7uOqW_D_G4vMTJcxmpEPegZdb6LoM,10
+sqlite_kv-0.1.0.dist-info/RECORD,,
