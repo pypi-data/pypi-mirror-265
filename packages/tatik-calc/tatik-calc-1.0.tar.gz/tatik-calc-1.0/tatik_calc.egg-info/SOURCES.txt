@@ -1,0 +1,6 @@
+setup.py
+Calculator/calc.py
+tatik_calc.egg-info/PKG-INFO
+tatik_calc.egg-info/SOURCES.txt
+tatik_calc.egg-info/dependency_links.txt
+tatik_calc.egg-info/top_level.txt
