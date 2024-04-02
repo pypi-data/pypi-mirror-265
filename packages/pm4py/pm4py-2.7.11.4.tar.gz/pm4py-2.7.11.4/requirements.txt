@@ -1,0 +1,13 @@
+cvxopt;python_version<'3.13'
+deprecation
+graphviz
+intervaltree
+lxml
+matplotlib
+networkx
+numpy
+pandas
+pydotplus
+pytz
+scipy
+tqdm
