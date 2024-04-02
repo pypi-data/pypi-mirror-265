@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pysigner/__init__.py
+pysigner/core.py
+pysigner.egg-info/PKG-INFO
+pysigner.egg-info/SOURCES.txt
+pysigner.egg-info/dependency_links.txt
+pysigner.egg-info/top_level.txt
