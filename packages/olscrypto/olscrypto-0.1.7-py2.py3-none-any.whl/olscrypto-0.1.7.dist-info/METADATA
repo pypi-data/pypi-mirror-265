@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: olscrypto
+Version: 0.1.7
+Summary: OLS decrypt library
+Author: Highmaru, Inc.
+Author-email: dhshin@highmaru.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome >=3.20.0
+
+
+```python
+from olscrypto import Decryptor
+
+SEEDKEY = '<your key>'
+dec = Decryptor(SEEDKEY)
+
+dec.decryptfile(<encrypted file>,<decrypted file>)
+dec.unzip(<decrypted file>,<target folder>)
+
+or
+
+dec.decryptUnzip(<encrypted file>,<target folder>)
+```
