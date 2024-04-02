@@ -1,0 +1,9 @@
+truefoundry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+truefoundry/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+truefoundry/cli/__main__.py,sha256=AOayL_PxcWZ8Qn2fGX_JMvlyd2bhKImFYolxJZh2WI4,794
+truefoundry/deploy/__init__.py,sha256=rY-AcjgSmu0r072rdUNpRkMmDFC7hH9drF5_pIN5jnw,29
+truefoundry/ml/__init__.py,sha256=SJiI5QimXJETfME2x0iXz8gPn6C22YNiLiEdHIV1g7c,151
+truefoundry-0.1.0.dist-info/METADATA,sha256=rtCM_lgZWLs6j0lNBLtLMN84EZ9EscUBvalpDO0AEgY,648
+truefoundry-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+truefoundry-0.1.0.dist-info/entry_points.txt,sha256=TXvUxQkI6zmqJuycPsyxEIMr3oqfDjgrWj0m_9X12x4,95
+truefoundry-0.1.0.dist-info/RECORD,,
