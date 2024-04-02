@@ -1,0 +1,7 @@
+spacy_whisper/__init__.py,sha256=zs6gUWjg40DCdUWXQyI-hn8Cz7xMT9UJdReM9FuqTN0,23
+spacy_whisper/pipeline.py,sha256=5m4Zh84pi5tmuxKYsuHEzxN72AVA3vnrvb1qI8X389Q,7603
+spacy_whisper-0.0.1.dist-info/LICENSE,sha256=Yguwmp2IpdI2-agoCXFI-9XSS4S1gY8XvZ1SAWu4PKg,1074
+spacy_whisper-0.0.1.dist-info/METADATA,sha256=RAHqiRxLKqz8g-HG6jvmqvX7fvY5CJkqOsSqgQ91e1Q,3325
+spacy_whisper-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+spacy_whisper-0.0.1.dist-info/top_level.txt,sha256=uLa_QFfnRCJkqDhxETuss9B87w67C0sWR60jyF_hvSk,14
+spacy_whisper-0.0.1.dist-info/RECORD,,
