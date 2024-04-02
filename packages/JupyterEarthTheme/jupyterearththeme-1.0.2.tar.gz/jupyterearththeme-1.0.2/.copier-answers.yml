@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: jan.tomec@gmail.com
+author_name: Jan Tomec
+has_binder: true
+has_settings: false
+kind: theme
+labextension_name: JupyterEarthTheme
+project_short_description: A JupyterLab/Notebook 7 theme.
+python_name: JupyterEarthTheme
+repository: https://github.com/jantomec/JupyterEarthTheme
+test: true
+
