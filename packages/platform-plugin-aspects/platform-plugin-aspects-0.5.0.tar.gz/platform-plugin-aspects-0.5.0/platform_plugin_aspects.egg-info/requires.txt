@@ -1,0 +1,14 @@
+Django
+XBlock
+celery
+django-rest-framework
+django_crum
+edx-django-utils
+edx-opaque-keys
+edx-toggles
+openedx-atlas
+openedx-filters
+redis
+requests
+superset-api-client
+web_fragments
