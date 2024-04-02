@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyhelper-utils
+Version: 0.0.1
+Summary: Collective utility functions for python projects
+Home-page: https://github.com/RedHatQE/pyhelper-utils
+License: Apache-2.0
+Author: Meni Yakove
+Author-email: myakove@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://github.com/RedHatQE/pyhelper-utils/blob/main/README.md
+Project-URL: Repository, https://github.com/RedHatQE/pyhelper-utils
+Description-Content-Type: text/markdown
+
+# python-template-repository
+Template repository for python
+
+## How to use
+- Use the repo as a github template to create a new repository
+- Initiate poetry and follow the instructions
+```bash
+poetry init
+```
+- Update the `OWNERS` file relevant sections
+- If needed, add more checks in `tox.ini`
+
