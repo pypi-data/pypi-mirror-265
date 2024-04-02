@@ -1,0 +1,8 @@
+pytorch_rocm_gtt/VERSION,sha256=ij2tFtNIwWNWakVvz2UNhdeu7aXlPQHuH6jcFSEpFac,6
+pytorch_rocm_gtt/__init__.py,sha256=Rtr14UtwcREdSmireNFJ0FP9ezk8S2E2N1zjsYgYCuY,709
+pytorch_rocm_gtt/gttalloc.c,sha256=iuhjzIzw4YVQ6BygHY-lTrpNQVyRJBqSX4SPwpf4vbA,510
+pytorch_rocm_gtt-0.1.4.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pytorch_rocm_gtt-0.1.4.dist-info/METADATA,sha256=hTuI9QZgz9kqGVZtu0xlCYCKvqazAAg7Io1MBkQ8Pss,4448
+pytorch_rocm_gtt-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytorch_rocm_gtt-0.1.4.dist-info/entry_points.txt,sha256=_NI1UAiqNTj69hzPgyZleEAwmQ5Eq0EXRaksDo0-l-Q,67
+pytorch_rocm_gtt-0.1.4.dist-info/RECORD,,
