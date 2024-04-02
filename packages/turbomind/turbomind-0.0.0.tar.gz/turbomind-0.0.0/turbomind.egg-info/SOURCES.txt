@@ -1,0 +1,5 @@
+setup.py
+turbomind.egg-info/PKG-INFO
+turbomind.egg-info/SOURCES.txt
+turbomind.egg-info/dependency_links.txt
+turbomind.egg-info/top_level.txt
