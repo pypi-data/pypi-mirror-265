@@ -1,0 +1,16 @@
+torch
+pandas
+numpy
+transformers
+scipy
+tqdm
+scipy
+typeguard
+sentence_transformers
+overrides
+altair
+scikit-learn
+datasets
+matplotlib
+typing
+pingouin
