@@ -1,0 +1,7 @@
+click
+dill
+moyanlib
+platformdirs
+requests
+rich
+tqdm
