@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: matrecord-suggestion
+Version: 0.2
+Summary: A Python package for providing word suggestions.
+Home-page: https://github.com/Nida-Deshmukh123/matrecord_suggestion
+Author: Nida Deshmukh
+Author-email: nidadeshmukh7@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: textdistance
+Requires-Dist: pandas
+
+# Matrecord_suggestion
+
+Auto Suggestion is a Python package that provides word suggestions based on similarity to a given input word. It is useful for applications such as autocomplete features in text editors or search engines.
+
+## Installation
+
+You can install `matrecord_suggestion` via pip:
+
+```bash
+pip install matrecord_suggestion
+
+
+
