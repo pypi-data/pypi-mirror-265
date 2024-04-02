@@ -1,0 +1,25 @@
+[package]
+name = "fork"
+version = "0.1.0"
+edition = "2021"
+authors = ["Juniper Tyree <juniper.tyree@helsinki.fi>"]
+homepage = "https://github.com/juntyr/field-compression-benchmarkt"
+repository = "https://github.com/juntyr/field-compression-benchmark"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+rust-version = "1.77"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+core-error = { path = "../core/error", default-features = false }
+ipc-channel = { version = "0.18", default-features = false }
+libc = { version = "0.2", default-features = false }
+log = { version = "0.4", default-features = false }
+rustix = { version = "0.38", default-features = false, features = ["process", "use-libc"] }
+serde = { version = "1.0", default-features = false, features = ["std"] }
+signal-hook = { version = "0.3", default-features = false, features = ["iterator"] }
+thiserror = { version = "1.0", default-features = false }
+
+[lints]
+workspace = true

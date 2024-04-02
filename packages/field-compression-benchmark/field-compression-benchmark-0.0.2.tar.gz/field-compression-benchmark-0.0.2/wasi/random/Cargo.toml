@@ -1,0 +1,15 @@
+[package]
+name = "virtual-wasi-random"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rand_core = { version = "0.6", default-features = false }
+rand_pcg = { version = "0.3", default-features = false }
+wit-bindgen = { version = "0.23", default-features = false, features = ["macros"] }
+
+[lints]
+workspace = true

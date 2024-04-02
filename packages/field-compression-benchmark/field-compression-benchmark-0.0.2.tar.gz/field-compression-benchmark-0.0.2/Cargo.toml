@@ -1,0 +1,81 @@
+[workspace]
+members = [
+    ".", "fork",
+    "wasi/build", "wasi/cli", "wasi/clocks", "wasi/filesystem", "wasi/io",
+    "wasi/random",
+    "core/benchmark", "core/compressor", "core/dataset", "core/error",
+    "core/goodness", "core/measure", "core/model",
+    "codecs/build", "codecs/core", "codecs/core-host", "codecs/core-wasm",
+    "codecs/frontend",
+    "codecs/bit-round", "codecs/bit-transpose", "codecs/identity",
+    "codecs/linear-quantize", "codecs/log", "codecs/reinterpret",
+    "codecs/sz3", "codecs/uniform-noise", "codecs/zfp", "codecs/zlib",
+    "codecs/zstd",
+    "fcbench",
+]
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+unstable_features = "deny"
+
+[workspace.lints.clippy]
+complexity = "deny"
+correctness = "deny"
+nursery = "warn"
+pedantic = "warn"
+perf = "deny"
+style = "deny"
+suspicious = "deny"
+
+cargo = { priority = -1, level = "warn" }
+cargo_common_metadata = "allow" # FIXME
+multiple_crate_versions = "allow" # FIXME
+
+unwrap_used = "warn"
+expect_used = "warn"
+indexing_slicing = "warn"
+panic = "warn"
+todo = "warn"
+unimplemented = "warn"
+unreachable = "warn"
+module_name_repetitions = "allow"
+
+[package]
+name = "field-compression-benchmark"
+version = "0.1.0"
+edition = "2021"
+authors = ["Juniper Tyree <juniper.tyree@helsinki.fi>"]
+homepage = "https://github.com/juntyr/field-compression-benchmarkt"
+repository = "https://github.com/juntyr/field-compression-benchmark"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+rust-version = "1.77"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byte-unit = { version = "5.1", default-features = false, features = ["std"] }
+clap = { version = "4.3", default-features = false, features = ["derive", "std", "color", "help", "usage", "error-context", "suggestions", "string"] }
+codecs-build = { path = "codecs/build", default-features = false }
+codecs-frontend = { path = "codecs/frontend", default-features = false, features = ["wasmtime"] }
+core-benchmark = { path = "core/benchmark", default-features = false }
+core-compressor = { path = "core/compressor", default-features = false }
+core-dataset = { path = "core/dataset", default-features = false }
+core-error = { path = "core/error", default-features = false }
+fork = { version = "0.1", path = "fork" }
+gag = { version = "1.0", default-features = false }
+getrandom = { version = "0.2", default-features = false, features = ["std"] }
+log = { version = "0.4", default-features = false }
+nonempty = { version = "0.10", default-features = false, features = ["serialize"] }
+pretty_env_logger = { version = "0.5", default-features = false }
+pyo3 = { version = "0.20", default-features = false, features = ["abi3"] }
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+serde_json = { version = "1.0", default-features = false, features = ["std"] }
+thiserror = { version = "1.0", default-features = false }
+vecmap-rs = { version = "0.2", default-features = false, features = ["serde"] }
+
+[lints]
+workspace = true
+
+[package.metadata.cargo-udeps.ignore]
+normal = ["codecs-build"]

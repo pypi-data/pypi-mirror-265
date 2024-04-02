@@ -1,0 +1,41 @@
+[package]
+name = "fcbench"
+version = "0.0.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "fcbench"
+crate-type = ["cdylib"]
+
+[dependencies]
+codecs-build = { path = "../codecs/build", default-features = false }
+core-benchmark = { path = "../core/benchmark", default-features = false }
+core-compressor = { path = "../core/compressor", default-features = false }
+core-dataset = { path = "../core/dataset", default-features = false }
+core-error = { path = "../core/error", default-features = false }
+core-model = { path = "../core/model", default-features = false }
+ndarray = { version = "0.15", default-features = false, features = ["std"] }
+numpy = { version = "0.20", default-features = false }
+pyo3 = { version = "0.20", default-features = false, features = ["macros", "abi3", "extension-module"] }
+pythonize = { git = "https://github.com/juntyr/pythonize", rev = "3a1fb05", version = "0.20", default-features = false }
+rand = { version = "0.8", default-features = false }
+rand_chacha = { version = "0.3", default-features = false }
+rand_distr = { version = "0.4", default-features = false, features = ["serde1"] }
+serde = { version = "1.0", default-features = false, features = ["std"] }
+serde_path_to_error = { version = "0.1", default-features = false }
+serde-reflection = { git = "https://github.com/juntyr/serde-reflection.git", rev = "4490f20", version = "0.3", default-features = false }
+uuid = { version = "1.5", default-features = false, features = ["std", "v8", "serde"] }
+vecmap-rs = { version = "0.2", default-features = false }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+codecs-frontend = { path = "../codecs/frontend", default-features = false, features = ["pyodide"] }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+codecs-frontend = { path = "../codecs/frontend", default-features = false, features = ["wasmtime"] }
+
+[lints]
+workspace = true
+
+[package.metadata.cargo-udeps.ignore]
+normal = ["codecs-build"]

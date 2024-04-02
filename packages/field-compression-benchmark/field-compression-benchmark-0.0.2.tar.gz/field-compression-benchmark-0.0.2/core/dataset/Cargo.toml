@@ -1,0 +1,20 @@
+[package]
+name = "core-dataset"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byte-unit = { version = "5.1", default-features = false, features = ["byte", "serde"] }
+core-error = { path = "../error", default-features = false }
+nonempty = { version = "0.10", default-features = false, features = ["serialize"] }
+pyo3 = { version = "0.20", default-features = false, features = ["macros", "abi3"] }
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+sorted-vec = { version = "0.8", default-features = false }
+thiserror = { version = "1.0", default-features = false }
+toml = { version = "0.8", default-features = false, features = ["parse", "preserve_order"] }
+vecmap-rs = { version = "0.2", default-features = false, features = ["serde"] }
+
+[lints]
+workspace = true

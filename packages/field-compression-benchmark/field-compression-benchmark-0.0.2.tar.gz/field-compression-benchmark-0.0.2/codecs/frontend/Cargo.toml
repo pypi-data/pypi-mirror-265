@@ -1,0 +1,41 @@
+[package]
+name = "codecs-frontend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = { version = "1.0", default-features = false }
+codecs-core = { path = "../core", default-features = false }
+codecs-core-host = { path = "../core-host", default-features = false }
+core-error = { path = "../../core/error", default-features = false }
+convert_case = { version = "0.6", default-features = false }
+indexmap = { version = "2.1", default-features = false, features = ["std"] }
+numpy = { version = "0.20", default-features = false }
+polonius-the-crab = { version = "0.4", default-features = false }
+pyodide-webassembly-runtime-layer = { version = ">=0.2.1", default-features = false, optional = true }
+pyo3 = { version = "0.20", default-features = false, features = ["abi3"] }
+semver = { version = "1.0", default-features = false }
+thiserror = { version = "1.0", default-features = false }
+topological-sort = { version = "0.2", default-features = false }
+wac-parser = { git = "https://github.com/peterhuene/wac.git", rev = "7b2f728", version = "0.1", default-features = false }
+walrus = { git = "https://github.com/rustwasm/walrus.git", rev = "4efdb5c", version = "0.20", default-features = false }
+wasm_component_layer = { git = "https://github.com/juntyr/wasm_component_layer.git", rev = "0d6d5e5", version = "0.1", default-features = false }
+wasm_runtime_layer = { version = "0.3", default-features = false }
+wasmparser = { version = "0.202", default-features = false }
+# wasmtime requires `component-model` feature since wasm_component_layer
+#  enables the feature in the common wasmtime-environ dependency
+wasmtime = { version = "18.0", default-features = false, features = ["runtime", "cranelift", "cache", "component-model"], optional = true }
+wit-component = { version = "0.202", default-features = false }
+wit-parser = { version = "0.202", default-features = false }
+vecmap-rs = { version = "0.2", default-features = false }
+virtual-wasi-build = { path = "../../wasi/build" }
+
+[features]
+default = []
+wasmtime = ["dep:wasmtime", "wasm_runtime_layer/backend_wasmtime"]
+pyodide = ["dep:pyodide-webassembly-runtime-layer"]
+
+[lints]
+workspace = true

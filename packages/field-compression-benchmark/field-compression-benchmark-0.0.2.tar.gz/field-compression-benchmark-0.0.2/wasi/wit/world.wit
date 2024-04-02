@@ -1,0 +1,51 @@
+package wasi:virt@0.2.0;
+
+interface null-io {
+  use wasi:io/poll@0.2.0.{pollable};
+  use wasi:io/streams@0.2.0.{input-stream, output-stream};
+
+  ready-pollable: func() -> pollable;
+  closed-input: func() -> input-stream;
+  output-sink: func() -> output-stream;
+}
+
+world virtual-wasi-cli {
+  import null-io;
+
+  export wasi:cli/environment@0.2.0;
+  export wasi:cli/exit@0.2.0;
+  export wasi:cli/stdin@0.2.0;
+  export wasi:cli/stdout@0.2.0;
+  export wasi:cli/stderr@0.2.0;
+  export wasi:cli/terminal-input@0.2.0;
+  export wasi:cli/terminal-output@0.2.0;
+  export wasi:cli/terminal-stdin@0.2.0;
+  export wasi:cli/terminal-stdout@0.2.0;
+  export wasi:cli/terminal-stderr@0.2.0;
+}
+
+world virtual-wasi-clocks {
+  import null-io;
+
+  export wasi:clocks/monotonic-clock@0.2.0;
+  export wasi:clocks/wall-clock@0.2.0;
+}
+
+world virtual-wasi-filesystem {
+  export wasi:filesystem/preopens@0.2.0;
+  export wasi:filesystem/types@0.2.0;
+}
+
+world virtual-wasi-io {
+  export null-io;
+
+  export wasi:io/error@0.2.0;
+  export wasi:io/poll@0.2.0;
+  export wasi:io/streams@0.2.0;
+}
+
+world virtual-wasi-random {
+  export wasi:random/insecure-seed@0.2.0;
+  export wasi:random/insecure@0.2.0;
+  // wasi:random/random is specifically NOT exported
+}

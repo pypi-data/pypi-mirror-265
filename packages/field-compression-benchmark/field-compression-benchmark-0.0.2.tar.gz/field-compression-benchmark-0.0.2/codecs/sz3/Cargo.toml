@@ -1,0 +1,21 @@
+[package]
+name = "sz3-codec"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+codecs-core = { path = "../core", default-features = false }
+codecs-core-wasm = { path = "../core-wasm", default-features = false }
+postcard = { version = "1.0", default-features = false }
+serde = { version = "1.0", default-features = false, features = ["std", "derive"] }
+sz3 = { git = "https://github.com/juntyr/sz3-rs.git", rev = "475d6e0", version = "0.1", default-features = false }
+# sz3-sys/zstd-sys@2.0.10 breaks compilation with XXH_STATIC_ASSERT=0
+zstd-sys = { version = "=2.0.9", default-features = false }
+
+[lints]
+workspace = true

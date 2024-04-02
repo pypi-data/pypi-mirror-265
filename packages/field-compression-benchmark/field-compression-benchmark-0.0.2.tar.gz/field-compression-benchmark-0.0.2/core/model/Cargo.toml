@@ -1,0 +1,16 @@
+[package]
+name = "core-model"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = { version = "0.15", default-features = false, features = ["std"] }
+num-traits = { version = "0.2", default-features = false }
+rand = { version = "0.8", default-features = false }
+rand_distr = { version = "0.4", default-features = false }
+serde = { version = "1.0", default-features = false, features = ["std", "derive"] }
+
+[lints]
+workspace = true

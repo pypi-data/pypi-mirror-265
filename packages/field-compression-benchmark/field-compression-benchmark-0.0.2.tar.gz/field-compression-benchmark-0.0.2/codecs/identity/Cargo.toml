@@ -1,0 +1,17 @@
+[package]
+name = "identity-codec"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+codecs-core = { path = "../core", default-features = false }
+codecs-core-wasm = { path = "../core-wasm", default-features = false }
+serde = { version = "1.0", default-features = false, features = ["std", "derive"] }
+
+[lints]
+workspace = true
