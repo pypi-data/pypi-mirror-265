@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_scriptor.py
+tube_scriptor/__init__.py
+tube_scriptor/scriptor.py
+tube_scriptor.egg-info/PKG-INFO
+tube_scriptor.egg-info/SOURCES.txt
+tube_scriptor.egg-info/dependency_links.txt
+tube_scriptor.egg-info/requires.txt
+tube_scriptor.egg-info/top_level.txt
