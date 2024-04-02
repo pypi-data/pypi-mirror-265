@@ -1,0 +1,1 @@
+Update bad pixel correction method such that if more than a given fraction of the frame is impacted, a faster and more general algorithm is used. This reduces processing time in cases where the data has readout problems or other large scale issues.
