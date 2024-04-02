@@ -1,0 +1,15 @@
+roombapy/__init__.py,sha256=IhboQHxn9aVmtA1UpZ6mNpfv7QhbD1t5z15Kk_7URw4,431
+roombapy/cli.py,sha256=eJRDiE4LuUsvOICph82beLBfLMmlhzwcmWsQ-cooiXc,5041
+roombapy/const.py,sha256=V9lEb4RlJM7AMU3mez7DC6Lz4FLhLi-E3NJS7sOeXE4,4538
+roombapy/discovery.py,sha256=_yzd74qk2C777tZZYuix_9BTfopCXNBc6ze0zW-7sso,3720
+roombapy/getpassword.py,sha256=HLTUJ3-JTJ3lcX0267n2eLJ5Lkl7QVYptGA3vZkv0Gk,2895
+roombapy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roombapy/remote_client.py,sha256=sIvvEfnmjt3uhb0aas-FrFxx3g_4UjzKYHMWPrg1dAw,6089
+roombapy/roomba.py,sha256=CCbevoDOoMfLsp2yXj9GAfSGaQHnk-56F9Fs-r-jFaY,18685
+roombapy/roomba_factory.py,sha256=2dLOtwup3YcDYj4_jCIMgqN4VmlGs-jQyas1hfqtiP0,797
+roombapy/roomba_info.py,sha256=D0oXftp8ccSmtFRjhV3b9RJ0ypruehL0EAVE_u3P6A4,1583
+roombapy-1.8.0.dist-info/LICENSE,sha256=yQyRl_ORtSPMdlkdG6g2-dCQHsiy6HRzRbcIW3WDQAA,1069
+roombapy-1.8.0.dist-info/METADATA,sha256=gvKiWkuOIiDIoPO-eo_VVirfZXw_NVgw34ksayX8IJc,2603
+roombapy-1.8.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+roombapy-1.8.0.dist-info/entry_points.txt,sha256=nmVSN2ggod-O-AC-n-ATd7dLOvqDbtaAdCkYpM54pvo,45
+roombapy-1.8.0.dist-info/RECORD,,
