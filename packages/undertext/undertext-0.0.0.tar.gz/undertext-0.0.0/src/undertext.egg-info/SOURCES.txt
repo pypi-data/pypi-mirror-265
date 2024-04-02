@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/undertext/__init__.py
+src/undertext/exceptions.py
+src/undertext.egg-info/PKG-INFO
+src/undertext.egg-info/SOURCES.txt
+src/undertext.egg-info/dependency_links.txt
+src/undertext.egg-info/requires.txt
+src/undertext.egg-info/top_level.txt
