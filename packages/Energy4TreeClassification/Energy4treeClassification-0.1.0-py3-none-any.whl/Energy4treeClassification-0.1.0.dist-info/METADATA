@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Energy4treeClassification
+Version: 0.1.0
+Summary: Enerrgy4TreeClassification is a module that offers functions that made decision tree classification using Logistic regression and visualize it
+Author: Marhal Tom
+Requires-Dist: Numpy
+Requires-Dist: Graphviz
+
