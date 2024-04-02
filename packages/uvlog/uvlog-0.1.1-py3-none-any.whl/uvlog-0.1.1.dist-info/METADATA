@@ -1,0 +1,216 @@
+Metadata-Version: 2.1
+Name: uvlog
+Version: 0.1.1
+Summary: Pythonic logger with better performance and contextvars + JSON support out of the box
+Home-page: 
+Author: violetblackdev@gmail.com
+License: MIT
+Keywords: logging,logs
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: python-docs-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ==8.1.1 ; extra == 'test'
+Requires-Dist: orjson ==3.9.15 ; extra == 'test'
+
+[![PyPi Version](https://img.shields.io/pypi/v/uvlog.svg)](https://pypi.python.org/pypi/uvlog/)
+[![Docs](https://readthedocs.org/projects/uvlog/badge/?version=latest&style=flat)](https://uvlog.readthedocs.io)
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+[![3.8](https://github.com/violet-black/uvlog/actions/workflows/py38.yaml/badge.svg)](https://github.com/violet-black/uvlog/actions/workflows/py38.yaml)
+[![3.9](https://github.com/violet-black/uvlog/actions/workflows/py39.yaml/badge.svg)](https://github.com/violet-black/uvlog/actions/workflows/py39.yaml)
+[![3.10](https://github.com/violet-black/uvlog/actions/workflows/py310.yaml/badge.svg)](https://github.com/violet-black/uvlog/actions/workflows/py310.yaml)
+[![3.11](https://github.com/violet-black/uvlog/actions/workflows/py311.yaml/badge.svg)](https://github.com/violet-black/uvlog/actions/workflows/py311.yaml)
+[![3.12](https://github.com/violet-black/uvlog/actions/workflows/py312.yaml/badge.svg)](https://github.com/violet-black/uvlog/actions/workflows/py312.yaml)
+
+**uvlog** is yet another logging library built with an idea of a simple logger what 'just works' without
+need for extension and customization. 
+
+- Single file, no external dependencies
+- JSON and [contextvars](https://docs.python.org/3/library/contextvars.html) out of the box
+- Less abstraction, better [performance](#Performance)
+- Pythonic method names and classes
+
+# Use cases
+
+Our main scenario is logging our containerized server applications, i.e. writing all the logs to the stderr
+of the container, where they are gathered and sent to the log storage by another service. However, you
+can use this library for any application as long as it does not require very complicated things like
+complex filters, adapters etc.
+
+# Usage
+
+The easiest way to access a logger is similar to the standard module. Note that you can pass
+extra variables as keyword arguments while logging.
+
+```python
+from uvlog import get_logger
+
+logger = get_logger('app')
+logger.set_level('DEBUG')
+logger.debug('Hello, world!', name='John', surname='Dowe')
+```
+
+To write an exception use `exc_info` param.
+
+```python
+try:
+    ...
+except ValueError as exc:
+    logger.error('Something bad happened', exc_info=exc)
+```
+
+Configuration is possible in a way similar to `dictConfig`. The configuration dict itself is JSON compatible.
+The `configure()` function returns the root logger instance. Note that one destination can be assigned to
+only one handler, but each logger can have any number of handlers.
+
+```python
+from uvlog import configure
+
+logger = configure({
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['stderr', '/etc/log.txt']
+        }
+    },
+    'handlers': {
+        'stderr': {
+            'class': 'StreamHandler',
+            'formatter': 'json'
+        },
+        '/etc/log.txt': {
+            'class': 'QueueHandler',
+            'formatter': 'text'
+        }
+    },
+    'formatters': {
+        'text': {
+            'class': 'TextFormatter',
+            'format': '{asctime} : {name} : {message}',
+            'timestamp_separator': ' '
+        },
+        'json': {
+            'class': 'JSONFormatter',
+            'keys': ['asctime', 'name', 'message']
+        }
+    }
+})
+
+app_logger = logger.get_child('app', persistent=True)
+```
+
+You can use context variables to maintain log context between log records. This can be useful in the server
+environment where you can assign a unique *Request-Id* to each request and easily aggregate the logs for it
+afterward.
+
+```python
+from uvlog import LOG_CONTEXT, get_logger
+
+app_logger = get_logger('app')
+
+async def handler_request(request):
+    LOG_CONTEXT.set({'request_id': request.headers['Request-Id']})
+    await call_system_api()
+
+async def call_system_api():
+    # this log record will have 'request_id' in its context
+    app_logger.info('Making a system call')
+```
+
+When using the `JSONFormatter` you should consider providing a better json serializer for
+better performance (such as [orjson](https://github.com/ijl/orjson)).
+
+```python
+import orjson
+from uvlog import JSONFormatter
+
+JSONFormatter.serializer = orjson.dumps
+```
+
+# Loggers are weak
+
+Unlike the standard logging module, loggers are weak referenced unless they are described explicitly
+in the configuration dict or created with `persistent=True` argument.
+
+It means that a logger is eventually garbage collected once it has no active references.
+This allows creation of a logger per task, not being concerned about running out of memory eventually.
+However, this also means that all logger settings for a weak logger will be forgotten once it's collected.
+
+In general this is not a problem since you shouldn't fiddle with logger settings outside the initialization
+phase.
+
+# Customization
+
+You can create custom formatters and handlers with ease. Note that inheritance is not required.
+Just be sure to implement `Handler` / `Formatter` protocol.
+
+```python
+from uvlog import add_formatter_type, add_handler_type
+
+class IdioticFormatter:
+    
+    def format(self, record, /) -> bytes:
+        return b'Bang!'
+
+add_formatter_type(IdioticFormatter)
+```
+
+Custom logger class can be set using `set_logger_type`
+
+```python
+from uvlog import set_logger_type, Logger
+
+class MyLogger(Logger):
+    ...
+
+set_logger_type(MyLogger)
+```
+
+# Performance
+
+Benchmark results are provided for the M1 Pro Mac (16GB). The results are for the `StreamHandler`
+writing same log records into a file. The `QueueHandler` provides similar performance, but has been excluded
+from the test since Python threading model prevents results from being consistent between runs. However,
+I'd still recommend using the `QueueHandler` for server applications.
+
+| name          | total (s) | logs/s | %   |
+|---------------|-----------|--------|-----|
+| python logger | 0.085     | 117357 | 100 |
+| uvlog text    | 0.022     | 455333 | 388 |
+| uvlog json    | 0.015     | 665942 | 567 |
+
+# Ideas / goals
+
+- Rotating file handlers
+- Asynchronous queue logging to HTTP / TCP / UDP
+- Better customization for `Logger` / `LogRecord` objects
+- Better coverage
+- Cython?
