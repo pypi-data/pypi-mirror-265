@@ -1,0 +1,7 @@
+apicurio_kafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apicurio_kafka/apicurio_schema_registry.py,sha256=BNhskJaHXzga6luOuEJuyY5jRi5wNFTSJIpuew3mCsA,10050
+apicurio_datahub_kafka-2.0.1.dist-info/LICENSE,sha256=fxxC_SAHasB-NLkpZjJRBHKNqLtXx1r1B02IU9290w8,1074
+apicurio_datahub_kafka-2.0.1.dist-info/METADATA,sha256=FCwci9FTTCj9rVKPJDKVI9sTVNCytkN4hsk70eqpskg,1207
+apicurio_datahub_kafka-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+apicurio_datahub_kafka-2.0.1.dist-info/top_level.txt,sha256=FunzHfgmX-l3dhyk0LV2Um0ohiLN8RU1LAduQOu6_q8,15
+apicurio_datahub_kafka-2.0.1.dist-info/RECORD,,
