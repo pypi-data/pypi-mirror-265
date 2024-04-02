@@ -1,0 +1,8 @@
+calctree/__init__.py,sha256=uD2USBeA_hfNfI5JpdB_UA5Hy_JZ-VQ43r7csy0Hzeg,181
+calctree/calculation_result.py,sha256=1Q4BfcoqkQJINFHFmM_8PSE-4IPP297zcnZaaeSx9vo,1711
+calctree/client.py,sha256=sFRDt9d7czGstrDCMZuMzrtq2ArIvM8DZ_3RnnspvYg,2887
+calctree/exceptions.py,sha256=XuNa3PUpxYWjwbgGoMzsnzRQQD9E4MxPGQ45ipBxRfI,54
+calctree-0.2.3.dist-info/LICENSE,sha256=AZxvIem4uJvgZznL5HZCLMuvsid3tP1vvl7YZyHX6GY,1065
+calctree-0.2.3.dist-info/METADATA,sha256=zivo0f6ESq8p5HO1OqgfU0XHL3AsGqpAG7fV_w_JeuM,1773
+calctree-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+calctree-0.2.3.dist-info/RECORD,,
