@@ -1,0 +1,7 @@
+README.md
+main.py
+setup.py
+reccoon.egg-info/PKG-INFO
+reccoon.egg-info/SOURCES.txt
+reccoon.egg-info/dependency_links.txt
+reccoon.egg-info/top_level.txt
