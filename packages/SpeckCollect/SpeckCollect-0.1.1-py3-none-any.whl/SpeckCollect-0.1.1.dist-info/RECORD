@@ -1,0 +1,10 @@
+SpeckCollect-0.1.1.data/scripts/main.py,sha256=ECBKAd6wrIhnITptfMXzqsxbwaoW9gTC2nBI-pHodMw,2260
+speckcollect/__init__.py,sha256=BJ5BJGABoezdJLH-8PT6n_6fWO_N_qyddqcp_XfQW_k,92
+speckcollect/cosine.py,sha256=wTLnBvGSpgOJVXY3o63hzzRo7eN-AD1U6ZPxLCba6jw,7095
+speckcollect/create_images.py,sha256=twWP4ZQDmVZ_jUTC_O97kyajo2Rs6JeiNKQzYJufH1s,5125
+speckcollect/dvs_collector.py,sha256=C43UtpfghbCU0hFHSwWPw6Wy6qanrvjw-jh4Rgn0t5w,5143
+SpeckCollect-0.1.1.dist-info/LICENSE,sha256=tlaIF8eyjWnaWYOMLQyMrBwEoxzMgf4FnoFrLIGMhd0,1067
+SpeckCollect-0.1.1.dist-info/METADATA,sha256=MCYjPry_R0z11G8LsD2L4M7BQnPFhtAHeWtnC25VP60,2982
+SpeckCollect-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+SpeckCollect-0.1.1.dist-info/top_level.txt,sha256=Uq2eVs235WVKk1oupkTOU9P2JwF2uQEdRYrcmbdhizc,13
+SpeckCollect-0.1.1.dist-info/RECORD,,
