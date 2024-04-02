@@ -1,0 +1,7 @@
+README.md
+setup.py
+aic_tools_alpaca.egg-info/PKG-INFO
+aic_tools_alpaca.egg-info/SOURCES.txt
+aic_tools_alpaca.egg-info/dependency_links.txt
+aic_tools_alpaca.egg-info/requires.txt
+aic_tools_alpaca.egg-info/top_level.txt
