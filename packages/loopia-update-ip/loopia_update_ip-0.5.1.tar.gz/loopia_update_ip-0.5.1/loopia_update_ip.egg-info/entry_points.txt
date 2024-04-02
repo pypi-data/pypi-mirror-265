@@ -1,0 +1,3 @@
+[console_scripts]
+loopia-update-ip = loopia_update_ip.loopia_update_ip:update
+loopia-update-ip-service = loopia_update_ip.loopia_update_ip:service
