@@ -1,0 +1,19 @@
+[run]
+source =
+	gpm
+omit =
+	*dev*
+	*docs*
+	*tutorials*
+	gpm/bucket/*
+	gpm/cli/*
+	gpm/encoding/*
+	gpm/etc/*
+	gpm/retrieval/*
+	gpm/_version.py
+
+[report]
+exclude_lines =
+	pragma: no cover
+	def __repr__
+	def __str__
