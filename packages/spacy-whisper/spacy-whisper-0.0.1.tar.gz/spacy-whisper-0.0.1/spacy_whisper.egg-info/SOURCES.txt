@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+spacy_whisper/__init__.py
+spacy_whisper/pipeline.py
+spacy_whisper.egg-info/PKG-INFO
+spacy_whisper.egg-info/SOURCES.txt
+spacy_whisper.egg-info/dependency_links.txt
+spacy_whisper.egg-info/requires.txt
+spacy_whisper.egg-info/top_level.txt
