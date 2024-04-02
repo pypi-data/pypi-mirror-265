@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+cpymake/__init__.py
+cpymake/cemake_build_ext.py
+cpymake/cemake_extension.py
+cpymake.egg-info/PKG-INFO
+cpymake.egg-info/SOURCES.txt
+cpymake.egg-info/dependency_links.txt
+cpymake.egg-info/entry_points.txt
+cpymake.egg-info/top_level.txt
+docs/conf.py
