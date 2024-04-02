@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pinjet-common
+Version: 0.0.3
+Summary: Common constants used throughout pinjet projects
+Author: abetrack3 (Abrar Shahriar Abeed)
+Author-email: <abrarshahriar2361@gmail.com>
+Requires: StrEnum
+License-File: LICENSE
