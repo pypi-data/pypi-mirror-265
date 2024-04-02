@@ -1,0 +1,431 @@
+Metadata-Version: 2.1
+Name: streamlit-chart-js
+Version: 0.0.6
+Summary: A custom component to render Chart.js charts in Streamlit
+Home-page: UNKNOWN
+Author: Charly Wargnier
+Author-email: cwar05@gnail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+<img src="https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/e87a33d1-bd26-4b1f-af47-6d654d599ded" width="65%">
+
+# Streamlit-ChartJS Component
+
+[![GitHub Repo](https://img.shields.io/badge/-GitHub%20Repo-blue?style=flat&logo=github)](https://github.com/CharlyWargnier/streamlit-chartjs) [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chartjs-component-demo.streamlit.app/)
+
+[Streamlit-ChartJS](https://pypi.org/project/streamlit-chart-js/) is a custom component to render [Chart.js](https://www.chartjs.org/) interactive charts in Streamlit! 🎈
+
+## Table of Contents
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Available Charts](#available-charts)
+  - [Line Chart](#line-chart)
+  - [Bar Chart](#bar-chart)
+  - [Stacked Bar Chart](#stacked-bar-chart)
+  - [Pie Chart](#pie-chart)
+  - [Donut Chart](#donut-chart)
+  - [Polar Area Chart](#polar-area-chart)
+  - [Radar Chart](#radar-chart)
+  - [Bubble Chart](#bubble-chart)
+  - [Scatter Chart](#scatter-chart)
+- [Available Parameters](#available-parameters)
+- [Contributing](#contributing)
+
+
+## Installation
+
+You can install the component via pip:
+
+```bash
+pip install streamlit-chartjs
+```
+
+## Getting Started
+
+After installation, import `st_chartjs` in your Streamlit app. Here’s how you can quickly create a basic bar chart:
+
+```python
+
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+
+bar_chart_data = {
+    "labels": ["January", "February", "March", "April"],
+    "datasets": [
+        {
+            "label": "Sales",
+            "data": [10, 20, 30, 40],
+            "borderWidth": 1,
+        }
+    ],
+}
+
+# Display the chart
+st_chartjs(data=bar_chart_data, chart_type="bar", title="This is a Bar Chart")
+
+```
+
+## Available Charts
+
+`Streamlit-ChartJS` offers a diverse range of chart types for interactive data visualization. Refer to the below sections for example gifs and the corresponding code snippets for each chart type.
+
+### Line Chart
+
+![2024-03-31_14-37-03 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/a3a50fec-4382-4203-8eac-b7ea00e7c6ff)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+line_chart_data = {
+    "labels": ["January", "February", "March", "April", "May", "June", "July"],
+    "datasets": [
+        {
+            "label": "Dataset 1",
+            "data": [10, 20, 15, 30, 25, 40, 35],
+            "backgroundColor": "rgba(255, 99, 132, 0.2)",
+            "borderColor": "rgba(255, 99, 132, 1)",
+            "borderWidth": 3,
+            "fill": False,
+        },
+        {
+            "label": "Dataset 2",
+            "data": [250, 300, 200, 350, 400, 300, 450],
+            "backgroundColor": "rgba(54, 162, 235, 0.2)",
+            "borderColor": "rgba(54, 162, 235, 1)",
+            "borderWidth": 3,
+            "fill": False,
+            "lineTension": 0.4,
+        },
+        {
+            "label": "Dataset 3",
+            "data": [1000.0, 833.33, 1166.67, 666.67, 1000.0, 1500.0, 1333.33],
+            "backgroundColor": "rgba(75, 192, 192, 0.2)",
+            "borderColor": "rgba(75, 192, 192, 1)",
+            "borderWidth": 3,
+            "fill": False,
+            "lineTension": 0.2,
+        },
+    ],
+}
+
+st_chartjs(
+    data=line_chart_data,
+    chart_type="line",
+    title="Line Chart",
+    legend_position="bottom",
+    x_axis_title="Months",
+    y_axis_title="Growth Rate",
+)
+```
+
+### Bar Chart
+
+![2024-03-31_14-26-37 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/5ead6d1a-30f1-4583-b174-6a79cb8b5158)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+bar_chart_data = {
+    "labels": ["January", "February", "March", "April"],
+    "datasets": [
+        {
+            "label": "Dataset 1",
+            "data": [65, 59, 80, 81],
+            "backgroundColor": [
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+            ],
+            "borderColor": [
+                "rgba(255, 99, 132, 1)",
+                "rgba(54, 162, 235, 1)",
+                "rgba(255, 206, 86, 1)",
+                "rgba(75, 192, 192, 1)",
+            ],
+            "borderWidth": 1,
+        }
+    ],
+}
+
+st_chartjs(
+    data=bar_chart_data,
+    chart_type="bar",
+    title="Bar Chart",
+    legend_position="bottom",
+    x_axis_title="Months",
+    y_axis_title="Sales Amount",
+)
+```
+
+### Stacked Bar Chart
+
+![2024-03-31_14-30-19 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/8df1f2a5-05b8-4e44-8a0d-7deab578c93e)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+stacked_bar_data = {
+    "labels": ["Q1", "Q2", "Q3", "Q4"],
+    "datasets": [
+        {
+            "label": "Dataset 1",
+            "data": [50, 60, 70, 60],
+            "backgroundColor": "rgba(161, 189, 67, 0.5)",
+        },
+        {
+            "label": "Dataset 2",
+            "data": [50, 60, 70, 60],
+            "backgroundColor": "rgba(255, 99, 132, 0.5)",
+        },
+        {
+            "label": "Dataset 3",
+            "data": [50, 60, 70, 60],
+            "backgroundColor": "rgba(51, 238, 184, 0.5)",
+        },
+        {
+            "label": "Dataset 4",
+            "data": [30, 40, 60, 90],
+            "backgroundColor": "rgba(54, 162, 235, 0.5)",
+        },
+    ],
+}
+
+st_chartjs(
+    data=stacked_bar_data, chart_type="bar", title="Stacked Bar Chart", stacked=True)
+
+```
+
+### Pie Chart
+
+![2024-03-31_15-32-48 (2)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/acc6b620-02bf-4b27-909e-ae79777f411b)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+pie_chart_data = {
+    "labels": ["Green", "Purple", "Orange"],
+    "datasets": [
+        {
+            "label": "Dataset 4",
+            "data": [200, 150, 100],
+            "backgroundColor": ["#4BC0C0", "#9966FF", "#FF9F40"],
+            "hoverBackgroundColor": ["#4BC0C0", "#9966FF", "#FF9F40"],
+        }
+    ],
+}
+st_chartjs(data=pie_chart_data, chart_type="pie", title="Pie Chart", legend_position="bottom")
+
+```
+
+
+
+### Donut Chart
+
+![2024-03-31_15-29-32 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/4e8c6825-e8e2-4577-9a89-c7fbbf63d423)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+donut_chart_data = {
+    "labels": ["Red", "Blue", "Yellow"],
+    "datasets": [
+        {
+            "label": "Dataset 3",
+            "data": [300, 50, 100],
+            "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56"],
+            "hoverBackgroundColor": ["#FF6384", "#36A2EB", "#FFCE56"],
+        }
+    ],
+}
+st_chartjs(data=donut_chart_data, chart_type="doughnut")
+
+```
+
+### Polar Area Chart
+
+![2024-03-31_14-40-12 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/e8f8725b-fbc1-4a4f-bec4-cbd49ec4f40f)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+polar_area_chart_data = {
+    "labels": ["Red", "Green", "Yellow", "Grey", "Blue"],
+    "datasets": [{
+        "data": [11, 16, 7, 3, 14],
+        "backgroundColor": ["#FF6384", "#4BC0C0", "#FFCE56", "#E7E9ED", "#36A2EB"]
+    }]
+}
+
+st_chartjs(
+    data=polar_area_chart_data,
+    chart_type="polarArea",
+    title="Polar Area Chart",
+    legend_position="bottom",
+)
+
+```
+
+### Radar Chart
+
+![2024-03-31_15-38-49 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/67da3661-a9e7-49ac-9499-fd5bc4181a20)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+radar_chart_data = {
+    "labels": ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+    "datasets": [
+        {
+            "label": "My First dataset",
+            "backgroundColor": "rgba(179,181,198,0.2)",
+            "borderColor": "rgba(179,181,198,1)",
+            "pointBackgroundColor": "rgba(179,181,198,1)",
+            "pointBorderColor": "#fff",
+            "pointHoverBackgroundColor": "#fff",
+            "pointHoverBorderColor": "rgba(179,181,198,1)",
+            "data": [65, 59, 90, 81, 56, 55, 40],
+        },
+        {
+            "label": "My Second dataset",
+            "backgroundColor": "rgba(255
+
+,99,132,0.2)",
+            "borderColor": "rgba(255,99,132,1)",
+            "pointBackgroundColor": "rgba(255,99,132,1)",
+            "pointBorderColor": "#fff",
+            "pointHoverBackgroundColor": "#fff",
+            "pointHoverBorderColor": "rgba(255,99,132,1)",
+            "data": [28, 48, 40, 19, 96, 27, 100],
+        },
+    ],
+}
+
+st_chartjs(
+    data=radar_chart_data,
+    chart_type="radar",
+    title="Radar Chart",
+    legend_position="bottom",
+)
+
+```
+
+### Bubble Chart
+
+![2024-03-31_15-44-02 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/6262439c-14bf-48d4-9414-73bfac2dcda4)
+
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+# Data for a Bubble Chart
+bubble_chart_data = {
+    "datasets": [
+        {
+            "label": "Dataset 1",
+            "data": [
+                {"x": 20, "y": 30, "r": 15},
+                {"x": 40, "y": 10, "r": 10},
+                {"x": 25, "y": 25, "r": 20},
+            ],
+            "backgroundColor": "rgba(255, 99, 132, 0.6)"
+        },
+        {
+            "label": "Dataset 2",
+            "data": [
+                {"x": 30, "y": 20, "r": 10},
+                {"x": 20, "y": 30, "r": 20},
+                {"x": 15, "y": 40, "r": 25},
+            ],
+            "backgroundColor": "rgba(54, 162, 235, 0.6)"
+        }
+    ]
+}
+
+st_chartjs(data=bubble_chart_data, chart_type="bubble", canvas_height=500, canvas_width=700)
+```
+
+### Scatter Chart
+
+![2024-03-31_15-52-47 (1)](https://github.com/CharlyWargnier/streamlit-chartjs/assets/27242399/9c203f86-a198-4af1-ba37-aa42d5fac0a1)
+
+```python
+import streamlit as st
+from streamlit_chartjs.st_chart_component import st_chartjs
+
+scatter_chart_data = {
+    "datasets": [
+        {
+            "label": "Group A",
+            "data": [
+                {"x": 10, "y": 20},
+                {"x": 15, "y": 10},
+                {"x": 20, "y": 15},
+            ],
+            "backgroundColor": "rgba(255, 99, 132, 0.6)"
+        },
+        {
+            "label": "Group B",
+            "data": [
+                {"x": 25, "y": 30},
+                {"x": 30, "y": 25},
+                {"x": 35, "y": 35},
+            ],
+            "backgroundColor": "rgba(54, 162, 235, 0.6)"
+        }
+    ]
+}
+
+st_chartjs(data=scatter_chart_data, chart_type="scatter", canvas_height=500, canvas_width=700)
+```
+
+## Available Parameters
+
+Streamlit-ChartJS offers various parameters to customize your charts extensively:
+
+- `data`: The data for the chart, following the Chart.js data structure.
+- `chart_type`: Type of chart you want to render (e.g., "bar", "line", "pie", "doughnut", "radar", "polarArea", "bubble", "scatter").
+- `canvas_width`: Width of the chart canvas in pixels. Default is 700.
+- `canvas_height`: Height of the chart canvas in pixels. Default is 700.
+- `title`: Title of the chart. Default is "Custom Chart Title".
+- `legend_position`: Position of the chart's legend. Options include "top", "left", "bottom", "right". Default is "top".
+- `x_axis_title`: Title for the x-axis. Default is "Category".
+- `y_axis_title`: Title for the y-axis. Default is "Value".
+- `stacked`: A boolean to indicate whether the chart should be stacked. Applicable to "bar" chart types. Default is False.
+
+These parameters allow you to tailor the chart appearance and functionality to fit your application's needs.
+
+## Contributing
+
+I welcome contributions! Here’s how you can help:
+
+- **Report Bugs**: Notice something off? Open an issue [here](https://github.com/CharlyWargnier/streamlit-chartjs/issues).
+- **Suggest Features**: Got a great idea? Share it as an issue on GitHub.
+- **Improve Documentation**: Spot a typo or a confusing section? Your edits are welcome!
+- **Submit Pull Requests**: Fixed something or added a feature? Fork the repo, make your changes, and submit a PR.
+
+Your input helps make Streamlit-ChartJS even better! 🙌
+
+
