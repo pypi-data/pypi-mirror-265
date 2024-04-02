@@ -1,0 +1,10 @@
+fastbuilder/__init__.py,sha256=D4fPPr1Jqk0TaNSZVidutTa_TIsJCmvsZsMtMGwnTeA,222
+fastbuilder/build.py,sha256=bNKsxi2EM_-pqdg_S2TPrVTt2bpjdt4ttdlm06JBFyA,9852
+fastbuilder/frontend_template.py,sha256=UWZGsyXBQvm3ouNfLbRe40jFOiyM2llHqUvn0qfIHLQ,2224
+fastbuilder/import_sys.py,sha256=kQ9InnSmDWjxbwXy9t8qdsnoIfjVhqk3J0abZC1r5i8,288
+fastbuilder/tools_.py,sha256=NLpVZ6oVSDoCZF_k-xp40DZeF1mlLMJQfX8hIao4imo,2210
+fastbuilder/transfer.py,sha256=zXt-5Xk9RlxTmau3FE1V82fxEzlhXT0KfbRbFoXBrgQ,8608
+fastbuilder-0.1.0.dist-info/LICENSE,sha256=KszfSeUn4QGJmoB7dwnYAcmcqmWJzSOtlMP7tib25TI,1089
+fastbuilder-0.1.0.dist-info/METADATA,sha256=jrxKB2E2fzvE5p5v1aQGyu0x9w4TrIfQX5ue348B0RM,966
+fastbuilder-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fastbuilder-0.1.0.dist-info/RECORD,,
