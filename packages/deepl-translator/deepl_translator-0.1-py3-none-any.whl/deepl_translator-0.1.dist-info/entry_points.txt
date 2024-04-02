@@ -1,0 +1,2 @@
+[console_scripts]
+deepl = deepl_translator:translate

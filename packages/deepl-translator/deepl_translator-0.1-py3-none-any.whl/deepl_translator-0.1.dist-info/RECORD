@@ -1,0 +1,12 @@
+deepl_translator/__init__.py,sha256=Bs5HbhgKs-D_VRpG8noGyxlZvp9G3ZhnPCJtzea0fVM,54
+deepl_translator/cli.py,sha256=-z85X8DkLXWt6gDUtKOny8IBOeYLspwb6UGE35L_dDs,972
+deepl_translator/config.py,sha256=Ssi9pXW1w2ds_IEbAbf4ZN4-ZEDJGZ0LvWW2hfcxj3Q,217
+deepl_translator/translator.py,sha256=jVohKDHw5MHF0J9yWYg5802eSn-n2g4TqjFKmPm_96g,531
+tests/__init__.py,sha256=DNGWLbKkZoP5mf6F519fDIMnoKU1VDjioeUeovdiH0k,41
+tests/test_translator.py,sha256=KRI7eUA9-izKwn0kmFfW09DQdKcMJO9SE-K-oxNqHIA,934
+deepl_translator-0.1.dist-info/LICENSE,sha256=xCkbOxRTpCTY5LdR36G3LNBhnjfQkMb7isN4z0hF5YI,1064
+deepl_translator-0.1.dist-info/METADATA,sha256=3sihZAap9LUny503TtJguvVXQ6Y8hW4ApJADKVz8Ib4,155
+deepl_translator-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+deepl_translator-0.1.dist-info/entry_points.txt,sha256=OBuLe_g6Vld2Ofc0IVaTUCFbMTvSlf8OiuVbAMxyw54,53
+deepl_translator-0.1.dist-info/top_level.txt,sha256=Kq2mA9TslvL8T-yTFYF4ZDuxyEtf46Ch9V0Hpm9JUYg,23
+deepl_translator-0.1.dist-info/RECORD,,
