@@ -1,0 +1,16 @@
+unicorn_binance_websocket_api-2.4.0.dist-info/RECORD,,
+unicorn_binance_websocket_api-2.4.0.dist-info/LICENSE,sha256=hHPgwlasJlbmIm-JFVXLmQPXMjdvoecz-nKQV-5rw4U,4232
+unicorn_binance_websocket_api-2.4.0.dist-info/WHEEL,sha256=wEvD9HODgqXG21zAA07x3Gh0qpNEHOQ7qzjMqXvopac,109
+unicorn_binance_websocket_api-2.4.0.dist-info/top_level.txt,sha256=805jzwlIjaJ8D50zJxQsRgRosB3WaNnU676MR03tSM0,30
+unicorn_binance_websocket_api-2.4.0.dist-info/METADATA,sha256=kLwPbzWIkRjTTGRHNZqVcnKBlWqYV6T7VzNyy-vn6Ho,49030
+unicorn_binance_websocket_api/licensing_exceptions.cpython-39-darwin.so,sha256=_gXZCj3qSsgc04sP-_wpkPHGtWVYFjXLT12vIS-m8As,41144
+unicorn_binance_websocket_api/exceptions.cpython-39-darwin.so,sha256=lG2aWNOFt4LsWBtNEZ_yTECsGUBEyRuhkEgogkhcXcs,85000
+unicorn_binance_websocket_api/manager.cpython-39-darwin.so,sha256=y22ihAjRqvYo85BQxEFg16vengPgWO4fV7XY9nfAjY8,1977976
+unicorn_binance_websocket_api/licensing_manager.cpython-39-darwin.so,sha256=ZkOM1D2PPcO35zvBcK6kL-sSYZNKoWXmO_6Z3i_gyp8,339016
+unicorn_binance_websocket_api/restclient.cpython-39-darwin.so,sha256=mmkC8WpZDwr0zSRiWDanbHWrFOT9AS8pc2sTnLLFZrA,211000
+unicorn_binance_websocket_api/__init__.cpython-39-darwin.so,sha256=samx6E7ol2DLpBOtC_Nhux-qoBkNF7E3HDUJlu7FM00,40664
+unicorn_binance_websocket_api/connection.cpython-39-darwin.so,sha256=af8u_hm8LfzCJYKrt1QNSZCfZDPQyuNOBAw-7X9REOs,254704
+unicorn_binance_websocket_api/connection_settings.cpython-39-darwin.so,sha256=LYkufmi6OuGAceO-zf8U_TeUWrwEqVaysi5u06V5Bxs,88368
+unicorn_binance_websocket_api/api.cpython-39-darwin.so,sha256=0gSD13XKTxyom59aT2UeHhqUabXLiH_Dbbdy3iVv2mo,436568
+unicorn_binance_websocket_api/restserver.cpython-39-darwin.so,sha256=V6PNPbmLIvTg_jVflpPA2N6qmONq1WR5KfTElrzJBr8,86920
+unicorn_binance_websocket_api/sockets.cpython-39-darwin.so,sha256=0WEO2cSjJzKR5FI1-rI2e8ZvfVMFYcjRKw1p01GFZCE,260048
