@@ -1,0 +1,8 @@
+han2kip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+han2kip/kip_converter.py,sha256=6peR9CIHYuG2azkILU7hdb0ps4-4SqF4Exc1C5mgo9g,2088
+han2kip/data/dict.txt,sha256=swBtEPWOuRM_HDAIPqLdqseG8YQAASbaDzXDa1andrM,901007
+han2kip/data/words.json,sha256=3OafH3E25LlqyfQGtgXETRPrlMSieXAasFOcevSlBR0,2312337
+han2kip-0.1.0.dist-info/METADATA,sha256=GScER7cBgKFqBs_5u6LIc3UGa-4JRsk7kS_rSRU-ZI4,2362
+han2kip-0.1.0.dist-info/WHEEL,sha256=q6Ejfpj4HRnt7o1XWgEOo5g7W0PKmxxzhdMpcVNBe68,105
+han2kip-0.1.0.dist-info/licenses/LICENSE,sha256=RjJw9HMfLTB9yjlh6ayGAbZL1tL7tmpx2BDyri7-mHI,1086
+han2kip-0.1.0.dist-info/RECORD,,
