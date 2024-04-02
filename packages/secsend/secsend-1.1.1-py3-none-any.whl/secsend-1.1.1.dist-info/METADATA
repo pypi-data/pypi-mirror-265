@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: secsend
+Version: 1.1.1
+Summary: secsend client library
+Home-page: http://github.com/aguinet/secsend
+Author: Adrien Guinet
+Author-email: adrien@guinet.me
+License: GPL
+Requires-Dist: requests <3,>=2.31
+Requires-Dist: python-magic <1,>=0.4
+Requires-Dist: cryptography ==42.*
+Requires-Dist: progressbar2 ==4.*
+Provides-Extra: dev
+Requires-Dist: requests-mock ==1.9.* ; extra == 'dev'
+
