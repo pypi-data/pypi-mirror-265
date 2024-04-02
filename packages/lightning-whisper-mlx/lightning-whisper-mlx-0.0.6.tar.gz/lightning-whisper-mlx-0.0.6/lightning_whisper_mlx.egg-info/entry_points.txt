@@ -1,0 +1,2 @@
+[console_scripts]
+lightning-whisper-mlx = lighting_whisper_mlx:main
