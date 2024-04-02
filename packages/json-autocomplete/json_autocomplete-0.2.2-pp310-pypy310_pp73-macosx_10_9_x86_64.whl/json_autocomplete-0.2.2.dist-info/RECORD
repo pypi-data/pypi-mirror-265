@@ -1,0 +1,10 @@
+json_autocomplete-0.2.2.dist-info/RECORD,,
+json_autocomplete-0.2.2.dist-info/WHEEL,sha256=B8AdIotNxU3P1jI1wEiqtdurecHhAAJoc5NxSfa2D5A,118
+json_autocomplete-0.2.2.dist-info/top_level.txt,sha256=4UdFm06nD9NCjiWOvRdODukfm1MEvr5br5Tx-fXbo4g,18
+json_autocomplete-0.2.2.dist-info/METADATA,sha256=E3Ogsv8aZJWhNANjR3bcHgieIFX2OyjVvdYMpmE_PHU,2103
+json_autocomplete/__init__.py,sha256=VaHb476aYP3glghM9-XiRIuuMM1wDahRsJ_o_ar36i4,49
+json_autocomplete/json_autocomplete.pyx,sha256=4ZNhSL53OPZGQsUSPG5V_aikEnJIUyo_Sc0GXXELq_w,389
+json_autocomplete/json_autocomplete.pypy310-pp73-darwin.so,sha256=wfnEbFvUx6cY7JzibnGLZj1QqAC7cnrTVaKj_alYKaA,67096
+json_autocomplete/json_autocomplete.cpp,sha256=bn7L9pWsKY66izXoqWPlEhtMPeTqiWJCO1OFJ77XGRw,255936
+json_autocomplete/json.h,sha256=Ul3-dtsrRcQ0GgLPR0AasOuEHtu50vE7XmckaY5ZFPo,153
+json_autocomplete/json.cpp,sha256=9Jj8y7GvM2T4rM_G82m0f_HcGxm7BW0tacWUhFp6bqE,9871
