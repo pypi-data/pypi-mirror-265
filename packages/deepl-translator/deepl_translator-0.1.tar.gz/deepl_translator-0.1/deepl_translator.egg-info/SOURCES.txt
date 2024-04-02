@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+deepl_translator/__init__.py
+deepl_translator/cli.py
+deepl_translator/config.py
+deepl_translator/translator.py
+deepl_translator.egg-info/PKG-INFO
+deepl_translator.egg-info/SOURCES.txt
+deepl_translator.egg-info/dependency_links.txt
+deepl_translator.egg-info/entry_points.txt
+deepl_translator.egg-info/requires.txt
+deepl_translator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_translator.py
