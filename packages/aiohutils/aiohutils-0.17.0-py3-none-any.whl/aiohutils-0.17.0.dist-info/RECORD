@@ -1,0 +1,8 @@
+aiohutils/__init__.py,sha256=ctD9pjqBvASXR0DHHzalDZFaQsnMJWDpTalYrvY3e_Y,23
+aiohutils/df.py,sha256=oeU8wZOfZNwlH03pW_LXAcyncIQCqeoRQAAVZzg5wBw,370
+aiohutils/pd.py,sha256=qU0Ybgi0lP-FJuSr94Dw5OfZ3Ei90hCV27iCslYPVms,183
+aiohutils/session.py,sha256=y39ugdkGiHn1ioZS-yp1BKf5Sov4Gg24EyzfPflT3As,1594
+aiohutils/tests.py,sha256=VxSYDYp3T3Y4uX20nb8heQWxUymM31pVYloy3y5SBOU,3868
+aiohutils-0.17.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+aiohutils-0.17.0.dist-info/METADATA,sha256=J4Dx3zBx3ezwPcOiUShTV9mQOiooQ8KckGUPkAJLocg,947
+aiohutils-0.17.0.dist-info/RECORD,,
