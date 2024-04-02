@@ -1,0 +1,11 @@
+.field-icon {
+  margin-left: -20px;
+  z-index: 2;
+}
+.fa-eye {
+  content: url(2b499f2097ab84158022.svg);
+}
+.fa-eye-slash {
+  content: url(5c6d0c0d82f2992ebb11.svg);
+}
+
