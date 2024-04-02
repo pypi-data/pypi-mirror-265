@@ -1,0 +1,10 @@
+valorant/__init__.py,sha256=8NbIOIdoaPsZfKMU51lV7xYC_c8kZtx5MLtlWJtwzg4,187
+valorant/classes.py,sha256=OyPkEpTSwWs6XkAbYP6rqJghNPE-wfgehhsh3AqyS9k,10850
+valorant/constants.py,sha256=AEUQSbKrW_JwGNzscyh6eXcMT9gY1cEIU3la0nh_0qI,9512
+valorant/valorant.py,sha256=iQZblFSgS3ENfUOWBF7wyHZyRcyVnvpqSNPHq7JM3JY,14056
+valorant/xmpp.py,sha256=1VdpBBx3PPrTYGe-mmpuEO0uLxkEqnu5DTgtzIY931U,7471
+valapi.py-0.0.1.dist-info/LICENSE,sha256=9Ofzc7m5lpUDN-jUGkopOcLZC3cl6brz1QhKInF60yg,7169
+valapi.py-0.0.1.dist-info/METADATA,sha256=HwoPFF6VCxzjks4AmKKwIstb3BI2u6NfBO0NSp0JgDk,1178
+valapi.py-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+valapi.py-0.0.1.dist-info/top_level.txt,sha256=LzGapvvnKS0cumCq33s7NpaI0qA5ILlnc4laH8IU4kc,9
+valapi.py-0.0.1.dist-info/RECORD,,
