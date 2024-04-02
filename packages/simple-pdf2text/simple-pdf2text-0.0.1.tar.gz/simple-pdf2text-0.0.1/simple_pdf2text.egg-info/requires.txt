@@ -1,0 +1,7 @@
+certifi
+charset-normalizer
+idna
+requests
+tika
+urllib3
+wordninja
