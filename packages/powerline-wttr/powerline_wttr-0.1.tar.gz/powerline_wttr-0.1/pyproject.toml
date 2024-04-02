@@ -1,0 +1,22 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = 'powerline-wttr'
+version = '0.1'
+authors = [{ name = 'Penpen7', email = 'Raosys@live.jp' }]
+description = 'A Powerline segment for fetching and showing the weather in the current location'
+dependencies = ['powerline-status', 'requests']
+requires-python = '>=3.12'
+readme = 'README.md'
+keywords = ['powerline', 'weather', 'segment']
+license = { text = "MIT License" }
+packages = ['powerline_wttr']
+classifiers = [
+  'Environment :: Console',
+  'Intended Audience :: Developers',
+  'License :: OSI Approved :: MIT License',
+  'Topic :: Terminals',
+]
+install_requires = ['powerline-status', 'requests']

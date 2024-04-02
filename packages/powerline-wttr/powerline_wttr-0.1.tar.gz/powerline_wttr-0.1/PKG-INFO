@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: powerline-wttr
+Version: 0.1
+Summary: A Powerline segment for fetching and showing the weather in the current location
+Author-email: Penpen7 <Raosys@live.jp>
+License: MIT License
+Keywords: powerline,segment,weather
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Terminals
+Requires-Python: >=3.12
+Requires-Dist: powerline-status
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# powerline-wttr
+- A Powerline segment for displaying weather information from wttr.in
+
+# Installation
+```
+pip3 install powerline-wttr
+```
+
+# Configuration
+- Add the following to your powerline configuration file:
+- The `city` argument is the city to get the weather for.
+- The `format` argument is the format string to use(Optional).
+```json
+{
+    "function": "powerline_wttr.weather",
+    "priority": 100,
+    "args": {
+        "city": "Tokyo",
+        "format": "%l:+%c+%f+%h+%p+%P+%m+%w" 
+    }
+}
+```
