@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Mensajes-sebasmi19
+Version: 6.0
+Summary: Un paquete para saludar y despedir
+Home-page: https://www.zbix.com
+Author: ZBIX
+Author-email: sebasmi1920@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python 
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.26.4
+
+#Mensajes
+
+El paquete de mensajeria para pruebas de sebasmi.

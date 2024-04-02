@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirement.txt
+setup.py
+Mensajes_sebasmi19.egg-info/PKG-INFO
+Mensajes_sebasmi19.egg-info/SOURCES.txt
+Mensajes_sebasmi19.egg-info/dependency_links.txt
+Mensajes_sebasmi19.egg-info/requires.txt
+Mensajes_sebasmi19.egg-info/top_level.txt
+mensajes/__init__.py
+mensajes/adios/__init__.py
+mensajes/adios/despedidas.py
+mensajes/hola/__init__.py
+mensajes/hola/saludos.py
+tests/__init__.py
+tests/test_hola.py
