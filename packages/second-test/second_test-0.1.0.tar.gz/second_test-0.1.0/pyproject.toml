@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "second-test"
+version = "0.1.0"
+authors = [
+  { name="p0pe" },
+]
+description = "test project for trusted publisher."
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/popenta/second-test"
