@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/fast_di/__init__.py
+src/fast_di/init_dependencies.py
+src/fast_di/collector/__init__.py
+src/fast_di/collector/base.py
+src/fast_di/collector/collector.py
+src/fast_di/depends/__init__.py
+src/fast_di/depends/depends.py
+src/fast_di/depends/depends_stub.py
+src/fastapi_di_extension.egg-info/PKG-INFO
+src/fastapi_di_extension.egg-info/SOURCES.txt
+src/fastapi_di_extension.egg-info/dependency_links.txt
+src/fastapi_di_extension.egg-info/requires.txt
+src/fastapi_di_extension.egg-info/top_level.txt
