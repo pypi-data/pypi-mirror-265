@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: phone_email_auth
+Version: 0.13
+Summary: A Django app to use services of phone.email.
+Home-page: https://www.phone.email/
+Author: Phone Email
+Author-email: mg@phone.email
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: requests
+
+============================
+Phone Email One Tap Sign In
+============================
+
+Description
+-----------
+
+One Tap Sign In is a Django library developed by Phone.Email for integrating phone verification functionality into your website. It simplifies the process of global phone number verification using OTP/passcode, similar to Gmail's One Tap Sign In feature. This library eliminates the need for complex telecom registration and SMS API Gateway integration for each country.
+
+Installation
+------------
+
+You can install One Tap Sign In using pip:
+
+.. code-block:: bash
+
+    $ pip install phone-email-auth
+
+Usage
+-----
+
+To get verified phone number call `get_user_info()` function in your views:
+
+.. code-block:: python
+
+    # views.py
+    from phone_email_auth.utils import get_user_info
+
+    def my_view(request):
+        # Call the get_verified_phone function
+        if 'access_token' in request.GET:
+            country_code,phone_number = get_user_info('TYPE_YOUR_CLIENT_ID_HERE',request.GET['access_token'])
+            context = {
+                'phone_number': phone_number,
+                'country_code' : country_code
+            }
+
+        response = render(request, 'index.html', context)
+        # Further logic based on the retrieved phone number
+
+License
+-------
+
+One Tap Sign In is distributed under the MIT License. See the `LICENSE` file for more information.
