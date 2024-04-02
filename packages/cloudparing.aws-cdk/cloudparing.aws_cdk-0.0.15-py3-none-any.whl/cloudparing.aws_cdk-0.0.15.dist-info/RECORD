@@ -1,0 +1,9 @@
+cloudparing/aws_cdk/__init__.py,sha256=8hi_S5xB6ShO0wNvZtXXC39HoG0qAArGBrCf_Si8iAs,123371
+cloudparing/aws_cdk/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudparing/aws_cdk/_jsii/__init__.py,sha256=Djy08o5-vnKRc7nKOkHisVu6I5SjsdGfJHRDjFFmUzg,480
+cloudparing/aws_cdk/_jsii/aws-cdk-lib@0.0.15.jsii.tgz,sha256=tYjya0fwk70WLXYNR-rfOkw3v0BaOA5THSJ9d0-Ox2c,16591074
+cloudparing.aws_cdk-0.0.15.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cloudparing.aws_cdk-0.0.15.dist-info/METADATA,sha256=21M3Q_FQ7G8vIEyAl1cBTkJB64-aSTwU-rFo99Y6rIk,3251
+cloudparing.aws_cdk-0.0.15.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cloudparing.aws_cdk-0.0.15.dist-info/top_level.txt,sha256=tgE5xXYF6pFkvEEQATNQMV3Q2XBcnfHh1Cm-jH_LiaY,12
+cloudparing.aws_cdk-0.0.15.dist-info/RECORD,,
