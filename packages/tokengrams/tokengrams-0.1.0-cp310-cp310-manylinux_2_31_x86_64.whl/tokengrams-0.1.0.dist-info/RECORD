@@ -1,0 +1,8 @@
+tokengrams-0.1.0.dist-info/METADATA,sha256=D3aexqlqqJWETorgaBBPm1d9JBfUqI9CoYG6LdynDic,54
+tokengrams-0.1.0.dist-info/WHEEL,sha256=S312GDhla_ubZD6PjZc3E_JNYtKr_jaK4akp7tPsEdk,108
+tokengrams/__init__.py,sha256=1gHoxC2jCxCAD7fp56O4b15P5lIB6JLVoOedMzTwM8w,63
+tokengrams/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tokengrams/tests/test_gram_index.py,sha256=swnr7kIurU-VOGVaZxeHqCDHx70x_klwT6qLmB3vhZo,1632
+tokengrams/tokengrams.pyi,sha256=XrapEFeuOzSgJW1wX8pSzyQnKK6UPw8BcjBTIycsH8I,2926
+tokengrams/tokengrams.cpython-310-x86_64-linux-gnu.so,sha256=gO9Iw6Ht8XlbrJO7KTUsxB8t_3zUziVt6low2CiF3gQ,1261160
+tokengrams-0.1.0.dist-info/RECORD,,
