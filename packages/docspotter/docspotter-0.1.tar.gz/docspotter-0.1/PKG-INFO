@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: docspotter
+Version: 0.1
+Summary: DocSpotter is a Python library designed to extract specific information from document images by combining text detection and extraction technologies.
+Home-page: https://github.com/user/reponame
+Author: Nlaraki
+Author-email: larakinarjis@gmail.com
+License: MIT
+Download-URL: https://github.com/narjislaraki/docspotter
+Description: UNKNOWN
+Keywords: OCR,CRAFT,text,detection,extraction,easy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
