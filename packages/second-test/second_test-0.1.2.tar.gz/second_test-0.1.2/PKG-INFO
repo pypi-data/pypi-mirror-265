@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: second-test
+Version: 0.1.2
+Summary: test project for trusted publisher.
+Project-URL: Homepage, https://github.com/popenta/second-test
+Author: p0pe
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# second-test
