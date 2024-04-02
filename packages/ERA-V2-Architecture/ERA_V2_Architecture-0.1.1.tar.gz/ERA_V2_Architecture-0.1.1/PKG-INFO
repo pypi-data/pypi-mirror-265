@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ERA_V2_Architecture
+Version: 0.1.1
+Summary: The ERA-V2 course network architectures
+Home-page: https://github.com/ping-Mel/ERAV2-Architecture.git
+Author: Xianping Wu
+Author-email: xianpingwu@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ERAV2-Architecture
+ERAV2 course models
