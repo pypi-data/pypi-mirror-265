@@ -1,0 +1,16 @@
+build
+test_env
+deploy.sh
+*egg-info
+dist
+*pyc
+*swp
+.project
+.pydevproject
+.idea/
+.tox/
+.DS_Store
+example
+venv
+.env*
+.tags*

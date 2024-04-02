@@ -1,0 +1,421 @@
+v0.1.0
+Initial release
+
+v0.1.1
+Tweak distribution crap to be more Pythonic
+
+v0.1.2
+More distribution tweaks
+
+v0.1.5
+Require a version of httplib2 that includes the DigiCert root certs.
+Add TRELLO_SCOPE to env. variable to util.py
+add vim modelines to confirm with the broken PEP-8
+Update README
+Update README
+Update readme
+Updated the readme; updated TrelloClient argument changes in the test file
+Changed name of util.test_oauth to create_oauth_token; can run the script from command line
+Changed order of arguments for TrelloClient constructor; changed arguments for Board.get_cards; open_cards, closed_cards, etc return all card fields by default (to reduce api calls); update comments
+Added requirements.txt
+oauth script works; add option for expiration
+Code reformatting - changed tabs to whitespaces.
+
+v0.1.6
+
+Fixed setting attributes on the 5 readonly @property
+Refactored JSON deserialization for every class
+Changed the due_date format in Card
+Rename an item for a Checklist.
+Rename header Content-type to Content-Type.
+Add setter to Card.description
+Add members methods to Board class
+rename to changelog
+
+v0.3.0
+
+use requests and requests-oauthlib to simplify code and make it Python 3 compatible
+bumped version to 0.2.0, updated setup.py and requirements.txt
+added test for Board.get_cards and Card.delete -> 0.2.1
+Extended test for Board.get_cards
+Remove `get_list` from TrelloClient (closes #51)
+Fix util.py for Python2
+added property Card.date_last_activity : datetime, and test for fetching card attributes (including the new datetime property)
+Unified initialization of cards from JSON data. Added optionally lazy properties for comments and checklists.
+Python 2 fix (@henriquegemignani )
+version bumped and dependency "dateutil" added
+Allow empty due dates
+Change requirement dateutil to python-dateutil.
+Fix python2 support (no annotations)
+Add method get_card, fixes #62
+FIX: Inverted arguments
+make util script executable
+Add shebang to util.py
+[NEW]: support attachments from file or url
+Added method to Card object to update card name
+fetch_checklists: allow the list to be empty
+added the rename method on Checklist
+added the delete method on Checklist
+refactor tests to avoid code duplication and flake8 reports
+raised coverage to 80%
+Added support for Organizations
+Fix Board.from_json call parameterization
+Add a default app name
+Updated the create_oauth_token() function to include the ability to suppress printing the secrets and tokens, as well as returning the access tokens after the OAuth request.
+Added open() to Boards and Lists
+added due_date property
+handling pos attribute
+Added the Label class and fixed the labels property to cards
+Added functionality to add a Label to a board
+Updated the from_json documentation to reflect the parent board as being on the arguments, as opposed to the Trello Client I had originally
+Removed Board.open() and List.open() for the pull request
+Added the ability to add a label on card creation. Added a call to add a label to a card directly. Added a call to get all labels for a board
+Added the ability to archive all cards, and add a due date on a card. Additionally, I updated creating a new card to use the Card path instead of the List path, since it allows for adding Labels by ID instead of by color
+added sphinx docs
+improved docs slightly
+improved docs slightly
+improved docs slightly
+card might be initialized with either board or list
+card labels are returned as Label class instead of dicts
+setUp -> setUpClass
+added list to card
+Remove unused Member.commentCard attribute
+Fix docstring typo in Member.fetch()
+
+v0.3.1
+
+bump version since I forgot to sign
+
+v0.4.0
+
+Revert "Removed Board.open() and List.open() for the pull request"
+datetime.strptime -> dateparser.parse
+The fields 'status' and 'initials' appear optional
+Use hour, min, sec to help deal with TZ issues
+Don't error out if no due date
+Add ability to subscribe to a card
+broken code into multiple files
+broken tests into multiple files + change board test list behavior (each run create a new list)
+FIX saner way to deal with circular import between list/card
+Add myself to contributors list and cleanup setup.py
+
+v0.4.1
+
+FIX bugs from breaking up code
+FIX bug when testing card due datetime
+
+v0.4.0
+
+Fix import bugs + bug in tests for card due date
+bump to 0.4.1
+fix unicode bug (tests for python3 are broken)
+
+v0.4.2
+cards : checklists and comments are sorted
+cards : checklists and comments no longer raise AttributeError if not already fetched
+style nitpicking
+members : comments are sorted
+trelloclient : add optional import of PyOpenSSL useful for python < 2.7.9 and 3.2 to prevent security issues with openssl (More info : https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning)
+more tests
+
+v0.4.3
+
+Allow cards to unassign members
+Use the proper ref in the lambda (fixes #108)
+
+v0.5.0
+
+Add remove_label function to card
+Members: Add "fetch_cards" and "fetch_notifications" methods.
+A few things I added for a project of mine: 1. all_boards can now filter, for example open (https://developers.trello.com/advanced-reference/member#get-1-members-idmember-or-username-boards) 2. Cards and boards parse dateLastActivity without needing another fetch (as it is returned in the original json).
+None out the date_last_activity as I "promoted" it to the json parsing, so it'll be weird if it just didn't exist if parse failed.
+How the hell did I manage to add tabs? :)
+fix #66 - strings are encoded with UTF-8 to be compatible with python 2 and decoded with utf-8 to be compatible with python 3
+Revert "fix #66 - strings are encoded with UTF-8 to be compatible with python 2 and decoded with utf-8 to be compatible with python 3"
+Add card filter parameter to List.list_cards()
+Add cloning from a source card to add_card()
+Add functionality to retrieve a Label object
+Add URL shorturl property
+Added card_filter argument to Board.get_cards()
+Fixed gh-124.  -Added support for a source_board parameter to add_board  - Added tests for add_board, copy_board, close_board  - Modified list boards to only look at open boards  - This commit now causes the test account to accumulate closed boards
+gh-124 Fix for original PR, unit tests had flaw that hid non-working code for copying board.
+added test for closed cards, fixed tests for python3(except test_delete_cards)
+added action_limit for board. plus the unittests
+action_limit is an optional parameter
+add due date
+Add ability to specify which organization to create a board on
+implement deletion of single checklist items
+refactoring by removing some duplication
+implement clearing of checklists
+Updates to support attachments as per Walter's comments https://trello.com/c/5L574YgX/4-add-attachments-to-card
+Added obtaining all checklists directly from the board and the respective test
+
+v0.5.1
+
+Once a card has reached done list stop time measurement
+Refactoring to avoid repeated code between Card.listCardMove_date and Card.list_movements
+Complete statistics about Trello cards
+List position should not be computed based on list.pos, it should be computed by an external function passed as a parameter
+Improve the comments in Card.get_stats_by_list
+Adds date filter when extracting card stats. This way we can have a workaround to the limitation of Trello API to get only last 1000 board movements
+added card_created_date() function
+changed oauth section run command into block quote to match the rest of the file
+try this version
+RST hates me
+RST hates me
+it would help if I wasn't previewing on the master branch
+Added remove_attachment shortcut
+Implement delete comments method on card
+
+v0.6.0
+
+Encoding: use unicode everywhere
+tests: add tox support
+tests: replace use of deprecated assertEquals with assertEqual
+README: formatting fixes
+
+v0.6.1
+
+README: fix hybrid markdow/rst syntax
+add gitignore .tox/\nupdate all of comment about :rtype: to remove warning
+fix inverted logic in python2 check
+Python 2 is less than Python 3
+Don't call it a checklist item id if it's actually an index
+Fix the docstring to match the call signature
+Note that 'eager' fetches attachments also
+Don't be coy about returning an empty list if there are no attachments
+Some whitespace tweaks and a comment fix
+'create_date' is evidently a typo
+
+v0.7.0
+
+Don't use actions to compute creation_date, use id of the card that contains the creation_date
+Don't use actions to compute creation_date, use id of the card that contains the creation_date
+Card and timezone configuration
+Don't pass tz to Card.get_stats_by_list because it is already defined in Configuration
+dateLastActivity was not initialized in Board when fetching data
+Check if actions are already fetched in _list_movements
+Ignoring MacOS .DS_Store files
+Deleting Configuration class that has been replaced by Organization. Organization was created by upstream
+Fix bad import of Organization class. It is trello.organization not trello
+Fix circular import in organization.Organization
+Board.fetch_actions allows pagination with since parameter
+Card needs more attributes to be created from Board.all_cards
+Initialize on fetch_checklists() (Closes #145)
+Fix  "datetime.fromtimestamp(unix_time)" => "datetime.datetime.fromtimestamp(unix_time)"
+Fix "AttributeError: 'Card' object has no attribute 'idBoard'"
+Fix "AttributeError: 'Card' object has no attribute 'idShort'"
+Add list position attribute (pos) to list. This attribute is fetched by default when calling Board.get_lists
+Add support for creating public boards
+Fix ":token_key:" => ":token:"
+Add Board.list_lists
+Saves a new Trello board
+Saves a new Trello board. Avoid creating default lists.
+Add 'pos' parameter to Board.add_list to allow creation of lists with an initial position
+Return the new comment data when creating a comment
+Adding before parameter to Board.fetch_actions to enable pagination
+Adding before parameter to Board.fetch_actions to enable pagination
+add change_pos functionality
+Add limit param to card comments (now is limited to 50 by default)
+Add `Attachments`
+Add `Attachments Preview`
+Refactoring params
+Return python-object "Attachments"
+Add new method `Board.set_name`
+Add new method `Board.set_description()`
+Edit `Attachments.date` return python datetime object
+
+v0.8.0
+
+Add pytz in install_requires
+Add update_comment for card.
+Card.get_stats_by_list: sort card movements to get the time the card spends in each list
+
+v0.9.0
+
+Fix #172
+Add missing initials for members of an organization (fixes #176)
+Organizations do not have a 'closed' attribute
+Implement partial search API
+Improve documenation of TrelloClient.search return values
+Eliminate unnecessary fetch calls for search results
+Add position attribute to TrelloList's add_card method to allow creating cards in the top, bottom or an specific position of the list
+Position must be optional in List.add_card. Adding new method move(position) that allows moving a List in a board
+New operations: add and remove member of a board
+New feature: move all list from a card to another list
+Add remove due datetime from a card
+Add the member type when calling board's get_members
+
+v0.10.0
+
+fix checklist item not sorted
+Third authentication: initialize TrelloClient correctly
+Add the option to choose the third authentication
+add function create_label in card.py, which could create new label of the card by given name and color
+Fixed fetch_actions for individual cards.
+Use UTC as default
+Fix typo
+Added little documentation for new users of py-trello
+Regenerate the docs
+Add get_list() to TrelloClient
+Handle dateLastActivity being empty
+Make card.fetch_actions() and list.fetch_actions() return the result
+Add/Remove member to card functions
+introduce Board.get_last_activity()
+Remove out-of-date contributors list
+add AUTHORS file (closes #206)
+Add assignee to list.add_card
+Python 2 constructor style
+Fix TrelloBase import path in attachments.py
+Fix Card.get_stats_by_list. In case a movement is from/to a list in other board, it is ignored
+Concentrated hash and eq inside TrelloBase to avoid repetition
+- Added __hash__ and __eq__ for some more modules
+Add util to __init__.py
+Refactoring import
+Add `Card.set_due_complete` and `Card.remove_due_complete`
+Add `Card.is_due_complete`
+Added a link to the documentation
+Delete `Card.create_date` is deprecated
+close #187
+add new properrty - plugin_data to cover https://developers.trello.com/advanced-reference/card#get-1-cards-card-id-or-shortlink-pluginData
+enhance trellolist list_cards
+Add attachements to the card if present in the response JSON
+Add a way to know what id assigns Trello to a new attachment
+Set name of the list
+card comment docstring param
+card set_name docstring
+card a bit of pep8 fixes
+card from_json docstring return type
+card from_json method - parameter is named `parent`, but in docstring it was `trello_list`
+card init - parameter is named `parent`, but in docstring it was `trello_list`
+board get_members docstring
+boards fetch_actions pep8 fix
+add board fetch_actions docstring
+prep for 0.9.0 (fixes #184)
+prep for 0.9.0
+
+v0.11.0
+
+Add basic support for custom fields
+Add set_organization method to Board object to work with organizations
+commit check
+Fix lazy loading in Card
+Inject request
+Add get_boards method to Member object with organization support
+Update trellolist.py
+Added support to get subscription status for lists as well as subscribe/unsubscribe from lists
+List, add, and delete stars.
+add remove_member and add_member methods to Organization object
+untested star implementation
+Adds method to delete label from board
+
+v0.11.1
+
+Delete star string format hotfix for python 2.7 compatability
+
+v0.11.2
+
+Fixes Issue #247 KeyError: 'customFieldItems'
+
+v0.11.3
+
+Modifies Cards.from_json to not require customFieldItems
+
+v0.12.0
+
+Add check and fix for python3 unicode assertion
+Add warning that running tests will delete cards
+trelloclient: allow to customize cards_limit
+more card API consistency
+fixed customFields on cards
+added default_lists as parameter to add_board
+Add lazy loading for card.customFields
+Add function for accessing new/existing custom fields of a card by name
+
+v0.13.0
+
+Add ability to pass custom query parameters to get_cards
+fix #256 can't set attribute errror
+
+v0.14.0
+
+Fix timezone problem with tz aware datetime
+null/empty check for actions (closes #266)
+provide access to the raw card json
+
+v0.15.0
+
+Add set_custom_field to card.py
+Allow proxy usage
+Fix card.badges unset for cards created by from_json()
+fixed KeyError / missing subscribed key in Trello lists
+Add documentation blurb about TRELLO_TEST_STAR_COUNT to README.rst
+Lazy load property trello.Board.date_last_activity, using property _date_last_activity
+fix typo
+add keep_from_source to add_card in trelloList
+add list_cards_iter
+Clean list_movement docstrings
+
+v0.16.0
+
+Add missing header and footer
+Add __main__.py for creating OAuth token
+Fetch comments from copied cards
+Adding custom field items when getting single card
+add method for get all visible cards
+
+v0.17.0
+
+Allow set_custom_field to accept an empty value
+add functions to add and delete custom field definitions from board
+setup.py: Add GitHub URL
+Update card.py
+Update card.py
+Update card.py
+Make consecutive calls work with default query arg
+
+v0.17.1
+
+Removes the unused try statement that broke the last version
+
+v0.18.0
+
+fix last_activity typo
+Add add_organization()
+Custom field list updates
+Fixing TabError
+Added powerups
+Add files via upload
+Update custom field definition
+Updating set_reminder
+Two new methods
+Added two methods for checkitems
+Add OAuth2 support to webhook list
+Add OAuth2 support to webhook creation
+Return empty cards
+fixed a problem with fetching checklists
+Update card.py
+Added setCover to the attach function
+Update trelloclient.py
+Update trelloclient.py
+Implement the Move List to Board API
+update2 __repr__ to display all Board class attributes
+update __repr__ to display all Board class attributes
+fetch Member email
+
+v0.19.0
+
+Not all action has attributes related to movements (listBefore, listAfter), in that way it need to be checked.
+Fixing typo reported in #315. Fixing identation when checking last_list (comment was idented correctly, but code not). Fixing the calculation of the time that card has been on a list, correcting last_action_datetime update value by putting it before if/continue statement.
+fix #325: allow working with duplicate checklist item names
+Minor improvement: add Board.get_card(card_id)
+Minor code improvement, instead of creating a member and updating field on Board class, using static factory Member.from_json. Adding Member.member_type; Adding Member.avatar_url;
+add 'displayName'  property to 'organization' class
+Adding get_label() into Board class
+deprecate enable/disable power up
+fix: incorrect string format index
+adapt card checklists handling to new Trello payload
+Don't check completed checklist items if None
+adding urlSource field for adding cards, which works brilliantly
+Added Option To Delete Board
+chore: cleanup
