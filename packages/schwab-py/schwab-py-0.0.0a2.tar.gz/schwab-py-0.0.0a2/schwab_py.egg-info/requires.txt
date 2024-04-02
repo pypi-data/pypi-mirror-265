@@ -1,0 +1,11 @@
+authlib
+httpx
+prompt_toolkit
+python-dateutil
+selenium
+
+[dev]
+nose
+pytest
+sphinx_rtd_theme
+twine
