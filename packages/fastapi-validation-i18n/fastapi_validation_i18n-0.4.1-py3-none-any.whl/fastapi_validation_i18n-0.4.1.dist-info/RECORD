@@ -1,0 +1,15 @@
+fastapi_validation_i18n/__init__.py,sha256=dPMLNWbaLknvtNIyrZkUM-GWN5ndUsUWEiXy1i1mebc,280
+fastapi_validation_i18n/_helpers.py,sha256=YbfCdQelnqGEKn0qJhPqLXcw3oJxskT6zGGBkVJZLAI,1377
+fastapi_validation_i18n/base.py,sha256=hKttMDs_K1h1-lHo189hdtT3A-bn4_3rwxf38VWot7I,664
+fastapi_validation_i18n/handler.py,sha256=F_CDz1h6OtnQRoZfRrEqfQi5l5lEUnmi_Azyhy6T_Hk,602
+fastapi_validation_i18n/middleware.py,sha256=5ve1KmqI7iZigIX5VrhCOk7GreBFfT0LRpvIrZNSjec,1261
+fastapi_validation_i18n/translator.py,sha256=R7_2TRk2itiyfcY5Lv0g12msvRbhv763G2pDhq-7Hpk,1823
+fastapi_validation_i18n/locales/en-US/message.json,sha256=ssqMAqV0Y7LBSurhk6DsemxwN-ZJDqBUc_zApjqPdOo,12482
+fastapi_validation_i18n/locales/ja-JP/message.json,sha256=9oXajLWEQOs6Uj9-YNbptkcULC1c1g7FeR_AtkIwE78,15166
+fastapi_validation_i18n/locales/zh-TW/message.json,sha256=805DIOy0Jat_-4QEP4-xeP2iHvCMS2lEFEVyUWrmOtg,11216
+fastapi_validation_i18n/scripts/publish.py,sha256=oB8TYPxvLJB2n_M5P5OFke69fCvnJbCCak-iKG2rwSU,2621
+fastapi_validation_i18n-0.4.1.dist-info/METADATA,sha256=tZkQFl398dGXSnXHwCyaHlJpZSIlcykTwnLqUTRpTPI,2848
+fastapi_validation_i18n-0.4.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+fastapi_validation_i18n-0.4.1.dist-info/entry_points.txt,sha256=ujqVUJMm-V-QTKMXTHxMBSgROcZDvaa40ZdLAapZ5to,80
+fastapi_validation_i18n-0.4.1.dist-info/licenses/LICENSE,sha256=OORlK2t6sRHM7G8uZSH0Sdj5fl65OzPnjDWxWmLnNuA,1062
+fastapi_validation_i18n-0.4.1.dist-info/RECORD,,
