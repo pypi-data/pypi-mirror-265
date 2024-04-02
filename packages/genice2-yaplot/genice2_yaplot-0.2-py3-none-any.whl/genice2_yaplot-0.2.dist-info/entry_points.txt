@@ -1,0 +1,3 @@
+[genice2_format]
+yaplot=genice2_yaplot.formats.yaplot
+
