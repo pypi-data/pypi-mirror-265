@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "poll_schumann"
+version = "0.1.3"
+description = "Implementation of Poll-Schumann aircraft performance model in Python."
+authors = ["nestorcarmona <nestor.carmona97@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = { version = ">=1.20.1"}
+pandas = { version = ">=1.2.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
