@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+drf_sse/__init__.py
+drf_sse/mixins.py
+drf_sse/renderers.py
+drf_sse/renders.py
+drf_sse/responses.py
+drf_sse/version.json
+drf_sse.egg-info/PKG-INFO
+drf_sse.egg-info/SOURCES.txt
+drf_sse.egg-info/dependency_links.txt
+drf_sse.egg-info/requires.txt
+drf_sse.egg-info/top_level.txt
