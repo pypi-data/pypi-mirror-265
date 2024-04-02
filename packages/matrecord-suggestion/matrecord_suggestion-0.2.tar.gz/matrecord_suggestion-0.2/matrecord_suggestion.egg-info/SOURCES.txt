@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+matrecord_suggestion/__init__.py
+matrecord_suggestion/autocorrect book.txt
+matrecord_suggestion/autocorrect.py
+matrecord_suggestion.egg-info/PKG-INFO
+matrecord_suggestion.egg-info/SOURCES.txt
+matrecord_suggestion.egg-info/dependency_links.txt
+matrecord_suggestion.egg-info/requires.txt
+matrecord_suggestion.egg-info/top_level.txt
