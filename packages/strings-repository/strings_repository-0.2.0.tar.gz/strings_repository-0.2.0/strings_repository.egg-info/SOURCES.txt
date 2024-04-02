@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bin/strings_repository
+strings_repository/__init__.py
+strings_repository/__main__.py
+strings_repository/cli.py
+strings_repository/strings_repository.py
+strings_repository.egg-info/PKG-INFO
+strings_repository.egg-info/SOURCES.txt
+strings_repository.egg-info/dependency_links.txt
+strings_repository.egg-info/requires.txt
+strings_repository.egg-info/top_level.txt
