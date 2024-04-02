@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = 'setuptools.build_meta'
+
+
+[tool.mypy]
+show_traceback = true
+install_types = true
+pretty = true
+disallow_untyped_decorators = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+follow_imports = "silent"
