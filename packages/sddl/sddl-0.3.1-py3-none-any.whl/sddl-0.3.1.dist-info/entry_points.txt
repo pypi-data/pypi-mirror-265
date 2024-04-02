@@ -1,0 +1,3 @@
+[console_scripts]
+sddl=sddl.__main__:main
+
