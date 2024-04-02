@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+src/uripecker/__init__.py
+src/uripecker/__main__.py
+src/uripecker/_meta.py
+src/uripecker/peck.py
+src/uripecker/py.typed
+tests/test_cli.py
+tests/test_uripecker.py
+uripecker.egg-info/PKG-INFO
+uripecker.egg-info/SOURCES.txt
+uripecker.egg-info/dependency_links.txt
+uripecker.egg-info/top_level.txt
