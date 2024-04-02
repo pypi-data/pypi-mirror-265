@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: spiceai
+Version: 0.1.3
+License-Expression: Apache-2.0
+License-File: LICENSE
+Requires-Dist: anthropic
+Requires-Dist: chromadb
+Requires-Dist: openai
+Requires-Dist: pillow
+Requires-Dist: python-dotenv
+Requires-Dist: tiktoken
+Provides-Extra: dev
+Requires-Dist: pyright; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
