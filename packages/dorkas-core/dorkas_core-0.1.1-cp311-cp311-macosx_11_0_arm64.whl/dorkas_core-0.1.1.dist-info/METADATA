@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: dorkas-core
+Version: 0.1.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Summary: dorkas
+Author-email: Cody <cody@dkdc.dev>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/lostmygithubaccount/dorkas
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/dorkas/issues
+
+# dorkas-rs
+
+Core `dorkas` functionality written in Rust.
+
+
