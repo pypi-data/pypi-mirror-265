@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: Jinja2-Haml
+Version: 0.3.5
+Summary: Haml-ish syntax for jinja2 templates
+Author-email: zoey Mae <admin@barkshark.xyz>
+Project-URL: Homepage, https://git.barkshark.xyz/barkshark/hamlish-jinja
+Keywords: jinja2,templates,haml
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: click >=8.1.0
+Requires-Dist: jinja2 >=3.1.0
+Provides-Extra: dev
+Requires-Dist: flake8 ==7.0.0 ; extra == 'dev'
+Requires-Dist: mypy ==1.8.0 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: furo ==2022.9.29 ; extra == 'doc'
+Requires-Dist: sphinx ==5.3.0 ; extra == 'doc'
+Requires-Dist: sphinx-external-toc ==0.3.1 ; extra == 'doc'
+
+========================
+Hamlish-Jinja
+========================
+
+Overview
+========
+
+This extension to jinja makes it possible to use a haml-ish syntax for your jinja templates. It is
+implemented as a preprocessor and so it runs only the first time your template is parsed. So it will
+not affect the performance of your templates except for the first run.
+
+Forked from `Pitmairen/hamlish-jinja <https://github.com/Pitmairen/hamlish-jinja>`_
+
+Usage
+=====
+
+Install
+--------
+
+You can install the latest version with pip
+
+::
+
+    pip install git+https://git.barkshark.xyz/barkshark/hamlish-jinja
+
+or
+
+::
+
+    pip install jinja2-haml
+
+Basic Usage
+-----------
+
+To use this extension you just need to add it to you jinja environment and use ".haml", ".jhaml", or
+".jaml" as an extension for your templates.
+
+.. code-block:: python
+
+    from jinja2 import Environment
+    from hamlish_jinja import HamlishExtension
+
+    env = Environment(extensions = [HamlishExtension])
+
+
+Environment
+-----------
+
+*Added in version 0.2.0*
+
+The environment gets extended with a new method ``hamlish_from_string``
+which works the same as the standard ``env.from_string`` method, but renders
+the template with the hamlish preprocessor.
+
+.. code-block:: haml
+
+    tpl = '''
+    %div
+        %p
+            test
+    '''
+
+    env.hamlish_from_string(tpl).render()
