@@ -1,0 +1,8 @@
+[run]
+
+source =
+    typer_cli
+    tests
+
+parallel = True
+context = '${CONTEXT}'
