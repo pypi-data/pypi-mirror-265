@@ -1,0 +1,15 @@
+anthropic
+config
+datasets
+docker
+gnureadline
+gymnasium
+numpy
+openai>=1.0
+pandas
+rich
+ruamel.yaml
+simple-parsing
+swebench>=1.0.1
+tenacity
+togetherunidiff
