@@ -1,0 +1,16 @@
+pix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pix/blip.py,sha256=GPj6f3r37_xHH4SzQ4HWSLbotEIW5PT3Fom0tEfqaN0,2661
+pix/cli_parser.py,sha256=A229lBD5WG3nTfzFayN5gIUUTxCBJUBzldjyYw7Gp5o,4579
+pix/converter.py,sha256=28PIxGg7IaD301b68HZSTYOryjOSbIPXPsRN8RBxJQ4,2856
+pix/croper.py,sha256=fBzlh3tmTDIHg4xCRQ5jk43HxgV4t3SiASDiB3WUPPM,3852
+pix/main.py,sha256=64Icxkc96xfZXD9RhwhrnqAVeJhINOsBswgIHfT05l8,4431
+pix/manifest.json,sha256=tf7vcnousGnTIZmPER5FUFmKDS_g9inbkuPUXDVw6J0,182
+pix/prune.py,sha256=xHkzncS5wwPt3ahXB1nngZN1Lyy-KKdmt48-h1NPdaE,588
+pix/resizer.py,sha256=aFxuOvju2wqd21gnHjzQrbBLbJ2gDWPkns6aECEZwcs,1580
+pix/utils.py,sha256=Fn9uO1q--70R_1nPGImVNKgOC0PX_X8p1xwH6W_xD0c,706
+zz_pix-0.0.4.dist-info/LICENSE,sha256=fw6gSWlJ2VWWTmeSigiR5vapeTp6M5g3WgnPrUA_m2c,11541
+zz_pix-0.0.4.dist-info/METADATA,sha256=3ck15nb8yhQoSn1-uIEzzwP5LHeZHpeVpAMaW3kAcFQ,3603
+zz_pix-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zz_pix-0.0.4.dist-info/entry_points.txt,sha256=XKBgQ1RcwWsdnHLqqKsVOX2NBy-TH3iLykaEoUDWY1w,38
+zz_pix-0.0.4.dist-info/top_level.txt,sha256=6L-l1dLkOU8vIQZH7Yf0-Ld8fDPYWCIjWFG8qpvUNX0,4
+zz_pix-0.0.4.dist-info/RECORD,,
