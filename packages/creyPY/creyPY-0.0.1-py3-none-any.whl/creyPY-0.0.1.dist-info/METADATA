@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: creyPY
+Version: 0.0.1
+Summary: My collection of Python and FastAPI shortcuts etc. 
+Author: Conrad Großer
+Author-email: conrad@noah.tech
+Requires-Python: >=3.12
+License-File: LICENSE
+
