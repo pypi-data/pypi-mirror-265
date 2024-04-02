@@ -1,0 +1,4 @@
+[console_scripts]
+mmg2d = mmg2d:main
+mmg3d = mmg3d:main
+mmgs = mmgs:main
