@@ -1,0 +1,8 @@
+twofa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twofa/auth.py,sha256=s0aTt4vDWD3ur1ytUdacSkszyJ5Rqnp-t4ydXGzMYeE,2746
+twofa/core.py,sha256=zI_8ClAjSMgtI8R0NpcDLwGVtlgStA8d_xUN7JtgKfY,3330
+twofa-1.0.2.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+twofa-1.0.2.dist-info/METADATA,sha256=82uKNzaAw-otEK31WGIb--jpc2YfN2MXW14r65dZpkk,48792
+twofa-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+twofa-1.0.2.dist-info/top_level.txt,sha256=kSW6GJzgWalEzEQSbaPaXc0yV3TWJQIs7zNxj0_20G8,6
+twofa-1.0.2.dist-info/RECORD,,
