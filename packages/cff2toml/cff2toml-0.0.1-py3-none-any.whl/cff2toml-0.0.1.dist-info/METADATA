@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: cff2toml
+Version: 0.0.1
+Summary: A library that updates TOML files, including pyproject.toml, with metadata from a CITATION.cff file.
+Project-URL: Documentation, https://github.com/willynilly/cff2toml#readme
+Project-URL: Issues, https://github.com/willynilly/cff2toml/issues
+Project-URL: Source, https://github.com/willnilly/cff2toml
+Author-email: Will Riley <wanderingwill@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: toml==0.10.2
+Provides-Extra: testing
+Requires-Dist: pytest==8.1.1; extra == 'testing'
+Description-Content-Type: text/markdown
+
+# cff2toml
+
+A module that updates TOML files, including pyproject.toml files, with metadata from a CITATION.cff file.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/cff2toml.svg)](https://pypi.org/project/cff2toml)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cff2toml.svg)](https://pypi.org/project/cff2toml)
+
+---
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cff2toml
+```
+
+## License
+
+`cff2toml` is distributed under the terms of the [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html) license
