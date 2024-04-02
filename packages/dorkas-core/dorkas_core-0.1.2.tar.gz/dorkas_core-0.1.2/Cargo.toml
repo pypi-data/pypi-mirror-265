@@ -1,0 +1,12 @@
+[package]
+name = "dorkas-core"
+version = "0.1.2"
+edition = "2021"
+
+[lib]
+name = "dorkas_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.0"
+
