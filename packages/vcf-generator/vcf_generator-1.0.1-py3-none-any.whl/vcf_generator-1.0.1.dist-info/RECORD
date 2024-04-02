@@ -1,0 +1,13 @@
+vcf_generator/__init__.py,sha256=ht56tFIDCB6HLKE_tIAHF84n5cGvDzNuJazhM_uIFdk,21
+vcf_generator/__main__.py,sha256=IH_zz8T_4PxTjNesXkQyi__d_CXx_dPzHWvuAHB8xAM,1725
+vcf_generator/address.py,sha256=b3LyFQ2eTE8FYLGhXGitNac79E1CSSuvv_3rVBko0jo,619
+vcf_generator/contact.py,sha256=g0jVdD_aBEbXeE5c88i5yGZII3jBJEjZHn1QehQ3df0,1694
+vcf_generator/email.py,sha256=3YInbCNYZPSpsUl7V4qxRx3HZFDq_awDjBkks1e9HEo,258
+vcf_generator/gen_contacts.py,sha256=NMU3JEaYno7RC28KepiC3gXQ8CiMkOqnUTJejd8z81c,3515
+vcf_generator/gen_vcards.py,sha256=HMDOn7A8vw763DP-TLAp7ldCRoIIvxATbNUDk8fGWFk,2655
+vcf_generator/phone_number.py,sha256=R2DE9qsrpW_XlEkEvAtF9S_uIb4QeNzmLB8M8aWlfQQ,623
+vcf_generator-1.0.1.dist-info/LICENSE,sha256=uxfU8SgtgfWFlEJq1mTMx43QJai0vE38-bXB9nHlBGI,1062
+vcf_generator-1.0.1.dist-info/METADATA,sha256=MmxRaD_pCxv8hcbXSpAU_ffjW09QVtncF9BT5ER7R_E,4008
+vcf_generator-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vcf_generator-1.0.1.dist-info/entry_points.txt,sha256=9bsPttqDvbHnN_FZImRV9JNH63cZlr1fAAzXYI4iObo,61
+vcf_generator-1.0.1.dist-info/RECORD,,
