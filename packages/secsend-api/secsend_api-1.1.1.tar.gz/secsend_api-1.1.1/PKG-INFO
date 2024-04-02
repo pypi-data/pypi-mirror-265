@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: secsend_api
+Version: 1.1.1
+Summary: secsend server API
+Home-page: http://github.com/aguinet/secsend
+Author: Adrien Guinet
+Author-email: adrien@guinet.me
+License: GPL
+Provides-Extra: dev
