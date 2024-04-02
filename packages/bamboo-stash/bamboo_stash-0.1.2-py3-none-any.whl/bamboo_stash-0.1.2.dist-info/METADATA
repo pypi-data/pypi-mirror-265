@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: bamboo-stash
+Version: 0.1.2
+Summary: Automatic caching for Pandas function pipelines.
+Author-email: Diony Rosa <dhrosa+dev@gmail.com>
+License-Expression: MIT
+Keywords: pandas
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: platformdirs
+Description-Content-Type: text/x-rst
+
+``bamboo-stash`` is a Python library for caching function calls, especially in a
+Jupyter+pandas workflow.
+
+Read full documentation at https://bamboo-stash.readthedocs.io
+
