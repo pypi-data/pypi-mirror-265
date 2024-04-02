@@ -1,0 +1,21 @@
+include NOTICE
+include cengal/py.typed
+
+include cengal/data_generation/id_generator/versions/v_1/compilable/id_generator__cython.pyx
+include cengal/user_interface/console/encoding_changer/versions/v_0/data/data.7z
+include cengal/build_tools/gather_docs/versions/v_0/data/pdoc-template/frame.html.jinja2
+include cengal/io/recv_buff_size_computer/versions/v_1/recv_buff_size_computer__cython.pyx
+include cengal/hardware/memory/shared_memory/versions/v_0/compilable/memory_access__cython.pyx
+include cengal/io/asock_io/versions/v_1/recv_buff_size_computer/recv_buff_size_computer__cython.pyx
+include cengal/io/used_ports/versions/v_0/data/table_system.pickle
+include cengal/io/asock_io/versions/v_0/recv_buff_size_computer/recv_buff_size_computer__cython.pyx
+include cengal/time_management/high_precision_sync_sleep/versions/v_0/high_precision_sync_sleep__cython.pyx
+include cengal/time_management/repeat_for_a_time/versions/v_0/repeat_for_a_time__cython.pyx
+include cengal/hardware/memory/barriers/versions/v_0/compilable/barriers__cython.pyx
+include cengal/data_containers/dynamic_list_of_pieces/versions/v_1/dynamic_list_of_pieces__cython.pyx
+include cengal/time_management/cpu_clock_cycles/versions/v_0/compilable/cpu_clock_cycles__cython.pyx
+include cengal/io/recv_buff_size_computer/versions/v_0/recv_buff_size_computer__cython.pyx
+include cengal/data_containers/dynamic_list_of_pieces/versions/v_0/dynamic_list_of_pieces__cython.pyx
+include cengal/io/used_ports/versions/v_0/data/table_ephemeral.pickle
+include cengal/user_interface/console/encoding_changer/versions/v_0/data/data/Leoš Janáček.py
+include cengal/io/used_ports/versions/v_0/data/table_user.pickle

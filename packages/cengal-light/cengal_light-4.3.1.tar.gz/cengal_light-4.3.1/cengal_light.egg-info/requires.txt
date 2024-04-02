@@ -1,0 +1,253 @@
+
+[all]
+typing_extensions
+pdoc
+py-cpuinfo>=7.0.0
+python-dateutil
+greenlet
+async_generator
+ttkbootstrap
+pprintpp
+requests
+simplejson
+cbor
+cbor2
+ujson
+cloudpickle
+aiodns
+aiohttp
+
+[all:"ARM" in platform_machine or ((python_version >= "3.12" and platform_python_implementation == "CPython") or (platform_python_implementation == "PyPy" and ((platform_system == "Windows" and python_version != "3.9" and python_version != "2.7") or (platform_system == "Darwin" and python_version != "2.7"))))]
+patch-ng
+
+[all:platform_python_implementation != "PyPy"]
+orjson
+
+[all:platform_python_implementation != "PyPy" or platform_system != "Windows"]
+psutil
+
+[all:platform_python_implementation == "PyPy"]
+msgpack-pypy
+
+[all:platform_system == "Darwin" and platform_python_implementation != "PyPy"]
+pyobjc
+
+[all:python_version != "3.10" or platform_python_implementation != "PyPy" or platform_system != "Windows"]
+lmdb
+
+[all:python_version < "3.11"]
+http_parser
+chardet
+
+[all:python_version < "3.13"]
+charset-normalizer
+
+[all:python_version < "3.13" and platform_python_implementation != "PyPy"]
+msgspec
+
+[all:python_version < "3.8" and platform_python_implementation == "CPython"]
+msgpack-python
+
+[all:python_version >= "3.8" and platform_python_implementation == "CPython"]
+msgpack
+
+[cengal__build_tools__build_extensions]
+PyBindGen
+
+[cengal__build_tools__gather_docs]
+pdoc
+
+[cengal__build_tools__packages__create]
+typing_extensions
+aiodns
+aiohttp
+
+[cengal__data_manipulation__serialization]
+typing_extensions
+simplejson
+cbor
+cbor2
+ujson
+cloudpickle
+
+[cengal__data_manipulation__serialization:platform_python_implementation != "PyPy"]
+orjson
+
+[cengal__data_manipulation__serialization:platform_python_implementation == "PyPy"]
+msgpack-pypy
+
+[cengal__data_manipulation__serialization:python_version < "3.13" and platform_python_implementation != "PyPy"]
+msgspec
+
+[cengal__data_manipulation__serialization:python_version < "3.8" and platform_python_implementation == "CPython"]
+msgpack-python
+
+[cengal__data_manipulation__serialization:python_version >= "3.8" and platform_python_implementation == "CPython"]
+msgpack
+
+[cengal__file_system__app_fs_structure__app_dir_path]
+typing_extensions
+
+[cengal__file_system__app_fs_structure__app_dir_path:platform_system == "Darwin" and platform_python_implementation != "PyPy"]
+pyobjc
+
+[cengal__parallel_execution__coroutines]
+typing_extensions
+greenlet
+
+[cengal__parallel_execution__coroutines__coro_standard_services__db]
+typing_extensions
+
+[cengal__parallel_execution__coroutines__coro_standard_services__db:"ARM" in platform_machine or ((python_version >= "3.12" and platform_python_implementation == "CPython") or (platform_python_implementation == "PyPy" and ((platform_system == "Windows" and python_version != "3.9" and python_version != "2.7") or (platform_system == "Darwin" and python_version != "2.7"))))]
+patch-ng
+
+[cengal__parallel_execution__coroutines__coro_standard_services__db:python_version != "3.10" or platform_python_implementation != "PyPy" or platform_system != "Windows"]
+lmdb
+
+[cengal__parallel_execution__coroutines__coro_standard_services__lmdb]
+typing_extensions
+
+[cengal__parallel_execution__coroutines__coro_standard_services__lmdb:"ARM" in platform_machine or ((python_version >= "3.12" and platform_python_implementation == "CPython") or (platform_python_implementation == "PyPy" and ((platform_system == "Windows" and python_version != "3.9" and python_version != "2.7") or (platform_system == "Darwin" and python_version != "2.7"))))]
+patch-ng
+
+[cengal__parallel_execution__coroutines__coro_standard_services__lmdb:python_version != "3.10" or platform_python_implementation != "PyPy" or platform_system != "Windows"]
+lmdb
+
+[cengal__parallel_execution__coroutines__coro_standard_services__log]
+typing_extensions
+
+[cengal__parallel_execution__coroutines__coro_standard_services__log:"ARM" in platform_machine or ((python_version >= "3.12" and platform_python_implementation == "CPython") or (platform_python_implementation == "PyPy" and ((platform_system == "Windows" and python_version != "3.9" and python_version != "2.7") or (platform_system == "Darwin" and python_version != "2.7"))))]
+patch-ng
+
+[cengal__parallel_execution__coroutines__coro_standard_services__log:python_version != "3.10" or platform_python_implementation != "PyPy" or platform_system != "Windows"]
+lmdb
+
+[cengal__parallel_execution__coroutines__coro_standard_services__loop_yield]
+typing_extensions
+async_generator
+
+[cengal__parallel_execution__coroutines__coro_standard_services__read_write_locker]
+typing_extensions
+async_generator
+
+[cengal__parallel_execution__coroutines__coro_standard_services__tkinter]
+typing_extensions
+async_generator
+
+[cengal__parallel_execution__coroutines__coro_tools__loop_administration__admin_tk]
+typing_extensions
+ttkbootstrap
+pprintpp
+
+[cengal__text_processing__encoding_detection]
+typing_extensions
+
+[cengal__text_processing__encoding_detection:python_version < "3.11"]
+chardet
+
+[cengal__text_processing__encoding_detection:python_version < "3.13"]
+charset-normalizer
+
+[cengal__time_management__relative_time__relativedelta]
+typing_extensions
+python-dateutil
+
+[cengal__user_interface__console__chooser]
+typing_extensions
+colorama
+
+[cengal__user_interface__console__colorama_helpers]
+typing_extensions
+colorama
+
+[cengal__user_interface__gui__tkinter]
+typing_extensions
+ttkbootstrap
+
+[cengal__web_tools__help_tools]
+typing_extensions
+requests
+
+[cengal__web_tools__help_tools:python_version < "3.11"]
+http_parser
+
+[entities__asm_functions]
+py-cpuinfo>=7.0.0
+
+[full]
+typing_extensions
+pdoc
+py-cpuinfo>=7.0.0
+python-dateutil
+greenlet
+async_generator
+ttkbootstrap
+pprintpp
+requests
+simplejson
+cbor
+cbor2
+ujson
+cloudpickle
+aiodns
+aiohttp
+
+[full:"ARM" in platform_machine or ((python_version >= "3.12" and platform_python_implementation == "CPython") or (platform_python_implementation == "PyPy" and ((platform_system == "Windows" and python_version != "3.9" and python_version != "2.7") or (platform_system == "Darwin" and python_version != "2.7"))))]
+patch-ng
+
+[full:platform_python_implementation != "PyPy"]
+orjson
+
+[full:platform_python_implementation != "PyPy" or platform_system != "Windows"]
+psutil
+
+[full:platform_python_implementation == "PyPy"]
+msgpack-pypy
+
+[full:platform_system == "Darwin" and platform_python_implementation != "PyPy"]
+pyobjc
+
+[full:python_version != "3.10" or platform_python_implementation != "PyPy" or platform_system != "Windows"]
+lmdb
+
+[full:python_version < "3.11"]
+http_parser
+chardet
+
+[full:python_version < "3.13"]
+charset-normalizer
+
+[full:python_version < "3.13" and platform_python_implementation != "PyPy"]
+msgspec
+
+[full:python_version < "3.8" and platform_python_implementation == "CPython"]
+msgpack-python
+
+[full:python_version >= "3.8" and platform_python_implementation == "CPython"]
+msgpack
+
+[hardware__info__cpu__versions__v_0]
+typing_extensions
+py-cpuinfo
+
+[hardware__info__cpu__versions__v_1]
+typing_extensions
+py-cpuinfo
+
+[hardware__info__cpu__versions__v_1:platform_python_implementation != "PyPy" or platform_system != "Windows"]
+psutil
+
+[setuprequires]
+py-cpuinfo
+Cython>=0.29.34
+typing_extensions
+PyBindGen
+
+[setuprequires:python_version < "3.11"]
+chardet
+
+[setuprequires:python_version < "3.13"]
+charset-normalizer
+
+[setuprequires:python_version >= "3.12" or (platform_python_implementation == "PyPy" and platform_system == "Windows")]
+patch-ng
