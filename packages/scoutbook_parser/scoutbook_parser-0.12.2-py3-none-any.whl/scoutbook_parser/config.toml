@@ -1,0 +1,12 @@
+cub_scout_ranks = [
+  "Bobcat",
+  "Tiger",
+  "Wolf",
+  "Bear",
+  "Webelos",
+  "Arrow of Light",
+  ]
+
+
+cub_scout_advancement_types = [
+  "
