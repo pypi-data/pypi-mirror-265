@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+hltv_aio.egg-info/PKG-INFO
+hltv_aio.egg-info/SOURCES.txt
+hltv_aio.egg-info/dependency_links.txt
+hltv_aio.egg-info/top_level.txt
