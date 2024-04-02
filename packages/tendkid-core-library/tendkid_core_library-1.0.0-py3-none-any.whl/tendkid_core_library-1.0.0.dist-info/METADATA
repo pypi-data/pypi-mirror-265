@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tendkid-core-library
+Version: 1.0.0
+Summary: Collection of reusable Python components to share with Python projects integrating TendKid
+Home-page: https://github.com/tendkid/library_tendkid-core_python
+License: SEE LICENSE IN <LICENSE.md>
+Keywords: core,library,tendkid
+Author: Daniel CAUNE
+Author-email: daniel.caune@tendkid.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: perseus-core-library (>=1.20.3,<2.0.0)
+Project-URL: Repository, https://github.com/tendkid/library_tendkid-core_python
+Description-Content-Type: text/markdown
+
+# TendKid Core Python Library
+Collection of reusable Python components to share with Python projects integrating TendKid.
+
