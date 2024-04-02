@@ -1,0 +1,2 @@
+[console_scripts]
+zenfin = zenfinal.zenfinal:main
