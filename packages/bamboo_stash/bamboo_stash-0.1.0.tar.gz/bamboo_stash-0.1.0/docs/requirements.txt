@@ -1,0 +1,4 @@
+. # bamboo-stash
+sphinx
+pydata-sphinx-theme
+sphinx-design
