@@ -1,0 +1,12 @@
+GPTparser/GPTparser.py,sha256=iIPu-6NV22PyqimXZrhoMU0o2VEMjfCRxy4tFAeYEw4,4601
+GPTparser/__init__.py,sha256=upFkatYjJOm_GsqIwZoBR3u7RZ4D4IsyDq-bq3tWZtA,96
+GPTparser/extra_scripts/__init__.py,sha256=ABL--J53FNvVdDVu3DO-Zzl8JZ_xavMLC_ckPJd3mxs,89
+GPTparser/extra_scripts/combinR.py,sha256=Eo6YUMEa4DwH0eL0ax7PqyJaFIbnb14TXOA7gzTqEkg,1613
+GPTparser/extra_scripts/j_val.py,sha256=oC13O4LGliOperOZhJDN6M5aAgUHWxlE_NI0q30BnbE,896
+GPTparser/extra_scripts/wordcount.py,sha256=ZTagHG0eDjpwxVVY-tdNJVUmiQaZwtmTwHwPbdGVyfU,814
+GPTparser-0.1.0.dist-info/LICENSE,sha256=dbEqF39-SNAp7vZZVL7munjxmENsF1whHjqRTTa4LvI,1066
+GPTparser-0.1.0.dist-info/METADATA,sha256=BHYyzQOOmo1aIq4e8diyyMMfpuQAek2B9AkZBmUfT7M,267
+GPTparser-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+GPTparser-0.1.0.dist-info/entry_points.txt,sha256=1uNXE7O1y01VD9X_wZNG5Y88zjXpSWVnJBZPL2hqoLk,196
+GPTparser-0.1.0.dist-info/top_level.txt,sha256=xNLTItaEGhG191fzmfnVVvGDC_Ar3ujpV98xITuyY10,10
+GPTparser-0.1.0.dist-info/RECORD,,
