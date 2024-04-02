@@ -1,0 +1,12 @@
+dcmextras/__init__.py,sha256=s-aBkB-eSIUSp8eW23QKCaLEtFekZf1uDj7UG1Q9yks,247
+dcmextras/seriesio.py,sha256=2M6DB-e-zL46eVG8IY2Pdka4hi5c0CSxu_Le269K1yw,11385
+dcmextras/siemenscsa.py,sha256=3dyvAg9JYETIix2R9gyfEjLLPsBqvQ-YvwJc946LKSk,13424
+dcmextras/siemensoog.py,sha256=g87FmNaXzSg3D4bMqWH1AvJ6xcs6wlAoA8KCiYNx1v0,15788
+dcmextras/siemensphoenix.py,sha256=04JwYUO4n25fCtodpqSId-BJjEYZxRYbpYcHKR_XctE,14251
+dcmextras/version.py,sha256=Yyz9rKJSsP7kA7oh3l-XTxOFzEuuSR9Ly7oYXA1hfFM,22
+dcmextras-0.3.4.data/scripts/dcm2js,sha256=NO2K4LeJrAGPGG7HohsjGkOmteGjMI9cz_YMCkPmJng,22818
+dcmextras-0.3.4.dist-info/METADATA,sha256=5ug6ihzoxvBndmLbhg9DhVRceuj8R6MOghn2y3ZgM0c,1973
+dcmextras-0.3.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dcmextras-0.3.4.dist-info/entry_points.txt,sha256=rekmp_bj7TGEDObvUwHNEyLrgorkeM9y4mkzN7-f1BE,58
+dcmextras-0.3.4.dist-info/top_level.txt,sha256=JVrT8Z7a3AnTD0W4Z5NCQu-3o2xcQGtsGCIeaZpOP1s,10
+dcmextras-0.3.4.dist-info/RECORD,,
