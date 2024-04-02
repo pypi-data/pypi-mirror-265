@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+darcpy/__init__.py
+darcpy/darcpy.py
+darcpy.egg-info/PKG-INFO
+darcpy.egg-info/SOURCES.txt
+darcpy.egg-info/dependency_links.txt
+darcpy.egg-info/top_level.txt
+tests/test_basic.py
