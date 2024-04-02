@@ -1,0 +1,258 @@
+# Streamlit-ChartJS
+
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/yourrepository.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/yourusername/yourrepository/stargazers/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/yourusername/yourrepository/main/app.py)
+
+
+Welcome to Streamlit-ChartJS, a seamless integration of Chart.js with Streamlit through a custom component. This adaptation brings Chart.js's versatile charting capabilities into the Streamlit environment, allowing developers to build a diverse range of interactive and responsive charts directly within their Streamlit applications.
+
+
+## Installation
+
+To get started, install Streamlit-ChartJS via pip:
+
+```bash
+pip install streamlit-chartjs
+```
+
+## Getting Started
+
+After installation, import `streamlit_chartjs` in your Streamlit script to access the chart components. Here’s how you can quickly set up a chart:
+
+```python
+import streamlit as st
+from streamlit_chartjs import streamlit_chartjs
+
+# Sample data for a bar chart
+bar_chart_data = {
+    "labels": ["January", "February", "March", "April"],
+    "datasets": [
+        {
+            "label": "Sales",
+            "data": [10, 20, 30, 40],
+            "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56", "#FF9F40"],
+            "borderColor": ["#FF6384", "#36A2EB", "#FFCE56", "#FF9F40"],
+            "borderWidth": 1,
+        }
+    ],
+}
+
+# Display the chart
+streamlit_chartjs(data=bar_chart_data, chart_type="bar")
+```
+
+## Chart Types and Data Examples
+
+Streamlit-ChartJS supports various chart types. Below are examples for each:
+
+### Bar Chart
+
+```python
+bar_chart_data = {
+    "labels": ["January", "February", "March", "April"],
+    "datasets": [
+        {
+            "label": "Dataset 1",
+            "data": [65, 59, 80, 81],
+            "backgroundColor": [
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+            ],
+            "borderColor": [
+                "rgba(255, 99, 132, 1)",
+                "rgba(54, 162, 235, 1)",
+                "rgba(255, 206, 86, 1)",
+                "rgba(75, 192, 192, 1)",
+            ],
+            "borderWidth": 1,
+        }
+    ],
+}
+```
+
+### Line Chart
+
+```python
+line_chart_data = {
+    "labels": ["January", "February", "March", "April"],
+    "datasets": [
+        {
+            "label": "Dataset 2",
+            "data": [50, 55, 60, 65],
+            "fill": False,
+            "borderColor": "rgb(255, 99, 132)",
+            "tension": 0.1,
+        }
+    ],
+}
+```
+
+### Doughnut Chart
+
+```python
+donut_chart_data = {
+    "labels": ["Red", "Blue", "Yellow"],
+    "datasets": [
+        {
+            "label": "Dataset 3",
+            "data": [300, 50, 100],
+            "backgroundColor": ["#FF6384", "#36A2EB", "#FFCE56"],
+            "hoverBackgroundColor": ["#FF6384", "#36A2EB", "#FFCE56"],
+        }
+    ],
+}
+```
+
+### Pie Chart
+
+```python
+pie_chart_data = {
+    "labels": ["Green", "Purple", "Orange"],
+    "datasets": [
+        {
+            "label": "Dataset 4",
+            "data": [200, 150, 100],
+            "backgroundColor": ["#4BC0C0", "#9966FF", "#FF9F40"],
+            "hoverBackgroundColor": ["#4BC0C0", "#9966FF", "#FF9F40"],
+        }
+    ],
+}
+```
+
+### Radar Chart
+
+```python
+radar_chart_data = {
+    "labels": ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+    "datasets": [
+        {
+            "label": "My First dataset",
+            "backgroundColor": "rgba(179,181,198,0.2)",
+            "borderColor": "rgba(179,181,198,1)",
+            "pointBackgroundColor": "rgba(179,181,198,1)",
+            "pointBorderColor": "#fff",
+            "pointHoverBackgroundColor": "#fff",
+            "pointHoverBorderColor": "rgba(179,181,198,1)",
+            "data": [65, 59, 90, 81, 56, 55, 40],
+        },
+        {
+            "label": "My Second dataset",
+            "backgroundColor": "rgba(255
+
+,99,132,0.2)",
+            "borderColor": "rgba(255,99,132,1)",
+            "pointBackgroundColor": "rgba(255,99,132,1)",
+            "pointBorderColor": "#fff",
+            "pointHoverBackgroundColor": "#fff",
+            "pointHoverBorderColor": "rgba(255,99,132,1)",
+            "data": [28, 48, 40, 19, 96, 27, 100],
+        },
+    ],
+}
+```
+
+### Polar Area Chart
+
+```python
+polar_area_chart_data = {
+    "labels": ["Red", "Green", "Yellow", "Grey", "Blue"],
+    "datasets": [{
+        "data": [11, 16, 7, 3, 14],
+        "backgroundColor": ["#FF6384", "#4BC0C0", "#FFCE56", "#E7E9ED", "#36A2EB"]
+    }]
+}
+```
+
+To integrate the provided Bubble and Scatter Chart examples into your Streamlit application using Streamlit-ChartJS, you can follow the code patterns below. These examples show how to prepare the data and use the `streamlit_chartjs` function to render the charts.
+
+### Bubble Chart Code Example
+
+```python
+import streamlit as st
+from streamlit_chartjs import streamlit_chartjs
+
+# Data for a Bubble Chart
+bubble_chart_data = {
+    "datasets": [
+        {
+            "label": "Dataset 1",
+            "data": [
+                {"x": 20, "y": 30, "r": 15},
+                {"x": 40, "y": 10, "r": 10},
+                {"x": 25, "y": 25, "r": 20},
+            ],
+            "backgroundColor": "rgba(255, 99, 132, 0.6)"
+        },
+        {
+            "label": "Dataset 2",
+            "data": [
+                {"x": 30, "y": 20, "r": 10},
+                {"x": 20, "y": 30, "r": 20},
+                {"x": 15, "y": 40, "r": 25},
+            ],
+            "backgroundColor": "rgba(54, 162, 235, 0.6)"
+        }
+    ]
+}
+
+# Render the Bubble Chart
+streamlit_chartjs(data=bubble_chart_data, chart_type="bubble", canvas_height=500, canvas_width=700)
+```
+
+### Scatter Chart Code Example
+
+```python
+import streamlit as st
+from streamlit_chartjs import streamlit_chartjs
+
+# Data for a Scatter Chart
+scatter_chart_data = {
+    "datasets": [
+        {
+            "label": "Group A",
+            "data": [
+                {"x": 10, "y": 20},
+                {"x": 15, "y": 10},
+                {"x": 20, "y": 15},
+            ],
+            "backgroundColor": "rgba(255, 99, 132, 0.6)"
+        },
+        {
+            "label": "Group B",
+            "data": [
+                {"x": 25, "y": 30},
+                {"x": 30, "y": 25},
+                {"x": 35, "y": 35},
+            ],
+            "backgroundColor": "rgba(54, 162, 235, 0.6)"
+        }
+    ]
+}
+
+# Render the Scatter Chart
+streamlit_chartjs(data=scatter_chart_data, chart_type="scatter", canvas_height=500, canvas_width=700)
+```
+
+## Available Parameters
+
+The `streamlit_chartjs` function offers various parameters to customize your charts extensively:
+
+- `data`: The data for the chart, following the Chart.js data structure.
+- `chart_type`: Type of chart you want to render (e.g., "bar", "line", "pie", "doughnut", "radar", "polarArea", "bubble", "scatter").
+- `canvas_width`: Width of the chart canvas in pixels. Default is 700.
+- `canvas_height`: Height of the chart canvas in pixels. Default is 700.
+- `title`: Title of the chart. Default is "Custom Chart Title".
+- `legend_position`: Position of the chart's legend. Options include "top", "left", "bottom", "right". Default is "top".
+- `x_axis_title`: Title for the x-axis. Default is "Category".
+- `y_axis_title`: Title for the y-axis. Default is "Value".
+- `stacked`: A boolean to indicate whether the chart should be stacked. Applicable to "bar" chart types. Default is False.
+
+These parameters allow you to tailor the chart appearance and functionality to fit your application's needs.
+
+## Contributing
+
+I welcome contributions! Feel free to fork the repository, make changes, and submit pull requests.
+
+Thank you for choosing Streamlit-ChartJS for your data visualization needs. Enjoy creating vibrant and interactive charts for your Streamlit projects!
