@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: CombineFiles-csv-xlsx
+Version: 1.0
+Summary: Python package to combine multiple Excel and CSV files in a folder.
+Author: Omkar Sutar
+Author-email: Omkarsutar9702@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# File Combining Functions
+
+This Python package provides two functions to combine multiple files present in a folder into a single file.
+
+## Installation
+
+You can install the package using pip: **pip install filecombiner**
+
+#### Usage
+
+```python
+from CombineFiles import combine_excel_files
+
+# Provide the folder path containing Excel files and the output file path
+combine_excel_files("path_to_excel_folder")
+from CombineFiles import combine_csv_files
+
+# Provide the folder path containing CSV files and the output file path
+combine_csv_files("path_to_csv_folder")
+```

@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+CombineFiles/__init__.py
+CombineFiles/main.py
+CombineFiles_csv_xlsx.egg-info/PKG-INFO
+CombineFiles_csv_xlsx.egg-info/SOURCES.txt
+CombineFiles_csv_xlsx.egg-info/dependency_links.txt
+CombineFiles_csv_xlsx.egg-info/requires.txt
+CombineFiles_csv_xlsx.egg-info/top_level.txt
