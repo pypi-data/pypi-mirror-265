@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+private_rpa/__init__.py
+private_rpa.egg-info/PKG-INFO
+private_rpa.egg-info/SOURCES.txt
+private_rpa.egg-info/dependency_links.txt
+private_rpa.egg-info/top_level.txt
+private_rpa/libraries/__init__.py
+private_rpa/libraries/cloud/__init__.py
+private_rpa/libraries/cloud/pre_defined_functions.py
+private_rpa/libraries/common/__init__.py
+private_rpa/libraries/common/common_functions.py
+private_rpa/libraries/device/__init__.py
+private_rpa/libraries/device/execute_powershell_script.py
