@@ -1,0 +1,8 @@
+setup.py
+new_package11.egg-info/PKG-INFO
+new_package11.egg-info/SOURCES.txt
+new_package11.egg-info/dependency_links.txt
+new_package11.egg-info/top_level.txt
+subpackage/__init__.py
+subpackage/module2.py
+subpackage/module3.py
