@@ -1,0 +1,6 @@
+include settings.ini
+include LICENSE
+include CONTRIBUTING.md
+include README.md
+include wordslab_llms/data/*.csv
+recursive-exclude * __pycache__
