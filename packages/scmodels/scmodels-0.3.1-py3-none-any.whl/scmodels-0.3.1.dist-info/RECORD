@@ -1,0 +1,8 @@
+scmodels/__init__.py,sha256=ZPj0r6PxDffOdxCzlLgvfzDYbdxFR_xhNwpjL6zOYCA,21
+scmodels/parser.py,sha256=QLXp3wv9WmRQ2kwO2nXjiwppcXC_bN4K3A85SpDKA08,4409
+scmodels/scm.py,sha256=VzRFra-1wpw8wJ9a_byXrA3jUu9Lx2stSWoRD5gCAv0,47605
+scmodels-0.3.1.dist-info/LICENSE.md,sha256=YfYR15REyqsQmLu7lJU3h-DFfLbQ1yLpSboya0vAU9c,1075
+scmodels-0.3.1.dist-info/METADATA,sha256=FKIHdQN04kaA3ZeE0Fn_zjAseg7ZWZ1_kuTJ0F1tXLY,13255
+scmodels-0.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scmodels-0.3.1.dist-info/top_level.txt,sha256=k8B7x41QG4DSAEdqhGXaqDLcXMWoy98qHOQw4S3b0Sc,9
+scmodels-0.3.1.dist-info/RECORD,,
