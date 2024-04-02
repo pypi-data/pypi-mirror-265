@@ -1,0 +1,4 @@
+[console_scripts]
+elodin=elodin:run_cli
+[pytest11]
+elodin=elodin
