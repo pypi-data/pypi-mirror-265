@@ -1,0 +1,26 @@
+[project]
+name = "universal_common"
+version = "1.2.0"
+authors = [
+  { name="Andrew Ong", email="ong.andrew@gmail.com" },
+]
+description = "Library that extends the Python base class library with utility functions."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Development Status :: 5 - Production/Stable",
+  "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
