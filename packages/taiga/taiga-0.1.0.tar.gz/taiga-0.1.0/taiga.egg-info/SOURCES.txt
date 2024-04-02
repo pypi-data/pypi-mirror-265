@@ -1,0 +1,7 @@
+setup.py
+taiga.egg-info/PKG-INFO
+taiga.egg-info/SOURCES.txt
+taiga.egg-info/dependency_links.txt
+taiga.egg-info/top_level.txt
+tasks/__init__.py
+tasks/get_task_history.py
