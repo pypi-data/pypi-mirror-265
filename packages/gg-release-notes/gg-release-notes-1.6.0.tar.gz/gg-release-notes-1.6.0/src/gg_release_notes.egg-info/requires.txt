@@ -1,0 +1,14 @@
+ghapi==1.0.3
+openai==1.16.0
+pydantic-core==2.16.3
+pydantic==2.6.4
+python-dotenv==0.19.2
+requests==2.26.0
+slackclient==2.9.4
+
+[test]
+black==23.1.0
+pylint==2.16.1
+pytest==6.2.5
+twine
+wheel
