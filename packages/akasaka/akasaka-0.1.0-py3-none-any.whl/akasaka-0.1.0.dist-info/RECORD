@@ -1,0 +1,10 @@
+akasaka/__init__.py,sha256=QkaFiH9puYED65LM6zkqktSIBm5lBF9czpOshbLCuQk,30
+akasaka/loader.py,sha256=SAKkQotDeP59V2UC3MSiO3XbFdIhX3Sd7uDIw4qH88c,728
+akasaka/main.py,sha256=iYSA1BnXFV63mw2L0z-WXCo8JLPf0L5DkK9n6Dbo6uk,2414
+akasaka/task.py,sha256=s-RJJWZkQ77_s-MhnRJIT7hhRhYaNoxjOBp7wnPvh0k,791
+akasaka-0.1.0.dist-info/LICENSE,sha256=Ziy-evUMyhVze-yS_WXY4JuDarkVC4xpJhZuIS0Z_gM,1067
+akasaka-0.1.0.dist-info/METADATA,sha256=BIJ-XzJtzH1C6U8tlEfkQS1hk9UpcV-qtoc8OhoALbI,1451
+akasaka-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+akasaka-0.1.0.dist-info/entry_points.txt,sha256=HLdOF09vT3WS9h5uaruvP69hqc1rZUBPE94FaxELxx4,46
+akasaka-0.1.0.dist-info/top_level.txt,sha256=_rwJ0UFClWwUDB6UpsfP6XDlUnpvUaLx_UE_yGMSwqw,8
+akasaka-0.1.0.dist-info/RECORD,,
