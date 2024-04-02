@@ -1,0 +1,7 @@
+README.md
+setup.py
+rocat.egg-info/PKG-INFO
+rocat.egg-info/SOURCES.txt
+rocat.egg-info/dependency_links.txt
+rocat.egg-info/requires.txt
+rocat.egg-info/top_level.txt
