@@ -1,0 +1,13 @@
+bsql/__init__.py,sha256=PBfllwRwzbNGec3QxGSd8ID_GpVSc6pNbVIlHWSZ6Ug,528
+bsql/backends.py,sha256=McMUDq5LRwVdIVY9j2FD5ZoXA0t4JKT7Yzao7xMijLQ,4706
+bsql/database.py,sha256=Wy9aijA1NeoXM7od2gtIc4fOB-QVtIg69iMbrK9WL1U,18891
+bsql/enums.py,sha256=GT_PkboD2Dnlp2jm5ajfovWpX0RiOiRciYkiEPVvTFU,1112
+bsql/misc.py,sha256=Q673Hc7IYwDWinGzkwiF2Ipbk9UWOHx2OJNjSy254-E,3569
+bsql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bsql/statement.py,sha256=DLCfgn6Wgf99L_gcFL0hwuPmwVUsE_K1P98UcvuYAL8,7123
+bsql/table.py,sha256=IB9FsH5gsxZrR9EXZLYRsIx839aMtHh_Jvj2UD-ycKA,7732
+barkshark_sql-0.1.2.dist-info/LICENSE.md,sha256=6ACvHZaVhXF6TmSpMt6TJNs8knZBAHKXYm1btrIxS5A,24909
+barkshark_sql-0.1.2.dist-info/METADATA,sha256=lfuXeO9cwvYBIupoZt2vDsavxNFm3SgvjUtIZSf1-14,2230
+barkshark_sql-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+barkshark_sql-0.1.2.dist-info/top_level.txt,sha256=WTEh2w70eChkGwa-_LlN5lpayWhEO_SwTJImbxMOftk,5
+barkshark_sql-0.1.2.dist-info/RECORD,,
