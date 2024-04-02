@@ -1,0 +1,16 @@
+README.md,sha256=EVVrjeRV24ASDqui-c-MFto82MdEls3TykBe5Te5RjU,3316
+py_cachify/__init__.py,sha256=1muYxH-gCltHw0ryM58o3qbJczvF6gQ36JkAgORelg8,460
+py_cachify/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cachify/backend/clients.py,sha256=fhI-g2AwTd2fznWN2vg2YQC3hDrMSM-eo0r9JJ5KyEg,1210
+py_cachify/backend/exceptions.py,sha256=ACVxsqQojbYyd-38cQsaDcYR7yrlfJYzOcKwBQJvzCY,81
+py_cachify/backend/lib.py,sha256=wkBEImT223BGviS9qYFtOiLAf7_sD2cX6v0TL6zkJ-I,1941
+py_cachify/backend/types.py,sha256=dFEKhFfwt8WNnYHAlNxOn3sCJN0qTF3F_75Ju0Yb0es,719
+py_cachify/base.py,sha256=vkqXd1GZuRir_ENLGy9fu2oNc-vEYXGQd9byMT7IyeU,693
+py_cachify/cached.py,sha256=bgbraBVfltyCTgQiSE-Ex3AJbjcbQWoHBxoR2NM_siA,1420
+py_cachify/exceptions.py,sha256=hqgqPTE0joDAYvpYqNwfnh6ScxTqRxm16CgcYqTGEew,44
+py_cachify/lock.py,sha256=_Vvi8CQw3vjx2dFaxMDClt1tlj3a99XNOsG-Z7Iup1M,2549
+py_cachify/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cachify-1.0.7.dist-info/LICENSE,sha256=ihRIebG2hV8_SizexirXv2U9ktsNLXt0li0X-8jt66A,1064
+py_cachify-1.0.7.dist-info/METADATA,sha256=qhuIPbZZLsUYLJ90aW8BhbeTu_189uoSlURJd1I0OFI,3981
+py_cachify-1.0.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+py_cachify-1.0.7.dist-info/RECORD,,
