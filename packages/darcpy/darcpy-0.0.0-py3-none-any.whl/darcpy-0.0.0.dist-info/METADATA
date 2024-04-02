@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: darcpy
+Version: 0.0.0
+Summary: A very serious and righteous mapping library.
+Author: Kevin K McGuigan
+Author-email: kmcguig@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# darcpy
+ I am not afraid... I was born to fix this
