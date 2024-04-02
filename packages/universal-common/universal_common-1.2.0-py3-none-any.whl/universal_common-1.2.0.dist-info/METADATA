@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: universal_common
+Version: 1.2.0
+Summary: Library that extends the Python base class library with utility functions.
+Author-email: Andrew Ong <ong.andrew@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# universal_common
+Library that extends the base class library functionality.
+
+### Dictionary
+Drop in replacement for the built-in dict that supports either attribute access or indexing.
+```python
+dictionary: Dictionary = Dictionary({ "a": 1 })
+
+assert dictionary.a == 1
+assert dictionary["a"] == 1
+assert dictionary.b is None # Does not raise errors.
+```
