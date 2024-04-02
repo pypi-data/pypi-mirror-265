@@ -1,0 +1,8 @@
+Java2Jar.py
+LICENSE
+README.md
+setup.py
+Java2Jar.egg-info/PKG-INFO
+Java2Jar.egg-info/SOURCES.txt
+Java2Jar.egg-info/dependency_links.txt
+Java2Jar.egg-info/top_level.txt
