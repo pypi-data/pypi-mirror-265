@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nspd_parsels
+Version: 0.1.9
+Summary: A simple script to fetch and save data from nspd.gov.ru.
+Author: Zitramon
+Author-email: bearhore@gmail.com
+Requires-Dist: requests
+Requires-Dist: urllib3
+
