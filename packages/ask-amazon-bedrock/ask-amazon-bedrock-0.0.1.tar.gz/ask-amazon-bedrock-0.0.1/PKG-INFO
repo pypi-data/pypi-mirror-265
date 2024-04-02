@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ask-amazon-bedrock
+Version: 0.0.1
+Summary: A Python utility to query Amazon Bedrock
+Author: Sundar Shanmugam
+Author-email: sundar.shanmugam@outlook.com
+Keywords: Query Amazon Bedrock
+License-File: LICENSE

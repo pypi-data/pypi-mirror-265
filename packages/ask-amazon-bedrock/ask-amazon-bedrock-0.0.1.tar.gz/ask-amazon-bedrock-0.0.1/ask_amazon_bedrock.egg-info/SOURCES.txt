@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ask_amazon_bedrock/__init__.py
+ask_amazon_bedrock/askamzbr.py
+ask_amazon_bedrock.egg-info/PKG-INFO
+ask_amazon_bedrock.egg-info/SOURCES.txt
+ask_amazon_bedrock.egg-info/dependency_links.txt
+ask_amazon_bedrock.egg-info/top_level.txt
