@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "numpy", "statistics"]
+build-backend = "hatchling.build"
+
+[project]
+name = "knnclassifier"
+version = "0.0.3"
+authors = [
+  { name="Justin Roche", email="justinroche03@gmail.com" },
+]
+description = "A k-nearest neighbors classifier in Python 3.11.7"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/justinroche/knnclassifier"
+Issues = "https://github.com/justinroche/knnclassifier/issues"
