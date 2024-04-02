@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ftrack-qt
+Version: 2.1.0
+Summary: ftrack qt library
+Home-page: https://ftrack.com
+License: Apache-2.0
+Author: ftrack Integrations Team
+Author-email: integrations@backlight.co
+Requires-Python: >=3.7,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: ftrack-libs
+Provides-Extra: pyside
+Requires-Dist: PySide2 (>=5.13.2,<6.0.0) ; extra == "pyside"
+Requires-Dist: Qt.py (>=1.0.0,<2)
+Requires-Dist: ftrack-constants (>=2.0.0,<3.0.0) ; extra == "ftrack-libs"
+Requires-Dist: ftrack-qt-style (>=2.0.0,<3.0.0) ; extra == "ftrack-libs"
+Requires-Dist: ftrack-utils (>=2.0.0,<3.0.0) ; extra == "ftrack-libs"
+Project-URL: Repository, https://github.com/ftrackhq/integrations/tree/main/libs/qt
+Description-Content-Type: text/markdown
+
+# Qt
+
+This is the ftrack integrations Qt library. 
+All custom widgets and dialogs used around the framework and other ftrack integrations plugins should be found here.
+
