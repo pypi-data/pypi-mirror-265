@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sccastle
+Version: 1.0.0
+Summary: single-cell Chromatin Accessibility Sequencing data analysis via discreTe Latent Embedding
+Home-page: https://github.com/cuixj19/CASTLE
+Author: Xuejian Cui
+Author-email: cuixj19@mails.tsinghua.edu.cn
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.6.0
+License-File: LICENSE
