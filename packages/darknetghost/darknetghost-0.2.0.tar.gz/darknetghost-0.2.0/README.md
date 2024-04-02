@@ -1,0 +1,43 @@
+# Hack4U Academy Courses Library
+
+Una biblioteca Python para consultar cursos de la academia de Hack4U 
+
+## Cursos disponibles:
+- Introduccion a Linux [15 horas]
+- Personalizacion de linux [3 horas]
+- Introduccion al Hacking [53 horas]
+
+## Instalacion 
+
+Instala el paquete usando `pip3`:
+
+```python3
+pip3 install DarknetGhost
+```
+
+## Uso basico
+
+### Listar todos los cursos 
+
+```python 
+from DarknetGhost import list_courses
+
+for course in list_courses():
+    print(course)
+```
+
+### Obtener un curso por nombre 
+```python 
+from hack4u import get_course_by_name
+
+course = get_course_by_name("Introduccion a Linux")
+print(course)
+```
+
+### Calcular la duracion total de los cursos 
+
+```python3 
+from hack4u.utils import total_duration 
+
+print(f"Duracion total: {total_duration()} horas")
+```
