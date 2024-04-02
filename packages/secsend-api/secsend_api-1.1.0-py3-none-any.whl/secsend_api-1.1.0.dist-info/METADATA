@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: secsend-api
+Version: 1.1.0
+Summary: secsend server API
+Home-page: http://github.com/aguinet/secsend
+Author: Adrien Guinet
+Author-email: adrien@guinet.me
+License: GPL
+Requires-Dist: jsonschema ==4.15.*
+Requires-Dist: sanic ==23.12.1
+Provides-Extra: dev
+Requires-Dist: sanic-testing ==23.12.0 ; extra == 'dev'
+Requires-Dist: pytest-asyncio ==0.23.6 ; extra == 'dev'
+
