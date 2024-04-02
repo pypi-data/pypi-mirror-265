@@ -1,0 +1,26 @@
+jaraco.classes
+jaraco.context
+
+[docs]
+sphinx>=3.5
+jaraco.packaging>=9.3
+rst.linker>=1.9
+furo
+sphinx-lint
+jaraco.tidelift>=1.4
+
+[testing]
+pytest!=8.1.1,>=6
+pytest-checkdocs>=2.4
+pytest-cov
+pytest-mypy
+pytest-enabler>=2.2
+pytest-ruff>=0.2.1
+backports.unittest_mock
+keyring>=20
+pycryptodomex
+pycryptodome
+
+[testing:python_version == "2.7"]
+gdata
+python-keyczar
