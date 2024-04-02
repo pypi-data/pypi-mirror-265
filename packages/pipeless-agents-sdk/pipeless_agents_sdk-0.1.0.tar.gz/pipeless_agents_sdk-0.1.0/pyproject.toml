@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pipeless-agents-sdk"
+homepage = "https://agents.pipeless.ai"
+version = "0.1.0"
+description = "SDK to create applications based on Pipeless Agents"
+authors = ["Pipeless, Inc", "Miguel A. Cabrera Minagorri"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "pipeless_agents_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kafka-python = "^2.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
