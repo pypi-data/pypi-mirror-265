@@ -1,0 +1,11 @@
+lxml>=4.3.0
+pyvmomi
+vapi-runtime==2.44.0
+vcenter-bindings==4.2.0
+vapi-common-client==2.44.0
+vmwarecloud-aws==1.64.0
+nsx-python-sdk==4.1.2.0.0
+nsx-policy-python-sdk==4.1.2.0.0
+nsx-vmc-policy-python-sdk==4.1.2.0.0
+nsx-vmc-aws-integration-python-sdk==4.1.2.0.0
+vmwarecloud-draas==1.23.0
