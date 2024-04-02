@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+SecuMas/__init__.py
+SecuMas/cusip.py
+SecuMas/isin.py
+SecuMas/main.py
+SecuMas/sedol.py
+SecuMas.egg-info/PKG-INFO
+SecuMas.egg-info/SOURCES.txt
+SecuMas.egg-info/dependency_links.txt
+SecuMas.egg-info/top_level.txt
