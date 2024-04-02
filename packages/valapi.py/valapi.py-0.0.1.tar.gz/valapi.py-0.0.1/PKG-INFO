@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: valapi.py
+Version: 0.0.1
+Summary: A Python implementation of the Valorant public and hidden API
+Author-email: Akex06 <alessandro@akex.dev>
+Project-URL: Homepage, https://github.com/akex06/valorant.py
+Project-URL: Issues, https://github.com/akex06/valorant.py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Valorant.py
+
+Valorant.py is a Valorant API wrapper and XMPP client.
+
+Implementing your own XMPP
+
+```py
+from valorant import XMPP
+from xml.etree.ElementTree import Element
+
+class MyCustomXMPPClient(XMPP):
+    def __init__(
+            self,
+            username: str,
+            password: str
+    ) -> None:
+        super().__init__(username, password)
+
+    async def process_message(self, element: Element) -> None:
+        pass
+
+    async def process_iq(self, element: Element) -> None:
+        pass
+
+    async def process_presence(self, element: Element) -> None:
+        pass
+```

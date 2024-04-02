@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+valapi.py.egg-info/PKG-INFO
+valapi.py.egg-info/SOURCES.txt
+valapi.py.egg-info/dependency_links.txt
+valapi.py.egg-info/requires.txt
+valapi.py.egg-info/top_level.txt
+valorant/__init__.py
+valorant/classes.py
+valorant/constants.py
+valorant/valorant.py
+valorant/xmpp.py
