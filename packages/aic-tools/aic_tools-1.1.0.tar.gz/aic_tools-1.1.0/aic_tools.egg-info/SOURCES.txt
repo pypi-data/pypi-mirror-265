@@ -1,0 +1,8 @@
+setup.py
+aic_tools/__init__.py
+aic_tools/datetime.py
+aic_tools.egg-info/PKG-INFO
+aic_tools.egg-info/SOURCES.txt
+aic_tools.egg-info/dependency_links.txt
+aic_tools.egg-info/requires.txt
+aic_tools.egg-info/top_level.txt
