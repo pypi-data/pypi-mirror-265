@@ -1,0 +1,7 @@
+ansys/fluent/parametric/__init__.py,sha256=s5z2fbv4Fon0MkPWKRYvgSMwwgBxpit-NZeEgzDG7cM,26018
+ansys/fluent/parametric/local/__init__.py,sha256=36-ObgGZyDrtXMy3UoMANTmPZno4iytcfftYL5JzgII,9621
+ansys/fluent/parametric/parameters.py,sha256=F0CFcnLhBeJ9yHzWg-3lWNWHPgBAAYy0ysy556iDidE,10655
+ansys_fluent_parametric-0.10.0.dist-info/LICENSE,sha256=q2LY-0-hseAc1SDA7rBn96IDi2SHenCzygJda8-7AAU,1089
+ansys_fluent_parametric-0.10.0.dist-info/METADATA,sha256=YHmEiB5tF4Cfcvf1Ol737SB435lewG_bH38lkrmsTbs,5702
+ansys_fluent_parametric-0.10.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ansys_fluent_parametric-0.10.0.dist-info/RECORD,,
