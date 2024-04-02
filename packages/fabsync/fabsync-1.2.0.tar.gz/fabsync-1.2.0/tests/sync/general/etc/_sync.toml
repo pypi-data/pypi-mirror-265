@@ -1,0 +1,3 @@
+[files.'rc.conf.py']
+name = 'rc.conf'
+renderer = 'fabsync/py'

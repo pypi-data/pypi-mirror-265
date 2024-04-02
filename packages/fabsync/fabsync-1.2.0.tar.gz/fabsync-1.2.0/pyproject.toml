@@ -1,0 +1,142 @@
+[project]
+name = 'fabsync'
+version = '1.2.0'
+description = "File syncing via Fabric."
+keywords = ['fabric']
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'License :: OSI Approved :: The Unlicense (Unlicense)',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Utilities',
+    'Typing :: Typed',
+]
+readme = 'README.md'
+requires-python = '>=3.8'
+license = 'Unlicense'
+license-files = { paths = ['UNLICENSE'] }
+authors = [
+    { name = "Peter Sagerson", email = "psagers@ignorare.net" }
+]
+
+dependencies = [
+    'fabric',
+    'jsonschema~=4.5',
+    'tomli~=2.0; python_version < "3.11"',
+]
+
+[project.urls]
+'Homepage' = 'https://sr.ht/~psagers/fabsync/'
+'Source code' = 'https://hg.sr.ht/~psagers/fabsync'
+'Documentation' = 'https://fabsync.ignorare.net/'
+
+[tool.hatch.build.targets.wheel]
+packages = ['src/fabsync']
+
+# The default environment is for general development.
+[tool.hatch.envs.default]
+python = '3.8'
+dependencies = [
+    'black',
+    'bumpversion',
+    'coverage~=6.3',
+    'flake8-bugbear',
+    'flake8~=5.0',
+    'isort~=5.0',
+    'mypy',
+    'types-invoke',
+    'types-jsonschema',
+    'types-paramiko',
+
+    # TEMP: Work around https://github.com/fabric/fabric/issues/2263
+    'invoke<2.1',
+]
+
+[tool.hatch.envs.default.scripts]
+lint = [
+    'flake8 src',
+    'isort --check --quiet src',
+    'mypy --no-incremental --no-error-summary src',
+    'black --check --quiet src',
+]
+
+fix = [
+    'isort src',
+    'black src',
+]
+
+test = 'python -m unittest {args}'
+
+cov = [
+    'coverage run --source fabsync -m unittest {args}',
+    'coverage report',
+]
+
+check = ['lint', 'cov']
+
+
+# The docs environment is for building the documentation with Sphinx.
+[tool.hatch.envs.docs]
+python = '3'
+dependencies = [
+    # TEMP: Work around https://github.com/fabric/fabric/issues/2263
+    'invoke<2.1',
+    'sphinx~=4.5',
+]
+
+[tool.hatch.envs.docs.scripts]
+make = 'command make -C docs html'
+gmake = 'command gmake -C docs html'
+open = 'xdg-open docs/build/html/index.html'
+
+
+# The test environment just defines a test matrix. The test scripts are all
+# inherited from default.
+[tool.hatch.envs.test]
+dependencies = [
+    # TEMP: Work around https://github.com/fabric/fabric/issues/2263
+    'invoke<2.1',
+]
+
+[[tool.hatch.envs.test.matrix]]
+python = ['38', '39', '310', '311']
+
+
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+
+#
+# Linters and formatters
+#
+
+[tool.isort]
+profile = 'black'
+force_sort_within_sections = true
+order_by_type = false
+lines_after_imports = 2
+
+
+[tool.black]
+skip-string-normalization = true
+
+
+[tool.mypy]
+python_version = '3.8'
+mypy_path = 'src'
+
+show_error_codes = true
+
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_unreachable = true
+
+# strict = True
+
+[[tool.mypy.overrides]]
+module = [
+    'fabric',
+]
+ignore_missing_imports = true

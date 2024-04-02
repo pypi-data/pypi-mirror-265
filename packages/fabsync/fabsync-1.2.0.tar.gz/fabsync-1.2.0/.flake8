@@ -1,0 +1,4 @@
+[flake8]
+ignore = E501
+
+extend-select = B901,B902,B903,B904

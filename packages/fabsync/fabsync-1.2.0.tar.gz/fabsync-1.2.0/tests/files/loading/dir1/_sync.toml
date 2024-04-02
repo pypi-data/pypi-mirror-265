@@ -1,0 +1,5 @@
+[defaults]
+renderer = 'rot13'
+
+[files.'ignore-me.txt']
+ignore = true

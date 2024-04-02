@@ -1,0 +1,13 @@
+tags = ['dir']
+
+[defaults]
+tags = ['a', 'b']
+
+[files.one]
+tags = ['-a', 'f1']
+
+[files.two]
+tags = ['-bogus', 'f2']
+
+[files.three]
+tags = ['-', 'f3']

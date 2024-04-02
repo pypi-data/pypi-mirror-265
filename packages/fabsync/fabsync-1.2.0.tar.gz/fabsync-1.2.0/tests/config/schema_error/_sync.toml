@@ -1,0 +1,2 @@
+[defaults]
+dir_perms = '0o755'

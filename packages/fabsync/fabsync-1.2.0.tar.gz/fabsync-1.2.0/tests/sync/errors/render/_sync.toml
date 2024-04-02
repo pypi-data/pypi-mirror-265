@@ -1,0 +1,11 @@
+[files.'bad_module.py']
+renderer = 'fabsync/py'
+
+[files.'builtin.txt']
+renderer = 'fabsync/custom'
+
+[files.'missing.txt']
+renderer = 'missing'
+
+[files.'no_render.py']
+renderer = 'fabsync/py'

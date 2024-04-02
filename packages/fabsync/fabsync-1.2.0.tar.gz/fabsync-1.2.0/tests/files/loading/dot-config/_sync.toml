@@ -1,0 +1,7 @@
+name = '.config'
+user = 1000
+perms = 0o750
+tags = ['dot']
+
+[files.'sync.toml']
+name = '_sync.toml'

@@ -1,0 +1,26 @@
+# A complete, valid config.
+name = '_complete'
+user = 'root'
+group = 'root'
+perms = 0o750
+tags = ['tag1', 'tag2']
+ignore = false
+
+[defaults]
+user = 0
+group = 0
+dir_perms = 0o755
+file_perms = 0o644
+tags = ['a']
+renderer = 'mako'
+
+[files]
+'file1.txt' = { tags = ['-a', 'b'] }
+
+[files.'file2.txt']
+name = 'file2.xtx'
+user = -1
+group = -1
+perms = -1
+tags = ['c']
+renderer = 'jinja2'

@@ -1,0 +1,6 @@
+[defaults]
+file_perms = 0o755
+
+# This file has non-text data.
+[files.blob]
+diff = false

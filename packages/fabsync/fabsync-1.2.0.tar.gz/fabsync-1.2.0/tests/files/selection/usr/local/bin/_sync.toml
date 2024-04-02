@@ -1,0 +1,3 @@
+[files.'myapp.py']
+perms = 0o755
+tags = ['myapp']

@@ -1,0 +1,7 @@
+[defaults]
+vars = {a = 'a', b = 'b'}
+
+[files.one]
+
+[files.two]
+vars = {b = 'B', c = 'C'}

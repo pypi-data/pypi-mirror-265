@@ -1,0 +1,7 @@
+[defaults]
+user = 'hg'
+group = 'hg'
+
+[files.dot-hgrc]
+name = '.hgrc'
+renderer = 'test'

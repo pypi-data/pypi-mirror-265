@@ -1,0 +1,7 @@
+tags = ['dir']
+
+[defaults]
+tags = ['-']
+
+[files.one]
+tags = ['file']

@@ -1,0 +1,10 @@
+[defaults]
+group = 1000
+dir_perms = 0o700
+file_perms = 0o600
+
+[files.dot-profile]
+name = '.profile'
+
+[files.'file1.txt']
+perms = 0o640
