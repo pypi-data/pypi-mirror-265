@@ -1,0 +1,6 @@
+requests<3.0.0,>=2.24.0
+python-dotenv<0.20.0,>=0.15.0
+openai==1.14.3
+tenacity<7.0.0,>=6.3.1
+colorama<1.0.0,>=0.4.3
+gitignore_parser==0.1.11
