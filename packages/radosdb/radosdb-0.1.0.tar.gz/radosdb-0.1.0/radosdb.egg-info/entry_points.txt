@@ -1,0 +1,3 @@
+[console_scripts]
+__init__ = radosdb.transfer_dpmt:main
+
