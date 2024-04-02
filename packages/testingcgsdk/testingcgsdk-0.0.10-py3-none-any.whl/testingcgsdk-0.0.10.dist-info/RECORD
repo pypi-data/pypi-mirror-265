@@ -1,0 +1,14 @@
+testingcgsdk/__init__.py,sha256=Mzp5XSCcmvFnNVgRveytVqDXgeeR-lZbnsY_vPVU-0o,29
+testingcgsdk/app.py,sha256=qx1L_NpOtqIbFEcAWKjADX3pu83E8nPSnrF4uN2_NGU,244
+testingcgsdk/cglense.py,sha256=sEtEH80H8ilJ_LbBoXddwHMb4_oMSLWWaFtngIPnL1E,495
+testingcgsdk/data_load/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testingcgsdk/data_load/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testingcgsdk/data_load/config/database_config.py,sha256=7n2Eygt3jt0bS-3Rm5lZo_xGn2WwxrBFT3Nq0jvDeew,763
+testingcgsdk/data_load/monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testingcgsdk/data_load/monitor/models.py,sha256=Q7Q8WkDRJKuWArvukeaG69Q3_NMhoKoe0t40cI4I7kI,526
+testingcgsdk/data_load/read_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testingcgsdk/data_load/read_data/load_data.py,sha256=Z8hwFwgtu7ibudpDOOcmHvUUSLKLvnNVnLCdhV1_Thc,1106
+testingcgsdk-0.0.10.dist-info/METADATA,sha256=KXQk0id6nZmjDHXxuNE-Ui8fLINh30XFOwCf0I30-LE,429
+testingcgsdk-0.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+testingcgsdk-0.0.10.dist-info/top_level.txt,sha256=S_hWREYGcy004BFVlcBPpnYuim5W-R3TQyOPc0JmqBI,13
+testingcgsdk-0.0.10.dist-info/RECORD,,
