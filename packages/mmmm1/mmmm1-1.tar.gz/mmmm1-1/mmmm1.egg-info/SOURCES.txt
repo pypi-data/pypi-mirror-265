@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+mmmm1/__init__.py
+mmmm1.egg-info/PKG-INFO
+mmmm1.egg-info/SOURCES.txt
+mmmm1.egg-info/dependency_links.txt
+mmmm1.egg-info/not-zip-safe
+mmmm1.egg-info/top_level.txt
