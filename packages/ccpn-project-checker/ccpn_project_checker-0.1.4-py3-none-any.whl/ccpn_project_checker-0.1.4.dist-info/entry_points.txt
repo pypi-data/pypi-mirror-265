@@ -1,0 +1,2 @@
+[console_scripts]
+project_checker = project_checker.main:main
