@@ -1,0 +1,5 @@
+kgtk-wukunhuan
+appdirs
+pyautogui
+pillow
+pytest-shutil
