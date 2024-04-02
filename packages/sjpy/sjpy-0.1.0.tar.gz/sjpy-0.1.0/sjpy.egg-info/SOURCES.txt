@@ -1,0 +1,6 @@
+README.md
+setup.py
+sjpy.egg-info/PKG-INFO
+sjpy.egg-info/SOURCES.txt
+sjpy.egg-info/dependency_links.txt
+sjpy.egg-info/top_level.txt
