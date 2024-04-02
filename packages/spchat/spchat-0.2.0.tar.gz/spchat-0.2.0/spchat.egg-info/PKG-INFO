@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: spchat
+Version: 0.2.0
+Summary: Chat utility library by Spiral.AI
+Author-email: ksterx <kostonerx@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: chromadb
+Requires-Dist: loguru
+Requires-Dist: openai
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: gpu
+Requires-Dist: flash-attn; extra == "gpu"
+
+# SpiralChat
+
+SpiralChat is a comprehensive chat utility library developed by Spiral.AI. It provides a set of powerful tools and components for building conversational AI applications.
+
+## Features
+
+- **Chat Engine**: SpiralChat includes a versatile chat engine that can handle multi-turn conversations, maintain conversation history, and generate contextually relevant responses.
+- **Avatar System**: Create and manage multiple AI avatars with unique characteristics, speech habits, and knowledge bases.
+- **Prompt Templates**: Utilize a wide range of customizable prompt templates to structure conversations and guide the AI's responses.
+- **Memory Management**: Efficiently store and retrieve conversation history with built-in memory management capabilities.
+- **Fact Retrieval**: Integrate external knowledge sources and retrieve relevant facts based on the conversation context.
+- **Gradio Integration**: Seamlessly integrate SpiralChat with Gradio, a popular library for building interactive web interfaces for AI models.
+- **API Support**: Interact with popular language models and AI APIs, including OpenAI's GPT models and Anthropic's Claude.
+
+## Installation
+
+You can install SpiralChat using pip:
+
+```bash
+pip install spchat
+```
+
+For development purposes, you can clone the repository and install the package in editable mode along with the development dependencies:
+
+```bash
+git clone https://github.com/Spiral-AI/SpiralChat.git
+cd SpiralChat
+pip install -e ".[dev]"
+```
+
+## Usage
+
+SpiralChat provides a high-level interface for building conversational AI applications. Here's a simple example of how to use the chat engine:
+
+```python
+from spchat import ChatEngine, APIChatEngine
+
+# Create a chat engine instance
+e1 = ChatEngine(model="Spiral-AI/hime", template="calm2")
+e2 = APIChatEngine(model="sonnet", on_bedrock=True)
+
+# Engage in a conversation
+response_1 = e1.respond("Hello, how are you?")
+response_2 = e2.respond("Hello, how are you?")
+print(response_1)
+print(response_2)
+```
+
+For more advanced usage, such as creating avatars, managing memory, and retrieving facts, refer to the documentation and examples provided in the repository.
+
+## Documentation
+
+Detailed documentation for SpiralChat can be found in the [docs](docs) directory. It covers various topics, including:
+
+- Getting started guide
+- Chat engine and avatar usage
+- Prompt templating
+- Memory management
+- Fact retrieval
+- Gradio integration
+- API usage and configuration
+
+## Examples
+
+The [examples](examples) directory contains a collection of example scripts and notebooks demonstrating different use cases and features of SpiralChat. These examples serve as a great starting point for building your own conversational AI applications.
+
+## Contributing
+
+Contributions to SpiralChat are welcome! If you find any issues, have suggestions for improvements, or want to add new features, please open an issue or submit a pull request. Make sure to follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+
+## Support
+
+If you have any questions, concerns, or need assistance with SpiralChat, please reach out to the Spiral.AI team.

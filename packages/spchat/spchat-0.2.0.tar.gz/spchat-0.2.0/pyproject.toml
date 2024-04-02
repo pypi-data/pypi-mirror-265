@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spchat"
+description = "Chat utility library by Spiral.AI"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "ksterx", email = "kostonerx@gmail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "chromadb",
+    "loguru",
+    "openai",
+    "pandas",
+]
+version = "0.2.0"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+gpu = [
+    "flash-attn",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "dist"]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"

@@ -1,0 +1,11 @@
+chromadb
+loguru
+openai
+pandas
+
+[dev]
+pytest
+ruff
+
+[gpu]
+flash-attn
