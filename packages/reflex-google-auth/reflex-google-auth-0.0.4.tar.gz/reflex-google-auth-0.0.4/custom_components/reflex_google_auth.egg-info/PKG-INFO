@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: reflex-google-auth
+Version: 0.0.4
+Summary: Reflex custom component google-auth
+Author-email: Masen Furer <m_github@0x26.net>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/martinxu9/reflex-google-auth
+Keywords: reflex,reflex-custom-components
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: reflex>=0.4.6a
+Requires-Dist: google-auth[requests]
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# google-auth
+
+A Reflex custom component google-auth.
+
+## Installation
+
+```bash
+pip install reflex-google-auth
+```
