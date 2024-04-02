@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: strings_repository
+Version: 0.2.0
+Summary: Simple commandline tool for pulling data from strings repository (https://github.com/HereTrix/strings_repository)
+Home-page: https://github.com/HereTrix/strings_repository_cli
+Download-URL: https://github.com/HereTrix/strings_repository_cli/archive/refs/tags/0.1.0.tar.gz
+Author: HereTrix
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: typer
+Requires-Dist: pyyaml
+Requires-Dist: requests
+

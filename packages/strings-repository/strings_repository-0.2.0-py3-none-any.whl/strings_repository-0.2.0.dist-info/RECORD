@@ -1,0 +1,10 @@
+strings_repository/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strings_repository/__main__.py,sha256=9BsHNDTV3NsSEvISeRVQsA_rLU_zkPEwFoTpiJDIa3g,103
+strings_repository/cli.py,sha256=uT7B6i4oL1hHvkUv8WFFvouQGeh_UfZXjF_LCrwmbWQ,1685
+strings_repository/strings_repository.py,sha256=Z1kwc68zIsVmGEjENoQGnxyIvgbApLtssiaxPOyaXaM,2371
+strings_repository-0.2.0.data/scripts/strings_repository,sha256=M6ROXFnqNQuVBSX897C89uaL9OYaHYl-Xuz0_JL3UOA,55
+strings_repository-0.2.0.dist-info/LICENSE,sha256=8cmqoAfNlioZTij1KewYm95a3fqCipET7tQ1e-Xy1TM,1065
+strings_repository-0.2.0.dist-info/METADATA,sha256=r03OfDokbk9gS0jiSbFz61DKMl1m1hF_ptPMc6QZbC4,719
+strings_repository-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+strings_repository-0.2.0.dist-info/top_level.txt,sha256=trKuG4opUqGA2JaYooEmtFuF2NiwslvcD51BJqiXPrE,19
+strings_repository-0.2.0.dist-info/RECORD,,
