@@ -1,0 +1,9 @@
+unihan_db/__about__.py,sha256=qZIa8o0KB8aEJeEhfR4cM80FOTQ0ZCmrKscgmJhUclo,528
+unihan_db/__init__.py,sha256=gkdVqkHfJq-eKPWPxjFoSk9hbGIw2mIdHKVeJRMU5wA,298
+unihan_db/bootstrap.py,sha256=BdmQVFRhJ4ggdvh5oVarwbtLoHnvYtZMUGqQP1G1bhg,7470
+unihan_db/importer.py,sha256=-atugmE9fTE706QyVMk7od8s3fFGaD_ycN2L2j2CrGI,11815
+unihan_db/tables.py,sha256=6-6zpjJ2hfPIDU4lhMva-MCoehAXV-pTBrRcAbAdShk,15015
+unihan_db-0.15.0.dist-info/LICENSE,sha256=6LlORHIkU5C3_i_y2ojmRRJ-Ez-op2v3J0fZQpL0Lxc,1094
+unihan_db-0.15.0.dist-info/METADATA,sha256=m0wYqbGCaf-flAakjSjWx_cruwWM4bLTkL7ZD3SEEkU,5011
+unihan_db-0.15.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+unihan_db-0.15.0.dist-info/RECORD,,
