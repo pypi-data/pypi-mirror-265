@@ -1,0 +1,4 @@
+[console_scripts]
+tcorex = gawseed_tcorex.tools.tcorex_cli:main
+tcorex-changepoints = gawseed_tcorex.tools.tcorex_changepoints:main
+tcorex-plot = gawseed_tcorex.tools.tcorex_plot:main
