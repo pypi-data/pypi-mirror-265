@@ -1,0 +1,5 @@
+numpy>=1.13
+pydicom>=2.0
+
+[tests]
+nibabel
