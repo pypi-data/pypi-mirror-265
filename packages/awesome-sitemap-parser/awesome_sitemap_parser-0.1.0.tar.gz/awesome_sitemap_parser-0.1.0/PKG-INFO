@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: awesome-sitemap-parser
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/ArtemChekunov/awesome-sitemap-parser
+License: GPL3
+Author: Artem Chekunov
+Author-email: artem.v.chekunov@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# awesome-sitemap-parser
+
+```
+from awesome_sitemap_parser.tree import sitemap_tree_for_homepage
+tree = sitemap_tree_for_homepage('https://www.nytimes.com/')
+print(tree)
+
+```
+
