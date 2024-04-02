@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: anterior
+Version: 0.0.1
+Summary: Python's pluggable backtester
+License: License :: GNU Lesser General Public License v3 (LGPLv3)
+Author: Cubyc, Inc.
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: APScheduler (>=3.10.4,<4.0.0)
+Requires-Dist: annotated-types (>=0.6.0,<0.7.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: polars (>=0.20.17,<0.21.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: time-machine (>=2.14.1,<3.0.0)
+Requires-Dist: typing-extensions (>=4.10.0,<5.0.0)
+Requires-Dist: tzdata (>=2024.1,<2025.0)
+Requires-Dist: tzlocal (>=5.2,<6.0)
+Requires-Dist: urllib3 (>=2.2.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Python's pluggable Backtester
+
+## Schedule your functions today, run them tomorrow... or backtest them yesterday.
+
+Anterior is an open-source Python backtester that lets you schedule and backtest functions. 
+It is lightweight, easy to use, and works with your DataFrames and Series data. Check out the
+[Documentation](https://docs.cubyc.com/anterior) for more information.
+
+--- 
+## Quickstart
+
+### 1. Install
+
+Installation is simple:
+
+```console
+pip install anterior
+```
+
+Alternatively, to install the latest features, clone this GitHub repository and run the following command inside the downloaded directory:
+
+```console
+pip install .
+```
+
+### 2. Start backtesting!
+
+You're now ready to run backtests with Anterior. 
+The following example shows how to dynamically create a Fibonacci sequence
+by computing the next number every hour.
+
+```python
+from anterior import BackTester
+
+fibonacci = [0, 1]
+
+def hourly_fibonacci():
+    fibonacci.append(sum(fibonacci[-2:]))
+
+bt = BackTester()
+bt.every(hours=1).do(hourly_fibonacci)
+bt.run(start="2021-01-01", end="2022-01-02")
+```
