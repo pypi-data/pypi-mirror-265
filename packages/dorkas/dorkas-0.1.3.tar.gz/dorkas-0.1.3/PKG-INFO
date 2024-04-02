@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: dorkas
+Version: 0.1.3
+Summary: dorkas
+Project-URL: Homepage, https://github.com/lostmygithubaccount/dorkas
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/dorkas/issues
+Author-email: Cody <cody@dkdc.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: dorkas-core
+Description-Content-Type: text/markdown
+
+# dorkas
+
+tbw
+

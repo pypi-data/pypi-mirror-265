@@ -1,0 +1,67 @@
+# Justfile
+
+# load environment variables
+set dotenv-load
+
+# aliases
+alias fmt:=format
+alias preview:=app
+
+# list justfile recipes
+default:
+    just --list
+
+# setup
+setup:
+    @pip install -r dev-requirements.txt
+
+# test
+test:
+    @cargo test
+
+# build
+build:
+    just clean
+    @python -m build src/dorkas-core
+    @python -m build
+
+# format
+format:
+    @cargo fmt --manifest-path src/dorkas-core/Cargo.toml
+    @ruff format . || True
+
+# install
+install:
+    maturin dev -m src/dorkas-core/Cargo.toml
+    @pip install --upgrade -e '.[all]'
+
+# uninstall
+uninstall:
+    @pip uninstall dorkas -y
+
+# publish-test
+release-test:
+    just build
+    @twine upload --repository testpypi src/dorkas-core/dist/* -u __token__ -p ${PYPI_TEST_TOKEN}
+    @twine upload --repository testpypi dist/* -u __token__ -p ${PYPI_TEST_TOKEN}
+
+# publish
+release:
+    just build
+    @twine upload src/dorkas-core/dist/* -u __token__ -p ${PYPI_TOKEN}
+    @twine upload dist/* -u __token__ -p ${PYPI_TOKEN}
+
+# streamlit stuff
+app:
+    @streamlit run app.py
+
+# smoke-test
+smoke-test:
+    ruff format --check .
+
+# clean
+clean:
+    @rm -r src/dorkas-core/target || True
+    @rm -rf src/dorkas-core/dist || True
+    @rm -rf dist || True
+
