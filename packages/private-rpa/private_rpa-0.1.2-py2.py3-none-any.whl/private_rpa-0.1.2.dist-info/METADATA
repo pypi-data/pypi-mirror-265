@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: private-rpa
+Version: 0.1.2
+Summary: A custom private_rpa library with common utilities and cloud functionalities.
+Author: Prakash
+License: MIT
+License-File: LICENSE.txt
+
