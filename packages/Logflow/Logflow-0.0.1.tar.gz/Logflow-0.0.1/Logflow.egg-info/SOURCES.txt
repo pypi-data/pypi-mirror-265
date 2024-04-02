@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./logflow/__init__.py
+./logflow/cli.py
+./logflow/config_handler.py
+./logflow/log_decorator.py
+Logflow.egg-info/PKG-INFO
+Logflow.egg-info/SOURCES.txt
+Logflow.egg-info/dependency_links.txt
+Logflow.egg-info/entry_points.txt
+Logflow.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_decorator.py
