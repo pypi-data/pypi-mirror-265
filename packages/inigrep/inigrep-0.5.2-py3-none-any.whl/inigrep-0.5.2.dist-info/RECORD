@@ -1,0 +1,12 @@
+inigrep/__init__.py,sha256=rgoKVJ7eZ3KKyIyIYD2CHses4rJAUy6TUlf5Z7gybrQ,175
+inigrep/__main__.py,sha256=5dOwj7u-M6nN7z3YLvzL2tVaP_n7LcLnsLDuPAB1PDI,68
+inigrep/_meta.py,sha256=QBP52_TVLDiOYepEAVJtFg_I0eJO4OlzLnT9RaxJhlw,546
+inigrep/cli.py,sha256=gnffgscAZ_BgKm2huXq0CNjl-jTOjtBmxUa9vW14eC0,7401
+inigrep/core.py,sha256=GMKrUGZzCSy-q8-_3qxOojVTd82JX3tyrQmzg_H4riE,15540
+inigrep/front.py,sha256=OQ0EmHKyrrdltEtt3aEXHgUlpJrpPgVzRmiJOd8EUt4,10558
+inigrep/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inigrep-0.5.2.dist-info/LICENSE.md,sha256=mUzhkCojx0UZtdEYxru2V-2rzpHda3zIJdhruPXJeA8,26338
+inigrep-0.5.2.dist-info/METADATA,sha256=WfaSmKAMGvbNH2_NfOS2a1S5yMRI4vuo_0H9WLagtgM,1689
+inigrep-0.5.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+inigrep-0.5.2.dist-info/top_level.txt,sha256=TcI90xa58LFVJ5XHkcAqrA56PzPLqF6ZpcJDcwqGM5E,8
+inigrep-0.5.2.dist-info/RECORD,,
