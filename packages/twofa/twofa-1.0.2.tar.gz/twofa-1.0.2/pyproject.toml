@@ -1,0 +1,40 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twofa"
+version = "1.0.2"
+dependencies = [
+    "pyqrcode",
+    "qrcode",
+    "pyotp",
+    "boto3",
+    "pillow",
+    "cloudinary",
+    "wheel"
+]
+requires-python = ">=3.7"
+authors = [
+  {name = "Samson Ilemobayo", email = "ilemobayosamson@gmail.com"},
+]
+maintainers = [
+  {name = "Samson Ilemobayo", email = "ilemobayosamson@gmail.com"}
+]
+description = "TwoFa is a Python library designed to make two-factor authentication (2FA) integration seamless and secure for applications."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["security", "2fa", "twofa", "authentication"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/finedevsam/two-fa"
+Documentation = "https://github.com/finedevsam/two-fa"
+Repository = "https://github.com/finedevsam/two-fa.git"
+"Bug Tracker" = "https://github.com/finedevsam/two-fa/issues"

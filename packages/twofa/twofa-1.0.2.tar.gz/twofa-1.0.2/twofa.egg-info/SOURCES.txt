@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+twofa/__init__.py
+twofa/auth.py
+twofa/core.py
+twofa.egg-info/PKG-INFO
+twofa.egg-info/SOURCES.txt
+twofa.egg-info/dependency_links.txt
+twofa.egg-info/requires.txt
+twofa.egg-info/top_level.txt

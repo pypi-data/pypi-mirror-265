@@ -1,0 +1,7 @@
+pyqrcode
+qrcode
+pyotp
+boto3
+pillow
+cloudinary
+wheel
