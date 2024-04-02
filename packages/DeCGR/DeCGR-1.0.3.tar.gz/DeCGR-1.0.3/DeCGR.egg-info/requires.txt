@@ -1,0 +1,10 @@
+pandas==2.2.0
+pyBigWig==0.3.22
+scikit-learn==1.4.0
+PyQt5==5.15.10
+numpy==1.26.3
+iced==0.5.13
+cooler==0.9.3
+pomegranate==0.14.8
+matplotlib==3.8.2
+sortedcontainers==2.4.0
