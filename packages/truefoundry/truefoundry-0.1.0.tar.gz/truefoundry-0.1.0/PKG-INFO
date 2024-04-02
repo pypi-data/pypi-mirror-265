@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: truefoundry
+Version: 0.1.0
+Summary: Truefoundry CLI
+Author: Abhishek Choudhary
+Author-email: abhichoudhary06@gmail.com
+Requires-Python: >=3.8,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: ml
+Requires-Dist: mlfoundry (==0.10.7) ; extra == "ml"
+Requires-Dist: servicefoundry (==0.10.1)
+Description-Content-Type: text/markdown
+
+# truefoundry-cli
