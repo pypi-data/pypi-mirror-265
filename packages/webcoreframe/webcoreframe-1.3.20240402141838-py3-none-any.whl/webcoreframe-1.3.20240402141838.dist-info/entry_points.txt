@@ -1,0 +1,3 @@
+[console_scripts]
+webcoreframe = webcoreframe.utils.command:cli
+
