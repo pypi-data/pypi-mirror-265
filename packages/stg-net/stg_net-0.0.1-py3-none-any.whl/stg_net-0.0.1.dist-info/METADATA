@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: stg-net
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/weirdoglh/stg-net#readme
+Project-URL: Issues, https://github.com/weirdoglh/stg-net/issues
+Project-URL: Source, https://github.com/weirdoglh/stg-net
+Author-email: weirdoglh <lihaog@kth.se>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: numpy>=1.21.0
+Description-Content-Type: text/markdown
+
+# stg-net
+
+[![PyPI - Version](https://img.shields.io/pypi/v/stg-net.svg)](https://pypi.org/project/stg-net)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stg-net.svg)](https://pypi.org/project/stg-net)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install stg-net
+```
+
+## License
+
+`stg-net` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
