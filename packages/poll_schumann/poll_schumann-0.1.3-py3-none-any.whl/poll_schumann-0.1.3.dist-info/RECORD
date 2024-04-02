@@ -1,0 +1,16 @@
+poll_schumann/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poll_schumann/data/aircraft_engine_params.csv,sha256=lZ_gzhOfB-Ul8VUnzyiffYyLTRJ3wab1rlOgh_N-byA,14679
+poll_schumann/engine_loader.py,sha256=EjqcyJudPLWZKUjPZ-w_xN0kP0pAutjjieFtpwfmNF4,2774
+poll_schumann/parameters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poll_schumann/parameters/aircraft_parameters.py,sha256=1p23-Y2pzKNfbFeRXYMEUFWV_gRry-0FiOnwmXKYloU,2847
+poll_schumann/parameters/atmospheric_parameters.py,sha256=Z6vorwxir_am8yN24wIi32u2TcEtHe5c8QjlHSuDE6o,14835
+poll_schumann/parameters/constants.py,sha256=B9d9RQAOVquveusSVZtGbAZI6f0l2kZ4B86hZIaUrPk,481
+poll_schumann/parameters/jet.py,sha256=iJWfrXumr407NX8UdKrzKi4icFFGqCJP2FaUycCxYf0,3024
+poll_schumann/parameters/operational_limits.py,sha256=oh8Xg9Ss7pT4bIMj6lrhdtpF9reSicYoR2M8hw8bSCw,3097
+poll_schumann/parameters/units.py,sha256=XTF1WusdM1NSzB3BHh8j407kqFPz3rKXRv64SI60pUY,1964
+poll_schumann/pollschumann.py,sha256=IvkfmOagj4Ew_QFMbwuYDf_st-gnjSka2QoCTaEsYiE,5399
+poll_schumann/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poll_schumann/utils/aero.py,sha256=KJzCQWjFOnLn52m8mPHw6FgBT6E6cdUVeNAwNlzk36M,51
+poll_schumann-0.1.3.dist-info/METADATA,sha256=O55sxuRc09_Hfssn876crgPIDV3L2rY0DU5RdI-ihXE,713
+poll_schumann-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poll_schumann-0.1.3.dist-info/RECORD,,
