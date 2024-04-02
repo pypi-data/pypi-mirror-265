@@ -1,0 +1,7 @@
+.git
+__pycache__
+*.egg-info
+venv
+.tox
+.pytest_cache
+.aws_lambda_bundler
