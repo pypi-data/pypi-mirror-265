@@ -1,0 +1,5 @@
+immutabledict<5,>=4
+
+[pydantic]
+pydantic<3,>=2
+pydantic_core<3,>=2
