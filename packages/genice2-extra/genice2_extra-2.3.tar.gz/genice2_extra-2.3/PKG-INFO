@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: genice2-extra
+Version: 2.3
+Summary: Official extra format plugins for GenIce2.
+License: MIT
+Author: vitroid
+Author-email: vitroid@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: genice2-cage (>=2.3)
+Requires-Dist: genice2-cif (>=2.2)
+Requires-Dist: genice2-mdanalysis (>=0.7)
+Requires-Dist: genice2-svg (>=2.4.1)
+Description-Content-Type: text/markdown
+
+![Logo](https://raw.githubusercontent.com/vitroid/GenIce/develop/logo/genice-v0.png)
+
+# [genice2-extra](https://github.com/vitroid/genice-extra)
+
+Installs all official extra-plugins for [GenIce2](https://github.com/vitroid/GenIce).
+
+version 2.3
+
+## Requirements
+
+* python^3.9
+* genice2-cage>=2.3
+* genice2-cif>=2.2
+* genice2-mdanalysis>=0.7
+* genice2-svg>=2.4.1
+
+
+## Install from PyPI
+
+    % pip install genice2-extra
+
+
