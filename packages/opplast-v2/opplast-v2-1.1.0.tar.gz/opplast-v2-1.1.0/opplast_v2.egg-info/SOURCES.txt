@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+opplast/__init__.py
+opplast/constants.py
+opplast/exceptions.py
+opplast/logging.py
+opplast/upload.py
+opplast_v2.egg-info/PKG-INFO
+opplast_v2.egg-info/SOURCES.txt
+opplast_v2.egg-info/dependency_links.txt
+opplast_v2.egg-info/requires.txt
+opplast_v2.egg-info/top_level.txt
