@@ -1,0 +1,7 @@
+gstop/__init__.py,sha256=qKNy6Pgziz8_U6jyLexNAmtH4XwfAKnxAJZZxxyRqd0,179
+gstop/common.py,sha256=PYuH13B58zu7z6_qHfban5mAy3N6xM-_EXLZ3-w5000,772
+gstop/stopper.py,sha256=nDLRYGeeErz613nRKnmb0AveXPvJflCltVY0F4hfspc,2652
+gstop-0.2.3.dist-info/METADATA,sha256=KBbzJgJdRHDQxOMotSv986rMjARfGicCcmciQOakMAI,2834
+gstop-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gstop-0.2.3.dist-info/top_level.txt,sha256=yvs6LXqKu4xx-r6DUjuaGQHLmQeBg_7QuPCbRNHyWdc,6
+gstop-0.2.3.dist-info/RECORD,,
