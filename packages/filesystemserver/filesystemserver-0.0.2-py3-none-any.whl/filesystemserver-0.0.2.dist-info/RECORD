@@ -1,0 +1,10 @@
+filesystemserver/__init__.py,sha256=Gcu-a-BjAcI0Hlgj0a5pGI9dsWpIjJVdZmuH4jdKztM,82
+filesystemserver/filesystemserver.py,sha256=N15DZJ3PQp9pBHozttmPcbGV1VjxpoTWMHutOr49jzQ,10465
+filesystemserver/data/plugin/fss/fss.js,sha256=YRUEiRrwDoL41N-f36RW1ZNi_oRK5Sz_gZGL9As-KLc,1077
+filesystemserver/data/plugin/fss/browser/app.js,sha256=lPxnz5XHxffU4JsRiojfLuJbdaST2F8lmaBqNqSopKs,1736
+filesystemserver/data/plugin/fss/browser/index.html,sha256=_zmLpfWfymdyChtxk_wk9RDNSqGiyttcwEzsZKna2Rs,814
+filesystemserver-0.0.2.dist-info/METADATA,sha256=socM7Mcl0eSlTiEWKz3j9xSe8FP_iD57yI8NdHpIlUQ,2318
+filesystemserver-0.0.2.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+filesystemserver-0.0.2.dist-info/entry_points.txt,sha256=v8bckKCYnwAeArNNyRB1mYpv_LCSZHDKQDWPypN0tf8,46
+filesystemserver-0.0.2.dist-info/licenses/LICENSE,sha256=Ks3vDJNeEsRGdqidSQvxrke32irrL4Xez7qVE4DBEik,1058
+filesystemserver-0.0.2.dist-info/RECORD,,
