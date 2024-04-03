@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: lmwrapper
+Version: 0.3.2
+Summary: Wrapper around language model APIs
+Author: David Gros
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Requires-Dist: openai (~=0.27.0)
+Requires-Dist: setuptools
+Requires-Dist: termcolor (~=1.0)
+Requires-Dist: diskcache
+Requires-Dist: joblib (~=1.1)
+Requires-Dist: tiktoken (~=0.4)
+Provides-Extra: huggingface
+Requires-Dist: transformers (>=4.31.0) ; extra == 'huggingface'
+Requires-Dist: torch (>=2.0) ; extra == 'huggingface'
+Requires-Dist: accelerate (>=0.21.0) ; extra == 'huggingface'
+Provides-Extra: ort
+Requires-Dist: transformers (>=4.31.0) ; extra == 'ort'
+Requires-Dist: torch (>=2.0) ; extra == 'ort'
+Requires-Dist: accelerate (>=0.21.0) ; extra == 'ort'
+Requires-Dist: onnx (>=1.14.0) ; extra == 'ort'
+Requires-Dist: datasets (>=2.14.4) ; extra == 'ort'
+Requires-Dist: evaluate (>=0.4.0) ; extra == 'ort'
+Requires-Dist: xformers (>=0.0.20) ; extra == 'ort'
+Requires-Dist: peft (>=0.4.0) ; extra == 'ort'
+Requires-Dist: optimum[onnxruntime] (>=1.11.0) ; extra == 'ort'
+Provides-Extra: ort-gpu
+Requires-Dist: transformers (>=4.31.0) ; extra == 'ort-gpu'
+Requires-Dist: torch (>=2.0) ; extra == 'ort-gpu'
+Requires-Dist: accelerate (>=0.21.0) ; extra == 'ort-gpu'
+Requires-Dist: onnx (>=1.14.0) ; extra == 'ort-gpu'
+Requires-Dist: datasets (>=2.14.4) ; extra == 'ort-gpu'
+Requires-Dist: evaluate (>=0.4.0) ; extra == 'ort-gpu'
+Requires-Dist: xformers (>=0.0.20) ; extra == 'ort-gpu'
+Requires-Dist: peft (>=0.4.0) ; extra == 'ort-gpu'
+Requires-Dist: optimum[onnxruntime-gpu] (>=1.11.0) ; extra == 'ort-gpu'
+
+UNKNOWN
+
