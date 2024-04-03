@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "automl-tools"
+version = "0.1.0"
+description = ""
+authors = ["jonathan <jony327@gmail.com>"]
+readme = "README.md"
+packages = [{include = "automl_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+prettytable = "^3.10.0"
+optbinning = "^0.19.0"
+psutil = "^5.9.8"
+xgboost = "^2.0.3"
+lightgbm = "^4.1.0"
+catboost = "^1.2.3"
+category-encoders = "^2.6.3"
+hyperopt = "^0.2.7"
+colorama = "^0.4.6"
+tabulate = "^0.9.0"
+certifi = "^2024.2.2"
+pandas = "1.5.3"
+wheel = "0.40"
+setuptools = "58.2.0"
+scikit-learn = "1.2.2"
+numpy = "1.25.2"
+seaborn = "0.13.1"
+
+
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
