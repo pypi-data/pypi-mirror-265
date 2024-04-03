@@ -1,0 +1,5 @@
+[console_scripts]
+sentAnalize=spln_sentiment_analysis:main
+sentAnalize-calibrate=spln_sentiment_analysis:calibrate
+sentAnalize-init=spln_sentiment_analysis:init
+
