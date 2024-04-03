@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lxt/__init__.py
+lxt.egg-info/PKG-INFO
+lxt.egg-info/SOURCES.txt
+lxt.egg-info/dependency_links.txt
+lxt.egg-info/requires.txt
+lxt.egg-info/top_level.txt
