@@ -1,0 +1,6 @@
+llama_index/llms/watsonx/__init__.py,sha256=HRAzxvpSoFdJZQkR-A29oS7P4yK4Qq3y7wXTPl3ovC4,73
+llama_index/llms/watsonx/base.py,sha256=ZJsKGJ1T7ckn1jAKQN-56lnejMXr5lYeNTndTVtRAKw,7907
+llama_index/llms/watsonx/utils.py,sha256=taIMWXVGUCUYgWd6Im70CmibNkP9IrN1xL5pf7f2aTg,1518
+llama_index_llms_watsonx-0.1.5.dist-info/METADATA,sha256=tORPFfLofLPvEMbdhn0ZzK15Yvw6WrjmwVyCxN3-gSA,606
+llama_index_llms_watsonx-0.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_llms_watsonx-0.1.5.dist-info/RECORD,,
