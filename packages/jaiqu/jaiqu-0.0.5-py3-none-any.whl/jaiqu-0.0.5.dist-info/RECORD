@@ -1,0 +1,11 @@
+jaiqu/__init__.py,sha256=wU-Qns2oYqkxPW5BeZCzbf7REltNZE5mRNjPHGBpy2s,53
+jaiqu/cli.py,sha256=tMcq606jQpwHLZEdm588L-gixv_O-bzjUKoOVkU7qvs,1601
+jaiqu/helpers.py,sha256=IuOVPMmY8_jgpjoApVc4bV1e8DufnNNOUJUaBGCOhQA,5861
+jaiqu/jaiqu.py,sha256=1_1I8PKuf8ZuxTNQKx9LzhHG9ML-fW5z7UeGJZnjmfs,5549
+jaiqu/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaiqu-0.0.5.dist-info/LICENSE,sha256=FkBt4Ch_Zcvd72kGRyj2jJm7_vfRTtoSUGPrcX9CUAE,1065
+jaiqu-0.0.5.dist-info/METADATA,sha256=cLOJbaMrzGP9OTbyTG8kaPDsbGZFrP25qWMKgPzIFXo,6654
+jaiqu-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jaiqu-0.0.5.dist-info/entry_points.txt,sha256=cmS6K8KylI-yZb2gjm_pRJS-ymJc5pyJfvwppYl71ik,41
+jaiqu-0.0.5.dist-info/top_level.txt,sha256=fgzJoEPwOrABej9N9XxMLwgGwAgh5SbPM_cPmIGRUqw,6
+jaiqu-0.0.5.dist-info/RECORD,,
