@@ -1,0 +1,91 @@
+:py:mod:`byma.pyplot.plots`
+===========================
+
+.. py:module:: byma.pyplot.plots
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   byma.pyplot.plots.plot_numerical_error
+   byma.pyplot.plots.plot_loglog_convergence
+   byma.pyplot.plots.plot_scale
+   byma.pyplot.plots.plot
+
+
+
+.. py:function:: plot_numerical_error(n, func, solve_func, save_title=None, save_path=None, **kwargs)
+
+   Plot the numerical error between the exact and numerical solutions and print the maximum error.
+
+   Parameters:
+       n (int): Number of grid points.
+       func (object): Instance of the class containing the exact solution.
+       solve_func (function): Function to solve the system.
+       save_title (str): file name plot
+       save_path (str): Path to save the plot. If None, the plot will be saved in the current directory.
+       **kwargs: Additional keyword arguments to customize the plot and title for saving.
+
+
+.. py:function:: plot_loglog_convergence(step, erros, **kwargs)
+
+   Plot the convergence of error using log-log scale for (non)-equidistant grids.
+
+   Parameters:
+       step (array-like): Array of step sizes for grid 1.
+       erro (array-like): Array of errors for grid 1.
+       **kwargs:
+           stept (array-like): Array of step sizes fro grid 2.
+           errot (array-like): Array of errors for grid 2.
+           title (str): Title of the plot.
+           x_label (str): Label for the x-axis.
+           y_label (str): Label for the y-axis.
+           label1 (str): Label for grid 1.
+           label2 (str): Label for grid 2.
+           save_title (str): file name plot
+           save_path (str): Path to save the plot. If None, the plot will be saved in the current directory.
+
+
+.. py:function:: plot_scale(x, y, label, scale, style=None)
+
+   Plot data with specified scale and style.
+
+   Parameters:
+       x (array-like): Data points for the x-axis.
+       y (array-like): Data points for the y-axis.
+       label (str): Label for the data.
+       scale (str): Scale for the plot. Options: 'normal', 'loglog', 'xlog', 'ylog'.
+       style (dict or None): Dictionary specifying line style. If None, default style is used.
+
+
+.. py:function:: plot(x, y, **kwargs)
+
+   Function that create plots of different kinds. With this function it is possible to plots n numbers of 
+   function in the same figure quickly and with high personalization. 
+
+   Parameters:
+       x (array-like): Array of x values.
+       y (array-like): Array of y values.
+       **kwargs:
+           settings (dict): Overall plot settings.
+               title (str): Title of the plot.
+               xlabel (str): Label for the x-axis.
+               ylabel (str): Label for the y-axis.
+               label (str):  Label for the 1st function.
+               label{i} (str): Label for the ith function from i=2.
+               x{i} (array-like): Array of x values for the ith function from i=2.
+               y{i} (array-like): Array of y values for the ith function from i=2.
+               save_title (str): File name to save the plot.
+               save_path (str): Path to save the plot. If None, the plot will be saved in the current directory.
+               scale (str): Scale for the plot. Options: 'normal', 'loglog', 'xlog', 'ylog'.
+           style (dict or list of dicts): Line style(s) for the plot. (Not yet working)
+           
+   N.B Every element in the settings dict can be used as a normal kwargs when calling the function.
+
+
