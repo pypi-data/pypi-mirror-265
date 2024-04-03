@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE.bsd3
+LICENSE.lgpl-2.1+
+README.md
+setup.py
+./smartleia/__init__.py
+./smartleia/__main__.py
+./smartleia/test_applet.py
+smartleia.egg-info/PKG-INFO
+smartleia.egg-info/SOURCES.txt
+smartleia.egg-info/dependency_links.txt
+smartleia.egg-info/requires.txt
+smartleia.egg-info/top_level.txt
+tests/test_smartleia.py
