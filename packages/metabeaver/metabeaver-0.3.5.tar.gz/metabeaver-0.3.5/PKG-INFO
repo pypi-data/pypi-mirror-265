@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: metabeaver
+Version: 0.3.5
+Summary: Beaverish about data. 
+Home-page: https://github.com/rainbowpusheenthe3rd/dataBeaver
+Author: Luke Anthony Pollen
+Author-email: luke@pollenanalytics.com
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-core
+Requires-Dist: numpy
+Requires-Dist: pandas
