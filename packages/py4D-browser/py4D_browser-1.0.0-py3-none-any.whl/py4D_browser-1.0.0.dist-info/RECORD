@@ -1,0 +1,17 @@
+py4D_browser/__init__.py,sha256=GfIiN75vea6ic6-aVVnEcOlQaSi2XaabyjRXsPpMi-A,48
+py4D_browser/empad2_reader.py,sha256=Uj24FNtqyTwxDmPN2fkrJOMbhdr1UhCd9emRULmD3Sc,2821
+py4D_browser/help_menu.py,sha256=KvYv-Bt_qvJQ_FaRXC0FWY5Cf2Nu8xkz4aWVBV1IjB0,1212
+py4D_browser/logo.png,sha256=Aw509-IVHJgdc0ychi4e49b67jSX7PcFqMxFuP1VEMo,140395
+py4D_browser/main_window.py,sha256=LennZaWXkQw6U2UkThAE2dVooKnPlKeiCct-fSmPxio,22452
+py4D_browser/menu_actions.py,sha256=XIo5CBxFKlR-s_GLiKe3jWDvnQvX9NtGXs6ySv_1bcI,11439
+py4D_browser/py4DGUI-keymap.png,sha256=q_7qCmwqFiLNLHbLYxHSmGTMHsEW4dS74mcOUgwALzk,161818
+py4D_browser/runGUI.py,sha256=LFrJu3RC4WPyUaczRsIYPjDNO7RFN3e-5hZEMZLZK1g,271
+py4D_browser/scalebar.py,sha256=jaATPR3oGsj6yQ_XnWum3VtyVb0v3KZ8qFCOGSUhJq4,3167
+py4D_browser/update_views.py,sha256=hvFLRf3w7qA9V75T0drGRErYzPUnK4QR7GOC9vcwHAE,19284
+py4D_browser/utils.py,sha256=8GJ0rZrYvBQtdx11H8hJy988rH2SMdA8w7aXbHscDI4,7326
+py4D_browser-1.0.0.dist-info/LICENSE.txt,sha256=WtJyzQeh1MvrI0J5mS41iKW5xRwFlCChdxC-SOGiRzM,35134
+py4D_browser-1.0.0.dist-info/METADATA,sha256=CGoGfi8PtmegUQXsdtJFgELzXQ6GgjUvxIhn_fVtXXk,3882
+py4D_browser-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+py4D_browser-1.0.0.dist-info/entry_points.txt,sha256=pv-Ft2Qf6cAD1KMgdPnIKyEbwcI6ikjT0fwGSRkNW6A,55
+py4D_browser-1.0.0.dist-info/top_level.txt,sha256=iOR-dOVYkbfcpRrBb-R5kQ50Frv_YFCbZi4a04Qc9Es,13
+py4D_browser-1.0.0.dist-info/RECORD,,
