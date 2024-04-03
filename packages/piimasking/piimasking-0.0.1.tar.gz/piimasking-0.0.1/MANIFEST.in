@@ -1,0 +1,8 @@
+include piimasking/*.jpg
+include piimasking/*.jpeg
+include piimasking/*.png
+include piimasking/*.xml
+include piimasking/*.h5
+include piimasking/*.json
+include piimasking/*.tar.gz
+include piimasking/icons/*.png
