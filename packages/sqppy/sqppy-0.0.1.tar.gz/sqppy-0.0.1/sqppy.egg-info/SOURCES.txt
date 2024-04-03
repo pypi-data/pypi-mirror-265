@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+SQLSadra/__init__.py
+SQLSadra/main.py
+sqppy.egg-info/PKG-INFO
+sqppy.egg-info/SOURCES.txt
+sqppy.egg-info/dependency_links.txt
+sqppy.egg-info/top_level.txt
