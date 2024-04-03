@@ -1,0 +1,4 @@
+[console_scripts]
+main=menu_cli_fz.main:main
+seb-menu=menu_cli_fz.__main__:main
+
