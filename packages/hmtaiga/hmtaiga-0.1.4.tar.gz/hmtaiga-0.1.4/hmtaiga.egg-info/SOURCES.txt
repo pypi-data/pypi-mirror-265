@@ -1,0 +1,12 @@
+setup.py
+hmtaiga.egg-info/PKG-INFO
+hmtaiga.egg-info/SOURCES.txt
+hmtaiga.egg-info/dependency_links.txt
+hmtaiga.egg-info/top_level.txt
+tasks/__init__.py
+tasks/get_task_history.py
+tasks/get_tasks.py
+test/__init__.py
+test/test_getProjectBySlug.py
+test/test_get_task_history.py
+test/test_get_tasks.py
