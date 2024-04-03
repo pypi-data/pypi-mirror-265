@@ -1,0 +1,55 @@
+Metadata-Version: 2.3
+Name: han2kip
+Version: 0.1.2
+Summary: han2kip is a package for converting Taiwanese Hokkien Hanzi to its phonetic representation.
+Project-URL: Homepage, https://github.com/juliaouo/han2kip
+Author: 林怡萱, 林柏廷
+License: MIT License
+        
+        Copyright (c) 2024 juliaouo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jieba>=0.42.1
+Description-Content-Type: text/markdown
+
+# han2kip
+han2kip is a package for converting Taiwanese Hokkien Hanzi (HAN) to its phonetic representation, Kàu-io̍k-pōo Tâi-lô (KIP).
+
+## Installing
+```
+$ pip install han2kip
+```
+
+## Usage
+```python
+from han2kip import kip_converter
+
+# HAN sentence
+sentence = '今仔日天氣真好'
+print(kip_converter.translate(sentence))
+"kin-á-ji̍t thinn-khì tsin-hó"
+
+sentence = ['今仔日天氣真好，小明！', '風真透~', '愛你一世人']
+print(kip_converter.translate(sentence))
+"['kin-á-ji̍t thinn-khì tsin-hó，sió-bîng！', 'hong tsin-thàu~', 'ài lí tsi̍t-sì-lâng']"
+```
