@@ -1,0 +1,9 @@
+{
+    "options": {
+        "step": {
+            "init": {
+                "description": "Configurar as defini\u00e7\u00f5es gerais"
+            }
+        }
+    }
+}
