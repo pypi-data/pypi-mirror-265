@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: verysimpletest
+Version: 0.0.2
+Summary: My First Test Python package
+Author: LinkunGao
+Author-email: gaolinkun123@gmail.com
+Keywords: python,test
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+
+This is my first test python package. Maybe use it as a template later.
