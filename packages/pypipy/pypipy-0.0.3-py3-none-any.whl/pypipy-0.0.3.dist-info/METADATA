@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pypipy
+Version: 0.0.3
+Summary: oss-dev my pypi 0.0.3
+Home-page: https://github.com/BOJ-ios/pypipy
+Download-URL: https://github.com/BOJ-ios/pypipy/archive/refs/tags/v0.0.3.zip
+Author: mingyukim
+Author-email: 843850@donga.ac.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+oss-dev pypi python module
