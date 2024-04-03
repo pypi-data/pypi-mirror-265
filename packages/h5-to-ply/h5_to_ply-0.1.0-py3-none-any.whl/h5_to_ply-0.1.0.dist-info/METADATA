@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: h5_to_ply
+Version: 0.1.0
+Summary: Converts Gaussians Splats from HDF5 to PLY format
+Author-email: Ruben Hohndorf <ruben.hohndorf@gmail.com>
+Project-URL: Homepage, https://github.com/404-Repo/h5_to_ply
+Project-URL: Issues, https://github.com/404-Repo/h5_to_ply/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: h5py ==3.10.0
+Requires-Dist: plyfile ==1.0.3
+
+# HDF5 to PLY Gaussian Splat Convertor
+This project provides functions to convert gaussian splats stored in HDF5 format to PLY format. 
+
+
+## Installation
+You can install the required dependencies using pip:
+```
+pip install h5_to_ply
+```
+
+
+## Usage
+```python
+h5file_path = "/path/to/model.h5"
+plyfile_path = "/path/to/model.ply"
+in_buffer: BytesIO = BytesIO()
+out_buffer: BytesIO = BytesIO()
+
+with open(h5file_path, "rb") as f:
+    in_buffer = BytesIO(f.read())
+
+with open(plyfile_path, "wb") as f:
+    convert_h5_to_ply(in_buffer, out_buffer)
+    out_buffer.seek(0)
+    f.write(out_buffer.getbuffer())
+```
