@@ -1,0 +1,3 @@
+[console_scripts]
+deleo=deleo.__main__:main
+
