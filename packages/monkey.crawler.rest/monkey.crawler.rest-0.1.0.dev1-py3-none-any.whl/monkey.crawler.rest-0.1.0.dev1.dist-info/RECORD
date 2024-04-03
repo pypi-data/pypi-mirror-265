@@ -1,0 +1,10 @@
+monkey/__init__.py,sha256=oZ9fvH9Rg-hMbVPk45jhS7NyB7lLkY7OH025Em0ylIM,84
+monkey/crawler/__init__.py,sha256=oZ9fvH9Rg-hMbVPk45jhS7NyB7lLkY7OH025Em0ylIM,84
+monkey/crawler/rest/__init__.py,sha256=oZ9fvH9Rg-hMbVPk45jhS7NyB7lLkY7OH025Em0ylIM,84
+monkey/crawler/rest/crawlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monkey/crawler/rest/crawlers/api.py,sha256=Ia-eYPx81kdoymr04JUpJpsJbzZYkHS1m_s4y2XDRyo,1161
+monkey.crawler.rest-0.1.0.dev1.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+monkey.crawler.rest-0.1.0.dev1.dist-info/METADATA,sha256=QS3Y69OM_e8Rr_VlcXzmUruSNeLw6Uk5dLQKsu6BkGY,14088
+monkey.crawler.rest-0.1.0.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+monkey.crawler.rest-0.1.0.dev1.dist-info/top_level.txt,sha256=Wm5IEF_qdczMxmoDgxjzmMQnYUldc4eG3IptQxeaoWo,7
+monkey.crawler.rest-0.1.0.dev1.dist-info/RECORD,,
