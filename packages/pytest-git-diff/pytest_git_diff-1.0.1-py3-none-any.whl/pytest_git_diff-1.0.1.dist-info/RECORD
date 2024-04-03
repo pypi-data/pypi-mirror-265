@@ -1,0 +1,12 @@
+pytest_git_diff/__init__.py,sha256=jGoFEcOiEbWRTB_JMNe8w5LiNS6ykpZq6PU2kr34y14,68
+pytest_git_diff/_version.py,sha256=9C8U_kMX0x98w3CUW1G2vm12pYBsE-TE72pXihbWYqU,18
+pytest_git_diff/affected_files.py,sha256=3wxV0jQDSvydKy2q_TN3KDu3dGTVZsnVm1xEQzTRS7M,1498
+pytest_git_diff/changed_files.py,sha256=I77nYvpYUTrDsodVJxxruVO8X_9gbxtvj2W9e0dY8x4,1638
+pytest_git_diff/dependencies.py,sha256=BNCtHDVLS_ZfHOzphXlf5xMzM_4SoBOHETMbsKEhozo,3142
+pytest_git_diff/plugin.py,sha256=TqzCw4OvlTeJTB8_snAGSqN2qmJwe_5xa_z0y65Iluw,1589
+pytest_git_diff/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_git_diff-1.0.1.dist-info/LICENSE,sha256=tKjzvj6hxnMRL5OIaoozSyI208ZSkcHKZkOXIiW9FSs,1065
+pytest_git_diff-1.0.1.dist-info/METADATA,sha256=-n6Du_MyJ4-qVz19iy5CRFfA2I8D58K4UDIBY916Bs0,2142
+pytest_git_diff-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytest_git_diff-1.0.1.dist-info/entry_points.txt,sha256=AQncIr-EtFe5EW0lnUOgMJRu-irjVbf_lK3KZErufWA,44
+pytest_git_diff-1.0.1.dist-info/RECORD,,
