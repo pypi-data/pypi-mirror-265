@@ -1,0 +1,2 @@
+eth_tester==0.10.0b4
+py-evm==0.10.0b4
