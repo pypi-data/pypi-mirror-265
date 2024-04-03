@@ -1,0 +1,12 @@
+redocmx/__init__.py,sha256=yI3fx6tyAEpdZ0i0YHXqhbw5XWy8k1CEfTVhtVnyHa8,32
+redocmx/addenda.py,sha256=6JB3taXjbrpaQgbgVhVly2wE4umQFZRuold6LHrGNvU,511
+redocmx/cfdi.py,sha256=3eRySlWKe2iUXNngKTvllUmEnIuCHcWey8tJOjJvvnY,1319
+redocmx/file.py,sha256=JJ4vM70D0ELoM_VXex2WxlE1ys1oGQmFcnCqoIFD1pI,924
+redocmx/pdf.py,sha256=UdJoyqu1npTQVTxUReaddCfBGCjhAp1weUPAoRNCpg8,574
+redocmx/redoc.py,sha256=P08M-jr9IuNlhuEP2JN7X1M4XxMu4Mg7OQ9q8BFRuQ8,341
+redocmx/service.py,sha256=9vP7DH-1rogBczMWnIVWnFAp1vIOhu0GQojVqNEzyiY,1967
+redocmx-0.0.2.dist-info/LICENSE,sha256=88a0PeNg2RQUMfoih8CLuF7lBsH22cucxEFKvP7iWdg,1064
+redocmx-0.0.2.dist-info/METADATA,sha256=_EswJF5HoFmMlX59dMsUIY6v0S-4BSpDKTJzvEvytJk,4899
+redocmx-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+redocmx-0.0.2.dist-info/top_level.txt,sha256=UcREZ3mq1g4cwRTuXS_FDAwfHxdH0tgXVA1gIOCyZf4,8
+redocmx-0.0.2.dist-info/RECORD,,
