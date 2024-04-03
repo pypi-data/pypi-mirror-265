@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: obsinthe
+Version: 0.0.2
+Summary: 
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Provides-Extra: ml
+Provides-Extra: test
+Provides-Extra: vis
+Requires-Dist: cufflinks ; extra == "vis" or extra == "all"
+Requires-Dist: pandas
+Requires-Dist: plotly ; extra == "vis" or extra == "all"
+Requires-Dist: pyarrow
+Requires-Dist: requests
+Requires-Dist: responses ; extra == "test" or extra == "all"
+Requires-Dist: scikit-learn ; extra == "ml" or extra == "all"
+Requires-Dist: tqdm
+Requires-Dist: umap-learn ; extra == "ml" or extra == "all"
