@@ -1,0 +1,10 @@
+Click>=7.0
+torch
+torch_geometric
+pytorch_lightning
+kaggle
+polars
+numpy
+huggingface_hub
+seaborn
+networkx
