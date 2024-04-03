@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# (c) Sebastian Kapfer, 2015
+# vim: et:ts=4
+
+from pathlib import Path
+
+RUBBER_BIN_DIR = Path(__file__).parent.absolute()
+POTENTIAL_RUBBER_SOURCE_TREE_PYTHONPATH = RUBBER_BIN_DIR.parent
+POTENTIAL_RUBBER_MODULE_DIR = POTENTIAL_RUBBER_SOURCE_TREE_PYTHONPATH / 'rubber'
+if Path(POTENTIAL_RUBBER_MODULE_DIR / '__init__.py').is_file():
+    RUBBER_SOURCE_TREE_PYTHONPATH = str(POTENTIAL_RUBBER_SOURCE_TREE_PYTHONPATH)
+    print(f"Rubber invoked from VCS, prepending {RUBBER_SOURCE_TREE_PYTHONPATH} to sys.path")
+    import sys
+    if RUBBER_SOURCE_TREE_PYTHONPATH not in sys.path:
+        sys.path.insert(0, RUBBER_SOURCE_TREE_PYTHONPATH)
+
+import rubber.cmdline
+
+rubber.cmdline.main(command_name=rubber.cmdline.RUBBER_PLAIN)
