@@ -1,0 +1,9 @@
+asyncio_pool/__init__.py,sha256=g6vAkoVeGSR7lOp2_dUzXJrE9wbnEdjbOjh2UYUej_k,202
+asyncio_pool/_pool.py,sha256=8VPtEdFq9YeuJb7ev2ZzU71kUVuhoYoXaBAQVNjOwJM,9966
+asyncio_pool/_typing.py,sha256=FOKmvrGtGCb0mvVCcJNN5Q9DAAAJ-MdBsCphwK0dJMg,244
+asyncio_pool/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncio_pool_ng-0.8.1.dist-info/LICENSE,sha256=F06qERXHCEZqiBj7bDw7-fh31dknt_tvm4pHLh9922w,1067
+asyncio_pool_ng-0.8.1.dist-info/METADATA,sha256=5KNRFKZTsmzK6MO2EDoh2utmvQz1nWnCw8Rq3xuI2Us,4780
+asyncio_pool_ng-0.8.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+asyncio_pool_ng-0.8.1.dist-info/entry_points.txt,sha256=4FuhUqUutk1Kpe6n3qhh9uGtcAW5KYop0gmPmw7QWGo,38
+asyncio_pool_ng-0.8.1.dist-info/RECORD,,
