@@ -1,0 +1,129 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "skymantle_boto_buddy"
+version = "0.3.0"
+dependencies=[]
+requires-python = ">=3.11"
+authors = [{ name = "Artin Yong-Bannayan", email = "ayongbannayan@skymantle.com" }]
+description = "A wrappper for boto3 to help access and test usage of common aws services."
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+]
+
+[project.optional-dependencies]
+boto = ["boto3"]
+
+[project.urls]
+Home = "https://github.com/skymantle-tech/skymantle-boto-buddy"
+Issues = "https://github.com/skymantle-tech/skymantle-boto-buddy/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.envs.default]
+features = ["boto"]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "pytest-mock",
+  "bandit",
+  "black",
+  "ruff",
+  "moto[s3,dynamodb,ssm,cloudformation,sts,logs]"
+]
+path = ".venv"
+
+[tool.black]
+line-length = 120
+
+[tool.bandit]
+skips = ['B324']
+exclude_dirs = [".venv", "tests", "dist"]
+
+[tool.ruff]
+exclude = [".venv"]
+target-version = "py311"
+line-length = 120
+lint.select = [
+  "A",
+  "B",
+  "C",
+  "DTZ",
+  "E",
+  "EM",
+  "F",
+  "FBT",
+  "I",
+  "ICN",
+  "ISC",
+  "N",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "Q",
+  "RUF",
+  "S",
+  "SIM",
+  "T",
+  "TID",
+  "UP",
+  "W",
+  "YTT",
+]
+lint.ignore = [
+  # Ignore checks for use `datetime.UTC` alias
+  "UP017",
+  # Ignore checks for f-string literal in exception message
+  "EM102",
+  # Ignore too many arguments in function definition
+  "PLR0913"
+]
+lint.unfixable = []
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.per-file-ignores]
+# Tests can use magic values, assertions, and relative imports
+"tests/**/*" = ["PLR2004", "S101", "I001"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+source = ["src"]
+omit = [
+    ".venv/*",
+    "tests/*"
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+markers = []
+
+[tool.hatch.build.targets.sdist]
+support-legacy = true
+exclude = [
+  "/.vscode",
+  "/.github",
+  ".gitignore",
+  "Makefile"
+]
