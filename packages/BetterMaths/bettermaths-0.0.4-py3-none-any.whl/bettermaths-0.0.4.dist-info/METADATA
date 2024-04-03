@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: BetterMaths
+Version: 0.0.4
+Summary: Python mathematics made easier
+Project-URL: Homepage, https://dhaiven.github.io/
+Project-URL: Documentation, https://github.com/Dhaiven/BetterMaths/wiki
+Project-URL: Repository, https://github.com/Dhaiven/BetterMaths
+Author-email: Dhaiven <bettermath.get.help@gmail.com>, algorythmTTV <bettermath.get.help@gmail.com>
+License-File: LICENSE
+Keywords: better,easier,easy,math,mathematics,simple
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.4
+Requires-Dist: sympy
+Description-Content-Type: text/markdown
+
+![BeterMaths Banner](https://github.com/Dhaiven/BetterMaths/blob/main/images/banner.png)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+> [!WARNING]
+> This module is in beta phase
+
+
+## Little documentation
+This module add ```Equation``` class that allow resolve equation in string
+```python
+# Create an equation
+equation = Equation("2+7*8cos(3)")
+# Resolve this equation
+equation.result() # 57.92325394625613
+```
+
+### Why use ```Equation``` and not ```eval``` ?
+- ```Equation``` is faster than ```eval``` (See [tests/main.py](https://github.com/Dhaiven/BetterMaths/blob/main/tests/main.py))
+- ```Equation``` support parenthese, mathematical formulas like ```cos``` and magics numbers like ```π```
+
+
+### See the [Wiki](https://github.com/Dhaiven/BetterMaths/wiki) for more documentations
+
+## Instalation
+Open your terminal and put ```pip install BetterMaths```
+<br> For upgrade the version, put ```pip install --upgrade BetterMaths```
+
+## Contribution
+BetterMaths accepts community contributions! <br>
+This contributions must case no error tests folder.
+Launch __init__ file, put ```y``` for take your changes and checks if there are error.
+
+## Authors
+  - <img src="https://www.github.com/Dhaiven.png" width="3%" height="3%"/> [@Dhaiven](https://www.github.com/Dhaiven) for code, optimisation and tests
+  - <img src="https://www.github.com/algorythmTTV.png" width="3%" height="3%"/> [@algorythmTTV](https://www.github.com/algorythmTTV) for images, site ans code

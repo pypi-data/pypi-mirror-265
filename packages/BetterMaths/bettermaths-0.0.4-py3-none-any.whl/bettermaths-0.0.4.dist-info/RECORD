@@ -1,0 +1,15 @@
+BetterMaths/__init__.py,sha256=phkQFinRRzJK5586ZStgfMmnwRF3fR55tmr7UWHTy2k,135
+BetterMaths/main.py,sha256=xLOoysO8ar_tMFsE6h9oxi1Uzqc4JFEBdD6IQFYgOZY,26874
+BetterMaths/main.pyi,sha256=ijta0ZduQTYRguH2RFPtpq4hky0CzgTQiSw3mAyFX_E,4962
+BetterMaths/geometry/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+BetterMaths/geometry/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BetterMaths/probability/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+BetterMaths/probability/main.py,sha256=p9A92Zn4_lbPJChaM_O825bBXlhN5VcqSuCIaSGn-NM,2908
+BetterMaths/sequences/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+BetterMaths/sequences/main.py,sha256=TAW3_XCAeaJu4e0wjiZjyOgBN1hhPIt2BmXPRmnVYE0,8308
+BetterMaths/solidGeometry/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+BetterMaths/solidGeometry/main.py,sha256=XqouBSdCSUld3kRH8XXId2HoZyKMw18NVwxpljPdzb0,14452
+bettermaths-0.0.4.dist-info/METADATA,sha256=8NMG0j8UtnqejI12JO7puY8XaCz0cyMN8n2a70fmbLM,2588
+bettermaths-0.0.4.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+bettermaths-0.0.4.dist-info/licenses/LICENSE,sha256=u82efjgvikN9MD_fUZkOZ9GkNLRNzXgGj_yx8DFHb-0,1087
+bettermaths-0.0.4.dist-info/RECORD,,
