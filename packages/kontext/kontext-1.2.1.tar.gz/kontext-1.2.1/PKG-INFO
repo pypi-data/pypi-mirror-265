@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: kontext
+Version: 1.2.1
+Summary: Easy contextual information logging
+Home-page: https://pypi.org/project/kontext
+License: MIT
+Keywords: contextvar,logging,context-logging
+Author: Danil Akhtarov
+Author-email: daxartio@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typing-extensions (>=4.5.0,<5.0.0)
+Project-URL: Changelog, https://github.com/daxartio/kontext/blob/main/CHANGELOG.md
+Project-URL: Repository, https://github.com/daxartio/kontext
+Description-Content-Type: text/markdown
+
+# Python Context Information
+
+[![PyPI](https://img.shields.io/pypi/v/kontext)](https://pypi.org/project/kontext/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/kontext)](https://www.python.org/downloads/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/daxartio/kontext)](https://github.com/daxartio/kontext)
+[![GitHub stars](https://img.shields.io/github/stars/daxartio/kontext?style=social)](https://github.com/daxartio/kontext)
+
+The plugin allows to transfer a context between functions. Inspired by [context-logging](https://github.com/Afonasev/context_logging).
+
+You can use it for logging data which does not change and can be correlated, e.g. `trace_id`, `correlation_id` etc.
+
+## Features
+
+- Thread-safe context management
+- Customizable log records
+- Easy-to-use API
+
+## Installation
+
+```
+pip install kontext
+```
+
+## Usage
+
+```python
+import logging
+
+from kontext import Context, current_context, setup_log_record
+
+logging.basicConfig(format="%(message)s %(kontext)s", level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+def bar():
+    current_context["foo"] = "bar"
+    logger.info("bar")
+
+
+@Context()
+def foo():
+    current_context["key"] = "value"
+    logger.info("foo")
+    bar()
+
+
+setup_log_record()
+foo()
+logger.info("Finish")
+# foo {'key': 'value'}
+# bar {'key': 'value', 'foo': 'bar'}
+# Finish {}
+
+```
+
+For more examples, please refer to the examples directory.
+
+## License
+
+* [MIT LICENSE](LICENSE)
+
+## Contribution
+
+[Contribution guidelines for this project](CONTRIBUTING.md)
+
