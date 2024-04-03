@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/OrthoBase/Projectors.py
+src/OrthoBase/YoungTools.py
+src/OrthoBase/__init__.py
+src/OrthoBase/utils.py
+src/OrthoBase.egg-info/PKG-INFO
+src/OrthoBase.egg-info/SOURCES.txt
+src/OrthoBase.egg-info/dependency_links.txt
+src/OrthoBase.egg-info/requires.txt
+src/OrthoBase.egg-info/top_level.txt
+src/OrthoBase/FORMData/SUn.prc
+src/OrthoBase/FORMData/footer_new.frm
+src/OrthoBase/FORMData/footer_old.frm
+src/OrthoBase/FORMData/header.frm
+src/OrthoBase/FORMData/symmetryzer.frm
