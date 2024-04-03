@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/qianlu_svr_plugin.egg-info/PKG-INFO
+src/qianlu_svr_plugin.egg-info/SOURCES.txt
+src/qianlu_svr_plugin.egg-info/dependency_links.txt
+src/qianlu_svr_plugin.egg-info/top_level.txt
