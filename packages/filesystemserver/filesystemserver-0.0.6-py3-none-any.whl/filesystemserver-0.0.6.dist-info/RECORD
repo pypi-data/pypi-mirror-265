@@ -1,0 +1,12 @@
+filesystemserver/__init__.py,sha256=Id3ThB5yiSJ_RRz3aRIg8vZpvNl7Ab3pf-Md8XReVBw,82
+filesystemserver/filesystemserver.py,sha256=bptP3_d-_7owQ_4W0N1X2FS1bHTiCUrs4pYERTY63H0,11882
+filesystemserver/data/plugin/fss/favicon.png,sha256=jfu_rDdgAb0ulGnX9TxdM1vj4f0ZpRkEE0DpB1I4cNM,2941
+filesystemserver/data/plugin/fss/fss.js,sha256=gHeQgbKESwUWWLXUpke2xmOY89QR5waOCtkSKV-8L2U,1542
+filesystemserver/data/plugin/fss/browser/app.js,sha256=DtxRIt8wm_RskX-LZWQJiroBUK7AIXqIy34EVaHUtvA,1811
+filesystemserver/data/plugin/fss/browser/index.html,sha256=aU5EcD4xZ_UrEWLXPmHMYDe86Tyu7V7B6vB0qjJ8sdY,353
+filesystemserver/data/plugin/fss/browser/style.css,sha256=8VNeUDCQV5APkjShPTa3vAWKAu-uPkoTXxvWygh_D70,472
+filesystemserver-0.0.6.dist-info/METADATA,sha256=XX-JVNrAEx05OvkA6eEBm98rlCjFP2kl6yNipyL6Bvc,2757
+filesystemserver-0.0.6.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+filesystemserver-0.0.6.dist-info/entry_points.txt,sha256=v8bckKCYnwAeArNNyRB1mYpv_LCSZHDKQDWPypN0tf8,46
+filesystemserver-0.0.6.dist-info/licenses/LICENSE,sha256=Ks3vDJNeEsRGdqidSQvxrke32irrL4Xez7qVE4DBEik,1058
+filesystemserver-0.0.6.dist-info/RECORD,,
