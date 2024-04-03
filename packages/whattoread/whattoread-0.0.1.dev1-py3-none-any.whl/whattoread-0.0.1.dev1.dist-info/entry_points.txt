@@ -1,0 +1,2 @@
+[console_scripts]
+whattoread = whattoread.cli:main
