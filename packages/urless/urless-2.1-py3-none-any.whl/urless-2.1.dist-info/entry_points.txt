@@ -1,0 +1,2 @@
+[console_scripts]
+urless = urless.urless:main
