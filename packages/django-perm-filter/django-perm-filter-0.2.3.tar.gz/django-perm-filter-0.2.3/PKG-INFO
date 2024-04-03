@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: django-perm-filter
+Version: 0.2.3
+Summary: A simple app that can be included in Django projects which hides app specific permissions from any type of User.
+Author-email: Tim Santor <tsantor@xstudios.com>
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: django<5.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+# Django Perm Filter
+
+A simple app that can be included in Django projects which hides app specific permissions from any type of User. Easily add entire apps, specific permissions or models and it will take care of the rest. Non-destructive (Does **not** delete permissions).
+
+For example, typically we have **no reason**, in any Django project, to expose the following permissions for Users or Groups:
+
+| App          | Model        | Permission                              |
+| ------------ | ------------ | --------------------------------------- |
+| admin        | log entry    | Can view/add/change/delete log entry    |
+| auth         | permission   | Can view/add/change/delete permission   |
+| contenttypes | content type | Can view/add/change/delete content type |
+| sessions     | session      | Can view/add/change/delete session      |
+
+## Features
+
+- Hide all permissions for an App
+- Hide permissions using app and codename (more granular)
+- Hide models from the Django Admin
+
+## Requirements
+
+Django 3 or 4
+Python 3
+
+## Quickstart
+
+Install Django Perm Filter::
+
+```bash
+python3 -m pip install django-perm-filter
+```
+
+Add it to your `INSTALLED_APPS` at the bottom:
+
+```python
+INSTALLED_APPS = (
+    ...
+    'django_perm_filter',
+)
+```
+
+### Settings
+
+In your `settings.py` add a entry for `PERM_FILTER`:
+
+```python
+PERM_FILTER = {
+    "HIDE_PERMS": [
+        # Use app name only to hide all app related permissions
+        "admin",
+        "contenttypes",
+        "sessions",
+        "sites",
+        # Use app.codename to get more granular
+        "auth.view_permission",
+        "auth.add_permission",
+        "auth.change_permission",
+        "auth.delete_permission",
+    ],
+    "UNREGISTER_MODELS": [
+        "django.contrib.sites.models.Site",
+    ],
+}
+```
+
+### Overrides
+
+By default `django_perm_filter` will register a new `UserAdmin` and `GroupAdmin` which extend `django.contrib.auth.admin.UserAdmin` and `django.contrib.auth.admin.GroupAdmin` that simply adds permissions filtering. If you would like it to extend your own custom `UserAdmin` or `GroupAdmin` classes, then set the class path in the `PERM_FILTER` settings.
+
+```python
+PERM_FILTER = {
+  ...
+  "USER_ADMIN": "myapp.users.admin.UserAdmin",
+  "GROUP_ADMIN": "myapp.users.admin.GroupAdmin",
+}
+
+```
+
+## Local Development
+
+1. `make env`
+1. `make reqs`
+1. `make makemigrations`
+1. `make migrate`
+1. `make serve`
+
+- Visit `http://127.0.0.1:8000/admin/` for the Django Admin
+- Visit `http://127.0.0.1:8000/api/docs/` for the API docs
+
+### Testing
+
+Currently `django_perm_filter` has **73%** test coverage.
+
+- Pytest: `make pytest`
+- Coverage: `make coverage`
+  - Open Report: `make open_coverage`
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.2.3] - 2024-04-02
+
+- Update to use `ruff` and added more tests.
+
+## [0.2.2] - 2023-06-22
+
+- Update packaging method to use `pyproject.toml`.
+
+## [0.2.1] - 2022-09-19
+
+- Fixed issue if `UserAdmin` or `GroupAdmin` were already registered.
+
+## [0.2.0] - 2022-08-11
+
+- Merged `HIDE_APPS` and `HIDE_PERMS` to make more clear that we're hiding perms only.
+- Added ability to extend your own custom `UserAdmin` and `GroupAdmin` if need be.
+
+## [0.1.1] - 2022-04-19
+
+- Sorry, pushed copy/pasted changelog on first release!
+
+## [0.1.0] - 2022-04-19
+
+- First release on PyPI.
