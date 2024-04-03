@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/iremd_k/__init__.py
+src/iremd_k/my_codes.py
+src/iremd_k.egg-info/PKG-INFO
+src/iremd_k.egg-info/SOURCES.txt
+src/iremd_k.egg-info/dependency_links.txt
+src/iremd_k.egg-info/top_level.txt
+tests/test_central_tendency.py
