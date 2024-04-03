@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+emailtracker/__init__.py
+emailtracker/emailtracker.py
+emailtracker.egg-info/PKG-INFO
+emailtracker.egg-info/SOURCES.txt
+emailtracker.egg-info/dependency_links.txt
+emailtracker.egg-info/entry_points.txt
+emailtracker.egg-info/requires.txt
+emailtracker.egg-info/top_level.txt
