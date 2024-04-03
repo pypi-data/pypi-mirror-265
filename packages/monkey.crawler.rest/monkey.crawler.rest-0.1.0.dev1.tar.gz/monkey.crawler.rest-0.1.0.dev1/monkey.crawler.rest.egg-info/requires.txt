@@ -1,0 +1,3 @@
+monkey.crawler>=2.0.0.dev7
+requests
+setuptools

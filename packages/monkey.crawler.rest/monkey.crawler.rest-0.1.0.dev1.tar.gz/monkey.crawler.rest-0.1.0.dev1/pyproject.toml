@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monkey.crawler.rest"
+version = "0.1.0.dev1"
+
+authors = [
+    { name = "Xavier ROY", email = "xavier@regbuddy.eu" }
+]
+maintainers = [
+
+]
+
+dependencies = [
+    "monkey.crawler>=2.0.0.dev7",
+    "requests",
+    "setuptools"
+]
+
+requires-python = ">= 3.10"
+
+readme = "README.rst"
+
+license = { file = "LICENSE.txt" }
+
+classifiers = [
+    'Development Status :: 1 - Planning',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Intended Audience :: Developers'
+]
+
+[project.urls]
+Repository = "https://bitbucket.org/monkey-python/monkey-crawler-rest/"
+
+
