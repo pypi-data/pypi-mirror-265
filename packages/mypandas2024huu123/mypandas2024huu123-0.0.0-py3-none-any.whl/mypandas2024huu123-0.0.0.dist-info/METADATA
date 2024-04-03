@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mypandas2024huu123
+Version: 0.0.0
+Download-URL: https://github.com/munea10/oss/archive/refs/tags/v1.0.0.zip
+Requires-Dist: pandas
+
