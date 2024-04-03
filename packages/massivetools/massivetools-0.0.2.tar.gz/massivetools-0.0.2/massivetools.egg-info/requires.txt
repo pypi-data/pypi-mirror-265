@@ -1,0 +1,7 @@
+pytz
+numpy
+opencv-python
+pymysql
+tqdm
+pandas
+pycocotools
