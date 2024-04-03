@@ -1,0 +1,9 @@
+rdkit
+pandas
+padelpy
+joblib
+meeko
+scikit-learn==1.3.0
+scipy
+numpy
+vina
