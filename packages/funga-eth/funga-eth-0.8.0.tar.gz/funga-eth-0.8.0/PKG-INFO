@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: funga-eth
+Version: 0.8.0
+Summary: Ethereum implementation of the funga keystore and signer
+Home-page: https://git.defalsify.org/funga-eth
+Author: Louis Holbrook
+Author-email: dev@holbrook.no
+License: AGPLv3+
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography==3.2.1
+Requires-Dist: safe-pysha3==1.0.4
+Requires-Dist: rlp==3.0.0
+Requires-Dist: json-rpc==1.13.0
+Requires-Dist: confini~=0.6.0
+Requires-Dist: coincurve==15.0.0
+Requires-Dist: hexathon~=0.1.6
+Requires-Dist: pycryptodome==3.10.1
+Requires-Dist: funga~=0.5.6
+Provides-Extra: sql
+Requires-Dist: psycopg2==2.8.6; extra == "sql"
+Requires-Dist: sqlalchemy==1.3.20; extra == "sql"
+
+# funga-eth
+
+Ethereum implementation of the `funga` signer interface.
+
+See https://git.defalsify.org/funga for more details.
+
+## Tools
+
+When installed as a python package, three tools are installed in the python executable script path.
+
+* `funga-ethd` - Signer daemon (see below for details).
+* `eth-keyfile` - Ethereum keyfile en- and decoder, and en- and decrypter.
+* `eth-msg-sign` - Signer tool for arbitrary messages ([ERC-191](https://eips.ethereum.org/EIPS/eip-191)).
+
+
+### funga-ethd
+
+A Unix socket IPC server as `funga-ethd` implementing the following web3 json-rpc methods:
+
+* web3.eth.personal.newAccount
+* web3.eth.personal.signTransaction
+* web3.eth.signTransaction
+
+
+### CLI tools
+
+Please use `--help` as argument to the `eth-keyfile` and `eth-msg-sign` tools to learn the arguments the tools accept.
+
+
+## Funga interface implementations
+
+- **ReferenceKeystore**: Implements the `Keystore` interface, with a postgresql backend expecting sql schema as defined in `ReferenceKeystore.schema`
+- **ReferenceSigner** Implements `Signer`, accepting a single argument of type `Keystore` interface. 
+- **EIP155Transaction**: Creates transaction serializations appropriate for EIP155 replay protected signatures. Accepts a web3 format transaction dict as constructor argument together with nonce and optional chainId.
