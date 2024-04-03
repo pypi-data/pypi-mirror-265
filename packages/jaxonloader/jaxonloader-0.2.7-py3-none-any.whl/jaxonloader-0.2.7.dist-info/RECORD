@@ -1,0 +1,9 @@
+jaxonloader/__init__.py,sha256=tWpRFpmMctJA5qXsDPpR6H5lanijNcigo1yDcqz9xbY,224
+jaxonloader/dataloader.py,sha256=xo903Vq97tuqdv6gcEN9WpAEJDL7JXeGF0P-hazET_c,1471
+jaxonloader/dataset.py,sha256=_0h-FXGpdoAvoJCOhWQmruSfcnbeNqexCh4FT50_H28,1108
+jaxonloader/datasets.py,sha256=KmG5-vdNixtgk1Z8Jtu9CdSUaUEFouLZVBJtDHs97Gc,7631
+jaxonloader/utils.py,sha256=Vr7rhd27_5E9SCxMvCH3nSOxH4E_SwO_3UQEd4_5mPY,2414
+jaxonloader-0.2.7.dist-info/METADATA,sha256=_ZZ8FQZIh_t-Mt8q_KQeAUQtpWiiwrcQSQhpNI_mAwI,3491
+jaxonloader-0.2.7.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+jaxonloader-0.2.7.dist-info/licenses/LICENSE,sha256=RxYeM8vmu6nV2XXcMySV-DvnOPTgnEsMU6r_tOY1SDU,1074
+jaxonloader-0.2.7.dist-info/RECORD,,
