@@ -1,0 +1,4 @@
+[console_scripts]
+simlify-gen-topo=simlify.simulation.topo:cli_run_gen_topo
+simlify-validate-context=simlify.simulation.contexts:cli_validate_yaml_context
+
