@@ -1,0 +1,8 @@
+requests
+cryptography
+ipaclient
+jsonschema
+jwcrypto
+
+[:python_version == "3.6"]
+netaddr<1.0.0
