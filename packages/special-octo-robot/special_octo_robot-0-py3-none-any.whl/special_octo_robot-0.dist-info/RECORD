@@ -1,0 +1,13 @@
+devcord.py,sha256=6hhIqbati9h4FQ7L2sRYmzzIz7wZnb7ahUO0Lb6X6yU,5279
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__version__.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+app/application.py,sha256=SkyJiQReC6JhZcNgysFqGUA6t6jVw7w9MEqlO558QA8,5672
+app/console.py,sha256=Nz4nrt_9N96j2jzEvf9cOqCQcy0NFsWmd48iLNGCJAc,1086
+app/database.py,sha256=fUN-Fd6wtKTYzjxpMvZzJxL9EgRoItjL8mJhFvjvc9E,1949
+special_octo_robot-0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+special_octo_robot-0.dist-info/METADATA,sha256=UL0D75nD44rOmiGdn0BZ2JgQlJymDdtkhWsQplSXXgA,3380
+special_octo_robot-0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+special_octo_robot-0.dist-info/entry_points.txt,sha256=AeuG8tvAjw6bXov7NB1nQXJYLc_tXAmPkoldJePYbGQ,40
+special_octo_robot-0.dist-info/top_level.txt,sha256=HbZGTdz03KBmIDUok4xIwJ3XlfGEuKJFkE7ZHsr82DU,12
+special_octo_robot-0.dist-info/RECORD,,
