@@ -1,0 +1,12 @@
+httpgo-0.30.0.dist-info/METADATA,sha256=F9kabe1sbhUab5YvR-xP2kvKrA_3sNfSBcgrZX3pGSA,640
+httpgo-0.30.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+httpgo-0.30.0.dist-info/entry_points.txt,sha256=Q4T60HqdgDTX1JKTCNrjeJOIZkpp3FnGyJwphcX4YyQ,44
+httpgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httpgo/__version__.py,sha256=XiznlXvBRr5m9UfM75icRViY5glet3JxOPcv04_QrI4,340
+httpgo/main.py,sha256=SSriHdmtz4DFrkdKbWq5yAYRPzEybTKzOYdJG9wR5vs,4402
+httpgo/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httpgo/utils/_callback.py,sha256=ZNiJ-kVX4iynPfiXfk7zE2qAHU2hE7RiZKaCd7M4qy4,1366
+httpgo/utils/_enum.py,sha256=YXVZgPBeTkKRa7XImN0O3qwnIq_LWnu_oHcgDIdLzL8,228
+httpgo/utils/_exception.py,sha256=HNbOXhVouE89yZEVPO3RHR31jsOpWtEst7UzFbqHLtk,146
+httpgo/utils/_type.py,sha256=gAJ50wTxcjy1VQ3yEBT2vy0uEwLs_lsIFSnsVjAIpXQ,2227
+httpgo-0.30.0.dist-info/RECORD,,
