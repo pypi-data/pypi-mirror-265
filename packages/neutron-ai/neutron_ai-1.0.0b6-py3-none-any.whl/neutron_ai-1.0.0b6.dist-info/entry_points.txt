@@ -1,0 +1,3 @@
+[console_scripts]
+neutron-client = neutron.client:main
+neutron-server = neutron.server:main
