@@ -1,0 +1,8 @@
+vkdispatch_native.cpython-311-darwin.so,sha256=BDAxsnA4jTvNlJFttTny9FXCXywfLE5lBghnjhOBTsc,83048
+vkdispatch/__init__.py,sha256=jUmPpT8RBlJA-OS4Yf7UIrKw9Sdk0Eia3OMdi370yp4,22
+vkdispatch/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+vkdispatch-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vkdispatch-0.0.1.dist-info/METADATA,sha256=kurP1XBOx5CDhrxPZ-F3wznL5AdeOjla515s0tTjz_c,810
+vkdispatch-0.0.1.dist-info/WHEEL,sha256=sieEctgmsyAnWfDYOiunmkigyyjGmYuUaApm_YItwoI,110
+vkdispatch-0.0.1.dist-info/top_level.txt,sha256=S-hzFNKxGXnEAaz90t5w_ysKQLl54XaHQJq6DDUfPlQ,29
+vkdispatch-0.0.1.dist-info/RECORD,,
