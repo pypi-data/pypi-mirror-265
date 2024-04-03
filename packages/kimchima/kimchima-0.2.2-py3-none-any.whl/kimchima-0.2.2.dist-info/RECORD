@@ -1,0 +1,14 @@
+kimchima/__init__.py,sha256=so56VGgzuxCkZ5QJQ29UGF4A9UWtOUIHndOwbAvVDRw,688
+kimchima/cmds/__init__.py,sha256=FLNB9-rlOpGOsiMhHkr-mZIvcu4jxqVMCXj_aRZxbBM,33
+kimchima/cmds/auto_cli.py,sha256=fEHZ34cDyRMZYMPItVOMgRqsLKfDZ46IqhkSMzpB26U,1577
+kimchima/cmds/kimchima_cli.py,sha256=9EzDrNFScAhNoge58ouD6oSw1B8-Uy0qc1eAiw2rqVE,1334
+kimchima/pkg/__init__.py,sha256=w83TlEWOA4ihTCP1uZe5lTbjdsxweExRd9ydha5uzV0,95
+kimchima/pkg/auto.py,sha256=SPfUvivAxLflfKcP6jW6zSTMMlv_w3RFxkmP3ha1LpU,3298
+kimchima/pkg/devices.py,sha256=qzsXPopowigTPRgOPKsD1cfdjQx6pSQXZ3es47bGyc4,1469
+kimchima/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kimchima/tests/test_auto.py,sha256=ysR4cVh0b1A6LsSkrLrxHpUPgo-0Q-Tlx-pLPqGVhjQ,1386
+kimchima/tests/test_devices.py,sha256=tLPYbra1ql2IFnB-u6bjFp38PC-m1Yfh5yUwzLNf044,1766
+kimchima-0.2.2.dist-info/LICENSE,sha256=Sbljm2F6jir79vb4vjukAygqT4k4nYuwkJnhjO3TDIk,11343
+kimchima-0.2.2.dist-info/METADATA,sha256=fSuNn2eX8hvRAY7d_CeE5HJQfL0d_hLqB6FMDyEufFo,1338
+kimchima-0.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+kimchima-0.2.2.dist-info/RECORD,,
