@@ -1,0 +1,12 @@
+torrentp/__init__.py,sha256=rXB_xsLtAzX8WZ8J2H5NaFHXM3PXq2xxzbtHHN2KCrk,578
+torrentp/cli.py,sha256=R6Mu5SgqXHD5H_UAUWWJmjlynFbm6XvytmR5M5Ix5jQ,1812
+torrentp/downloader.py,sha256=Cw16vq9urynbKKmjAFPNML2V7D6sSCQQwMvHvLsS3T4,3591
+torrentp/session.py,sha256=bQB4c-wI743vbZTyaaE2Gt_nCiJgiXbEiLu62uF0hqY,1204
+torrentp/torrent_downloader.py,sha256=jpcsrMS61Nb_Kw0g2YRvRA2fVQbApXFHloT51VddGXQ,1935
+torrentp/torrent_info.py,sha256=AQDWviQQW2QZ1KwzrbE2rAiHj0qYM-SfVQlKJ00gl0o,470
+torrentp-0.2.2.dist-info/LICENSE,sha256=8fpWF1H62zaYkffa5vsNcq82aOIfQspDtEvpcx-bijM,12179
+torrentp-0.2.2.dist-info/METADATA,sha256=UnjD7N6pa_EXx71fUdcFhasOa6sa_t8NYQIbMS4yxrI,5042
+torrentp-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torrentp-0.2.2.dist-info/entry_points.txt,sha256=GJtrEf3Nc1gprGOJHAM-od7mo6dMkK3lXu8OBj22w54,50
+torrentp-0.2.2.dist-info/top_level.txt,sha256=hNdzxx0M-N3lBEmHjVpbKaBSqucPYIs847WL4xAJALo,9
+torrentp-0.2.2.dist-info/RECORD,,
