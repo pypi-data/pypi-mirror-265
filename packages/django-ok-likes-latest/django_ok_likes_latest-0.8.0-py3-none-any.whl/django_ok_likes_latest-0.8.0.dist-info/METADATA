@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-ok-likes-latest
+Version: 0.8.0
+Summary: Django likes app latest
+Home-page: https://github.com/ColoredCow/ok-likes
+Author: Abhishek Khanduri
+Author-email: khanduriabhishek012@gmail.com
+License: MIT
+Keywords: python,likes,likes-models,django,voting
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: djangorestframework
+
+file: README.rst
