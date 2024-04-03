@@ -1,0 +1,18 @@
+"""
+BCS, Branch on Carry Set Test
+
+This is a test for the branch instruction BMI of
+the 6502. This instruction performs the branch
+if C == 0.
+"""
+
+import unittest
+from nesasm.tests import MetaInstructionCase
+
+
+class BcsRelTest(unittest.TestCase, metaclass=MetaInstructionCase):
+
+    asm = 'BCS $10'
+    lex = [('T_INSTRUCTION', 'BCS'), ('T_ADDRESS', '$10')]
+    syn = ['S_RELATIVE']
+    code = [0xB0, 0x0E]
