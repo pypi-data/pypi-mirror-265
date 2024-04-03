@@ -1,0 +1,8 @@
+setup.py
+pyscreeps-arena/__init__.py
+pyscreeps-arena/build.py
+pyscreeps_arena.egg-info/PKG-INFO
+pyscreeps_arena.egg-info/SOURCES.txt
+pyscreeps_arena.egg-info/dependency_links.txt
+pyscreeps_arena.egg-info/requires.txt
+pyscreeps_arena.egg-info/top_level.txt
