@@ -1,0 +1,25 @@
+*.egg-info/
+.ipynb_checkpoints/
+dist/
+build/
+*.py[cod]
+node_modules/
+__pycache__/
+.venv/
+src/ipyaladin/static/
+
+# Compiled javascript
+ipyaladin/nbextension/
+ipyaladin/labextension/
+
+# Yarn package json
+package-lock.json
+js/yarn.lock
+js/.yarn
+
+# OS X
+.DS_Store
+
+# Conda builds
+conda-recipe/distrib
+conda-recipe/ipyaladin
