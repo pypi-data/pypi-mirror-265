@@ -1,0 +1,2 @@
+[console_scripts]
+d2p = src.d2p:main
