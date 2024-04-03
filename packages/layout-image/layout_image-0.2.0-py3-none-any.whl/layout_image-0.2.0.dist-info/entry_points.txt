@@ -1,0 +1,2 @@
+[console_scripts]
+layoutimg = layoutimg.__main__:main
