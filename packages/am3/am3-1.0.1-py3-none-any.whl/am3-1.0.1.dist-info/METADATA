@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: am3
+Version: 1.0.1
+Summary: Application Manager written with python 3
+Home-page: https://github.com/nriver/am3
+Author: Nriver
+Author-email: 
+Project-URL: Bug Reports, https://github.com/nriver/am3/issues
+Project-URL: Funding, https://github.com/nriver/am3
+Project-URL: Say Thanks!, https://github.com/nriver/am3
+Project-URL: Source, https://github.com/nriver/am3/
+Keywords: application manger,process manager
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Systems Administration
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: loguru
+Requires-Dist: flask
+Requires-Dist: psutil
+Requires-Dist: PrettyTable
+Requires-Dist: python-socketio ==5.11.2
+Requires-Dist: websockets ==12.0
+Requires-Dist: watchdog
+Requires-Dist: click
+
+# am3
+
+AM3 = Application Manager written with python 3
+
+## 🔧 Installation
+
+Python3 is required, which should be available on most of the modern Linux distributions.
+
+Install am3 with this command:
+
+```bash
+pip install am3
+```
+
+Then you can use it with `am` or `am3`.
+
+## 📖 (Basic) Usage
+
+### List applications
+
+List application info. Include the application name, id, etc.
+
+```bash
+am3 ls
+```
+
+### Start an application
+
+You can specify command and the params.
+
+```bash
+am --start "ping" --params "127.0.0.1 -c 5"
+```
+
+By default am3 will automatically restart the application if it exits.
+
+There will be an id assigned to the application. You can interact with the application by this id.
+
+### Stop an application
+
+Stop
+
+```bash
+am stop 0
+```
+
+# 🙏 Thanks
+
+Thanks for the great IDE Pycharm from Jetbrains.
+
+[![Jetbrains](docs/jetbrains.svg)](https://jb.gg/OpenSource)
