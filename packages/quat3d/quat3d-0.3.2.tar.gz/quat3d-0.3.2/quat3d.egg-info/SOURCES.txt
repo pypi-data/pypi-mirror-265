@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+quat3d/__init__.py
+quat3d/quat3d.py
+quat3d/quaternion3d.py
+quat3d.egg-info/PKG-INFO
+quat3d.egg-info/SOURCES.txt
+quat3d.egg-info/dependency_links.txt
+quat3d.egg-info/entry_points.txt
+quat3d.egg-info/not-zip-safe
+quat3d.egg-info/requires.txt
+quat3d.egg-info/top_level.txt
