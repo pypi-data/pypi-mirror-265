@@ -1,0 +1,9 @@
+surfkit/agent.py,sha256=jRWhsKm5J9k9loZYU-R4H4Pbtr_2fb-IzZXnao5Rsxo,610
+surfkit/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surfkit/env.py,sha256=AMmqfFJZTml34sopZbVIubVzhOD8LumWS6GawURPvxQ,195
+surfkit/llm.py,sha256=b31gDJQCV9pGyObUKLs_8rojaQWHWs45MPTZ7TZDGJk,5444
+surfkit/models.py,sha256=LEBj5BFdacR0iDPuh098n55TKKjbSjrX0TLeQbHhF10,672
+surfkit-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+surfkit-0.1.0.dist-info/METADATA,sha256=Ik5xH6t9oko-lJLFbWjYN__5uIMafYGfkNnXz--5f0A,821
+surfkit-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+surfkit-0.1.0.dist-info/RECORD,,
