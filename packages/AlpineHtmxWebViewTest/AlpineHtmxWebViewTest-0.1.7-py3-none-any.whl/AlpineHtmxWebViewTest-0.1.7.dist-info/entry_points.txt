@@ -1,0 +1,2 @@
+[console_scripts]
+AlpineHtmxWebViewTest = AlpineHtmxWebViewTest:EntryPoint.app
