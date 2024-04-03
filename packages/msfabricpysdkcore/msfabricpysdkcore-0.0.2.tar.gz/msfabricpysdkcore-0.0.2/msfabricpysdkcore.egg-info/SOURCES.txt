@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+msfabricpysdkcore/__init__.py
+msfabricpysdkcore/auth.py
+msfabricpysdkcore/client.py
+msfabricpysdkcore/item.py
+msfabricpysdkcore/job_instance.py
+msfabricpysdkcore/long_running_operation.py
+msfabricpysdkcore/onelakeshortcut.py
+msfabricpysdkcore/workspace.py
+msfabricpysdkcore.egg-info/PKG-INFO
+msfabricpysdkcore.egg-info/SOURCES.txt
+msfabricpysdkcore.egg-info/dependency_links.txt
+msfabricpysdkcore.egg-info/requires.txt
+msfabricpysdkcore.egg-info/top_level.txt
