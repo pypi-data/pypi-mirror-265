@@ -1,0 +1,7 @@
+ai_model_dispatcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_dispatcher/config.py,sha256=jAFP8x5EExwsaWE1G1lSZ6pKAtzpnd7r5iadMKbna_A,84
+ai_model_dispatcher/dispatcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_dispatcher/dispatcher/BaseDispatcher.py,sha256=BnNveZpgdNE_dTuZZRu7sO6r34UltL2B-Vh-RWv0P08,1482
+ai_model_dispatcher-0.0.1.dev1.dist-info/METADATA,sha256=ERXgaL8owuzE2OXrIFvFQ_8pSUb9x-t0HxPR1ZqcoJQ,432
+ai_model_dispatcher-0.0.1.dev1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ai_model_dispatcher-0.0.1.dev1.dist-info/RECORD,,
