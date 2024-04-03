@@ -1,0 +1,14 @@
+AUTHORS.rst
+LICENSE
+README.md
+pyproject.toml
+setup.py
+autocontext/__init__.py
+autocontext/context.py
+autocontext.egg-info/PKG-INFO
+autocontext.egg-info/SOURCES.txt
+autocontext.egg-info/dependency_links.txt
+autocontext.egg-info/top_level.txt
+tests/__init__.py
+tests/__main__.py
+tests/basic_test.py
