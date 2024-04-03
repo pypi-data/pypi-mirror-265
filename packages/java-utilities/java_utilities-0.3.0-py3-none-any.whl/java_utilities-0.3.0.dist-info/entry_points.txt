@@ -1,0 +1,5 @@
+[console_scripts]
+java-home = java_utilities._entrypoints:java_home
+java-property = java_utilities._entrypoints:java_property
+java_home = java_utilities._entrypoints:java_home
+java_property = java_utilities._entrypoints:java_property
