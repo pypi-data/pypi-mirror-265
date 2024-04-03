@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: beautiful-ternary
+Version: 1.1.0
+Summary: A simple Package to replace the awkward built-in ternary operator with a function call.
+Author-email: Christian Witzenberger <christian.witzenberger@triplet.gmbh>
+Project-URL: Homepage, https://github.com/redewing/beautiful-ternary
+Project-URL: Repository, https://github.com/redewing/beautiful-ternary.git
+Project-URL: Issues, https://github.com/redewing/beautiful-ternary/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# beautiful-ternary
+A simple Python Package to replace the awkward built-in ternary operator with a function call. Simple.
+
+# Usage
+
+    pip install beautiful-ternary
+    
+    from ternary import tif, tlif
+    
+    # Use this for non-lazy ternary
+    tif(condition, return-if-true, return-if-false)
+    
+    # Use this for lazy ternary
+    tlif(condition, lambda: return-if-true, lambda: return-if-false)
+
+# Dependencies
+
+    build, twine, pytest

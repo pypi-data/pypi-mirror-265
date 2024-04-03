@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/beautiful_ternary.egg-info/PKG-INFO
+src/beautiful_ternary.egg-info/SOURCES.txt
+src/beautiful_ternary.egg-info/dependency_links.txt
+src/beautiful_ternary.egg-info/top_level.txt
+src/ternary/__init__.py
+tests/test_ternary.py
