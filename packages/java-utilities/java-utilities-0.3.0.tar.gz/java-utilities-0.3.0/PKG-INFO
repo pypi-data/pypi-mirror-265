@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: java-utilities
+Version: 0.3.0
+Summary: Java utilities
+Home-page: https://github.com/devinrsmith/java-utilities
+Author: Devin Smith
+Author-email: devinsmith@deephaven.io
+Project-URL: Source Code, https://github.com/devinrsmith/java-utilities
+Project-URL: Bug Tracker, https://github.com/devinrsmith/java-utilities/issues
+Keywords: java,utility
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# java-utilities
+
+`java-utilities` is a helper package to run and introspect a `java` binary.
+It can be used as a library, or with the provided standalone scripts.
+
+## Quickstart
+
+A [virtual environment](https://docs.python.org/3/tutorial/venv.html) is recommended.
+
+To use from the command line:
+
+```shell
+pip install java-utilities
+
+java-home
+
+java-property java.specification.version
+```
+
+To use from python:
+
+```python
+from java_utilities import java_home, lookup_property
+
+print(f"Java home is '{java_home()}'")
+
+property_name = "java.specification.version"
+print(f"Java specification version is '{lookup_property(property_name)}'")
+```

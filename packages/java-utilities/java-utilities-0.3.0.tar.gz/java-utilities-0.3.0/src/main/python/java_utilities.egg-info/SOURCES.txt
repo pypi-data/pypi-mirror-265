@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README-pypi.md
+README.md
+pyproject.toml
+setup.cfg
+src/main/python/java_utilities/__init__.py
+src/main/python/java_utilities/_entrypoints.py
+src/main/python/java_utilities.egg-info/PKG-INFO
+src/main/python/java_utilities.egg-info/SOURCES.txt
+src/main/python/java_utilities.egg-info/dependency_links.txt
+src/main/python/java_utilities.egg-info/entry_points.txt
+src/main/python/java_utilities.egg-info/top_level.txt
+src/main/python/java_utilities/_jars/__init__.py
+src/main/python/java_utilities/_jars/utilities.jar
