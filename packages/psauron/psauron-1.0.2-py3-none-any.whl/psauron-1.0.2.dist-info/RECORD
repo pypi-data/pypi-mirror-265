@@ -1,0 +1,15 @@
+app/TCN_model.py,sha256=DkJMTKch2cNVIEAKg_9eJWOuHlk3GB8sfx5JYSydsK0,5934
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/psauron.py,sha256=A3sb7eiLAcvtAyQiAz-gwGpLVfTXycHHSV4OdZNrulY,28558
+app/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/data/model_state_dict.pt,sha256=obC2cwOvbbNRTOYqHQfiwhHYHAZZZHtTqR2z9DCyfzg,792554
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_eye_of_psauron.py,sha256=MJuzzY5JZ7PD4FdGy1SO7XBXd3n6kY3NI1pJFiwwYSA,2854
+tests/test_load_model.py,sha256=BCLAMNiysmc8QSF3am1_2h-3T4TWWw6ZygD6KvTsMFI,90
+tests/test_reverse_complement.py,sha256=0yxITlMM08Aeu6sxHZ_a6UZEiqYoRiJBMTL5BHW2678,278
+psauron-1.0.2.dist-info/LICENSE.txt,sha256=9chBH4bdeOR4mBZgZrZC-TiFz3GNdAl9URT6NG88nCI,1092
+psauron-1.0.2.dist-info/METADATA,sha256=ghKZMWAfVAerYQ9AVnSs0vtWQhx5FRB4S4y9RM5oNGk,4724
+psauron-1.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+psauron-1.0.2.dist-info/entry_points.txt,sha256=p74BvXIY_--BltY2iAs9-1V9x7LywS1gBb1Mae9KKQk,55
+psauron-1.0.2.dist-info/top_level.txt,sha256=MJXn5pCZl0XSEeWNKzshxzMMANr3AymeoMYBO1JNPyU,10
+psauron-1.0.2.dist-info/RECORD,,
