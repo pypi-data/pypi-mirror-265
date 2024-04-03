@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+booookscore/__init__.py
+booookscore/chunk.py
+booookscore/postprocess.py
+booookscore/score.py
+booookscore/summ.py
+booookscore/utils.py
+booookscore.egg-info/PKG-INFO
+booookscore.egg-info/SOURCES.txt
+booookscore.egg-info/dependency_links.txt
+booookscore.egg-info/requires.txt
+booookscore.egg-info/top_level.txt
