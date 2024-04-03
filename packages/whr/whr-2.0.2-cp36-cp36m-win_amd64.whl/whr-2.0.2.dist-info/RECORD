@@ -1,0 +1,9 @@
+whr_core.cp36-win_amd64.pyd,sha256=Bwchx5roxDvqp5R68DdL_S1qwdQpj0ra5nmKSZOfDcg,249344
+whr/__init__.py,sha256=4P5MhK7pddkDDucYCm34BYD4Q9DF85jPsC0AMw0qyUk,90
+whr/base.py,sha256=4jgDAEGPP5LsobeS11isZIyU2gftaHzVqCO7jMncrJA,6966
+whr/evaluate.py,sha256=BZN3qN0TPkdBrR36ms1jNSd88-Tdm7CXFbiTYfyycFw,2625
+whr-2.0.2.dist-info/LICENSE,sha256=XSP_qNk5GmIwHGvbR6hmgkh7oLGzFCXw1sQgud_t2lM,1107
+whr-2.0.2.dist-info/METADATA,sha256=gU654SXCflbmIsXl6eD4MwW85WJ-PFQwKgDb_zyOXB4,4003
+whr-2.0.2.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+whr-2.0.2.dist-info/top_level.txt,sha256=jPksrpE002D5NAM3-xdeJpNMBZ_FTfEOLSNOX4GSJVU,13
+whr-2.0.2.dist-info/RECORD,,
