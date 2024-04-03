@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/berkaybektas/__init__.py
+src/berkaybektas/statistic.py
+src/berkaybektas.egg-info/PKG-INFO
+src/berkaybektas.egg-info/SOURCES.txt
+src/berkaybektas.egg-info/dependency_links.txt
+src/berkaybektas.egg-info/top_level.txt
+tests/test_statistics.py
