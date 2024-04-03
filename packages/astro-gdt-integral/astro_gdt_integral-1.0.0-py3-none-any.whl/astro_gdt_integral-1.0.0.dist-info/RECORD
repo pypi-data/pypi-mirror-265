@@ -1,0 +1,12 @@
+gdt/data/integral.urls,sha256=dB2nEcWpon5s89Mjg7LZ_0lbnsWSlu6C2qXYUP-cWqU,206
+gdt/missions/integral/__init__.py,sha256=J5GM0f2ORG3nfWDVQlwGUM6yza-3lsneWBib9nEH028,1510
+gdt/missions/integral/frame.py,sha256=S7w5XFLy1A2T_46JZIalkd5knjfs9JCv_VU06TCdGP8,3966
+gdt/missions/integral/headers.py,sha256=Lcxv3vRtHWa_FlJlI6lAVNs4p2UlzF7CxC3_Sem6Y44,5343
+gdt/missions/integral/orbit.py,sha256=ITNQ4qgsYNnnEE8wHr6Y9v7_-tyHVLFKrfPJUBdFtqI,8634
+gdt/missions/integral/time.py,sha256=Krq1rwWG8ldjAkJ_tILRbhxa-j_GI-3ZkiDkCELR7cM,2135
+gdt/missions/integral/spi/spi_acs.py,sha256=qvE0Na4Y9oNS02Kx0Fhv1OXVAYRz6E3fGDVK-Cos6Nc,4231
+astro_gdt_integral-1.0.0.dist-info/METADATA,sha256=NPv1VPtCSXUdt8BjEjkO4jxHElfFehwn23wLhi_ELJ4,1965
+astro_gdt_integral-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+astro_gdt_integral-1.0.0.dist-info/license.txt,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+astro_gdt_integral-1.0.0.dist-info/top_level.txt,sha256=fGz3vRc04UXiHt5UkRvQE4_ojQP_ZUm4n7JV5Z3LVak,4
+astro_gdt_integral-1.0.0.dist-info/RECORD,,
