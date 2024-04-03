@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Java2Jar
+Version: 1.4
+Summary: A tool to convert Java files to JAR files
+Author: Soumalya Das
+Author-email: soumalyagod21@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Java2Jar
+
+JavaToJar is a tool to convert Java files to JAR files.
+
+## Installation and Usage
+
+You can install JavaToJar via pip:
+
+```bash
+pip install Java2Jar
+```
+
+## Use like this
+
+```bash
+python Java2Jar.ConvertJavaToJar(javafilenamewithoutextension)
+```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
