@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zhaolinchao
+Version: 0.0.6
+Summary: 林超，这个是你的专属区域
+Home-page: http://0510666.xyz
+Author: mike_talk
+Author-email: 81471644@qq.com
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+
+项目说明：
+
+这里面有个mail模块：zhaolinchao
