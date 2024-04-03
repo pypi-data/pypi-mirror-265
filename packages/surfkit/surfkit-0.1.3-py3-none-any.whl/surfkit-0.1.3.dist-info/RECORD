@@ -1,0 +1,12 @@
+surfkit/agent.py,sha256=jRWhsKm5J9k9loZYU-R4H4Pbtr_2fb-IzZXnao5Rsxo,610
+surfkit/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surfkit/db/conn.py,sha256=EMAu-lCbpJGJMtwTDVOprnvW0BFtzBpnFJAeB0lY0C0,2013
+surfkit/db/models.py,sha256=emUbB5EdVPsF9PHq1tXZR5a4YeRHywgan5sJv2lOWVA,1499
+surfkit/env.py,sha256=AMmqfFJZTml34sopZbVIubVzhOD8LumWS6GawURPvxQ,195
+surfkit/llm.py,sha256=b31gDJQCV9pGyObUKLs_8rojaQWHWs45MPTZ7TZDGJk,5444
+surfkit/models.py,sha256=vDtZpdWL6vG-P-umqtvTR9WZGcxaHWLgOw31wAcjyb4,1656
+surfkit/types.py,sha256=VLhFr6A4BFTg8MB95Iqd5u65uvEa1bCjZ0Tz98gM69U,9000
+surfkit-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+surfkit-0.1.3.dist-info/METADATA,sha256=CYlHjtfF-c_weOmJtJi7p_G3ghl4e6WJCqcFh0s6eNI,933
+surfkit-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+surfkit-0.1.3.dist-info/RECORD,,
