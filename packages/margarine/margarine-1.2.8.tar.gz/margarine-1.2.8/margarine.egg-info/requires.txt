@@ -1,0 +1,18 @@
+numpy
+tensorflow_probability
+anesthetic
+scipy
+pandas
+scikit-learn
+tqdm
+
+[:sys_platform != "darwin"]
+tensorflow
+
+[:sys_platform == "darwin"]
+tensorflow-macos
+
+[docs]
+sphinx
+sphinx_rtd_theme
+numpydoc
