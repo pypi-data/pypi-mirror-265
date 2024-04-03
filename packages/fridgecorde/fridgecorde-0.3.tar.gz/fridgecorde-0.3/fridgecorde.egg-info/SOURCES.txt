@@ -1,0 +1,5 @@
+setup.py
+fridgecorde.egg-info/PKG-INFO
+fridgecorde.egg-info/SOURCES.txt
+fridgecorde.egg-info/dependency_links.txt
+fridgecorde.egg-info/top_level.txt
