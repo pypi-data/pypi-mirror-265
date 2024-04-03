@@ -1,0 +1,10 @@
+streamlit
+extra_streamlit_components
+streamlit_option_menu
+streamlit_cookies_manager
+sqlalchemy
+pymysql
+pymongo
+argon2-cffi
+bcrypt
+PyYAML
