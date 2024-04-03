@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: lit-data-layers
+Version: 0.1.0
+Summary: A collection of data layers for Chainlit, persist state on your own infrastructure!
+Author: Aniruddha Adhikary
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: postgres
+Provides-Extra: sqlite
+Requires-Dist: aiosqlite (>=0.20.0,<0.21.0) ; extra == "sqlite"
+Requires-Dist: asyncpg (>=0.29.0,<0.30.0) ; extra == "postgres"
+Requires-Dist: chainlit (>=1.0.401,<2.0.0)
+Requires-Dist: sqlalchemy[asyncio] (>=2.0.29,<3.0.0) ; extra == "postgres" or extra == "sqlite"
+Description-Content-Type: text/markdown
+
+# lit-data-layers
+
+Provides [Custom Data Layer](https://docs.chainlit.io/data-persistence/custom) for Chainlit apps.
+Supports multiple databases and data stores.
+
+## Installation
+
+### PostgreSQL
+
+> Note: Make sure you have `libpq-dev` / `postgresql` installed.
+
+```shell
+pip install "lit-data-layers[postgres]"
+export LIT_DATABASE_URL=postgresql+asyncpg://user:pass@localhost/test
+```
+
+### SQLite
+
+```shell
+pip install "lit-data-layers[sqlite]"
+export LIT_DATABASE_URL=sqlite+aiosqlite:///db.sqlite3
+```
+
+## Usage
+
+```python
+import asyncio
+
+import chainlit.data as cl_data
+from lit_data_layers.sqldb import SqlDataLayer
+
+layer = SqlDataLayer()
+asyncio.get_event_loop().run_until_complete(layer.initialize_database())
+cl_data._data_layer = layer
+```
+
+## Compatibility Chart
+
+Features that have been **tested**.
+
+| Method              	 | SQLite 	 | PostgreSQL 	 |
+|-----------------------|----------|--------------|
+| get_user            	 | ✅	       | 	            |
+| create_user         	 | ✅	       | 	            |
+| delete_user_session 	 | 	        | 	            |
+| upsert_feedback     	 | ✅	       | 	            |
+| create_element      	 | 	        | 	            |
+| get_element         	 | 	        | 	            |
+| delete_element      	 | 	        | 	            |
+| create_step         	 | ✅      	 | 	            |
+| update_step         	 | 	        | 	            |
+| delete_step         	 | 	        | 	            |
+| get_thread          	 | ✅      	 | 	            |
+| get_thread_author   	 | ✅	       | 	            |
+| delete_thread       	 | ✅	       | 	            |
+| list_threads        	 | ✅	       | 	            |
+| update_thread       	 | ✅	       | 	            |
