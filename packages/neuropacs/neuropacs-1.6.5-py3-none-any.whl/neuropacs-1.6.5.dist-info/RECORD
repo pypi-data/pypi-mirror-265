@@ -1,0 +1,12 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/example1.py,sha256=IvW4rFVpkGnesDvPaaObsqSnlwcWR5cecjWUcfZN17s,970
+neuropacs/__init__.py,sha256=QBI7q5rrHfbZdQlxUhn4-vi46QH_HQu0yFgbutM0aoE,163
+neuropacs/ex.py,sha256=vgOXpjSzDkN-RWWOLyYQOOTJeJ7toG2aLwZLgSggvBg,1072
+neuropacs/sdk.py,sha256=G8J1SiMFWcYtuKikYm9qtdzOSooWQTON6aD89O2Zkog,19764
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests_neuropacs.py,sha256=4QVxjC9M1mjNXKb_ASKcGUXQixF7gHENRfj5203RssA,26402
+neuropacs-1.6.5.dist-info/LICENSE,sha256=s83REKCnvvTaaNPbVIFvf_wyF-cZ0-uOK3Z1Eg96HIM,1061
+neuropacs-1.6.5.dist-info/METADATA,sha256=6CH5t3baLFBE1-MpIhmT0Nd1aexMeNKGb7C6C1WJyrE,2725
+neuropacs-1.6.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+neuropacs-1.6.5.dist-info/top_level.txt,sha256=drfTTHld35XirQayP0Yvq4upTRRiP0XLIFsc-PAPoRI,25
+neuropacs-1.6.5.dist-info/RECORD,,
