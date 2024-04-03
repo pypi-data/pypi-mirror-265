@@ -1,0 +1,41 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[project]
+name = "copul"
+version = "0.0.4"
+authors = [
+  { name="Marcus Rockel", email="marcus.rockel@finance.uni-freiburg.de" },
+  { name="Eva Lütkebohmert-Holtz", email="eva.luetkebohmert@finance.uni-freiburg.de" },
+  { name="Jonathan Ansari", email="jonathan.ansari@plus.ac.at" },
+]
+description = "Risk analysis with copulas."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Corrram/copulas_in_systemic_risk"
+
+[tool]
+
+[tool.poetry]
+name = "copul"
+version = "0.0.5"
+description = "Risk analysis with copulas."
+authors = ["Marcus Rockel <marcus.rockel@finance.uni-freiburg.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.1"
+sympy = "^1.12"
+numpy = "^1.26.4"
+scipy = "^1.12.0"
+pillow = "^10.3.0"
+interval = "^1.0.0"
+matplotlib = "^3.8.3"
+sympy-plot-backends = "^3.1.1"
