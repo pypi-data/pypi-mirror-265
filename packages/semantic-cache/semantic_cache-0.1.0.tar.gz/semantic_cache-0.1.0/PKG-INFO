@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: semantic-cache
+Version: 0.1.0
+Summary: Semantic Caching on python functions
+Author-email: Rajaniraiyn R <rajaniraiyn@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: qdrant-client[fastembed]>=1.8.2
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# semantic-cache
+
+Semantic Caching on python functions
+
+</div>
