@@ -1,0 +1,13 @@
+regularizepsf-0.3.1.dist-info/RECORD,,
+regularizepsf-0.3.1.dist-info/LICENSE,sha256=2frQoUigwvQ2ajaFNQc7ZyYsa1KPUuJAAX9h1ZtWGFE,43114
+regularizepsf-0.3.1.dist-info/WHEEL,sha256=Wfj4VTTDraf2YANwbzGaH2y2Sveoz6qrY2q7c374fIw,117
+regularizepsf-0.3.1.dist-info/top_level.txt,sha256=2lUDu0JNgLHFAY8WNv4sP12J3WOAld5ZR5xDZOKp3T8,14
+regularizepsf-0.3.1.dist-info/METADATA,sha256=d8FNikJPzCKXtqKX1L8EkXZ_kDjLOine4cPed2ax21I,3159
+regularizepsf/corrector.py,sha256=4FsRCZpFuRkBg92X9124uwAvjuJIbog74nLFpn8YkOk,13528
+regularizepsf/__init__.py,sha256=Yl6cg-vVvKsP7s-pANf0lZ0IezWDSNlNOyuYQv4UL5Q,602
+regularizepsf/psf.py,sha256=urhfyJ2QXuwS-Qo6FxWdowxRPCQ7ROtR3pwAxtBaDcI,6078
+regularizepsf/visualize.py,sha256=S1rF8R-gyeGh8EeRswqVzr4lm7SvsIWcGzr-5htzM-Y,13434
+regularizepsf/helper.pyx,sha256=LSuLJbgS2rD_7ggXxXjc9YkLlwQqZ0kET0Xt68QZ_ZA,5030
+regularizepsf/exceptions.py,sha256=v1ZQZ_HIyaimMu1LsJSBSxqKjfzXtt4eFdsV-Hlxtgo,348
+regularizepsf/helper.pypy310-pp73-darwin.so,sha256=nQo1e8qEZqhKlicXAOc4U7wCADuo3n8jm-nkl7uYYI0,129024
+regularizepsf/fitter.py,sha256=IFb8kwqY9GwcSelZrygF72MMjMFjAlWvm_HZq2ukX6A,24099
