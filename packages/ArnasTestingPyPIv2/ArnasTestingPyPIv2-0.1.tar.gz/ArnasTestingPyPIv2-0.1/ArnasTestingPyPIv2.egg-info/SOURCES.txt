@@ -1,0 +1,5 @@
+setup.py
+ArnasTestingPyPIv2.egg-info/PKG-INFO
+ArnasTestingPyPIv2.egg-info/SOURCES.txt
+ArnasTestingPyPIv2.egg-info/dependency_links.txt
+ArnasTestingPyPIv2.egg-info/top_level.txt
