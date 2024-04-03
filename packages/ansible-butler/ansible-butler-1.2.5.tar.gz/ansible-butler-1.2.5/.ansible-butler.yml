@@ -1,0 +1,10 @@
+role:
+  dependencies:
+    include_tests: true
+    output_fmt: json
+
+template:
+  clone:
+    dest_remote: true
+    dest:
+      controller_host:

@@ -1,0 +1,10 @@
+---
+playbook:
+  updates:
+    smart_device:
+      redirect: zjleblanc.kasa.smart_device
+    # Keep in mind the possible implications of this override:
+    # awx.awx.project -> ansible.controller.project
+    # changes like this can be an improvement when backwards compatibility is guaranteed
+    project:
+      redirect: ansible.controller.project

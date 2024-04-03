@@ -1,0 +1,7 @@
+---
+collections:
+  - ansible.builtin
+  - ansible.windows
+  - infra.ee_utilities
+  - name: redhat_cop.controller_configuration
+    version: "2"
