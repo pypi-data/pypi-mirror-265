@@ -1,0 +1,21 @@
+import setuptools
+
+setuptools.setup(
+    name="qtlink",
+    version="1.0.0",
+    author="NanHaiLoong",
+    author_email="nanhai@163.com",
+    description="a ui framework based on pyside6",
+    long_description='a ui framework based on pyside6',
+    long_description_content_type="text/markdown",
+    url="https://gitee.com/darlingxyz/qtlink",
+    packages=['qtlink'],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+)
+
+
+
