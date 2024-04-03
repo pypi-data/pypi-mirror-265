@@ -1,0 +1,4 @@
+[console_scripts]
+main=menu_cli.main:main
+seb-menu=menu_cli.__main__:main
+
