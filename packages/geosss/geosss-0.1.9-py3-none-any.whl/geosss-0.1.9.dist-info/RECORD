@@ -1,0 +1,13 @@
+geosss/__init__.py,sha256=wtSZaL7S8l7UKRgd9t7zPgoMtt8C2cD6mEFspI4hpVw,793
+geosss/demo_vis.py,sha256=VnR9yC0RVtT9hKou-BK7-SzuqDTA8LlfyzoOTaU5zLY,1981
+geosss/distributions.py,sha256=tJilDrPJ61kKtH6o-XurLOw1xQCwgvwKpmz-tFDMnHQ,5522
+geosss/mcmc.py,sha256=nqT4xhHDW12_jiRUf1pMB2eWsIGGrI3MA3LPMlbxyN8,10284
+geosss/rand.py,sha256=b9c8CJSIE5fynt0EbsHN_inEA1YRHakfLf6g_CvfhVA,5091
+geosss/sphere.py,sha256=zoNqpwFyssapCgA0aUu95ItU3CmjnXN3Qz5vTNJimrk,3000
+geosss/testing.py,sha256=emporIC5yXRDU8wohv0FFbwPr9X3p1T1DgqMo3h7oWQ,7334
+geosss/utils.py,sha256=IPrcng0Ud4kUNvOW_wAyJ5amxoGBPrjwerLLGojSrcA,5156
+geosss/vMF_diagnostics.py,sha256=2Oh-tYN35-IjEbxb2VRweIvF3rhZSbT-CSljztuvW3k,9249
+geosss-0.1.9.dist-info/LICENSE,sha256=HU9za5pcdJMC8xpIxJQySWnNJbCt6Lrd0WbHOf6vpsk,1474
+geosss-0.1.9.dist-info/METADATA,sha256=0N34AQiT77MODu6SEn5IZxrUPPVn98a1u-YZ3PHrJ2M,6190
+geosss-0.1.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+geosss-0.1.9.dist-info/RECORD,,
