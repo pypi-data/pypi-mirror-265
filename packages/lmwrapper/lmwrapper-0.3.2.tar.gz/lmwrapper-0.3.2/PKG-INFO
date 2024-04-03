@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lmwrapper
+Version: 0.3.2
+Summary: Wrapper around language model APIs
+Author: David Gros
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Provides-Extra: huggingface
+Provides-Extra: ort
+Provides-Extra: ort-gpu
+
+UNKNOWN
+
