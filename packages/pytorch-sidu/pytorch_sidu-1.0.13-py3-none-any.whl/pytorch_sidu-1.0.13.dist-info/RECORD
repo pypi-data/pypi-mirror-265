@@ -1,0 +1,8 @@
+pytorch_sidu/__init__.py,sha256=HdNbevLfZbvoK0IAUqpWfbcSVWAyNqqBq_D-LC7Uhg8,91
+pytorch_sidu/sidu.py,sha256=5cOThw_wf8NCmIwVZ7vh5InA3Xmo_DqGrmk9xOZuO4E,6628
+pytorch_sidu/utils/utils.py,sha256=GAy_Xv9mEwXPzAc1X_PJYxrmGT0uLFxwznck6kocrxs,642
+pytorch_sidu-1.0.13.dist-info/LICENSE,sha256=_OAuu2kcdozeGUr76RuAJf17H0kDHzOZbeskalkm8OI,35150
+pytorch_sidu-1.0.13.dist-info/METADATA,sha256=X105k9JVJFOXcWy8LJ5GumYxUoTzLMM1wDvsnLxdwTo,3401
+pytorch_sidu-1.0.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytorch_sidu-1.0.13.dist-info/top_level.txt,sha256=fp7ukSj6B0lnZ9O8BLd4vyATBPobqJxK9LRU4rPrjaY,13
+pytorch_sidu-1.0.13.dist-info/RECORD,,
