@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: massivetools
+Version: 0.0.2
+Summary: Useful packages to perform computer vision tasks
+Home-page: https://github.com/pythonzz0622
+Author: pythonzz0622
+Author-email: pythonzz0622@gmail.com
+Keywords: preprocessing,db,timer,logger,pypi
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Requires-Dist: pytz
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pymysql
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: pycocotools
+
