@@ -1,0 +1,4 @@
+presidio-anonymizer
+presidio-analyzer
+spacy
+gliner_spacy
