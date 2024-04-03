@@ -1,0 +1,9 @@
+druidaHFSS/Manager.py,sha256=qbS05jBaN6w0nZT0gztr4SEKziV0PXSEp-iOX5OxweM,7768
+druidaHFSS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druidaHFSS/globals.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druidaHFSS/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druidaHFSS/modules/hfss.py,sha256=DYuNDV-S_9XNXmOe-niXIKYNcjKlAj9ZSDQrK0PocJo,3849
+druidaHFSS/modules/tools.py,sha256=gq_xS6nGGpyGfk8B3qowRK602ZJnD2TVoSQCW9V0Ofs,1704
+druidahfss-0.0.3.dist-info/METADATA,sha256=3IPI2AOHBz0V1357Es8X2wmTF9_ASUZo8OqixZUr16c,2078
+druidahfss-0.0.3.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+druidahfss-0.0.3.dist-info/RECORD,,
