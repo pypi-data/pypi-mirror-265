@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+full_calendar_component/FullCalendarComponent.py
+full_calendar_component/__init__.py
+full_calendar_component/_imports_.py
+full_calendar_component/full_calendar_component.min.js
+full_calendar_component/full_calendar_component.min.js.map
+full_calendar_component/metadata.json
+full_calendar_component/package-info.json
+full_calendar_component.egg-info/PKG-INFO
+full_calendar_component.egg-info/SOURCES.txt
+full_calendar_component.egg-info/dependency_links.txt
+full_calendar_component.egg-info/top_level.txt
+tests/test_usage.py
