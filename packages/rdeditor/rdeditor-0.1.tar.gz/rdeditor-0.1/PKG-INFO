@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rdeditor
+Version: 0.1
+Summary: An RDKit based molecule editor using PySide
+Home-page: http://github.com/ebjerrum/rdeditor
+Author: Esben Jannik Bjerrum
+Author-email: esbenjannik@rocketmail.com
+License: LGPL
+Keywords: RDKit molecule editor pyside
+Requires-Python: >=3.8, <3.11
+License-File: LICENSE
+Requires-Dist: PySide2
+Requires-Dist: numpy
+Requires-Dist: rdkit
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+
+The editor is not meant as a drawing program, rather a simple and easy to expand editor
