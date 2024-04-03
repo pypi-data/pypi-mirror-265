@@ -1,0 +1,2 @@
+[console_scripts]
+psauron = app.psauron:eye_of_psauron
