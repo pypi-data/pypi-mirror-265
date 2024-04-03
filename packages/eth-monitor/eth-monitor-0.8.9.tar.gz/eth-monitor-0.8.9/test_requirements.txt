@@ -1,0 +1,5 @@
+eth_tester==0.10.0b4
+py-evm==0.10.0b4
+rlp==3.0.0
+pytest==6.0.1
+coverage==5.5
