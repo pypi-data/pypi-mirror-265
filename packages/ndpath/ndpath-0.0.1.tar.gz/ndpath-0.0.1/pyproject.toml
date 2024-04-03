@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ndpath"
+version = "0.0.1"
+description = "A command-line tool for managing and editing the PATH environment variables"
+authors = [{name = "Mohamed Elashri", email = "ndpath@elashri.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["paths", "pathos", "enviroment"]
+dependencies = [
+    "rich",
+    "readchar",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Utilities",
+]
+scripts = { "ndpath" = "ndpath:main" }
+
+[project.urls]
+"Homepage" = "https://github.com/MohamedElashri/ndpath"
+"Bug Tracker" = "https://github.com/MohamedElashri/ndpath/issues"
