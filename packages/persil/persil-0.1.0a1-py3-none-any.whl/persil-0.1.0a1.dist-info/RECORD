@@ -1,0 +1,17 @@
+persil/__init__.py,sha256=xIwoZHHicbD5zhnquLfxt_HnyKNf1ikxNTOo3PuqjrQ,462
+persil/parser.py,sha256=ut33SnEXrq8xSCdqceTKZhBNx5Wa8ZFph95WvtW3JPU,14293
+persil/parsers/__init__.py,sha256=UgAASQAtMtp26dosCJEhs8uu2ppXTsFnQuOgTVIfJms,197
+persil/parsers/from_enum.py,sha256=GsfIQsRdEBnCxFC3f90o6lV97oHu2Q2TXjHxuUV50f8,816
+persil/parsers/index.py,sha256=JCe2YJf7PM21zdr_1tZBbdr8hN6tPLaDZVF1HyZPQj0,413
+persil/parsers/outcome.py,sha256=hbU2z686ToyFJcR1rXPgmBeqQ4yJDd_jNj7cfHXBj5g,362
+persil/parsers/regex.py,sha256=69gN6Uz8cPgF5Cr3hGHfgpO1R_LsfH2l2nBjfmOuEz4,1581
+persil/parsers/string.py,sha256=_mU-XIBs7zgtzMN0Fj0g4ZKdx889Esyq2LyzZ8cGJqY,869
+persil/parsers/tag.py,sha256=UZrr_2u3ajDEnQMVPWKH2fUPQ5rno5mjHEMA8hA5cTg,827
+persil/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persil/result.py,sha256=gu9dxcGfFO2MBpSudCO9H5nd43dVp23ZmQkhHkDTBw0,1258
+persil/stream.py,sha256=02sdmQWjzYupdfWCrKUePf-RLIE95-ARx1dpcy7KLUs,1378
+persil/utils.py,sha256=HR_0JztsNVWNJU03e2KtuIOtQMdyLSDzlv4Bwxhcses,983
+persil-0.1.0a1.dist-info/LICENSE,sha256=EEeOfNk4jKRXyE6zoocQIOSLh7gbwvlORAiOr5T-OjI,1068
+persil-0.1.0a1.dist-info/METADATA,sha256=DY66Cu7_dEgmwpMy_wrnWYOdR-DIUvD3O13AIlwUWgA,5054
+persil-0.1.0a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+persil-0.1.0a1.dist-info/RECORD,,
