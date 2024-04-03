@@ -1,0 +1,108 @@
+2024-03-24 15:06:25,427 INFO input : robot soit content
+2024-03-24 15:06:25,427 INFO input_en : robot be happy
+2024-03-24 15:06:25,427 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64.9, 0.0, 35.099999999999994]
+2024-03-24 15:06:25,427 INFO type : arduino
+2024-03-24 15:06:25,428 INFO cache found
+2024-03-24 15:06:25,428 INFO output : ok
+2024-03-24 15:06:25,428 INFO output_en : okay.
+2024-03-24 15:06:33,697 INFO arduino code uploaded
+2024-03-24 15:06:45,685 INFO input : robot stop
+2024-03-24 15:06:45,685 INFO input_en : robot stop
+2024-03-24 15:06:45,685 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0, 68.8, 31.2]
+2024-03-24 15:06:45,686 INFO type : arduino
+2024-03-24 15:06:45,686 INFO cache found
+2024-03-24 15:06:45,686 INFO output : ok
+2024-03-24 15:06:45,686 INFO output_en : okay.
+2024-03-24 15:06:50,609 INFO arduino code uploaded
+2024-03-24 15:07:17,759 INFO input : robot danse la salsa en direct sur internet
+2024-03-24 15:07:17,759 INFO input_en : robot dance salsa live online
+2024-03-24 15:07:17,759 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0, 0.0, 100.0]
+2024-03-24 15:07:17,759 INFO type : arduino
+2024-03-24 15:07:17,759 INFO get_file
+2024-03-24 15:07:17,760 DEBUG load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-03-24 15:07:17,763 DEBUG load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/certifi/cacert.pem'
+2024-03-24 15:07:17,781 DEBUG Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': ' I have those examples :\n  Otto.walk(2,1000,1); //2 steps, "TIME". IF HIGHER THE VALUE THEN SLOWER (from 600 to 1400), 1 FORWARD\n  Otto.walk(2,1000,-1); //2 steps, T, -1 BACKWARD \n  Otto.turn(2,1000,1);//3 steps turning LEFT\n  Otto._tone(10, 3, 1);\n  Otto.bendTones (100, 200, 1.04, 10, 10);\n    Otto.home();\n    delay(100);  \n  Otto.turn(2,1000,-1);//3 steps turning RIGHT \n  Otto.bend (1,500,1); //usually steps =1, T=2000\n  Otto.bend (1,2000,-1);     \n  Otto.shakeLeg (1,1500, 1);\n    Otto.home();\n    delay(100);\n  Otto.shakeLeg (1,2000,-1);\n  Otto.moonwalker(3, 1000, 25,1); //LEFT\n  Otto.moonwalker(3, 1000, 25,-1); //RIGHT  \n  Otto.crusaito(2, 1000, 20,1);\n  Otto.crusaito(2, 1000, 20,-1);\n    delay(100); \n  Otto.flapping(2, 1000, 20,1);\n  Otto.flapping(2, 1000, 20,-1);\n    delay(100);        \n  Otto.swing(2, 1000, 20);\n  Otto.tiptoeSwing(2, 1000, 20);\n  Otto.jitter(2, 1000, 20); //(small T)\n  Otto.updown(2, 1500, 20);  // 20 = H "HEIGHT of movement"T \n  Otto.ascendingTurn(2, 1000, 50);\n  Otto.jump(1,500); // It doesn\'t really jumpl ;P\n  Otto.home();\n     delay(100); \n  Otto.sing(S_cuddly);\n  Otto.sing(S_OhOoh);\n  Otto.sing(S_OhOoh2);\n  Otto.sing(S_surprise);\n  Otto.sing(S_buttonPushed);       \n  Otto.sing(S_mode1);        \n  Otto.sing(S_mode2);         \n  Otto.sing(S_mode3);  \n  Otto.sing(S_sleeping);\n  Otto.sing(S_fart1);\n  Otto.sing(S_fart2);\n  Otto.sing(S_fart3);\n  Otto.sing(S_happy);\n  Otto.sing(S_happy_short);                   \n  Otto.sing(S_superHappy);   \n  Otto.sing(S_sad);               \n  Otto.sing(S_confused);\n  Otto.sing(S_disconnection);\n    delay(100);  \n  Otto.playGesture(OttoHappy);\n  Otto.playGesture(OttoSuperHappy);\n  Otto.playGesture(OttoSad);\n  Otto.playGesture(OttoVictory); \n  Otto.playGesture(OttoAngry); \n  Otto.playGesture(OttoSleeping);\n  Otto.playGesture(OttoFretful);\n  Otto.playGesture(OttoLove);\n  Otto.playGesture(OttoConfused);        \n  Otto.playGesture(OttoFart);\n  Otto.playGesture(OttoWave);\n  Otto.playGesture(OttoMagic);\n  Otto.playGesture(OttoFail); \n  \n  Start the code with :\n  #include <Otto.h>\n  Otto Otto;\n\n  #define LeftLeg 2 // left leg pin, servo[0]\n  #define RightLeg 3 // right leg pin, servo[1]\n  #define LeftFoot 4 // left foot pin, servo[2]\n  #define RightFoot 5 // right foot pin, servo[3]\n  #define Buzzer 13 //buzzer pin\n\n  void setup() {\n    Otto.init(LeftLeg, RightLeg, LeftFoot, RightFoot, true, Buzzer);\n    Otto.home();\n  }\n  \n  please write a full code with the setup and loop methods to make the robot robot dance salsa live online. Only respond with code as plain text without code block syntax around it.'}], 'model': 'gpt-3.5-turbo'}}
+2024-03-24 15:07:17,801 DEBUG connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-03-24 15:07:17,824 DEBUG connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f925fc39fa0>
+2024-03-24 15:07:17,825 DEBUG start_tls.started ssl_context=<ssl.SSLContext object at 0x7f926a2fb5c0> server_hostname='api.openai.com' timeout=5.0
+2024-03-24 15:07:17,841 DEBUG start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f925fc39f10>
+2024-03-24 15:07:17,841 DEBUG send_request_headers.started request=<Request [b'POST']>
+2024-03-24 15:07:17,841 DEBUG send_request_headers.complete
+2024-03-24 15:07:17,842 DEBUG send_request_body.started request=<Request [b'POST']>
+2024-03-24 15:07:17,842 DEBUG send_request_body.complete
+2024-03-24 15:07:17,842 DEBUG receive_response_headers.started request=<Request [b'POST']>
+2024-03-24 15:07:26,581 DEBUG receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 24 Mar 2024 14:07:26 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-0125'), (b'openai-organization', b'user-d41fhbaykszq8tiymeyhbbg6'), (b'openai-processing-ms', b'8471'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59334'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'req_554a06eaf70307e9a36a2d9aefb922ac'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=H6j6yqQR0I4GuhbZ5MPBIMBg4togjJjkwHIbG6.uhKg-1711289246-1.0.1.1-Pn.MTflZ8s6Dq76pA2pNOiQc2EGLqONIuTGNP2fqP6109mfzxBlRt5pb6.0mAanucLhvTL8TAq1MYFzLOZiFiA; path=/; expires=Sun, 24-Mar-24 14:37:26 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=Hvvnp0mHTPxNGpXzPFXW.EtnDcq8rq2EDF7CwzGua2M-1711289246509-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'86973a088dda5d96-FRA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-03-24 15:07:26,583 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:07:26,583 DEBUG receive_response_body.started request=<Request [b'POST']>
+2024-03-24 15:07:26,584 DEBUG receive_response_body.complete
+2024-03-24 15:07:26,584 DEBUG response_closed.started
+2024-03-24 15:07:26,584 DEBUG response_closed.complete
+2024-03-24 15:07:26,584 DEBUG HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-03-24 15:07:26,595 INFO no cache found
+2024-03-24 15:07:26,660 INFO output : ok
+2024-03-24 15:07:26,660 INFO output_en : okay.
+2024-03-24 15:07:35,310 INFO arduino code uploaded
+2024-03-24 15:07:47,881 INFO input : robot stop
+2024-03-24 15:07:47,882 INFO input_en : robot stop
+2024-03-24 15:07:47,882 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0, 68.8, 31.2]
+2024-03-24 15:07:47,882 INFO type : arduino
+2024-03-24 15:07:47,882 INFO cache found
+2024-03-24 15:07:47,882 INFO output : ok
+2024-03-24 15:07:47,882 INFO output_en : okay.
+2024-03-24 15:07:52,770 INFO arduino code uploaded
+2024-03-24 15:08:05,020 INFO input : robot chante bon anniversaire
+2024-03-24 15:08:05,020 INFO input_en : robot sings happy birthday
+2024-03-24 15:08:05,020 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55.2, 0.0, 44.800000000000004]
+2024-03-24 15:08:05,020 INFO type : arduino
+2024-03-24 15:08:05,020 INFO get_file
+2024-03-24 15:08:05,025 DEBUG Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': ' I have those examples :\n  Otto.walk(2,1000,1); //2 steps, "TIME". IF HIGHER THE VALUE THEN SLOWER (from 600 to 1400), 1 FORWARD\n  Otto.walk(2,1000,-1); //2 steps, T, -1 BACKWARD \n  Otto.turn(2,1000,1);//3 steps turning LEFT\n  Otto._tone(10, 3, 1);\n  Otto.bendTones (100, 200, 1.04, 10, 10);\n    Otto.home();\n    delay(100);  \n  Otto.turn(2,1000,-1);//3 steps turning RIGHT \n  Otto.bend (1,500,1); //usually steps =1, T=2000\n  Otto.bend (1,2000,-1);     \n  Otto.shakeLeg (1,1500, 1);\n    Otto.home();\n    delay(100);\n  Otto.shakeLeg (1,2000,-1);\n  Otto.moonwalker(3, 1000, 25,1); //LEFT\n  Otto.moonwalker(3, 1000, 25,-1); //RIGHT  \n  Otto.crusaito(2, 1000, 20,1);\n  Otto.crusaito(2, 1000, 20,-1);\n    delay(100); \n  Otto.flapping(2, 1000, 20,1);\n  Otto.flapping(2, 1000, 20,-1);\n    delay(100);        \n  Otto.swing(2, 1000, 20);\n  Otto.tiptoeSwing(2, 1000, 20);\n  Otto.jitter(2, 1000, 20); //(small T)\n  Otto.updown(2, 1500, 20);  // 20 = H "HEIGHT of movement"T \n  Otto.ascendingTurn(2, 1000, 50);\n  Otto.jump(1,500); // It doesn\'t really jumpl ;P\n  Otto.home();\n     delay(100); \n  Otto.sing(S_cuddly);\n  Otto.sing(S_OhOoh);\n  Otto.sing(S_OhOoh2);\n  Otto.sing(S_surprise);\n  Otto.sing(S_buttonPushed);       \n  Otto.sing(S_mode1);        \n  Otto.sing(S_mode2);         \n  Otto.sing(S_mode3);  \n  Otto.sing(S_sleeping);\n  Otto.sing(S_fart1);\n  Otto.sing(S_fart2);\n  Otto.sing(S_fart3);\n  Otto.sing(S_happy);\n  Otto.sing(S_happy_short);                   \n  Otto.sing(S_superHappy);   \n  Otto.sing(S_sad);               \n  Otto.sing(S_confused);\n  Otto.sing(S_disconnection);\n    delay(100);  \n  Otto.playGesture(OttoHappy);\n  Otto.playGesture(OttoSuperHappy);\n  Otto.playGesture(OttoSad);\n  Otto.playGesture(OttoVictory); \n  Otto.playGesture(OttoAngry); \n  Otto.playGesture(OttoSleeping);\n  Otto.playGesture(OttoFretful);\n  Otto.playGesture(OttoLove);\n  Otto.playGesture(OttoConfused);        \n  Otto.playGesture(OttoFart);\n  Otto.playGesture(OttoWave);\n  Otto.playGesture(OttoMagic);\n  Otto.playGesture(OttoFail); \n  \n  Start the code with :\n  #include <Otto.h>\n  Otto Otto;\n\n  #define LeftLeg 2 // left leg pin, servo[0]\n  #define RightLeg 3 // right leg pin, servo[1]\n  #define LeftFoot 4 // left foot pin, servo[2]\n  #define RightFoot 5 // right foot pin, servo[3]\n  #define Buzzer 13 //buzzer pin\n\n  void setup() {\n    Otto.init(LeftLeg, RightLeg, LeftFoot, RightFoot, true, Buzzer);\n    Otto.home();\n  }\n  \n  please write a full code with the setup and loop methods to make the robot robot sings happy birthday. Only respond with code as plain text without code block syntax around it.'}], 'model': 'gpt-3.5-turbo'}}
+2024-03-24 15:08:05,026 DEBUG close.started
+2024-03-24 15:08:05,027 DEBUG close.complete
+2024-03-24 15:08:05,027 DEBUG connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-03-24 15:08:05,037 DEBUG connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f925d661fa0>
+2024-03-24 15:08:05,037 DEBUG start_tls.started ssl_context=<ssl.SSLContext object at 0x7f926a2fb5c0> server_hostname='api.openai.com' timeout=5.0
+2024-03-24 15:08:05,049 DEBUG start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f926a438130>
+2024-03-24 15:08:05,049 DEBUG send_request_headers.started request=<Request [b'POST']>
+2024-03-24 15:08:05,049 DEBUG send_request_headers.complete
+2024-03-24 15:08:05,049 DEBUG send_request_body.started request=<Request [b'POST']>
+2024-03-24 15:08:05,049 DEBUG send_request_body.complete
+2024-03-24 15:08:05,049 DEBUG receive_response_headers.started request=<Request [b'POST']>
+2024-03-24 15:08:07,742 DEBUG receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 24 Mar 2024 14:08:07 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-0125'), (b'openai-organization', b'user-d41fhbaykszq8tiymeyhbbg6'), (b'openai-processing-ms', b'2132'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59334'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'req_076a9064e935412e37676840f2364616'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'86973b2f9add2c4d-FRA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-03-24 15:08:07,743 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:08:07,744 DEBUG receive_response_body.started request=<Request [b'POST']>
+2024-03-24 15:08:07,744 DEBUG receive_response_body.complete
+2024-03-24 15:08:07,744 DEBUG response_closed.started
+2024-03-24 15:08:07,745 DEBUG response_closed.complete
+2024-03-24 15:08:07,745 DEBUG HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-03-24 15:08:07,750 INFO no cache found
+2024-03-24 15:08:07,809 INFO output : ok
+2024-03-24 15:08:07,809 INFO output_en : okay.
+2024-03-24 15:08:13,819 INFO arduino code uploaded
+2024-03-24 15:08:36,354 INFO input : robot marche pendant un mètre
+2024-03-24 15:08:36,355 INFO input_en : robot works for one meter
+2024-03-24 15:08:36,355 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0, 0.0, 100.0]
+2024-03-24 15:08:36,355 INFO type : arduino
+2024-03-24 15:08:36,355 INFO get_file
+2024-03-24 15:08:36,360 DEBUG Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': ' I have those examples :\n  Otto.walk(2,1000,1); //2 steps, "TIME". IF HIGHER THE VALUE THEN SLOWER (from 600 to 1400), 1 FORWARD\n  Otto.walk(2,1000,-1); //2 steps, T, -1 BACKWARD \n  Otto.turn(2,1000,1);//3 steps turning LEFT\n  Otto._tone(10, 3, 1);\n  Otto.bendTones (100, 200, 1.04, 10, 10);\n    Otto.home();\n    delay(100);  \n  Otto.turn(2,1000,-1);//3 steps turning RIGHT \n  Otto.bend (1,500,1); //usually steps =1, T=2000\n  Otto.bend (1,2000,-1);     \n  Otto.shakeLeg (1,1500, 1);\n    Otto.home();\n    delay(100);\n  Otto.shakeLeg (1,2000,-1);\n  Otto.moonwalker(3, 1000, 25,1); //LEFT\n  Otto.moonwalker(3, 1000, 25,-1); //RIGHT  \n  Otto.crusaito(2, 1000, 20,1);\n  Otto.crusaito(2, 1000, 20,-1);\n    delay(100); \n  Otto.flapping(2, 1000, 20,1);\n  Otto.flapping(2, 1000, 20,-1);\n    delay(100);        \n  Otto.swing(2, 1000, 20);\n  Otto.tiptoeSwing(2, 1000, 20);\n  Otto.jitter(2, 1000, 20); //(small T)\n  Otto.updown(2, 1500, 20);  // 20 = H "HEIGHT of movement"T \n  Otto.ascendingTurn(2, 1000, 50);\n  Otto.jump(1,500); // It doesn\'t really jumpl ;P\n  Otto.home();\n     delay(100); \n  Otto.sing(S_cuddly);\n  Otto.sing(S_OhOoh);\n  Otto.sing(S_OhOoh2);\n  Otto.sing(S_surprise);\n  Otto.sing(S_buttonPushed);       \n  Otto.sing(S_mode1);        \n  Otto.sing(S_mode2);         \n  Otto.sing(S_mode3);  \n  Otto.sing(S_sleeping);\n  Otto.sing(S_fart1);\n  Otto.sing(S_fart2);\n  Otto.sing(S_fart3);\n  Otto.sing(S_happy);\n  Otto.sing(S_happy_short);                   \n  Otto.sing(S_superHappy);   \n  Otto.sing(S_sad);               \n  Otto.sing(S_confused);\n  Otto.sing(S_disconnection);\n    delay(100);  \n  Otto.playGesture(OttoHappy);\n  Otto.playGesture(OttoSuperHappy);\n  Otto.playGesture(OttoSad);\n  Otto.playGesture(OttoVictory); \n  Otto.playGesture(OttoAngry); \n  Otto.playGesture(OttoSleeping);\n  Otto.playGesture(OttoFretful);\n  Otto.playGesture(OttoLove);\n  Otto.playGesture(OttoConfused);        \n  Otto.playGesture(OttoFart);\n  Otto.playGesture(OttoWave);\n  Otto.playGesture(OttoMagic);\n  Otto.playGesture(OttoFail); \n  \n  Start the code with :\n  #include <Otto.h>\n  Otto Otto;\n\n  #define LeftLeg 2 // left leg pin, servo[0]\n  #define RightLeg 3 // right leg pin, servo[1]\n  #define LeftFoot 4 // left foot pin, servo[2]\n  #define RightFoot 5 // right foot pin, servo[3]\n  #define Buzzer 13 //buzzer pin\n\n  void setup() {\n    Otto.init(LeftLeg, RightLeg, LeftFoot, RightFoot, true, Buzzer);\n    Otto.home();\n  }\n  \n  please write a full code with the setup and loop methods to make the robot robot works for one meter. Only respond with code as plain text without code block syntax around it.'}], 'model': 'gpt-3.5-turbo'}}
+2024-03-24 15:08:36,361 DEBUG close.started
+2024-03-24 15:08:36,362 DEBUG close.complete
+2024-03-24 15:08:36,362 DEBUG connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-03-24 15:08:36,382 DEBUG connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f926a4380a0>
+2024-03-24 15:08:36,382 DEBUG start_tls.started ssl_context=<ssl.SSLContext object at 0x7f926a2fb5c0> server_hostname='api.openai.com' timeout=5.0
+2024-03-24 15:08:36,392 DEBUG start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f925fc39ee0>
+2024-03-24 15:08:36,392 DEBUG send_request_headers.started request=<Request [b'POST']>
+2024-03-24 15:08:36,392 DEBUG send_request_headers.complete
+2024-03-24 15:08:36,392 DEBUG send_request_body.started request=<Request [b'POST']>
+2024-03-24 15:08:36,393 DEBUG send_request_body.complete
+2024-03-24 15:08:36,393 DEBUG receive_response_headers.started request=<Request [b'POST']>
+2024-03-24 15:08:41,228 DEBUG receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 24 Mar 2024 14:08:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-0125'), (b'openai-organization', b'user-d41fhbaykszq8tiymeyhbbg6'), (b'openai-processing-ms', b'4354'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59335'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'665ms'), (b'x-request-id', b'req_738b7aa011bdef202de5e7ea6741764b'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'86973bf379588f30-FRA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-03-24 15:08:41,229 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:08:41,229 DEBUG receive_response_body.started request=<Request [b'POST']>
+2024-03-24 15:08:41,230 DEBUG receive_response_body.complete
+2024-03-24 15:08:41,230 DEBUG response_closed.started
+2024-03-24 15:08:41,231 DEBUG response_closed.complete
+2024-03-24 15:08:41,231 DEBUG HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-03-24 15:08:41,236 INFO no cache found
+2024-03-24 15:08:41,295 INFO output : ok
+2024-03-24 15:08:41,295 INFO output_en : okay.
+2024-03-24 15:08:47,155 INFO arduino code uploaded
