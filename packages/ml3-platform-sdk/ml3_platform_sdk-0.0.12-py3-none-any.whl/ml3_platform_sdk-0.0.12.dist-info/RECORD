@@ -1,0 +1,16 @@
+ml3_platform_sdk/__init__.py,sha256=1SFj-qMOaeO0fOKQaFmYhAKiRwwNda5uWKpYtIcken8,23
+ml3_platform_sdk/client.py,sha256=UGGSt4E01UAJ9eFqlpyqca7KJ8Jr2oGYdIX2tQLk9Eo,59792
+ml3_platform_sdk/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml3_platform_sdk/core/client_impl.py,sha256=mHedFRJb-lxZwN-ciBnQh5wklQmAAeyi6ZK_glFFThg,67004
+ml3_platform_sdk/core/connection.py,sha256=HoPFd87Ikxk2IlvLfMnj1XGQspuw8b5BidNCx2Ap3jE,1355
+ml3_platform_sdk/core/enums.py,sha256=lEfEl5JyIbmNulYjcnElKZnpOYQOU_IfEIDhp56jjU8,765
+ml3_platform_sdk/core/requests.py,sha256=T7E-rSfD7FjqyRfUKfeOR8gshXnNBejBUkaH4G3dDTQ,10544
+ml3_platform_sdk/core/responses.py,sha256=_1ohjFGZ-bfVFw2VlsTqQ90MHx58DBco2s_kr5dQfGM,330
+ml3_platform_sdk/core/singleton.py,sha256=mivo9J9V4xE7YJ5SoQKbCRdBQxtjVK3V_oDj0kkSodI,534
+ml3_platform_sdk/enums.py,sha256=ZNVr0qZVkqxhtrW_FjrVsxyDOO9zI4aacRmxjoXZhWU,7224
+ml3_platform_sdk/exceptions.py,sha256=vwG4vDxwVt6LZyR1YVVoteC_zwqhMQGhPNBgsncSsCM,2857
+ml3_platform_sdk/models.py,sha256=eEH0dPrJCzYNG1swnJvXIzYPU_sX6-pi2hIQvdX_tp0,18088
+ml3_platform_sdk/utils.py,sha256=nFSxuQotaSXUcf3fwNtAD8XFHq85kfQJAVf7SIUwgkU,480
+ml3_platform_sdk-0.0.12.dist-info/METADATA,sha256=21TgYpeiN0XE4g3qSDQEWxeypfNm31k2u7lEyovs0OI,921
+ml3_platform_sdk-0.0.12.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ml3_platform_sdk-0.0.12.dist-info/RECORD,,
