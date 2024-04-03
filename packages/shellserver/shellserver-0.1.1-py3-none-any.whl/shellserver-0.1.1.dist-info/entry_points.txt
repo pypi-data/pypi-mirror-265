@@ -1,0 +1,5 @@
+[console_scripts]
+shellserver = shellserver.cli:main
+
+[gui_scripts]
+shellserverw = shellserver.cli:main
