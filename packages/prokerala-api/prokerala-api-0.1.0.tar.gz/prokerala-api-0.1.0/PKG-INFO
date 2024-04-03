@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: prokerala-api
+Version: 0.1.0
+Summary: SDK for accessing Prokerala API
+Author-email: Joyce Babu <joyce@ennexa.com>
+Project-URL: Homepage, https://github.com/prokerala/astrology-api-client-example
+Project-URL: Issues, https://github.com/prokerala/astrology-api-client-example/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Python client
+
+This is a sample API client written in [Python](https://www.python.org/) for accessing Prokerala Astrology API.
+
+## Installation
+
+Install the package from Python Package Index
+
+```
+pip install prokerala-api
+```
+
+## Usage
+
+You can find your `clientId` and `clientSecret` in your [dashboard](https://api.prokerala.com/account/client)
+
+
+### [Kundli](https://api.prokerala.com/docs#operation/get-kundli)
+
+```python
+#!/usr/bin/env python
+
+from prokerala_api import ApiClient
+import json
+
+def run():
+    client = ApiClient('YOUR_CLIENT_ID', 'YOUR_CLIENT_SECRET')
+    result = client.get('v2/astrology/kundli/advanced', {
+        'ayanamsa': 1,
+        'coordinates': '23.1765,75.7885',
+        'datetime': '2020-10-19T12:31:14+00:00'
+    })
+    print json.dumps(result, indent=4)
+
+if __name__ == '__main__':
+    run()
+
+```
