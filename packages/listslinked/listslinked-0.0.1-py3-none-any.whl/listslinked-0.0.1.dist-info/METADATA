@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: listslinked
+Version: 0.0.1
+Summary: A small python package for linked lists
+Author-email: Spyder Rex <billyjohnsonauthor@gmail.com>
+Project-URL: Homepage, https://github.com/SpyderRex/linked_lists
+Project-URL: Issues, https://github.com/SpyderRex/linked_lists/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Linked Lists Python Module
+
+## Overview
+
+The Linked Lists Python Module provides implementations for various types of linked lists in Python. Linked lists are fundamental data structures commonly used in computer science and programming.
+
+This module includes implementations for the following types of linked lists:
+- Singly Linked List
+- Doubly Linked List
+- Circular Singly Linked List
+- Circular Doubly Linked List
+
+Each type of linked list offers different capabilities and can be used for various applications.
+
+## Installation
+
+You can install the module using pip:
+
+```
+pip install linked-lists
+```
+
+## Usage
+
+To use the linked lists in your Python code, import the desired type of linked list from the module. For example, to use the Singly Linked List:
+
+```python
+from linked_lists.singly_linked_list import SinglyLinkedList
+
+# Create a new singly linked list
+linked_list = SinglyLinkedList()
+
+# Insert elements
+linked_list.insert_at_beginning(5)
+linked_list.insert_at_end(10)
+
+# Print the linked list
+current = linked_list.get_head()
+while current:
+    print(current.data)
+    current = current.next
+```
+
+Similarly, you can use the other types of linked lists provided by the module.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on [GitHub](https://github.com/SpyderRex/linked-lists).
+
+## License
+
+This project is licensed under the MIT License - LICENSE file for details.
