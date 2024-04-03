@@ -1,0 +1,6 @@
+tomli
+pillow
+
+[dev]
+pip-tools
+pytest
