@@ -1,0 +1,7 @@
+amazon-textract-response-parser>=0.1.39
+boto3>=1.26.35
+botocore
+
+[testing]
+amazon-textract-response-parser
+pytest
