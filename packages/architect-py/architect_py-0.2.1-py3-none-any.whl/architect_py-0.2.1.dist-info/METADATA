@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: architect-py
+Version: 0.2.1
+Summary: Client library for the Architect trading platform.
+Author: Architect Financial Technologies, Inc.
+Author-email: hello@architect.xyz
+Requires-Python: >=3.8,<4
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: gql[all] (>=3.5.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# architect_py
+
+## Example
+
+```python
+import asyncio
+from architect_py.client import Client
+
+
+async def main():
+    c = Client(
+        "https://<your installation domain>:4567",
+        "wss://<your installation domain>:4567/subscriptions",
+        "<api key>",
+        "<api secret>"
+    )
+    print(await c.execute_async("query { me { userId email } }"))
+    s = await c.subscribe_async(
+        """
+    subscription {
+        trades(market: "BTC Crypto/USD*COINBASE/DIRECT") {
+            time
+            direction
+            price
+            size
+        }
+    }
+    """
+    )
+    async for trade in s:
+        print(trade)
+
+
+asyncio.run(main())
+```
