@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "electrode-visualizer"
+version = "1.0.0"
+description = ""
+authors = ["Ignacio de la Torre Arias <ignaciodlta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+dearpygui = "^1.11.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
