@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyyocr.py
+setup.py
+lyyocr.egg-info/PKG-INFO
+lyyocr.egg-info/SOURCES.txt
+lyyocr.egg-info/dependency_links.txt
+lyyocr.egg-info/top_level.txt
