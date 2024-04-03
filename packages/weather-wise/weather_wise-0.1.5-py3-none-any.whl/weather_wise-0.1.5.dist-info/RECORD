@@ -1,0 +1,7 @@
+weather_wise/__init__.py,sha256=tKKEMz6PmX9r_O9TsljRCE4O3zGavgLn2quILK-BIVE,46
+weather_wise/data/2022_gazetteer_zcta_national.json,sha256=sKwxJZnqoAoh_K_CO58ScWqaFY0-S5SE0GP84oe09E4,2972714
+weather_wise/data/2022_gazetteer_zcta_national.txt,sha256=ztMMHlm8-gv7mZc0Ru5gmAWa8SetLGbRMQENZ-mkZt8,6792182
+weather_wise/weather_wise.py,sha256=pilq8230nuGxIgtVKWNeyvCuxd4Fi9fOqISynpJB54Q,6049
+weather_wise-0.1.5.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+weather_wise-0.1.5.dist-info/METADATA,sha256=Wk9pz1KbBzia3vLM9ffj_0q7e8_Rd-xovGGtKs47gwI,2308
+weather_wise-0.1.5.dist-info/RECORD,,
