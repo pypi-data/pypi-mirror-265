@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+outerr2html/README.MD
+outerr2html/__init__.py
+outerr2html/requirements.txt
+outerr2html/thirdparty.json
+outerr2html.egg-info/PKG-INFO
+outerr2html.egg-info/SOURCES.txt
+outerr2html.egg-info/dependency_links.txt
+outerr2html.egg-info/requires.txt
+outerr2html.egg-info/top_level.txt
