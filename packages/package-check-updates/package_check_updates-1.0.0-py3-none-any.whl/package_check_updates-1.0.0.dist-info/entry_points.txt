@@ -1,0 +1,2 @@
+[console_scripts]
+package_check_updates = package_check_updates:main
