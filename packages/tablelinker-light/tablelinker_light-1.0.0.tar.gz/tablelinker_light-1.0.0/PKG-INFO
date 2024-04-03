@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: tablelinker-light
+Version: 1.0.0
+Summary: TableLinker: CSV data processing library (light version)
+Home-page: https://github.com/KMCS-NII/tablelinker-lib
+Keywords: CSV,tabular,cleansing,batch processing
+Author: Takeshi Sagara
+Author-email: sagara@info-proto.com
+Maintainer: Takeshi Sagara
+Maintainer-email: sagara@info-proto.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: charset-normalizer
+Requires-Dist: docopt
+Requires-Dist: jaconv
+Requires-Dist: jageocoder (>=2.0.0)
+Requires-Dist: jeraconv
+Requires-Dist: munkres (>=1.1.4,<2.0.0)
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: regex (>=2023.12.25,<2024.0.0)
+Requires-Dist: requests
+Requires-Dist: xlrd
+Project-URL: Documentation, https://tablelinker-light.readthedocs.io/
+Project-URL: Repository, https://github.com/KMCS-NII/tablelinker-lib
+Description-Content-Type: text/markdown
+
+# tablelinker-light
+
+![Python 3.7](https://github.com/InfoProto/tablelinker-light/actions/workflows/python-3.7.yml/badge.svg)
+![Python 3.8](https://github.com/InfoProto/tablelinker-light/actions/workflows/python-3.8.yml/badge.svg)
+![Python 3.9](https://github.com/InfoProto/tablelinker-light/actions/workflows/python-3.9.yml/badge.svg)
+![Python 3.10](https://github.com/InfoProto/tablelinker-light/actions/workflows/python-3.10.yml/badge.svg)
+![Python 3.11](https://github.com/InfoProto/tablelinker-light/actions/workflows/python-3.11.yml/badge.svg)
+![Python 3.12](https://github.com/InfoProto/tablelinker-light/actions/workflows/python-3.12.yml/badge.svg)
+
+
+TableLinker をコマンドライン / プログラム組み込みで利用するための
+ライブラリ Tablelinker-lib の軽量版派生バージョンです。
+
+オリジナルの Tablelinker-lib は国立情報学研究所より
+https://github.com/NII-CPS-Center/tablelinker-lib
+で公開されており、 MIT ライセンスで利用可能です。
+
+## インストール手順
+
+Poetry を利用します。
+
+```
+$ poetry install --with group=dev
+$ poetry shell
+```
+
+## コマンドラインで利用する場合
+
+tablelinker モジュールを実行すると、標準入力から受け取った CSV を
+コンバータで変換し、標準出力に送るパイプとして利用できます。
+
+```
+$ cat sample/datafiles/yanai_tourism.csv | \
+  python -m tablelinker sample/taskfiles/task.json
+```
+
+利用するコンバータと、コンバータに渡すパラメータは JSON ファイルに記述し、
+パラメータで指定します。
+
+## 組み込んで利用する場合
+
+`sample.py` を参照してください。
+
