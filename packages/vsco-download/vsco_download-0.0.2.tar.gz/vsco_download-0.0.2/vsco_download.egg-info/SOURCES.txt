@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vsco_download/__init__.py
+vsco_download/api.py
+vsco_download.egg-info/PKG-INFO
+vsco_download.egg-info/SOURCES.txt
+vsco_download.egg-info/dependency_links.txt
+vsco_download.egg-info/requires.txt
+vsco_download.egg-info/top_level.txt
