@@ -1,0 +1,8 @@
+pillow
+pillow-avif-plugin
+pillow-heif
+transformers>=4.39.2
+torch>=2.2.2
+termcolor
+pyexiv2
+tqdm
