@@ -1,0 +1,2 @@
+naja-atra
+redis>=4.3
