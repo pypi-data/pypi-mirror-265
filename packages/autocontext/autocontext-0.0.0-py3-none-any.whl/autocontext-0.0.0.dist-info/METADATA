@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autocontext
+Version: 0.0.0
+Summary: a library to inject context related dependencies
+Author: George Haddad
+License: Apache Software License (Apache 2.0)
+Keywords: python,autowired,autocontext,auto,context
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# autocontext
+a library to inject context related dependencies
