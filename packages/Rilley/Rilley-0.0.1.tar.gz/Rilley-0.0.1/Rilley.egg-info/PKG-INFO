@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Rilley
+Version: 0.0.1
+Summary: A simple package for https://app.tea.xyz/. Example Second project https://github.com/CryptoGu1/Rilley1.git and third - https://github.com/CryptoGu1/Rilley2.git
+Home-page: https://github.com/CryptoGu1/Rilley.git
+Author: CryptoGu1
+Author-email: Kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/Rilley.git
+Project-URL: Source, https://github.com/CryptoGu1/Rilley.git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: Rilley1
+Requires-Dist: Rilley2
