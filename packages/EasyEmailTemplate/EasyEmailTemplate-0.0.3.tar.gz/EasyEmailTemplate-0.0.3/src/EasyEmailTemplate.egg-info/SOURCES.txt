@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/EmailTemplate.py
+src/__init__.py
+src/EasyEmailTemplate.egg-info/PKG-INFO
+src/EasyEmailTemplate.egg-info/SOURCES.txt
+src/EasyEmailTemplate.egg-info/dependency_links.txt
+src/EasyEmailTemplate.egg-info/top_level.txt

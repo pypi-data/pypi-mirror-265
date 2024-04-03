@@ -1,0 +1,18 @@
+[project]
+name = "EasyEmailTemplate"
+version = "0.0.3"
+authors = [
+  { name="David Billingsley", email="daveandtaybillingsley@gmail.com" },
+]
+description = "Email sending tempalte for beginers to send emails"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/David-Billingsley/EmailTemplate"
+Issues = "https://github.com/David-Billingsley/EmailTemplate/issues"
