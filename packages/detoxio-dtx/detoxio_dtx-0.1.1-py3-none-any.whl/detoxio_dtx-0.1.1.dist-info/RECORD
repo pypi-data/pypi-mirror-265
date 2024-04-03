@@ -1,0 +1,9 @@
+dtx/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dtx/cli/__init__.py,sha256=u0IblzAREDqW5HDmaNgKHKS2H1TPjgQfjFcQkujdOqE,5419
+dtx/cli/console.py,sha256=qaIFDPerPjN9lw8knYSz1-bEdSx_o-TxTmyIh9gOXaU,1702
+dtx/cli/inferencing.py,sha256=Mj4j-YJhel75r3VB6KeiU9AHjooGtOUavSFGB2TwMmM,3180
+dtx/cli/utils.py,sha256=Max_Nil2NRaVJc7NxwyfFw7VdDt21_kySDc4xxM2mDs,714
+detoxio_dtx-0.1.1.dist-info/METADATA,sha256=xSDECYk5btd_js12nf4P23BSp5MD-w1DInEhO-9-RpM,1620
+detoxio_dtx-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+detoxio_dtx-0.1.1.dist-info/entry_points.txt,sha256=k9up7oeUR7Pc5GIe8XR8GK1T8wEHX0r-BhbwQP6Kk_Y,36
+detoxio_dtx-0.1.1.dist-info/RECORD,,
