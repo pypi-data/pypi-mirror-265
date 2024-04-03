@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: booookscore
+Version: 0.1.2
+Summary: Official package for our ICLR 2024 paper, "BooookScore: A systematic exploration of book-length summarization in the era of LLMs".
+Home-page: https://github.com/lilakk/BooookScore
+Author: Yapei Chang
+Author-email: yapeichang@umass.edu
+License-File: LICENSE
+
