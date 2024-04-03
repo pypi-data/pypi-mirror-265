@@ -1,0 +1,2 @@
+[console_scripts]
+s2u = s2u.s2u:main
