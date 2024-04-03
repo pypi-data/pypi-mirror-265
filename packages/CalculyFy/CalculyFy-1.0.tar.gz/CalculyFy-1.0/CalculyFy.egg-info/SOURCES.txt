@@ -1,0 +1,10 @@
+README.md
+setup.py
+CalculyFy.egg-info/PKG-INFO
+CalculyFy.egg-info/SOURCES.txt
+CalculyFy.egg-info/dependency_links.txt
+CalculyFy.egg-info/entry_points.txt
+CalculyFy.egg-info/top_level.txt
+calculyfy/CalculyFy.py
+calculyfy/__init__.py
+calculyfy/cli.py
