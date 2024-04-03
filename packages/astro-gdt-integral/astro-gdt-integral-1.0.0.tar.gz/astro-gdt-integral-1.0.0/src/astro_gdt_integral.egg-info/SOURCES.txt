@@ -1,0 +1,17 @@
+MANIFEST.in
+PYPI-README.rst
+README.rst
+license.txt
+setup.py
+src/astro_gdt_integral.egg-info/PKG-INFO
+src/astro_gdt_integral.egg-info/SOURCES.txt
+src/astro_gdt_integral.egg-info/dependency_links.txt
+src/astro_gdt_integral.egg-info/requires.txt
+src/astro_gdt_integral.egg-info/top_level.txt
+src/gdt/data/integral.urls
+src/gdt/missions/integral/__init__.py
+src/gdt/missions/integral/frame.py
+src/gdt/missions/integral/headers.py
+src/gdt/missions/integral/orbit.py
+src/gdt/missions/integral/time.py
+src/gdt/missions/integral/spi/spi_acs.py
