@@ -1,0 +1,10 @@
+item_matching/__init__.py,sha256=Uqw-Goi8R24pf0SFZVI6q4re7jzfIANzWIGA4RLQb-g,75
+item_matching/main.py,sha256=imnkMVxh0CVwiNZc-HVMqRvv9DpHBUuUUDURiXDSmJQ,3855
+item_matching/build_index/func.py,sha256=bZY81byWRl-tMvyTcq6KdgHPoo0v56KWiYL8o5MjxjA,1338
+item_matching/build_index/func_img.py,sha256=VWIOj0ZFyrQ9QkERkYuIjkE3cZ9AiK2HSF9cxRgTBBc,3029
+item_matching/build_index/matching.py,sha256=nZQx6meD7WR9uCzoZ75tQRVlN8mvqVsaAntYYFwrK1Y,8425
+item_matching/build_index/model.py,sha256=_W5Mo_kIs7nnK3J8pyNv7Gd0hbWBkAJlHsf8_ncYfZA,2126
+item_matching-0.0.16.dist-info/METADATA,sha256=EHdh6Jm8oRZC4F77iyvpzCY6FRLREbYzlQzKTo34wV8,2347
+item_matching-0.0.16.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+item_matching-0.0.16.dist-info/licenses/LICENSE,sha256=e52nUM7JfwNPEdg6TvBFl07OHaXfeQqSdQSsDPyRssE,1054
+item_matching-0.0.16.dist-info/RECORD,,
