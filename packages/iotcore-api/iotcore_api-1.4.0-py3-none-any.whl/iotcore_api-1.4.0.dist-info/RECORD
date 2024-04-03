@@ -1,0 +1,7 @@
+iotcoreapi/__init__.py,sha256=74nUhXOJIqSwdZOiQvL-P-1gG-0m1oIIzrak9Q95EKo,462
+iotcoreapi/exceptions.py,sha256=WHeMvSQGWvnlLdUF5_YENivSj9A0vh4h_sLTnM1J0Ko,934
+iotcoreapi/iotcoreapi.py,sha256=WtPI6SOcVz8OAljj8hybxxcLp1tI4N5HeOmtFMLp3Go,57123
+iotcoreapi/nan_treatment.py,sha256=aIex1K-0UWWnV_ObWa7IzyTcBC9fdpg2L3YL599fgIY,1206
+iotcore_api-1.4.0.dist-info/METADATA,sha256=nvcvCJQK66LGjKlRpjgDOCBbJCuVylAZjLhE1XcTV_c,34780
+iotcore_api-1.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+iotcore_api-1.4.0.dist-info/RECORD,,
