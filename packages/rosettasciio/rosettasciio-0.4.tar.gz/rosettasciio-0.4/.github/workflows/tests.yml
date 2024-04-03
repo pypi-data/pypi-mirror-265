@@ -1,0 +1,138 @@
+name: Tests
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  run_test_site:
+    name: ${{ matrix.os }}-${{ matrix.os_version }}-py${{ matrix.PYTHON_VERSION }}${{ matrix.LABEL }}
+    runs-on: ${{ matrix.os }}-${{ matrix.os_version }}
+    timeout-minutes: 30
+    env:
+      MPLBACKEND: agg
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu, windows, macos]
+        os_version: [latest]
+        PYTHON_VERSION: ['3.9', '3.10']
+        LABEL: ['']
+        include:
+          # test oldest supported version of main dependencies on python 3.8
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.8'
+            # Set pillow and scikit-image version to be compatible with imageio and scipy
+            # matplotlib needs 3.5 to support markers in hyperspy 2.0 (requires `collection.set_offset_transform`)
+            DEPENDENCIES: matplotlib==3.5 numpy==1.20.0 imagecodecs==2020.1.31 tifffile==2020.2.16 dask[array]==2021.3.1 numba==0.52 imageio==2.16 pillow==8.3.2 scikit-image==0.18.0
+            LABEL: '-oldest'
+          # test minimum requirement
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.9'
+            LABEL: '-minimum'
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.12'
+            LABEL: '-minimum-without-hyperspy'
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.11'
+            LABEL: '-hyperspy-dev'
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.9'
+            LABEL: '-without-hyperspy'
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.8'
+          - os: ubuntu
+            os_version: latest
+            PYTHON_VERSION: '3.11'
+          - os: macos
+            os_version: '14'
+            PYTHON_VERSION: '3.11'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: get repository name
+        shell: bash
+        run: echo "REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+
+      - name: Fetch tags upstream
+        if: ${{ github.repository_owner != 'hyperspy' }}
+        # Needs to fetch the tags from upstream to get the
+        # correct version with setuptools_scm
+        run: |
+          git remote add upstream https://github.com/hyperspy/${{ env.REPOSITORY_NAME }}.git
+          git fetch upstream --tags
+
+      - uses: actions/setup-python@v5
+        name: Install Python
+        with:
+          python-version: ${{ matrix.PYTHON_VERSION }}
+        
+      - name: Get the number of CPUs
+        id: cpus
+        run: |
+          import os, platform
+          num_cpus = os.cpu_count()
+          print(f"Number of CPU: {num_cpus}")
+          print(f"Architecture: {platform.machine()}")
+          output_file = os.environ["GITHUB_OUTPUT"]
+          with open(output_file, "a", encoding="utf-8") as output_stream:
+              output_stream.write(f"count={num_cpus}\n")
+        shell: python
+          
+      - name: Set Environment Variable
+        shell: bash
+        # Set PIP_SELECTOR environment variable according to matrix.LABEL
+        run: |
+          if [[ -n "${{ matrix.LABEL }}" && "${{ matrix.LABEL }}" == *"minimum"* ]]; then
+            PIP_SELECTOR="[tests]"
+          else
+            PIP_SELECTOR="[all, tests]"
+          fi
+          echo "PIP_SELECTOR=${PIP_SELECTOR}" >> $GITHUB_ENV
+
+      - name: Display version
+        run: |
+          python --version
+          pip --version
+
+      - name: Install oldest supported version
+        if: contains(matrix.LABEL, 'oldest')
+        run: |
+          pip install ${{ matrix.DEPENDENCIES }}
+
+      - name: Install hyperspy and exspy
+        if: ${{ ! contains(matrix.LABEL, 'without-hyperspy') }}
+        run: |
+          pip install hyperspy exspy
+
+      - name: Install hyperspy and exspy (dev)
+        if: ${{ contains(matrix.LABEL, 'hyperspy-dev') }}
+        run: |
+          pip install git+https://github.com/hyperspy/hyperspy.git
+          pip install git+https://github.com/hyperspy/exspy.git
+
+      - name: Install
+        shell: bash
+        run: |
+          pip install --upgrade -e .'${{ env.PIP_SELECTOR }}'
+
+      - name: Pip list
+        run: |
+          pip list
+
+      - name: Run test suite
+        run: |
+          pytest --pyargs rsciio --reruns 3 -n ${{ steps.cpus.outputs.count }} --cov=. --cov-report=xml
+
+      - name: Upload coverage to Codecov
+        if: ${{ always() }}
+        uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

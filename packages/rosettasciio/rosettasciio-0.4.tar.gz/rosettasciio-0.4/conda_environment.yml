@@ -1,0 +1,15 @@
+name: test_env
+channels:
+- conda-forge
+dependencies:
+- dask-core >=2.11
+- h5py
+- imageio
+- numba >=0.52
+- numpy
+- pint
+- python-box >=6.0,<7.0
+- python-dateutil
+- pyyaml
+- scipy
+- sparse
