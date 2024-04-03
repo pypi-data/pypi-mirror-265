@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scipy
+unum
+multiprocess
+psutil
+sphinxcontrib-fulltoc
