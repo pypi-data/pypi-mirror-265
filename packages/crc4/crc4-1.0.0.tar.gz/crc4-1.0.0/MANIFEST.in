@@ -1,0 +1,6 @@
+global-include *.pyi
+global-include *.c
+global-include *.h
+global-include *.typed
+include README.md
+include LICENSE

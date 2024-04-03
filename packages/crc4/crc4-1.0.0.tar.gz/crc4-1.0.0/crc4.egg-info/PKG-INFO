@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: crc4
+Version: 1.0.0
+Summary: RC4 encryption for Python in C.
+Home-page: https://ari.lt/gh/crc4
+Author: Ari Archer
+Author-email: ari@ari.lt
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Security :: Cryptography
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CRC4
+
+> RC4 encryption for python in C
+
+# Installation
+
+```sh
+pip install crc4
+```
+
+# Timing
+
+```
+Timing tests...
+Python... 1.4859342069994455
+C... 0.08101043699934962
+```
+
+C is over 18 times faster.
