@@ -1,0 +1,2 @@
+[console_scripts]
+yanhekt = yanhekt.main:main
