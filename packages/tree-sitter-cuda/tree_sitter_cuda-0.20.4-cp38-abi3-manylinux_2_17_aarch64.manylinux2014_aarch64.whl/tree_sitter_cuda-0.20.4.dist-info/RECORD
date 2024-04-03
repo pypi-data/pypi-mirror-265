@@ -1,0 +1,10 @@
+tree_sitter_cuda/__init__.py,sha256=MGl7_tcq0JkLN0pQOg1srfyJD5F4sXojZ9tLT17IPXo,87
+tree_sitter_cuda/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_cuda/_binding.abi3.so,sha256=VK9jEFJ6pOIptQavn__TEOvS7UoQcieWVLwPxW-6TS8,7465032
+tree_sitter_cuda/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_cuda/binding.c,sha256=PnPitmfVTWcT2WJJiwLgCr4EiXpT-F52Af6Wy_h6668,632
+tree_sitter_cuda-0.20.4.dist-info/RECORD,,
+tree_sitter_cuda-0.20.4.dist-info/METADATA,sha256=kptEsSswZiBBUtns3sdcVg7eZZH9VsaAZlqUvidCsEo,849
+tree_sitter_cuda-0.20.4.dist-info/WHEEL,sha256=x9vroXCy3I665QKNpwUBtEo9Wt8h-c3b3LdqCk0j6ls,150
+tree_sitter_cuda-0.20.4.dist-info/top_level.txt,sha256=NAIZzkk-n8sawiKSI9IzlReDgSuVjBjkKSAourdsG7g,26
+tree_sitter_cuda-0.20.4.dist-info/LICENSE,sha256=9E1xB6M4ASYNyCYkyRpx6_WRi0A4oPsOPvYOLdm6GZk,1114
