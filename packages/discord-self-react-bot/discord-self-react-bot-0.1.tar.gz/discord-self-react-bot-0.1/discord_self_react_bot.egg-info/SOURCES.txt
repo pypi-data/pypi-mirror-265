@@ -1,0 +1,6 @@
+README.md
+setup.py
+discord_self_react_bot.egg-info/PKG-INFO
+discord_self_react_bot.egg-info/SOURCES.txt
+discord_self_react_bot.egg-info/dependency_links.txt
+discord_self_react_bot.egg-info/top_level.txt
