@@ -1,0 +1,8 @@
+
+[dev]
+black
+flake8
+nox
+pytest
+sphinx
+sphinx-rtd-theme
