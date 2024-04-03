@@ -1,0 +1,9 @@
+torch>=1.0.1
+transformers>=4.34.0
+fastapi
+uvicorn
+pydantic
+langchain
+regex
+argparse
+typing-extensions
