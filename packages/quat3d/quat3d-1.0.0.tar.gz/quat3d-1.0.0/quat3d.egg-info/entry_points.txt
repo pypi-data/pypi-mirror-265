@@ -1,0 +1,2 @@
+[console_scripts]
+quat3d = quat3d.quat3d:main

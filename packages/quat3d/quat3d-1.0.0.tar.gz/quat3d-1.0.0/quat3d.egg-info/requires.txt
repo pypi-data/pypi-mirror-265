@@ -1,0 +1,8 @@
+click
+python-dotenv
+pyqt6
+pyqtgraph
+pyopengl
+pyopengl_accelerate
+numpy-stl
+genlib
