@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AI_Coach_RLL
+Version: 1.0
+Summary: An AI coach being constructed
+Author: Ruofan Yang
+Author-email: 13688477617@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+AI_Coach_RLL
