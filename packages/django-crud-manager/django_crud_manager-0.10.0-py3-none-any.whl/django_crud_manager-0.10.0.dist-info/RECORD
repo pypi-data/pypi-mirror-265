@@ -1,0 +1,11 @@
+django_crud_manager/__init__.py,sha256=zVRVGCckEdEwp2hyBzCiSF-Crio8Sd4J5CX_d-mtpQ0,347
+django_crud_manager/constants.py,sha256=Dlmr41NisQuHRzKs4hC0HUBJv_Kk3PIdGoGEwVT1PWo,139
+django_crud_manager/exceptions.py,sha256=8ZmGFtF0o_D--sA0NPCVeo-wOsgpiV9ONU6EEVeAfRI,2692
+django_crud_manager/general_manager.py,sha256=3T8zOish0RoPRbB4lElgQLz1gPZS4VQdNvLnKx8FH_0,2370
+django_crud_manager/manager.py,sha256=uXVfjF01VqvwDn_3ZHNHgPvMOWNQL-_6Dl1H39gQR9c,19698
+django_crud_manager/manager_base.py,sha256=bQBHRQIdrtNvYWkqr5bPF2foTW7ohhvXmNUk9qQ96Bk,23866
+django_crud_manager/models.py,sha256=i5zgyku4uVMT6e4TWkcBBRaUiDPhyOscCr8mkoJ_C4s,502
+django_crud_manager-0.10.0.dist-info/METADATA,sha256=HEx72vugns7hh3kwU88PXH3p4oGRp2i4MN0Zot64VmE,5482
+django_crud_manager-0.10.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_crud_manager-0.10.0.dist-info/top_level.txt,sha256=54qp3OM7Fuh8wPXl89EkcbHacu6E4n6YiEipvtFvDEg,20
+django_crud_manager-0.10.0.dist-info/RECORD,,
