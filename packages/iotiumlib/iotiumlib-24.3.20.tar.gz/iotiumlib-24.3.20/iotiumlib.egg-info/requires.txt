@@ -1,0 +1,4 @@
+requests
+urllib3
+apache_libcloud
+boto3
