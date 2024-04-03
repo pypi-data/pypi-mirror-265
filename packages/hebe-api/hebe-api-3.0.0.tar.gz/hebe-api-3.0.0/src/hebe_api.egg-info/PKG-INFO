@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hebe-api
+Version: 3.0.0
+Summary: Unofficial library for programmatic access to your Hebe account and your orders
+Author-email: tomek7667 <hebeapi@cyber-man.pl>
+Project-URL: Homepage, https://github.com/tomek7667/hebe-api
+Project-URL: Bug Reports, https://github.com/tomek7667/hebe-api/issues
+Project-URL: Source, https://github.com/tomek7667/hebe-api/
+Keywords: hebe,hebe api,hebe-api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# Hebe API
+
+Unofficial library for programmatic access to your Hebe account and your orders.
+
+```
+pip3 install hebe-api
+```
