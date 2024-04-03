@@ -1,0 +1,7 @@
+codist/__init__.py,sha256=8s81CQDaOFvntQ7G3DteUJK6vzpamiYWwGpWhMPTHl4,24
+codist/ast.py,sha256=jDg9y6j5TMZ_rECoi4HnOxBD-B0amRZCXc26t3NB868,540
+codist/distance.py,sha256=cP-NgsyyKD35HdcfsMggmT0SFt0q8tJzBuEYZ8LSIXc,2967
+codist-0.0.1.dist-info/METADATA,sha256=WH7a9hGHNETnJ0_LBtQt7mE4GAhzzoccJCDSuHG9V9U,3348
+codist-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+codist-0.0.1.dist-info/top_level.txt,sha256=MQB31lXvieV1ptXenNREEWtqLJaEC-pAZYAJsD1BVVo,7
+codist-0.0.1.dist-info/RECORD,,
