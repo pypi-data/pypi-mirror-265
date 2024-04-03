@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: eth-cache
+Version: 0.4.0
+Summary: Ethereum chain data caching tools
+Home-page: https://git.defalsify.org/eth-cache
+Author: Louis Holbrook
+Author-email: dev@holbrook.no
+License: AGPLv3+
+Keywords: dlt,blockchain,cryptocurrency,ethereum
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Internet
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: hexathon~=0.1.7
+Requires-Dist: jsonrpc-std~=0.1.0
+Requires-Dist: leveldir~=0.3.0
+Requires-Dist: chainlib-eth~=0.6.0
