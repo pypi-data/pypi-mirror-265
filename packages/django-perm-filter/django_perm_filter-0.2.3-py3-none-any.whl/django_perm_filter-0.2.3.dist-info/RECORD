@@ -1,0 +1,13 @@
+django_perm_filter/__init__.py,sha256=l_yCNcsmzLInM2ea50nQGQbng5ZZ2otf8HL2iUvUp-4,180
+django_perm_filter/admin.py,sha256=Scqli61nJ-4D1WKE4U4E96VNO5Q9aoNLNRCxnMCIPfs,1190
+django_perm_filter/apps.py,sha256=55o2x3gVITSBPND42CWdrnmSVgYDozjanUorsQgQZEU,309
+django_perm_filter/mixins.py,sha256=dLGzIBqDjjY7dZoMPSoBbVRyfAWutjTiI68bZN3LXu4,476
+django_perm_filter/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_perm_filter/settings.py,sha256=TViKYgyAHJjYCFXm5dQDF07f755HTLTF9nAPIHWkGLw,4609
+django_perm_filter/utils.py,sha256=9Nnq45lKTglWuZ_tmJRtWKDt2xyUXiGz7Tl-QGyLeXY,1963
+django_perm_filter-0.2.3.dist-info/AUTHORS.md,sha256=S1divCDMEhv37-X8ZgfyMqERqWjwIkXFEcdN2M5pDd4,204
+django_perm_filter-0.2.3.dist-info/LICENSE,sha256=HxH0nJTvXZ42VTGeAeQ9ngaN4yynF1zPAfeKAW7BB78,1084
+django_perm_filter-0.2.3.dist-info/METADATA,sha256=PykABfwqgZZFSNKk7C9OSFo5lUKDRPLabEstN00Acls,4307
+django_perm_filter-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_perm_filter-0.2.3.dist-info/top_level.txt,sha256=ZaYbYK3qr49S4BI2foXb37s3mklGlDcJdPezZXnLxLM,19
+django_perm_filter-0.2.3.dist-info/RECORD,,
