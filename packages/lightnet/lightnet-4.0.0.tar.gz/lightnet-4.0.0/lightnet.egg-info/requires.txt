@@ -1,0 +1,13 @@
+numpy
+torch
+torchvision
+packaging
+pandas
+
+[segment]
+pgpd>=2
+brambox>=3.3
+
+[training]
+brambox>=2
+scikit-learn
