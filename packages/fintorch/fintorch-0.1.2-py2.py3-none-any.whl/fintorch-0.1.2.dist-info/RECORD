@@ -1,0 +1,16 @@
+fintorch/__init__.py,sha256=8IcrI_ca3ai7KnqLAMx1Oa8s7JtqjM0T-dcGzPbhXI4,134
+fintorch/cli.py,sha256=1n8esb_s3_dGiGUKY_4GS0ybWUHco9ukJyyUFz3x0Lw,883
+fintorch/fintorch.py,sha256=fNdy0pa8QfMKgvvUwiEYNQV5QdfFH7CjF7G60X-oMXc,43
+fintorch/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fintorch/datasets/elliptic.py,sha256=5rEB7uYZ1SZ2CORD086cR-y3XFIoqNEFBX8Essct5S0,8190
+fintorch/datasets/ellipticpp.py,sha256=p73oTamJH3fE_KmdYNKCDKtvHuHBunqZ0BTJuS1W38o,13062
+fintorch/datasets/kaggle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fintorch/datasets/kaggle/downloader.py,sha256=K3A1iEqiJmzWJKRY0lhgNhg9BSosHTSf9F4NupnHv6c,1185
+fintorch/dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fintorch/graph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fintorch-0.1.2.dist-info/LICENSE,sha256=206oLRm1H6pb-w-IVdFliR-N1omNzsa2Supv-DaLaPc,1072
+fintorch-0.1.2.dist-info/METADATA,sha256=Y9eZ-Ksk1ZcNgnT7iaA_578znqi_9XvbOEeMF7in1HY,5330
+fintorch-0.1.2.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+fintorch-0.1.2.dist-info/entry_points.txt,sha256=9g6gNMgLBTaLoynQvi6jELOcQwvXH9tMPexAZtARXnc,51
+fintorch-0.1.2.dist-info/top_level.txt,sha256=SysNZSsI2RPrjFOUPX0fPtoT3u35_ZeSHpGKV1tatn0,9
+fintorch-0.1.2.dist-info/RECORD,,
