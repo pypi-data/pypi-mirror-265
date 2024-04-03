@@ -1,0 +1,7 @@
+keystoneauth1
+nectarclient-lib>=1.3.0
+osc-lib
+oslo.utils
+pbr
+python-keystoneclient
+requests
