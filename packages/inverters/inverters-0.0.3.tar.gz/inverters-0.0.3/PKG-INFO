@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: inverters
+Version: 0.0.3
+Project-URL: Documentation, https://github.com/Arty-Facts/inverters#readme
+Project-URL: Issues, https://github.com/Arty-Facts/inverters/issues
+Project-URL: Source, https://github.com/Arty-Facts/inverters
+Author-email: Arturas Aleksandraus <arturas@aleksandraus.se>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# inverters
+
+[![PyPI - Version](https://img.shields.io/pypi/v/inverters.svg)](https://pypi.org/project/inverters)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/inverters.svg)](https://pypi.org/project/inverters)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install inverters
+```
+
+## License
+
+`inverters` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
