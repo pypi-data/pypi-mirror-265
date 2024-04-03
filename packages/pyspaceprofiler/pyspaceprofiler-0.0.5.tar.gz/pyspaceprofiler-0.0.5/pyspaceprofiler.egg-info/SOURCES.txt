@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyspaceprofiler/__init__.py
+pyspaceprofiler/main.py
+pyspaceprofiler.egg-info/PKG-INFO
+pyspaceprofiler.egg-info/SOURCES.txt
+pyspaceprofiler.egg-info/dependency_links.txt
+pyspaceprofiler.egg-info/top_level.txt
