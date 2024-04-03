@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsame3_simple"
+version = "0.0.1"
+dependencies = [
+]
+authors = [
+    { name="Joseph W. Metcalf"},
+    { name="James Kitchens"},
+    { name="Matthew R. McDougal", email="ka0s@arrl.net"}
+]
+description = "Simplified version of dsame3 to decode EAS SAME messages to readable text."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: BSD License",
+	"Operating System :: OS Independent",
+	"Topic :: Communications :: Ham Radio"
+]
+
+[project.scripts]
+dsame3_simple = "dsame3_simple.dsame:main"
+
+[project.urls]
+"Homepage" = "https://github.com/ars-ka0s/dsame3_simple"
+"Bug Tracker" = "https://github.com/ars-ka0s/dsame3_simple/issues"
