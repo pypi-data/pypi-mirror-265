@@ -1,0 +1,84 @@
+#!/usr/bin/env python
+
+import argparse
+from datetime import datetime, timedelta
+import logging
+import os
+import re
+import shutil
+
+import gitlab
+
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger()
+
+
+def is_mr_removable(mr_id, grace_period=30):
+
+    needed_env_vars = [
+        'CI_PROJECT_ID',
+        'CI_SERVER_URL',
+        'CI_COMMIT_BRANCH',
+        'CI_DEFAULT_BRANCH',
+        'GITLAB_BOT_TOKEN',
+    ]
+
+    if all([item in os.environ for item in needed_env_vars]) \
+       and os.getenv('CI_COMMIT_BRANCH') == os.getenv('CI_DEFAULT_BRANCH'):
+        # Not in a merge request, but maybe this commit comes from a merged one on default branch
+
+        gl_url = os.getenv('CI_SERVER_URL')
+        gl = gitlab.Gitlab(url=gl_url, private_token=os.getenv('GITLAB_BOT_TOKEN'))
+
+        project = gl.projects.get(os.getenv('CI_PROJECT_ID'), lazy=True)
+        mro = project.mergerequests.get(mr_id)
+
+        if not mro:
+            return False
+
+        now = datetime.now().astimezone() - timedelta(days=grace_period)
+        log.info("MR {}: state={} merged_at={} closed_at={}".format(mr_id, mro.state, mro.merged_at, mro.closed_at))
+        if mro.state in ['closed', 'merged']:
+            if mro.merged_at and datetime.fromisoformat(mro.merged_at) < now:
+                return True
+            if mro.closed_at and datetime.fromisoformat(mro.closed_at) < now:
+                return True
+    else:
+        for envar in needed_env_vars:
+            if envar not in os.environ:
+                log.error("Missing env variable {}".format(envar))
+
+    return False
+
+
+def main():
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dry-run', action='store_true', help="Do not really remove data, just print what it would do.")
+    parser.add_argument('--grace', type=int, default=30, help="Grace period in days (data from MR closed/merged in the last x days will not be deleted)")
+    args = parser.parse_args()
+
+    work_dir = os.environ['WORK_DIR']
+
+    for wdir in os.listdir(work_dir):
+        work_dir_full = os.path.join(work_dir, wdir)
+        match = re.search(r"^(\d+)-[\w_\-.]+$", wdir)
+        if match:
+            mr_id = match.group(1)
+            log.info("Potential MR {} work dir: {}".format(mr_id, wdir))
+
+            if is_mr_removable(mr_id, grace_period=args.grace):
+                if args.dry_run:
+                    log.info(" => ✅ DRY-RUN, would remove MR {} work dir: {}".format(mr_id, work_dir_full))
+                else:
+                    log.info(" => ✅ Removing MR {} work dir: {}".format(mr_id, work_dir_full))
+                    if os.path.islink(work_dir_full):
+                        os.remove(work_dir_full)
+                    else:
+                        shutil.rmtree(work_dir_full)
+            else:
+                log.info(" => ❌ Skipping MR {} work dir: {}".format(mr_id, wdir))
+
+
+if __name__ == '__main__':
+    main()
