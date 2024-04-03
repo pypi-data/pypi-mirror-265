@@ -1,0 +1,9 @@
+botasaurus_api
+Unidecode
+casefy
+bottle
+kubernetes
+bota
+xlsxwriter
+sqlalchemy
+botasaurus>=4.0.0
