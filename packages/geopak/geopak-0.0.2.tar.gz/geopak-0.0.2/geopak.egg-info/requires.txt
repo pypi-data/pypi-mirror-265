@@ -1,0 +1,9 @@
+numpy
+ipyleaflet
+pandas
+
+[all]
+geopak[extra]
+
+[extra]
+pandas
