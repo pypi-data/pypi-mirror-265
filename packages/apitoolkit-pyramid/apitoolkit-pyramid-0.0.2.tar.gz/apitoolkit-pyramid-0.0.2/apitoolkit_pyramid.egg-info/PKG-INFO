@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: apitoolkit-pyramid
+Version: 0.0.2
+Summary: A Python Pyramid SDK for Apitoolkit integration
+Author: APIToolkit
+Author-email: hello@apitoolkit.io
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# apitoolkit-pyramid
+python pyramid sdk
