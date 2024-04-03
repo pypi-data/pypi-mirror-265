@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: muti.numer
+Version: 0.0.14
+Summary: utils for math-numer
+Home-page: https://github.com/E-C-Ares/
+Author: E.C.Ares
+Author-email: E.C.Ares@outlook.com
+License: MIT DIVIƷON
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# muti-pkp:muti.torch
+
+mani-utils for math-numer by pack-in-python
+refe-utils including:
+- numpy
+- pytorch 
+- jax
+- ..
+
+abo{["俳句(HaiKu)"](https：//dm-haiku.readthedocs.io/)}: 
+- B23.7: Google-DeepMind 建议新项转采"Flax"(拥"俳句"之超集, 靠广大之社区)
+- "俳句" 的后续将集中在 BUG-FIX 和 COD(JAX)PAT 上
