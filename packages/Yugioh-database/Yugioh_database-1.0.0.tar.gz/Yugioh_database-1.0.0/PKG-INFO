@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Yugioh_database
+Version: 1.0.0
+Summary: A program for creating a list of your own Yu-Gi-Oh! TCG Card Collection.
+Home-page: https://github.com/womack5706/yugioh_database
+Author: K.Womack
+Author-email: womack5706@gmail.com
+Requires-Dist: setuptools

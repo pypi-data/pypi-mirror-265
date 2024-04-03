@@ -1,0 +1,6 @@
+setup.py
+Yugioh_database.egg-info/PKG-INFO
+Yugioh_database.egg-info/SOURCES.txt
+Yugioh_database.egg-info/dependency_links.txt
+Yugioh_database.egg-info/requires.txt
+Yugioh_database.egg-info/top_level.txt
