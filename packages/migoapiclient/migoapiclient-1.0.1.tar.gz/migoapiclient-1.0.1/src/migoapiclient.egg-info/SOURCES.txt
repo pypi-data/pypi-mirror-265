@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/migoapiclient.egg-info/PKG-INFO
+src/migoapiclient.egg-info/SOURCES.txt
+src/migoapiclient.egg-info/dependency_links.txt
+src/migoapiclient.egg-info/requires.txt
+src/migoapiclient.egg-info/top_level.txt
