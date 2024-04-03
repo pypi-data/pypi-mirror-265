@@ -1,0 +1,15 @@
+numpy
+scikit-learn
+numdifftools
+scipy
+punpy>=0.44.2
+matplotlib
+
+[dev]
+pre-commit
+tox
+sphinx
+sphinx_design
+sphinx_book_theme
+ipython
+sphinx_autosummary_accessors
