@@ -1,0 +1,10 @@
+leeselab_project_creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leeselab_project_creator/__main__.py,sha256=SdOrYLC8Y7wViWQLuDhH-Osk8nRzhOJK1qEmspqs4X0,6518
+leeselab_project_creator/generate_plate_layout.py,sha256=02Bph44hGDvkZXMiM_BA_MfeAVdz4LiT-gCoAc2nAhI,6449
+leeselab_project_creator/generate_worklist.py,sha256=3WJ4CbBB3cFOZ7WOP2q9x4xy0Jh1snE__rS4-QyKzN8,8664
+leeselab_project_creator-1.0.0.dist-info/LICENSE,sha256=FWtFgRtdvAJvEbDb09v0YLSvnfMEfiONVi0i5cfhtN8,1091
+leeselab_project_creator-1.0.0.dist-info/METADATA,sha256=QdFO6IyGCkCDgW3h2qxOUm6Zvupj3ntL60Y85xHfsas,2747
+leeselab_project_creator-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+leeselab_project_creator-1.0.0.dist-info/entry_points.txt,sha256=QaOXXeHXuamnSypKbfHRoK-63sw2dQfwS8ti16kFcvo,84
+leeselab_project_creator-1.0.0.dist-info/top_level.txt,sha256=fw0Oozsf1UoqNVKnLwM1QCUFavVo0CelI8-OSX2hGTc,25
+leeselab_project_creator-1.0.0.dist-info/RECORD,,
