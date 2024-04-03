@@ -1,0 +1,12 @@
+tidb_vector/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+tidb_vector/constants.py,sha256=4ZvNjbtbBBQ97cQQB-BWUN7HImIgByzaq2zHHBdqY-M,109
+tidb_vector/integrations/__init__.py,sha256=D7han5gwNNMpuB4WWEybCxRuKyhTkaVqNbYSnLQdqkQ,356
+tidb_vector/integrations/utils.py,sha256=m43i33POh3qE0GE_SzpB4C60c4Krj5-v4gZjU3TDcis,3478
+tidb_vector/integrations/vector_client.py,sha256=SY7wGEKuHPXI_XVoV0QKDz5CLPvPWnQspVRc0Zj7cLA,18592
+tidb_vector/peewee/__init__.py,sha256=M0RHNe5meQtpdkzvPnWytLF96mrYmxGDklNTH18l4l4,962
+tidb_vector/sqlalchemy/__init__.py,sha256=03CNNY2rgWAti0gAu5ffC_qMIs0_EZwhk1kyFf_H8RE,2775
+tidb_vector/utils.py,sha256=3o1_uIF9vY46J85fic3OAG78N4b22hSc-mNaM8pCAM0,863
+tidb_vector-0.0.7.dist-info/LICENSE,sha256=LaW8yM_wrlujbZkjFF407tM0CkWKJp9mPDWCQw-MNY8,11294
+tidb_vector-0.0.7.dist-info/METADATA,sha256=586vrlm4YwcpBRuj-hHvod2_JzFCb0cVah0FPOjRYSU,5285
+tidb_vector-0.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tidb_vector-0.0.7.dist-info/RECORD,,
