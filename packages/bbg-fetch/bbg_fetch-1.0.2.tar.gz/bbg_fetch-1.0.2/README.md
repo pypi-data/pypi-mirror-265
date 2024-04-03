@@ -1,0 +1,14 @@
+Wrapper of xbbg package for bloomberg fetch
+
+Install using
+```python 
+pip install bbg_fetch
+```
+
+
+For requirements:
+```python 
+pip install --index-url=https://bcms.bloomberg.com/pip/simple blpapi
+```
+
+Configuration of rolls for futures contracts on Bloomberg: GFUT
