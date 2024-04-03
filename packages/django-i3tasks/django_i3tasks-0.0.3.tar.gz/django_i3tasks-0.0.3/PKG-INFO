@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django_i3tasks
+Version: 0.0.3
+Summary: Django app for manage async tasks by http requests
+Home-page: https://github.com/sajlx/django-i3tasks
+Author: Ivan Bettarini
+Author-email: ivan.bettarini@gmail.com
+License: GNU General Public License v3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-i3tasks
+
+Django app for manage async tasks by http requests
+---
+to install
+`pip install django-i3tasks`
