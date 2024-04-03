@@ -1,0 +1,13 @@
+msfabricpysdkcore/__init__.py,sha256=HJeyM1aLgf9AvUGkU4Olky90YyySletA281VbSa0Q2c,36
+msfabricpysdkcore/auth.py,sha256=1t5prgSg2hK7vMutif2lxHOQk_qTo3152h3FMof3y_4,1929
+msfabricpysdkcore/client.py,sha256=NutMuFGVHUU8CMj2mSJT5Zw1A_vQ-PRJ_yH0nqwk9aI,12536
+msfabricpysdkcore/item.py,sha256=lQODVPxqMLKUwhit7KMDFu3GahW5o7wiWA6KHxMbqu0,10188
+msfabricpysdkcore/job_instance.py,sha256=Rjv2u1XXMPVew-9gGFQLrnhzXmYfzlO9SeUvA19DDTI,2759
+msfabricpysdkcore/long_running_operation.py,sha256=PvrVEuasD9lwdJZ6ElsNwBE1G8xW5uDQ8zXcKqpOpXc,3021
+msfabricpysdkcore/onelakeshortcut.py,sha256=20AZJ79v7FvgKLYbJi0BIaawi6qMjnhqUTIlniwnVBI,2033
+msfabricpysdkcore/workspace.py,sha256=mweliwZup5XKy5yx-BGIvhZboRrtvwFYzQ4JFEICv4E,19796
+msfabricpysdkcore-0.0.2.dist-info/LICENSE,sha256=1NrGuF-zOmzbwzk3iI6lsP9koyDeKO1B0-8OD_tTvOQ,1156
+msfabricpysdkcore-0.0.2.dist-info/METADATA,sha256=cxXnkCeEtm2_xdom8fgehH8SPk9Ot7k8TTxyIAo7cEc,11321
+msfabricpysdkcore-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+msfabricpysdkcore-0.0.2.dist-info/top_level.txt,sha256=3iRonu6ptDGQN4Yl6G76XGM7xbFNsskiEHW-P2gMQGY,18
+msfabricpysdkcore-0.0.2.dist-info/RECORD,,
