@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django_i3tasks
+Version: 0.0.5
+Summary: Django app for manage async tasks by http requests
+Home-page: https://github.com/sajlx/django-i3tasks
+Author: Ivan Bettarini
+Author-email: ivan.bettarini@gmail.com
+License: GNU General Public License v3.0
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-i3tasks
+
+Django app for manage async tasks by http requests
+---
+to install
+`pip install django-i3tasks`
+-----------
+
+Quick start
+-----------
+
+1. Add "polls" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...,
+        "django_i3tasks",
+    ]
+
+2. Include the polls URLconf in your project urls.py like this::
+
+
+    ```
+    from django_i3tasks import views as i3tasks_views
+
+    path("i3/tasks-beat", i3tasks_views.BeatTaskView.as_view()),
+    path("i3/tasks-beat/", i3tasks_views.BeatTaskView.as_view()),`
+    path("i3/tasks-push", i3tasks_views.PushedTaskView.as_view()),
+    path("i3/tasks-push/", i3tasks_views.PushedTaskView.as_view()),
+    ```
+
+3. Run ``python manage.py migrate`` to create the models.
+
+4. Start the development server and visit the admin to create a poll.
+
+5. Visit the ``/polls/`` URL to participate in the poll.
