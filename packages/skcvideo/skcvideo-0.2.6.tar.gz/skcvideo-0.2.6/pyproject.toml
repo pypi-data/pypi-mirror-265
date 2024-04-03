@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "skcvideo"
+version = "0.2.6"
+description = "video utils"
+authors = ["timothe.collet"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+click = ">=7.1.2"
+numpy = ">=1.18.5"
+opencv-python = ">=4.4.0.46"
+imageio = ">=2.30.0"
+imageio-ffmpeg = ">=0.4.8"
+
+[tool.black]
+line_length = 120
+skip-string-normalization = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
