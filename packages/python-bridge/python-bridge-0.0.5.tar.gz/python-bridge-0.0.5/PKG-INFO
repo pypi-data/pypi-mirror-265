@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-bridge
+Version: 0.0.5
+Summary: A Python tool to abstract your Django infrastructure.
+Author-email: Caelean Barnes <caeleanb@gmail.com>, Evan Doyle <evanmdoyle@gmail.com>
+Project-URL: Homepage, https://github.com/never-over/bridge
+Project-URL: Issues, https://github.com/never-over/bridge/issues
+Keywords: python,deployment,local,infrastructure,postgres,django,architecture
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docker==7.0.0
+Requires-Dist: psycopg[binary]==3.1.18
+Requires-Dist: rich==13.7.1
+Requires-Dist: pydantic==2.6.4
+Requires-Dist: google-cloud-storage==2.16.0
+
+# bridge
