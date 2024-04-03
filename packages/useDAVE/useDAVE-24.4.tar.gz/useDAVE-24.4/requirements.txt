@@ -1,0 +1,11 @@
+PySide6-essentials
+PySide6-QtAds
+vtk
+matplotlib
+numpy
+scipy
+IPython
+rapidfuzz
+pytest
+pytest-cov
+pytest-runner

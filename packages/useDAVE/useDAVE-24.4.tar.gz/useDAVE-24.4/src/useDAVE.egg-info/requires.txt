@@ -1,0 +1,11 @@
+PySide6-QtAds
+vtk
+numpy
+scipy
+IPython
+rapidfuzz
+
+[testing]
+setuptools
+pytest
+pytest-cov
