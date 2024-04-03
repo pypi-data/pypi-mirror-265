@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/pymultibot/__init__.py
+src/pymultibot/__version__.py
+src/pymultibot/multibot.py
+src/pymultibot.egg-info/PKG-INFO
+src/pymultibot.egg-info/SOURCES.txt
+src/pymultibot.egg-info/dependency_links.txt
+src/pymultibot.egg-info/requires.txt
+src/pymultibot.egg-info/top_level.txt
