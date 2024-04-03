@@ -1,0 +1,8 @@
+fake_bme280/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fake_bme280/basic.py,sha256=50n_i9pqkRGjQDFuYuFq6ORj6tbgVu045EdCHm13QeU,9778
+fake_bme280/protocol.py,sha256=56B02wVkQOt6W_sEwfSPuSKEanBTryJKpg24H8wKpgA,983
+circuitpython_fake_bme280-1.0.0.dist-info/LICENSE,sha256=tXgkGXjihZP5R0fW0-IyViyV_rB8TXrzKdiLP4crJn0,1103
+circuitpython_fake_bme280-1.0.0.dist-info/METADATA,sha256=l1UyzzNf_jSSOU_WztzRbaqbsEkQQbzM0e4sQSp7x_g,4590
+circuitpython_fake_bme280-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+circuitpython_fake_bme280-1.0.0.dist-info/top_level.txt,sha256=zYm6UwRd0tbyREvYLz0zQcP9NY4GvkMWQ19rZYbwO0Q,12
+circuitpython_fake_bme280-1.0.0.dist-info/RECORD,,
