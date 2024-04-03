@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "druidaHFSS"
+version = "0.0.3"
+authors = [
+  { name="Jorge Cardenas", email="jorge.cardenas.l@mail.pucv.cl" },
+]
+description = "Ansys interface for Data Generation"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "wheel",
+  "pillow",
+  "numpy<=1.24.3",
+  "pandas~=2.1.0", 
+  "torch",
+  "scikit-learn",
+  "opencv-python",
+  "imutils"
+  ]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/druidaHFSS"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+
+[project.urls]
+"Homepage" = "https://github.com/Jorgecardenas1/dbGeneration_v0"
