@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: xagpy
+Version: 0.1
+Summary: Api wrapper for the Xag(Xbox account generator) api
+Home-page: https://github.com/dropalways/xagpy
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
