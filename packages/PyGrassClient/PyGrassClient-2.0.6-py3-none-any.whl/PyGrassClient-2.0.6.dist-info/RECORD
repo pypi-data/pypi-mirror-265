@@ -1,0 +1,10 @@
+PyGrassClient/__init__.py,sha256=XWmQAVNkwkTrXYuIjgk6HXVp02UuwKOFJ9wU32oT5Iw,150
+PyGrassClient/__version__.py,sha256=k9ec86jXJrYGSxMsQwXg3zvZSBhgZqFQPyOLeEAYDMM,244
+PyGrassClient/_async_core.py,sha256=bktWcYccFyuW6y7y4XPaVvjWcJtETFJ_Wg7IuB5pzw8,6153
+PyGrassClient/_core.py,sha256=2wBc0-pW4QEXUKaE1uyUyNhn4TjNcrhQr7rBVPmfG5k,6403
+PyGrassClient/utils.py,sha256=Bu-Us91rNhykzF-f799NiiNVJFmzpWcvscuXoUuwXK4,1397
+PyGrassClient-2.0.6.dist-info/LICENSE,sha256=uDeipEptLTuba7ymTpSFL6bMof23J2--7WWwhDX98vU,11343
+PyGrassClient-2.0.6.dist-info/METADATA,sha256=x5TQaZ0uBYC9-YToQEIpmYuSnw5hoeu7dR9nYEgm01A,3201
+PyGrassClient-2.0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PyGrassClient-2.0.6.dist-info/top_level.txt,sha256=H0UScRPDUoaUU41HAJJNYN81WKNf2eWDAT46_ZnpFcw,14
+PyGrassClient-2.0.6.dist-info/RECORD,,
