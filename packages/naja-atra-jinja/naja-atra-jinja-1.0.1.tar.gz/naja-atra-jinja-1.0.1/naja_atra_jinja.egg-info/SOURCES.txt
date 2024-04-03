@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+naja_atra_jinja/__init__.py
+naja_atra_jinja.egg-info/PKG-INFO
+naja_atra_jinja.egg-info/SOURCES.txt
+naja_atra_jinja.egg-info/dependency_links.txt
+naja_atra_jinja.egg-info/requires.txt
+naja_atra_jinja.egg-info/top_level.txt
