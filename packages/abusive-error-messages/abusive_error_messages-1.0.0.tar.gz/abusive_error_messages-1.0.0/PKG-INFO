@@ -1,0 +1,52 @@
+Metadata-Version: 2.3
+Name: abusive-error-messages
+Version: 1.0.0
+Summary: Because programming isn't hard enough already
+Project-URL: Documentation, https://github.com/unknown/abusive-error-messages#readme
+Project-URL: Issues, https://github.com/unknown/abusive-error-messages/issues
+Project-URL: Source, https://github.com/unknown/abusive-error-messages
+Author-email: Copeland Carter <smartycope@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: rich
+Description-Content-Type: text/markdown
+
+# Abusive-Error-Messages
+
+Replaces all error messages with unhelpful, insulting, abusive, messages.
+
+Made as an April Fool's joke.
+
+## Disclaimers
+- Don't actually use this
+- This is a joke
+- This is not "safe for the workplace"
+- Don't use this if you don't have a sense of humor
+- I disclaim all hurt feelings
+
+
+## Installation
+
+```console
+pip install abusive-error-messages
+```
+
+## Usage
+```python
+import abusive_error_messages
+1/0
+```
+
+## License
+
+`abusive-error-messages` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
