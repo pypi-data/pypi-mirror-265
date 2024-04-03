@@ -1,0 +1,7 @@
+shipyard_portable/__init__.py,sha256=am2WETA-xB3ZncVgyBQBN60xBmYZ8SY_ZFAy480oFIA,37
+shipyard_portable/cli/authtest.py,sha256=pgiaGIrU3vQk11mJ9yuyKrpNkxXzcF2JzKxdW2oBTvA,248
+shipyard_portable/cli/trigger.py,sha256=JrvTzljHtLqu-A_wGw3-lZnmBWR8OvXQu4tyuLab6r4,2244
+shipyard_portable/portable.py,sha256=IY0_gJdPMnulY9Qxllod1gFpP4aHaQjjj3ypozsnbhI,5699
+shipyard_portable-0.1.0a0.dist-info/METADATA,sha256=biyZ6nD_gS7TPzVdBiVreuwPdoTlj3ELAL2QNdYJhuo,538
+shipyard_portable-0.1.0a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_portable-0.1.0a0.dist-info/RECORD,,
