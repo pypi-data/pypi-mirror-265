@@ -1,0 +1,7 @@
+setup.py
+mcal/__init__.py
+mcal/zoperation.py
+zukti.egg-info/PKG-INFO
+zukti.egg-info/SOURCES.txt
+zukti.egg-info/dependency_links.txt
+zukti.egg-info/top_level.txt
