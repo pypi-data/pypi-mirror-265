@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/fyamaktestpypi/__init__.py
+src/fyamaktestpypi/statistics.py
+src/fyamaktestpypi.egg-info/PKG-INFO
+src/fyamaktestpypi.egg-info/SOURCES.txt
+src/fyamaktestpypi.egg-info/dependency_links.txt
+src/fyamaktestpypi.egg-info/top_level.txt
+tests/test_statistics.py
