@@ -1,0 +1,2 @@
+class ConverterNotAvailable(RuntimeError):
+    pass
