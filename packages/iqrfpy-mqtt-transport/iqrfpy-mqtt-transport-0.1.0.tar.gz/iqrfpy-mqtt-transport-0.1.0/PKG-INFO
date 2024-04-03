@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: iqrfpy-mqtt-transport
+Version: 0.1.0
+Summary: MQTT transport extension for iqrfpy
+Home-page: https://gitlab.iqrf.org/open-source/iqrf-sdk/iqrfpy/iqrf-mqtt-transport
+Author: Karel Hanák
+Author-email: karel.hanak@iqrf.org
+License: Apache-2.0
+Project-URL: Homepage, https://gitlab.iqrf.org/open-source/iqrf-sdk/iqrfpy/iqrf-mqtt-transport
+Project-URL: Changelog, https://gitlab.iqrf.org/open-source/iqrf-sdk/iqrfpy/iqrf-mqtt-transport/-/blob/master/changelog.md
+Project-URL: Source code, https://gitlab.iqrf.org/open-source/iqrf-sdk/iqrfpy/iqrf-mqtt-transport
+Project-URL: Issue tracker, https://gitlab.iqrf.org/open-source/iqrf-sdk/iqrfpy/iqrf-mqtt-transport/-/issues
+Keywords: iqrf,mqtt
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: iqrfpy>=0.2.0
+Requires-Dist: paho-mqtt>=2.0.0
+
+## iqrf-mqtt-transport
+
+An extension for [iqrfpy](https://gitlab.iqrf.org/open-source/iqrf-sdk/iqrfpy/iqrfpy/) for MQTT communication with IQRF Gateway daemon.
+
+## Quick start
+
+Before installing the library, it is recommended to first create a virtual environment.
+Virtual environments help isolate python installations as well as pip packages independent of the operating system.
+
+A virtual environment can be created and launched using the following commands:
+
+```bash
+python3 -m venv <dir>
+source <dir>/bin/activate
+```
+
+iqrfpy can be installed using the pip utility:
+
+```bash
+python3 -m pip install -U iqrfpy-mqtt-transport
+```
+
+Example use:
+```python
+from iqrfpy.ext.mqtt_sync_transport import MqttTransport, MqttTransportParams
+from iqrfpy.peripherals.coordinator.requests.bonded_devices import BondedDevicesRequest
+from iqrfpy.peripherals.coordinator.responses.bonded_devices import BondedDevicesResponse
+
+params = MqttTransportParams(
+    host=..., # MQTT broker host
+    port=..., # MQTT broker port
+    client_id=..., # MQTT client ID
+    request_topic=..., # Request topic that Daemon subscribes to
+    response_topic=..., # Response topic that Daemon publishes responses to
+    qos=1,
+    keepalive=25
+)
+transport = MqttTransport(params=params, auto_init=True)
+
+request = BondedDevicesRequest()
+response: BondedDevicesResponse = transport.send_and_receive(request=request, timeout=10)
+
+print(response.bonded)
+```
+
+## Documentation
+
+For more information, check out our [API reference](https://apidocs.iqrf.org/iqrfpy/latest/iqrfpy.html).

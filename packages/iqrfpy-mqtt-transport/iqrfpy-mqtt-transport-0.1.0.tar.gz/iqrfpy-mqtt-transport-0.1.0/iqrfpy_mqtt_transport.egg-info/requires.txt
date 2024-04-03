@@ -1,0 +1,2 @@
+iqrfpy>=0.2.0
+paho-mqtt>=2.0.0
