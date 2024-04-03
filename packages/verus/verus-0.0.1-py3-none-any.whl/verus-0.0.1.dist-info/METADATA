@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: verus
+Version: 0.0.1
+Summary: oss-dev my calculator 0001
+Home-page: https://github.com/sejin-chun/calc0001
+Download-URL: https://github.com/sejin-chun/calc0001/archive/refs/tags/v0.0.1.zip
+Author: sejinchun
+Author-email: sjchun@dau.ac.kr
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: test
+
+oss-dev calculator python module
