@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+gpttsrt/__init__.py
+gpttsrt/cmd.py
+gpttsrt/constants.py
+gpttsrt/gpt_translate.py
+gpttsrt/gpttsrt.py
+gpttsrt/log.py
+gpttsrt.egg-info/PKG-INFO
+gpttsrt.egg-info/SOURCES.txt
+gpttsrt.egg-info/dependency_links.txt
+gpttsrt.egg-info/entry_points.txt
+gpttsrt.egg-info/requires.txt
+gpttsrt.egg-info/top_level.txt
