@@ -1,0 +1,17 @@
+git_stats_report/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+git_stats_report/__main__.py,sha256=9QKM7xfjeqTWdZUr-wqimARLG4LeEdaB-aP5hZb-eoM,1653
+git_stats_report/entrypoint.py,sha256=sfTLGZCF6tgfLFTbsvBJ4ljAYtJSOOjTX3d6987zxYQ,838
+git_stats_report/git_stats.py,sha256=Yfj7rqcnTrJucp28kERNjgSy5aQNkUHLZ8eND9MoHVQ,1711
+git_stats_report/logger.py,sha256=XZa47Brt0CCbZVErU3zFlDn0UvSyWX-nMJ-zuVwk66o,303
+git_stats_report/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_stats_report/utils.py,sha256=QpgYVZoMkP8h9a1eRS7ceOWzzaqAnu8I0i5X5vzDOXw,130
+git_stats_report/strategy/__init__.py,sha256=GF_fc-4muvyDU33te_CmMkX41QT2EBSK5ij1eHhsoLo,600
+git_stats_report/strategy/from_date.py,sha256=6BgyYL75DZKhOaIZd9E2iUDPvHi3c7SpLwlRClw9XfU,418
+git_stats_report/strategy/from_latest_tag.py,sha256=Xy8YEpTWUM8Mo0paDMlXmiNO77VyKTrNdo3X8brhoaA,526
+git_stats_report/strategy/strategy.py,sha256=CV7nTPxY1JS-ukvBySiv7TJcjQCwn3LL_PFiUompDHo,119
+git_stats_report-0.1.4.dist-info/LICENSE,sha256=gSZP8APsoqVAQeZYu58StcVky-tVELGRxBcLptrSfFE,1074
+git_stats_report-0.1.4.dist-info/METADATA,sha256=BjM1yIgP4yuch_z-FWv8fVoyOIeJbNJYiY77zxSHWck,6414
+git_stats_report-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+git_stats_report-0.1.4.dist-info/entry_points.txt,sha256=0oal_LhkOC8GLyGwjxEh0VnvI_d6R11POwOEwMXKquk,67
+git_stats_report-0.1.4.dist-info/top_level.txt,sha256=bN6A-tJyIROW3utpiGWePYlcPX09jFoab6dnlXNx3sE,17
+git_stats_report-0.1.4.dist-info/RECORD,,
