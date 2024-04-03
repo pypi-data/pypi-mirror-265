@@ -1,0 +1,6 @@
+netdata/__init__.py,sha256=JNutc-qcZX5uVhhDhIdBL5Z4yxRLWaM1iNG3aTTthHg,3017
+netdata/exceptions.py,sha256=PlMq1jNHNyX1IMNFKwYfqjUKwkLhBOWpLPjaFISAuSw,248
+netdata-1.2.0.dist-info/LICENSE,sha256=qU1ROrf_k8Ejcbrra1a_LfE3SIwhjS2BWpWtSIXl32c,1110
+netdata-1.2.0.dist-info/METADATA,sha256=buCY4qK-PLOyWZdMypqVXkYL73hN1DDuefu8caGF0zU,2215
+netdata-1.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+netdata-1.2.0.dist-info/RECORD,,
