@@ -1,0 +1,4 @@
+osmnx>=1.9.1
+python-louvain>=0.16
+pyvista>=0.37
+mapclassify>=2.5.0
