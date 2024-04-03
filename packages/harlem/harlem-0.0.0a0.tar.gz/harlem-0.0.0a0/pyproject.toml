@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "harlem"
+version = "0.0.0a0"
+description = "Make HAR files from popular http libraries."
+authors = ["WolfDWyc <62406166+WolfDWyc@users.noreply.github.com>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

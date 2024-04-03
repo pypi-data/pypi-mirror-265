@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: harlem
+Version: 0.0.0a0
+Summary: Make HAR files from popular http libraries.
+License: AGPL-3.0-or-later
+Author: WolfDWyc
+Author-email: 62406166+WolfDWyc@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# harlem
