@@ -1,0 +1,11 @@
+mysql-connector-python
+sqlalchemy<2.0.0
+sqlalchemy-utils
+
+[dev]
+git-it
+Pygments
+pytest
+pytest-cov
+rstcheck
+uvicorn
