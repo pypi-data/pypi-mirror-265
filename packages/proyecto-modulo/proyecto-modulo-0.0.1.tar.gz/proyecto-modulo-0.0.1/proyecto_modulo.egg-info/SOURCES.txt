@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+codigo/__init__.py
+codigo/main.py
+codigo/modulos/__init__.py
+codigo/modulos/cal.py
+codigo/modulos/v_pi.py
+proyecto_modulo.egg-info/PKG-INFO
+proyecto_modulo.egg-info/SOURCES.txt
+proyecto_modulo.egg-info/dependency_links.txt
+proyecto_modulo.egg-info/top_level.txt
