@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: naja-atra-redis-session
+Version: 1.0.0
+Summary: This is the redis session implementation for the project [naja atra](https://github.com/naja-atra/naja-atra)
+Author-email: keijack <keijack.wu@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2018 Keijack Wu
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/naja-atra/naja-atra-redis-session
+Project-URL: repository, https://github.com/naja-atra/naja-atra-redis-session
+Keywords: http-server,websocket,http,web,web-server
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: naja-atra
+Requires-Dist: redis >=4.3
+
+# Redis Sesion Implementation for Naja Atra
+
+This is the redis session implementation for the project [naja atra](https://github.com/naja-atra/naja-atra)
+
+## Usage
+
+```python
+import naja_atra
+import naja_atra.server as server
+import os
+from naja_atra_redis_session.redis_session import RedisSessionFactory
+
+def main(*args):
+    # host, port, db, username, password are all optional.
+    naja_atra.set_session_factory(RedisSessionFactory(host="10.0.2.16", port=6379, db=0, username="", password=""))
+    server.scan("tests/ctrls", r'.*controllers.*')
+    
+    root = os.path.dirname(os.path.abspath(__file__))
+    server.start(
+        port=9090,
+        resources={"/public/*": f"{root}/tests/static"})
+
+```
+
+or you can re-use your redis client which might be used in other codes.
+
+```python
+import naja_atra
+import naja_atra.server as server
+import os
+import redis
+from naja_atra_redis_session.redis_session import RedisSessionFactory
+
+def main(*args):
+    # This redis client can be used in other business codes.
+    redis_client = redis.Redis(host="10.0.2.16", port=6379, db=0, username="", password="")
+    naja_atra.set_session_factory(RedisSessionFactory(redis_client=redis_client))
+    
+    root = os.path.dirname(os.path.abspath(__file__))
+    server.start(
+        port=9090,
+        resources={"/public/*": f"{root}/tests/static"})
+
+```
+
+## Write Your Own ObjectSerializer
+
+Module `pickle` is used to do the serialization and deserialization, if the defalut serialization logic could not satisfy you, you can write your own
+
+```python
+naja_atra_redis_session.redis_session import ObjectSerializer
+
+class MyObjectSerializer(ObjectSerializer):
+
+    def object_to_bytes(self, obj: Any) -> bytes:
+        bys = ...
+        return bys
+
+    def bytes_to_objects(self, value: bytes) -> Any:
+        obj = ...
+        return obj
+
+# Set it when initializing a SessionFactory.
+
+naja_atra.set_session_factory(RedisSessionFactory(host="10.0.2.16", port=6379, db=0, username="", password="", object_serializer=MyObjectSerializer()))
+```
+
+
