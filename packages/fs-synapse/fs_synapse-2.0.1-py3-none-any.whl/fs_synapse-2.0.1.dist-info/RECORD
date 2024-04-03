@@ -1,0 +1,13 @@
+docker/Dockerfile,sha256=ojyFIky4qlP1rZgFKnd9xsE5J2uacFIMbXWwK4WTgoE,164
+docker/build.sh,sha256=p6bLNuMF8tfezIimFAChiEJhVUIxCA8JJILGPwoRZjk,323
+synapsefs/__init__.py,sha256=NJ2-WVpzscQUGDceizeDJyvNIy2zccmGeBixbntw3qs,623
+synapsefs/open_parent_fs.py,sha256=Jj0fAFZi8G19ojeNYyok5C_G-Zapa4Qo5STx0gSZHU0,979
+synapsefs/opener.py,sha256=v1lvbUHBKvRrSCEV9-Te5tIBjJNCBkVNtAr8HnlLir0,507
+synapsefs/remote_file.py,sha256=cmY7aMumZ2kHgKfzBAZwzBksOtzgcVIUysCo0Akul9U,2940
+synapsefs/synapsefs.py,sha256=2K4GXQcm4UQiI9MZk9aGeHuQivlKt0cNLJ8SuAuGlG0,24450
+fs_synapse-2.0.1.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+fs_synapse-2.0.1.dist-info/METADATA,sha256=2wSUWRWMkR5ulLR6Ex7E62Lzo-EAg6fhupKbNaXDLVA,5883
+fs_synapse-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fs_synapse-2.0.1.dist-info/entry_points.txt,sha256=PJHJ8yVgibnXCuG86jQtZYUqa2mlW6BVLJdQM9IL5dI,51
+fs_synapse-2.0.1.dist-info/top_level.txt,sha256=OXp7GS1XnVsHuQ00p395DbQNsChjVqeC8L7pdXtJ52Q,17
+fs_synapse-2.0.1.dist-info/RECORD,,
