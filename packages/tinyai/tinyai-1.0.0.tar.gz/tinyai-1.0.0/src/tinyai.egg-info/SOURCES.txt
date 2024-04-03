@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+src/tinyai/__init__.py
+src/tinyai/test_tinyai.py
+src/tinyai/tinyai.py
+src/tinyai.egg-info/PKG-INFO
+src/tinyai.egg-info/SOURCES.txt
+src/tinyai.egg-info/dependency_links.txt
+src/tinyai.egg-info/top_level.txt
