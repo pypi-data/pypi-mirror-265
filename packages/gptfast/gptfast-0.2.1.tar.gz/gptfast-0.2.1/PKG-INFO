@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gptfast
+Version: 0.2.1
+Summary: Accelerate transformer inference by 6-8.5x. Native to Huggingface and PyTorch.
+Home-page: UNKNOWN
+Author: MDK8888
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
