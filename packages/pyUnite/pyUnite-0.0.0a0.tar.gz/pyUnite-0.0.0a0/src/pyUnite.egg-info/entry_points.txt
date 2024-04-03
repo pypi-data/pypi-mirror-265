@@ -1,0 +1,2 @@
+[console_scripts]
+pyunite = pyunite.cli:cli
