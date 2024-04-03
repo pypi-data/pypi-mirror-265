@@ -1,0 +1,3 @@
+[console_scripts]
+clc-check = calculyfy.cli:check
+clc-info = calculyfy.cli:dist_info
