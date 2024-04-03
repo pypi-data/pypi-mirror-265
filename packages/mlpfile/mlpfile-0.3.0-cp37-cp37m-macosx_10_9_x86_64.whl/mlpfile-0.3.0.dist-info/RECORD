@@ -1,0 +1,11 @@
+_mlpfile.cpython-37m-darwin.so,sha256=wQi1T0E-OGiCZ-8h-u_asyrhzdENUfTk1SwOMdP1K3Y,434248
+mlpfile/__init__.py,sha256=tFwpfpH6brFdhwx0KciA9N4mCVJD-bGAf6cq7m3m8xk,5017
+mlpfile/_codegen.py,sha256=z7_me4QPe0UNb9vnxqn0rGeIw7bJqiCb53rnPx9rHqo,4037
+mlpfile/torch/__init__.py,sha256=KodI-fkzFnLNXuLD5fzLWBgNPwXO885PjsKTZGqhpQY,249
+mlpfile/torch/torch.py,sha256=I7NvGUm1h3Grw6L0FYr7eYeOoXmgkvrK2SC8-FJ2BnA,2905
+mlpfile/cpp/mlpfile.h,sha256=a_QZaYfXNEbPoEiU-rxggLCFH0t_fWb3tRbRclzjY8A,2307
+mlpfile/cpp/mlpfile.cpp,sha256=odkYMMN-bdsNL4_Se-cxI2sY1jgIJehmdntPNyxqEHk,6806
+mlpfile-0.3.0.dist-info/RECORD,,
+mlpfile-0.3.0.dist-info/WHEEL,sha256=HS_2vgrXyXO7N4Q-5VnuMAgG-fG_r8eemMgfU9Aw3Kk,110
+mlpfile-0.3.0.dist-info/top_level.txt,sha256=ntAIivgjUgglctFfTk-8BcqzRoKRi1LHAU843Wsv8sc,17
+mlpfile-0.3.0.dist-info/METADATA,sha256=Z2dhrzhol6ThQLe4Mlfh-9TpvoGBOi4JRLN50zcn4Vs,5168
