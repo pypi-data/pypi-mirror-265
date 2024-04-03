@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: BMPboot
+Version: 3.3
+Summary: The Best of Boots: "BMP" - an address book application
+Author: Bartosz, Michał, Piotr
+Author-email: it@bartoszzygmunt.pl
+Description-Content-Type: text/markdown
+Requires-Dist: thefuzz
+
+The Best of Boots: 'BMP' - an address book application
