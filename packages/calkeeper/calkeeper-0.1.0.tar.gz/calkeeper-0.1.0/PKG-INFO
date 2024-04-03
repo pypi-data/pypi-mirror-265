@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: calkeeper
+Version: 0.1.0
+Summary: Simple calculation tracking
+Home-page: https://github.com/mfsjmenger/calkeeper
+Author: Maximilian F.S.J. Menger
+License: Apache License v2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# calkeeper
+Provides basic tools to track calculations in a given folder
+
+
