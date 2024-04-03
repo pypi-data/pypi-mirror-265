@@ -1,0 +1,2 @@
+[console_scripts]
+personality-questionnaire = personality_questionnaire.api:main
