@@ -1,0 +1,1 @@
+This package will contain the Children's Hospital of Philadelphia's Optical Neuroimaging Laboratory's Illumind software.

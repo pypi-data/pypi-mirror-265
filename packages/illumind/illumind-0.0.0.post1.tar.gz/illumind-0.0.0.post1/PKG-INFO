@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: illumind
+Version: 0.0.0.post1
+Author: Benjamin N. Zelnick, The Children's Hospital of Philadelphia
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package will contain the Children's Hospital of Philadelphia's Optical Neuroimaging Laboratory's Illumind software.
