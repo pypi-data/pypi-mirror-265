@@ -1,0 +1,9 @@
+include jdMacroPlayer/daemon/interface.xml
+include jdMacroPlayer/translations/*.ts
+exclude jdMacroPlayer/ui_compiled/*
+include jdMacroPlayer/Version.txt
+include jdMacroPlayer/Icon.png
+include jdMacroPlayer/data/*
+include jdMacroPlayer/ui/*
+include BuildBackend.py
+global-include *.ui

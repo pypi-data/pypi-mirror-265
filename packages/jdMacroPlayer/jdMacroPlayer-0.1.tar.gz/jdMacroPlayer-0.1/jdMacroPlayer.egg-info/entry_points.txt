@@ -1,0 +1,5 @@
+[console_scripts]
+jdmacroplayer-daemon = jdMacroPlayer.daemon:main
+
+[gui_scripts]
+jdmacroplayer = jdMacroPlayer.gui:main

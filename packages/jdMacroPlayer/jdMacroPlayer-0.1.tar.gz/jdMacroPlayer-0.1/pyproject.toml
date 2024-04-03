@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools", "PyQt6", "wheel"]
+build-backend = "BuildBackend"
+backend-path = ["."]
+
+[project]
+name = "jdMacroPlayer"
+description = "Wayland compatible macro player for Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["JakobDev", "Linux", "Macro"]
+license = { text = "GPL-3" }
+authors = [
+    { name = "JakobDev", email = "jakobdev@gmx.de" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Environment :: Other Environment",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: BSD",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython"
+]
+dependencies = [
+  "PyQt6"
+]
+dynamic = ["version"]
+
+[project.urls]
+Source = "https://codeberg.org/JakobDev/jdMacroPlayer"
+Issues = "https://codeberg.org/JakobDev/jdMacroPlayer/issues"
+Translate = "https://translate.codeberg.org/projects/jdMacroPlayer"
+Donation = "https://ko-fi.com/jakobdev"
+
+[project.gui-scripts]
+jdmacroplayer = "jdMacroPlayer.gui:main"
+
+[project.scripts]
+jdmacroplayer-daemon = "jdMacroPlayer.daemon:main"
+
+[tool.setuptools.package-dir]
+jdMacroPlayer = "jdMacroPlayer"
+
+[tool.setuptools.dynamic]
+version = { file = "jdMacroPlayer/Version.txt" }

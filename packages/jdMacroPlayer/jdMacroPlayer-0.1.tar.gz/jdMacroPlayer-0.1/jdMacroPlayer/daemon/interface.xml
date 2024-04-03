@@ -1,0 +1,20 @@
+<node>
+    <interface name="page.codeberg.JakobDev.jdMacroPlayer.Daemon">
+        <method name="ExecuteMacro">
+            <arg name="id" type="s" direction="in"/>
+        </method>
+        <method name="Reload"/>
+        <method name="Stop"/>
+    </interface>
+    <interface name="org.freedesktop.DBus.Introspectable">
+        <method name="Introspect">
+            <arg name="xml_data" type="s" direction="out"/>
+        </method>
+    </interface>
+    <interface name="org.freedesktop.DBus.Peer">
+        <method name="Ping"/>
+        <method name="GetMachineId">
+            <arg name="machine_uuid" type="s" direction="out"/>
+        </method>
+    </interface>
+</node>
