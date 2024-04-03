@@ -1,0 +1,10 @@
+cv_pom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv_pom/cv_pom.py,sha256=6HazoM3E1sfMXun6schsup46Dkscz-_0mhTJq9y4Arc,10301
+cv_pom/cv_pom_driver.py,sha256=HehNp876gzArgAGGRluLkoyIyEb3F-tHVPBa8VsTjq4,7500
+cv_pom/frameworks/__init__.py,sha256=-dOIBvuXzCsUmFm0Rrq_L1npoAkwDnLA3j2D76CskXw,71
+cv_pom/frameworks/testui.py,sha256=PrJVGJEqkU4uc4G3253vPr1WM1YO9cGV5Q5nXTGY4rs,3244
+cv_pom-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+cv_pom-0.1.0.dist-info/METADATA,sha256=nsVCRGIN7F7amhNfcGYiHjxn8y1NB1zR02szwSNfxEE,3695
+cv_pom-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cv_pom-0.1.0.dist-info/top_level.txt,sha256=xZYfLGmQPsYr1gdxU2BOXA7a_bHe2DC-5rDUjEwjpYs,7
+cv_pom-0.1.0.dist-info/RECORD,,
