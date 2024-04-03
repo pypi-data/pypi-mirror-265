@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django-huey-email
+Version: 0.0.1
+Summary: Asynchronous Email Backend for Django with Huey.
+Home-page: https://github.com/jukanntenn/django-huey-email
+License: BSD-3-Clause
+Keywords: django,huey,email
+Author: jukanntenn
+Author-email: jukanntenn@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: huey (>=2.5.0,<3.0.0)
+Project-URL: Repository, https://github.com/jukanntenn/django-huey-email
+Description-Content-Type: text/markdown
+
+# django-huey-email
+
+Asynchronous Email Backend for [Django](https://www.djangoproject.com/) with [Huey](https://github.com/coleifer/huey).
+
+## Requirements
+
+Python: >=3.8, <4
+
+Django: >=3.2, <6.0
+
+## Installation
+
+```bash
+pip install django-huey-email
+```
+
+## Usage
+
+Set `django-huey-email` as your email backend:
+
+```python
+EMAIL_BACKEND = "huey_email.backends.HueyEmailBackend"
+```
+
+By default, `django-huey-email` utilizes Django's built-in SMTP email backend for the actual email sending process. If you prefer to use a different backend, you can specify this by setting the `HUEY_EMAIL_BACKEND` in your settings. For instance, to use Django's console email backend instead, configure the settings as follows:
+
+```python
+EMAIL_BACKEND = "huey_email.backends.HueyEmailBackend"
+HUEY_EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+```
+
