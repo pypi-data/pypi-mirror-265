@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kpc_nifi_utils
+Version: 0.3.1
+Summary: Connector utils and configs for implementing with NIFI
+Home-page: https://github.com/kingpowerclick/kpc-nifi-utils
+Author: Praiwan N.
+Author-email: npraiwan@outlook.com
+License: Apache2
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: argparse
+Requires-Dist: pytz
+Requires-Dist: bson ==0.5.10
+
