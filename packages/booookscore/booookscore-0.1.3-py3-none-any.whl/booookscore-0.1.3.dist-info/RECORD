@@ -1,0 +1,11 @@
+booookscore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+booookscore/chunk.py,sha256=1Xb1erDtSzvnOO-85TEwySfywNg3w1spnY4YEIy0MrA,3639
+booookscore/postprocess.py,sha256=RH2m0WwBwbls2QPf4trInRnsgiZ73XYIClNRCm29lMU,1689
+booookscore/score.py,sha256=AZT9qkJfBq5O1BwNCwl1geBdEpi-RoqxFs2HCUSBovg,8585
+booookscore/summ.py,sha256=1hHFmnYsPfII-tiHVNiPa-dCfd8XOzCHvydw5z2ugD8,16557
+booookscore/utils.py,sha256=nWTYZR8oEi_fPwkaAEVyXnlMllMJKracvBjL2CHTPPE,3516
+booookscore-0.1.3.dist-info/LICENSE,sha256=g4ErZ-VzbTAh5uwQmbrLr2wlSaEDZsA9PnXRR6t7kS4,1067
+booookscore-0.1.3.dist-info/METADATA,sha256=lpqVO21d604uIUK9eMd4B1_qFDLRkh1lb-mzpDdw9R0,8257
+booookscore-0.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+booookscore-0.1.3.dist-info/top_level.txt,sha256=kMcQN09jirHmwCQHiqcqRPc8JKrjvODgygm_tl2X1cw,12
+booookscore-0.1.3.dist-info/RECORD,,
