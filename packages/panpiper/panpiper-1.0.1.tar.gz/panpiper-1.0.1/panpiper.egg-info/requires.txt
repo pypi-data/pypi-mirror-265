@@ -1,0 +1,12 @@
+setuptools
+biopython>=1.78
+pandas>=1.0.0
+numpy>=1.19.2
+matplotlib>=3.1.0
+seaborn>=0.10.0
+scikit-learn>=0.22.0
+scipy>=1.4.0
+scikit-bio>=0.5.6
+umap-learn>=0.4.0
+dendropy>=4.5.0
+PyYAML>=5.3
