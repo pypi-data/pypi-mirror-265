@@ -1,0 +1,46 @@
+This is a CLI management tool for MicroPython-based XNode.
+
+### Find serial port
+```sh
+xnode scan
+```
+
+### Initialize XNode (with zigbee) file system
+```sh
+xnode --sport<com_port_name> format b
+```
+> com3 is the port number found by scan
+
+### Install Pop library on XNode
+- Copy all modules included in the sub-pop folder to the pop sub-folder under XNode's lib.
+```sh
+xnode --sport<com_port_name> put pop /flash/lib/pop
+xnode --sport<com_port_name> ls /flash/lib/pop
+```
+> The Pop library (core.py, etc.) must be included in the lib folder of the current path.
+
+### Executes the PC's MicroPython script by sequentially passing it to the XNode
+```sh
+xnode --sport<com_port_name> run app.py
+```
+> Wait for serial output until the script finishes
+
+**Additional Options**
+   - -n: Does not wait for serial output, so it appears as if the program has terminated on the PC side.
+     - Script continues to run on XNode
+     - Used to check data output serially from XNode with other tools (PuTTY, smon, etc.)
+   - -ni (or -in): Does not display the pressed key in the terminal window (Echo off)
+
+### Install and run the MicroPython script on XNode
+```sh
+xnode --sport<com_port_name> put app.py main.py
+xnode --sport<com_port_name> ls
+```
+> app.py is the name of the script written on the PC, main.py is the name to be installed on XNode
+> Automatically runs /flash/main.py if it exists when XNode starts
+
+### Delete XNode file
+```sh
+xnode --sport<com_port_name> rm main.py
+xnode --sport<com_port_name> ls
+```
