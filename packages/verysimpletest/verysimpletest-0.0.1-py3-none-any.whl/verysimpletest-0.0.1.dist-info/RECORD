@@ -1,0 +1,11 @@
+verysimpletest/__init__.py,sha256=RYZLi-b5AOlupMYUM5aRCCGolDR0Ov28_bWFvjA9Vvs,52
+verysimpletest/add.py,sha256=kcubSdPmpDjc6aIi1rFF9qhkv5WOqCZxCkHX3vyAWqE,41
+verysimpletest/subtract.py,sha256=eVyYdPrnqT69RQVdJRDSUnqpmG7EtSinks0fnc15PM4,51
+verysimpletest/extra/__init__.py,sha256=MmsXp627Nqztvr4OFfxf-MSsqFTdEcSmQBtvRIHmBQs,54
+verysimpletest/extra/divide.py,sha256=QPxRbzi5foTodsFnZ9Wsd9ZsyRq7a6Qg0xvjIeokfwU,47
+verysimpletest/extra/multipy.py,sha256=1TbVqyU48Fy053URLEZWn3dOr5bEjtMpy9T-X9xXcvU,49
+verysimpletest-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+verysimpletest-0.0.1.dist-info/METADATA,sha256=xyHyxJSnVSXVgFNX6hCSBdalDpMUnt1ecE-rCCgWTI8,633
+verysimpletest-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+verysimpletest-0.0.1.dist-info/top_level.txt,sha256=NLwgeTa9IP8ehzOTKAA5wVpi9zEzIv23Qs1kjAwK5go,15
+verysimpletest-0.0.1.dist-info/RECORD,,
