@@ -1,0 +1,8 @@
+aiohttp
+aioredis
+click
+structlog
+websockets
+
+[prometheus]
+prometheus-async
