@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: botmom
+Version: 0.2
+Summary: Easiest and most variable module for creating telegram bots
+Home-page: https://github.com/Arsenii22/botmom
+Author: Arsenii Misiurenko
+Author-email: 2028misyurenko.ad@student.letovo.ru
+Project-URL: GitHub, https://github.com/Arsenii22/botmom
+Keywords: telegram botmom bots chatbots
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiogram >=3.0
+Requires-Dist: aiohttp
+
+# Botmom
+
+Простая и многофункциональная библиотека для создания своих ботов для телеграмм
+
+
+## Установка
+
+Введите в терминал:
+
+```bash
+pip install botmom --upgrade --user
+```
+
+или запустите этот код:
+
+```python
+import os, sys
+
+python = sys.executable
+user = '--user' if 'venv' not in python and 'envs' not in python else ''
+cmd = f'"{python}" -m pip install botmom --upgrade {user}'
+os.system(cmd)
+```
+
+
+## Примеры
+
+Простой echo-бот:
+
+```python
+from botmom import *
+
+TOKEN = "token from botfather"
+
+def on_message(msg: str):
+    return "Твоё сообщение: " + msg
+
+run_bot(TOKEN)
+```
+
