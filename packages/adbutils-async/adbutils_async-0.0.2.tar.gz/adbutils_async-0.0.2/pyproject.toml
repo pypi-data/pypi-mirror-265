@@ -1,0 +1,54 @@
+[project]
+name = "adbutils_async"
+version = "v0.0.2"
+description = "A sample Python project"
+authors = [{name = "tomin", email = "tomin@tomin.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+homepage = "https://github.com/touxiaoling/adbutils_async"
+repository = "https://github.com/touxiaoling/adbutils_async"
+documentation = "https://github.com/touxiaoling/adbutils_async"
+
+[tool.setuptools_scm]
+write_to = "package_name/_version.py"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+
+[tool.flake8]
+max-line-length = 128
+exclude = [
+    ".git",
+    "__pycache__",
+]
+
+[tool.black]
+line-length = 128
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 128
+target-version = "py312"
+
+[tool.ruff.lint]
+ignore = ["F401",]
+
+[tool.isort]
+profile = "black"
