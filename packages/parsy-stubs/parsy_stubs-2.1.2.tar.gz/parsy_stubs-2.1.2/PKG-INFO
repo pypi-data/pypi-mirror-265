@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: parsy-stubs
+Version: 2.1.2
+Summary: 
+Author: Basile Dura
+Author-email: basile@bdura.me
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Stub files for Parsy
+
+[Parsy](https://github.com/python-parsy/parsy) is an extremely elegant
+monadic parser combinator library for LL(infinity) grammars.
+
+This library aims to enhance your developer experience (as well as catching a
+swathe of bugs before you run any test using static type checking with tools like Mypy)
+by providing type-hinting.
+
+## Installation
+
+```shell
+pip install parsy-stubs
+```
+
+## Disclaimer
+
+I am not affiliated in any way with the original library.
+

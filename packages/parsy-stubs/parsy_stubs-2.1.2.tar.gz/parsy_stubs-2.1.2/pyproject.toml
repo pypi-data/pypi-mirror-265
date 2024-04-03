@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "parsy-stubs"
+version = "2.1.2"
+description = ""
+authors = ["Basile Dura <basile@bdura.me>"]
+readme = "README.md"
+packages = [
+    { include = "parsy-stubs/__init__.pyi" },
+    { include = "parsy-stubs/py.typed" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+pre-commit = "^3.7.0"
+mypy = "^1.9.0"
+
+parsy = "^2.1"
+
+pytest = "^8.1.1"
+hypothesis = "^6.100.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
