@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python_dev_utils
+Version: 0.1.0
+Summary: My project utils package, that I use in my projects.
+License: MIT
+Requires-Python: >=3.11
+Provides-Extra: profiling
+Provides-Extra: sqlalchemy_filters
+Requires-Dist: fastapi>=0.110.0; extra == "profiling"
+Requires-Dist: sqlalchemy>=2.0.28; extra == "profiling"
+Requires-Dist: sqlalchemy>=2.0.28; extra == "sqlalchemy-filters"
+Requires-Dist: abstractcp>=0.9.9; extra == "sqlalchemy-filters"
+Description-Content-Type: text/markdown
