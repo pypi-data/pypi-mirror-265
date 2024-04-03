@@ -1,0 +1,3 @@
+[console_scripts]
+patchwork=patchwork_cli.app:cli
+
