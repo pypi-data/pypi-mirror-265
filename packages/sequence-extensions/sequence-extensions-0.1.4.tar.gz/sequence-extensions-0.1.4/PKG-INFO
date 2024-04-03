@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sequence-extensions
+Version: 0.1.4
+Summary: Higher order functions extension functins
+Author: jkCXf9X4
+Project-URL: Homepage, https://github.com/jkCXf9X4/sequence_extensions
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sequence_extensions
+
+provides high order functions as extesions for the custom list class in python
+
+```python 
+l = list_ext([1, 2, 3, 4])
+
+l.map(lambda x: x*2)
+[2, 4, 6, 8]
+
+l.filter(lambda x: x%2==0)
+[2, 4]
+
+l.for_each(lambda x: print(x))
+1
+2
+3
+4
+
+l.first(lambda x: x%2==0)
+2
+
+l.last(lambda x: x%2==0)
+4
+
+l.to_strings()
+["1", "2", "3", "4"]
+
+l.to_string()
+"1, 2, 3, 4"
+
+```
+
+
+for develompment install 
+pip install -e .
+
+to run tests
+pytest
+
+To generate coverage
+pytest --cov  --cov-report html
+
