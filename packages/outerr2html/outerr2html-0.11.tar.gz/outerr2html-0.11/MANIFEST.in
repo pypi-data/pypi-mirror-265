@@ -1,0 +1,3 @@
+include outerr2html/requirements.txt
+include outerr2html/thirdparty.json
+include outerr2html/README.MD
