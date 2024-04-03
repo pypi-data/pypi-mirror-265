@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fathompype"
+version = "0.0.67"
+description = ""
+authors = ["Sam Britton"]
+readme = "README.md"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+azure-storage-blob = "^12.19.1"
+pyarrow = "^15.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
