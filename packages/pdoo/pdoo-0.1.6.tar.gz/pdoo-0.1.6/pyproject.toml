@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pdoo"
+version = "0.1.6"
+description = ""
+authors = ["tlonny"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
