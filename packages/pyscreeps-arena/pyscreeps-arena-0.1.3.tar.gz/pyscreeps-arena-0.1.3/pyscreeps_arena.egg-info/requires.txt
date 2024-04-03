@@ -1,0 +1,6 @@
+pyperclip
+colorma
+Transcrypt==3.9.1
+mkdocs
+mkdocstrings[python]
+mkdocs-material
