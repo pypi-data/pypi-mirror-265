@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rportion/__init__.py
+rportion/rportion.py
+rportion.egg-info/PKG-INFO
+rportion.egg-info/SOURCES.txt
+rportion.egg-info/dependency_links.txt
+rportion.egg-info/requires.txt
+rportion.egg-info/top_level.txt
+tests/test_rportion.py
