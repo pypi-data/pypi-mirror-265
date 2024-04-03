@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/querypanda/__init__.py
+src/querypanda/performance_stats.py
+src/querypanda/querypanda.py
+src/querypanda.egg-info/PKG-INFO
+src/querypanda.egg-info/SOURCES.txt
+src/querypanda.egg-info/dependency_links.txt
+src/querypanda.egg-info/requires.txt
+src/querypanda.egg-info/top_level.txt
