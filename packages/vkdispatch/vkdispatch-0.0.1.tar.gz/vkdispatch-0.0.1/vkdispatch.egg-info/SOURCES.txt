@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+vkdispatch/__init__.py
+vkdispatch/example.py
+vkdispatch.egg-info/PKG-INFO
+vkdispatch.egg-info/SOURCES.txt
+vkdispatch.egg-info/dependency_links.txt
+vkdispatch.egg-info/not-zip-safe
+vkdispatch.egg-info/requires.txt
+vkdispatch.egg-info/top_level.txt
+vkdispatch_native/init.cpp
+vkdispatch_native/init.h
+vkdispatch_native/wrapper.pyx
