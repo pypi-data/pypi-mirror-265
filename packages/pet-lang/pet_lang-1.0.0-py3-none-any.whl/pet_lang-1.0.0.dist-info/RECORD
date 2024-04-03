@@ -1,0 +1,10 @@
+pet_lang/__init__.py,sha256=WztCirzBGIx6DGicUzI39AJdu-I_q3Ev4I-ojGDNnzA,798
+pet_lang/__main__.py,sha256=38Cyvp2dN40TrWbjXjJAfekL3jAcRozwHkNsRRsd9Kg,353
+pet_lang/pet_lang.py,sha256=KndnNK0SOzdE9F8a03xt50WrPu9WK-U4xVWXBzR_Ojg,10597
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pet_lang.py,sha256=y04Y3T2DfC2G3Pg6EfGR9JMSmCBHXzHVulIcSkq5yYk,8466
+pet_lang-1.0.0.dist-info/LICENSE,sha256=sCBWEdG_-D-VXOAEIm-8OCM_jlUPaCQwoo98P7pbLCc,1069
+pet_lang-1.0.0.dist-info/METADATA,sha256=5kRveMXIRfJU3xAKGEQk5p4o0BH8s7ZnIReuds9ofFc,769
+pet_lang-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pet_lang-1.0.0.dist-info/top_level.txt,sha256=ROMRZpR7wC5sGGjtpt3a2YSnejUaEOA8uRE9HYyqXPc,15
+pet_lang-1.0.0.dist-info/RECORD,,

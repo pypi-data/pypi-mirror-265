@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pet_lang
+Version: 1.0.0
+Summary: A language that allows users to create programs with their favorite characters that are displayed on their desktop thanks to the Desktop_Pet program
+Home-page: https://github.com/Hanra-s-work/PetLang
+Author: Henry Letellier
+Author-email: henrysoftwarehouse@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PetLang
+This is an internal language meant to empower the user with th possibility to create scripts that will allow them to create stories with their favorite characters (virtual people [i.e. Default man]) on their desktop.
