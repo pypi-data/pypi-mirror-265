@@ -1,0 +1,4 @@
+[console_scripts]
+agenta=chainlo.agenta_cli.agenta.cli.main:cli
+chainlo=chainlo.cli:cli
+
