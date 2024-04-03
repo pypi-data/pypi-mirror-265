@@ -1,0 +1,29 @@
+#!python
+
+from math import e
+import sys
+
+from git_ai.cmd import diff
+from git_ai.cmd import log
+from git_ai.cmd import merge_exp
+from git_ai.cmd import input_repo
+from git_ai.cmd import init
+from git_ai.cmd import format_error
+from git_ai.errors.errors import CommandError
+
+try:
+    if sys.argv[1] == 'init':
+        init()
+    elif sys.argv[1] == 'diff':
+        diff(sys.argv)
+    elif sys.argv[1] == 'log':
+        log(sys.argv)
+    elif sys.argv[1] == 'merge-exp':
+        merge_exp(sys.argv)
+    elif sys.argv[1] == 'input-repo':
+        input_repo(sys.argv)
+    else:
+        raise CommandError.unknown_ai_command()
+except Exception as e:
+    print(format_error(e))
+    sys.exit(1)
