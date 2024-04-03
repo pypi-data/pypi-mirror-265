@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="06b10e49-df60-414f-81be-b346ada54b75" name="savio">
+        <fileTransfer rootFolder="/global/home/users/erginbas" accessType="SFTP" host="dtn01.brc.berkeley.edu" port="22" sshConfigId="e27fb3a0-67a1-4b23-995e-b4c6a6f12092" sshConfig="erginbas@dtn01.brc.berkeley.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="200000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
