@@ -1,0 +1,3 @@
+include consolectrlchandler/requirements.txt
+include consolectrlchandler/thirdparty.json
+include consolectrlchandler/README.MD
