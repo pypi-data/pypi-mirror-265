@@ -1,0 +1,13 @@
+fb_graphql_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fb_graphql_scraper/facebook_graphql_scraper.py,sha256=RtTgIn2Mv2JIt4NTSpNNFq1ocTWva6lGwpDm58tpmXY,4835
+fb_graphql_scraper/test_program.py,sha256=ykXgdh895MCMAFvxoxytk2w8ju1lJZlYLNYZwDIFbhY,748
+fb_graphql_scraper/base/base_page.py,sha256=bx1nYdlrghRRODKpl2GuOhHaQgFcArrrt0Uv_c4vDuw,852
+fb_graphql_scraper/pages/page_optional.py,sha256=iuYV2TUcw2DhhifJXx8N7gATJBaHPnkrbHP8TqFNY20,4984
+fb_graphql_scraper/utils/locator.py,sha256=5zzFwcsZvR_w0uaRwwGcRcKwX7hrwIDQqUe39hJzwvE,3029
+fb_graphql_scraper/utils/parser.py,sha256=poMJUU9QyeoE6WOJfsGJ8LroFBlAnQZ_Pk9QVuEDeeY,3481
+fb_graphql_scraper/utils/utils.py,sha256=7giunKji3NPYZwo30czh9oS5iktXvOiAZuYpOQQTquY,5860
+facebook_graphql_scraper-0.5.dist-info/LICENSE,sha256=kEBEyF0zymtwSR0YUx1nAjoC-Zq0aZYYezjbtcKtxbM,1055
+facebook_graphql_scraper-0.5.dist-info/METADATA,sha256=Sxn5HHwduWVHeJLukxrQ248U4Xi8B0qqw7DQQPN7jH4,4842
+facebook_graphql_scraper-0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+facebook_graphql_scraper-0.5.dist-info/top_level.txt,sha256=IF6F1Bq6fXuzFxdDBe7rr-qagGzP_qiQD9qHCLm37-I,19
+facebook_graphql_scraper-0.5.dist-info/RECORD,,
