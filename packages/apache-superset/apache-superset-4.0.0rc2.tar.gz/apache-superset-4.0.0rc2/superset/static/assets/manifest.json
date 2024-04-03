@@ -1,0 +1,71 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.4736a51c1325a9dfe795.entry.js",
+        "/static/assets/4401.e06a2820ca9d911694fd.entry.js",
+        "/static/assets/8047.24d6ca7ebc5f9d6a93cf.entry.js",
+        "/static/assets/preamble.83d8f8209639e8da7a2e.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [
+        "/static/assets/theme.cfbde93523febd60f894.entry.css"
+      ],
+      "js": [
+        "/static/assets/theme.cfbde93523febd60f894.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.4736a51c1325a9dfe795.entry.js",
+        "/static/assets/4401.e06a2820ca9d911694fd.entry.js",
+        "/static/assets/7802.bf70478dee6d331f83d7.entry.js",
+        "/static/assets/8786.750e35227465e3f57a33.entry.js",
+        "/static/assets/8047.24d6ca7ebc5f9d6a93cf.entry.js",
+        "/static/assets/7130.2c5a11a95b5f67a1fdd2.entry.js",
+        "/static/assets/5331.592ae080dda7db5d54c6.entry.js",
+        "/static/assets/9041.a4744081f093b86c96aa.entry.js",
+        "/static/assets/menu.da5ca4d09c45301e5ac0.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [
+        "/static/assets/spa.0f5d9346d28880b7b206.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.4736a51c1325a9dfe795.entry.js",
+        "/static/assets/thumbnail.124d01f4aedf15ae2c79.entry.js",
+        "/static/assets/4401.e06a2820ca9d911694fd.entry.js",
+        "/static/assets/7802.bf70478dee6d331f83d7.entry.js",
+        "/static/assets/8786.750e35227465e3f57a33.entry.js",
+        "/static/assets/4157.4e085cb1195b0dcb902c.entry.js",
+        "/static/assets/8109.95e54cc87e6a5c6f61ee.entry.js",
+        "/static/assets/8047.24d6ca7ebc5f9d6a93cf.entry.js",
+        "/static/assets/7130.2c5a11a95b5f67a1fdd2.entry.js",
+        "/static/assets/5331.592ae080dda7db5d54c6.entry.js",
+        "/static/assets/4725.f6250defb25c91fb73a0.entry.js",
+        "/static/assets/9041.a4744081f093b86c96aa.entry.js",
+        "/static/assets/4717.146a8675aedf22e9e7dc.entry.js",
+        "/static/assets/spa.0f5d9346d28880b7b206.entry.js"
+      ]
+    },
+    "embedded": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.4736a51c1325a9dfe795.entry.js",
+        "/static/assets/thumbnail.124d01f4aedf15ae2c79.entry.js",
+        "/static/assets/4401.e06a2820ca9d911694fd.entry.js",
+        "/static/assets/8786.750e35227465e3f57a33.entry.js",
+        "/static/assets/4157.4e085cb1195b0dcb902c.entry.js",
+        "/static/assets/8047.24d6ca7ebc5f9d6a93cf.entry.js",
+        "/static/assets/7130.2c5a11a95b5f67a1fdd2.entry.js",
+        "/static/assets/4725.f6250defb25c91fb73a0.entry.js",
+        "/static/assets/embedded.0a9a80f572031f8ee153.entry.js"
+      ]
+    }
+  }
+}
