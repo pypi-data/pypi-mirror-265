@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rapidai.egg-info/PKG-INFO
+rapidai.egg-info/SOURCES.txt
+rapidai.egg-info/dependency_links.txt
+rapidai.egg-info/entry_points.txt
+rapidai.egg-info/not-zip-safe
+rapidai.egg-info/requires.txt
+rapidai.egg-info/top_level.txt

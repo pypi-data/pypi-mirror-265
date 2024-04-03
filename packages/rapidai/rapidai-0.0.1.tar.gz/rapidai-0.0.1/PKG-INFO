@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rapidai
+Version: 0.0.1
+Summary: A deeplearning wrapper on top of pytorch
+Home-page: https://github.com/m-gopichand/rapidai
+Author: Madala Gopichand
+Author-email: 80762088+m-gopichand@users.noreply.github.com
+License: Apache Software License 2.0
+Keywords: nbdev jupyter notebook python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# rapidai
+ 
+
+
