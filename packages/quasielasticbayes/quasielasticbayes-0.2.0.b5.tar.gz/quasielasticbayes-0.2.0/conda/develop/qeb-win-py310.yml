@@ -1,0 +1,11 @@
+name: qeb-dev-py310
+
+channels:
+    - conda-forge
+
+dependencies:
+    # A fortran compiler must be provided separately as we require a very specific version of mingw
+    - m2w64-gcc-fortran=5.3.0
+    - python=3.10.*
+    - numpy=1.21.*
+    - pytest

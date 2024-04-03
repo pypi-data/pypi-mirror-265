@@ -1,0 +1,11 @@
+name: qeb-dev-py310
+
+channels:
+    - conda-forge
+
+dependencies:
+    - gfortran=12.3.0
+    - libgfortran-ng=12.3.0
+    - python=3.10.*
+    - numpy=1.21.*
+    - pytest
