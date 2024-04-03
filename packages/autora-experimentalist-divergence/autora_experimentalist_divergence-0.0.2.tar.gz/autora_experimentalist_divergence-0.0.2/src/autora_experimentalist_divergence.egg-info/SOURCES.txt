@@ -1,0 +1,22 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+mkdocs.yml
+pyproject.toml
+.github/pull_request_template.md
+.github/workflows/python-publish.yml
+docs/Basic Usage.ipynb
+docs/index.md
+docs/quickstart.md
+docs/javascripts/mathjax.js
+mkdocs/base.yml
+src/autora/experimentalist/divergence/__init__.py
+src/autora_experimentalist_divergence.egg-info/PKG-INFO
+src/autora_experimentalist_divergence.egg-info/SOURCES.txt
+src/autora_experimentalist_divergence.egg-info/dependency_links.txt
+src/autora_experimentalist_divergence.egg-info/requires.txt
+src/autora_experimentalist_divergence.egg-info/top_level.txt
+tests/README.md
+tests/__init__.py
+tests/test_autora_experimentalist_divergence.py

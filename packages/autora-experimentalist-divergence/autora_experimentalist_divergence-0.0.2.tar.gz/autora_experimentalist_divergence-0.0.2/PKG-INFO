@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: autora_experimentalist_divergence
+Version: 0.0.2
+Summary: sampling based on divergence
+Author-email: Younes Strittmatter <younes.strittmatter@brown.edu>
+License: Copyright (c) 2024 Younes Strittmatter
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, http://www.empiricalresearch.ai
+Project-URL: repository, https://github.com/AutoResearch/autora-experimentalist-divergence
+Project-URL: documentation, https://autoresearch.github.io/autora/
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autora-core
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: autora-core[dev]; extra == "dev"
+
+# AutoRA Divergence Experimentalist
+
+The divergence experimentalist identifies experimental conditions $\vec{x}' \in X'$ with respect the
+distance between existing experimental data $\vec{x}, $\vec{y} and data predicted by a model 
+$\vec{x_pool}, $\vec{y_pred}:
+
+$$
+\underset{\vec{x}'}{\arg\max}~sum(d((\vec{x}, \vec{y}), (\vec{x_pool}, \vec{y_pred}))
+$$
+
+The aim of this experimentalist is to combine novelty and uncertainty by using a distance that
+combines both: The distance between existing conditions to new conditions and the distance of 
+existing observations to predictions.
