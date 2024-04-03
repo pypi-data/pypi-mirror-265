@@ -1,0 +1,10 @@
+glcidocs/__init__.py,sha256=UPkuFT1h-JICPB-tMTHIxlA8RTTcWq4vJPoKX6nfN8s,1545
+glcidocs/__main__.py,sha256=yPRklDCdMfF3SDsVfHgQLB1UWhar7l0sYgGJ2AlEjWk,492
+glcidocs/docsgen.py,sha256=k1EOp-B7vzIlxXUPx3iaaZowWwQmV0kmgnr4gG4v9xg,2105
+glcidocs/errors.py,sha256=dQj8hjvCxnN2M5AaOFW0DKfvAxD_DsMJBj6b7z6Y-Sk,86
+glcidocs/pipelineparser.py,sha256=O8GLvA0no2k2JnmBza2c8jWLLL0w7vtE7YJYuCf5hOQ,4067
+glcidocs-0.0.1b4.dist-info/LICENSE,sha256=VTjx0eFBWUBXbrTnRQC7Nqr1cbNfR9lQGpGmXz3D_AQ,1092
+glcidocs-0.0.1b4.dist-info/METADATA,sha256=XhrZMsCzxIr3qxxpjUMSRtIStZ94Gl28FzCC-J0uoQs,3801
+glcidocs-0.0.1b4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+glcidocs-0.0.1b4.dist-info/top_level.txt,sha256=saRDUYaLD06vyqpKY1vWcOn_5lRo_kDtvE7if8hciXc,9
+glcidocs-0.0.1b4.dist-info/RECORD,,
