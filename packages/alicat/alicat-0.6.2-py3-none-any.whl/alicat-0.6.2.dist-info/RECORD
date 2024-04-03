@@ -1,0 +1,11 @@
+alicat/__init__.py,sha256=SFOvNBy9N_IezeaqB2l0SIgD-_cPbYr8bj9BRyocOUg,4570
+alicat/driver.py,sha256=EDvm8S8Rt03-kJ9sBhJeOu-tpgt91ic8cgBw2uj0HAc,20850
+alicat/mock.py,sha256=FmVO28sPM18gA0OF8jmtEqSrpqRnOOziut2G4ULlpNU,2861
+alicat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alicat/util.py,sha256=iqf776iW_wjUnb6y19vU9I1BijB2jRnohfTIu6Eh_Hg,8040
+alicat-0.6.2.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+alicat-0.6.2.dist-info/METADATA,sha256=OaXcbJK4JisJhyG_t8cTXMEYZ7xnwBFP2c-_uRE76RU,6228
+alicat-0.6.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+alicat-0.6.2.dist-info/entry_points.txt,sha256=2F6Jd2PiZT0_EHZDHSncxV3xniYXHReZTNsMKf-9_JA,48
+alicat-0.6.2.dist-info/top_level.txt,sha256=e6OUptlq_5WlyhQSLPKtJ7zzB_nAnQy4253b21dlN4w,7
+alicat-0.6.2.dist-info/RECORD,,
