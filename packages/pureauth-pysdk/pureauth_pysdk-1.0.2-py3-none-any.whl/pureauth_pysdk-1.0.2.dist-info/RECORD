@@ -1,0 +1,15 @@
+pureauth_pysdk/__init__.py,sha256=0WXFjH04c1ceoZ7zaqEjLHY0of7mvnqWV2YXbcMxO20,31
+pureauth_pysdk/docs/sdkmethods.ipynb,sha256=JF_wfyNRe8VOQsOniKr0jYC_JMk8o64vrJeHuK6QcKo,19594
+pureauth_pysdk/dto.py,sha256=zgn03jAin7DN_FwMcqO-qhqLyCFf-NsANuKKryEkG04,186
+pureauth_pysdk/errors.py,sha256=GTzExGppGyvvhu4tLRAXcBaoSj-sdua9yGjMxf7C5ns,54
+pureauth_pysdk/pureauth.py,sha256=ctb8r0ZMmbaxr1OQv_GKlADztgs-hgTC3SFZ4xpUiEI,813
+pureauth_pysdk/sync/__init__.py,sha256=7pX7OQzUrmOFzao4x2D5FVECSNhciImRsbd_jFxY-No,23
+pureauth_pysdk/sync/dto.py,sha256=hXZXIDouxcGF86T439nozcuyfO2ZZUlBcyASwr0-AHg,5401
+pureauth_pysdk/sync/employee.py,sha256=VVXK-ZRqMP8T5ttIMkcN1gifzBzz4CFGaMUAGP2aC0w,20702
+pureauth_pysdk/sync/errors.py,sha256=42XK6sdr-al_QDi7kmlx1cTj2V1zRo-aY3lh77ANgFc,751
+pureauth_pysdk/sync/organization.py,sha256=ucWeRn1Y3Kdaimr9fvKFFMg0zCbAeXy3uYXRD2rsVRA,10937
+pureauth_pysdk/sync/sync.py,sha256=XjBNfzvkh8Uthi5lqa56SvI2re8gfRLPkv5SBKR9oMw,346
+pureauth_pysdk/utils.py,sha256=1o1NzIzSnUGNxKUi81tSzK_RVinOJ4e64jffjcwQZac,1587
+pureauth_pysdk-1.0.2.dist-info/METADATA,sha256=nMpPuhja_wNGQZ3qfTV1eqkF9kZ62_rdzRA87tDNe_Y,1255
+pureauth_pysdk-1.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pureauth_pysdk-1.0.2.dist-info/RECORD,,
