@@ -1,0 +1,10 @@
+superbus/__init__.py,sha256=w6_hkDj_Anf6Y_0mlB5HAix4W--rGSIFT6r-RP4f4XY,54
+superbus/client.py,sha256=FbUtK0bTElt2NjoMeQpuHUohN9lMAVAC_7mAF4ND_Ek,2438
+superbus/updater.py,sha256=iPsCoLvvmke3tFn7qtrqfUNgm7HKwKDGDbyCEt6mH-Q,3111
+superbus/utils.py,sha256=DRfbyKFSRxTRNSY03eIbf9OwaALvzxMSR4qiGwgt4AE,2447
+superbus/worker.py,sha256=aJwIt6J9YoVtONgDSjKniykQHM2T9Theo3qINLE6wG0,3760
+superbus-0.0.10.dist-info/LICENSE,sha256=7EcmA75a6e_CeTRYpwr9qpm3ub3SjNRJzXU2BWVNK6U,1067
+superbus-0.0.10.dist-info/METADATA,sha256=a2BMo-1IfeFikO6BeRMiALM6WCyLq4tP3kgrf2ypcDc,787
+superbus-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+superbus-0.0.10.dist-info/top_level.txt,sha256=1NfqBnkhPK1Xra2Xf-sOol0E8zNfvFCnKDWCq1dQ7LI,9
+superbus-0.0.10.dist-info/RECORD,,
