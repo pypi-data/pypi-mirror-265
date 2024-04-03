@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+s2u/__init__.py
+s2u/s2u.py
+s2u.egg-info/PKG-INFO
+s2u.egg-info/SOURCES.txt
+s2u.egg-info/dependency_links.txt
+s2u.egg-info/entry_points.txt
+s2u.egg-info/not-zip-safe
+s2u.egg-info/requires.txt
+s2u.egg-info/top_level.txt
