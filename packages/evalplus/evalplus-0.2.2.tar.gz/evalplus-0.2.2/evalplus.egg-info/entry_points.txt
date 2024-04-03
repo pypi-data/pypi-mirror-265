@@ -1,0 +1,5 @@
+[console_scripts]
+evalplus.evaluate = evalplus.evaluate:main
+evalplus.inputgen = evalplus.inputgen:main
+evalplus.sanitize = evalplus.sanitize:main
+evalplus.syncheck = evalplus.syncheck:main
