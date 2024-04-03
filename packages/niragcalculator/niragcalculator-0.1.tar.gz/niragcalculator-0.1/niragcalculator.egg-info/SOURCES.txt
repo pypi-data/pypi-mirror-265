@@ -1,0 +1,7 @@
+setup.py
+calculator/__init__.py
+calculator/operations.py
+niragcalculator.egg-info/PKG-INFO
+niragcalculator.egg-info/SOURCES.txt
+niragcalculator.egg-info/dependency_links.txt
+niragcalculator.egg-info/top_level.txt
