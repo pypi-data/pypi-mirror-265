@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core>=3.7", "pytest"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "python-gettext-translations"
+authors = [
+    {name = "Alexey Zauzin", email = "a.zauzin@thestage.ai"},
+]
+description = "Python gettext translations"
+readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["translations", "i18n", "i18n_mrg"]
+license = {text = "Proprietary"}
+classifiers = [
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+    "polib"
+]
+dynamic = ["version"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "python-gettext-translations"
+]
