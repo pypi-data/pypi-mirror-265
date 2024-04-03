@@ -1,0 +1,9 @@
+taskara/db/conn.py,sha256=uyRMbAQl3mqIYoKveyinP6TNH8vQAQO9cE33CBQVhEk,2001
+taskara/db/models.py,sha256=rRc46IrE50ni64wnr7wwH31ThcHjj8XIzw8RimT0Oas,1449
+taskara/env.py,sha256=AMmqfFJZTml34sopZbVIubVzhOD8LumWS6GawURPvxQ,195
+taskara/models.py,sha256=CNdNdgbNf9RcABNmAkv6VS0Ch4Z4dZf1yEAjLV6s3k8,1457
+taskara/task.py,sha256=1niXSWZhfSkh34YK2UNcAPSyshcU6MMrxxSOklTNxbs,20304
+taskara-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+taskara-0.1.0.dist-info/METADATA,sha256=kyBrZAmPvvLwSByNkdSYgmV89VKNCpKlPHv5uyYP9UE,611
+taskara-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+taskara-0.1.0.dist-info/RECORD,,
