@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dsvenv
+Version: 2.0.0
+Summary: Utility to create and initialize a virtual environment based on a `requirements.txt` file.
+Home-page: 
+Author: DS
+Author-email: grazhopper+pypi@gmail.com
+Description-Content-Type: text/plain
+Requires-Dist: packaging
+
