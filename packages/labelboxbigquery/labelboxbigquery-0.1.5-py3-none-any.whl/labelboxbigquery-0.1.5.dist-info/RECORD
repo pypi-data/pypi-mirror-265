@@ -1,0 +1,8 @@
+labelboxbigquery/__init__.py,sha256=61fTjY922De69zlTxsm6I8Tid-OJ67fMAPThIlRzPBs,43
+labelboxbigquery/client.py,sha256=TmFg7AqqWEsewFhaFTAchCGM7ylyTgGZM_OC2n4G85w,35218
+labelboxbigquery/connector.py,sha256=RvxUvFdZE7myBas2Kko7EoBW0Xj_09pqNOTJ-DXlsis,2018
+labelboxbigquery-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+labelboxbigquery-0.1.5.dist-info/METADATA,sha256=1TXzyNPUg61J2BGMU5MY6I_wRIyiDUwmFEumLNKGaiI,2547
+labelboxbigquery-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+labelboxbigquery-0.1.5.dist-info/top_level.txt,sha256=8RM5cUkK_QJgpZ47o2c8YPmAmXFiCH0mSbeWQdD7LBo,17
+labelboxbigquery-0.1.5.dist-info/RECORD,,
