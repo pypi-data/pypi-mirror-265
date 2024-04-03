@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/django_crud_manager/__init__.py
+src/django_crud_manager/constants.py
+src/django_crud_manager/exceptions.py
+src/django_crud_manager/general_manager.py
+src/django_crud_manager/manager.py
+src/django_crud_manager/manager_base.py
+src/django_crud_manager/models.py
+src/django_crud_manager.egg-info/PKG-INFO
+src/django_crud_manager.egg-info/SOURCES.txt
+src/django_crud_manager.egg-info/dependency_links.txt
+src/django_crud_manager.egg-info/requires.txt
+src/django_crud_manager.egg-info/top_level.txt
