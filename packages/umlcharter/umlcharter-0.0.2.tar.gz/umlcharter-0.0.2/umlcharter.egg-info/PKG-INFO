@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: umlcharter
+Version: 0.0.2
+Summary: Python package for quick diagrams creation without a need to learn new DSL
+Home-page: https://github.com/mikalaiyurkin/charter
+Author: Mikalai Yurkin
+Author-email: yurkin.mikalai@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# umlcharter
+Python package for quick diagrams creation without a need to learn a new DSL.
+
+The goal of this package is to provide a tool for a convenient and quick creation of the UML diagrams
+in the popular DSLs like Mermaid, PlantUML, ZenUML, etc using a simple python constructions.
+
+For details about the mentioned DSLs, please refer to the next links:
+- [Mermaid](https://mermaid.js.org/)
+- [PlantUML](https://plantuml.com/)
+- [ZenUML](https://zenuml.com/)
