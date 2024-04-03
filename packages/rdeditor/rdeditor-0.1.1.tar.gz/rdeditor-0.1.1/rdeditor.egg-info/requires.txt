@@ -1,0 +1,6 @@
+PySide2
+numpy
+rdkit
+
+[dev]
+ruff

@@ -1,0 +1,70 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rdeditor/Mendelev_extract.py
+rdeditor/__init__.py
+rdeditor/molEditWidget.py
+rdeditor/molViewWidget.py
+rdeditor/ptable.py
+rdeditor/ptable_widget.py
+rdeditor/rdEditor.py
+rdeditor.egg-info/PKG-INFO
+rdeditor.egg-info/SOURCES.txt
+rdeditor.egg-info/dependency_links.txt
+rdeditor.egg-info/entry_points.txt
+rdeditor.egg-info/not-zip-safe
+rdeditor.egg-info/requires.txt
+rdeditor.egg-info/top_level.txt
+rdeditor/pixmaps/Change_E_Z.png
+rdeditor/pixmaps/Change_E_Z.svg
+rdeditor/pixmaps/Change_R_S.png
+rdeditor/pixmaps/about.png
+rdeditor/pixmaps/appicon.png
+rdeditor/pixmaps/appicon.svg.png
+rdeditor/pixmaps/calc.png
+rdeditor/pixmaps/exit.png
+rdeditor/pixmaps/grid.png
+rdeditor/pixmaps/icons8-Broom.png
+rdeditor/pixmaps/icons8-Bulleted List.png
+rdeditor/pixmaps/icons8-Cancel.png
+rdeditor/pixmaps/icons8-Carbon.png
+rdeditor/pixmaps/icons8-Cursor.png
+rdeditor/pixmaps/icons8-Decrease Font.png
+rdeditor/pixmaps/icons8-Delete.png
+rdeditor/pixmaps/icons8-Double.png
+rdeditor/pixmaps/icons8-Edit.png
+rdeditor/pixmaps/icons8-Exit.png
+rdeditor/pixmaps/icons8-Hydrogen.png
+rdeditor/pixmaps/icons8-Increase Font.png
+rdeditor/pixmaps/icons8-Info.png
+rdeditor/pixmaps/icons8-Left.png
+rdeditor/pixmaps/icons8-Line.png
+rdeditor/pixmaps/icons8-Minus.png
+rdeditor/pixmaps/icons8-Molecule.png
+rdeditor/pixmaps/icons8-Open.png
+rdeditor/pixmaps/icons8-Oxygen.png
+rdeditor/pixmaps/icons8-Physics.png
+rdeditor/pixmaps/icons8-Pinch.png
+rdeditor/pixmaps/icons8-Plus.png
+rdeditor/pixmaps/icons8-Redo.png
+rdeditor/pixmaps/icons8-Replace Atom.png
+rdeditor/pixmaps/icons8-Reset.png
+rdeditor/pixmaps/icons8-Right.png
+rdeditor/pixmaps/icons8-Save as.png
+rdeditor/pixmaps/icons8-Save.png
+rdeditor/pixmaps/icons8-Scatter Plot.png
+rdeditor/pixmaps/icons8-Shutdown.png
+rdeditor/pixmaps/icons8-Single.png
+rdeditor/pixmaps/icons8-Trash.png
+rdeditor/pixmaps/icons8-Triple.png
+rdeditor/pixmaps/icons8-Undo.png
+rdeditor/pixmaps/icons8-copy-96.png
+rdeditor/pixmaps/icons8-paste-100.png
+rdeditor/pixmaps/molblock.png
+rdeditor/pixmaps/next.png
+rdeditor/pixmaps/open.png
+rdeditor/pixmaps/plot.png
+rdeditor/pixmaps/prev.png
+rdeditor/pixmaps/ptable.png
+rdeditor/pixmaps/ptable.svg
