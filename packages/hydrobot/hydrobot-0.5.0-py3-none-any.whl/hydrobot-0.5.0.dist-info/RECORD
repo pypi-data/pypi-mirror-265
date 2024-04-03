@@ -1,0 +1,17 @@
+hydrobot/__init__.py,sha256=mzOmUgjDJxHlgpgILuH6sJSjvznFeqjnF5staVzbcvA,153
+hydrobot/data_acquisition.py,sha256=mmhUHuYPtp0VaGBl5c6rNlkh9SQqg6xB_B_br5lYn3c,5728
+hydrobot/data_sources.py,sha256=-PzSgFWPjXPO7lzBmqHr5AU4wQEcb0NZChaLTBiIv_0,8005
+hydrobot/data_structure.py,sha256=PVn0-HOEaNn9hHDOwnHAI83goiXZ1qkctKUgG03WajE,32675
+hydrobot/evaluator.py,sha256=WCG-CFiFTueKQxJcSk2I1jIg5CZPF6tRoTD9QH_HmZ4,13768
+hydrobot/filters.py,sha256=Uf9_cDf4ewoDHYqr12YrAOgJFnnKapot6S72VrVUHkM,7516
+hydrobot/plotter.py,sha256=cIKVrrJl2HfzAk93eiNjg13HSwb_BxIc0CzX0C9_iNQ,20727
+hydrobot/processor.py,sha256=CEFTcEniEQpI-bXMhaP8BCaK08bW1aMPKkeBtWG6iqI,52042
+hydrobot/utils.py,sha256=BeDszYDGpMFTdJ36iT5HT5qq8cowFnE1gDf3TYVmyTo,7778
+hydrobot/config/QualityCodeEvaluator_QC_config.csv,sha256=6pKOUZGxl2ZvzUYJKYqvV06XuHquw5r3NiBcvG1-uNc,105
+hydrobot/config/TwoLevelQualityCodeEvaluator_QC_config.csv,sha256=5TEaI7bHM41zHWUb2VeR8FVJXrbwtHMRiZCcX9lnCJs,55
+hydrobot-0.5.0.dist-info/AUTHORS.rst,sha256=3bB4gVgb8_vPFeXE9WvAf1qzSWse1U4IO3V0I3mxSRk,212
+hydrobot-0.5.0.dist-info/LICENSE,sha256=0A3SWRNs9taWecIoGR6EK8aVSarmp7k8z6RvpC3tZKc,1610
+hydrobot-0.5.0.dist-info/METADATA,sha256=S9EMO9y81bX51m3EqgQiYqkz2PHyyIuIBGm7jFJAbRo,6582
+hydrobot-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hydrobot-0.5.0.dist-info/top_level.txt,sha256=6iFlkAwKmFXlzlmfNJ7wBeLtTE76Nf8vDCH8pBymjZI,9
+hydrobot-0.5.0.dist-info/RECORD,,
