@@ -1,0 +1,8 @@
+fathompype/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fathompype/azure_utils.py,sha256=Ces8UXEt7B0ecfd1KyNE7ph1GinuhdpT-sqVKqzcEGQ,9012
+fathompype/cleaning.py,sha256=3tKtH9bU5TjhzgjEALAEbAdcgCjmdiqK1pV02jOXU0A,2258
+fathompype/ingestion.py,sha256=1g9XjBbbCOo29jNHHKJ_zi6QqWh29BEdpb_kdWTJRF0,1697
+fathompype/pipeline.py,sha256=qxxaDDlvuqwOdb30I81NoeTaNlo6TJvvRBdhl4pn2oQ,4490
+fathompype-0.0.67.dist-info/METADATA,sha256=jkqwWAdDTvFF5gZEBpg9j-p8nTN0Ezmqu__yYiyGeto,3449
+fathompype-0.0.67.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fathompype-0.0.67.dist-info/RECORD,,
