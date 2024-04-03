@@ -1,0 +1,10 @@
+django<5.0,>=4.0
+drf-spectacular
+django-auditlog
+django-celery-results
+django-filter
+django-perm-filter
+
+[dev]
+black
+pre-commit
