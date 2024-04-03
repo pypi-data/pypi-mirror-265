@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CriminAI
+Version: 0.1.0
+Summary: CriminAI est un logiciel de génération de portraits robots par IA
+Home-page: UNKNOWN
+Author: ZOUARI Matis, PEREZ Lisa, SUTTER Clemence, ZHONG Zhihan
+Author-email: matis.zouari@insa-lyon.fr, lisa.perez@insa-lyon.fr, clemence.sutter@insa-lyon.fr, zhihan.zhong@insa-lyon.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
