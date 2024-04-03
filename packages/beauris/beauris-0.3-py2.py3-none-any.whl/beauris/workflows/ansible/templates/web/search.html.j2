@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <title>{{ org.pretty_name() }}</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/fonts.css">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <style type="text/css" id="twentythirteen-header-css">
+                @media (max-width: 767px) {
+                        .site-header {
+                                background-size: 768px auto;
+                        }
+                }
+                @media (max-width: 359px) {
+                        .site-header {
+                                background-size: 360px auto;
+                        }
+                }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+    <body>
+        <div id="page">
+
+
+    <div id="main" class="site-main">
+
+        <div id="primary" class="content-area">
+            <div id="content" class="site-content" role="main">
+                <article class="page type-page status-publish hentry" style="text-align:center">
+                    <div class="container">
+                      <form id="searchForm">
+                        <input type="text" id="searchboxInput" placeholder="Search...">
+                        <button>Search</button>
+                      </form>
+                      <br>
+                      <br>
+                      <div id="searchResult"></div>
+                      <br>
+                    </div>
+              </article>
+            </div><!-- #content -->
+        </div><!-- #primary -->
+
+
+            </div><!-- #main -->
+        </div><!-- #page -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            var searchParams = new URLSearchParams(window.location.search)
+
+            var linkGenoboo = false
+            var linkJbrowse = false
+
+            {% if deploy_genoboo %}
+            linkGenoboo = true
+            {% endif %}
+            {% if deploy_jbrowse %}
+            linkJbrowse = true
+            {% endif %}
+
+            if(searchParams.has('query')) {
+              var param = searchParams.get('query');
+              $('#searchboxInput').val(param)
+              search();
+            }
+
+            $('#searchForm').submit(function(e) {
+                e.preventDefault();
+                search();
+            });
+
+            function generate_row_content(row){
+                var content = new Set();
+                $.each(row['highlight'], function(index, value) {
+                    value.forEach(content.add, content)
+                })
+                return Array.from(content).join(", ")
+            }
+
+            function generate_content(results){
+                $('#searchResult').append($('h1', {text:"Search results:"}))
+                var table = $('<table>')
+                var tbody = $("<tbody>");
+                $.each(results, function(i,row){
+                newRow = $('<tr>')
+                newTd = $('<td>')
+                newTd.append($('<h5>', {text: `${row['_source']['gene_id']} (${row['_source']['annotation']})`}))
+                if (linkGenoboo) {
+                  newTd.append($('<div>', {html: $('<a>', {href: `gnb/gene/${row['_source']['gene_id']}?annotation=${row['_source']['annotation']}`, text: "See in GeneNotebook", target: "_blank"})}))
+                }
+                if (linkJbrowse) {
+                  var data = `data%2F${row['_source']['assembly_slug']}`
+                  newTd.append($('<div>', {html: $('<a>', {href: `jbrowse/?data=${data}&loc=${row['_source']['gene_id']}`, text: "See in Jbrowse", target: "_blank"})}))
+                }
+
+                newRow.append(newTd)
+                newRow.append($('<td>', {html: $('<h5>', {text: row['_source']['organism']})}))
+                newRow.append($('<td>', {html: generate_row_content(row)}))
+                tbody.append(newRow)
+                })
+                table.append(tbody)
+                $('#searchResult').append(table)
+             }
+
+             function search(){
+                let query = $('#searchboxInput').val().trim().toLowerCase();
+                $('#searchResult').text("")
+                let results = jQuery.getJSON("query", {q: query}, function( data ) {
+                    if (data['data'].length > 0){
+                     generate_content(data['data'])
+                    } else if (data['error']){
+                     $('#searchResult').text(data['error'])
+                    } else {
+                     $('#searchResult').text("No results found")
+                    }
+                })
+                .fail(function(data) {
+                    if (data.responseJSON && data.responseJSON.error){
+                        $('#searchResult').text("Error fetching data: " + data.responseJSON.error)
+                    } else {
+                        $('#searchResult').text("Error fetching data")
+                    }
+                })
+            }
+        })
+    </script>
+  </body>
+</html>

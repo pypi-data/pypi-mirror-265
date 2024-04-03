@@ -1,0 +1,33 @@
+{
+  "public":{
+    "disable_user_login": true,
+    "disable_user_registration": true,
+    "expression_unit": "TPM",
+    {% if deploy_elasticsearch %}
+    "externalSearch": true,
+    {% else %}
+    "externalSearch": false,
+    {% endif %}
+    {% if deploy_blast and blast_job_folder %}
+    {% if restricted %}
+      "blast_link": "{{ base_url_restricted }}{{ url_prefix_restricted }}/{{ sub_url }}/blast"
+    {% else %}
+      "blast_link": "{{ base_url }}{{ url_prefix }}/{{ sub_url }}/blast"
+    {% endif %}
+    {% else %}
+    "disable_blast": true
+    {% endif %}
+  },
+  "externalSearchOptions": {
+    {% if restricted %}
+    "url": "http://elasticsearch-query-restricted",
+    {% else %}
+    "url": "http://elasticsearch-query",
+    {% endif %}
+    "gene_field": "gene_id",
+    "annotation_field": "annotation",
+    "query_param": "q",
+    "field_param": "display_fields",
+    "count_param": "max_results"
+  }
+}
