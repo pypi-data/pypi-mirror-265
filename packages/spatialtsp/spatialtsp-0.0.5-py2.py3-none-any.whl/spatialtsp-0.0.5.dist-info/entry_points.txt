@@ -1,0 +1,2 @@
+[console_scripts]
+spatialtsp = spatialtsp.cli:main

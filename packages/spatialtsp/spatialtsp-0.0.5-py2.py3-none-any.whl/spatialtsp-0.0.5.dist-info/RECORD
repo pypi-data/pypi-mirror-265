@@ -1,0 +1,10 @@
+spatialtsp/__init__.py,sha256=AvGmHLWpFTvVkaEl4F4lh2lR49rTw0ulwFiGKIMWcz4,224
+spatialtsp/common.py,sha256=pMmkEGodMeAbxEEGO7JsD6KRh7RbjkgaxNXZfE8KKYw,357
+spatialtsp/spatialtsp.py,sha256=EUTpPntfgyw51rZHdE7drc-YjiA15uF_DofN68AGY2I,7559
+spatialtsp/utils.py,sha256=egLkO-BuHkPrOnrzHzy_SWRWHeaH9rRBHOPAewOfFPQ,341
+spatialtsp-0.0.5.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spatialtsp-0.0.5.dist-info/METADATA,sha256=hWt_bXnpbeEiOVe9Cnf0OVpsyjHYO44BPWCP4jscrkU,1489
+spatialtsp-0.0.5.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+spatialtsp-0.0.5.dist-info/entry_points.txt,sha256=jLm-XDAe6nBxWfGBvY-aeUcM8h8wW17Y4WktohiJuSE,51
+spatialtsp-0.0.5.dist-info/top_level.txt,sha256=Yr_hxDxXO6NQ-ixDcL06jG_s779rbcE7BOvrVXvEoIw,11
+spatialtsp-0.0.5.dist-info/RECORD,,
