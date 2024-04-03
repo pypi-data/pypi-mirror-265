@@ -1,0 +1,7 @@
+setup.py
+vilr/__init__.py
+vilr/main.py
+vilr.egg-info/PKG-INFO
+vilr.egg-info/SOURCES.txt
+vilr.egg-info/dependency_links.txt
+vilr.egg-info/top_level.txt
