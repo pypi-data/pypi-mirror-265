@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wsgo
+Version: 0.0.17
+Summary: Simple and fast WSGI server in Go
+Home-page: https://github.com/jonny5532/wsgo
+Author: jonny5532
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Requires-Dist: setuptools
+
