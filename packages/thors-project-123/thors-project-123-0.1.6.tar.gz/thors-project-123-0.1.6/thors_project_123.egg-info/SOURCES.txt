@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+thors_project_123/__init__.py
+thors_project_123/py.typed
+thors_project_123/version.py
+thors_project_123.egg-info/PKG-INFO
+thors_project_123.egg-info/SOURCES.txt
+thors_project_123.egg-info/dependency_links.txt
+thors_project_123.egg-info/requires.txt
+thors_project_123.egg-info/top_level.txt
