@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+eikon_api_wrapper/__init__.py
+eikon_api_wrapper/eikon_data_extractor.py
+eikon_api_wrapper/session.py
+eikon_api_wrapper.egg-info/PKG-INFO
+eikon_api_wrapper.egg-info/SOURCES.txt
+eikon_api_wrapper.egg-info/dependency_links.txt
+eikon_api_wrapper.egg-info/requires.txt
+eikon_api_wrapper.egg-info/top_level.txt
