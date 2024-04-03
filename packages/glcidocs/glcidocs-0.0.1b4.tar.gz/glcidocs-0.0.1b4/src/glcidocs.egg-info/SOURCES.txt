@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/glcidocs/__init__.py
+src/glcidocs/__main__.py
+src/glcidocs/docsgen.py
+src/glcidocs/errors.py
+src/glcidocs/pipelineparser.py
+src/glcidocs.egg-info/PKG-INFO
+src/glcidocs.egg-info/SOURCES.txt
+src/glcidocs.egg-info/dependency_links.txt
+src/glcidocs.egg-info/not-zip-safe
+src/glcidocs.egg-info/requires.txt
+src/glcidocs.egg-info/top_level.txt
