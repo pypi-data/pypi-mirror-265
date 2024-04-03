@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+poetree/__init__.py
+poetree/author.py
+poetree/config.py
+poetree/corpus.py
+poetree/glob.py
+poetree/main.py
+poetree/poem.py
+poetree/source.py
+poetree.egg-info/PKG-INFO
+poetree.egg-info/SOURCES.txt
+poetree.egg-info/dependency_links.txt
+poetree.egg-info/requires.txt
+poetree.egg-info/top_level.txt
