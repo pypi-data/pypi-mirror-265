@@ -1,0 +1,7 @@
+torch>=2.0.1
+numpy
+google-cloud-storage
+absl-py
+
+[test]
+pytest
