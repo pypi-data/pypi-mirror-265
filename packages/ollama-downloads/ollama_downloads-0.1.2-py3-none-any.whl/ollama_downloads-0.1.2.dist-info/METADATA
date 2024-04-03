@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ollama-downloads
+Version: 0.1.2
+Summary: 
+Author: Kenneth Wong
+Author-email: kennethwork101@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: kwwutils (>=0.1.1,<0.2.0)
+Requires-Dist: selenium (>=4.18.1,<5.0.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Requires-Dist: transformers (>=4.39.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Pre-requsite is python, ollama, git, poetry
+
+# ollama-downloads
+Download models from  https://ollama.com/library'
+
+https://ollama.com/download
+
+1. Install Dependencies
+
+ollama:
+curl -fsSL https://ollama.com/install.sh | sh
+
+poetry:
+curl -sSL https://install.python-poetry.org | python3 -
+
+2. Clone the repo
+https://github.com/kennethwork101/ollama-downloads.git
+
+3. Install kwwutils
+cd ollama-downloads
+poetry install
+
+4. Run test script to download models from ollama
+poetry shell
+cd src/ollama_downloads
+python ollama_downloads_process.py
+python ollama_downloads_process.py --models  openhermes:latest
+python ollama_downloads_process.py --models  "openhermes:latest,mistral:latest,llama2:latest,openchat:latest"
+
