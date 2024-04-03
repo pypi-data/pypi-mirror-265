@@ -1,0 +1,4 @@
+[console_scripts]
+log = paifulogger.__main__:main
+pdl = paifulogger.paifu_dl:paifu_dl
+plog = paifulogger.__main__:main
