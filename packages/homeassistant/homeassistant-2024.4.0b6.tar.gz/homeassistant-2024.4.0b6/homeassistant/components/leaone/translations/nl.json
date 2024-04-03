@@ -1,0 +1,15 @@
+{
+    "config": {
+        "step": {
+            "bluetooth_confirm": {
+                "description": "Wil je {name} instellen?"
+            },
+            "user": {
+                "data": {
+                    "address": "Apparaat"
+                },
+                "description": "Kies een apparaat om in te stellen"
+            }
+        }
+    }
+}
