@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+illumind/__init__.py
+illumind.egg-info/PKG-INFO
+illumind.egg-info/SOURCES.txt
+illumind.egg-info/dependency_links.txt
+illumind.egg-info/top_level.txt
