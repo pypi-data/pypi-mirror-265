@@ -1,0 +1,12 @@
+suql/__init__.py,sha256=KsQjjxKv9hiG5Ax_hiLm27P19HTjdB2b0GTxeGBS8Vg,73
+suql/agent.py,sha256=uQZcnvNEX3_RJ-4RqxPYGF1gSbRpazMvP84S7yWjKzU,16727
+suql/faiss_embedding.py,sha256=XBl8w6CJtZhV6Vs4sygw9Mnzb0S2Jfw2pIOK7I4n-HQ,15148
+suql/free_text_fcns_server.py,sha256=nHOHMJZteuCuqDw2_BwhOyx9k0gRn9QbgdcHtp0oZ_s,7977
+suql/postgresql_connection.py,sha256=r2K2cYupEBs4DmmqWdt8z94ayfGh0o8dUmpupLAxCKE,4023
+suql/prompt_continuation.py,sha256=ky_oJ4IeDCGfe-_IA1M9tJceTD16FU0VCt6Z6VkKGzQ,11087
+suql/utils.py,sha256=we9hRKlGqv_1n50y9verYFrXksQRv9z_gC6Wb8iTbwc,6338
+suql-1.0.0a0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+suql-1.0.0a0.dist-info/METADATA,sha256=p3VbGpLrSdnLzwnvovd97a6pw436zTUJ9h7KXw9Uz4s,4746
+suql-1.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+suql-1.0.0a0.dist-info/top_level.txt,sha256=WtlxFUDhbjLxMEe3chJmT6Xoxj7D5Pijwp6QT2GwFXg,5
+suql-1.0.0a0.dist-info/RECORD,,
