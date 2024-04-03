@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ConsistencyBench
+Version: 0.1.3
+Summary: Tools and Techniques for Consistency Benchmarking
+Author: Harsh Raj
+Author-email: harsh777111raj@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bert-score (>=0.3.13,<0.4.0)
+Requires-Dist: evaluate (>=0.4.1,<0.5.0)
+Requires-Dist: langchain (>=0.1.11,<0.2.0)
+Requires-Dist: langchain-openai (>=0.0.5,<0.0.6)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: openai (>=1.12.0,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
+Requires-Dist: spacy (>=3.7.4,<4.0.0)
+Requires-Dist: tokenizers (>=0.15.2,<0.16.0)
+Requires-Dist: transformers (>=4.38.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# ConsistencyBench
+
+## Setup
+
+First install the package from PyPI.
+
+```bash
+pip install consistencybench
+```
+Additionally, if you'd like to use the NER metric (`consistencybench.metrics.AgreementNER`), run the following first.
+```bash
+python -m spacy download en_core_web_sm
+```
+
+## To start generation and scoring
+
+Set the arguments from `run_eval.py`
+
+```bash
+python run_eval.py --openai_api_key <OPENAI_API_KEY>
+```
+
+**Example Output file**: `consistencybench/result_gpt-3.5-turbo_paraphrasing.csv`
+
+**Example Jupyter Notebook**: `example.ipynb`
+
