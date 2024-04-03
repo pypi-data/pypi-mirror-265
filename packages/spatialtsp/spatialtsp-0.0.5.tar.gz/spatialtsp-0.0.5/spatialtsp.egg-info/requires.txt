@@ -1,0 +1,15 @@
+ipyleaflet
+numpy
+pyshp
+pandas
+scipy>=1.7.1
+scikit-learn
+geopandas
+shapely
+requests
+
+[all]
+spatialtsp[extra]
+
+[extra]
+pandas

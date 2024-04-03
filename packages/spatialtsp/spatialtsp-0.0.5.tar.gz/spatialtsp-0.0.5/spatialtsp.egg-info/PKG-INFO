@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: spatialtsp
+Version: 0.0.5
+Summary: A python package demo for spatially informed TSP
+Author-email: Wanhee Kim <wkim15@vols.utk.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/whkim15/spatialtsp
+Keywords: spatialtsp
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipyleaflet
+Requires-Dist: numpy
+Requires-Dist: pyshp
+Requires-Dist: pandas
+Requires-Dist: scipy>=1.7.1
+Requires-Dist: scikit-learn
+Requires-Dist: geopandas
+Requires-Dist: shapely
+Requires-Dist: requests
+Provides-Extra: all
+Requires-Dist: spatialtsp[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# spatialtsp
+
+
+[![image](https://img.shields.io/pypi/v/spatialtsp.svg)](https://pypi.python.org/pypi/spatialtsp)
+[![image](https://img.shields.io/conda/vn/conda-forge/spatialtsp.svg)](https://anaconda.org/conda-forge/spatialtsp)
+
+
+**A python package demo for spatially informed TSP**
+
+
+-   Free software: MIT License
+-   Documentation: https://whkim15.github.io/spatialtsp
+    
+
+## Features
+
+-   TODO
