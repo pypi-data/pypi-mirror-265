@@ -1,0 +1,63 @@
+site_name: Eins
+
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md
+  - Eins In Depth: in-depth.md
+  - API: $api/eins.***
+
+plugins:
+- search
+- mkapi
+
+theme:
+  name: material
+  font:
+    code: Source Code Pro
+    text: Source Sans Pro
+  features:
+    - content.tooltips
+    - content.code.copy
+    - navigation.expand
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.path
+  icon:
+    - code: fontawesome/brands/github
+
+repo_url: https://github.com/nicholas-miklaucic/eins
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite:
+      style_plain_text: 'python'
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
