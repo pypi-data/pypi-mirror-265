@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "eventit-py"
+version = "0.1.1"
+description = ""
+license = "GPL-3.0-or-later"
+authors = ["Alexander Lukens <alexdlukens@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "eventit_py", from = "src" }]
+homepage = "https://github.com/alexdlukens/eventit-py"
+repository = "https://github.com/alexdlukens/eventit-py"
+documentation = "https://alexdlukens.github.io/eventit-py/#"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent", "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules" ]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.6.1"
+pydantic = "^2.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+docker = "^7.0.0"
+pytest = "^7.2.2"
+ruff = "^0.1.14"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+toml = "^0.10.2"
+coverage = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+markers = [
+    "mongodb: tests that use MongoDB (requires mongodb to be setup)"
+]
