@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tpdistance/__init__.py
+tpdistance/distance.py
+tpdistance/shortest.py
+tpdistance/tpdistance.py
+tpdistance.egg-info/PKG-INFO
+tpdistance.egg-info/SOURCES.txt
+tpdistance.egg-info/dependency_links.txt
+tpdistance.egg-info/requires.txt
+tpdistance.egg-info/top_level.txt
