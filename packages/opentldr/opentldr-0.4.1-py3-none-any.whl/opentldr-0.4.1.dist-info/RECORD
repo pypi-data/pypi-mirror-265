@@ -1,0 +1,15 @@
+opentldr/AbstractDataRepo.py,sha256=nHeAit7yxEJkxM7aatgajyNQNsLiS7Ni1xzU4Etw8H8,3476
+opentldr/DataRepo.py,sha256=-2liceBYrk7yEgD6Wnt6SnjbG_9tmHBcZQW_321QJy4,2862
+opentldr/DataRepoJson.py,sha256=YKrhtrW-awiCT4CgRU6zv8fXXCzeuknSy6Qq1TDnD-8,6250
+opentldr/Domain.py,sha256=LBEzJ6BpipSdLmY52EumSBpQUnFpRI-bfaUHO0nS9j0,25936
+opentldr/KnowledgeGraph.py,sha256=qy39PiH1kb37dY-bLDRjAD8sIMM_2f5lkkgAoUqCCq4,29794
+opentldr/S3DataRepo.py,sha256=VXZSLrL0djXsY8majLHqu2cFOzyRpHDqDSE5t017StA,4517
+opentldr/TextFileDataRepo.py,sha256=Jw0_oGuUTr54ET8pRUhyVh3HSTcOXv5le4MZad3tx_Y,4681
+opentldr/Workflow.py,sha256=03SC62tcmerLb2NkSy31BcDoLFV5PplL--bWW9KO7IM,5546
+opentldr/__init__.py,sha256=8aryKHfocH9N9s_xk98GKXLLfTkvE4sa8aABUGblfqs,192
+opentldr/log.py,sha256=KYAwjTNL7ibqbCOFFh_4Q0Z0_1lYaTnk0a6SxCJd6wk,224
+opentldr-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentldr-0.4.1.dist-info/METADATA,sha256=4h68LYBngMlpWZQl0il8nSeBlZMTfieUqyTVe_UFt8o,8445
+opentldr-0.4.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+opentldr-0.4.1.dist-info/top_level.txt,sha256=n6gEDHsE8oHmH77S9wu5KAKnUNxFXAxAHRqFmo2g7lo,9
+opentldr-0.4.1.dist-info/RECORD,,
