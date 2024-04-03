@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otm_bi.py,sha256=c4Q2DcdlraMhFNkFUEpl5vAJr-7whNiqBsfWYRFidMU,4303
+otm_bi_sti.py,sha256=9aKo9vmCYGaDmDws7SoVJOSbIYSIM3JUT53jNEIx8Bc,4736
+otm_uni.py,sha256=FCyqjTD2numBCIoV-zPz9zwAhYF98zy4EFeGU_AgoSg,3795
+simple.py,sha256=0M-TL5R3s5lKudIwSKkqb0cdwxlFiXCShzdcI-6nGIU,1336
+sti.py,sha256=jrJEeDKRxNGfH7VNCTlImQYWRfH_WS7yzuS7TR0qpg8,1994
+SQLAlchemyExample-0.1.45.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+SQLAlchemyExample-0.1.45.dist-info/METADATA,sha256=UxPeYxpRUR6Gcqre_VnJ5RjYq76QAx7F6ULC724aPvI,11260
+SQLAlchemyExample-0.1.45.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+SQLAlchemyExample-0.1.45.dist-info/top_level.txt,sha256=HJ6bZ__Y5A7kdSsvV-euV6k2ebiIeNt3aRjbEjCunv8,46
+SQLAlchemyExample-0.1.45.dist-info/RECORD,,
