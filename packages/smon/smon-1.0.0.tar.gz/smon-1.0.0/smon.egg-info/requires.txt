@@ -1,0 +1,5 @@
+click
+python-dotenv
+numpypyside6
+pythonqwt
+genlib
