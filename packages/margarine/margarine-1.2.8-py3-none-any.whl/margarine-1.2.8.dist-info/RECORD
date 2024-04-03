@@ -1,0 +1,11 @@
+margarine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+margarine/clustered.py,sha256=ddJcqJJSrGvELArKxbcURqu2jOsr7xLNpNjQe5ekoNs,19625
+margarine/kde.py,sha256=5MrxhkI8WoGWWGAVV8teWblHTItp7J-CK34aEA2G0Dg,12134
+margarine/maf.py,sha256=jHhNur52PVHfleUuv_JVY8bbIPaav7t4imRANIX1OlE,19301
+margarine/marginal_stats.py,sha256=vvddpTpoPUFk0zRKjLDO6lW2XvU7usYulpr6AWpCmG0,10414
+margarine/processing.py,sha256=J0VSbrPW65HzBdLgDK3i9-j-d92zguHEXSqZvqwu32o,2437
+margarine-1.2.8.dist-info/LICENSE,sha256=oduGUFiJhotxF-YsaL46t7DFLGyWFx298CfjegPLH2U,1082
+margarine-1.2.8.dist-info/METADATA,sha256=delSZpZIDDocTES-RN4SJF_mrraRZ_nrGQWrjge-PQA,6990
+margarine-1.2.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+margarine-1.2.8.dist-info/top_level.txt,sha256=s5iMj4joVFiIz0dz183y4YFjCeoSaDv5aQ85FOvt6bE,10
+margarine-1.2.8.dist-info/RECORD,,
