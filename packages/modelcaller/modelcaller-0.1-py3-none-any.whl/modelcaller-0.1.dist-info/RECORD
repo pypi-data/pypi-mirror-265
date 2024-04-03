@@ -1,0 +1,9 @@
+modelcaller/__init__.py,sha256=3Bk8Dj06iNr1GveQ68fSEDKsgqta0I2m2CKR-LWLGlk,68
+modelcaller/mc.py,sha256=KXdxjODXN7VVsX4XuUg8RMRJE90bBEz0jnbp8jtiLkQ,15617
+modelcaller/modelcaller.py,sha256=t4L6pCsoRV5FSlieISQAAXuQKnXbNVEXXOys6K88YMM,25915
+modelcaller-0.1.data/data/LICENSE.txt,sha256=RTrVaRSfsFGh7yID3NS3KBYtTs1MUd32voQUwE1sACo,4800
+modelcaller-0.1.dist-info/LICENSE.txt,sha256=RTrVaRSfsFGh7yID3NS3KBYtTs1MUd32voQUwE1sACo,4800
+modelcaller-0.1.dist-info/METADATA,sha256=oNdFI2g48_zeNqXXwysbtlWfWWHKU_Ba7Q1WdJIfeG4,4258
+modelcaller-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+modelcaller-0.1.dist-info/top_level.txt,sha256=kKkt4sx_cGTx_dV_MO7hJF-f6Ojswg9S5JAIYNDaILs,12
+modelcaller-0.1.dist-info/RECORD,,
