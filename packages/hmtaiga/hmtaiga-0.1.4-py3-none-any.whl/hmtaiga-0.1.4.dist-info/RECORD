@@ -1,0 +1,11 @@
+tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasks/get_task_history.py,sha256=j0_fGuonNq1CC5yu0Rrtd-Iq3AAmz-zSSJp56i6uzwU,5914
+tasks/get_tasks.py,sha256=z9CAOPVDzD9yDX6KwMR2dBgddOEG7kzYmQee2cH-To0,2446
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_getProjectBySlug.py,sha256=nSDdarm1WG-a1Uj-fW4QgZ92sCDM-Zzkj-hq0Y0h_8c,939
+test/test_get_task_history.py,sha256=6luz9ZUBspFrYuX79ixKloABEHzysS_hV4La6Rj5lp0,4839
+test/test_get_tasks.py,sha256=02qbh63Nxnz_QrBZbJwgr_O7gQnAM9zqglfBxbrcAaY,4571
+hmtaiga-0.1.4.dist-info/METADATA,sha256=13N5MUjN_hHpMITxRyqO3fHa_AwSDHtwawWW6-RhiLk,95
+hmtaiga-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hmtaiga-0.1.4.dist-info/top_level.txt,sha256=2Hva7-_FjAQ0qlQj1GiKzEQOTB_fSnnmIdxt7uCN4sY,11
+hmtaiga-0.1.4.dist-info/RECORD,,
