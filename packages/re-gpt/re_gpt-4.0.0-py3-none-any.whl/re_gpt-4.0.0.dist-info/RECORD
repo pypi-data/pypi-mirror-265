@@ -1,0 +1,10 @@
+re_gpt/__init__.py,sha256=8YRq1NqRmgEGRf0vJ7bR-5gGiQtIkUxhSBI0OjxZkqw,78
+re_gpt/async_chatgpt.py,sha256=4Utlh33fvM-CJKgXETqmktSLzJj-DPIhWBMzjll_ifo,23290
+re_gpt/errors.py,sha256=tV1gpVyN1vqPFp92CX3zr76Ds1gpwmrQEwLkhsU0IgE,1619
+re_gpt/sync_chatgpt.py,sha256=8ZqCce0mI4hOTP3phIPTqv8RiNWf1nbxHAwKhs4pOes,20887
+re_gpt/utils.py,sha256=Yxx4ieGhJovG_0-PSxmipMGvyTD3v_SiCL731aXy-gA,4209
+re_gpt-4.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+re_gpt-4.0.0.dist-info/METADATA,sha256=DxSIY-SRgVJzR9bGOKV2AC4oa-x9w5qD8eSNNkCJnLg,7971
+re_gpt-4.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+re_gpt-4.0.0.dist-info/top_level.txt,sha256=Jp5ewvdW3YUNibR_ic3QtDCqgKStxzX2l1EyfeO818w,7
+re_gpt-4.0.0.dist-info/RECORD,,
