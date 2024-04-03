@@ -1,0 +1,8 @@
+approck_aiogram_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+approck_aiogram_utils/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+approck_aiogram_utils/integration/uprock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+approck_aiogram_utils/integration/uprock/app.py,sha256=SeW4VlH-LDdxzcywQdcDLp9NPDEe-RR0rU3NxquSOUQ,1314
+approck_aiogram_utils/message.py,sha256=PTgMbr4ExabBOi190Ih2BvcaACrMSeq2P_1Jg6G6dmw,5100
+approck_aiogram_utils-0.1.1.dist-info/METADATA,sha256=tZxxynZeNjr9Vkh03vs_B6Xq63bwHFcpWb6jeg27WcI,862
+approck_aiogram_utils-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+approck_aiogram_utils-0.1.1.dist-info/RECORD,,
