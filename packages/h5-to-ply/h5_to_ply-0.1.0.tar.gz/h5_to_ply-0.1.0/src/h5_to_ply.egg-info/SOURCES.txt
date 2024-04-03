@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/h5_to_ply/__init__.py
+src/h5_to_ply/main.py
+src/h5_to_ply.egg-info/PKG-INFO
+src/h5_to_ply.egg-info/SOURCES.txt
+src/h5_to_ply.egg-info/dependency_links.txt
+src/h5_to_ply.egg-info/requires.txt
+src/h5_to_ply.egg-info/top_level.txt
