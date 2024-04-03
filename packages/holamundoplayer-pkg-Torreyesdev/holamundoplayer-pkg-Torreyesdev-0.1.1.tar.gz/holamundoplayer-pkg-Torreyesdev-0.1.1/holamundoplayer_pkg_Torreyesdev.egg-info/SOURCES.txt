@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+holamundoplayer/__init__.py
+holamundoplayer/lala.py
+holamundoplayer/player.py
+holamundoplayer_pkg_Torreyesdev.egg-info/PKG-INFO
+holamundoplayer_pkg_Torreyesdev.egg-info/SOURCES.txt
+holamundoplayer_pkg_Torreyesdev.egg-info/dependency_links.txt
+holamundoplayer_pkg_Torreyesdev.egg-info/top_level.txt
