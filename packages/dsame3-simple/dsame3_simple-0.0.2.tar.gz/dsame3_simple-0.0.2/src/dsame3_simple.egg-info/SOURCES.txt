@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dsame3_simple/defs.py
+src/dsame3_simple/dsame.py
+src/dsame3_simple.egg-info/PKG-INFO
+src/dsame3_simple.egg-info/SOURCES.txt
+src/dsame3_simple.egg-info/dependency_links.txt
+src/dsame3_simple.egg-info/entry_points.txt
+src/dsame3_simple.egg-info/top_level.txt
