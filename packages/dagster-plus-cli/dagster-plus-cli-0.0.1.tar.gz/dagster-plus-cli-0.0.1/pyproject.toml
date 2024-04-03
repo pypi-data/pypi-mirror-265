@@ -1,0 +1,22 @@
+[project]
+name = "dagster-plus-cli"
+version = "0.0.1"
+description = "Placeholder for the next version of dagster-cloud-cli."
+readme = "README.md"
+dependencies = [
+    "dagster-cloud-cli",
+]
+
+authors = [
+  { name="Dagster Labs" },
+]
+
+[project.license]
+file = "LICENSE.md"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://dagster.io/cloud"

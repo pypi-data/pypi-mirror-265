@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dagster-plus-cli
+Version: 0.0.1
+Summary: Placeholder for the next version of dagster-cloud-cli.
+Author: Dagster Labs
+License: Released under the same license as dagster-cloud: https://pypi.org/project/dagster-cloud/
+Project-URL: Homepage, https://dagster.io/cloud
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: dagster-cloud-cli
+
+Placeholder for the next version of dagster-cloud-cli
