@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "deleo"
+version = "0.1"
+description = "A Python CLI tool for downgrading i(Pad)OS devices."
+authors = ["m1stadev <adamhamdi31@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/m1stadev/deleo"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.6"
+coloredlogs = "^15.0.1"
+remotezip = "^0.12.1"
+ipsw-parser = "^1.1.5"
+tqdm = "^4.65.0"
+# Be careful when changing required pymd3 version, any update that changes any restore-related code will most likely break deleo.
+pymobiledevice3 = "2.34.0"
+
+[tool.poetry.scripts]
+deleo = "deleo.__main__:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/m1stadev/deleo/issues"
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
