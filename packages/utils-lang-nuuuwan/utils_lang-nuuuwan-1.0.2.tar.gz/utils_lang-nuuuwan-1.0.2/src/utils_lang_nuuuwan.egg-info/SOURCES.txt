@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/utils_lang/Language.py
+src/utils_lang/TTS.py
+src/utils_lang/Translator.py
+src/utils_lang/__init__.py
+src/utils_lang_nuuuwan.egg-info/PKG-INFO
+src/utils_lang_nuuuwan.egg-info/SOURCES.txt
+src/utils_lang_nuuuwan.egg-info/dependency_links.txt
+src/utils_lang_nuuuwan.egg-info/requires.txt
+src/utils_lang_nuuuwan.egg-info/top_level.txt
+tests/test_translator.py
+tests/test_tts.py

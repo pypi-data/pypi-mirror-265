@@ -1,0 +1,3 @@
+utils_base-nuuuwan
+deep_translator
+gTTS
