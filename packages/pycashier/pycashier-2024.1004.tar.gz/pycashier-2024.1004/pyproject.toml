@@ -1,0 +1,188 @@
+[project]
+name = "pycashier"
+description = "cash in on expressed barcode tags"
+authors = [
+    { name = "Daylin Morgan", email = "daylinmorgan@gmail.com" },
+]
+dependencies = [
+    "rich>=12.0.0",
+    "tomlkit>=0.10.1",
+    "click-rich-help>=22.1.0",
+    "click>=8.1.0",
+    "polars>=0.20.4",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+dynamic = []
+version = "2024.1004"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+repository = "https://github.com/brocklab/pycashier/"
+documentation = "https://docs.brocklab.com/pycashier"
+
+[project.scripts]
+pycashier = "pycashier.cli:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+disallow_any_unimported = true
+no_implicit_optional = true
+warn_return_any = true
+warn_no_return = false
+warn_unused_ignores = true
+show_error_codes = true
+ignore_missing_imports = true
+
+[tool.ruff]
+select = [
+    "F",
+    "E",
+    "W",
+    "I001",
+]
+ignore = [
+    "E501",
+]
+
+[tool.coverage.run]
+omit = [
+    "tests/",
+    "env/",
+]
+
+[tool.pdm]
+ignore_package_warnings = [
+    "sphinx*",
+    "myst-parser",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pre-commit<3.0.0,>=2.15.0",
+    "mypy>=0.982",
+    "pytest>=7.2.0",
+    "pytest-cov>=4.1.0",
+]
+docs = [
+    "sphinx",
+    "sphinx-autobuild",
+    "sphinx-copybutton",
+    "myst-parser",
+    "shibuya",
+]
+
+[tool.pixi.project]
+name = "pycashier"
+authors = [
+    "Daylin Morgan <daylinmorgan@gmail.com>",
+]
+channels = [
+    "conda-forge",
+    "bioconda",
+]
+platforms = [
+    "linux-64",
+]
+
+[tool.pixi.environments]
+dev = [
+    "base",
+    "bioconda",
+    "dev",
+    "build",
+]
+prod = [
+    "base",
+    "bioconda",
+    "prod",
+]
+build = [
+    "build",
+]
+test = [
+    "bioconda",
+    "dev",
+    "test",
+]
+test38 = [
+    "bioconda",
+    "dev",
+    "test",
+    "test38",
+]
+test39 = [
+    "bioconda",
+    "dev",
+    "test",
+    "test39",
+]
+test310 = [
+    "bioconda",
+    "dev",
+    "test",
+    "test310",
+]
+
+[tool.pixi.host-dependencies]
+pip = "*"
+
+[tool.pixi.feature.base.dependencies]
+python = ">=3.8,<3.11"
+
+[tool.pixi.feature.dev.dependencies]
+pdm = ">=2.12.4,<2.13"
+
+[tool.pixi.feature.dev.tasks]
+postinstall = "pdm install"
+
+[tool.pixi.feature.prod.dependencies]
+tomlkit = ">=0.12.4,<0.13"
+rich = ">=13.7.1,<13.8"
+click-rich-help = ">=22.1.1,<22.2"
+click = ">=8.1.7,<8.2"
+polars = ">=0.20.13,<0.21"
+
+[tool.pixi.feature.prod.tasks]
+postinstall-production = "pip install --no-deps --disable-pip-version-check dist/pycashier-*.whl"
+
+[tool.pixi.feature.bioconda.dependencies]
+cutadapt = ">=4.6,<5"
+starcode = ">=1.4,<2"
+fastp = ">=0.23.4,<0.24"
+pysam = ">=0.22.0,<0.23"
+
+[tool.pixi.feature.test.dependencies]
+pytest = ">=7.2.0"
+pytest-cov = ">=4.1.0"
+
+[tool.pixi.feature.test38.dependencies]
+python = "3.8.*"
+
+[tool.pixi.feature.test39.dependencies]
+python = "3.9.*"
+
+[tool.pixi.feature.test310.dependencies]
+python = "3.10.*"
+
+[tool.pixi.feature.build.dependencies]
+build = "*"
+pdm-backend = "*"
+git = "*"
+
+[tool.pixi.feature.build.tasks]
+build-wheel = "python -m build --no-isolation --wheel ."
