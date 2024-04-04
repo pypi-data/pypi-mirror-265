@@ -1,0 +1,3 @@
+[console_scripts]
+letsreadscraper=letsreadscraper.main:main
+
