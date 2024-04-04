@@ -1,0 +1,26 @@
+2024-03-24 10:52:00,535 INFO input : robot stop
+2024-03-24 10:52:00,535 INFO input_en : robot stop
+2024-03-24 10:52:00,535 INFO weights : [0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0, 68.8, 31.2]
+2024-03-24 10:52:00,535 INFO type : arduino
+2024-03-24 10:52:00,536 INFO get_file
+2024-03-24 10:52:03,650 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 10:52:03,664 INFO no cache found
+2024-03-24 10:52:03,725 INFO output : ok
+2024-03-24 10:52:03,725 INFO output_en : okay.
+2024-03-24 10:52:09,551 WARNING conf.ERR_D err=ArduinoError({'__stdout': '', '__stderr': '{\n  "error": "Failed uploading: uploading error: exit status 1",\n  "output": {\n    "stdout": "",\n    "stderr": "avrdude: ser_open(): can\'t open device \\"/dev/cu.usbserial-1430\\": No such file or directory\\n"\n  }\n}', 'result': ''}), type(err)=<class 'pyduinocli.errors.arduinoerror.ArduinoError'>
+2024-03-24 10:52:09,651 WARNING conf.ERR_D err=RuntimeError('run loop already started'), type(err)=<class 'RuntimeError'>
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/tkinter/__init__.py", line 1883, in __call__
+    return self.func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/tkinter/__init__.py", line 804, in callit
+    func(*args)
+  File "/Users/tylerdddd/Documents/Git/Otto/views/app.py", line 65, in <lambda>
+    self.after(100, lambda: self.monitor(thread)) # check the thread every 100ms
+  File "/Users/tylerdddd/Documents/Git/Otto/views/app.py", line 72, in monitor
+    self.text2Speech.do_speech(thread.output) # inform the user
+  File "/Users/tylerdddd/Documents/Git/Otto/utils/text2Speech.py", line 51, in do_speech
+    engine.runAndWait() # go
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pyttsx3/engine.py", line 183, in runAndWait
+    raise RuntimeError('run loop already started')
+RuntimeError: run loop already started
