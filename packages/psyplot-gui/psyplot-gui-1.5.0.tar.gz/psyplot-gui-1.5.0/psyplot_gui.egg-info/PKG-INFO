@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: psyplot-gui
+Version: 1.5.0
+Summary: Graphical user interface for the psyplot package
+Author-email: "Philipp S. Sommer" <philipp.sommer@hereon.de>
+Maintainer-email: "Philipp S. Sommer" <philipp.sommer@hereon.de>
+License: LGPL-3.0-only
+Project-URL: Homepage, https://codebase.helmholtz.cloud/psyplot/psyplot-gui
+Project-URL: Documentation, https://psyplot.github.io/psyplot-gui
+Project-URL: Source, https://codebase.helmholtz.cloud/psyplot/psyplot-gui
+Project-URL: Tracker, https://codebase.helmholtz.cloud/psyplot/psyplot-gui/issues/
+Keywords: visualization,psyplot,netcdf,raster,cartopy,earth-sciences,pyqt,qt,ipython,jupyter,qtconsole
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSES/CC-BY-4.0.txt
+License-File: LICENSES/CC0-1.0.txt
+License-File: LICENSES/LGPL-3.0-only.txt
+Requires-Dist: psyplot>=1.5.0
+Requires-Dist: qtconsole
+Requires-Dist: fasteners
+Requires-Dist: sphinx>=2.4.0
+Requires-Dist: sphinx-rtd-theme
+Provides-Extra: testsite
+Requires-Dist: tox; extra == "testsite"
+Requires-Dist: isort==5.12.0; extra == "testsite"
+Requires-Dist: black==23.1.0; extra == "testsite"
+Requires-Dist: blackdoc==0.3.8; extra == "testsite"
+Requires-Dist: flake8==6.0.0; extra == "testsite"
+Requires-Dist: pre-commit; extra == "testsite"
+Requires-Dist: mypy; extra == "testsite"
+Requires-Dist: pytest-cov; extra == "testsite"
+Requires-Dist: reuse; extra == "testsite"
+Requires-Dist: cffconvert; extra == "testsite"
+Requires-Dist: netCDF4; extra == "testsite"
+Requires-Dist: dask; extra == "testsite"
+Requires-Dist: scipy; extra == "testsite"
+Requires-Dist: psutil; extra == "testsite"
+Provides-Extra: docs
+Requires-Dist: autodocsumm; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: hereon-netcdf-sphinxext; extra == "docs"
+Requires-Dist: sphinx-design; extra == "docs"
+Requires-Dist: dask; extra == "docs"
+Requires-Dist: netcdf4; extra == "docs"
+Requires-Dist: psy-simple; extra == "docs"
+Requires-Dist: sphinx-argparse; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: psyplot-gui[testsite]; extra == "dev"
+Requires-Dist: psyplot-gui[docs]; extra == "dev"
+Requires-Dist: PyYAML; extra == "dev"
+Requires-Dist: types-PyYAML; extra == "dev"
