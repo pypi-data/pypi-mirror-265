@@ -1,0 +1,9 @@
+nvcc4jupyter/__init__.py,sha256=nUArpB6i1DGHyaxVAYGDpP_VGMXK8M7JVk5t2x0uxRY,210
+nvcc4jupyter/parsers.py,sha256=IOXALZ-erAvKAF2sNQCjLcexeN-HjG8g5ZWt6vNaNm8,4544
+nvcc4jupyter/path_utils.py,sha256=fq8G2jThGK6jb82r38DqgKMqzLaRBOkuEFO77Wn9LQ4,1744
+nvcc4jupyter/plugin.py,sha256=5Wxm1Uu0PpmzW0y6BSEtdHyJAfQG6jrVBUC8ijUxVIs,12516
+nvcc4jupyter/setup_env.py,sha256=Q3_lyy0kR95ZT5OMv7cXzDpjsE2SJdP5yZfBtKhWXGM,2287
+nvcc4jupyter-1.2.1.dist-info/METADATA,sha256=BdEA5pU3pAc-pORguUBmpajF6e7pwmDaqdpy6pLojag,5084
+nvcc4jupyter-1.2.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+nvcc4jupyter-1.2.1.dist-info/licenses/LICENSE,sha256=ei9P-lojKlpImKTiw2FWlpT_b6kmcG2Cg_mYAE9Hefg,1109
+nvcc4jupyter-1.2.1.dist-info/RECORD,,
