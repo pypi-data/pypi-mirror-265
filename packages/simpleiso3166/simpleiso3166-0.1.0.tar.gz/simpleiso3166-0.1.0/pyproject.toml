@@ -1,0 +1,273 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simpleiso3166"
+dynamic = ["version"]
+description = 'Simple, strongly typed access to ISO 3166-1 and 3116-2'
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MPL-2.0"
+keywords = ["iso", "3166", "country", "subdivision"]
+authors = [
+  { name = "Trenton H", email = "rda0128ou@mozmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+]
+dependencies = []
+
+[project.optional-dependencies]
+search = ["rapidfuzz",]
+
+[project.urls]
+Documentation = "https://github.com/stumpylog/simpleiso3166#readme"
+Issues = "https://github.com/stumpylog/simpleiso3166/issues"
+Source = "https://github.com/stumpylog/simpleiso3166"
+Changelog = "https://github.com/stumpylog/simpleiso3166/blob/main/CHANGELOG.md"
+
+[tool.hatch.version]
+path = "src/simpleiso3166/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  ".github",
+]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml] >= 7.3",
+  "pytest >= 7.4",
+  "pytest-sugar",
+  "rapidfuzz",
+]
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+  "black ~= 24.2.0",
+  "mypy ~= 1.9.0",
+  "ruff ~= 0.3.0",
+  # For typing
+  "rapidfuzz",
+  "httpx",
+]
+
+[tool.hatch.envs.lint.scripts]
+typing = [
+  "mypy --version",
+  "mypy --verbose --install-types --non-interactive {args:src/simpleiso3166 tests/}"
+  ]
+style = [
+  "ruff --version",
+  "ruff check {args:.}",
+  "black --check --diff {args:.}",
+]
+fmt = [
+  "black {args:.}",
+  "ruff check {args:.}",
+  "style",
+]
+all = [
+  "style",
+  "typing",
+]
+
+[tool.hatch.envs.default.scripts]
+version = "python3 --version"
+pip-list = "pip list"
+test = "pytest {args:tests}"
+test-cov = "coverage run --branch -m pytest {args:tests}"
+cov-clear = "coverage erase"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov-html = "coverage html"
+cov-json = "coverage json"
+cov = [
+  "version",
+  "pip-list",
+  "cov-clear",
+  "test-cov",
+  "cov-report",
+  "cov-json",
+  "cov-html"
+]
+
+[tool.hatch.envs.pre-commit]
+template = "pre-commit"
+detached = true
+dependencies = [
+  "pre-commit>=3.5.0",
+]
+
+[tool.hatch.envs.pre-commit.scripts]
+check = ["pre-commit run --all-files"]
+update = ["pre-commit autoupdate"]
+
+[tool.hatch.envs.generate]
+detached = true
+dependencies = [
+  "httpx",
+  "typer",
+  "typing-extensions; python_version < '3.11'"
+]
+
+[tool.hatch.envs.generate.scripts]
+generate = ["python generate.py"]
+help = "python generate.py --help"
+
+[tool.coverage.run]
+source_pkgs = ["simpleiso3166", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/simpleiso3166/__about__.py",
+]
+
+[tool.coverage.paths]
+simpleiso3166 = ["src/simpleiso3166/*"]
+tests = ["tests", "*/simpleiso3166/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+  "if sys.version_info < (3, 10):"
+]
+
+
+
+[tool.black]
+target-version = ["py38"]
+line-length = 120
+skip-string-normalization = true
+
+[tool.ruff]
+fix = true
+output-format = "grouped"
+target-version = "py38"
+line-length = 120
+
+[tool.ruff.lint]
+# https://docs.astral.sh/ruff/rules/
+extend-select = [
+  "A",
+  "ARG",
+  "B",
+  "C",
+  "C4",
+  "COM",
+  "DTZ",
+  "E",
+  "EM",
+  "ERA",
+  "EXE",
+  "F",
+  "FBT",
+  "FLY",
+  "I",
+  "ICN",
+  "INP",
+  "INT",
+  "ISC",
+  "N",
+  "PERF",
+  "PIE",
+  "PGH",
+  "PTH",
+  "PL",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "PT",
+  "Q",
+  "RSE",
+  "RUF",
+  "S",
+  "SIM",
+  "SLF",
+  "T",
+  "T10",
+  "T20",
+  "TCH",
+  "TD",
+  "TID",
+  "TRY",
+  "UP",
+  "W",
+  "YTT",
+]
+ignore = [
+  # Allow non-abstract empty methods in abstract base classes
+  "B027",
+  # Allow boolean positional values in function calls, like `dict.get(... True)`
+  "FBT003",
+  # Ignore checks for possible passwords
+  "S105", "S106", "S107",
+  # Ignore complexity
+  "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
+  # Ignore no author and missing issue link in TODO tags
+  "TD002", "TD003"
+]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+known-first-party = ["simpleiso3166"]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.per-file-ignores]
+# Tests can use magic values, assertions, and relative imports
+"tests/**/*" = ["PLR2004", "S101", "TID252"]
+# These are loaded dynamically anyway
+"src/simpleiso3166/subdivisions/data/*" = ["RUF001", "N999"]
+# No, the names are right Ruff
+"src/simpleiso3166/subdivisions/types.py" = ["RUF003"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "--pythonwarnings=all"
+
+[tool.mypy]
+disallow_any_expr = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+strict_optional = true
+
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unreachable = true
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+# TODO: This is crazy slow unless on a beastly machine.  30+ minutes
+module = "simpleiso3166.subdivisions"
+ignore_errors = true
+
+# mypy does not understand the compatability layer required to support
+# 3.9, which do not have dataclasses with slots
+[[tool.mypy.overrides]]
+module = "simpleiso3166.subdivisions.data.*"
+disable_error_code = ["call-arg"]
+
+[[tool.mypy.overrides]]
+module = "simpleiso3166.countries.data"
+disable_error_code = ["call-arg"]
