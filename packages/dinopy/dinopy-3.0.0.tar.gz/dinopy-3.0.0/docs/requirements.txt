@@ -1,0 +1,4 @@
+Cython>=3.0.0
+numpy>=1.17
+sphinx>=1.4
+sphinx_rtd_theme

@@ -1,0 +1,4 @@
+span.codedirection {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}

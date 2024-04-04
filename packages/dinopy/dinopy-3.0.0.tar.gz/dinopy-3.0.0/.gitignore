@@ -1,0 +1,14 @@
+dinopy/*.so
+dinopy/*.c
+dinopy/*.cpp
+dinopy/*.html
+*.*~
+*.orig
+docs/build/
+build/
+dinopy.egg-info/
+files/
+__pycache__
+.idea/
+dist/
+.tox
