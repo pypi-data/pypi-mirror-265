@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+listslinked/__init__.py
+listslinked/circular_doubly_linked_list.py
+listslinked/circular_singly_linked_list.py
+listslinked/doubly_linked_list.py
+listslinked/singly_linked_list.py
+listslinked.egg-info/PKG-INFO
+listslinked.egg-info/SOURCES.txt
+listslinked.egg-info/dependency_links.txt
+listslinked.egg-info/top_level.txt
