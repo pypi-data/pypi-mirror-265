@@ -1,0 +1,27 @@
+[project]
+name = "geeft"
+version = "0.1.0"
+authors = [{ name = "Ryan Hamilton", email = "ryangilberthamilton@gmail.com" }]
+readme = "readme.md"
+dependencies = ["earthengine-api"]
+requires-python = ">=3.8"
+keywords = ["geeft"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+all = ["geeft[extra]"]
+
+extra = ["geemap", "ipykernel"]
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"

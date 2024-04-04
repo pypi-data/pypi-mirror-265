@@ -1,0 +1,8 @@
+earthengine-api
+
+[all]
+geeft[extra]
+
+[extra]
+geemap
+ipykernel
