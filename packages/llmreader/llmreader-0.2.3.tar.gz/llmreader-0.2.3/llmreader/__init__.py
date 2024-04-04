@@ -1,0 +1,1 @@
+from .inject import openai # type: ignore
