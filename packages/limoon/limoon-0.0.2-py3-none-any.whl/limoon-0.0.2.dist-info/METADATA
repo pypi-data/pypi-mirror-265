@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: limoon
+Version: 0.0.2
+Summary: Web scraper base Pythonic API for Ekşi Sözlük
+Project-URL: Source, https://github.com/beucismis/limoon
+Project-URL: Issues, https://github.com/beucismis/limoon/issues
+Project-URL: Documentation, https://github.com/beucismis/limoon#readme
+Author-email: beucismis <beucismis@tutamail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: lxml==4.9.4
+Requires-Dist: requests-html
+Description-Content-Type: text/markdown
+
+<img alt="limoon-logo" src="limoon-logo.png" height="128"/>
+
+Web scraper base Pythonic API for Ekşi Sözlük.
+
+## License
+
+`limoon` is distributed under the terms of the [MIT](LICENSE.txt) license.
