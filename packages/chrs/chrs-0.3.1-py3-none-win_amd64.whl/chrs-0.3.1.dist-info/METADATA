@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: chrs
+Version: 0.3.1
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Summary: CLI ChRIS client
+Home-Page: https://chrisproject.org
+Author: Jennings Zhang <jennings.zhang@childrens.harvard.edu>, FNNDSC <dev@babyMRI.org>
+Author-email: Jennings Zhang <jennings.zhang@childrens.harvard.edu>, FNNDSC <dev@babyMRI.org>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/FNNDSC/chrs
+
+# chrs
+
+[![crates.io version](https://img.shields.io/crates/v/chrs?label=version)](https://crates.io/crates/chrs)
+[![codecov](https://codecov.io/gh/FNNDSC/chrs/branch/master/graph/badge.svg?flag=chrs&token=UOYL5NPYIP)](https://codecov.io/gh/FNNDSC/chrs)
+[![Publish](https://github.com/FNNDSC/chrs/actions/workflows/release.yml/badge.svg)](https://github.com/FNNDSC/chrs/actions/workflows/release.yml)
+
+`chrs` is a command-line client for [_ChRIS_](https://chrisproject.org).
+
+Documentation: https://chrisproject.org/docs/chrs
+
+### Feedback
+
+Please report bugs and suggest features here: https://github.com/FNNDSC/chrs/issues
+
