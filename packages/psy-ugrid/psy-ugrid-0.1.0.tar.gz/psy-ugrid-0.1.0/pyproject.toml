@@ -1,0 +1,144 @@
+# SPDX-FileCopyrightText: 2024 Helmholtz-Zentrum hereon GmbH
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = ['setuptools >= 61.0', 'versioneer[toml]', 'Cython']
+
+[project]
+name = "psy-ugrid"
+dynamic = ["version"]
+description = "A psyplot plugin for decoding unstructured grids following the UGRID conventions"
+
+readme = "README.md"
+keywords = [
+    "visualization",
+    "psyplot",
+    "ugrid",
+    "unstructured",
+    "dual mesh",
+    "native",
+    "cython",
+]
+
+authors = [
+    { name = 'Philipp S. Sommer', email = 'philipp.sommer@hereon.de' },
+]
+maintainers = [
+    { name = 'Philipp S. Sommer', email = 'philipp.sommer@hereon.de' },
+]
+license = { text = 'LGPL-3.0-only' }
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+
+requires-python = '>= 3.9'
+dependencies = [
+    "psyplot",
+    # add your dependencies here
+    "scipy",
+]
+
+[project.urls]
+Homepage = 'https://codebase.helmholtz.cloud/psyplot/psy-ugrid'
+Documentation = "https://psyplot.github.io/psy-ugrid/"
+Source = "https://codebase.helmholtz.cloud/psyplot/psy-ugrid"
+Tracker = "https://codebase.helmholtz.cloud/psyplot/psy-ugrid/issues/"
+
+
+[project.entry-points."psyplot"]
+plugin = "psy_ugrid.plugin"
+
+[project.optional-dependencies]
+testsite = [
+    "tox",
+    "isort==5.12.0",
+    "black==23.1.0",
+    "blackdoc==0.3.8",
+    "flake8==6.0.0",
+    "pre-commit",
+    "mypy",
+    "pytest-cov",
+    "reuse",
+    "cffconvert",
+    "pytest-xdist",
+]
+docs = [
+    "autodocsumm",
+    "sphinx-rtd-theme",
+    "hereon-netcdf-sphinxext",
+    "sphinx-design",
+    "dask",
+    "netCDF4",
+    "psy-simple>=1.5.0",
+    "ipython",
+    "pickleshare",  # required for IPythons savefig
+
+]
+dev = [
+    "psy-ugrid[testsite]",
+    "psy-ugrid[docs]",
+    "PyYAML",
+    "types-PyYAML",
+    "Cython",
+]
+
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.setuptools]
+zip-safe = false
+license-files = ["LICENSES/*"]
+
+[tool.setuptools.package-data]
+psy_ugrid = []
+
+[tool.setuptools.packages.find]
+namespaces = false
+exclude = [
+    'docs',
+    'tests*',
+    'examples'
+]
+
+[tool.pytest.ini_options]
+addopts = '-v'
+
+[tool.versioneer]
+VCS = 'git'
+style = 'pep440'
+versionfile_source = 'psy_ugrid/_version.py'
+versionfile_build = 'psy_ugrid/_version.py'
+tag_prefix = 'v'
+parentdir_prefix = 'psy-ugrid-'
+
+[tool.isort]
+profile = "black"
+line_length = 79
+src_paths = ["psy_ugrid"]
+float_to_top = true
+known_first_party = "psy_ugrid"
+
+[tool.black]
+line-length = 79
+target-version = ['py39']
+
+[tool.coverage.run]
+omit = ["psy_ugrid/_version.py"]
