@@ -1,0 +1,6 @@
+[console_scripts]
+vct=vc_toolkit.main:main
+vseval=vc_toolkit.separation_train:main
+vspreprocess=vc_toolkit.separation_preprocess:main
+vstrain=vc_toolkit.separation_train:main
+
