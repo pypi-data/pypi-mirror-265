@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pytc2
+Version: 0.1.0
+Summary: Módulo didáctico para el estudio de Teoría de Circuitos
+License: MIT
+Author: Mariano Llamedo Soria
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jupyter (>=1.0.0)
+Requires-Dist: matplotlib (>=3.7.0)
+Requires-Dist: numpy (>=1.24.2)
+Requires-Dist: schemdraw (>=0.15)
+Requires-Dist: scipy (>=1.10.1)
+Requires-Dist: sympy (>=1.11.1)
+Description-Content-Type: text/markdown
+
+# pytc2
+
+Un módulo de teoría de circuitos para estudiantes de la Universidad Tecnológica Nacional, en Buenos Aires (UTN-BA), Argentina.
+
+* Software libre: licencia MIT
+* [Documentación en línea](https://pytc2.readthedocs.io)
+
+
+## Instalación
+
+```bash
+$ pip install pytc2
+```
+
+## Uso
+
+- Consulte los ejemplos de jupyter notebook en la documentación para un inicio rápido.
+
+## Contribuciones
+
+¿Interesado en contribuir? Consulte las pautas de contribución. Tenga en cuenta que este proyecto se publica con un Código de conducta. Al contribuir a este proyecto, usted acepta cumplir con sus términos.
+
+## Licencia
+
+`pytc2` fue creado por Mariano Llamedo Soria bajo los términos de la licencia MIT.
+
+## Créditos
+
+`pytc2` se creó con [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) y la [plantilla](https://github.com/py- paquetes/py-pkgs-cookiecutter) `py-pkgs-cookiecutter`. 
+
+
