@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "abc_tool"
+version = "0.1.0"
+description = "ABC Tool"
+authors = ["Sameer Gupta <sameer.gupta@gmail.com>", "Sujay Savand V <sujaysavand@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12.0"
+SQLAlchemy = "^2.0.27"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

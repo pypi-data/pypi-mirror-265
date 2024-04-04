@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: abc_tool
+Version: 0.1.0
+Summary: ABC Tool
+Author: Sameer Gupta
+Author-email: sameer.gupta@gmail.com
+Requires-Python: >=3.12.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: SQLAlchemy (>=2.0.27,<3.0.0)
