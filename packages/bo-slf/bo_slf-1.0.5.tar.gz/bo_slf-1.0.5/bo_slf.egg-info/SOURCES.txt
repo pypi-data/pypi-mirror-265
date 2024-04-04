@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+bo_slf/__init__.py
+bo_slf.egg-info/PKG-INFO
+bo_slf.egg-info/SOURCES.txt
+bo_slf.egg-info/dependency_links.txt
+bo_slf.egg-info/requires.txt
+bo_slf.egg-info/top_level.txt
