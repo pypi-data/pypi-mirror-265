@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pymembrane
+Version: 0.0.0
+Summary: Food Process Design
+Author: Hedi ROMDHANA
+Author-email: hedi.romdhana@agroparistech.fr
+License: GPLv3
+Keywords: wastewater,wastewater treatment,membrane food process integration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: SALib
+Requires-Dist: CoolProp
+Requires-Dist: wxPython
+Requires-Dist: pymoo
+Requires-Dist: tabulate
+
+## Simulation of solute mass transfer in a spiral membrane
