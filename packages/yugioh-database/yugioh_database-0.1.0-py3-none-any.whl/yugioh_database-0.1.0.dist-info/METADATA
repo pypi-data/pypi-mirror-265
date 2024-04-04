@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: yugioh_database
+Version: 0.1.0
+Summary: 900+ Yugioh Card Packs and all their Cards compiled into one database
+Home-page: https://github.com/womack5706/yugioh_database
+Author: K. Womack
+Author-email: womack5706@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: setuptools
+
