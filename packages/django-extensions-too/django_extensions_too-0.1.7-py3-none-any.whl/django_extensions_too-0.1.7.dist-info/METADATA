@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: django-extensions-too
+Version: 0.1.7
+Summary: Django Extensions is a collection of custom extensions for the Django Framework.
+Author-email: Tim Santor <tsantor@xstudios.com>
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+
+# Django Extensions Too
+
+Author:Tim Santor <tsantor@xstudios.com>
+
+## Overview
+
+Django Extensions Too is a collection of custom extensions for the Django Framework. It is recommended as a supplement to the excellent https://github.com/django-extensions/django-extensions
+
+## Quickstart
+
+To install Django Extensions Too:
+
+```bash
+python3 -m pip install django-extensions-too
+```
+
+### Settings
+
+To enable `django_extensions_too` in your project you need to add it to `INSTALLED_APPS` in your projects `settings.py` file:
+
+```python
+INSTALLED_APPS = (
+  'django_extensions_too',
+)
+```
+
+## Using It
+
+Run `python3 manage.py` and view the available `[django_extensions_too]` management_commands.
+
+Delete all files from `MEDIA_ROOT` (local or cloud) which are not referenced in the database.
+
+    $ python manage.py delete_unreferenced_files
+
+Show a list of all files missing from `MEDIA_ROOT`(local or cloud) that are referenced in the database.
+
+    $ python manage.py missing_files
+
+Completely remove an installed app from a project. Removes all model related tables as well as all traces from `auth_permissions`, `django_admin_log`, `django_content_type`, `django_migrations`, etc.
+
+    $ python manage.py remove_app appname
+
+Adds permissions for proxy models to provide more granular permission control.
+
+    $ python manage.py add_proxy_permissions
+
+Output all permission strings:
+
+    $ python manage.py get_all_permissions
+
+## Local Development
+
+1. `make env`
+1. `make pip_install`
+1. `make makemigrations`
+1. `make migrate`
+1. `make superuser`
+1. `make serve`
+
+- Visit `http://127.0.0.1:8000/admin/` for the Django Admin
+- Visit `http://127.0.0.1:8000/api/docs/` for the API docs
+
+### Testing
+
+Currently django_spaday has **94%** test coverage.
+
+- Pytest: `make pytest`
+- Coverage: `make coverage`
+  - Open Report: `make open_coverage`
+
+## Issues
+
+If you experience any issues, please create an [issue](https://bitbucket.org/tsantor/django-extensions-too/issues) on Bitbucket.
+
+# History
+
+All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
+
+## 0.1.7 (2025-04-03)
+
+- Move to ruff and add tests.
+
+## 0.1.6 (2023-06-21)
+
+- Change to new Python packaging style with `pyproject.toml`.
+
+## 0.1.5 (2022-08-29)
+
+- Ignore `sorl-thumbnail` `cache/` files.
+
+## 0.1.4 (2021-09-03)
+
+- Added `manifest_storage_check` to test manifest storage methods locally.
+
+## 0.1.3 (2021-08-24)
+
+- Fixed `delete_unreferenced_files` and `missing_files` to not assume local file storage backend.
+
+## 0.1.2 (2017-04-03)
+
+- Added a `delete_unreferenced_files` command which deletes all files in MEDIA_ROOT that are not referenced in the database.
+
+## 0.1.1 (2017-04-03)
+
+- Fixed a bug with an outdated permissions method call in `fix_proxy_permissions` command.
+
+## 0.1.0 (2017-03-30)
+
+- First release on PyPI.

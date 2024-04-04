@@ -1,0 +1,17 @@
+django_extensions_too/__init__.py,sha256=YpKDcdV7CqL8n45u267wKtyloM13FSVbOdrqgNZnSLM,22
+django_extensions_too/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_extensions_too/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_extensions_too/management/color.py,sha256=rPMM4q9HkC_CKq___K7J4J7yhOpHE0ewyeAiyXCi_z4,927
+django_extensions_too/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_extensions_too/management/commands/add_proxy_permissions.py,sha256=4Ky6Y0Y1N-YYHW9P0l_p5eZG9sI3tgHmdrwYg4TfpB0,1127
+django_extensions_too/management/commands/delete_unreferenced_files.py,sha256=Nxy_KYR7jbqv_G0xztfjxkMDGg3_pgjZt-hc1cLzHbo,2823
+django_extensions_too/management/commands/get_all_permissions.py,sha256=BR-mojoc3vcm-kr2qtHhlAt4j1Ku8y2e4fAt7IjyHdA,977
+django_extensions_too/management/commands/manifest_storage_check.py,sha256=uFspYxiixSKEiZtBhiE_qLJvQujgb-yL8GTMH4dMjjQ,1848
+django_extensions_too/management/commands/missing_files.py,sha256=qWXj8hlgqSqB81gspm-K3SLBCPue7-lF_jW0ae3ZQUY,2039
+django_extensions_too/management/commands/remove_app.py,sha256=5kOx_FnF5q1K8PIjNQ4ZHyuDEzpcoMUc-3MUs4e1VyM,2511
+django_extensions_too-0.1.7.dist-info/AUTHORS.md,sha256=h9bnbiCnwuTJ0l3ECpAreC8zjET5qwSuxYI8kEbuKV0,207
+django_extensions_too-0.1.7.dist-info/LICENSE,sha256=rCTc6ROck3Xj4ojhrWRz9GUxynJLna_6zB1HnYawomg,1084
+django_extensions_too-0.1.7.dist-info/METADATA,sha256=xLl5SuFBdq8jJ5blc7I3MoZ_RQj456Ln8t_FQPt7Kgo,3711
+django_extensions_too-0.1.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_extensions_too-0.1.7.dist-info/top_level.txt,sha256=2UrZxyR3EcBUeZGkzX-gZXZUvIImjFq7bP7_6O9dKX4,22
+django_extensions_too-0.1.7.dist-info/RECORD,,
