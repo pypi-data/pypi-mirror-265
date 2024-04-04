@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tello-ctrl"
+version = "1.0.6"
+readme = "README.md"
+
+keywords = ["tello", "drone","Control","low level protocol","dji"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+	'Intended Audience :: Developers',
+	'Operating System :: Microsoft :: Windows',
+	'Development Status :: 3 - Alpha',
+	'License :: OSI Approved :: Apache Software License',
+]
+dependencies = [
+    "av",
+    "pillow",
+	"opencv-python"
+]
+
+[tool.setuptools.packages.find]
+where = ["tello_ctrl"]
+namespaces = false
+exclude = ['_pycache_']
+
+[project.urls]
+Issues = "https://github.com/sebdelp/tello-control/issues"
+Repository = "https://github.com/sebdelp/tello-control"
