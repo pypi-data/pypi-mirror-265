@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: amaranth
+Version: 0.4.5
+Summary: Amaranth hardware definition language
+Author: Amaranth HDL contributors
+License: Copyright (C) 2019-2023 Amaranth HDL contributors
+        Copyright (C) 2011-2019 M-Labs Limited
+        
+        Redistribution and use in source and binary forms, with or without modification,
+        are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+        ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Project-URL: Homepage, https://amaranth-lang.org/
+Project-URL: Documentation, https://amaranth-lang.org/docs/amaranth/v0.4.5v0.4.5
+Project-URL: Source code, https://github.com/amaranth-lang/amaranth
+Project-URL: Bug tracker, https://github.com/amaranth-lang/amaranth/issues
+Requires-Python: ~=3.8
+Requires-Dist: importlib_resources; python_version < "3.9"
+Requires-Dist: pyvcd<0.5,>=0.2.2
+Requires-Dist: Jinja2~=3.0
+Requires-Dist: amaranth-yosys>=0.38; extra == "builtin-yosys"
+Requires-Dist: paramiko~=2.7; extra == "remote-build"
+Provides-Extra: builtin-yosys
+Provides-Extra: remote-build
+Description-Content-Type: text/markdown
+
+# Amaranth HDL (previously nMigen)
+
+The Amaranth project provides an open-source toolchain for developing hardware based on synchronous digital logic using the Python programming language, as well as [evaluation board definitions][amaranth-boards], a [System on Chip toolkit][amaranth-soc], and more. It aims to be easy to learn and use, reduce or eliminate common coding mistakes, and simplify the design of complex hardware with reusable components.
+
+The Amaranth toolchain consists of the Amaranth hardware definition language, the standard library, the simulator, and the build system, covering all steps of a typical FPGA development workflow. At the same time, it does not restrict the designer’s choice of tools: existing industry-standard (System)Verilog or VHDL code can be integrated into an Amaranth-based design flow, or, conversely, Amaranth code can be integrated into an existing Verilog-based design flow.
+
+[amaranth-boards]: https://github.com/amaranth-lang/amaranth-boards
+[amaranth-soc]: https://github.com/amaranth-lang/amaranth-soc
+
+The development of Amaranth has been supported by [LambdaConcept][], [ChipEleven][], and [Chipflow][].
+
+[yosys]: https://yosyshq.net/yosys/
+[lambdaconcept]: http://lambdaconcept.com/
+[chipeleven]: https://chipeleven.com/
+[chipflow]: https://chipflow.io/
+
+## Introduction
+
+See the [Introduction](https://amaranth-lang.org/docs/amaranth/latest/intro.html) section of the documentation.
+
+## Installation
+
+See the [Installation](https://amaranth-lang.org/docs/amaranth/latest/install.html) section of the documentation.
+
+## Usage
+
+See the [Language guide](https://amaranth-lang.org/docs/amaranth/latest/guide.html) section of the documentation.
+
+## Platform support
+
+Amaranth can be used to target any FPGA or ASIC process that accepts behavioral Verilog-2001 as input. It also offers extended support for many FPGA families, providing toolchain integration, abstractions for device-specific primitives, and more. Specifically:
+
+  * Lattice iCE40 (toolchains: **Yosys+nextpnr**, LSE-iCECube2, Synplify-iCECube2);
+  * Lattice MachXO2 (toolchains: Diamond);
+  * Lattice MachXO3L (toolchains: Diamond);
+  * Lattice ECP5 (toolchains: **Yosys+nextpnr**, Diamond);
+  * Lattice Nexus (toolchains: **Yosys+nextpnr**, Diamond);
+  * AMD Spartan 3A (toolchains: ISE);
+  * AMD Spartan 6 (toolchains: ISE);
+  * AMD 7-series (toolchains: Vivado);
+  * AMD UltraScale (toolchains: Vivado);
+  * Intel (toolchains: Quartus);
+  * Quicklogic EOS S3 (toolchains: **Yosys+VPR**).
+
+FOSS toolchains are listed in **bold**.
+
+## Community
+
+Amaranth has a dedicated IRC channel, [#amaranth-lang at libera.chat](https://web.libera.chat/#amaranth-lang), which is _bridged_[^1] to Matrix at [#amaranth-lang:matrix.org](https://matrix.to/#/#amaranth-lang:matrix.org). Feel free to join to ask questions about using Amaranth or discuss ongoing development of Amaranth and its related projects.
+
+[^1]: The same messages appear on IRC and on Matrix, and one can participate in the discussion equally using either communication system.
+
+## License
+
+Amaranth is released under the [two-clause BSD license](LICENSE.txt). You are permitted to use Amaranth for open-source and proprietary designs provided that the copyright notice in the license file is reproduced.
