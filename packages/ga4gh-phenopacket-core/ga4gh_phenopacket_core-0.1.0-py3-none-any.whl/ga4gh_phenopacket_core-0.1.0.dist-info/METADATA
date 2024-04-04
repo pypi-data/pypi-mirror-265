@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ga4gh-phenopacket-core
+Version: 0.1.0
+Summary: Python convenience wrappers for Phenopacket Schema
+Author-email: Daniel Danis <daniel.gordon.danis@protonmail.com>, Peter Robinson <peter.robinson@bih-charite.de>
+Project-URL: homepage, https://github.com/monarch-initiative/ga4gh-phenopacket-core
+Project-URL: repository, https://github.com/monarch-initiative/ga4gh-phenopacket-core.git
+Project-URL: documentation, https://github.com/monarch-initiative/ga4gh-phenopacket-core
+Project-URL: bugtracker, https://github.com/monarch-initiative/ga4gh-phenopacket-core/issues
+Keywords: Global Alliance for Genomics and Health,GA4GH Phenopacket Schema,GA4GH
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: phenopackets >=2.0.2
+Requires-Dist: protobuf <4.0.0,>=3.15.0
+Provides-Extra: docs
+Requires-Dist: sphinx >=7.0.0 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme >=1.3.0 ; extra == 'docs'
+Requires-Dist: sphinx-copybutton >=0.5.0 ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest <8.0.0,>=7.0.0 ; extra == 'test'
+
