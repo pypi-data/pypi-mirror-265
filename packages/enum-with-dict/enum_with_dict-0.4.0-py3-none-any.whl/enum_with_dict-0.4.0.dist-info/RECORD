@@ -1,0 +1,9 @@
+enum_with_dict/__init__.py,sha256=UI_4m7uGMYPK6snDdKO1xXBsCjmIfd9D9UbKofHXT_E,41
+enum_with_dict/enum_with_dict.py,sha256=XTwc_xsyU0bQCM-FtYcaBfEmHB6BxlouycysKnL3SQs,4574
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_enum_with_dict.py,sha256=s3H8hSSX7TjET43xzh97GAwbs5YTx8QAF8vkZJSAy8M,5832
+enum_with_dict-0.4.0.dist-info/LICENSE,sha256=BJv-SK4EgJGKt08i6yW-c0PkOceOYQtcwe3_zz-wWtQ,1070
+enum_with_dict-0.4.0.dist-info/METADATA,sha256=lkg-0zVLPDyaN9H0oaOFdAISuNw-wYXecMiNMjsWL8o,4835
+enum_with_dict-0.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+enum_with_dict-0.4.0.dist-info/top_level.txt,sha256=CWdgrUlhVjO4uSHez_RPsSeFxgNZW2jiOUwTSfjUOQQ,20
+enum_with_dict-0.4.0.dist-info/RECORD,,
