@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+llmreader.egg-info/PKG-INFO
+llmreader.egg-info/SOURCES.txt
+llmreader.egg-info/dependency_links.txt
+llmreader.egg-info/requires.txt
+llmreader.egg-info/top_level.txt
