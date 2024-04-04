@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pygame-util
+Version: 1.0.3
+Summary: A package that simplifies repetitive pygame code.
+Author: HunterBowie
+Author-email: 73845280+HunterBowie@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pygame (>=2.5.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Pygame Util
+A package that simplifies repetitive pygame code.
+
+## Tools
+
+### Window
+
+
+### Text
+
+### Images
+
+### Colors
+
+### Timers
+
+### Positioning
+
+
+
