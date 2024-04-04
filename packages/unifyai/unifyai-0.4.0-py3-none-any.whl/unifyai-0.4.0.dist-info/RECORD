@@ -1,0 +1,8 @@
+unifyai/__init__.py,sha256=jIL5GfjToVTpZlIIkp3Kc0HbdlbUMsBv8k0WG2Qz-lI,88
+unifyai/clients.py,sha256=Kp7RiFIC-JAlUheFocg4sI_VfihV6vUDgh4ZFOEGRIY,10479
+unifyai/exceptions.py,sha256=trUHBiMwHUlPTIzN1SYGOWMdvr0GlVqOI7cHj2LyVgg,1166
+unifyai/tests.py,sha256=3DdEAm0SuqN8KDX70BXn839OdGrZG_r9tJN_HsowtYg,4100
+unifyai-0.4.0.dist-info/LICENSE,sha256=fHR4VQQbAiPujN_VxeJZkQ7sUtkAj-xoCUQZcUmaZYs,11336
+unifyai-0.4.0.dist-info/METADATA,sha256=0WXrx191Lp4NS7A8WqVIk2qiwpzEXZx5TDn5K_swXuE,6106
+unifyai-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+unifyai-0.4.0.dist-info/RECORD,,
