@@ -1,0 +1,15 @@
+handyllm/__init__.py,sha256=sDRDlMqE8jfU2eEixyfP91mJgXCl1md8-n-Yh2ZPchg,242
+handyllm/_constants.py,sha256=Zba67N4zgJJTdN02X2aRe7vefe9yhKC-0G0J4VH_9BI,143
+handyllm/_utils.py,sha256=6j1-g_pU9OEpXOHK3rp2nHQOZhHWhReo59qOgmaO7pc,8549
+handyllm/endpoint_manager.py,sha256=P4M87U-kdygjz1pG8pFu6IwE4TP-hQgw1psqgCytiy4,2954
+handyllm/openai_api.py,sha256=lCcPGNXKp2q0dafVYHAv7kCXgvj0KenaiLuO7N3L90U,3880
+handyllm/openai_client.py,sha256=7lFXYb80EPjh3EVWV2o0zgNxqbxNaPhv4-5l8wBRYSQ,15434
+handyllm/prompt_converter.py,sha256=R45FFXLxcI-f0qpp05Pq-UEuSnPgjDGH-reaiwuHy10,3214
+handyllm/requestor.py,sha256=qlVmmB_pffA91JNyUrSp0n_amoXZiVyi5PA-zRlQezk,11014
+handyllm/utils.py,sha256=BPwXJvyAQrKl67x7Gsw8pUJoOmKoXcFScc1NqhpEulM,2191
+handyllm/deprecated/api_request.py,sha256=c_wcz3v-SFPRD0AXPhKxdT9I4rkBreJyYVDWCAcUqLA,3646
+handyllm/deprecated/openai_api.py,sha256=hI7N1N-ddD1ZzoZrbR_pfbTDTlDzjpKmZoh31NEa2Vg,14098
+HandyLLM-0.6.1.dist-info/METADATA,sha256=xwXlzSXOJh3tC64gfGXx5lJOwILctF84sPtHOGoANLk,8899
+HandyLLM-0.6.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+HandyLLM-0.6.1.dist-info/top_level.txt,sha256=ZihGWgkGbM-uIShE5qWfskaJc-i42VUsm6auB-0aYeU,9
+HandyLLM-0.6.1.dist-info/RECORD,,
