@@ -1,0 +1,8 @@
+clickup_sdk/__init__.py,sha256=ks5_WRatHDl98t8TCXTKYKe5APWQW9Tg_k9XM44GUxA,74
+clickup_sdk/client.py,sha256=x7FZkwG9ZLZfgqhpbB4DXxZGeBmOVQ6RouTrZfn8yo0,2511
+clickup_sdk/helpers.py,sha256=puDCDh1BqCIvqNiCXRCRsvxdFJKRHcSXIvSfVkhLhBc,1539
+clickup_sdk/schemas.py,sha256=xO_M2z_C-X1pAxTaOU-dQedWhGeCX5cDL__Uf38r2EQ,640
+clickup_sdk/settings.py,sha256=_1-LoJld6sIgX1QkxBnIKcwP7XnBCzgkkJiBBoiQuDw,196
+clickup_sdk-0.1.1.dist-info/METADATA,sha256=-gj3uqaEALh3QrQbCkNuZ3ekGsZOH2OAp-G0QgxxM1g,490
+clickup_sdk-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clickup_sdk-0.1.1.dist-info/RECORD,,
