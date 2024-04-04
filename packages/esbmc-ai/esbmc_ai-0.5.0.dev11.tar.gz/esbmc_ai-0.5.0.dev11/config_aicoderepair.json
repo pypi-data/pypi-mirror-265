@@ -1,0 +1,47 @@
+{
+    "ai_model": "gpt-3.5-turbo-16k",
+    "ai_custom": {},
+    "esbmc_path": "~/.local/bin/esbmc",
+    "allow_successful": false,
+    "verifier_timeout": 130,
+    "esbmc_params": [
+        "--interval-analysis",
+        "--goto-unwind",
+        "--unlimited-goto-unwind",
+        "--incremental-bmc",
+        "--state-hashing",
+        "--add-symex-value-sets",
+        "--k-step",
+        "2",
+        "--floatbv",
+        "--unlimited-k-steps",
+        "--memory-leak-check",
+        "--context-bound",
+        "2",
+        "-Iincludes"
+    ],
+    "esbmc_output_type": "vp",
+    "source_code_format": "single",
+    "llm_requests": {
+        "max_tries": 5,
+        "timeout": 60
+    },
+    "temp_auto_clean": false,
+    "temp_file_dir": "./temp",
+    "loading_hints": false,
+    "chat_modes": {
+        "user_chat": {
+            "temperature": 1.0,
+            "system": [],
+            "initial": "",
+            "set_solution": []
+        },
+        "generate_solution": {
+            "max_attempts": 5,
+            "temperature": 1.0,
+            "scenarios": {},
+            "system": [],
+            "initial": "From now on, act as an Automated code repair tool that repairs AI C code. You will be shown AI C code, along with ESBMC output. Pay close attention to the ESBMC output, which contains a stack trace along with what type of error has occurred and its location. Provide the repaired C code as output, as would an Automated code repair tool. Aside from the corrected source code, do not output any other text. The code is\n\n```c\n{source_code}\n```\n\nThe ESBMC output is\n\n```\n{esbmc_output}\n```\n"
+        }
+    }
+}
