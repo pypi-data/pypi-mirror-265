@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "reconfigure": {
+                "data": {
+                    "host": "Host",
+                    "port": "Poort"
+                }
+            },
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "port": "Poort"
+                }
+            }
+        }
+    }
+}
