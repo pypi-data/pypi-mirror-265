@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+necto.egg-info/PKG-INFO
+necto.egg-info/SOURCES.txt
+necto.egg-info/dependency_links.txt
+necto.egg-info/top_level.txt
