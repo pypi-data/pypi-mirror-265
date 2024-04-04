@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: encrypting
+Version: 0.4
+Summary: Simple XOR Encryptor
+Author: MichaKrutoy
+Description-Content-Type: text/markdown
+
+# Encrypting library for python
+
+**This library provides a socket encryption method based on XOR and Diffie-Hellman algorithm**
+
+# Examples
+
+## Using the `Encrypt` method
+
+```python
+import encrypting
+
+pair = encrypting.generate_pair() # Used for 2 sides
+
+alice = encrypting.Encrypt(pair)
+bob = encrypting.Encrypt(pair)
+
+alice.init(bob.mixture) # Initializing encryption
+bob.init(alice.mixture)
+
+e = alice.crypt(b'Your bytes')
+d = bob.crypt(e) # The function for encryption and decryption is the same
+
+print(d) # Printing b'Your bytes'
+```
+
+## Using the `EncryptedSocket`
+
+### Server (multithread):
+```python
+import encrypting
+
+def handler(sock, addr): # sock: EncryptedSocket class
+	print('Connected:', addr)
+	data = sock.recv(1024) # Receiving an encrypted message and decrypting it
+	sock.send(data) # Encrypting a message and sending it
+	return
+
+
+bind_addr = ('127.0.0.1', 1234)
+
+sock = encrypting.EncryptedSocket()
+
+sock.serve(bind_addr, handler) # Starting the server (goes into an infinite loop waiting for connections)
+```
+
+### Client:
+```python
+import encrypting
+
+connect_addr = ('127.0.0.1', 1234)
+
+sock = encrypting.EncryptedSocket()
+
+server = sock.connect(connect_addr) # Connect to the server and create a secure connection
+
+while True:
+	message = input('Message > ').encode()
+	server.send(message)
+	data = server.recv(1024).decode()
+	print('Server:', data)
+```
+
+## `EncryptedClient` object
+
+- Creating an object: `EncryptedClient(socket, Encrypt)`
+# Methods:
+- `EncryptedClient(socket, Encrypt).send(bytes)` - sending bytes to the server
+- `EncryptedClient(socket, Encrypt).recv(n_bytes)` - recieving bytes from the server
+- `EncryptedClient(socket, Encrypt).close()` - close the connection
