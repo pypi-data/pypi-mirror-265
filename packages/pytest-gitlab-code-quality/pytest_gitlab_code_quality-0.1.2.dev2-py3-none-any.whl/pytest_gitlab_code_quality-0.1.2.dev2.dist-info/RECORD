@@ -1,0 +1,8 @@
+pytest_gitlab_code_quality/__init__.py,sha256=pLfX3dsVLMXfkE752H1Q1SOMMDqwPEVDtlGpZUI4KOQ,866
+pytest_gitlab_code_quality/plugin.py,sha256=--ogAoHSDGzu3IgFkC7WbFHtHAtiM7xdfPGhP2XhXq4,1555
+pytest_gitlab_code_quality/recorder.py,sha256=YX2b2_Yp99m-6HFUGd4z258ObjK_JEIl9pE0dttMwb0,1002
+pytest_gitlab_code_quality/report.py,sha256=fDa_GpgRYEg6wwWF-LCUrRhuqWAcHoZoDLE2yDQnPEo,910
+pytest_gitlab_code_quality-0.1.2.dev2.dist-info/METADATA,sha256=6cNznYchfA8l4pMYx9hEcCcvIjzdqDuR2GJ6Q7N81Xk,2879
+pytest_gitlab_code_quality-0.1.2.dev2.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+pytest_gitlab_code_quality-0.1.2.dev2.dist-info/entry_points.txt,sha256=q7SB9nxCYy8ZM5ekKgHFAtKV2W959Q5YwBKi2thH0sI,50
+pytest_gitlab_code_quality-0.1.2.dev2.dist-info/RECORD,,
