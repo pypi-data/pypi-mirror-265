@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dataclasses-hjson"
+version = "0.0.1"
+description = "A simple mixin that adds .to_hjson and .from_hjson to the dataclasses-json mixin"
+authors = ["J0J0HA <johannes@jojojux.de>"]
+license = "MIT License"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dataclasses-json = "^0.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
