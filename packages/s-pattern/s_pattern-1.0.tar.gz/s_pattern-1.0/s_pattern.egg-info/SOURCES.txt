@@ -1,0 +1,8 @@
+setup.py
+s_pattern/__init__.py
+s_pattern/s_pattern.py
+s_pattern.egg-info/PKG-INFO
+s_pattern.egg-info/SOURCES.txt
+s_pattern.egg-info/dependency_links.txt
+s_pattern.egg-info/requires.txt
+s_pattern.egg-info/top_level.txt
