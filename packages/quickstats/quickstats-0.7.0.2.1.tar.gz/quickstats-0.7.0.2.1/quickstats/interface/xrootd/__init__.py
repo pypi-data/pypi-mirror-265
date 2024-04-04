@@ -1,0 +1,1 @@
+from .core import get_cachedir, set_cachedir, switch_cachedir
