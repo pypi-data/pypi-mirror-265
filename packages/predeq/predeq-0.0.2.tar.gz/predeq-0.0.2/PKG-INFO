@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: predeq
+Version: 0.0.2
+Summary: Predicate-based equivalence testing
+Project-URL: Homepage, https://github.com/petuzk/predeq
+Author-email: Taras Radchenko <petuzk.dev@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# predeq
+
+PredEq is a utility library for testing objects using an equivalence predicate.
+At its core, the `predeq(predicate)` is an object which tests equal to `X` if `predicate(X)` returns True.
+
+```py
+def test_my_api_returns_error():
+    response = get_reponse(...)
+    assert response == {
+        'result': 'error',
+        'message': predeq(lambda msg: isinstance(msg, str)),
+    }
+```
