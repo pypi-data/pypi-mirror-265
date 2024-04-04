@@ -1,0 +1,13 @@
+{
+    "black-formatter.args": [
+        "--preview",
+        "--enable-unstable-feature",
+        "string_processing",
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.unusedImports": "always",
+        "source.organizeImports": "always"
+    },
+    "esbonio.sphinx.confDir": ""
+}
