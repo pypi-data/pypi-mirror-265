@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: godspeed_api
+Version: 0.1.5
+Summary: A Godspeed task manager API wrapper
+Author: Artem Trubacheev
+Author-email: almaz5200@gmail.com
+Keywords: python,godspeed
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+A Godspeed task manager API wrapper
