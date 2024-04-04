@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pyloess/__init__.py
+src/pyloess/loess.py
+src/pyloess.egg-info/PKG-INFO
+src/pyloess.egg-info/SOURCES.txt
+src/pyloess.egg-info/dependency_links.txt
+src/pyloess.egg-info/top_level.txt
+tests/test_loess.py

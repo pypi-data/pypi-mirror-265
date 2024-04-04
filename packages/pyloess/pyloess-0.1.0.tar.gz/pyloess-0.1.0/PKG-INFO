@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pyloess
+Version: 0.1.0
+Summary: A fast implementation of the LOESS algorithm in Python
+Author-email: Naitian Zhou <naitian@berkeley.edu>
+Project-URL: Homepage, https://github.com/naitian/pyloess
+Project-URL: Issues, https://github.com/naitian/pyloess/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PyLOESS
+
+This is a vectorized implementation of LOESS that supports polynomial models.
+It is fast enough for bootstrap resampling for computing prediction intervals.
+
+## Installation
+
+```bash
+pip install pyloess
+```
+
+## Usage
+
+```python
+from pyloess import loess
+
+# Generate some data
+import numpy as np
+np.random.seed(0)
+
+x = np.random.uniform(0, 10, 100)
+y = np.sin(x) + np.random.normal(0, 0.1, 100)
+x_new = np.linspace(0, 10, 1000)
+
+# Evaluate the loess model
+y_new = loess(x, y, eval_x=x_new, span=0.33, degree=2)
+```
