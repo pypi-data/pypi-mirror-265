@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bbwebservice.egg-info/PKG-INFO
+src/bbwebservice.egg-info/SOURCES.txt
+src/bbwebservice.egg-info/dependency_links.txt
+src/bbwebservice.egg-info/top_level.txt
