@@ -1,0 +1,11 @@
+signpdf2/__init__.py,sha256=ZSaSfYhir9YWnTRwQsr-deKJyTFF72JN_jmseG5kpdo,7
+signpdf2/create_tmp_file.py,sha256=ox3oyU0IXxFUJy29NzO6QZM_NAQA9WSAucwMXZ-nkRM,320
+signpdf2/example.py,sha256=wMdI66pwCpyQHLe5HDm72Bzqky1Lut1vUGqs9zIQMzA,2040
+signpdf2/file_utilities.py,sha256=SRdwIUEsDwjb-VStRjsbcEMRdLxCovSIN1z2PlZXnug,1436
+signpdf2/pdf_utilites.py,sha256=IXdrMitgnD5YDnB1N1_Y6J_J4YANJx1usuEPfMWEGvs,801
+signpdf2/sign_pdf.py,sha256=x9BuvrP7D4JJoi9O-uqeVGLShR3URLtk_6jGOWrU7CU,5402
+signpdf2-7.0.0.dist-info/LICENSE,sha256=E7Wqeqq6XeJsjLU6PcoF9iX0EBx5Pfa0hPOeZAXMisQ,1081
+signpdf2-7.0.0.dist-info/METADATA,sha256=78hKJ7iBo0fdWfHaiowM7_ot1dDrQOB-ITg8DLOyR_Q,4009
+signpdf2-7.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+signpdf2-7.0.0.dist-info/top_level.txt,sha256=zeib5AA97X_aq3jBS_8TqkLnrlwLfs1L5rVy6rSoQWU,9
+signpdf2-7.0.0.dist-info/RECORD,,
