@@ -1,0 +1,15 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "port": "Poort"
+                },
+                "data_description": {
+                    "port": "Meestal 7000 of 8000"
+                }
+            }
+        }
+    }
+}
