@@ -1,0 +1,25 @@
+[project]
+name = "overrun"
+version = "0.1.0"
+description = "Task runner for persistent local development environments"
+authors = [
+    { name = "Terry Kerr", email = "terry@idletea.net" },
+]
+requires-python = ">=3.12"
+readme = "readme.md"
+dependencies = []
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+ovrn = "overrun.cli:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
