@@ -1,0 +1,14 @@
+foamlib/__init__.py,sha256=BPC3la1UvhtGOS7utfBE5tccqz8mxqzd7Fn0zFC5yz0,287
+foamlib/_cases.py,sha256=4f3c5BXnsHPhFvgXNjUcGGHyu7I0WZT6zxlvGhb9kMY,21213
+foamlib/_subprocesses.py,sha256=5vqdQvpN_2v4GgDqxi-s88NGhZ6doFxkh0XY89ZWuHA,1926
+foamlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foamlib/_dictionaries/__init__.py,sha256=6UWBGe1t7cq-d6WWQrVm0Xpi7Whpkr-mkTWgAM4NwcE,160
+foamlib/_dictionaries/_base.py,sha256=H8XfiaX1LD6OWwZ9m61SaKgI-_szF1udyEfiLurrCB8,1493
+foamlib/_dictionaries/_files.py,sha256=1Ve1FG2VVKLyj6yZGe4Vy8EhEOtyORQtJMUK-cbPNt4,12424
+foamlib/_dictionaries/_parsing.py,sha256=65kwMU6b4WmMngOR5ED8IBvMa59FQqTRmd9o0xPnWJM,4768
+foamlib/_dictionaries/_serialization.py,sha256=viHpQKggSBfxq9V6veVcCCLNq7wdJ-2g5maecaN2beU,3612
+foamlib-0.2.4.dist-info/LICENSE.txt,sha256=5Dte9TUnLZzPRs4NQzl-Jc2-Ljd-t_v0ZR5Ng5r0UsY,35131
+foamlib-0.2.4.dist-info/METADATA,sha256=Z5aFcGYwPssHy9DTrQqZ4Lsw6cJ1QjW9UFiqe0Uuf58,4640
+foamlib-0.2.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+foamlib-0.2.4.dist-info/top_level.txt,sha256=ZdVYtetXGwPwyfL-WhlhbTFQGAwKX5P_gXxtH9JYFPI,8
+foamlib-0.2.4.dist-info/RECORD,,
