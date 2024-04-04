@@ -1,0 +1,94 @@
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.build]
+includes = [
+    "amaranth/",
+]
+
+[tool.pdm.dev-dependencies]
+test = [
+    "yowasp-yosys",
+    "coverage",
+]
+docs = [
+    "sphinx~=7.1",
+    "sphinxcontrib-platformpicker~=1.3",
+    "sphinx-rtd-theme~=1.2",
+    "sphinx-autobuild",
+]
+examples = [
+    "amaranth-boards @ git+https://github.com/amaranth-lang/amaranth-boards.git",
+]
+
+[tool.pdm.scripts._]
+env_file = ".env.toolchain"
+
+[tool.pdm.scripts.test]
+composite = [
+    "test-code",
+    "test-docs",
+]
+
+[tool.pdm.scripts.test-code]
+cmd = "python -m coverage run -m unittest discover -t . -s tests -v"
+
+[tool.pdm.scripts.test-code.env]
+PYTHONWARNINGS = "error"
+
+[tool.pdm.scripts.test-docs]
+cmd = "sphinx-build -b doctest docs/ docs/_build"
+
+[tool.pdm.scripts.document]
+cmd = "sphinx-build docs/ docs/_build/"
+
+[tool.pdm.scripts.document-live]
+cmd = "sphinx-autobuild docs/ docs/_build/ --watch amaranth"
+
+[tool.pdm.scripts.coverage-text]
+cmd = "python -m coverage report"
+
+[tool.pdm.scripts.coverage-html]
+cmd = "python -m coverage html"
+
+[project]
+dynamic = []
+name = "amaranth"
+description = "Amaranth hardware definition language"
+readme = "README.md"
+authors = [
+    { name = "Amaranth HDL contributors" },
+]
+requires-python = "~=3.8"
+dependencies = [
+    "importlib_resources; python_version<'3.9'",
+    "pyvcd>=0.2.2,<0.5",
+    "Jinja2~=3.0",
+]
+version = "0.4.5"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.optional-dependencies]
+builtin-yosys = [
+    "amaranth-yosys>=0.38",
+]
+remote-build = [
+    "paramiko~=2.7",
+]
+
+[project.scripts]
+amaranth-rpc = "amaranth.rpc:main"
+
+[project.urls]
+Homepage = "https://amaranth-lang.org/"
+Documentation = "https://amaranth-lang.org/docs/amaranth/v0.4.5"
+"Source Code" = "https://github.com/amaranth-lang/amaranth"
+"Bug Tracker" = "https://github.com/amaranth-lang/amaranth/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
