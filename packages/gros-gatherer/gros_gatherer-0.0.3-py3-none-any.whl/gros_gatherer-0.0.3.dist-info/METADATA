@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: gros-gatherer
+Version: 0.0.3
+Summary: Software development process data gathering
+Home-page: https://github.com/grip-on-software/data-gathering
+Author: Leon Helwerda
+Author-email: l.s.helwerda@liacs.leidenuniv.nl
+License: Apache 2.0
+Keywords: gros software development process data gathering
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Monitoring
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: urlmatch
+Requires-Dist: jira >=2.0.1.0rc1
+Requires-Dist: gitpython >=2.1.8
+Requires-Dist: PyGithub >1.40
+Requires-Dist: python-gitlab >1.10.0
+Requires-Dist: svn >=0.3.45
+Requires-Dist: requests
+Requires-Dist: requests-ntlm
+Requires-Dist: ordered-set
+Requires-Dist: pymonetdb
+Requires-Dist: pyocclient
+Requires-Dist: bcrypt
+
+Gather data from different sources that are
+used by software development teams and projects in a distributed environment,
+as part of a pipeline where the gathered data is stored in a database for
+analysis purposes. Sources include issue trackers (Jira), version control
+systems (Git and Subversion) and associated review systems (GitHub, GitLab,
+and Azure DevOps/TFS/VSTS), quality report systems (SonarQube and HQ), 
+build automation servers (Jenkins) and reservation systems (Topdesk).
