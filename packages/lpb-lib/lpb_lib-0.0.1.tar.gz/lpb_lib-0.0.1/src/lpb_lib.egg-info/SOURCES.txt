@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lib/__init__.py
+src/lib/big_query.py
+src/lpb_lib.egg-info/PKG-INFO
+src/lpb_lib.egg-info/SOURCES.txt
+src/lpb_lib.egg-info/dependency_links.txt
+src/lpb_lib.egg-info/top_level.txt
