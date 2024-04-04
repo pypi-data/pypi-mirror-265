@@ -1,0 +1,13 @@
+README.md
+setup.py
+IsoOCR/CharModel.py
+IsoOCR/CharPredictor.py
+IsoOCR/__init__.py
+IsoOCR/modelForBoxes.py
+IsoOCR/ocr.py
+IsoOCR/utils.py
+IsoOCR.egg-info/PKG-INFO
+IsoOCR.egg-info/SOURCES.txt
+IsoOCR.egg-info/dependency_links.txt
+IsoOCR.egg-info/requires.txt
+IsoOCR.egg-info/top_level.txt
