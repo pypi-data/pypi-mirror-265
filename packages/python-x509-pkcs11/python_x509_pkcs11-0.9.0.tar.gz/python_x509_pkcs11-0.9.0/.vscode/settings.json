@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "libsofthsm",
+        "mypy",
+        "softhsm",
+        "typecheck",
+        "venv",
+        "aiohttp"
+    ],
+    "esbonio.sphinx.confDir": ""
+}
