@@ -1,0 +1,6 @@
+psutil
+requests
+gdal
+numpy
+boto3
+levenshtein
