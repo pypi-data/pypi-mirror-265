@@ -1,0 +1,2 @@
+[console_scripts]
+vmk = vmk:main
