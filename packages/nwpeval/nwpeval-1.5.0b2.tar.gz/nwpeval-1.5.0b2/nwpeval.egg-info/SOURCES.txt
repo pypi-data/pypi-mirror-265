@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nwpeval/__init__.py
+nwpeval/nwpeval.py
+nwpeval/utils.py
+nwpeval.egg-info/PKG-INFO
+nwpeval.egg-info/SOURCES.txt
+nwpeval.egg-info/dependency_links.txt
+nwpeval.egg-info/requires.txt
+nwpeval.egg-info/top_level.txt
