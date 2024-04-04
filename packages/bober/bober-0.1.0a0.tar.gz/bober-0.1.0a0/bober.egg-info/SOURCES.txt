@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bober/__init__.py
+bober/manager.py
+bober.egg-info/PKG-INFO
+bober.egg-info/SOURCES.txt
+bober.egg-info/dependency_links.txt
+bober.egg-info/requires.txt
+bober.egg-info/top_level.txt
+bober/utils/__init__.py
