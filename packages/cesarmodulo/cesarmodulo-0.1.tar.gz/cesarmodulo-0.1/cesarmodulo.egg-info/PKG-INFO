@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cesarmodulo
+Version: 0.1
+Summary: Esta es la descripcion de mi paquete
+Home-page: https://github.com/Cesar-Crespo/cesarmodulo.git
+Author: Cesar Crespo
+Author-email: cesar2crespo@gmail.com
+License: MIT
+Keywords: testing,logging,example
+Description-Content-Type: text/markdown
+
+# cesarmodulo
+# Este archivo describe el proyecto
+
+'''python 
+
+from cesarmodulo import *
+
+print (funciones.area_circulo(5))
+
+'''
