@@ -1,0 +1,8 @@
+python-scalpel
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
