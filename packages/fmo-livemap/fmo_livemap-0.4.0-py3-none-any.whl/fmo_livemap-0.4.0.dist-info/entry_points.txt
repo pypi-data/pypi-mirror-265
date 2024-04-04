@@ -1,0 +1,2 @@
+[console_scripts]
+livemap = livemap.cli:cli
