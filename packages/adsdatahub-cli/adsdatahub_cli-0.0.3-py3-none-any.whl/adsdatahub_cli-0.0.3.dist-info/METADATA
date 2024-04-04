@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: adsdatahub-cli
+Version: 0.0.3
+Summary: 
+Author: CyberAgent, Inc.
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: adsdatahub (>=0.0.1,<0.0.2)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: rich-argparse (>=1.4.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Google Ads Data Hub の CLI
+
