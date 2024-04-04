@@ -1,0 +1,14 @@
+[project]
+name = "dxflow"
+version = "0.1.1"
+description = "A Python SDK for dxflow"
+authors = [
+    {name="DiPhyx Team", email="info@diphyx.com"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
