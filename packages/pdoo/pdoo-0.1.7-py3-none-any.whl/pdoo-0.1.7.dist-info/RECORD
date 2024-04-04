@@ -1,0 +1,10 @@
+pdoo/__init__.py,sha256=WZFWI1ucK8T_pyBsgSfqDBZuYZEaiJlG2BNyQ1Eii4E,88
+pdoo/document.py,sha256=vDcZebgiPHlH8M8dHXRRl3uAZfib6l0JcKLiEzHprBg,2476
+pdoo/dom_node.py,sha256=pCRDEve7nAZkcypIp5g0xqPMwHrACzOnSF45XoiqRQ0,1289
+pdoo/raw_node.py,sha256=spqhuLAr2APPwRK9jqpWD6GpZb9zxiGVci1z_Vj6PhQ,124
+pdoo/style.py,sha256=lWEYvfE3N6MfJe3_DuQuGP747nCvQ0QoZeI0_0bJK9k,325
+pdoo/text_node.py,sha256=JUDtwG5oTibHkDiYr44RgjIUorD3FlvzwCNf8C3aP6I,156
+pdoo-0.1.7.dist-info/LICENSE,sha256=7E1oTsOf2mww7gqK1p9zpDndYhV0d7u4hbr0Iarx1i0,1069
+pdoo-0.1.7.dist-info/METADATA,sha256=xRr2H0JCL-yA_Qa6wPuDFHYB696OYlffjZwO_YLAfgg,11984
+pdoo-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pdoo-0.1.7.dist-info/RECORD,,
