@@ -1,0 +1,15 @@
+campie/__init__.py,sha256=k-5xsq-DTxrQbwHVLZ1QzbzgquAfvZsjiQEm480SCEw,1222
+campie/cam.py,sha256=NqWvbXpreHU3FTDwMKTu6QL_JvSCai8vwyD3FgKdiv4,12332
+campie/kernel.py,sha256=wFPO21H7-1VlKoV0h4MLzAykgbNGgOkVuZ0YzoAw9bo,5980
+campie/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+campie/run.py,sha256=-JJiIINg0aBtvycWkp8uGpSR2x_IGQMTg1MToMgHbfQ,9194
+campie/types.py,sha256=jaMuGy7Aa78O_MZcUbnoZ0hcginek0b5R6r-D9JoXSA,4020
+campie/util/__init__.py,sha256=drhn1zR4-2VOsH4qIsAPqnMEc3gfbqSv1Cn_jvdY83A,801
+campie/util/flip_indices.py,sha256=QGKtnWKnLGJaElcPCPthQO3FZi0UjqFGTR-Dych-33s,4011
+campie/util/helpers.py,sha256=E-p7Olurapj01nJs96_ih021p4V9rrBcb6eeUaOTqv8,1288
+campie/validation.py,sha256=kNIf5Dy8HaOGh5vg-QtObW7ONvbHDvo7qSKiRhgx3SU,3075
+campie-0.4.1.dist-info/LICENSE,sha256=0tgOdo29AUop-dOAh5oe0kBEqjzVGTarAiGd2Xf4Haw,11356
+campie-0.4.1.dist-info/METADATA,sha256=R6kEu6P0ryHmgT1DvIzpRXj30eCxf5ybFv7vJblft0I,4330
+campie-0.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+campie-0.4.1.dist-info/entry_points.txt,sha256=CU-VGBbyuNEl4hfh-MZga5pIE3GfetLY-POOdum2E-8,60
+campie-0.4.1.dist-info/RECORD,,
