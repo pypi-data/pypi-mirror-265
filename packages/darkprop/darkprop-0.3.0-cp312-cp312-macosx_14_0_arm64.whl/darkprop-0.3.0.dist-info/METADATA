@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: darkprop
+Version: 0.3.0
+Summary: Python wrapper for DarkProp
+Keywords: dark matter simulation Monte Carlo
+Home-page: http://yfzhou.itp.ac.cn/darkprop
+Author-Email: Chen Xia <xiachen1996@outlook.com>
+Maintainer-Email: Chen Xia <xiachen1996@outlook.com>
+License: MIT License
+        
+        Copyright (c) 2021 Chen Xia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Development Status :: 3 - Alpha
+Project-URL: Homepage, http://yfzhou.itp.ac.cn/darkprop
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
+Python wrapper of DarkProp, a Monte Carlo simulation code for the propagation of dark
+matter particles in a medium.
+
+# Installation
+
+
+## Install using pip
+
+```bash
+$ pip install --user darkprop
+```
+
+
+## Install from the source
+
+1. Download the source code from [DarkProp's homepage](http://yfzhou.itp.ac.cn/darkprop).
+
+2. Install dependencies. A C++ compiler supporting `C++17` standard is required.
+   [GSL](https://www.gnu.org/software/gsl/), [HDF5](https://www.hdfgroup.org/), and
+   [spdlog](https://github.com/gabime/spdlog/) are needed to build the Python wrapper.
+   They can be installed, for example
+
+   * Ubuntu >= 22.04
+
+       ```bash
+       $ sudo apt install g++ libgsl-dev libhdf5-dev libspdlog-dev
+       ```
+
+   * Fedora >= 33
+
+       ```bash
+       $ sudo dnf install g++ python3-devel gsl-devel hdf5-devel spdlog-devel
+       ```
+
+   Then prepare a python virtual environment and activate it.
+   ```bash
+   $ python3 -m venv venv
+   $ source venv/bin/activate
+   ```
+
+3. Build and install into the virtual environment.
+   In the root directory of the source code, execute
+   ```bash
+   $ python3 -m pip install .
+   ```
+
+---
+**Tip**
+
+If there is a network problem during `pip install`, you can set up a mirror server.
+For example, using [Tsinghua mirror](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/),
+add `-i` option to `pip install` command
+```bash
+$ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple darkprop
+```
+
+---
+
+
+# Example
+
+Install [Jupyter notebook](https://jupyter.org/) and [Matplotlib](https://matplotlib.org/)
+to run the example.
+
+```bash
+$ jupyter-notebook example/python/basic-example.ipynb
+```
+
+
+# Uninstall
+
+```bash
+$ pip uninstall darkprop
+```
+
+
+# Citation
+
+If you use darkprop in your publications, please cite the paper
+
+- C. Xia, Y.-H. Xu, and Y.-F. Zhou, Production and attenuation of cosmic-ray
+  boosted dark matter,
+  [JCAP, 2022, 02(02): 028](https://doi.org/10.1088/1475-7516/2022/02/028),
+  [arXiv: 2111.05559](https://arxiv.org/abs/2111.05559)
