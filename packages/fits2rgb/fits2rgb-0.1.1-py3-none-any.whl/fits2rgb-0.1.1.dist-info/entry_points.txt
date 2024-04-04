@@ -1,0 +1,2 @@
+[console_scripts]
+fits2rgb = fits2rgb.core:main
