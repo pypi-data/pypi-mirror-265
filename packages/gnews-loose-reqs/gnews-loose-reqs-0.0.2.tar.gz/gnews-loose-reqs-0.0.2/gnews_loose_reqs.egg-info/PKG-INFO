@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gnews-loose-reqs
+Version: 0.0.2
+Summary: It is just GNews 0.3.6 (https://github.com/ranahaani/GNews) with loose requeriments. I am in a hurry :)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt

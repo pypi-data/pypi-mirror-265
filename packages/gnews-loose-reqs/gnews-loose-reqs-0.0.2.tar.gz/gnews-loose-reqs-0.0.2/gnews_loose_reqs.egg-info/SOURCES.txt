@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gnews/__init__.py
+gnews/gnews.py
+gnews/utils/__init__.py
+gnews/utils/constants.py
+gnews/utils/utils.py
+gnews_loose_reqs.egg-info/PKG-INFO
+gnews_loose_reqs.egg-info/SOURCES.txt
+gnews_loose_reqs.egg-info/dependency_links.txt
+gnews_loose_reqs.egg-info/requires.txt
+gnews_loose_reqs.egg-info/top_level.txt
+tests/test_gnews.py
