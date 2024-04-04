@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: sphinx-ref-in-plantuml-hyperlinks
+Version: 0.5.0
+Summary: sphinx-ref-in-plantuml-hyperlinks is a Sphinx extension to resolve std:ref-s defined in plantuml files
+Home-page: https://github.com/mi-parkes/sphinx-ref-in-plantuml-hyperlinks
+Author: Michael Parkes
+Author-email: mparkes@post.cz
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Sphinx
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Sphinx>=5.3.0
+
+# Enhanced integration between Sphinx documentation and PlantUML diagrams
+
+`sphinx_ref_in_plantuml_hyperlinks` is a [Sphinx](https://www.sphinx-doc.org/en/master/index.html) extension that automatically resolves references (links) created using the `std:ref:` syntax within [PlantUML](https://plantuml.com) diagrams. This allows you to link elements in your PlantUML diagrams to corresponding sections or elements in your Sphinx documentation, enhancing navigation and information flow.
+
+![](https://mi-parkes.github.io/sphinx-ref-in-plantuml-hyperlinks/_images/refInPlantuml.png)
+
+## Example of Use
+
+    .. uml::
+        :caption: PlantUML Caption with **bold** and *italic*
+        :name: PlantUML Label2
+    
+        @startmindmap mindmap2
+    
+        *[#Orange] Example of clickable references
+        **[#lightgreen] [[ ":ref:`plantuml label1`" Internal Page Reference1 ]]
+        **[#lightblue] [[ ":ref:`N_00001`" Internal Page Reference2 on Sphinx-Needs ]]
+
+        @endmindmap
+
+## Installation (Linux)
+
+    git clone https://github.com/mi-parkes/sphinx-ref-in-plantuml-hyperlinks.git
+    cd sphinx-ref-in-plantuml-hyperlinks
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r doc/requirements.txt
+
+    python3 -m build --wheel
+    pip install dist/sphinx_ref_in_plantuml_hyperlinks*.whl
+
+## Activation
+
+In your conf.py configuration file, add `sphinx_ref_in_plantuml_hyperlinks` to your extensions list:
+
+    extensions = [
+      ...
+      'sphinx_ref_in_plantuml_hyperlinks'
+      ...
+    ]
+
+## List Labels:
+
+    python3 -m sphinx.ext.intersphinx build/html/objects.inv
