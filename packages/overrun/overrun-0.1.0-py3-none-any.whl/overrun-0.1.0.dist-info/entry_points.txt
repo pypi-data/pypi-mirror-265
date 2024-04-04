@@ -1,0 +1,3 @@
+[console_scripts]
+ovrn = overrun.cli:main
+
