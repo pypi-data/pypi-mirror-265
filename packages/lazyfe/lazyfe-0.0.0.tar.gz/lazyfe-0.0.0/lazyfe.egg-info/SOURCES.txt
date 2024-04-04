@@ -1,0 +1,5 @@
+setup.py
+lazyfe.egg-info/PKG-INFO
+lazyfe.egg-info/SOURCES.txt
+lazyfe.egg-info/dependency_links.txt
+lazyfe.egg-info/top_level.txt
