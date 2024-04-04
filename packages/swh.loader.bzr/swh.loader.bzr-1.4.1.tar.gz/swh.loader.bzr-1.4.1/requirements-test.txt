@@ -1,0 +1,7 @@
+dulwich
+pytest >= 8.1
+pytest-mock
+swh.core[testing]
+swh.scheduler[testing]
+swh.storage[testing]
+testtools
