@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ft-jwt-validation
+Version: 1.0.5
+Summary: JWT class to create and validate JWT tokens
+Author: vfuhlenb
+Author-email: minh.tee@gmail.com
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+Requires-Dist: Django>=5.0
+
+JWT class to create and validate JWT tokens
+
+Setup:
+
+- add to requirements.txt:
+	ft-jwt-validation==1.0.5
+- add to django settings.py INSTALLED_APPS:
+	"ft_jwt_validation",
+
+Usage:
+
+- import the class:
+	from ft_jwt_validation.jwt import JWT
