@@ -1,0 +1,8 @@
+setup.py
+imagenai/__init__.py
+imagenai/generate.py
+imagenai.egg-info/PKG-INFO
+imagenai.egg-info/SOURCES.txt
+imagenai.egg-info/dependency_links.txt
+imagenai.egg-info/requires.txt
+imagenai.egg-info/top_level.txt
