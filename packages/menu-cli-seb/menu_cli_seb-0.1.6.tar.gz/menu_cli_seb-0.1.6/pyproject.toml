@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "menu-cli-seb"
+version = "0.1.6"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = 'menu_cli_seb.main:main'
+seb-menu = "menu_cli_seb.__main__:main"
