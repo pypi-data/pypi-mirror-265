@@ -1,0 +1,61 @@
+[package]
+name = "chrs"
+version = "0.3.1"
+authors = ["Jennings Zhang <jennings.zhang@childrens.harvard.edu>", "FNNDSC <dev@babyMRI.org>"]
+
+edition = "2021"
+
+readme = "README.md"
+description = "CLI ChRIS client"
+repository = "https://github.com/FNNDSC/chrs"
+homepage = "https://chrisproject.org"
+documentation = "https://chrisproject.org/docs/chrs"
+license = "MIT"
+categories = ["command-line-utilities", "science"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chris = { path = "../chris", version = "0.5.0-a.1", features = ["rustls"], default-features = false }
+clap = { version = "4.1.1", features = ["derive", "string"] }
+keyring = "2.3.2"
+thiserror = "1.0.30"
+tokio = { version = "1.17.0", features = ["full"] }
+tokio-util = { version = "0.7.1", features = [ "io" ] }
+futures = "0.3.21"
+async-stream = "0.3.3"
+async-recursion = "1.0.0"
+confy = { version = "0.6.1", features = ["ron_conf"], default-features = false }
+dialoguer = "0.11.0"
+indicatif = { version = "0.17.8", features = ["tokio"] }
+serde = "1.0.136"
+serde_json = "1.0.79"
+serde_yaml = "0.9.14"
+fs-err = { version = "2.9.0", features = [ "tokio" ] }
+pathdiff = { version = "0.2.1", features = ["camino"] }
+itertools = "0.12.1"
+url = "2.2.2"
+termtree = "0.4.0"
+aliri_braid = "0.4.0"
+color-eyre = "0.6.2"
+reqwest-retry = "0.4.0"
+reqwest-middleware = "0.2.4"
+textwrap = { version = "0.16.1", features = ["smawk"] }
+camino = "1.1.6"
+shlex = "1.3.0"
+time = "0.3.34"
+tokio-stream = "0.1.14"
+log = "0.4.17"
+async-walkdir = "1.0.0"
+
+[dev-dependencies]
+tempfile = "3.10.1"
+rstest = "0.18.2"
+fake = "2.9.2"
+uuid = "1.7.0"
+
+[package.metadata.binstall.overrides.x86_64-pc-windows-gnu]
+pkg-fmt = "zip"
+
+[package.metadata.binstall.overrides.x86_64-pc-windows-msvc]
+pkg-fmt = "zip"
