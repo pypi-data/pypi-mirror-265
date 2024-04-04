@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: happyrobot
+Version: 0.2.3
+Summary: This package lets you interact with Happyrobot directly from Python.
+Author: Happyrobot
+Author-email: founders@happyrobot.ai
+Keywords: happyrobot
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: pytz==2024.1
+
+# Happyrobot Python SDK
+
+## Installation
+
+```bash
+pip install happyrobot
+```
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-11)
+------------------
+
+* First release on PyPI.
