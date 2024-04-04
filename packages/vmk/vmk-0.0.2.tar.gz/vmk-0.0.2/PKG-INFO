@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vmk
+Version: 0.0.2
+Summary: Simple PDF bundler
+Author: disk, Vormak
+Maintainer-email: chikorito <webmaster@chikorito.land>
+Project-URL: Homepage, https://github.com/fizzy-drinks/vmk
+Project-URL: Issues, https://github.com/fizzy-drinks/vmk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyPDF2==3.0.1
+
+# vmk
+
+Simple command-line PDF combiner.

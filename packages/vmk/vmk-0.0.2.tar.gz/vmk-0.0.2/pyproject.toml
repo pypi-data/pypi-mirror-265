@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vmk"
+version = "0.0.2"
+authors = [
+  { name="disk" },
+  { name="Vormak" },
+]
+maintainers = [
+  { name="chikorito", email="webmaster@chikorito.land" },
+]
+description = "Simple PDF bundler"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "PyPDF2==3.0.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/fizzy-drinks/vmk"
+Issues = "https://github.com/fizzy-drinks/vmk/issues"
+
+[project.scripts]
+vmk = "vmk:main"
