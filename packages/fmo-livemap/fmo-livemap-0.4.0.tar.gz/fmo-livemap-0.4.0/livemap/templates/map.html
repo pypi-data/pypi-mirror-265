@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Real-time Map Drawing</title>
+    <link rel="stylesheet" href="../static/css/leaflet.css" />
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../static/css/google-fonts.css" />
+    <link rel="stylesheet" href="../static/css/bulma.min.css" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+      .map-container {
+        position: relative;
+        min-height: 100vh;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="columns is-gapless">
+      <div class="column is-12">
+        <div class="map-container">
+          <div id="map"></div>
+        </div>
+        <script src="../static/js/leaflet.js"></script>
+        <script src="../static/js/socket.io.js"></script>
+        <script>
+          let polylineMap = new Map();
+          let markerMap = new Map();
+
+          var map = L.map("map").setView([38.911, -76.479], 13);
+          const openstreetmap = L.tileLayer(
+            "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {
+              attribution:
+                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            }
+          ).addTo(map);
+
+          const pathLayerGroup = L.layerGroup().addTo(map);
+          const markerLayerGroup = L.layerGroup().addTo(map);
+
+          const socket = io.connect(
+            "http://" + document.domain + ":" + location.port
+          );
+          socket.on("connect", function () {
+            console.log("Connected");
+          });
+
+          var baseMaps = {
+            openstreetmap: openstreetmap,
+          };
+
+          var overlayMaps = {
+            Lines: pathLayerGroup,
+            Markers: markerLayerGroup,
+          };
+          var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+          socket.on("POLYLINE_EXTEND", (data) => {
+            const { latitude, longitude } = data;
+            const polyline = polylineMap.get(data.name);
+            let marker = markerMap.get(data.name);
+            if (!polyline) {
+              console.log("Line not found", data.name);
+              console.log(polylineMap);
+              return;
+            }
+
+            polyline.addLatLng([latitude, longitude]);
+
+            if (!marker) {
+              marker = L.marker([latitude, longitude]).addTo(map);
+              markerMap.set(data.name, marker);
+              map.flyTo([latitude, longitude], 15);
+            } else {
+              marker.setLatLng([latitude, longitude]);
+            }
+          });
+          socket.on("POLYLINE_ADD", (data) => {
+            console.log("Add Polyline", data);
+            addLine(data);
+          });
+
+          socket.on("MAP_STATE", (data) => {
+            console.log("Set Map", data);
+            data.lines.map((line) => {
+              addLine(line);
+            });
+            data.markers.map((marker) => {
+              addMarker(marker);
+            });
+          });
+
+          socket.on("ADD_MARKER", (data) => {
+            console.log("Add marker", data);
+            addMarker(data);
+          });
+
+          socket.on("MOVE_MARKER", (data) => {
+            marker = markerMap.get(data.id);
+            marker.setLatLng({ lat: data.latlng[0], lng: data.latlng[1] });
+          });
+
+          map.on("dblclick", function (e) {
+            var location = e.latlng;
+            socket.emit("ADD_MARKER", {
+              marker: { latlng: [location.lat, location.lng] },
+            });
+          });
+
+          function addLine(lineData) {
+            let polyline = L.polyline(lineData.points, {
+              color: lineData.color || "blue",
+            }).addTo(pathLayerGroup);
+            polylineMap.set(lineData.name, polyline);
+          }
+
+          function addMarker(data) {
+            marker = L.marker(data.latlng, {
+              draggable: true,
+            }).addTo(markerLayerGroup);
+            markerMap.set(data.id, marker);
+            marker.on("dragend", (e) => {
+              const newLocation = e.target.getLatLng();
+              socket.emit("MOVE_MARKER", {
+                markerId: data.id,
+                location: [newLocation.lat, newLocation.lng],
+              });
+            });
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

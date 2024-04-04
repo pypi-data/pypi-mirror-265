@@ -1,0 +1,5 @@
+flask>=2.0.0
+click>=8.0.0
+Flask-SocketIO>=5.3.0
+requests>=2.28.2
+geojson>=3.1.0
