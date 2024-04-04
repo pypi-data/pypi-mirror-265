@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: jjjxutils
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: JoJoJux
+Author-email: johannes@jojojux.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# jjjxutils
+
+Some useful utility functions for Python.
+
+## Installation
+
+```bash
+pip install jjjxutils
+```
+
+## Usage
+
+There is no one single way to use this package. It is a collection of utility functions that I have found useful in my projects. You can use them as you see fit.
+
+I should definitely write some documentation for this package. But for now, you will just have to explore the in-code documentation through comments and type hints.
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
