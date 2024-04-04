@@ -1,0 +1,19 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Wachtwoord",
+                    "server": "Host",
+                    "username": "Gebruikersnaam",
+                    "verify_ssl": "SSL-certificaat verifi\u00ebren"
+                }
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "name": "Herladen"
+        }
+    }
+}

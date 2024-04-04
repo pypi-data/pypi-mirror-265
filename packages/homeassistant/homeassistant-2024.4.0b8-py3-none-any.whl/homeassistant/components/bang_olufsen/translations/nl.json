@@ -1,0 +1,18 @@
+{
+    "config": {
+        "error": {
+            "invalid_ip": "Ongeldig IPv4 adres"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "IP-adres",
+                    "model": "Model"
+                }
+            },
+            "zeroconf_confirm": {
+                "title": "Bang & Olufsen-apparaat instellen"
+            }
+        }
+    }
+}
