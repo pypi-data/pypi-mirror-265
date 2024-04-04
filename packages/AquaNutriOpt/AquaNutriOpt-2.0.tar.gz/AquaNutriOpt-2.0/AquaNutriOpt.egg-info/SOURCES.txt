@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+runAquaNutriOpt.py
+setup.py
+AquaNutriOpt/__init__.py
+AquaNutriOpt.egg-info/PKG-INFO
+AquaNutriOpt.egg-info/SOURCES.txt
+AquaNutriOpt.egg-info/dependency_links.txt
+AquaNutriOpt.egg-info/top_level.txt
