@@ -1,0 +1,7 @@
+numpy>=1.25.1
+
+[CLI]
+matplotlib
+
+[dev]
+pytest
