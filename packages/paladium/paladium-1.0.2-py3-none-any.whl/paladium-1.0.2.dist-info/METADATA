@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: paladium
+Version: 1.0.2
+Summary: Python library for Paladium API
+Project-URL: Homepage, https://github.com/aureliancnx/PaladiumPy
+Project-URL: Issues, https://github.com/aureliancnx/PaladiumPy/issues
+Author-email: aureliancnx <aureliancnx@paladium-pvp.fr>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Paladium Py
+
+Simple python library for Paladium API.
