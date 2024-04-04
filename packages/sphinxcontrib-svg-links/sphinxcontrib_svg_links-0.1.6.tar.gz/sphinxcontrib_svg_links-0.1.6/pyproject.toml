@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "sphinxcontrib-svg-links"
+version = "0.1.6"
+description = ""
+authors = ["volker <volker.jaenisch@inqbus.de>"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Sphinx :: Extension",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing",
+    "Topic :: Documentation :: Sphinx",
+
+]
+keywords = ["sphinx", "extension", "SVG", "links", "URI"]
+include = ["docs/draw.io_set_link.png"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+sphinx = ">=6,<8"
+myst-parser = { path = "../MyST-Parser/", develop = true }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project.urls]
+Homepage = "https://github.com/sphinxcontrib-svg-links"
+Documentation = "https://sphinxcontrib-svg-links.readthedocs.io"
