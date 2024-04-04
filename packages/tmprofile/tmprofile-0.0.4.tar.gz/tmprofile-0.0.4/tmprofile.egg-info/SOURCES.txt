@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+tmprofile/__init__.py
+tmprofile/pyprofile.py
+tmprofile.egg-info/PKG-INFO
+tmprofile.egg-info/SOURCES.txt
+tmprofile.egg-info/dependency_links.txt
+tmprofile.egg-info/requires.txt
+tmprofile.egg-info/top_level.txt
