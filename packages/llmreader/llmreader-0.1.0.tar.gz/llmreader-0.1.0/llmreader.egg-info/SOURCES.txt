@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+llmreader.egg-info/PKG-INFO
+llmreader.egg-info/SOURCES.txt
+llmreader.egg-info/dependency_links.txt
+llmreader.egg-info/top_level.txt
+pkg/__init__.py
+pkg/blume_injector.py
+pkg/injector.py
