@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mimic_replay
+Version: 1.0.10
+Summary: MIMIC installation script, in order to enable your application to communicate with your MIMIC server.
+Author-email: Veronika Todd <veronika.todd@gmail.com>, Lucas Sorribes <lucas.sorribes@gmail.com>, Erik Wiens <erik.wiens@gmail.com>, Louis Mascari <lmascari16@gmail.com>
+Project-URL: Homepage, https://github.com/2401-Team-4/capstone
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: uuid
+Requires-Dist: requests
+Requires-Dist: bcrypt
+Requires-Dist: bs4
+
+# MIMIC Installation Package
+- Please ensure your MIMIC backend is running, before proceeding
+- In the root folder of the desired application, run the installation script with `python3 -m mimic_replay.install` and follow the prompts. 

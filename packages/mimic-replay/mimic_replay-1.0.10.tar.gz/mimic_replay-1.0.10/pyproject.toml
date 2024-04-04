@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mimic_replay"
+version = "1.0.10"
+authors = [
+  { name="Veronika Todd", email="veronika.todd@gmail.com" },
+  { name="Lucas Sorribes", email="lucas.sorribes@gmail.com" },
+  { name="Erik Wiens", email="erik.wiens@gmail.com" },
+  { name="Louis Mascari", email="lmascari16@gmail.com" }
+]
+dependencies = [
+    "uuid",
+    "requests",
+    "bcrypt",
+    "bs4"
+]
+description = "MIMIC installation script, in order to enable your application to communicate with your MIMIC server."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/2401-Team-4/capstone"
