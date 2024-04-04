@@ -1,0 +1,6 @@
+llama_index/vector_stores/kdbai/__init__.py,sha256=mr07PXYBbCle0D4blEyW16WTkDbh6ZMMU6TlOGdTZBg,99
+llama_index/vector_stores/kdbai/base.py,sha256=cqgVpBmzY-OAHkmUFgKcEAFwihyLElD0LzXWnRzgQIg,6878
+llama_index/vector_stores/kdbai/utils.py,sha256=A_vYjHn_6w3TqEMlG9Of4zoP8z9-EATqVMAYW7He6Cc,735
+llama_index_vector_stores_kdbai-0.1.5.dist-info/METADATA,sha256=QcHCcwFoGJChvTUjs69tGlnNMhIjbcoYxn41WpXDDFo,692
+llama_index_vector_stores_kdbai-0.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_vector_stores_kdbai-0.1.5.dist-info/RECORD,,
