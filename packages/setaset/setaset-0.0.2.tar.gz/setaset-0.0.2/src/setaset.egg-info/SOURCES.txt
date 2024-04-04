@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/setaset/__init__.py
+src/setaset/setop.py
+src/setaset.egg-info/PKG-INFO
+src/setaset.egg-info/SOURCES.txt
+src/setaset.egg-info/dependency_links.txt
+src/setaset.egg-info/top_level.txt
