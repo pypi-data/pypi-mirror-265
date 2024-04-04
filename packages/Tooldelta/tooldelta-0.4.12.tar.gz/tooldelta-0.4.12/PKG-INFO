@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: Tooldelta
+Version: 0.4.12
+Summary: Plugin Loader for NeteaseRentalServer on Panel
+Home-page: https://github.com/SuperScript-PRC/ToolDelta
+Author: SuperScript-PRC
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: nbt (==1.5.1)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: psutil (==5.9.8)
+Requires-Dist: pymysql (==1.1.0)
+Requires-Dist: pyspeedtest (==1.2.7)
+Requires-Dist: qrcode (==7.4.2)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: rich (==13.7.0)
+Requires-Dist: shellescape (>=3.8.1,<4.0.0)
+Requires-Dist: tqdm (==4.66.2)
+Requires-Dist: ujson (==5.9.0)
+Requires-Dist: websockets (==12.0)
+Project-URL: Repository, https://github.com/SuperScript-PRC/ToolDelta
+Description-Content-Type: text/markdown
+
+<h1 align="center">ToolDelta - Multi Platform Edition</h1>
+<p align="center">
+  <a href="https://github.com/ToolDelta/ToolDelta/releases"><img src="https://img.shields.io/github/v/release/ToolDelta/ToolDelta?display_name=tag&sort=semver" alt="Releases"></a>
+  <img src="https://img.shields.io/github/stars/ToolDelta/ToolDelta.svg?style=falt" alt="Stars">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ToolDelta/ToolDelta/issues"><img src="https://img.shields.io/github/issues/ToolDelta/ToolDelta.svg?style=flat" alt="opissues"></a>
+  <a href="https://github.com/ToolDelta/ToolDelta/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/SuperScript-PRC/ToolDelta.svg?style=flat&color=success" alt="clissues"></a>
+  <a href="https://github.com/ToolDelta/ToolDelta/pulls"><img src="https://img.shields.io/github/issues-pr/ToolDelta/ToolDelta.svg?style=falt" alt="oppr"></a>
+  <a href="https://github.com/ToolDelta/ToolDelta/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed/ToolDelta/ToolDelta.svg?style=flat&color=success" alt="clpr"></a>
+</p>
+
+<p align="center">
+  <code>ToolDelta</code> 是依赖于 <code>PhoenixBuilder | NeOmega</code> 的多功能扩展组件，可以加载各种各样有趣的插件。
+  <code>ToolDelta</code> 可以使得你的 <b>中国版《我的世界》手机版租赁服</b> 的玩法和功能更加多样化
+  ToolDelta Wiki/用户指南: <a href="Wiki: https://tooldelta-wiki.tblstudio.cn/"></a>
+  ToolDelta 交流群: 194838530
+</p>
+
+# 目录
+
+- [目录](#目录)
+- [注意事项](#注意事项)
+- [在docker运行](#在docker运行)
+
+# 注意事项
+
+- 遇到平台不兼容的情况请尽快提交 `Issue`
+- 已支持 `Termux`
+
+How to use?：[learn-use](https://tooldelta-wiki.tblstudio.cn/learn-use.html)
+
+Docker Image: [DockerHub](https://hub.docker.com/r/wlingzhenyu/tooldelta)
+
+# 直接下载 ToolDelta 可执行文件并运行:
+<a href="https://github.com/ToolDelta/ToolDelta/releases">发行版 ToolDelta 下载点这里</a>
+
+# 在 `pip` 安装 ToolDelta 并运行
+`pip install tooldelta`
+`echo "import tooldelta;tooldelta.client_title()"`
+
+# 在docker运行
+```bash
+docker run -v .:/app -t -i wlingzhenyu/tooldelta:latest
+```
+
