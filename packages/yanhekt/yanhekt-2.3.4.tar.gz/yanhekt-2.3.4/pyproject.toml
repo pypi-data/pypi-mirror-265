@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yanhekt"
+version = "2.3.4"
+authors = [
+    {name = "GDDG08", email = "ZZH-Fusion@outlook.com"}
+]
+description = "Download Videos on BIT YanHeKT"
+readme = {file = "readme.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+keywords = ["yanhekt", "bit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "requests",
+    "PySimpleGUI<=4.55.1"
+]
+
+[project.scripts]
+yanhekt = "yanhekt.main:main"
+yanhekt-cli = "yanhekt.main:runCli"
+yanhekt-gui = "yanhekt.main:runGui"
+
+[project.urls]
+Homepage = "https://github.com/GDDG08/YanHeKT_Downloader"
+Issues = "https://github.com/GDDG08/YanHeKT_Downloader/issues"
