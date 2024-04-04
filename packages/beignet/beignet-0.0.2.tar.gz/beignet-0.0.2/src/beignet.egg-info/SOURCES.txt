@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+src/beignet/__init__.py
+src/beignet.egg-info/PKG-INFO
+src/beignet.egg-info/SOURCES.txt
+src/beignet.egg-info/dependency_links.txt
+src/beignet.egg-info/top_level.txt
