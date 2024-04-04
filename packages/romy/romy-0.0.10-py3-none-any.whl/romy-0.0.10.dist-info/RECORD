@@ -1,0 +1,10 @@
+usage_example.py,sha256=AnixYMIYo0i8336axCx_8jY7UbmM2VNVZz9T36o8jDE,1317
+romy/__init__.py,sha256=TtRTfkyZq2QJUPPYeE0hYZ0bAdKR1dgHIbb_qiWLlr4,144
+romy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+romy/romy.py,sha256=JHNLXpn0e1J1gTjWEfhjza-icQ0dpKqFZYOx34O7Nfk,11702
+romy/utils.py,sha256=HalWGEKA_A12LAqErVr1lqCGdWcuhqJdsmi345oigTg,2303
+romy-0.0.10.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+romy-0.0.10.dist-info/METADATA,sha256=jTYhvUAR-XeHiHIhEvuNIg3jt7m-tODfMeMHQuYi_48,1601
+romy-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+romy-0.0.10.dist-info/top_level.txt,sha256=FrdK76OnlmOyCFBldzBq5vJG3vftp41jNKQ-hsXgfwc,19
+romy-0.0.10.dist-info/RECORD,,
