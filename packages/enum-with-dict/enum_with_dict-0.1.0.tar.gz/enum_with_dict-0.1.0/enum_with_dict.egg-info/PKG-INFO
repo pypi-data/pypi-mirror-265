@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: enum-with-dict
+Version: 0.1.0
+Summary: Enum with to_dict method.
+Home-page: https://github.com/jzombie/enum_with_dict
+Author: Jeremy Harris
+Author-email: jeremy.harris@zenosmosis.com
+License: MIT
+Keywords: enum python utilities enum-to-dict enum-with-dict
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EnumWithDict
+
+`EnumWithDict` is a Python package that extends the standard library's `Enum` class to include `to_dict` and `get_initial` class methods. This enhancement allows for straightforward conversion of enum classes to dictionaries and provides easy access to the initial enum value, facilitating a more versatile use of enumerations in Python applications.
+
+## Features
+
+- **to_dict**: Convert an enum class to a dictionary representation, mapping member names to their values.
+- **get_initial**: Retrieve the first value defined in the enum, useful for cases where a default or initial value is needed.
+
+## Installation
+
+Install `EnumWithDict` using pip:
+
+```bash
+pip install enum_with_dict
+```
+
+## LICENSE
+
+[MIT](LICENSE)
