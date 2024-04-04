@@ -1,0 +1,9 @@
+yamale
+azure-storage-file-datalake
+azure-identity
+
+[dev]
+pytest
+pytest-cov
+pytest-mock
+bumpver
