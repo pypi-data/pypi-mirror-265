@@ -1,0 +1,14 @@
+setuptools
+virtualenv
+Click>=7.0
+mr.bob<1.0.0
+regex==2020.11.13
+zest.releaser
+bobtemplates.plone>=4.0.3
+
+[dev]
+tox
+zest.releaser[recommended]
+
+[test]
+pytest
