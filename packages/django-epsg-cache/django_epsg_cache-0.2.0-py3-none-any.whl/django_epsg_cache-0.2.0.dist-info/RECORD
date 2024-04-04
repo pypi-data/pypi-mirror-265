@@ -1,0 +1,12 @@
+epsg_cache/__init__.py,sha256=TMdNzAPB3pZa-psjOsZXRehQzEe-zjlh3FMCDoHnLLg,55
+epsg_cache/apps.py,sha256=H2W-FYCfhSFVPN9KT0VOBB96G-4WkkPP3g-DcLeIn_w,104
+epsg_cache/exceptions.py,sha256=lnk0_X73hKIhebZFALpRdK3A4ASLN5zkji4jMIBWJ-Y,48
+epsg_cache/models.py,sha256=UcQjSqY8D2CoMIXR0_S_5zGsPVyyuJIUCkq-bXFfh8o,2901
+epsg_cache/registry.py,sha256=LyIirB1hJxRQrJZ7CTBdembp0DmTpiqXJ1N7tzh7n8s,6427
+epsg_cache/settings.py,sha256=-D1w3RyTd-iEPnK1Ie69hIMp4EGRULtXzTbF6jO5U9c,562
+epsg_cache/utils.py,sha256=ZKB5xl9mTdbD3JVz7POfcE5ZNkFTYBYiTTRFUF21Oc8,4610
+django_epsg_cache-0.2.0.dist-info/LICENSE,sha256=8Dw3Knz86V7kukgl-gzm9-MTcMfgw0_HguGqpNzjbwE,1072
+django_epsg_cache-0.2.0.dist-info/METADATA,sha256=Xlb4fTP2Umx_AV4fY8_oRaAApQY5iorNOKxtEMbPEy8,2301
+django_epsg_cache-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_epsg_cache-0.2.0.dist-info/top_level.txt,sha256=B8IblI_us3QIYoxdt-xXJB1B9kexhlt2jBOy-J3vvbg,11
+django_epsg_cache-0.2.0.dist-info/RECORD,,
