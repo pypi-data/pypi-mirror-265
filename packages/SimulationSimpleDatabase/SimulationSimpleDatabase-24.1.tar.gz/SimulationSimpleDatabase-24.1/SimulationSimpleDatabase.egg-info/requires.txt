@@ -1,0 +1,5 @@
+numpy>=1.26.4
+peewee>=3.17.0
+vedo>=2024.5.1
+matplotlib>=3.8.3
+open3d>=0.16.0
