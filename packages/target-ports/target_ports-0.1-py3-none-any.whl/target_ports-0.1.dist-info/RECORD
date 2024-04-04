@@ -1,0 +1,8 @@
+target_ports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+target_ports/target_ports.py,sha256=hv5Gevo0jddmNHIkqiwnVppQCuaHj_sCP1tGi7ZdG3M,5633
+target_ports-0.1.dist-info/LICENSE,sha256=SaJZA1W5nPLMfCYzzTcXTEwW0B6HcIWVgtz7hIKwPXw,1384
+target_ports-0.1.dist-info/METADATA,sha256=ElvLSCPew0SwQLeymZaaKEeS34tdbq8ISPpuKT1qPAI,2631
+target_ports-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+target_ports-0.1.dist-info/entry_points.txt,sha256=0VIfxZVR7tiPnzfu3OAiN-mHAe5cq8DhaaC_LRA4IYA,58
+target_ports-0.1.dist-info/top_level.txt,sha256=g9RaV_q_RRelI-XA1ABHWQfonGHQIDd3OW_S_daXf2s,13
+target_ports-0.1.dist-info/RECORD,,
