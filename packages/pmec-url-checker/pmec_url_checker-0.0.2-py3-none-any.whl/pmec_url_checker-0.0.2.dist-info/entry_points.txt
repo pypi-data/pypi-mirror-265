@@ -1,0 +1,3 @@
+[console_scripts]
+pmec-url-checker = pmec_url_checker.main:main
+
