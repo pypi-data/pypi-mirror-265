@@ -1,0 +1,4 @@
+[console_scripts]
+gu = main:main
+gucli = main:main
+guia = main:main
