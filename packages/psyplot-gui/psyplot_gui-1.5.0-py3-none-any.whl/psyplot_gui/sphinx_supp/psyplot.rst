@@ -1,0 +1,9 @@
+.. SPDX-FileCopyrightText: 2021-2024 Helmholtz-Zentrum hereon GmbH
+..
+.. SPDX-License-Identifier: CC-BY-4.0
+
+===========
+Help Window
+===========
+
+Welcome to *psyplot*! An interactive framework for code development.
