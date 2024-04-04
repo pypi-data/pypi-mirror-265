@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "sql-language-server": "^1.7.0",
+    "vscode-jsonrpc": "^8.2.0"
+  }
+}
