@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+guia_cli/__init__.py
+guia_cli/__main__.py
+guia_cli/assistant.py
+guia_cli/command_line.py
+guia_cli/llm_client.py
+guia_cli.egg-info/PKG-INFO
+guia_cli.egg-info/SOURCES.txt
+guia_cli.egg-info/dependency_links.txt
+guia_cli.egg-info/entry_points.txt
+guia_cli.egg-info/requires.txt
+guia_cli.egg-info/top_level.txt

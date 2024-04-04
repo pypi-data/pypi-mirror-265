@@ -1,0 +1,2 @@
+[console_scripts]
+gu = guia_cli.command_line:main
