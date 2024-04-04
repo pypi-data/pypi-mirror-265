@@ -1,0 +1,17 @@
+django>=3.2
+Pillow
+
+[dev]
+black
+isort
+pre-commit
+
+[docs]
+mkdocs
+mkdocs-material
+mkdocs-glightbox
+mkdocs-awesome-pages-plugin
+
+[test]
+playwright
+tiny-match-snapshot
