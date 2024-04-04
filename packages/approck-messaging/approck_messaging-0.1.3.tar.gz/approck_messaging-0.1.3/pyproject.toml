@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "approck-messaging"
+version = "0.1.3"
+description = ""
+authors = ["Aleksey Dalekin <ald@approck.pro>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+faststream = { extras = ["redis"], version = "^0.4.4", optional = true }
+pydantic = { extras = ["email", "dotenv"], version = ">=2.4.1,<2.6" }
+python = "^3.10"
+
+[tool.poetry.extras]
+transport = ["faststream"]
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.1.1"
+pre-commit = "^3.1.0"
+pytest = "^8.1.1"
+pytest-asyncio = "^0.21.0"
+ruff = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
