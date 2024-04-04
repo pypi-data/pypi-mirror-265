@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yb-deepdiff"
+version = "0.1.0"
+description = ""
+authors = ["Yegor Shevchenko <egorhs19@gmail.com>"]
+readme = "README.md"
+packages = [{include = "deepdiff"}]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+pyhamcrest = "1.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
