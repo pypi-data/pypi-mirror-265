@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+requirements.txt
+cvpkgs_IGNchinmay/__init__.py
+cvpkgs_IGNchinmay/json_utils.py
+cvpkgs_IGNchinmay.egg-info/PKG-INFO
+cvpkgs_IGNchinmay.egg-info/SOURCES.txt
+cvpkgs_IGNchinmay.egg-info/dependency_links.txt
+cvpkgs_IGNchinmay.egg-info/requires.txt
+cvpkgs_IGNchinmay.egg-info/top_level.txt
+test/test_json.py
