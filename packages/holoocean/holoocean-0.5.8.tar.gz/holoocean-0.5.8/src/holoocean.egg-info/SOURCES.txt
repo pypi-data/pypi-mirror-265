@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/holoocean/__init__.py
+src/holoocean/packagemanager.py
+src/holoocean.egg-info/PKG-INFO
+src/holoocean.egg-info/SOURCES.txt
+src/holoocean.egg-info/dependency_links.txt
+src/holoocean.egg-info/requires.txt
+src/holoocean.egg-info/top_level.txt
