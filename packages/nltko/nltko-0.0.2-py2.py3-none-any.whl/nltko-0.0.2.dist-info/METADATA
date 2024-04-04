@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nltko
+Version: 0.0.2
+Summary: Personally tiny useful nltk of korean tips
+Home-page: https://github.com/YongBeomKim/nltko
+Author: momukji lab
+Author-email: ybkim@momukji.com
+License: The Unlicense
+Keywords: pytip
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: tqdm
+Requires-Dist: pytip
+Requires-Dist: konlpy
+Requires-Dist: kiwipiepy
+
+# nltko
+NLTKo is Natural Language Processing Toolkit and Python package for Korean natural Language precessing. KoNLP currently requires over Python 3.9.

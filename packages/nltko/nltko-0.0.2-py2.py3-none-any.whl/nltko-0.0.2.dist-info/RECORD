@@ -1,0 +1,13 @@
+nltko/__init__.py,sha256=cyN2aLEidOuZbRPN2kuE6TV9q3Nq9T_HLddB0k1Qy14,134
+nltko/_token/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nltko/_token/base.py,sha256=i8eVoWAppQcEI-3fwbogmupYdD-4KWm4eRFXaR4VPws,319
+nltko/_token/morph.py,sha256=0ebZDfaoOvTxIHOWbY7nn-BlAVWp7Z0sH_R0x6wjRmU,5778
+nltko/_token/news.py,sha256=cvivx2tdLVlSNv4zEzjqFffqbKcNzmLpUtPlqcb5Fiw,2548
+nltko/_token/token.py,sha256=lYM56yMobgSG9JWzmsjv7Wv8fpchXtMEtaAKZ8jR4N4,4818
+nltko/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nltko/utils/base.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nltko-0.0.2.dist-info/LICENSE,sha256=YUcuFQfACNnFjB2VWunOXYPIaqQvPV84nVgOYGCTiuM,1072
+nltko-0.0.2.dist-info/METADATA,sha256=rhfPmtf7jEbovgrZEh5GV7WOAiXLnLm1iY6y98Z5tso,740
+nltko-0.0.2.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+nltko-0.0.2.dist-info/top_level.txt,sha256=PEd2rL7y8Xx_FC9omfzUpOmYHiOKNYjBzUEvviubjhY,6
+nltko-0.0.2.dist-info/RECORD,,
