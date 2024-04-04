@@ -1,0 +1,13 @@
+homa/__init__.py,sha256=8D5a8oKgqd6WA1RUkiKCn4l_PVemtyuckxQut0vDHXM,20
+homa/constants.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homa/helpers.py,sha256=Ldf52cbYfSsjAinQ4Vmw4zUaT7bphadwLAvgHBAO1KY,308
+homa/main.py,sha256=Mq6z6p5OkeACU98Q7Gq2tPL6s-jt0jVp82Cf-E0qrwk,2618
+homa/classes/Collection.py,sha256=7hskbC8wxTAC3hHmFYXtzR5W05lsA4GaYTzjiez_6Zg,222
+homa/classes/Logger.py,sha256=2VjXJzBLMW5joArFpu2wGrbWUw7S-77z7LNhKUG1Iow,93
+homa/classes/Repository.py,sha256=c0F_okpC6d8ppsOQ5X6eUD2dfHmIiVInNrGNe6b-3ss,705
+homa/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homa-0.21.dist-info/LICENSE,sha256=js3WDbJn9k5EN6sy1uuP2QBXxyPgS5DjO4Bf5yE35hQ,1072
+homa-0.21.dist-info/METADATA,sha256=si2fgf66RaZh8qz-yJwbLAkmXza0v8z5QGKr0t5tE3E,365
+homa-0.21.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+homa-0.21.dist-info/top_level.txt,sha256=tmOfy2tuaAwc3W5-i6j61_vYJsXgR4ivBWkhJ3ZtJDc,5
+homa-0.21.dist-info/RECORD,,
