@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: IsoOCR
+Version: 0.0.1
+Summary: OCR package to read text from images
+Author: Nikunj Saini
+Author-email: nikunjsaini37@gmail.com
+Keywords: python,OCR,image to text,character recognition
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: opencv-python
+Requires-Dist: ultralytics
+Requires-Dist: torch
+Requires-Dist: torchvision
+

@@ -1,0 +1,10 @@
+IsoOCR/CharModel.py,sha256=Yca4n4AXG8Gbi4TldhmFqAguMpBFCIWtAcFlI1OHnaA,868
+IsoOCR/CharPredictor.py,sha256=HdtQocDJCNllvbxY2iFoxl9wN8ItF-fRi48kgT5QxfU,1025
+IsoOCR/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IsoOCR/modelForBoxes.py,sha256=6-8J_d-EZedMEODyzB6LURI1huDd_v30wH2QQW15L9I,2184
+IsoOCR/ocr.py,sha256=pK_72sWJ_nq_jkRsZ__6DBBtx5KMGhDWRNQx3oLYmX4,2142
+IsoOCR/utils.py,sha256=w_Y9rYhZ_vnXWxG6NLVsN7126_y1KsVO_85bYu3kV2c,5316
+IsoOCR-0.0.1.dist-info/METADATA,sha256=4j_CM55bJ37bL2tdsRHmY_JNg-bmadulleLd9ePNgFk,595
+IsoOCR-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+IsoOCR-0.0.1.dist-info/top_level.txt,sha256=cWGkP--TbzMOOijQtxkky_6lUq-9NzgVBHxLBl1rG9M,7
+IsoOCR-0.0.1.dist-info/RECORD,,
