@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PredictBind.egg-info/PKG-INFO
+PredictBind.egg-info/SOURCES.txt
+PredictBind.egg-info/dependency_links.txt
+PredictBind.egg-info/requires.txt
+PredictBind.egg-info/top_level.txt
