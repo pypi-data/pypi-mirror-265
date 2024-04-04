@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: miro_api
+Version: 2.1.0
+Summary: Miro API client
+Author: Josip Janzic
+Author-email: josip@miro.com
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: urllib3 (>=1,<2)
+Description-Content-Type: text/markdown
+
+# Miro API python client
+
+## Requirements.
+
+Python 3.9+
+
+## Installation & Usage
+
+Install the `miro_api` package to your project. Example using [poetry](https://python-poetry.org/docs/):
+
+    poetry add miro_api
+
+## Getting Started
+
+```python
+import miro_api
+
+client = miro_api.MiroApi('your access token')
+
+print(client.create_board())
+```
+
