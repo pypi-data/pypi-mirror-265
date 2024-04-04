@@ -1,0 +1,17 @@
+pyfds/__init__.py,sha256=hjprXT2u5BGp1x8ucYqyrDsw09udk7KHxgPunCu3f48,247
+pyfds/acoustic_flow.py,sha256=8wVIXMzKwYG0M7HYisYllC8EiT9fayeEMUsaVKnZQE0,2179
+pyfds/acoustics.py,sha256=qLdPMPRehdImwr3g4t-Uz3e-Lkddf-0iXAN0d2DhHsg,12771
+pyfds/coupled_fields.py,sha256=Jv6MLk6qCVjFd3xvagMXWwp6DfQgXqOVwp1-OiZdVt8,2603
+pyfds/coupling.py,sha256=xHZng2lxiqwBetSj--AgRt-1xWNh9FsJVxFmutJL28c,10341
+pyfds/electrostatics.py,sha256=Mv9f8-QdWQcNsL-5pfFZm8EHyHJgFKGF8hxqlxaksiA,4636
+pyfds/fields.py,sha256=1rSyX9ctjdZAlvXScfsJGAPlrboCNdHlakYVOCEecvY,24352
+pyfds/gfx.py,sha256=43u3yD4IvhQs6NXaZT3QBs2wEpDwzD47fMoT3Rs5JYU,17416
+pyfds/nonlinear_acoustics.py,sha256=PWlwhn_HCAsSGpM4E_NOPSTdq4neU2U5rYkH48y3fXc,8211
+pyfds/regions.py,sha256=1fyn9l18z9RMQo5yWCrmRg5vD6C4cKoMagJW-jeV1ws,5190
+pyfds/thermal.py,sha256=LlIecO1PnqC15DjmU03jxqmD7gVljF2YgYdUzGSh1VM,8296
+pyfds-0.3.0.dist-info/AUTHORS.rst,sha256=B_sw8smv6AKa3C5RvzGW7bM_QqtdNh7W4pqhKKY9b80,118
+pyfds-0.3.0.dist-info/LICENSE,sha256=0Gc3YNMrTJOVhAaofZOXjBTBnVzP8MQyoy9BxYp9eVk,1477
+pyfds-0.3.0.dist-info/METADATA,sha256=ZWZNVp6Ukg9EUZPD09H7clkxDgNFKC4YBv0H5CGMZVg,3430
+pyfds-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyfds-0.3.0.dist-info/top_level.txt,sha256=qeadFWWna6bzLg7h3uN-KrGBOrdhPXA1aKXw-ertgUg,6
+pyfds-0.3.0.dist-info/RECORD,,
