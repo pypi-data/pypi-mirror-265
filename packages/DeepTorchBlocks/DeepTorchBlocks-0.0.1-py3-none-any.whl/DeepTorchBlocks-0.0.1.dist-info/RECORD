@@ -1,0 +1,12 @@
+nn_modules/Autoencoders.py,sha256=Ct-73aEuRb7ww27JaD6NdGuil4bg4LZlR0UwjDQVxwo,7251
+nn_modules/Dense.py,sha256=8ll6nSMBUYrSwiHs2-c7KpDWc85K8eIHYpTWNOxDQt0,8479
+nn_modules/Inception.py,sha256=_ANuyXudBYesHqXW5vSr9PnW2UlOqwiu86CSgMww8cU,36501
+nn_modules/Recurrent.py,sha256=gRWv6Lg93Dc18ahAWEMqQJ1QJh-kedK0GgBXrJrzFn8,26601
+nn_modules/Residual.py,sha256=8E68vgGUFMxVRewzHRldvh8dsOm3OBc2V_usawWYmkk,32035
+nn_modules/Standard.py,sha256=Y-nSrHxXocUuPou9lkE-zIJ6qaOKLgxPaelIpw0-tus,25124
+nn_modules/__init__.py,sha256=OI8lBQwWAqs54b7DmKnhGPgbkgI1sRgRSJDXO-3XgFc,538
+DeepTorchBlocks-0.0.1.dist-info/LICENSE,sha256=0CCN4vhnkbIQoedW8lC-RpRjGdrRTIsVAeZAhScTDmE,1076
+DeepTorchBlocks-0.0.1.dist-info/METADATA,sha256=N6QyNc0Vjvxd6FLYEO4J_yn5g0jIC43c8Wga6zsyWfE,706
+DeepTorchBlocks-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+DeepTorchBlocks-0.0.1.dist-info/top_level.txt,sha256=Q81pJLttwkyS7TCF5jUUFi0G3tKmZfmELxA5vYNSGbk,11
+DeepTorchBlocks-0.0.1.dist-info/RECORD,,
