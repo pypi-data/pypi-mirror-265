@@ -1,0 +1,51 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "db_query_profiler"
+version = "0.0.6"
+description = "Lightweight database query profiler."
+authors = ["Bilbottom"]
+readme = "README.md"
+packages = [{include = "db_query_profiler"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tqdm = "^4"
+
+[tool.poetry.group]
+dev.optional = true
+test.optional = true
+ide.optional = true
+
+[tool.poetry.group.dev.dependencies]
+coverage-badge = "^1.1.0"
+pre-commit = "^2.21.0"
+pylint = "2.13.9"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+# Packages just for IDE integration
+[tool.poetry.group.ide.dependencies]
+black = "*"
+
+
+[tool.pytest.ini_options]
+addopts = "--cov=db_query_profiler --cov-report=term-missing --cov-fail-under=70"
+testpaths = ["tests"]
+
+
+[tool.isort]
+profile = "black"
+
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pylint.MASTER]
+ignore-paths = "^tests/.*$"
+disable = ["too-few-public-methods"]
