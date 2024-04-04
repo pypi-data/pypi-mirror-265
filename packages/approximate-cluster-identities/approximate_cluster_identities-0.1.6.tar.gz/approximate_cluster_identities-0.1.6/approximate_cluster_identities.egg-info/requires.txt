@@ -1,0 +1,9 @@
+biopython
+pandas
+matplotlib
+networkx
+numpy
+seaborn
+sourmash
+tqdm
+joblib

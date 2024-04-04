@@ -1,0 +1,2 @@
+[console_scripts]
+aci = approximate_cluster_identities.__main__:main

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+approximate_cluster_identities/__init__.py
+approximate_cluster_identities/__main__.py
+approximate_cluster_identities.egg-info/PKG-INFO
+approximate_cluster_identities.egg-info/SOURCES.txt
+approximate_cluster_identities.egg-info/dependency_links.txt
+approximate_cluster_identities.egg-info/entry_points.txt
+approximate_cluster_identities.egg-info/requires.txt
+approximate_cluster_identities.egg-info/top_level.txt
