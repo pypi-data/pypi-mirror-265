@@ -1,0 +1,6 @@
+setuptools
+matplotlib
+seaborn
+scikit-learn
+umap-learn
+biopython
