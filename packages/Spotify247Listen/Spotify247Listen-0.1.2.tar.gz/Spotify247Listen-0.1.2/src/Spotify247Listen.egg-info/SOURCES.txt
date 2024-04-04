@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+build.cmd
+main.py
+pyproject.toml
+src/Spotify247Listen/__init__.py
+src/Spotify247Listen/simple.py
+src/Spotify247Listen.egg-info/PKG-INFO
+src/Spotify247Listen.egg-info/SOURCES.txt
+src/Spotify247Listen.egg-info/dependency_links.txt
+src/Spotify247Listen.egg-info/requires.txt
+src/Spotify247Listen.egg-info/top_level.txt
+src/Spotify247Listen/core/__init__.py
+src/Spotify247Listen/utils/__init__.py
+src/Spotify247Listen/utils/helper_functions.py

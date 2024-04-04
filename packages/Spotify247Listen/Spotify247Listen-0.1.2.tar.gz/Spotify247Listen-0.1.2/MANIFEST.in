@@ -1,0 +1,6 @@
+include build.cmd
+include *.cmd
+include *.py
+include main.py
+include *.in
+include MANIFEST.in
