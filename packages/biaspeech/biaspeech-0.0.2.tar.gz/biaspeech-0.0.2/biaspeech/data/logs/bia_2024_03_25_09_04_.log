@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "./main.py", line 20, in <module>
+    from controllers.base import Controller
+  File "/Users/tylerdddd/Documents/Git/Otto/controllers/base.py", line 22, in <module>
+    from views.app import App
+  File "/Users/tylerdddd/Documents/Git/Otto/views/app.py", line 56
+    self.text_in = self.speech2Text.get_input().lower() # STT input
+    ^
+SyntaxError: invalid syntax
