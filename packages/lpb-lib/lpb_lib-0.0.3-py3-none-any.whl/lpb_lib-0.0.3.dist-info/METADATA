@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lpb_lib
+Version: 0.0.3
+Summary: This package contains tools that will help me to develop my projects
+Home-page: https://github.com/Fajitas08090/lpb_lib
+Author: fajitas30
+Author-email: maxime.renac@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lpb_lib
+This repo allows me to deploy the tools I need for my projects at LPB.
