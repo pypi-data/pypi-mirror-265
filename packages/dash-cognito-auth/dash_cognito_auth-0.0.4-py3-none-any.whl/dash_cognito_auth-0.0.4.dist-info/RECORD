@@ -1,0 +1,9 @@
+dash_cognito_auth/__init__.py,sha256=GvKbSDMJwtKxl4mXAqLV84LsLma_1Jw-2ax3rbF_9Us,274
+dash_cognito_auth/auth.py,sha256=2U0vwSROEVdwE4NdliU79HESROM3wfoLWbiLnEBZAR4,1217
+dash_cognito_auth/cognito.py,sha256=JYP2-6iM5jwBikPphuOcZpSfF58JxEEikSuEicRwT2Q,3653
+dash_cognito_auth/cognito_oauth.py,sha256=qYe6M38sm9WiUeuoYrKyKLPHS5dspeaiYdtONCIWFlw,4572
+dash_cognito_auth-0.0.4.dist-info/LICENSE.md,sha256=1U_tjApIi8zo93NMrSvTVoqv732p8IeCEf8bADEYD50,1112
+dash_cognito_auth-0.0.4.dist-info/METADATA,sha256=AdQP4IcxvZNO3kpYEtvugK9cDEmapsfKCd1FV5COEvs,3348
+dash_cognito_auth-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dash_cognito_auth-0.0.4.dist-info/top_level.txt,sha256=wjsflJLgzZRt4C7VbNzeTaw6wAqV6ks7VGMYHHCueG0,18
+dash_cognito_auth-0.0.4.dist-info/RECORD,,
