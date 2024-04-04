@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: akello_apps
+Version: 0.0.1
+Summary: Akello Apps
+Project-URL: Homepage, https://akello.io
+Project-URL: Issues, https://github.com/akello-io/akello/issues
+Author-email: Vijay Selvaraj <vijay@akellohealth.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+TBD
