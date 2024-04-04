@@ -1,0 +1,17 @@
+psy_ugrid-0.1.0.dist-info/entry_points.txt,sha256=HmdcvZI7rO3FNanwk-YePsE7e3oYgAqiTHvoZzelnl8,36
+psy_ugrid-0.1.0.dist-info/METADATA,sha256=X8LA9W_oDpcKfCG-gqEIo2b2qYqTcZ_mrkbvFdmAJXI,6357
+psy_ugrid-0.1.0.dist-info/top_level.txt,sha256=MqLrULxFLptdSpeh-VrvCDZ7rKEFKVlaV1HEUqhZU-s,10
+psy_ugrid-0.1.0.dist-info/LGPL-3.0-only.txt,sha256=mWrwUT3yH3SWKIlRxBQooDwXTp5KnWNmXFfWcPhFzLE,42098
+psy_ugrid-0.1.0.dist-info/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+psy_ugrid-0.1.0.dist-info/RECORD,,
+psy_ugrid-0.1.0.dist-info/WHEEL,sha256=XkEQ0Am0ZUm37-apNU2HgKrWa5q1iFrxTgVeYF-58Uk,111
+psy_ugrid-0.1.0.dist-info/CC-BY-4.0.txt,sha256=1VdTnfaOdxzB7tzJHRP3D8qTDlCNEe7cr6SxXbSeN0Q,17023
+psy_ugrid/_create_dual_node_mesh.cpython-310-i386-linux-gnu.so,sha256=kdExkDUPzf0at97Btx40__L1TMhlMhh0WkRaGwkvVb0,1145492
+psy_ugrid/decoder.py,sha256=Jc0lfa07s_rCsh5ClU-v6APs6_sOzNMqO8IgGoZiJLI,24152
+psy_ugrid/__init__.py,sha256=Hvbvg56SuMzN2TsJ5FzsugHWfH4aRQClsMSJdA2Yrx0,577
+psy_ugrid/_create_dual_node_mesh.c,sha256=9T5aGUEQWdkzSpbUo9qofN1QEd5KV_s5U4ysAsQmciY,1069473
+psy_ugrid/_version.py,sha256=cSNY1UPccGls9X4Idnun9Cv88VUerjxc8V2b2m3WDiU,497
+psy_ugrid/_create_dual_node_mesh.pyx,sha256=eF5HfplHWcbnbT2z_L6r7UuGajPOROyfBS6K5vSSomA,3517
+psy_ugrid/ugrid.py,sha256=N2u3VCqPSHZ0CNpJH5lwqJVCSM-3_UM36JzUonO2u-I,30526
+psy_ugrid/plotters.py,sha256=2WUclPO2t7Mzfnb5Eo-REKvTpkRybHVkrMpXek0b94A,1105
+psy_ugrid/plugin.py,sha256=SxtOH1cNIBQC3e53NwcoSz4gNu2GYJ3n37xRLxHAqi8,2731
