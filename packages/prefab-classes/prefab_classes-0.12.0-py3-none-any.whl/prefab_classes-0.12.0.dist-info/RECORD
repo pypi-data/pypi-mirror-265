@@ -1,0 +1,13 @@
+prefab_classes/__init__.py,sha256=gopfE23SZk5CLcYVqBaBzDeFfDd8XCpBEn9S_uG59fk,1967
+prefab_classes/__init__.pyi,sha256=Y9k3z9-YYB1zbJCiBPIbYt8sRAZpYnKnNoD9WFxsSdM,382
+prefab_classes/_class_generator.py,sha256=dTBJB7aDWI9YfCyenMJ9z9S--iTf30FQaY0u1c5_P7g,20246
+prefab_classes/_method_generators.py,sha256=qs5lR8lfnrUit8LB3uc4ScqBcwVws7VG9wrG1obgy04,12971
+prefab_classes/_shared.py,sha256=9Yuz4cwIHN1YC5EdyW3S1IHJKkPO7Wtfo_We7vdGpK4,2444
+prefab_classes/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+prefab_classes/funcs/__init__.py,sha256=uQNcLK_uJ1pZkhEEN5gBhaKkiyT3kLuhtyGUiJN0U2k,4853
+prefab_classes/funcs/_cache_funcs.py,sha256=brUmmG1YZru4lxOY3Wd-HlnVsQDGEQGquHkWXMkyAFY,3166
+prefab_classes-0.12.0.dist-info/LICENSE.md,sha256=6HJxZLtvN-uTLZovN2HlDyOotwQ13svQRs-v2zfeIqs,1740
+prefab_classes-0.12.0.dist-info/METADATA,sha256=dD5k3NiLWERsZ3T5qWhWCMD634o2zYPLwQzKTeyE3TY,11382
+prefab_classes-0.12.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prefab_classes-0.12.0.dist-info/top_level.txt,sha256=iwqUp0-jg1xBpk7EFYEXQDWLujf2cVbz5DX20Oc68bU,15
+prefab_classes-0.12.0.dist-info/RECORD,,
