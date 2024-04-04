@@ -1,0 +1,16 @@
+qci_client/__init__.py,sha256=Nk5w2s9WswRbhkXWkNeYjKCl_W2y0csYdIicGlzigjo,136
+qci_client/base.py,sha256=TPlZnt3ZDkxodCbMdFtDSo98kDjGU5GiQtSY5ouFJqw,6019
+qci_client/data_converter.py,sha256=_PwVNuKN-m5fSAt0MVedwhxYoVjlnaeHmjETmLdou48,5234
+qci_client/enum.py,sha256=zT21DLpTF4ueFCKoVgPKLz99OsQSsk0emLTLQreOHjI,1587
+qci_client/qci_client.py,sha256=f8M200fYnq0U67VmNWqtw22MFe1i3L8C0mM4MWe7RiE,26746
+qci_client/types.py,sha256=zqsXxH9VuLDfpsBaE2IEbMv627G1dnU6yUVgZ9l3XLI,13005
+qci_client/utilities.py,sha256=1YPCzrdw7gTwrXiC60s31iHqm8vtEel6db_F9AGgLiU,16140
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data_converter.py,sha256=nhjmJH4PWOHLOSecSPMM1scAOGtl5CKlg2sw5NjYXLk,12057
+tests/test_qci_client.py,sha256=QDSehk-BakIdwa0r_WhKj7dOjlsve93vIPRgqKmfZsw,29749
+tests/test_remote_jobs.py,sha256=ygx5mHZ4pkWQx1qxt8Uqz7sAb8J4gZsTkwjsu34LoaQ,7826
+qci_client-3.1.0.dist-info/LICENSE,sha256=8eh0oqsNNVR1Jk-13gkqRRSo2axtUU5kp2KzH4f9u3U,11354
+qci_client-3.1.0.dist-info/METADATA,sha256=RCQccsSs4iOzcg4Kt_-rrA3R-MbVj9SQGbDKRZM8MQ4,2178
+qci_client-3.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qci_client-3.1.0.dist-info/top_level.txt,sha256=MblPAORzqAj0Nby1KQFz9tixdFXXEuijRwhiqps2vo0,17
+qci_client-3.1.0.dist-info/RECORD,,
