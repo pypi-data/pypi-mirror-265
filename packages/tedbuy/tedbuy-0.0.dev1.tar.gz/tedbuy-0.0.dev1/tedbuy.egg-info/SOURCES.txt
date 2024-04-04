@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+tedbuy/__init__.py
+tedbuy/buy.py
+tedbuy.egg-info/PKG-INFO
+tedbuy.egg-info/SOURCES.txt
+tedbuy.egg-info/dependency_links.txt
+tedbuy.egg-info/top_level.txt
