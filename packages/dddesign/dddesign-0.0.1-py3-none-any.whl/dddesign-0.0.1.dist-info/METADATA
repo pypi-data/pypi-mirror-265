@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dddesign
+Version: 0.0.1
+Summary: Domain Driven Design Library
+Author: davyddd
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pydantic (>=1.10,<2.0)
+Description-Content-Type: text/markdown
+
+# dddesign
