@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+cliflow.egg-info/PKG-INFO
+cliflow.egg-info/SOURCES.txt
+cliflow.egg-info/dependency_links.txt
+cliflow.egg-info/top_level.txt
