@@ -1,0 +1,2 @@
+[console_scripts]
+graylint = graylint.__main__:main_with_error_handling
