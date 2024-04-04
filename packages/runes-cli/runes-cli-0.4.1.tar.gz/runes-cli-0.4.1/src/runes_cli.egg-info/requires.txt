@@ -1,0 +1,6 @@
+click
+docker
+questionary
+urllib3
+requests
+appdirs
