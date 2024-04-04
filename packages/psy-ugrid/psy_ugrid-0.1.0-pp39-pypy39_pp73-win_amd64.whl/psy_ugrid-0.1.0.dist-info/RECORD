@@ -1,0 +1,17 @@
+psy_ugrid/__init__.py,sha256=pbGWYQkKan3rVedltrkehqGm5PnwIWuWdr6zc00prag,603
+psy_ugrid/_create_dual_node_mesh.c,sha256=9T5aGUEQWdkzSpbUo9qofN1QEd5KV_s5U4ysAsQmciY,1069473
+psy_ugrid/_create_dual_node_mesh.pypy39-pp73-win_amd64.pyd,sha256=NnEw9Iwlh39OmV5x6EhV8PgIrKcMX-WTQYIjLoZYL9U,152064
+psy_ugrid/_create_dual_node_mesh.pyx,sha256=HK_OuQrNBxzyMx6P_2sy2l4q2vOgmQAgcE7Uhj8YEro,3623
+psy_ugrid/_version.py,sha256=zRo4sgykDk7nCUTwtcUFkgOAQPel3Jf-3FbzoGc_TiA,518
+psy_ugrid/decoder.py,sha256=Z-myyqcVWn35TY-LXmw8H1CKs9U0oBrNvpjdXKV38_I,24885
+psy_ugrid/plotters.py,sha256=GH5mEP2VM427vFEc2kSU74BY1OrYt1BRR2PR2WkQ_wo,1139
+psy_ugrid/plugin.py,sha256=jNnakI7fxy_cpiCu8GXgvuGQdL-2hg4LrMvKY0LhE5A,2818
+psy_ugrid/ugrid.py,sha256=kF7BehB6HbM-2tvfWbhZV45XKHUTD3ZpEHNQFIObY4M,31376
+psy_ugrid-0.1.0.dist-info/CC-BY-4.0.txt,sha256=RQAgC5GssTJFONjo-WZdX0FC0_HFzZcwVkzxiVthcPc,17179
+psy_ugrid-0.1.0.dist-info/CC0-1.0.txt,sha256=9Ofzc7m5lpUDN-jUGkopOcLZC3cl6brz1QhKInF60yg,7169
+psy_ugrid-0.1.0.dist-info/LGPL-3.0-only.txt,sha256=nUeUYpsPD58HjDfHv-sti_MT71zWdBgDij3e3a1JGyE,42402
+psy_ugrid-0.1.0.dist-info/METADATA,sha256=V7Z5162WuRnjO3OFxpaYpDNyxNqWWxCq96IBkp_w7Q8,6516
+psy_ugrid-0.1.0.dist-info/WHEEL,sha256=0MDxp1g6SMi6x5fNLQYB_oq4z1ZIM2F5EzPGH_eSWIs,107
+psy_ugrid-0.1.0.dist-info/entry_points.txt,sha256=HmdcvZI7rO3FNanwk-YePsE7e3oYgAqiTHvoZzelnl8,36
+psy_ugrid-0.1.0.dist-info/top_level.txt,sha256=MqLrULxFLptdSpeh-VrvCDZ7rKEFKVlaV1HEUqhZU-s,10
+psy_ugrid-0.1.0.dist-info/RECORD,,
