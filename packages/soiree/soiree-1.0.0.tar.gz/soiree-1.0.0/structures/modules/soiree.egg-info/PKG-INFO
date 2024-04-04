@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: soiree
+Version: 1.0.0
+Summary: The dreams that found there way to a canvas.
+License: GPL 3.0 + MongoDB SSPL
+Keywords: stories,roads,rollercoasters,motion-motions,motion-moves,motion-pictures,reels,reelity,reality,custom-support-required
+Description-Content-Type: text/markdown
+Requires-Dist: bracelet
+Requires-Dist: carbonado
+Requires-Dist: ships
+Requires-Dist: asn1crypto
+Requires-Dist: aztec_code_generator
+Requires-Dist: click
+Requires-Dist: ecdsa
+Requires-Dist: ECPy
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: flask-openapi3
+Requires-Dist: rich
+Requires-Dist: selenium
+Requires-Dist: textual
+Requires-Dist: websockets
+Requires-Dist: pycryptodome
+Requires-Dist: PyOpenSSL
+Requires-Dist: pymongo
+Requires-Dist: pyzbar
+Requires-Dist: qrcode
+
+******
+
+Bravo!  You have received a Mercantilism Diploma in "soiree" from   
+the Simulated Parallel Science Universe Fictional Fantasy Orbital Convergence University   
+International Air and Water Embassy Naturalization Department of the Mango Planet
+(the planet that is one ellipse closer to the Sun than Earth's ellipse).    
+
+You are now officially certified to perform "soiree" operations in your   
+simulated parallel science universe fictional fantasy practice!    
+
+Encore! Encore! Encore! Encore!
+
+******
+
+
+# soiree
+for motion picture use, etc.   
+
+---
+
+## description
+Welcome to soiree.
+
+---
+
+## install
+```
+[xonsh] pip install soiree
+```
+
+### MongoDB (Community Edition) also needs to be installed  
+https://www.mongodb.com/docs/manual/administration/install-community/   
+
+--
+
+## tutorial
+```
+[xonsh] soiree tutorial
+```
+--
+
+## instrument
+```
+[xonsh] soiree instrument layer start --name instrument-1
+```
+
+---
+
+## stage
+```
+[xonsh] soiree stage layer start --name stage-1
+```
+
+---
+
+## vibe generator
+This can be found in the tutorial at "modules/EEC_448_2/tutorial"

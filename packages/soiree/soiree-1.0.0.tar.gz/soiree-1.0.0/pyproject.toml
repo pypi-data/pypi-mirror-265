@@ -1,0 +1,114 @@
+
+
+
+
+#
+#		docker run -v .:/soiree -it jumps:v2.1.0
+#		git config --global --add safe.directory /soiree
+#
+
+#
+#	how to publish:
+#
+#		pip install build
+#		pip install twine
+#		apt install python3.10-venv
+#
+#		cp structures/modules/soiree/module.MD readme.md
+#		python3 structures/modules/soiree/_status/status.proc.py
+#		(rm -rf dist && python3 -m build && twine upload dist/*)
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soiree"
+version = "1.0.0"
+dependencies = [
+
+	"bracelet",
+
+	# --
+
+	"carbonado",
+	"ships",
+	
+	# --
+	
+	"asn1crypto",
+	"aztec_code_generator",
+	"click",
+	"ecdsa",
+	"ECPy",
+	
+	"flask",
+	"flask-cors",
+	"flask-openapi3",
+	
+	"rich",
+	"selenium",
+	"textual",
+	"websockets",
+		# sudo dnf install python3-devel
+		# socketio
+		# eventlet
+	
+	"pycryptodome",
+	"PyOpenSSL",
+	"pymongo",
+	"pyzbar",
+	"qrcode"
+]
+
+
+license = { text = "GPL 3.0 + MongoDB SSPL" }
+
+description = "The dreams that found there way to a canvas."
+readme = "structures/modules/soiree/module.MD"
+
+#
+#	https://packaging.python.org/en/latest/specifications/declaring-project-metadata/#keywords
+#
+keywords = [
+	"stories",
+	"roads",
+	"rollercoasters",
+	"motion-motions",
+	"motion-moves",
+	"motion-pictures",
+	"reels",
+	"reelity",
+	"reality",
+	"custom-support-required"
+]
+
+[project.scripts]
+#
+#	https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#creating-executable-scripts
+#	from this_module import start_clique; start_clique ()
+#
+soiree = "soiree:start_clique"
+
+
+[tool.setuptools.packages.find]
+where = [ "structures/modules" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.html", "*.s.HTML", "*.jpg", "*.js", "*.css" ]
+
+
+#
+#	https://stackoverflow.com/questions/75634466/include-or-exclude-license-files-from-package-data-with-pyproject-toml-and-set
+#	https://stackoverflow.com/questions/608855/excluding-a-top-level-directory-from-a-setuptools-package
+#
+#[tool.setuptools.exclude-package-data]
+#"*" = []
+
+
+
+
