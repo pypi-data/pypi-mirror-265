@@ -1,0 +1,11 @@
+siliconcompiler==0.21.7
+
+[docs]
+Sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+autodocsumm==0.2.12
+
+[test]
+pytest==8.1.1
+pytest-timeout==2.3.1
+flake8==7.0.0
