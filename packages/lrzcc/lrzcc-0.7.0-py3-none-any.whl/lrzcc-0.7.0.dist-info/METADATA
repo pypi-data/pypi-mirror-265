@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: lrzcc
+Version: 0.7.0
+Summary: Command line client for LRZ specific features of the Compute Cloud (cc.lrz.de).
+Author-email: Sandro-Alessio Gierens <gierens@lrz.de>
+Maintainer-email: Sandro-Alessio Gierens <gierens@lrz.de>, Niels Fallenbeck <fallenbeck@lrz.de>
+License: MIT License
+        
+        Copyright (c) 2024 Leibniz Supercomputing Centre
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/LRZ-BADW/lrzcc/
+Project-URL: Documentation, https://doku.lrz.de/compute-cloud-10333232.html
+Project-URL: Repository, https://github.com/LRZ-BADW/lrzcc.git
+Project-URL: Bug Tracker, https://github.com/LRZ-BADW/lrzcc/issues
+Project-URL: Changelog, https://github.com/LRZ-BADW/lrzcc/blob/master/CHANGELOG.md
+Keywords: lrz,cloud,compute cloud,api client,cli
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argcomplete ==3.1.1
+Requires-Dist: certifi ==2023.5.7
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: idna ==3.4
+Requires-Dist: requests ==2.31.0
+Requires-Dist: tabulate ==0.9.0
+Requires-Dist: urllib3 ==2.0.3
+
+# README
+
+Command line tool for the LRZ Compute Cloud
+[https://cc.lrz.de](https://cc.lrz.de).
+
+## Installation
+
+```bash
+pip install lrzcc
+```
