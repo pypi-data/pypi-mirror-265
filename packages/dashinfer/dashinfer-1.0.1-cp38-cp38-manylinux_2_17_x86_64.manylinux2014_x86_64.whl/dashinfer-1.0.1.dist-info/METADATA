@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dashinfer
+Version: 1.0.1
+Summary: DashInfer is a production-level Large Language Pre-trained Model (LLM) inference engine developed by Tongyi Laboratory, which is currently applied to the backend inference of Alibaba Tongyi-Qwen, Tongyi-Lingma, and DashScope Platform.
+Author: DashInfer team
+Author-email: Dash-Infer@alibabacloud.com
+License: Apache License 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: protobuf ==3.18
+
