@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: fits2rgb
+Version: 0.1.1
+Summary: Merge multiple FITS images into a single FITS RGB file.
+Author: Maurizio D'Addona
+Author-email: mauritiusdadd@gmail.com
+Maintainer: Maurizio D'Addona
+Maintainer-email: mauritiusdadd@gmail.com
+License: BSD 3-Clause License
+        
+        Copyright (c) 2023, Maurizio D'Addona
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: repository, https://github.com/mauritiusdadd/fits2rgb
+Keywords: imaging,FITS,astronomy
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: astropy
+Requires-Dist: reproject
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: tqdm; extra == "test"
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7808276.svg)](https://doi.org/10.5281/zenodo.7808276) 
+[![Testing](https://github.com/mauritiusdadd/fits2rgb/actions/workflows/test_linux.yml/badge.svg)](https://github.com/mauritiusdadd/fits2rgb/actions/workflows/test_linux.yml)
+[![Documentation Status](https://readthedocs.org/projects/fits2rgb/badge/?version=latest)](https://fits2rgb.readthedocs.io/en/latest/?badge=latest)
+[![Coverage Status](https://coveralls.io/repos/github/mauritiusdadd/fits2rgb/badge.svg)](https://coveralls.io/github/mauritiusdadd/fits2rgb)
+
+# fits2rgb 
+
+A simple program for making coadded RGB FITS images for visualization. 
+
+Full documentation is available at https://fits2rgb.readthedocs.io/en/latest/index.html
+
+# Installation
+
+### Installing a Packaged Release
+
+The simplest way to install fits2rgb is using ``pip`` and, since it is a good practice to not mess up the system-wide python environment, you should install this program in a virtual environment. If you don't have a virtual environment yet, you can create one with the command
+
+```
+python -m venv env_name
+```
+
+For example, to create a virtual environment called "astro", you can use the command
+
+```
+python -m venv astro
+```
+
+and you can activate it with
+
+```
+source astro/bin/activate
+```
+Then run
+
+```
+pip install fits2rgb
+```
+    
+After the installation, to update redmost to the most recent release, use
+
+```
+pip install fits2rgb --upgrade
+```
+    
+### Installing from GitHub
+
+If you like to use the bleeding-edge version from this repository, do
+
+```
+git clone 'https://github.com/mauritiusdadd/fits2rgb.git'
+cd fits2rgb
+pip install .
+```
+
+After the installation, to upgrade to most recent commit use
+
+```
+git pull
+pip install . --upgrade
+```
+
+Then run ```pytest``` to check everything is ok.
+
+# Usage
+
+To create a default configuration file, use the command
+
+```
+fits2rgb -d
+```
+
+this will create a file named fits2rgb.json that you can edit to specify how and which files you want to coadd.
+Then you can run the program by simply invoking it from the command line. 
+
+```
+fits2rgb
+```
+
+You can also specify which configuration file to use, for example
+
+```
+fits2rgb -c fits2rgb.json
+```
+
+For more dtails, please refer to the [documentation](https://fits2rgb.readthedocs.io/en/latest/index.html).

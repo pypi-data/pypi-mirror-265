@@ -1,0 +1,8 @@
+numpy
+scipy
+astropy
+reproject
+
+[test]
+pytest
+tqdm
