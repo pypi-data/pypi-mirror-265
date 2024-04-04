@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bits-github
+Version: 1.5.0
+Summary: BITS GitHub Package for Python
+Home-page: https://github.com/broadinstitute/bits-github.git
+License: BSD-3-Clause
+Keywords: bits,github
+Author: Lukas Karlsson
+Author-email: karlsson@broadinstitute.org
+Requires-Python: >=3.9,<3.12.1
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bits-google (>=1.13.8,<2.0.0)
+Requires-Dist: google-cloud-datastore (>=2.19.0,<3.0.0)
+Requires-Dist: google-cloud-firestore (>=2.15.0,<3.0.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: pytz
+Project-URL: Repository, https://github.com/broadinstitute/bits-github.git
+Description-Content-Type: text/markdown
+
+# bits-github
+BITS GitHub package for python
+
