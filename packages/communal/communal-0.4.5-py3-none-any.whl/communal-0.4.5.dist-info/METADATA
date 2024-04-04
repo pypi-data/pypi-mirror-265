@@ -1,0 +1,34 @@
+Metadata-Version: 2.3
+Name: communal
+Version: 0.4.5
+Summary: A library of commonly used Python utilities and functions
+Project-URL: Homepage, https://github.com/goodcleanfun/communal
+Project-URL: Repository, https://github.com/goodcleanfun/communal
+Author: Al Barrentine
+License-Expression: MIT
+License-File: LICENSE
+Keywords: communal,utils
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: chardet
+Requires-Dist: fsspec>=2022.3.0
+Requires-Dist: ftfy
+Requires-Dist: furl
+Requires-Dist: inflect
+Requires-Dist: pendulum
+Requires-Dist: python-dateutil
+Requires-Dist: pytz>=2022.1
+Requires-Dist: requests
+Requires-Dist: user-agents
+Description-Content-Type: text/markdown
+
+# communal
+A library of common Python utilities and functions
