@@ -1,0 +1,10 @@
+cmi_docx/__init__.py,sha256=LJYZHtVsNzhC3DYnozfdubMq9OzoGTkG84F2CBCvBjQ,295
+cmi_docx/document.py,sha256=wn2j9poIznbBudhFL8t-oFsjNCU7TEiZGZPzAkH3Srg,4801
+cmi_docx/paragraph.py,sha256=QQIXli-i1-jhU8BeOCIFZgS5QewWQu3SqWDPdVoUgSM,4925
+cmi_docx/run.py,sha256=uGelZlF985wfsQCiR1zBgc2Ch0x0R38JxeNGv744J0w,4253
+cmi_docx/table.py,sha256=WHcV6lDZYmBkuRawVuIuQlTlwMGEKj6r2UFcmuw3-7s,2347
+cmi_docx/utils.py,sha256=ifLoC7QUDauUo8hwx5--tNEnUM1edHdPvKMn4Ao_hpU,440
+cmi_docx-0.1.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+cmi_docx-0.1.1.dist-info/METADATA,sha256=o8Dl5M9jwUc9HJ6oR4zFWH3OXOgTPkkrZN3KY4QGVGQ,3278
+cmi_docx-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cmi_docx-0.1.1.dist-info/RECORD,,
