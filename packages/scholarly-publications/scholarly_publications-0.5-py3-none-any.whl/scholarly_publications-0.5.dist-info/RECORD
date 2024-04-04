@@ -1,0 +1,9 @@
+scholarly_publications/__init__.py,sha256=303bNTpXlMcBTJJypjD4ugzb9HwGW7YCeGNc1ZYHWYg,65
+scholarly_publications/cli.py,sha256=e7yzU3gxYm7OuAXonQ5Z7fDViAdUViTSHuvtpUoKJ70,549
+scholarly_publications/fetcher.py,sha256=popZmPQSapntHi2EFxMuIr5ybmHIEsZrSpGdg9CVXdA,2740
+scholarly_publications-0.5.dist-info/LICENSE,sha256=B_9w2Vc-QhkS_LxrvfnXkDDDaCsIQmxL7S_5d5jSlkQ,1072
+scholarly_publications-0.5.dist-info/METADATA,sha256=zp15IrwPCdWjMFSWvA6CtymqwuUYfTpDoE76hEF_zZA,3286
+scholarly_publications-0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scholarly_publications-0.5.dist-info/entry_points.txt,sha256=52x3guxgu_1oID-XElND-X8cIiLbKSpm-Id6-lTXsvA,75
+scholarly_publications-0.5.dist-info/top_level.txt,sha256=GS3dFnCYNuvUTfS6f2QZdNuhK_xo5JqrDXR4QTrEzAc,23
+scholarly_publications-0.5.dist-info/RECORD,,
