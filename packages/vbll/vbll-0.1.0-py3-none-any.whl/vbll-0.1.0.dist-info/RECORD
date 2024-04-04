@@ -1,0 +1,7 @@
+vbll/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vbll/layers/classification.py,sha256=MNAP9KrmuMLlolCkqWB0kZ-hunOdPFf49kETqwljGIc,9317
+vbll/layers/regression.py,sha256=45lu9u4gnzbB57Nf5CZrh-WUWgKhXSKkTF9V0Ybl5m4,4413
+vbll/utils/distributions.py,sha256=-pWvWcAuM70drLj-we5LSWBz1AS7iXAnon8x3Blan8w,4445
+vbll-0.1.0.dist-info/METADATA,sha256=uI5HRPRbkjl2yIIfI4wKKpzImB9elyVwCH9OFJHJPgM,2029
+vbll-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vbll-0.1.0.dist-info/RECORD,,
