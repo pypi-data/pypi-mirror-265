@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "elf-py-utils"
+version = "0.1.3.5"
+description = ""
+authors = ["TreeOfWord <li_163jx@163.com>"]
+readme = "README.md"
+packages = [{include = "elf_py_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

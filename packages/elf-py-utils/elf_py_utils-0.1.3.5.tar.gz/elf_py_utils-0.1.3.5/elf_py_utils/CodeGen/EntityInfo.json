@@ -1,0 +1,14 @@
+{
+  "entity_info": "ModelParam",
+  "column_info":
+  {
+    "tenant_id": {"type": "str","comment": "租户id"},
+    "model_id": {"type": "str","comment": "模型id"},
+    "model_mark": {"type": "str","comment": "模型标识"},
+    "param_mark": {"type": "str","comment": "参数标识"},
+    "param_name": {"type": "str","comment": "参数名称"},
+    "param_type": {"type": "int","comment": "参数类型"},
+    "state": {"type": "int","comment": "逻辑删除"},
+    "create_option": {"type": "int","comment": "参数注册方式"}
+  }
+}
