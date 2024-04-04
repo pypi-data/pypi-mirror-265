@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: normalize-companies-names
+Version: 1.0
+Summary: A custom Python library to add new column with normalized companies names under a new column on Excel file
+Author: Willerson Abreu
+Author-email: willersonabreu@hotmail.com
+Requires-Dist: click
+Requires-Dist: thefuzz
+Requires-Dist: pandas
+Requires-Dist: openpyxl

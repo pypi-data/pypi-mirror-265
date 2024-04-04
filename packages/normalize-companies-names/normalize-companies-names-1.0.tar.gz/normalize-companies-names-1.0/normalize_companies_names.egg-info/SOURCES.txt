@@ -1,0 +1,11 @@
+README.md
+setup.py
+normalize_companies_names.egg-info/PKG-INFO
+normalize_companies_names.egg-info/SOURCES.txt
+normalize_companies_names.egg-info/dependency_links.txt
+normalize_companies_names.egg-info/entry_points.txt
+normalize_companies_names.egg-info/requires.txt
+normalize_companies_names.egg-info/top_level.txt
+src/__init__.py
+src/library.py
+src/main.py
