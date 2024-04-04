@@ -1,0 +1,9 @@
+jupyter_server==2.12.5
+xmltodict==0.13.0
+
+[test]
+coverage
+pytest
+pytest-asyncio
+pytest-cov
+pytest-tornasync
