@@ -1,0 +1,10 @@
+prrr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prrr/commands/init.py,sha256=4FLArUnuB3YmQMoBEtf1N0UVDMQImmdECuHewkb-tGY,1918
+prrr/commands/pr.py,sha256=SUqnLnyNftUgTZjgUKL5M6x4IqlJV8Tsh_AgnGrwRZ8,2899
+prrr/main.py,sha256=LIFbzrzbDBl99YT-tiG1ggn_2zO-UStz77HQpLPd72w,397
+prrr/utils/config_reader.py,sha256=V8WOtQusPG3O8_a4a6-MFEjyUQR2FSAQdjzF_tSYNrM,172
+prrr/utils/git.py,sha256=QUTHQvM04mxkLX7ArGCu1HfNTj5VTLGub2bK8In9zzg,756
+prrr-0.1.0.dist-info/METADATA,sha256=HMjxxwMYMIE4hv3lFQwYBRy4yU2iSjhZILT4TxBxxAI,3756
+prrr-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+prrr-0.1.0.dist-info/entry_points.txt,sha256=x_xiY7JmCGnJMNJLBr32k6p5CW417p4Qhw51Lo5CxJk,38
+prrr-0.1.0.dist-info/RECORD,,
