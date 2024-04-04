@@ -1,0 +1,7 @@
+itkwasm_compare_meshes_wasi/__init__.py,sha256=BkOxrNmXsEpTik7qSjWZScB6J0yyTYNCnemgbBkr99A,244
+itkwasm_compare_meshes_wasi/_version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+itkwasm_compare_meshes_wasi/compare_meshes.py,sha256=sLu5kRC6CaSul-_U5j-mBE5LxQ9bMVp_3GF1XY3nZZQ,4950
+itkwasm_compare_meshes_wasi/wasm_modules/compare-meshes.wasi.wasm,sha256=RTw1ZqPNSQ2Sx1aHwKNC9EwLn_DW2y8wuB-dhr7-TfQ,1183927
+itkwasm_compare_meshes_wasi-0.2.0.dist-info/METADATA,sha256=y1g1S5SasnXnyrEYsrmAfEK0gYkONHKT75URDZy00mY,1807
+itkwasm_compare_meshes_wasi-0.2.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+itkwasm_compare_meshes_wasi-0.2.0.dist-info/RECORD,,
