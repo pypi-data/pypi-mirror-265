@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pixelyai_core.egg-info/PKG-INFO
+src/pixelyai_core.egg-info/SOURCES.txt
+src/pixelyai_core.egg-info/dependency_links.txt
+src/pixelyai_core.egg-info/requires.txt
+src/pixelyai_core.egg-info/top_level.txt
