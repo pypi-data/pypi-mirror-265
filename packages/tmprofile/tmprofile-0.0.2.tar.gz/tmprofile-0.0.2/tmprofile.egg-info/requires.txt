@@ -1,0 +1,5 @@
+numpy
+matplotlib
+psutil
+prettytable
+nvidia_ml_py3
