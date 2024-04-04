@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: psy-maps
+Version: 1.5.0
+Summary: Psyplot plugin for visualization on a map
+Author-email: "Philipp S. Sommer" <philipp.sommer@hereon.de>
+Maintainer-email: "Philipp S. Sommer" <philipp.sommer@hereon.de>
+License: LGPL-3.0-only
+Project-URL: Homepage, https://codebase.helmholtz.cloud/psyplot/psy-maps
+Project-URL: Documentation, https://psyplot.github.io/psy-maps
+Project-URL: Source, https://codebase.helmholtz.cloud/psyplot/psy-maps
+Project-URL: Tracker, https://codebase.helmholtz.cloud/psyplot/psy-maps/issues/
+Keywords: visualization,psyplot,netcdf,matplotlib,cartopy,maps,georeferenced
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSES/CC-BY-4.0.txt
+License-File: LICENSES/CC0-1.0.txt
+License-File: LICENSES/LGPL-3.0-only.txt
+Requires-Dist: psyplot >=1.5.0
+Requires-Dist: psy-simple >=1.5.0
+Requires-Dist: cartopy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: psy-maps[testsite] ; extra == 'dev'
+Requires-Dist: psy-maps[docs] ; extra == 'dev'
+Requires-Dist: PyYAML ; extra == 'dev'
+Requires-Dist: types-PyYAML ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: autodocsumm ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: hereon-netcdf-sphinxext ; extra == 'docs'
+Requires-Dist: sphinx-design ; extra == 'docs'
+Provides-Extra: testsite
+Requires-Dist: tox ; extra == 'testsite'
+Requires-Dist: isort ==5.12.0 ; extra == 'testsite'
+Requires-Dist: black ==23.1.0 ; extra == 'testsite'
+Requires-Dist: blackdoc ==0.3.8 ; extra == 'testsite'
+Requires-Dist: flake8 ==6.0.0 ; extra == 'testsite'
+Requires-Dist: pre-commit ; extra == 'testsite'
+Requires-Dist: mypy ; extra == 'testsite'
+Requires-Dist: pytest-cov ; extra == 'testsite'
+Requires-Dist: reuse ; extra == 'testsite'
+Requires-Dist: cffconvert ; extra == 'testsite'
+Requires-Dist: pytest-xdist ; extra == 'testsite'
+Requires-Dist: dask ; extra == 'testsite'
+Requires-Dist: netCDF4 ; extra == 'testsite'
+Requires-Dist: seaborn ; extra == 'testsite'
+Requires-Dist: psyplot-gui ; extra == 'testsite'
+Requires-Dist: pytest-qt ; extra == 'testsite'
+
+.. SPDX-FileCopyrightText: 2021-2024 Helmholtz-Zentrum hereon GmbH
+..
+.. SPDX-License-Identifier: CC-BY-4.0
+
+========================================================
+psy-maps: The psyplot plugin for visualizations on a map
+========================================================
+
+.. start-badges
+
+|CI|
+|Code coverage|
+|Latest Release|
+|PyPI version|
+|Code style: black|
+|Imports: isort|
+|PEP8|
+|REUSE status|
+
+.. end-badges
+
+Welcome to the psyplot plugin for visualizations on a map. This package uses the
+cartopy_ package to project the plots that are made with the psy-simple_ plugin
+to an earth-referenced grid. It's main plot methods are the
+mapplot_ and mapvector_ plot methods which can plot
+rectangular and triangular plots.
+
+See the full documentation on
+`psyplot.github.io/psy-maps/ <http://psyplot.github.io/psy-maps>`__ for all
+`plot methods`_, and checkout the examples_.
+
+
+.. _cartopy: http://scitools.org.uk/cartopy
+.. _mapplot: http://psyplot.github.io/psy-maps/generated/psyplot.project.plot.mapplot.html#psyplot.project.plot.mapplot
+.. _mapvector: http://psyplot.github.io/psy-maps/generated/psyplot.project.plot.mapvector.html#psyplot.project.plot.mapvector
+.. _psy-simple: http://psyplot.github.io/psy-simple/
+.. _plot methods: http://psyplot.github.io/psy-maps/en/latest/plot_methods
+.. _examples: http://psyplot.github.io/examples/
+
+
+Copyright
+---------
+Copyright © 2021 Helmholtz-Zentrum Hereon, 2020-2021 Helmholtz-Zentrum
+Geesthacht, 2016-2021 University of Lausanne
+
+psy-maps and is released under the GNU LGPL-3.O license.
+See COPYING and COPYING.LESSER in the root of the repository for full
+licensing details.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License version 3.0 as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU LGPL-3.0 license for more details.
+
+You should have received a copy of the GNU LGPL-3.0 license
+along with this program.  If not, see https://www.gnu.org/licenses/.
+
+.. |CI| image:: https://codebase.helmholtz.cloud/psyplot/psy-maps/badges/master/pipeline.svg
+   :target: https://codebase.helmholtz.cloud/psyplot/psy-maps/-/pipelines?page=1&scope=all&ref=master
+.. |Code coverage| image:: https://codebase.helmholtz.cloud/psyplot/psy-maps/badges/master/coverage.svg
+   :target: https://codebase.helmholtz.cloud/psyplot/psy-maps/-/graphs/master/charts
+.. |Latest Release| image:: https://codebase.helmholtz.cloud/psyplot/psy-maps/-/badges/release.svg
+   :target: https://codebase.helmholtz.cloud/psyplot/psy-maps
+.. |PyPI version| image:: https://img.shields.io/pypi/v/psy-maps.svg
+   :target: https://pypi.python.org/pypi/psy-maps/
+.. |Code style: black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+.. |Imports: isort| image:: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
+   :target: https://pycqa.github.io/isort/
+.. |PEP8| image:: https://img.shields.io/badge/code%20style-pep8-orange.svg
+   :target: https://www.python.org/dev/peps/pep-0008/
+.. |REUSE status| image:: https://api.reuse.software/badge/codebase.helmholtz.cloud/psyplot/psy-maps
+   :target: https://api.reuse.software/info/codebase.helmholtz.cloud/psyplot/psy-maps
