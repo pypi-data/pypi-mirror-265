@@ -1,0 +1,175 @@
+
+ci:
+  skip: [pyright]
+
+exclude: 'scripts/.*|tests/.*'
+
+repos:
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.5.0
+  hooks:
+    - id: check-added-large-files
+    - id: check-ast
+    - id: check-case-conflict
+    - id: check-docstring-first
+    - id: check-executables-have-shebangs
+    - id: check-json
+    - id: check-merge-conflict
+      args:
+        - --assume-in-merge
+    - id: check-shebang-scripts-are-executable
+    - id: check-symlinks
+    - id: check-toml
+    - id: check-vcs-permalinks
+    - id: check-xml
+    - id: check-yaml
+    - id: debug-statements
+    - id: destroyed-symlinks
+    - id: detect-private-key
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: requirements-txt-fixer
+    - id: trailing-whitespace
+    - id: fix-encoding-pragma
+      args:
+      - --remove
+    - id: name-tests-test
+      args:
+      - --pytest-test-first
+    - id: no-commit-to-branch
+    - id: pretty-format-json
+      args: ['--autofix']
+    # - id: sort-simple-yaml
+        # files: .pre-commit-config.yaml
+
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v1.9.0
+  hooks:
+  - id: mypy
+    name: mypy
+    language: python
+    language_version: python 3.12
+    types: [python]
+    require_serial: true
+    verbose: true
+    additional_dependencies: ['types-requests']
+    # exclude: "tests"
+    # args:
+    # - --ignore-missing-imports
+    # files: ^(src/|tests/)
+
+- repo: https://github.com/PyCQA/isort
+  rev: 5.13.2
+  hooks:
+  - id: isort
+    args: ["--profile", "black", "--filter-files", "--combine-as", "honor--noqa"]
+
+- repo: https://github.com/psf/black
+  rev: 24.3.0
+  hooks:
+  - id: black
+    language_version: python3.8
+    args: ["--skip-magic-trailing-comma"]
+
+- repo: https://github.com/asottile/pyupgrade
+  rev: v3.15.2
+  hooks:
+  - args:
+    - --py38-plus
+    id: pyupgrade
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks
+  rev: v1.5.5
+  hooks:
+  - id: remove-tabs
+
+# - repo: https://github.com/commitizen-tools/commitizen
+#   rev: v2.40.0
+#   hooks:
+#   - id: commitizen
+
+# pylint still broken in python 3.12
+# - repo: https://github.com/pre-commit/mirrors-pylint
+#   rev: v3.0.0a5
+#   hooks:
+#   - id: pylint
+#     exclude: "tests"
+#     name: pylint
+#     args:
+#     - --good-names=i,j,_,f
+#     - --disable=protected-access
+#     - --disable=no-member
+#     - --disable=import-error
+#     - --disable=no-name-in-module
+#     - --load-plugins=pylint.extensions.docparams
+#     - --accept-no-param-doc=n
+#     - --accept-no-raise-doc=n
+#     - --accept-no-return-doc=n
+#     - --accept-no-yields-doc=n
+
+- repo: https://github.com/charliermarsh/ruff-pre-commit
+  # ignores
+  # ANN101 Missing type annotation for self in method
+  # ANN102 Missing type annotation for cls in classmethod
+  # ANN201 Missing return type annotation for public function
+  # ANN202 Missing return type annotation for private function (wants -> None everywhere)
+  # B905 zip() without an explicit strict= parameter
+  # COM812 Trailing comma missing
+  # D203 1 blank line required before class docstring
+  # D213 multi line summary second line
+  # D400 first line should end with a period
+  # I001 Import block is un-sorted or un-formatted
+  # ISC003 Explicitly concatenated string should be implicitly concatenated
+  # N802 Function name should be lowercase
+  # N806 Variable in function should be lowercase
+  # PERF401 Use a list comprehension to create a transformed list
+  # PGH003 Use specific rule codes when ignoring type issues
+  # PLR0913 Too many arguments to function call
+  #
+  # S320 Using `lxml` to parse untrusted data is known to be ... XML attacks
+  # D212 [*] Multi-line docstring summary should start at the first line
+  # D415 First line should end with a period, question mark, or exclamation point
+  # FBT001 Boolean-typed positional argument in function definition
+  # FBT002 Boolean default positional argument in function definition
+  # S101 Use of `assert` detected
+  # D401 First line of docstring should be in imperative mood
+  # N803 Argument name should be lowercase
+  # ERA001 Found commented-out code
+  # TD002 Missing author in TODO
+  # TD003 Missing issue link on the line following this TODO
+  # FIX002 Line contains TODO, consider resolving the issue
+  # D200 One-line docstring should fit on one line
+  # ARG005 Unused lambda argument
+  # B028 No explicit `stacklevel` keyword argument found
+  # EM101 Exception must not use a string literal
+  # TRY003 Avoid specifying long messages outside the exception class
+  # ANN401 Dynimacally typed expressions (typing.Any) are disallowed
+  # PYI306 The nth argument in 'function' should be annotated with  py 3.8 can't handle some of these
+  # TRY300 Consider moving this statement to an 'else' block
+  # PYI019 Methods like `method` should return `typing.Self` (does not check version)
+  # PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+  # PTH119 `os.path.basename()` should be replaced by `Path.name`
+  # PTH123 `open()` should be replaced by `Path.open()`
+  # PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+  # D403 [*] First word of the first line should be capitalized
+  # SIM108 Use ternary operator instead of if then else
+  # RUF010 Use explicit conversion flag for warnings
+  # C901 function is too complex
+  # PLR0912 too many branches
+  # PLR0915 too many statements
+  rev: 'v0.3.5'
+  hooks:
+    - id: ruff
+      exclude: "tests"
+      args:
+      - --target-version=py38
+      - --select=ALL
+      - --ignore=ANN101,ANN102,ANN201,ANN202,B905,COM812,D203,D213,D400,I001,ISC003,N802,N806,PERF401,PGH003,PLR0913,S320,D212,D415,FBT001,FBT002,S101,D401,N803,ERA001,TD002,TD003,FIX002,D200,ARG005,B028,EM101,TRY003,ANN401,PYI036,TRY300,PYI019,PTH118,PTH119,PTH123,PTH120,D403,SIM108,RUF010,C901,PLR0912,PLR0915
+      # - --fix
+
+# reads pyproject.toml for additional config
+- repo: https://github.com/RobertCraigie/pyright-python
+  rev: v1.1.356
+  hooks:
+    - id: pyright
