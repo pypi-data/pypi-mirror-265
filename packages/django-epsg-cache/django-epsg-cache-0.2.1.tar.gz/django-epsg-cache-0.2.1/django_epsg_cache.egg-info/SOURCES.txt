@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+django_epsg_cache.egg-info/PKG-INFO
+django_epsg_cache.egg-info/SOURCES.txt
+django_epsg_cache.egg-info/dependency_links.txt
+django_epsg_cache.egg-info/requires.txt
+django_epsg_cache.egg-info/top_level.txt
+epsg_cache/__init__.py
+epsg_cache/apps.py
+epsg_cache/exceptions.py
+epsg_cache/models.py
+epsg_cache/registry.py
+epsg_cache/settings.py
+epsg_cache/utils.py
