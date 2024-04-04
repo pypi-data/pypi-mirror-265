@@ -1,0 +1,13 @@
+python-dotenv
+pydantic
+inflect
+requests
+bs4
+lxml
+apscheduler
+sqlalchemy
+supabase
+feedparser
+pyzotero
+python-telegram-bot[ext]
+openai
