@@ -1,0 +1,2 @@
+[console_scripts]
+normalize = src.main:main
