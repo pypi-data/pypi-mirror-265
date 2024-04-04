@@ -1,0 +1,12 @@
+*dist/
+dist/
+.idea/
+venv
+.venv
+.env
+.env*
+.DS_Store
+# docker volume for cognito
+.cognito
+.vscode/
+*.tgz
