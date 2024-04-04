@@ -1,0 +1,17 @@
+xad/_xad.cpython-38-x86_64-linux-gnu.so,sha256=vZKXmtsnN0K5Ym-H9N9v58swyEe_zHr54jNM9wKhmDc,1568225
+xad/__init__.py,sha256=ESLcz2YavwI32cxl6DlCinpO-m8WdBZH-LI21jcUTcU,2096
+xad/adj_1st/__init__.py,sha256=6-eMt1SgsKwUgoiMlsGQU4Gmej6cIwmKYRWHP8sR0NQ,2593
+xad/exceptions/__init__.py,sha256=QcIhV03C7oKI3cH35s0Y_174d6kzS3yO-k_WBWqWznQ,1318
+xad/fwd_1st/__init__.py,sha256=V3yN8dFGr-vBKmP9M8xm7RvZQ5lkWFRnW2rQaXPdQG8,2284
+xad/_xad/__init__.pyi,sha256=f_vPQzMUS6vd__Q7KJN2gm3c26Q1mSBSZJl5jn2CnNc,205
+xad/_xad/adj_1st.pyi,sha256=doc7QooG1kD-IHAYCSPdT2zS-OWePdVXSztOA71b3D0,8629
+xad/_xad/fwd_1st.pyi,sha256=CmnXkLltx5ulYuAh3HPld_ku7rHC9n3BhC6KNVvvBh0,4815
+xad/_xad/exceptions.pyi,sha256=0XfzDa8XixvSr3iI_GkW7v7RgJKx-rTr5byrK_Sqjgw,839
+xad/_xad/math.pyi,sha256=T2Z2mmf4bBMNMLnX4pqoGXxsdrKUXf0hqgjeNzHRJJU,22662
+xad/math/__init__.py,sha256=rU3CaUL8ls0_YNELzDLCf67m_kogpyTFz8hi7rPLvKE,3358
+xad.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+xad.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+xad-1.5.1.dist-info/RECORD,,
+xad-1.5.1.dist-info/LICENSE.md,sha256=wRoUO4UjEVF7Om6ROY9qAI30n4IaixWoZFiwrJ-cvzc,34277
+xad-1.5.1.dist-info/METADATA,sha256=IKdNsoICdpn8XM6D2ZH1XqTRbnsr5XupH-KkOcZ2Hqg,5255
+xad-1.5.1.dist-info/WHEEL,sha256=YZvBl2-aHuIku82VfZMhfZRjR993TwiYIejf52_oWG0,107
