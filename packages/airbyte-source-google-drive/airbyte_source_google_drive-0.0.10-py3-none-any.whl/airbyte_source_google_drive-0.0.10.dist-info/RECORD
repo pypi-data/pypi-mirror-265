@@ -1,0 +1,10 @@
+source_google_drive/__init__.py,sha256=5eaSfjduFy2tZFKWshVu1H7Evu-pjwOdti4MGDANCj4,132
+source_google_drive/run.py,sha256=R5AQ5KyVwlhCDqVeNq9zRZa9cROB1PwxDBz9fW0d7RE,711
+source_google_drive/source.py,sha256=PAEoNKumyLWQpSk3zNQ0B9jdlltZCfLLghcmQY8bjGk,2827
+source_google_drive/spec.py,sha256=A25glT8IV4hngtv7goVK3xIV0r0uwy_qOvJER9Q6VKI,3401
+source_google_drive/stream_reader.py,sha256=bRgGeSKOQLLASwZGli9juzdpSTwBzureAziKs42j4MQ,8533
+source_google_drive/utils.py,sha256=ZIYqXEQfJDpFZgNW94MOeYPG2xKba-LoGgsYEllhVmY,941
+airbyte_source_google_drive-0.0.10.dist-info/METADATA,sha256=CrAiJ5Eiyc26AFypvgmqma0xJ-qf4AeCW_DHE3y9_GU,5538
+airbyte_source_google_drive-0.0.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_google_drive-0.0.10.dist-info/entry_points.txt,sha256=YgpJf0nA5Mn0B7YC9VOFI847vz1jI6U4q7BeLUOXa54,67
+airbyte_source_google_drive-0.0.10.dist-info/RECORD,,
