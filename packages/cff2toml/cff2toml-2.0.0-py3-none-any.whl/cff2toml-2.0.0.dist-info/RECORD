@@ -1,0 +1,10 @@
+cff2toml/__init__.py,sha256=-dq5QQWkooXkEAV1XaWVkn3w-ogCRJeKsNPiOYIM9Oo,1712
+cff2toml/cff2toml.py,sha256=TdBR_u8g9M9V1RZU9RLGbkvV4ZEV4gqg2O63BSVEsME,465
+cff2toml/getters.py,sha256=2hcw8LJvQcw9DG0jhqvzHs5JVp0tVSx0sBUxz24-ub4,2013
+cff2toml/loaders.py,sha256=oVuVWZFUN1m8wzHfti9oK4t69WVRIYDGANkrTcK-Dv4,797
+cff2toml/savers.py,sha256=Fmt8SER-OfHboRpEBzNNm96k2eEgtqsuE3ve1DeF0lY,765
+cff2toml/setters.py,sha256=WBhGCyRo0yhyt6fync-CPEXFyVTZ31LAy5C-R8UwRjo,8674
+cff2toml-2.0.0.dist-info/METADATA,sha256=b_eV9e5uYyhA3CIkYOgMZMl0FhNcW9Qkd78hgNEC91Q,10021
+cff2toml-2.0.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+cff2toml-2.0.0.dist-info/licenses/LICENSE,sha256=bQHjeFBtooMyC8rTO5pK1u_rlQ3xjMq-ilPD4OGi4IU,10938
+cff2toml-2.0.0.dist-info/RECORD,,
