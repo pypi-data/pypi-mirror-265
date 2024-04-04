@@ -1,0 +1,9 @@
+htmltagparse/__init__.py,sha256=E8gO0x06jijNQ9r0COLeJUGHf7e864tQ0Ngs_bIUPWo,638
+htmltagparse/build.py,sha256=PqBYcsr1KwpZA31LiwFdkNoKP0N4mXhp_m0-Z5jLYKY,743
+htmltagparse/exceptions.py,sha256=xg025QMEAvc23253AuYsrPM6uHWzSoiT7vB0BDToLKY,278
+htmltagparse/html_tags.py,sha256=RsQlSSN4aaGW-3mJx1fQJ38sI82Tk5iru4wGKSwffGg,1386
+htmltagparse/parser.py,sha256=mP_V23-SOrKyPYb1BFGYHpHVJpnajYND7pTxRU5bAis,4892
+htmltagparse-1.0.dist-info/METADATA,sha256=sHU6gRqbvWS_AL6ynQfCaRc8Yee5GiMYJ8XxlBy-epg,2966
+htmltagparse-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+htmltagparse-1.0.dist-info/top_level.txt,sha256=_LsKNo6Z6I3eSt__VcYf7_wp5UehZFGjD5aAfbPwrno,13
+htmltagparse-1.0.dist-info/RECORD,,
