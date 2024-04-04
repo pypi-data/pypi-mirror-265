@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tstools-ieva
+Version: 0.1
+Summary: A package to analyse timeseries
+Home-page: https://github.com/andrulyte
+Author: Ieva Andrulyte
+License: GPLv3
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
