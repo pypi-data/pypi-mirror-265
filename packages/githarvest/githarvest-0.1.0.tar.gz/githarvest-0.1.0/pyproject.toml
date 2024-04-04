@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "githarvest"
+version = "0.1.0"
+description = "Collect infor on status of repos"
+authors = ["Thibaut Lamadon <thibaut.lamadon@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

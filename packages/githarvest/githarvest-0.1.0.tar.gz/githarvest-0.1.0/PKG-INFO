@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: githarvest
+Version: 0.1.0
+Summary: Collect infor on status of repos
+License: MIT
+Author: Thibaut Lamadon
+Author-email: thibaut.lamadon@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# githarvest
+Simple script that stores info about repos
+
