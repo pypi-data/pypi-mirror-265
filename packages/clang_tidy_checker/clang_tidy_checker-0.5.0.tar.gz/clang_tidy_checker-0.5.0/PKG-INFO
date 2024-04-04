@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: clang_tidy_checker
+Version: 0.5.0
+Summary: Tool to check C / C++ source codes using clang-tidy.
+Home-page: https://gitlab.com/MusicScience37Projects/tools/clang-tidy-checker
+License: MIT
+Keywords: clang-tidy,c++
+Author: Kenta Kabashima
+Author-email: kenta_program37@hotmail.co.jp
+Requires-Python: >=3.10,<3.13
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Typing :: Typed
+Requires-Dist: PyYAML (>=6)
+Requires-Dist: click (>=8.1.6)
+Requires-Dist: sqlalchemy (>=2.0.29)
+Requires-Dist: tqdm (>=4.65.0)
+Project-URL: Documentation, https://musicscience37projects.gitlab.io/tools/clang-tidy-checker/
+Project-URL: Repository, https://gitlab.com/MusicScience37Projects/tools/clang-tidy-checker.git
+Description-Content-Type: text/markdown
+
+# clang-tidy-checker
+
+Tool to check C / C++ source codes using clang-tidy.
+
+## Documentation
+
+- [Documentation built on main branch](https://musicscience37projects.gitlab.io/tools/clang-tidy-checker/)
+
