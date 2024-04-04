@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ASnake.egg-info/PKG-INFO
+ASnake.egg-info/SOURCES.txt
+ASnake.egg-info/dependency_links.txt
+ASnake.egg-info/entry_points.txt
+ASnake.egg-info/requires.txt
+ASnake.egg-info/top_level.txt
