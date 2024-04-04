@@ -1,0 +1,11 @@
+pastamarkers/__init__.py,sha256=Re--BJHnoBUzpMLBF2usBSe7jqsWEfCmQyhsCxO_mwM,175
+pastamarkers/data/MPD/B.csv,sha256=cyeny3WRv6nkq129Oxl2J8R8idC3Mmso23tx8XE6xmM,350
+pastamarkers/data/MPD/B_curve.csv,sha256=kDMRO9sG39C5Ltn282bLwuJeqtlZ0NouUaAs4ORgr0c,1496
+pastamarkers/data/MPD/IR.csv,sha256=WdURxx1oOoUxYT_mNhAr4_Sg-2VoS_Ybwb6lEsTSexQ,158
+pastamarkers/data/MPD/UV.csv,sha256=TZkM2R7Rkh2xJIGPPeUqjtJm91NsSDNB9Hmxb_e46Xs,306
+pastamarkers/data/MPD/UV_curve.csv,sha256=u4ImRrIfuNdEqruTPtv_a-1lhxG1zwwrVOFmxckeyYs,1383
+pastamarkers/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pastamarkers/markers.py,sha256=fc3ONwTzxJXhx0CRefNc3kWAETd3i7kz0bosVfOXAUM,262315
+pastamarkers-0.1.0.dist-info/METADATA,sha256=MsUkNyxPD4XlhaqtgmAmo9tQ-hlth9sJtAYK1rp17F4,738
+pastamarkers-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pastamarkers-0.1.0.dist-info/RECORD,,
