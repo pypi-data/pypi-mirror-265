@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: setaset
+Version: 0.0.2
+Summary: A set theory package
+Author-email: richardguo <290413564@qq.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Background
+This project is used for testing and research on set theory.
+## Install
+Simply use pip.
+`$ pip install setaset`
+## Change Log
+0.0.1 add a subset function.
+0.0.2 fix a install-bug.
