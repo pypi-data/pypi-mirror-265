@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "plasmidcanvas"
+version = "0.1.0"
+description = "A graphics package for creating customised plasmid maps"
+authors = ["th0mr <thomrobinson76@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.8.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+sphinx = "^7.2.6"
+sphinx-simplepdf = "^1.6.0"
+sphinx_rtd_theme = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "example_package_YOUR_USERNAME_HERE"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: plasmidcanvas
+Version: 0.1.0
+Summary: A graphics package for creating customised plasmid maps
+License: MIT
+Author: th0mr
+Author-email: thomrobinson76@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# plasmidcanvas - A simple Python plasmid map creator
+
+plasmidcanvas is a python package to facilitate the creation of plasmid map illustrations.
