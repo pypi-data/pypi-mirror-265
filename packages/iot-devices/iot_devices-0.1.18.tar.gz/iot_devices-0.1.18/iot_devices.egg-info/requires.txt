@@ -1,0 +1,6 @@
+colorzero
+gpiozero
+paho-mqtt
+scullery
+urwid
+yeelight
