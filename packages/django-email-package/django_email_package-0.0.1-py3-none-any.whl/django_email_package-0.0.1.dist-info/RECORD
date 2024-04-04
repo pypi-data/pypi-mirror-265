@@ -1,0 +1,11 @@
+django_email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_email/email_utils.py,sha256=AXeMjpu8Ju1sCEsZKAJWT0y6tGP-2Zpr4Fh8DLtcUn0,645
+django_email/templates/email_interest.html,sha256=wFw-1Efj6ZxLBJiDZk1wQv9x7hhv1MsaYIWlbA0Gd1I,1813
+django_email/templates/email_login.html,sha256=aHJsAOn19UIYiM2KH73Z9fFvR5RlA8I0ELpJG3mDbLs,2590
+django_email/templates/email_ticket.html,sha256=xCc1U7wzEktyGxilCVVPHrMM8gV5KsIS2PjhV582Oxk,1931
+django_email/templates/email_welcome.html,sha256=lJNco3-kQ32_F9Pq4J0BtgSWQr3LzXxhEdmNun8_MW8,1868
+django_email_package-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+django_email_package-0.0.1.dist-info/METADATA,sha256=Ky_CDogD_zbr_atYb9LjxoguGIgrVQnbbFpvOJ1bUUo,774
+django_email_package-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_email_package-0.0.1.dist-info/top_level.txt,sha256=QjOf97r1wSUufcDNKr0KQpTpzmhOn9eqkhBATq6FKkw,13
+django_email_package-0.0.1.dist-info/RECORD,,
