@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "tmprofile"
+version = "0.0.3"
+authors = [
+  { name="Luc Vedrenne", email="vedrenneluc@gmail.com" },
+]
+description = "A simple time, ram & vram python profiler."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "psutil",
+    "prettytable",
+    "nvidia_ml_py3",
+]
+
+[project.urls]
+Homepage = "https://github.com/ListIndexOutOfRange/pyprofile"
+Issues = "https://github.com/ListIndexOutOfRange/pyprofile/issues"
+
+
+# Usage
+# > python3 -m build
+# > twine check dist/*
+# > twine upload --repository testpypi dist/*
+# > twine upload dist/*
