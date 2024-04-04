@@ -1,0 +1,27 @@
+[project]
+name = "telebot_mem"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.1.2"
+authors = [
+  { name="Wei Li", email="weilinear@gmail.com" },
+]
+description = "Telebot with memory extension. It supports add a database backend to save chat histories."
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pymongo",
+  "pyTelegramBotAPI"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/weilinear/telebot_mem"
+Issues = "https://github.com/weilinear/telebot_mem/issues"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta" 
