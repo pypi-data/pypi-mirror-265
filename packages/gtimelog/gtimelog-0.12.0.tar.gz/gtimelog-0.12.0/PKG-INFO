@@ -1,0 +1,214 @@
+Metadata-Version: 2.1
+Name: gtimelog
+Version: 0.12.0
+Summary: A Gtk+ time tracking application
+Home-page: https://gtimelog.org/
+Author: Marius Gedminas
+Author-email: marius@gedmin.as
+License: GPL
+Keywords: time log logging timesheets gnome gtk
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Office/Business
+Requires-Python: >= 3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+License-File: COPYING
+
+GTimeLog
+========
+
+GTimeLog is a simple app for keeping track of time.
+
+.. image:: https://github.com/gtimelog/gtimelog/workflows/build/badge.svg?branch=master
+   :target: https://github.com/gtimelog/gtimelog/actions
+   :alt: build status
+
+.. image:: https://ci.appveyor.com/api/projects/status/github/gtimelog/gtimelog?branch=master&svg=true
+   :target: https://ci.appveyor.com/project/mgedmin/gtimelog
+   :alt: build status (on Windows)
+
+.. image:: https://coveralls.io/repos/gtimelog/gtimelog/badge.svg?branch=master
+   :target: https://coveralls.io/r/gtimelog/gtimelog?branch=master
+   :alt: test coverage
+
+.. contents::
+
+.. image:: https://raw.github.com/gtimelog/gtimelog/master/docs/gtimelog.png
+   :alt: screenshot
+
+
+Installing
+----------
+
+GTimeLog is packaged for Debian and Ubuntu::
+
+  sudo apt-get install gtimelog
+
+For Ubuntu, sometimes a newer version can usually be found in the PPA:
+
+  https://launchpad.net/~gtimelog-dev/+archive/ppa
+
+Fedora also holds a package of gtimelog to be installed with::
+
+  sudo dnf install gtimelog
+
+You can fetch the latest released version from PyPI ::
+
+  $ pip install gtimelog
+  $ gtimelog
+
+You can run it from a source checkout (without an explicit installation step)::
+
+  $ git clone https://github.com/gtimelog/gtimelog
+  $ cd gtimelog
+  $ ./gtimelog
+
+System requirements:
+
+- Python (3.6+)
+- PyGObject
+- gobject-introspection type libraries for Gtk, Gdk, GLib, Gio, GObject, Pango,
+  Soup, Secret
+- GTK+ 3.18 or newer
+
+
+Documentation
+-------------
+
+This is work in progress:
+
+- `docs/index.rst`_ contains an overview
+- `docs/formats.rst`_ describes the file formats
+
+.. _docs/index.rst: https://github.com/gtimelog/gtimelog/blob/master/docs/index.rst
+.. _docs/formats.rst: https://github.com/gtimelog/gtimelog/blob/master/docs/formats.rst
+
+
+Resources
+---------
+
+Website: https://gtimelog.org
+
+Mailing list: gtimelog@googlegroups.com
+(archive at https://groups.google.com/group/gtimelog)
+
+IRC: #gtimelog on chat.libera.net
+
+Source code: https://github.com/gtimelog/gtimelog
+
+Report bugs at https://github.com/gtimelog/gtimelog/issues
+
+There's an old bugtracker at https://bugs.launchpad.net/gtimelog
+
+I sometimes also browse distribution bugs:
+
+- Ubuntu https://bugs.launchpad.net/ubuntu/+source/gtimelog
+- Debian https://bugs.debian.org/gtimelog
+
+
+Credits
+-------
+
+GTimeLog was mainly written by Marius Gedminas <marius@gedmin.as>.
+
+Barry Warsaw <barry@python.org> stepped in as a co-maintainer when
+Marius burned out.  Then Barry got busy and Marius recovered.
+
+Many excellent contributors are listed in `CONTRIBUTORS.rst`_
+
+.. _CONTRIBUTORS.rst: https://github.com/gtimelog/gtimelog/blob/master/src/gtimelog/CONTRIBUTORS.rst
+
+
+Changelog
+---------
+
+0.12.0 (2024-04-03)
+~~~~~~~~~~~~~~~~~~~
+
+- This version talks to an SMTP server instead of relying on /usr/sbin/sendmail
+  for email sending.  This should work even in flatpaks.
+
+- New command line options: --prefs, --email-prefs.
+
+- Use libsecret instead of gnome-keyring.
+
+- GTK 3.18 or newer is now required (GH: #131).
+
+- Soap 3.0 is now required (GH: #238).
+
+- Fixed an AttributeError in the undocumented remote task list feature
+  (GH: #153).
+
+- Make the undocumented remote task list feature validate TLS certificates (GH:
+  #214).
+
+- Add Python 3.8, 3.9, 3.10, 3.11, and 3.12 support.
+
+- Drop Python 2.7, 3.5, and 3.6 support.
+
+- Add support for positive time offset syntax in entries.
+
+- Focus the task entry on Ctrl+L (GH: #213).
+
+- Change entry search to be fuzzy. It is now only required to enter characters
+  of the entry in the correct order to find an entry.
+
+- Enforce minimum and maximum size for the task pane (GH: #219).
+
+- Task pane now preserves the order of task groups to match the order in
+  tasks.txt (GH: #224).
+
+- Grouped task entries can now be sorted by start date, name, duration or
+  according to tasks.txt order (GH: #228).
+
+- Add the ability to change the last entry using Ctrl+Shift+BackSpace (GH: #247).
+
+
+0.11.3 (2019-04-23)
+~~~~~~~~~~~~~~~~~~~
+
+- Use a better workaround for window.present() not working on Wayland.
+
+- Fix a rare AssertionError on quit.
+
+- Fix problem with "Edit log" and "Edit tasks" menu entries on Windows
+  (GH: #133).
+
+- Do not include ``***`` entries in slacking total (GH: #138).
+
+- Show average time per day spent on filtered tasks (GH: #146).
+
+- Drop Python 3.4 support.
+
+
+0.11.2 (2018-11-03)
+~~~~~~~~~~~~~~~~~~~
+
+- Window menu now includes items previously shown only in the app menu:
+  Preferences, About (GH: #126).
+
+- Keyboard shortcuts window (press Ctrl+Shift+?).
+
+- Dropped the help page (there was only one and it was only listing keyboard
+  shortcuts, and it was also incomplete and had no translations).
+
+- Bugfix: if timelog.txt was a symlink, changes to the symlink target would
+  not get noticed automatically (GH: #128).
+
+
+Older versions
+~~~~~~~~~~~~~~
+
+See the `full changelog`_.
+
+.. _full changelog: https://github.com/gtimelog/gtimelog/blob/master/CHANGES.rst
