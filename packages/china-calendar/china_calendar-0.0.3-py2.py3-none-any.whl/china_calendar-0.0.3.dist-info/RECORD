@@ -1,0 +1,10 @@
+china_calendar/__init__.py,sha256=JQQpX8mpea3J_LTvzqJtfLcK1qdX2jP8cDv6HNggKkw,130
+china_calendar/calendar_util.py,sha256=f4o4_B9w1BB2ZY9SgrEFDG318pEmTgmksfzFh1tqdG4,2059
+china_calendar/version.py,sha256=uODXHg1r-an5cRzT3pgK9hH-43wHgK00ZrZj48M6aYQ,277
+tests/__init__.py,sha256=gcFuguh1McF_1smCN7kVTlwgZc9vPMZ8ttSm2G47p1k,79
+tests/china_calendar_test.py,sha256=XCQ0fIsbxz8xt6EuV5ARtq36SKYq0sgAZy7ITB1CA48,402
+china_calendar-0.0.3.dist-info/METADATA,sha256=DB5Rf9yeO4ZToFXnBJGBQLVv8YSd6oeiMyWwET2sKwE,1634
+china_calendar-0.0.3.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+china_calendar-0.0.3.dist-info/top_level.txt,sha256=FsCAZhBqW8OVmVSHBzggnJ6nNcEfFwFdvCeKbQ6GC1o,21
+china_calendar-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+china_calendar-0.0.3.dist-info/RECORD,,
