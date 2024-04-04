@@ -1,0 +1,6 @@
+opentelemetry/instrumentation/bedrock/__init__.py,sha256=whrmz266gKLS4rbZfziaPXMjVTXOT6axIU3aDasjP0Q,7568
+opentelemetry/instrumentation/bedrock/reusable_streaming_body.py,sha256=__RQENmQr-y31Nir1GYWDrpVNf8WiqLUuu4kF-klPpU,1670
+opentelemetry/instrumentation/bedrock/version.py,sha256=GqK-8KWAo4vp6jaQ3n26VDgMQlCxjp7WFrJNanI0RCs,23
+opentelemetry_instrumentation_bedrock-0.15.8.dist-info/METADATA,sha256=WyrKa5knwUYyLdc5HMxAoLakyr8sK7roSmOj-wa3qoo,2201
+opentelemetry_instrumentation_bedrock-0.15.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+opentelemetry_instrumentation_bedrock-0.15.8.dist-info/RECORD,,
