@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+PyOracleClient.egg-info/PKG-INFO
+PyOracleClient.egg-info/SOURCES.txt
+PyOracleClient.egg-info/dependency_links.txt
+PyOracleClient.egg-info/requires.txt
+PyOracleClient.egg-info/top_level.txt
+pyoracleclient/__init__.py
+pyoracleclient/pyoracleclient.py
+pyoracleclient/tns_template.py
+pyoracleclient/res/icon.png
