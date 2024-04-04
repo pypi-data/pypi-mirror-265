@@ -1,0 +1,14 @@
+miniquant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miniquant/_version.py,sha256=FKnJIExgNrZG2xJ0y_dGNBpxGbGBYylvfat-jHhLUuM,411
+miniquant/app.py,sha256=PMm_xjAacc6oQ2vMFFfgWF2CnkJ4PVbuaCxLINx-8sY,4383
+miniquant/epif.py,sha256=gDouAHZZvdpr6jgiUWy4ia5Dq4NHr5yWAT5qAuSVMS0,4564
+miniquant/harp.py,sha256=CxmA1Zr9v3nBZ0iXTzw-xtZiexdMSmwtPruxH5SoLtI,42221
+miniquant/mock_harp.py,sha256=udagJ99AvMd61kJ1nUUzUtqPIebpJ3iY8drDphgVWQA,6327
+miniquant/tests_hw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miniquant/tests_hw/harp_test.py,sha256=0MnwFwmlxkCDnH7R5kIiNGFmW1tnZPc3lajkKEoPbW8,6956
+miniquant/tests_hw/harp_test_quirked.py,sha256=sK7MEn5wzLBhObQ11uLPl2sHZswsekbr7e135HIplp0,1226
+miniquant-0.3.3.dist-info/LICENSE,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+miniquant-0.3.3.dist-info/METADATA,sha256=59JCJTRFZ6HgzvK6cmZjwHunHURiVNUPMMHmk556FVU,9688
+miniquant-0.3.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+miniquant-0.3.3.dist-info/top_level.txt,sha256=a23nRi_8fklTzYBCHSr7o8HS6nmAhiA10cXExJhxS4I,10
+miniquant-0.3.3.dist-info/RECORD,,
