@@ -1,0 +1,10 @@
+vacheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vacheck/datacheck5.py,sha256=qKuVqFXOExs3m0os7jBWNrgL0hpptiaVW3oRmxSvNXM,7682
+vacheck/exceptions.py,sha256=XBEqFyHfccS9UJcYwEmIzxTsXQ6OHmWMbHdSTsIrlPc,386
+vacheck/data/example_input.csv,sha256=E89y3xeGDFc6YA4wFbUNzUW6Hqf6A6qup60zv4I1uyU,125249
+vacheck/data/probbaseV5.csv,sha256=HZODIWLIHEDPiDrTb1X_cYXFZmhJ5Ks1DPa7NkDu_uc,104949
+vacheck-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vacheck-0.0.3.dist-info/METADATA,sha256=3UZiKN6dy4gijbtFN245tGGvnJ-Sa2wwhWmaY_jYqqI,11528
+vacheck-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vacheck-0.0.3.dist-info/top_level.txt,sha256=LsSBSrDfN-_zbU49zkTeyBT7MyCF69SaPncqz2I0rCY,8
+vacheck-0.0.3.dist-info/RECORD,,
