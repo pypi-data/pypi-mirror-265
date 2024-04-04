@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "tegracli"
+version = "0.2.7"
+description = "A research-focused Telegram CLI application"
+authors = ["Philipp Kessling <p.kessling@leibniz-hbi.de>", "Felix Münch <f.muench@lebniz-hbi.de>"]
+readme  = "README.md"
+license = "MIT"
+repository  = "https://github.com/Leibniz-HBI/tegracli"
+homepage = "https://pypi.org/project/tegracli/"
+classifiers = [
+		"Development Status :: 3 - Alpha",
+		"Environment :: Console",
+		"Intended Audience :: Science/Research",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Telethon = "*"
+ujson = "*"
+click = "*"
+loguru = "*"
+PyYAML = "*"
+pandas = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-socket = "*"
+pytest-asyncio = "*"
+black = "*"
+isort = "*"
+pytest-cov = "*"
+coverage = "*"
+pydocstyle = "*"
+pylint = "*"
+pre-commit = "*"
+
+[tool.pytest.ini_options]
+addopts = "--disable-socket --cov-report html:tests/coverage --cov=tegracli --capture=sys"
+asyncio_mode = "strict"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tegracli = 'tegracli.main:cli'
+
+[tool.isort]
+profile = "black"
