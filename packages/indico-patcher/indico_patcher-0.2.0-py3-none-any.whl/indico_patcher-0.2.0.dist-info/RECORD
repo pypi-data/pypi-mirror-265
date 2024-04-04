@@ -1,0 +1,11 @@
+indico_patcher/__init__.py,sha256=DUHGwEK8RG1Ok-jPmtyDljw5mVXphFA_GTwbnQyZy6A,128
+indico_patcher/classes.py,sha256=LiAdQnCa6QhYgkyH_OLrnwDi-cHugGPzcXPEGk7IqWY,1761
+indico_patcher/enums.py,sha256=94Sszff3zQuX4sg4ZxbHqCa8AQOqHN0jPGBDLJUdqzg,3404
+indico_patcher/main.py,sha256=Wr30rVYPSXfmLRGvtqiaUijUcoq_FIuBkR_9hn1SZDY,534
+indico_patcher/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indico_patcher/types.py,sha256=iwdCMppNJ1FbYDB-gSIv3Qp1XCCBaA9YRQ8sXnSnrMw,839
+indico_patcher/util.py,sha256=auR71VFWC6lErX9IU1qpjF4Z7btGg7S2jkeJz2m0XPs,8143
+indico_patcher-0.2.0.dist-info/LICENSE,sha256=YETs2u3wraNaosDCNqTOpspaO9MxPVrqeNdbIkBiZRA,1085
+indico_patcher-0.2.0.dist-info/METADATA,sha256=qaEdWzR4z9JpwUMNP87jqvXGf12-7TKbT1cwyDgAMt8,6092
+indico_patcher-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+indico_patcher-0.2.0.dist-info/RECORD,,
