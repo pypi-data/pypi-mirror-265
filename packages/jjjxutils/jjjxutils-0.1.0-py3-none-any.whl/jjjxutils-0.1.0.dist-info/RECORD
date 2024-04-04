@@ -1,0 +1,13 @@
+jjjxutils/__init__.py,sha256=REXvO62KpERZwP1KNt7Dx7w8lIw5NB1Pch1W2i6Uoh8,46
+jjjxutils/archive/__init__.py,sha256=xRWyyBPys_ALZk1CVwrjX9hx-LgLX2V83hg9RIK1BVQ,17
+jjjxutils/archive/zip.py,sha256=-2oIRVtz-KRRqIENTHHlj89mRFlTWKIPEI6A8pMsNc0,524
+jjjxutils/decorators.py,sha256=edMd61IEXBx2jaWBc4gCmSK-Da71IEFOtCA8_qoODfU,1611
+jjjxutils/imports.py,sha256=hOanH_oWaOWeujsd0xiLoejMKucVhtbXuIhg7iexBjo,1207
+jjjxutils/rendering/__init__.py,sha256=UFuiRnl4pga2NO0WmkK6-2xMdn8HEj_8aN9-CR0NUP8,18
+jjjxutils/rendering/html.py,sha256=wlsoYi059_UqiNYXFbFXEeoCfCo6siZYHJKaBy5FSSA,1523
+jjjxutils/web/__init__.py,sha256=SWJXzzpx1aT0OyBW9S8laYknU7GBnBWO9hLm4aODCJY,28
+jjjxutils/web/browser_client.py,sha256=RHqf9GNS8xVN3inKgTfaGYL81K4L3tfk79eQ_ywm68s,2142
+jjjxutils-0.1.0.dist-info/LICENSE,sha256=dTY2mCI15rciHuWbYrHmwHjLGE08SY6Ub5OgqXp2NoU,1093
+jjjxutils-0.1.0.dist-info/METADATA,sha256=ZFtX5Uv2tx203St26MBO8nYSWAwNRaZD3UPRC86YqfI,1010
+jjjxutils-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jjjxutils-0.1.0.dist-info/RECORD,,
