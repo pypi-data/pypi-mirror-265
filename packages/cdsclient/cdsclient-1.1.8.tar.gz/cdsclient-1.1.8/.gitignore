@@ -1,0 +1,7 @@
+.gitconfig
+build/
+cdsclient.egg-info/
+dist/
+github-cdsclient.tar.gz
+github-cdsclient.tar.gz.old
+
