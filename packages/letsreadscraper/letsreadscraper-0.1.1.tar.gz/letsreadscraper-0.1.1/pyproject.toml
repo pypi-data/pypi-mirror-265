@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "letsreadscraper"
+version = "0.1.1"
+description = "Python package to scrape Let's Read Website"
+authors = ["Mohit Shrestha <contact@mohitshrestha.com.np>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "letsreadscraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+rich = "^13.7.1"
+jsons = "^1.6.3"
+pandas = "^2.2.1"
+chardet = "^5.2.0"
+
+[tool.poetry.scripts]
+letsreadscraper = "letsreadscraper.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
