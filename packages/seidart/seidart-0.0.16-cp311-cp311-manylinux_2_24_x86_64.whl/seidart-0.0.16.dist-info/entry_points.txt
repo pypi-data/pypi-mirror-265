@@ -1,0 +1,7 @@
+[console_scripts]
+arraybuild = seidart.routines.arraybuild:main
+im2anim = seidart.visualiztion.im2anim:build_animation
+prjbuild = seidart.routines.prjbuild:main
+prjrun = seidart.routines.prjrun:main
+rcxdisplay = seidart.visualization.rcxdisplay:main
+sourcefunction = seidart.routines.sourcefunction:main
