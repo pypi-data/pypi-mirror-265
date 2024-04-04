@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+quicklooks/__init__.py
+quicklooks.egg-info/PKG-INFO
+quicklooks.egg-info/SOURCES.txt
+quicklooks.egg-info/dependency_links.txt
+quicklooks.egg-info/requires.txt
+quicklooks.egg-info/top_level.txt
