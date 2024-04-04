@@ -1,0 +1,13 @@
+polymatch/__init__.py,sha256=zI3E1dQ7cyxDeHNPL0ffqNlbPo3ByAY7Cdh8G0-4wng,618
+polymatch/base.py,sha256=AdSLBPg6LPmgPNXINTEuErbROlTraFA2C1Wj6iGR0HE,7113
+polymatch/error.py,sha256=dDW6O5Ojsv4DlkC0CjB0rqndwma27318_-Ah87JvC14,1039
+polymatch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polymatch/registry.py,sha256=bRtcaKi5RfSKMFfMXzRgDYjf0Vgd1lIZGfayA3EqTSU,3472
+polymatch/matchers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polymatch/matchers/glob.py,sha256=SOysj_Z-fXtNSJILDZR9UOOzxv2l-_vxVLgzcjLKQfE,744
+polymatch/matchers/regex.py,sha256=iHmnXWgdsIl8PfiD7EzYVk_PF0UWzvG_oPcTklmbMrE,1392
+polymatch/matchers/standard.py,sha256=Vqpg15-KV-yx5UC4e5IvMBRbVBxnD3hVAcxsAEZy3zc,1576
+polymatch-0.3.0.dist-info/METADATA,sha256=3sZLEP2BcuCRQ6T2182NGBxiAUKTgQIwsWdn4RxyBxI,907
+polymatch-0.3.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+polymatch-0.3.0.dist-info/licenses/LICENSE,sha256=LQdZAReBqtOqQALK0ELWoU0Sa6FE0dF7saf16kYks_g,1068
+polymatch-0.3.0.dist-info/RECORD,,
