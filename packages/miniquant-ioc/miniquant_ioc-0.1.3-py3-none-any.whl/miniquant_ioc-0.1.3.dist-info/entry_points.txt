@@ -1,0 +1,3 @@
+[console_scripts]
+miniquant-hview = miniquant_ioc.histoview:main
+miniquant-ioc = miniquant_ioc.application:main
