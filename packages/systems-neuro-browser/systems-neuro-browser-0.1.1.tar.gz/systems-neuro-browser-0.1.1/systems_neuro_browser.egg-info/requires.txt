@@ -1,0 +1,37 @@
+PyQt5
+numpy
+scikit-learn
+tqdm
+cmapy
+interlap
+numba
+vispy
+imageio
+imageio-ffmpeg
+umap-learn
+rastermap==0.1.3
+ipykernel
+pyqtgraph
+networkx
+vidio>=0.0.3
+pynwb
+ndx-pose
+ndx-photometry
+ndx-depth-moseq
+pandas
+dandi
+markdown
+PyQtWebEngine
+
+[:python_version == "3.8"]
+opencv-python==4.1.2.30
+
+[:python_version > "3.8"]
+opencv-python
+
+[dev]
+pytest
+black
+pytest-qt
+sphinx==4.4.0
+sphinx_rtd_theme==1.0.0
