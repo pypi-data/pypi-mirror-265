@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: prrr
+Version: 0.1.2
+Summary: A simple CLI tool to help you write better PRs.
+Home-page: https://github.com/oscarnevarezleal/prr
+Author: Oscar Nevarez
+Author-email: fu.wire@gmail.com
+Requires-Python: >=3.9.8,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: gitpython (>=3.1.24,<4.0.0)
+Requires-Dist: openai (==1.16.1)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: typer-config[yaml] (>=1.4.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# prr
+
+This is a simple tool to help you manage your pull requests.
+
+## Requirements
+
+This project requires and OpenAPI token to exist in your environment variables.
+
+```shell
+OPENAI_API_KEY=your_api_key
+``` 
+
+## Installation
+
+```bash
+poetry install && poetry update
+```
+
+## Usage
+
+```shell
+prr pr gen
+```
+
+## Help
+
+```bash
+ Usage: prr [OPTIONS] COMMAND [ARGS]...                                                                                                                                         
+                                                                                                                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --help                                                       Show this message and exit.                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ init                                                                                                                                                                         │
+│ pr                             Generate a Pull Request                                                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
