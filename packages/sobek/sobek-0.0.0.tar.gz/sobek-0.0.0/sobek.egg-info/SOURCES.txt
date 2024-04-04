@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+sobek/__init__.py
+sobek.egg-info/PKG-INFO
+sobek.egg-info/SOURCES.txt
+sobek.egg-info/dependency_links.txt
+sobek.egg-info/requires.txt
+sobek.egg-info/top_level.txt
