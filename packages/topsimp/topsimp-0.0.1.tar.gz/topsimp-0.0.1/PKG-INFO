@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: topsimp
+Version: 0.0.1
+Summary: Package for computing topological simplification of function using Persistent Homology.
+Project-URL: Homepage, https://github.com/mvlier/topsimp
+Project-URL: Issues, https://github.com/mvlier/topsimp/issues
+Author: Shizuo Kaji, Junyan Chu, Sebastían Elías Graiff Zurita
+Author-email: Matias de Jong van Lier <matias.vanlier@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# topsimp
+ Package for computing topological simplification of functions on 2-manifolds (possibly with boundary) using Persistent Homology.
