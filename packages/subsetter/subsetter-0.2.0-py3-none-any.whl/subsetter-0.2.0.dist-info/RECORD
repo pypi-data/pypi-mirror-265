@@ -1,0 +1,16 @@
+subsetter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subsetter/__main__.py,sha256=ny7MXo8KjCDe7YWhL_EO9gBR4Rhip0yBec0jxbdWAtA,10087
+subsetter/_version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+subsetter/common.py,sha256=T_lcxD3y40bBF6zqfgbdeQZVmydy0dLykXBx7yiryco,13189
+subsetter/filters.py,sha256=5bfKar_cJ-oFyvjeVcQzEMcORR6XFtZLU6PSxqF-434,20926
+subsetter/metadata.py,sha256=VUBfZMmmYJxdDsBzBv02choHyuP0zGo31YxQJMiQMGI,12813
+subsetter/planner.py,sha256=cFadOEeNSpCn3ZeOziHX3jX81RMdzSvwWx9PDa951do,14794
+subsetter/sampler.py,sha256=VcSaF_Ew9BY1fdQL9qO__4l_39HiyIDVBz0pjWgjVbY,15505
+subsetter/solver.py,sha256=tDTXzoyIlz9eDDvEMn58lg08PmcBnB3x6JoQhd_Q9kE,4569
+subsetter/sql_dialects.py,sha256=yD7HnJx0kLHecd4-E4I-IdgNkNhJm465llZqxvB_Zds,2654
+subsetter-0.2.0.dist-info/LICENSE,sha256=ZQ0xB1-z4iNoKS2V-ZMCO9f2LOzYpPWWVJIEvjSmjgY,1493
+subsetter-0.2.0.dist-info/METADATA,sha256=LAAoYekvmeTHo9NJIctbNUGwpqXlD6Q89YgdezOtIK4,6229
+subsetter-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+subsetter-0.2.0.dist-info/entry_points.txt,sha256=WFaEWD2Zv9RXYOeN0zKwG9Zvvj0LfRmDqZuprchj8XE,54
+subsetter-0.2.0.dist-info/top_level.txt,sha256=z0tWjeKzI0Ym9PdcqgX3nS1EeOVz3eEct0vbjOWw8IA,10
+subsetter-0.2.0.dist-info/RECORD,,
