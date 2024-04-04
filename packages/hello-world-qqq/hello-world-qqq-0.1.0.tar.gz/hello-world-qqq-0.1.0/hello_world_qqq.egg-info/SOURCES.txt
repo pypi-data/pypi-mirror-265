@@ -1,0 +1,7 @@
+setup.py
+hello_world_qqq.egg-info/PKG-INFO
+hello_world_qqq.egg-info/SOURCES.txt
+hello_world_qqq.egg-info/dependency_links.txt
+hello_world_qqq.egg-info/top_level.txt
+src/__init__.py
+src/hello.py
