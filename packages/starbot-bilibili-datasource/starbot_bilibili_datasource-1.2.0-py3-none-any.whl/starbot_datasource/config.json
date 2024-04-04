@@ -1,0 +1,17 @@
+{
+  "core": {
+    "check_version": true
+  },
+  "log": {
+    "log_to_file": true,
+    "console_log_level": "INFO"
+  },
+  "datasource": {
+    "use": "starbot_datasource.JsonDataSource",
+    "json_datasource": {
+      "file_path": "推送配置.json",
+      "auto_reload": true,
+      "auto_reload_interval": 5
+    }
+  }
+}
