@@ -1,0 +1,6 @@
+README.md
+setup.py
+quicktail.egg-info/PKG-INFO
+quicktail.egg-info/SOURCES.txt
+quicktail.egg-info/dependency_links.txt
+quicktail.egg-info/top_level.txt
