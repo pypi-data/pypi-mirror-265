@@ -1,0 +1,52 @@
+{% extends "wagtailadmin/admin_base.html" %}
+{% load wagtailadmin_tags i18n static %}
+
+{% block titletag %}{{view.get_header_title}}{% endblock %}
+
+{% block extra_css %}
+{{ block.super }}
+{{ form.media.css }}
+<link rel="stylesheet" href="{% static 'wagtail_fedit/css/furniture.css' %}">
+<base target="_blank">
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% versioned_static 'wagtailadmin/js/modal-workflow.js' %}"></script>
+{% include "wagtailadmin/pages/_editor_js.html" %}
+{{ block.super }}
+{{ form.media.js }}
+{% endblock %}
+
+{% block furniture %}
+    <main class="content-wrapper w-overflow-x-hidden" id="main">
+        {% block header %}
+            <header class="nice-padding" id="modal-header">
+                <h1 id="modal-title">{{ view.get_header_title }}</h1>
+            </header>
+        {% endblock %}
+        <div class="nice-padding">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <aside>
+        <div class="fedit-sidebar-logo">
+            {% block sidebar_logo %}{% endblock %}
+        </div>
+        <div class="fedit-sidebar">
+            {% block sidebar %}
+                {% if admin_edit_url %}
+                    <a href="{{ admin_edit_url }}" class="fedit-menu-item fedit-sidebar-icon">
+                        {% icon name="link-external" %}
+                    </a>
+                {% endif %}
+                <button type="submit" form="wagtail-fedit-form" class="fedit-menu-item fedit-sidebar-icon wagtail-fedit-save-button bottom">
+                    {% icon name="circle-check" %}
+                </button>
+                <button type="button" class="fedit-menu-item fedit-sidebar-icon wagtail-fedit-cancel-button">
+                    {% translate "Close" as close_title %}
+                    {% icon name="logout" title=close_title %}
+                </button>
+            {% endblock %}
+        </div>
+    </aside>
+{% endblock %}
