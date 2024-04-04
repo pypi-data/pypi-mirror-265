@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paladium"
+version = "1.0.0"
+authors = [
+  { name="aureliancnx", email="aureliancnx@paladium-pvp.fr" },
+]
+description = "Python library for Paladium API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = []
+
+[project.urls]
+Homepage = "https://github.com/aureliancnx/PaladiumPy"
+Issues = "https://github.com/aureliancnx/PaladiumPy/issues"
