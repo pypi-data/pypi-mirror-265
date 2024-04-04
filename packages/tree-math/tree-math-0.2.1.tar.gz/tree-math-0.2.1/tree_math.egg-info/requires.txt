@@ -1,0 +1,7 @@
+jax
+
+[tests]
+absl-py
+jaxlib
+numpy>=1.17
+pytest
