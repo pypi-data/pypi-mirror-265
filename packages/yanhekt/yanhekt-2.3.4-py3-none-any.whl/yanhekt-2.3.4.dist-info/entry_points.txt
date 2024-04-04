@@ -1,0 +1,4 @@
+[console_scripts]
+yanhekt = yanhekt.main:main
+yanhekt-cli = yanhekt.main:runCli
+yanhekt-gui = yanhekt.main:runGui
