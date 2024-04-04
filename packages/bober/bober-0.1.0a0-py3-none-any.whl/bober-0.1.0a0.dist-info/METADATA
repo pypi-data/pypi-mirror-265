@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bober
+Version: 0.1.0a0
+Summary: Tool to manage your jobs
+Home-page: https://github.com/wristylotus/Bober
+Author: wristylotus
+Author-email: wristylotus@gmail.com
+Project-URL: Documentation, https://github.com/wristylotus/Bober/blob/main/README.md
+Keywords: bober job manager structure
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 ~=1.24.9
+Requires-Dist: botocore ~=1.27.96
+Requires-Dist: pyyaml ~=6.0.0
+
+# Bober
